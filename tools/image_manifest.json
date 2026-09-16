@@ -1,0 +1,1090 @@
+[
+ {
+  "id": "w-sister",
+  "file": "images/w-sister.jpg",
+  "type": "word",
+  "en": "Sister",
+  "de": "die Pflegekraft",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a friendly Indian female nurse in a light blue German hospital uniform, smiling, upper body. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-bp",
+  "file": "images/w-bp.jpg",
+  "type": "word",
+  "en": "BP",
+  "de": "der Blutdruck",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an upper-arm blood pressure cuff with a round gauge. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-sugar",
+  "file": "images/w-sugar.jpg",
+  "type": "word",
+  "en": "Sugar",
+  "de": "der Blutzucker",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a small handheld blood glucose meter with a test strip and a drop of blood. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-drip",
+  "file": "images/w-drip.jpg",
+  "type": "word",
+  "en": "Drip",
+  "de": "die Infusion",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an IV drip bag hanging on a metal stand with a thin tube. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-motion-stool",
+  "file": "images/w-motion-stool.jpg",
+  "type": "word",
+  "en": "Motion (stool)",
+  "de": "der Stuhlgang",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a white hospital toilet seen from the side. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-duty",
+  "file": "images/w-duty.jpg",
+  "type": "word",
+  "en": "Duty",
+  "de": "der Dienst",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a wall calendar with a clock showing a work shift. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-ward",
+  "file": "images/w-ward.jpg",
+  "type": "word",
+  "en": "Ward",
+  "de": "die Station",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a bright hospital ward with two neatly made patient beds. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-ot",
+  "file": "images/w-ot.jpg",
+  "type": "word",
+  "en": "OT",
+  "de": "der OP",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an operating theatre table under a large round surgical lamp. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-casualty",
+  "file": "images/w-casualty.jpg",
+  "type": "word",
+  "en": "Casualty",
+  "de": "die Notaufnahme",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. the entrance of a hospital emergency department with an ambulance parked in front. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-icu",
+  "file": "images/w-icu.jpg",
+  "type": "word",
+  "en": "ICU",
+  "de": "die Intensivstation",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an intensive care bed with a heart monitor showing a green heartbeat line. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-injection",
+  "file": "images/w-injection.jpg",
+  "type": "word",
+  "en": "Injection",
+  "de": "die Spritze",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a medical syringe with a needle. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-ward-round",
+  "file": "images/w-ward-round.jpg",
+  "type": "word",
+  "en": "Ward round",
+  "de": "die Visite",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a clipboard with a patient chart and a stethoscope. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-bystander-attendant",
+  "file": "images/w-bystander-attendant.jpg",
+  "type": "word",
+  "en": "Bystander / attendant",
+  "de": "die Angehörigen·pl",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. two relatives, an older woman and a young man, waiting beside a hospital bed. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-poison",
+  "file": "images/w-poison.jpg",
+  "type": "word",
+  "en": "Poison",
+  "de": "das Gift",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a brown glass bottle with a warning hazard symbol shape, no letters. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-boss",
+  "file": "images/w-boss.jpg",
+  "type": "word",
+  "en": "Boss",
+  "de": "der Chef / die Chefin",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a confident senior nurse manager with a clipboard, upper body. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-mobile-phone",
+  "file": "images/w-mobile-phone.jpg",
+  "type": "word",
+  "en": "Mobile phone",
+  "de": "das Handy",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a modern smartphone. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-ecg",
+  "file": "images/w-ecg.jpg",
+  "type": "word",
+  "en": "ECG",
+  "de": "das EKG",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an ECG machine with electrode cables and a paper strip showing a heartbeat line. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-mri",
+  "file": "images/w-mri.jpg",
+  "type": "word",
+  "en": "MRI",
+  "de": "das MRT",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a large white MRI scanner with a patient table. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-ct-scan",
+  "file": "images/w-ct-scan.jpg",
+  "type": "word",
+  "en": "CT scan",
+  "de": "das CT",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a CT scanner ring with a patient table. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-x-ray",
+  "file": "images/w-x-ray.jpg",
+  "type": "word",
+  "en": "X-ray",
+  "de": "das Röntgen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a chest X-ray film on a light box. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-iv-intravenous",
+  "file": "images/w-iv-intravenous.jpg",
+  "type": "word",
+  "en": "IV (intravenous)",
+  "de": "i.v. (intravenös)",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an IV cannula in the back of a hand with a small drip line. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-sc-subcutaneous",
+  "file": "images/w-sc-subcutaneous.jpg",
+  "type": "word",
+  "en": "SC (subcutaneous)",
+  "de": "s.c. (subkutan)",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a small insulin pen injecting into the skin of the belly. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-tab",
+  "file": "images/w-tab.jpg",
+  "type": "word",
+  "en": "Tab.",
+  "de": "die Tablette",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a blister pack of white tablets. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-sats-spo",
+  "file": "images/w-sats-spo.jpg",
+  "type": "word",
+  "en": "Sats / SpO₂",
+  "de": "die Sauerstoffsättigung",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a fingertip pulse oximeter clipped on a finger. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-ns-normal-saline",
+  "file": "images/w-ns-normal-saline.jpg",
+  "type": "word",
+  "en": "NS (normal saline)",
+  "de": "die Kochsalzlösung",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a clear saline infusion bag. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-pulse-hr",
+  "file": "images/w-pulse-hr.jpg",
+  "type": "word",
+  "en": "Pulse / HR",
+  "de": "der Puls",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. two fingers taking the pulse at a wrist. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-od-once-a-day",
+  "file": "images/w-od-once-a-day.jpg",
+  "type": "word",
+  "en": "OD (once a day)",
+  "de": "einmal täglich",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. one single white tablet next to a small sunrise. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-bd-twice-a-day",
+  "file": "images/w-bd-twice-a-day.jpg",
+  "type": "word",
+  "en": "BD (twice a day)",
+  "de": "zweimal täglich",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. two white tablets, one next to a sun and one next to a moon. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-sos-prn",
+  "file": "images/w-sos-prn.jpg",
+  "type": "word",
+  "en": "SOS / PRN",
+  "de": "bei Bedarf",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a tablet next to a small hand raised asking for it. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-nbm-npo",
+  "file": "images/w-nbm-npo.jpg",
+  "type": "word",
+  "en": "NBM / NPO",
+  "de": "nüchtern",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an empty plate and an empty glass with a crossed-out fork, no letters. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-ward-in-charge",
+  "file": "images/w-ward-in-charge.jpg",
+  "type": "word",
+  "en": "Ward in-charge",
+  "de": "die Stationsleitung",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an experienced head nurse holding a tablet computer, upper body. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-staff-nurse",
+  "file": "images/w-staff-nurse.jpg",
+  "type": "word",
+  "en": "Staff nurse",
+  "de": "die Pflegefachkraft",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a nurse in a German hospital uniform with a stethoscope around the neck, upper body. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-ward-aide-nursing-assistant",
+  "file": "images/w-ward-aide-nursing-assistant.jpg",
+  "type": "word",
+  "en": "Ward aide / nursing assistant",
+  "de": "der Pflegehelfer / die Pflegehelferin",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a nursing assistant pushing a linen trolley. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-nursing-student",
+  "file": "images/w-nursing-student.jpg",
+  "type": "word",
+  "en": "Nursing student",
+  "de": "der Azubi / die Azubi",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a young nursing student with a notebook in a light uniform, upper body. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-junior-doctor-resident",
+  "file": "images/w-junior-doctor-resident.jpg",
+  "type": "word",
+  "en": "Junior doctor / resident",
+  "de": "der Assistenzarzt / die Assistenzärztin",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a young doctor in a white coat with a stethoscope, upper body. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-senior-doctor-consultant",
+  "file": "images/w-senior-doctor-consultant.jpg",
+  "type": "word",
+  "en": "Senior doctor / consultant",
+  "de": "der Oberarzt / die Oberärztin",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an older experienced doctor in a white coat, upper body. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-hod-chief-doctor",
+  "file": "images/w-hod-chief-doctor.jpg",
+  "type": "word",
+  "en": "HOD / chief doctor",
+  "de": "der Chefarzt / die Chefärztin",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a distinguished grey-haired chief doctor in a white coat with glasses, upper body. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-physio",
+  "file": "images/w-physio.jpg",
+  "type": "word",
+  "en": "Physio",
+  "de": "der Physiotherapeut / die Physiotherapeutin",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a physiotherapist helping a patient lift one leg on a treatment bed. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-social-worker",
+  "file": "images/w-social-worker.jpg",
+  "type": "word",
+  "en": "Social worker",
+  "de": "der Sozialdienst",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a social worker with a folder talking kindly to an elderly patient. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-housekeeping-cleaning-staff",
+  "file": "images/w-housekeeping-cleaning-staff.jpg",
+  "type": "word",
+  "en": "Housekeeping / cleaning staff",
+  "de": "die Reinigungskraft",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital cleaner with a mop and a cleaning trolley. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-nurses-station",
+  "file": "images/w-nurses-station.jpg",
+  "type": "word",
+  "en": "Nurses' station",
+  "de": "das Stationszimmer",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital nurses' station desk with a computer and files. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-staff-room",
+  "file": "images/w-staff-room.jpg",
+  "type": "word",
+  "en": "Staff room",
+  "de": "der Pausenraum",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a small staff break room with a table, chairs and a coffee machine. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-changing-room",
+  "file": "images/w-changing-room.jpg",
+  "type": "word",
+  "en": "Changing room",
+  "de": "die Umkleide",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a row of staff lockers with a bench. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-lab",
+  "file": "images/w-lab.jpg",
+  "type": "word",
+  "en": "Lab",
+  "de": "das Labor",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital laboratory bench with test tubes and a microscope. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-pharmacy",
+  "file": "images/w-pharmacy.jpg",
+  "type": "word",
+  "en": "Pharmacy",
+  "de": "die Apotheke",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. shelves of medicine boxes in a hospital pharmacy. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-labour-room",
+  "file": "images/w-labour-room.jpg",
+  "type": "word",
+  "en": "Labour room",
+  "de": "der Kreißsaal",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a delivery bed in a hospital labour room. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-ambulance",
+  "file": "images/w-ambulance.jpg",
+  "type": "word",
+  "en": "Ambulance",
+  "de": "der Krankenwagen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a German white and red ambulance van. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-bedpan",
+  "file": "images/w-bedpan.jpg",
+  "type": "word",
+  "en": "Bedpan",
+  "de": "die Bettpfanne",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a white plastic hospital bedpan. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-urine-bag",
+  "file": "images/w-urine-bag.jpg",
+  "type": "word",
+  "en": "Urine bag",
+  "de": "der Urinbeutel",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a urine drainage bag with a tube. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-cannula-venflon",
+  "file": "images/w-cannula-venflon.jpg",
+  "type": "word",
+  "en": "Cannula / Venflon",
+  "de": "die Braunüle",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an IV cannula with a coloured wing cap. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-catheter",
+  "file": "images/w-catheter.jpg",
+  "type": "word",
+  "en": "Catheter",
+  "de": "der Katheter",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a coiled urinary catheter tube. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-dressing",
+  "file": "images/w-dressing.jpg",
+  "type": "word",
+  "en": "Dressing",
+  "de": "der Verband",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a white wound dressing pad and a roll of bandage. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-glucometer",
+  "file": "images/w-glucometer.jpg",
+  "type": "word",
+  "en": "Glucometer",
+  "de": "das Blutzuckermessgerät",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a blood glucose meter. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-gown-apron",
+  "file": "images/w-gown-apron.jpg",
+  "type": "word",
+  "en": "Gown / apron",
+  "de": "der Kittel",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a yellow disposable protective hospital gown. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-sharps-box",
+  "file": "images/w-sharps-box.jpg",
+  "type": "word",
+  "en": "Sharps box",
+  "de": "der Abwurfbehälter",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a yellow sharps disposal box with a red lid. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-opd-outpatient-department",
+  "file": "images/w-opd-outpatient-department.jpg",
+  "type": "word",
+  "en": "OPD (outpatient department)",
+  "de": "die Ambulanz",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital outpatient waiting area with chairs and a reception desk. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-prescription",
+  "file": "images/w-prescription.jpg",
+  "type": "word",
+  "en": "Prescription",
+  "de": "das Rezept",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a doctor writing a prescription on a small paper pad, no readable text. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-hospital-diet",
+  "file": "images/w-hospital-diet.jpg",
+  "type": "word",
+  "en": "Hospital diet",
+  "de": "die Kost",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital meal tray with a plate of food, a cup and cutlery. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-doctor-s-clinic-gp",
+  "file": "images/w-doctor-s-clinic-gp.jpg",
+  "type": "word",
+  "en": "Doctor's clinic (GP)",
+  "de": "die Praxis",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. the entrance door of a small family doctor's practice. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-to-get-receive",
+  "file": "images/w-to-get-receive.jpg",
+  "type": "word",
+  "en": "To get / receive",
+  "de": "bekommen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hand receiving a small cup with a tablet from another hand. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-so-well",
+  "file": "images/w-so-well.jpg",
+  "type": "word",
+  "en": "So / well …",
+  "de": "also",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a nurse shrugging with a thoughtful friendly expression. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-oxygen",
+  "file": "images/w-oxygen.jpg",
+  "type": "word",
+  "en": "Oxygen",
+  "de": "der Sauerstoff",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an oxygen mask connected to a green oxygen cylinder. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-blood-sample",
+  "file": "images/w-blood-sample.jpg",
+  "type": "word",
+  "en": "Blood sample",
+  "de": "die Blutabnahme",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. blood sample tubes with coloured caps and a tourniquet. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-stretcher",
+  "file": "images/w-stretcher.jpg",
+  "type": "word",
+  "en": "Stretcher",
+  "de": "die Trage",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital stretcher trolley. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-side-rails",
+  "file": "images/w-side-rails.jpg",
+  "type": "word",
+  "en": "Side rails",
+  "de": "das Bettgitter",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital bed with the side rails pulled up. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-wound",
+  "file": "images/w-wound.jpg",
+  "type": "word",
+  "en": "Wound",
+  "de": "die Wunde",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a small bandaged wound on a forearm. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-bedsore",
+  "file": "images/w-bedsore.jpg",
+  "type": "word",
+  "en": "Bedsore",
+  "de": "der Dekubitus",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a special pressure-relief mattress on a hospital bed. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-stethoscope",
+  "file": "images/w-stethoscope.jpg",
+  "type": "word",
+  "en": "Stethoscope",
+  "de": "das Stethoskop",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a stethoscope. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-admission",
+  "file": "images/w-admission.jpg",
+  "type": "word",
+  "en": "Admission",
+  "de": "die Aufnahme",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a patient with a suitcase arriving at a hospital reception desk. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-discharge",
+  "file": "images/w-discharge.jpg",
+  "type": "word",
+  "en": "Discharge",
+  "de": "die Entlassung",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a happy elderly patient leaving the hospital with a bag, waving. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-handover",
+  "file": "images/w-handover.jpg",
+  "type": "word",
+  "en": "Handover",
+  "de": "die Übergabe",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. two nurses discussing a patient chart during shift handover. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-operation",
+  "file": "images/w-operation.jpg",
+  "type": "word",
+  "en": "Operation",
+  "de": "die Operation",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. surgeons in green scrubs at an operating table. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-anaesthesia",
+  "file": "images/w-anaesthesia.jpg",
+  "type": "word",
+  "en": "Anaesthesia",
+  "de": "die Narkose",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an anaesthesia mask and an anaesthesia machine. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-hand-sanitiser",
+  "file": "images/w-hand-sanitiser.jpg",
+  "type": "word",
+  "en": "Hand sanitiser",
+  "de": "das Desinfektionsmittel",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a wall-mounted hand disinfectant dispenser with hands under it. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-isolation",
+  "file": "images/w-isolation.jpg",
+  "type": "word",
+  "en": "Isolation",
+  "de": "die Isolation",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital room door with protective gowns, masks and gloves on a trolley next to it. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-pulse-oximeter",
+  "file": "images/w-pulse-oximeter.jpg",
+  "type": "word",
+  "en": "Pulse oximeter",
+  "de": "das Pulsoximeter",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a fingertip pulse oximeter. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-weight",
+  "file": "images/w-weight.jpg",
+  "type": "word",
+  "en": "Weight",
+  "de": "das Gewicht",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a digital body weighing scale. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-incontinence-pad",
+  "file": "images/w-incontinence-pad.jpg",
+  "type": "word",
+  "en": "Incontinence pad",
+  "de": "die Vorlage",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a folded white incontinence pad. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-commode",
+  "file": "images/w-commode.jpg",
+  "type": "word",
+  "en": "Commode",
+  "de": "der Toilettenstuhl",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital commode chair. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "w-night-light",
+  "file": "images/w-night-light.jpg",
+  "type": "word",
+  "en": "Night light",
+  "de": "das Nachtlicht",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a small warm night light glowing in a dark hospital room. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-toilette",
+  "file": "images/i-toilette.jpg",
+  "type": "answer",
+  "de": "die Toilette",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a white toilet. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-aufzug",
+  "file": "images/i-aufzug.jpg",
+  "type": "answer",
+  "de": "der Aufzug",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital lift with open doors. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-bett",
+  "file": "images/i-bett.jpg",
+  "type": "answer",
+  "de": "das Bett",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital bed. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-tuer",
+  "file": "images/i-tuer.jpg",
+  "type": "answer",
+  "de": "die Tür",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital room door. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-notaufnahme",
+  "file": "images/i-notaufnahme.jpg",
+  "type": "answer",
+  "de": "die Notaufnahme",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an emergency department entrance with an ambulance. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-cafeteria",
+  "file": "images/i-cafeteria.jpg",
+  "type": "answer",
+  "de": "die Cafeteria",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital cafeteria counter with coffee cups. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-rollstuhl",
+  "file": "images/i-rollstuhl.jpg",
+  "type": "answer",
+  "de": "der Rollstuhl",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a wheelchair. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-labor",
+  "file": "images/i-labor.jpg",
+  "type": "answer",
+  "de": "das Labor",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a laboratory bench with test tubes. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-fenster",
+  "file": "images/i-fenster.jpg",
+  "type": "answer",
+  "de": "das Fenster",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an open window with a cold breeze. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-brille",
+  "file": "images/i-brille.jpg",
+  "type": "answer",
+  "de": "die Brille",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a pair of reading glasses. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-telefon",
+  "file": "images/i-telefon.jpg",
+  "type": "answer",
+  "de": "das Telefon",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a white landline telephone. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-tablette",
+  "file": "images/i-tablette.jpg",
+  "type": "answer",
+  "de": "die Tablette",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a white tablet. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-zeitung",
+  "file": "images/i-zeitung.jpg",
+  "type": "answer",
+  "de": "die Zeitung",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a folded newspaper. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-klingel",
+  "file": "images/i-klingel.jpg",
+  "type": "answer",
+  "de": "die Klingel",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hospital nurse call button with a cable. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-uhr",
+  "file": "images/i-uhr.jpg",
+  "type": "answer",
+  "de": "die Uhr",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a round wall clock. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-handy",
+  "file": "images/i-handy.jpg",
+  "type": "answer",
+  "de": "das Handy",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a smartphone. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-handschuhe",
+  "file": "images/i-handschuhe.jpg",
+  "type": "answer",
+  "de": "die Handschuhe·pl",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a pair of blue medical gloves. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-maske",
+  "file": "images/i-maske.jpg",
+  "type": "answer",
+  "de": "die Maske",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a surgical face mask. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-pflaster",
+  "file": "images/i-pflaster.jpg",
+  "type": "answer",
+  "de": "das Pflaster",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an adhesive plaster. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-schere",
+  "file": "images/i-schere.jpg",
+  "type": "answer",
+  "de": "die Schere",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a pair of medical scissors. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-thermometer",
+  "file": "images/i-thermometer.jpg",
+  "type": "answer",
+  "de": "das Thermometer",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a digital thermometer. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-spritze",
+  "file": "images/i-spritze.jpg",
+  "type": "answer",
+  "de": "die Spritze",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a syringe. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-stethoskop",
+  "file": "images/i-stethoskop.jpg",
+  "type": "answer",
+  "de": "das Stethoskop",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a stethoscope. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-tee",
+  "file": "images/i-tee.jpg",
+  "type": "answer",
+  "de": "der Tee",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a cup of tea. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-ladekabel",
+  "file": "images/i-ladekabel.jpg",
+  "type": "answer",
+  "de": "das Ladekabel",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a phone charging cable with plug. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-seife",
+  "file": "images/i-seife.jpg",
+  "type": "answer",
+  "de": "die Seife",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a bar of soap. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-wasser",
+  "file": "images/i-wasser.jpg",
+  "type": "answer",
+  "de": "das Wasser",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a glass of water. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-brot",
+  "file": "images/i-brot.jpg",
+  "type": "answer",
+  "de": "das Brot",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. slices of bread. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-kaffee",
+  "file": "images/i-kaffee.jpg",
+  "type": "answer",
+  "de": "der Kaffee",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a cup of coffee. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-suppe",
+  "file": "images/i-suppe.jpg",
+  "type": "answer",
+  "de": "die Suppe",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a bowl of soup. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-salat",
+  "file": "images/i-salat.jpg",
+  "type": "answer",
+  "de": "der Salat",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a bowl of green salad. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-haehnchen",
+  "file": "images/i-haehnchen.jpg",
+  "type": "answer",
+  "de": "das Hähnchen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a roast chicken leg on a plate. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-fleisch",
+  "file": "images/i-fleisch.jpg",
+  "type": "answer",
+  "de": "das Fleisch",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a piece of meat on a plate. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-wurst",
+  "file": "images/i-wurst.jpg",
+  "type": "answer",
+  "de": "die Wurst",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. sausages on a plate. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-milch",
+  "file": "images/i-milch.jpg",
+  "type": "answer",
+  "de": "die Milch",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a glass of milk. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-hinlegen",
+  "file": "images/i-hinlegen.jpg",
+  "type": "answer",
+  "de": "sich hinlegen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an elderly woman lying down in a hospital bed. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-aufstehen",
+  "file": "images/i-aufstehen.jpg",
+  "type": "answer",
+  "de": "aufstehen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an elderly man standing up slowly from a chair. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-setzen",
+  "file": "images/i-setzen.jpg",
+  "type": "answer",
+  "de": "sich setzen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an elderly man sitting down on a chair. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-gehen",
+  "file": "images/i-gehen.jpg",
+  "type": "answer",
+  "de": "gehen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an elderly man walking slowly in a hospital corridor. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-zunge",
+  "file": "images/i-zunge.jpg",
+  "type": "answer",
+  "de": "die Zunge",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a person sticking out their tongue for an examination. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-ohr",
+  "file": "images/i-ohr.jpg",
+  "type": "answer",
+  "de": "das Ohr",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a human ear. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-auge",
+  "file": "images/i-auge.jpg",
+  "type": "answer",
+  "de": "das Auge",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a human eye. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-hand",
+  "file": "images/i-hand.jpg",
+  "type": "answer",
+  "de": "die Hand",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an open human hand. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-laufen",
+  "file": "images/i-laufen.jpg",
+  "type": "answer",
+  "de": "laufen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a person running fast. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-zahnbuerste",
+  "file": "images/i-zahnbuerste.jpg",
+  "type": "answer",
+  "de": "die Zahnbürste",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a toothbrush with toothpaste. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-jacke",
+  "file": "images/i-jacke.jpg",
+  "type": "answer",
+  "de": "die Jacke",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a warm jacket. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-socken",
+  "file": "images/i-socken.jpg",
+  "type": "answer",
+  "de": "die Socken·pl",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a pair of socks. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-schuhe",
+  "file": "images/i-schuhe.jpg",
+  "type": "answer",
+  "de": "die Schuhe·pl",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a pair of comfortable non-slip shoes. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-schrank",
+  "file": "images/i-schrank.jpg",
+  "type": "answer",
+  "de": "der Schrank",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a small hospital wardrobe. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-licht",
+  "file": "images/i-licht.jpg",
+  "type": "answer",
+  "de": "das Licht",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a bedside lamp switched on. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-fernseher",
+  "file": "images/i-fernseher.jpg",
+  "type": "answer",
+  "de": "der Fernseher",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a small wall-mounted TV. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-arztbrief",
+  "file": "images/i-arztbrief.jpg",
+  "type": "answer",
+  "de": "der Arztbrief",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a sealed white envelope with a medical letter. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-tasche",
+  "file": "images/i-tasche.jpg",
+  "type": "answer",
+  "de": "die Tasche",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a travel bag. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-decke",
+  "file": "images/i-decke.jpg",
+  "type": "answer",
+  "de": "die Decke",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a folded warm blanket. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-rollator",
+  "file": "images/i-rollator.jpg",
+  "type": "answer",
+  "de": "der Rollator",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a rollator walking frame. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-helfen",
+  "file": "images/i-helfen.jpg",
+  "type": "answer",
+  "de": "helfen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a nurse helping a colleague turn a patient in bed. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-essen",
+  "file": "images/i-essen.jpg",
+  "type": "answer",
+  "de": "essen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a person eating a meal. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-schlafen",
+  "file": "images/i-schlafen.jpg",
+  "type": "answer",
+  "de": "schlafen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a person sleeping in bed. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-anrufen",
+  "file": "images/i-anrufen.jpg",
+  "type": "answer",
+  "de": "anrufen",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a hand holding a phone making a call. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-urinflasche",
+  "file": "images/i-urinflasche.jpg",
+  "type": "answer",
+  "de": "die Urinflasche",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a plastic urine bottle. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-tasse",
+  "file": "images/i-tasse.jpg",
+  "type": "answer",
+  "de": "die Tasse",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. an empty cup. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-creme",
+  "file": "images/i-creme.jpg",
+  "type": "answer",
+  "de": "die Creme",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a tube of skin cream. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-toilettenpapier",
+  "file": "images/i-toilettenpapier.jpg",
+  "type": "answer",
+  "de": "das Toilettenpapier",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. a roll of toilet paper. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ },
+ {
+  "id": "i-bettwaesche",
+  "file": "images/i-bettwaesche.jpg",
+  "type": "answer",
+  "de": "die Bettwäsche",
+  "prompt": "Soft 3D illustration, friendly and clean, like a modern language-learning app. clean folded bed linen. Centered on a plain very light blue background, soft studio lighting, gentle shadows, warm realistic colours, nothing else in the scene. Absolutely no text, no letters, no numbers, no logos."
+ }
+]

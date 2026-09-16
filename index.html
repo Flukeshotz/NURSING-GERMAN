@@ -114,6 +114,19 @@
 .f-img.docprev{align-items:start;padding:8px;background:#f6f1e3}
 .doc.mini{transform:scale(.72);transform-origin:top center;width:139%;margin-left:-19.5%;pointer-events:none;box-shadow:none}
 .pat-title.letters{font-size:26px;font-weight:800;letter-spacing:.06em}
+.face.bk{justify-content:flex-start;padding:22px 20px 36px;overflow:hidden}
+.b-top{min-height:92px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.b-meaning{font-size:22px;line-height:1.15;margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.b-mid{display:flex;flex-direction:column;align-items:center;min-height:130px}
+.b-line{margin:0;font-size:16px;font-weight:700;font-style:italic;color:#3a2806;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.b-sub{margin:4px 0 0;font-size:12px;font-weight:600;color:rgba(58,40,6,.75);line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.spk.back{margin-top:8px;width:36px;height:36px;background:rgba(0,0,0,.05);color:#3a2806;border-color:rgba(0,0,0,.1)}
+.b-note{margin:auto 0 0;font-size:11px;font-weight:600;color:rgba(58,40,6,.7);line-height:1.35;min-height:15px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.b-label{margin-bottom:4px}
+.b-div{margin:6px 0 10px}
+.f-img img.pic{width:100%;height:100%;object-fit:cover}
+.q-img img.pic{width:180px;height:180px;object-fit:cover;border-radius:12px}
+.opt.pic .emo img.pic{width:64px;height:64px;object-fit:cover;border-radius:10px;display:block}
 
 </style>
 <title>Klingel! Station 3</title>
@@ -1528,33 +1541,49 @@ function vLevel(el){
 const segBar = (cur,total) => { const size=20, sets=Math.max(1,Math.ceil(total/size)); let h=""; for(let k=0;k<sets;k++){ const a=k*size, b=Math.min((k+1)*size,total); let f=cur>=b?100:cur>a?(cur-a)/(b-a)*100:0; h+=`<div class="seg-set"><span class="${f===100?"ok":""}" style="width:${f}%"></span></div>${k<sets-1?'<i class="seg-div"></i>':""}`; } return `<div class="segbar">${h}</div>`; };
 const spk = (id,text,who,cls="spk") => `<button class="${cls}" data-say="${esc(text)}" data-who="${who||""}" aria-label="Play audio">${ICON.vol}</button>`;
 
+const EX_SPECIAL = {"i.v. (intravenös)":["Die Infusion läuft i.v.","The drip runs intravenously."],"s.c. (subkutan)":["Das Insulin geben wir s.c.","We give the insulin subcutaneously."],
+ "einmal täglich":["Eine Tablette einmal täglich.","One tablet once a day."],"zweimal täglich":["Zweimal täglich eine Tablette.","One tablet twice a day."],
+ "bei Bedarf":["Paracetamol bei Bedarf.","Paracetamol only when needed."],"nüchtern":["Bitte bleiben Sie nüchtern.","Please don't eat or drink."],
+ "bekommen":["Sie bekommen eine Tablette.","You get a tablet."],"also":["Also, wie geht es Ihnen?","So, how are you?"]};
+function wordExample(c){
+  if(EX_SPECIAL[c.de]) return EX_SPECIAL[c.de];
+  const first=plain(c.de).split(" / ")[0];
+  const w=wordByEn(c.meaning)||{};
+  const person=/^person:/.test(w.ill||"") || ["Sister","Boss"].includes(c.meaning);
+  const en=c.meaning.split(" / ")[0].replace(/\s*\(.*\)$/,"");
+  const enNoun = en==="Sister" ? "nurse" : en;
+  return person ? [`Das ist ${first}.`,`This is the ${enNoun.toLowerCase()}.`] : [`Hier ist ${first}.`,`Here is the ${enNoun}.`];
+}
+function backParts(c){
+  if(c.kind==="word"){ const [g,e]=wordExample(c); return {label:"Example", line:g, sub:e, say:g, note:c.ex||c.ex2||""}; }
+  if(c.kind==="em") return {label:"Say it", line:c.de, sub:"Short and loud. Say it twice.", say:c.de, note:""};
+  if(c.kind==="pattern") return {label:"Tip", line:c.de, sub:c.ex||"Swap the highlighted word.", say:c.de, note:""};
+  if(c.kind==="doc") return {label:"Key words", line:c.keys.map(k=>k[0]).join(" · "), sub:c.keys.map(k=>k[1]).join(" · "), say:c.keys.map(k=>k[0]).join(", "), note:""};
+  if(c.kind==="spell") return {label:"Letters", line:c.letters.join(" · "), sub:c.letters.map(x=>LETTER[x]||x).join(" · "), say:c.letters.join(", "), note:""};
+  if(c.label==="You say") return {label:"When", line:c.de, sub:c.ex, say:c.de, note:""};
+  const r=(c.replies||[])[0];
+  if(r && r.label==="You note down") return {label:"You note down", line:r.g, sub:"Write it on the chart.", say:"", note:""};
+  if(r) return {label:"You answer", line:r.g, sub:r.en||"", say:r.g, note:c.key?`Key word: ${plain(c.key.g)} = ${c.key.en||""}`:""};
+  if(c.key) return {label:"Key word", line:plain(c.key.g), sub:c.key.en||"", say:plain(c.key.g), note:""};
+  return {label:"", line:"", sub:"", say:"", note:""};
+}
+function picFor(id, fallback){ return (window.IMGSET && IMGSET.has(id)) ? `<img class="pic" src="images/${id}.jpg" alt="" loading="lazy" draggable="false">` : fallback; }
+const slugId = s => s.toLowerCase().replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue").replace(/ß/g,"ss").replace("·pl","").replace(/^(der|die|das|sich) /,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function cardFaces(c){
-  let front, back;
-  if(c.kind==="word"){
-    front=`<div class="f-img">${c.img}</div><div class="f-bottom"><p class="f-word">${artLabel(c.de)}</p>${spk(0,plain(c.de))}<div class="f-hint">${ICON.flip}<span>Tap to flip</span></div></div>`;
-    back=`<span class="b-label">Meaning</span><p class="b-meaning">${esc(c.meaning)}</p>${c.false?`<span class="ff-pill">False friend</span>`:""}
-      ${c.ex?`<div class="b-div"></div><span class="b-label">${esc(c.exLabel)}</span><p class="b-ex">${esc(c.ex)}</p>`:""}${c.ex2?`<p class="b-ex small">${esc(c.ex2)}</p>`:""}`;
-  } else if(c.kind==="em"){
-    front=`<div class="f-img em"><div class="em-ico big">${ICON.alert}</div></div><div class="f-bottom"><p class="f-word">${esc(c.de)}</p>${spk(0,c.de,"braun")}<div class="f-hint">${ICON.flip}<span>Tap to flip</span></div></div>`;
-    back=`<span class="b-label">Meaning</span><p class="b-meaning">${esc(c.meaning)}</p><div class="b-div"></div><span class="b-label">${esc(c.exLabel)}</span><p class="b-ex">${esc(c.ex)}</p>`;
-  } else if(c.kind==="doc"){
-    front=`<div class="f-img docprev"><div class="doc mini">${c.doc}</div></div><div class="f-bottom"><span class="who-lab">Ward document</span><p class="f-word sm">${esc(c.de)}</p><div class="f-hint">${ICON.flip}<span>Tap to flip</span></div></div>`;
-    back=`<span class="b-label">Meaning</span><p class="b-meaning sm">${esc(c.meaning)}</p><div class="b-div"></div><span class="b-label">Key words</span>${c.keys.map(([g,e])=>`<p class="b-ex" style="margin:0">${esc(g)}</p><p class="b-ex small" style="margin-bottom:6px">${esc(e)}</p>`).join("")}`;
-  } else if(c.kind==="spell"){
-    const spoken=c.letters.join(", ");
-    front=`<div class="f-img pat"><span class="pat-tag">Spelling</span><span class="pat-title letters">${c.letters.join(" · ")}</span></div><div class="f-bottom"><p class="f-word sm">Wie schreibt man das?</p>${spk(0,spoken,"braun")}<div class="f-hint">${ICON.flip}<span>Tap to flip</span></div></div>`;
-    back=`<span class="b-label">Meaning</span><p class="b-meaning sm">${esc(c.meaning)}</p><p class="b-key">${esc(c.de)}</p><div class="b-div"></div><span class="b-label">Letters</span><p class="b-ex">${esc(c.ex)}</p>`;
-  } else if(c.kind==="pattern"){
-    front=`<div class="f-img pat"><span class="pat-tag">Pattern</span><span class="pat-title">${esc(c.title)}</span></div><div class="f-bottom"><p class="f-word sm">${c.deHtml}</p>${spk(0,c.de,"nurse")}<div class="f-hint">${ICON.flip}<span>Tap to flip</span></div></div>`;
-    back=`<span class="b-label">Meaning</span><p class="b-meaning sm">${esc(c.meaning)}</p>${c.ex?`<div class="b-div"></div><span class="b-label">${esc(c.exLabel)}</span><p class="b-ex">${esc(c.ex)}</p>`:""}`;
-  } else {
-    front=`<div class="f-img who"><span class="who-av ${c.staff?"staff":""} ${c.sp==="nurse"?"you":""}">${esc(c.ini)}</span><span class="who-lab">${esc(c.label)}</span></div><div class="f-bottom"><p class="f-word sm">${esc(c.de)}</p>${spk(0,c.de,c.sp)}<div class="f-hint">${ICON.flip}<span>Tap to flip</span></div></div>`;
-    const reply = c.replies&&c.replies.length ? c.replies.map(r=>`<p class="b-ex">„${esc(r.g)}“ ${r.label!=="You note down"?spk(0,r.g,"nurse","spk sm"):""}</p>${r.en?`<p class="b-ex small">${esc(r.en)}</p>`:""}`).join("") : "";
-    back=`<span class="b-label">Meaning</span><p class="b-meaning sm">${esc(c.meaning)}</p>
-      ${c.key?`<p class="b-key">${artLabel(c.key.g)} · ${esc(c.key.en||"")}</p>`:""}
-      ${reply?`<div class="b-div"></div><span class="b-label">${c.replies[0].label==="You note down"?"You note down":"You answer"}</span>${reply}`:""}
-      ${c.ex?`<div class="b-div"></div><span class="b-label">${esc(c.exLabel)}</span><p class="b-ex">${esc(c.ex)}</p>`:""}`;
-  }
+  let top, word;
+  if(c.kind==="word"){ top=`<div class="f-img">${picFor("w-"+slugId(c.meaning), c.img)}</div>`; word=`<p class="f-word">${artLabel(c.de)}</p>`; }
+  else if(c.kind==="em"){ top=`<div class="f-img em"><div class="em-ico big">${ICON.alert}</div></div>`; word=`<p class="f-word">${esc(c.de)}</p>`; }
+  else if(c.kind==="pattern"){ top=`<div class="f-img pat"><span class="pat-tag">Pattern</span><span class="pat-title">${esc(c.title)}</span></div>`; word=`<p class="f-word sm">${c.deHtml}</p>`; }
+  else if(c.kind==="doc"){ top=`<div class="f-img docprev"><div class="doc mini">${c.doc}</div></div>`; word=`<p class="f-word sm">${esc(c.de)}</p>`; }
+  else if(c.kind==="spell"){ top=`<div class="f-img pat"><span class="pat-tag">Spelling</span><span class="pat-title letters">${c.letters.join(" · ")}</span></div>`; word=`<p class="f-word sm">Wie schreibt man das?</p>`; }
+  else { top=`<div class="f-img who"><span class="who-av ${c.staff?"staff":""} ${c.sp==="nurse"?"you":""}">${esc(c.ini)}</span><span class="who-lab">${esc(c.label)}</span></div>`; word=`<p class="f-word sm">${esc(c.de)}</p>`; }
+  const frontSay = c.kind==="spell" ? c.letters.join(", ") : plain(c.de);
+  const front=`${top}<div class="f-bottom">${word}${spk(0,frontSay,c.sp||(c.kind==="em"?"braun":""))}<div class="f-hint">${ICON.flip}<span>Tap to flip</span></div></div>`;
+  const p=backParts(c);
+  const back=`<div class="b-top"><span class="b-label">Meaning</span><p class="b-meaning">${esc(c.meaning)}</p>${c.false?`<span class="ff-pill">False friend</span>`:""}</div>
+    <div class="b-div"></div>
+    <div class="b-mid"><span class="b-label">${esc(p.label)}</span><p class="b-line">${esc(p.line)}</p><p class="b-sub">${esc(p.sub)}</p>${p.say?spk(0,p.say,"nurse","spk back"):""}</div>
+    <p class="b-note">${esc(p.note)}</p>`;
   return {front, back};
 }
 function vCards(el){
@@ -1649,7 +1678,7 @@ function vQuiz(el){
     label=TASK[r.t]; grid=r.t==="need"||r.t==="where"; textual=!grid;
     prompt = r.de ? `<div class="line"><div class="tap"><button data-say="${esc(r.de)}" data-who="${r.sp}" aria-label="Play audio">${wave(26)}</button></div><div style="min-width:0"><div class="who-meta">${esc(p.name)}</div><div class="said">${esc(r.de)}</div><div class="gloss">${esc(r.en)}</div></div></div>`
       : `<div class="line situation"><div><div class="sit-label">Situation</div><div class="sit-text">${esc(r.en)}</div></div></div>`;
-  } else if(q.kind==="imgmcq"){ label=q.label; prompt=`<div class="q-img">${illFor(q.w)}</div>`; }
+  } else if(q.kind==="imgmcq"){ label=q.label; prompt=`<div class="q-img">${picFor("w-"+slugId(q.w.en), illFor(q.w))}</div>`; }
   else if(q.kind==="mcq"){ label=q.label; prompt=`<div class="q-word">${artLabel(q.q)} <button class="spk sm" data-say="${esc(plain(q.q))}" aria-label="Play audio">${ICON.vol}</button></div>`; }
   else if(q.kind==="tf"){ label=q.label; prompt=`<div class="q-word">${artLabel(q.q)}</div><div class="q-eq">= ${esc(q.shown)}</div>`; }
   else if(q.kind==="doc"){ label="Read the document"; prompt=`<div class="doc">${q.d.html}</div><div class="q" style="margin-top:12px">${esc(q.q.q)}</div>`; }
@@ -1659,7 +1688,7 @@ function vQuiz(el){
   const opts=Q.order.map((x,n)=>{
     let st=""; if(Q.checked&&Q.lastOk&&x.idx===0)st="correct"; else if(Q.checked&&!Q.lastOk&&Q.sel===n)st="incorrect"; else if(Q.sel===n)st="selected";
     const chip=`<span class="chip">${LETTERS[n]}</span>`;
-    if(q.kind==="round"&&q.r.t==="need"){const [emo,lab]=x.o.split("|");return `<button class="opt pic ${st}" data-n="${n}">${chip}<span class="emo" aria-hidden="true">${emo}</span><span class="opt-label ${reveal?"":"veil"}">${artLabel(lab)}</span>${reveal?"":`<span class="sr">${esc(plain(lab))}</span>`}</button>`}
+    if(q.kind==="round"&&q.r.t==="need"){const [emo,lab]=x.o.split("|");return `<button class="opt pic ${st}" data-n="${n}">${chip}<span class="emo" aria-hidden="true">${picFor("i-"+slugId(lab), emo)}</span><span class="opt-label ${reveal?"":"veil"}">${artLabel(lab)}</span>${reveal?"":`<span class="sr">${esc(plain(lab))}</span>`}</button>`}
     if(q.kind==="round"&&q.r.t==="where") return `<button class="opt pic ${st}" data-n="${n}" aria-label="${reveal?esc(BODY[x.o][0]):"Body diagram "+LETTERS[n]}">${chip}${bodySvg(x.o)}<span class="opt-label ${reveal?"":"veil"}">${artLabel(BODY[x.o][0])}</span></button>`;
     const lab = (q.kind==="imgmcq"||q.kind==="mcq") ? artLabel(x.o) : esc(x.o);
     return `<button class="opt ${q.kind==="round"&&q.r.t==="num"?"num":""} ${st}" data-n="${n}">${chip}<span class="opt-label">${lab}</span></button>`;
@@ -1753,6 +1782,8 @@ $("#flow").addEventListener("click",e=>{ const b=e.target.closest("button"); if(
   if(b.dataset.go==="level") return openLevel(currentLevel());
   show(b.dataset.go); if(window.innerWidth<880)$("#phone").scrollIntoView({behavior:"smooth",block:"start"}); });
 $("#reset").onclick=()=>{ try{["sc-nursing-levels-v3","sc-nursing-coins-v3"].forEach(k=>localStorage.removeItem(k))}catch(e){} location.reload(); };
+window.IMGSET=new Set();
+fetch("images/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():[]).then(list=>{ window.IMGSET=new Set(list); if(list.length) render(); }).catch(()=>{});
 render();
 
 </script>
