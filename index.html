@@ -450,6 +450,7 @@ button:focus-visible{outline:none;box-shadow:var(--ui-focus-ring)}
       <div class="card">
         <h3>Prototype notes</h3>
         <p class="note">Built with Skillcase lesson components: progress strip, Maya, tap-to-listen, answer rows, Check, result card, coins.</p>
+        <p class="note"><button type="button" id="reset" style="font:inherit;font-weight:600;color:var(--color-primary);background:#F4F8FF;border:1px solid #dbe6f7;border-radius:8px;padding:6px 12px;cursor:pointer">Start over</button> Clears progress and coins on this device.</p>
         <p class="note">Emoji and grey tiles stand in for illustrations and photos. Your browser's German voice stands in for recorded audio.</p>
         <p class="note">Proposed article colours (not in the design system yet):</p>
         <div class="legend"><span class="art-der">der</span><span class="art-die">die</span><span class="art-das">das</span><span class="art-pl">die · Plural</span></div>
@@ -819,9 +820,9 @@ function bodySvg(part){
   return `<svg class="body" viewBox="0 0 100 202" aria-hidden="true"><g fill="#CFE3FF"><circle cx="50" cy="18" r="13"/><rect x="45" y="29" width="10" height="9"/><rect x="30" y="37" width="40" height="70" rx="10"/><rect x="16" y="40" width="12" height="70" rx="6"/><rect x="72" y="40" width="12" height="70" rx="6"/><circle cx="22" cy="116" r="6"/><circle cx="78" cy="116" r="6"/><rect x="33" y="104" width="14" height="86" rx="6"/><rect x="53" y="104" width="14" height="86" rx="6"/><ellipse cx="38" cy="193" rx="9" ry="5"/><ellipse cx="62" cy="193" rx="9" ry="5"/></g><circle cx="${b[1]}" cy="${b[2]}" r="${b[3]+5}" fill="#EDB843" opacity=".3"/><circle cx="${b[1]}" cy="${b[2]}" r="${b[3]}" fill="#EDB843"/></svg>`;
 }
 const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-let P = store.get("sc-nursing-progress",{words:[],docs:{},stars:{},emergency:false,culture:0});
-let coins = store.get("sc-nursing-coins",280);
-const save=()=>{store.set("sc-nursing-progress",P);store.set("sc-nursing-coins",coins)};
+let P = store.get("sc-nursing-progress-v2",{words:[],docs:{},stars:{},emergency:false,culture:0});
+let coins = store.get("sc-nursing-coins-v2",280);
+const save=()=>{store.set("sc-nursing-progress-v2",P);store.set("sc-nursing-coins-v2",coins)};
 
 /* Speech */
 let deVoice=null, slow=false, listenOnly=false, interacted=false;
@@ -1427,7 +1428,8 @@ function vCulture(view){
 /* ---------- Boot ---------- */
 document.addEventListener("pointerdown",()=>{interacted=true},{once:true});
 $("#flow").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; jump(b.dataset.go); if(window.innerWidth<880)$("#phone").scrollIntoView({behavior:"smooth",block:"start"});});
-stack=["practice","hub"];
+$("#reset").onclick=()=>{ try{localStorage.removeItem("sc-nursing-progress-v2");localStorage.removeItem("sc-nursing-coins-v2")}catch(e){} location.reload(); };
+stack=["practice"];
 render();
 </script>
 
