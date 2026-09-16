@@ -237,6 +237,11 @@ button:focus-visible{outline:none;box-shadow:var(--ui-focus-ring)}
 .intro-lines{display:grid;gap:8px;background:#F4F8FF;border-radius:12px;padding:10px}
 .intro-lines .g{font-size:15px;font-weight:500}
 .xg-head .step-chip{align-self:flex-start;margin-bottom:4px}
+.band{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;background:#fff;border:2px solid #cfe3ff;border-radius:999px;padding:8px 14px;font-size:12px}
+.band b{font-size:13px}
+.sign{border:3px solid #b42318;border-radius:8px;padding:10px 12px;background:#fff;font-size:13px}
+.sign-h{background:#b42318;color:#fff;font-weight:700;letter-spacing:.08em;text-align:center;border-radius:4px;padding:4px;margin-bottom:6px}
+.sign p{margin:4px 0}.sign ul{margin:2px 0 4px;padding-left:18px}
 .em-bg{background:linear-gradient(180deg,#FEE4E2 0%,#FFF5F4 100%)}
 .em-face .kind{margin-bottom:6px}
 .em-ico{width:52px;height:52px;border-radius:14px;background:#fee4e2;color:#b42318;display:grid;place-items:center;flex:none;margin:6px auto}
@@ -789,6 +794,265 @@ const GOALS = [
 const COUNTRIES = ["Indien","Nepal","Sri Lanka","Kenia","Ghana","Nigeria","Brasilien","Vietnam"];
 const COUNTRY_EN = {Indien:"India",Nepal:"Nepal","Sri Lanka":"Sri Lanka",Kenia:"Kenya",Ghana:"Ghana",Nigeria:"Nigeria",Brasilien:"Brazil",Vietnam:"Vietnam"};
 const TASK = {need:"Tap the right picture", where:"Where is it? Tap the right spot", say:"What do you say?", num:"What did you hear?", do:"What do you say?", who:"Patient or colleague? Pick Sie or du"};
+/* ================= Extra A1 content ================= */
+SHIFTS.push(
+ {day:"Mo",n:3,d:"Früh",de:"Aufnahme",en:"Admitting a patient",r:[
+  R("say","yilmaz","Ich bin neu hier. Ich habe einen Termin.","I'm new here. I have an appointment.",["Herzlich willkommen! Wie ist Ihr Name, bitte?","Tschüss, bis morgen!","Nein, das ist mein Termin."]),
+  R("say","yilmaz","Mein Name ist Emre Yılmaz.","My name is Emre Yılmaz.",["Danke. Wie ist Ihr Geburtsdatum?","Danke. Wie ist das Wetter?","Danke. Wo ist die Toilette?"]),
+  R("num","yilmaz","Meine Nummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben.","His phone number:",["0176 234 567","0167 234 567","0176 243 567","0176 234 576"]),
+  R("do","yilmaz","","Ask Herr Yılmaz which medicines he takes.",["Welche Medikamente nehmen Sie?","Welche Farbe mögen Sie?","Wie viele Kinder haben Sie?"]),
+  R("say","yilmaz","Ich nehme Tabletten für den Blutdruck.","I take tablets for my blood pressure.",["Okay. Haben Sie die Tabletten dabei?","Okay. Essen Sie die Tabletten?","Okay. Guten Appetit!"]),
+  R("do","yilmaz","","Ask Herr Yılmaz who you can call if needed.",["Wen können wir anrufen?","Wen können wir essen?","Wann können wir schlafen?"]),
+  R("say","yilmaz","Meine Frau. Ihre Nummer ist im Handy.","My wife. Her number is in my phone.",["Danke, ich schreibe die Nummer auf.","Danke, ich rufe jetzt die Polizei.","Gute Nacht!"]),
+  R("need","yilmaz","Wo ist mein Schrank?","Where is my wardrobe?",["🗄️|der Schrank","🛏️|das Bett","🚪|die Tür","🪟|das Fenster"],"Hier ist Ihr Schrank."),
+  R("say","yilmaz","Wo kann ich mein Handy laden?","Where can I charge my phone?",["Hier, neben dem Bett.","Im OP.","Um 8 Uhr."]),
+  R("need","yilmaz","Wie mache ich das Licht an?","How do I switch on the light?",["💡|das Licht","📺|der Fernseher","🔔|die Klingel","📞|das Telefon"],"Hier, der Knopf am Bett.")
+ ]},
+ {day:"Di",n:3,d:"Früh",de:"Entlassung",en:"Discharge day",r:[
+  R("say","schmidt","Wann kann ich nach Hause?","When can I go home?",["Morgen, nach der Visite.","Gestern, um 5 Uhr.","Nie."]),
+  R("say","anna","Wann kann ich meine Mutter abholen?","When can I pick up my mother?",["Morgen um 11 Uhr.","Morgen ist Sonntag.","Heute Nacht um 3 Uhr."]),
+  R("num","braun","Herr Schmidt geht morgen um 10 Uhr nach Hause.","Discharge:",["tomorrow 10:00","today 10:00","tomorrow 12:00","tomorrow 2:00"]),
+  R("need","schmidt","Wo ist mein Arztbrief?","Where is my doctor's letter?",["📄|der Arztbrief","📰|die Zeitung","💊|die Tablette","👓|die Brille"],"Hier ist Ihr Arztbrief."),
+  R("do","schmidt","","Tell Herr Schmidt to take the letter to his family doctor.",["Bitte bringen Sie den Brief zum Hausarzt.","Bitte lesen Sie den Brief nicht.","Bitte bringen Sie den Brief zur Post."]),
+  R("say","schmidt","Muss ich die Tabletten weiter nehmen?","Do I have to keep taking the tablets?",["Ja, jeden Morgen eine Tablette.","Nein, nie wieder essen.","Ja, zehn Tabletten sofort."]),
+  R("need","weber","Wo sind meine Sachen?","Where are my things?",["🧳|die Tasche","🛏️|das Bett","🚽|die Toilette","🩺|das Stethoskop"],"Hier ist Ihre Tasche."),
+  R("do","weber","","Ask Frau Weber if she has everything.",["Haben Sie alles?","Haben Sie Hunger?","Sind Sie alles?"]),
+  R("say","weber","Ich brauche ein Taxi.","I need a taxi.",["Kein Problem. Ich rufe ein Taxi.","Kein Problem. Ich rufe den Arzt.","Das Taxi ist krank."]),
+  R("say","weber","Vielen Dank für alles!","Thank you for everything!",["Gern geschehen. Alles Gute, Frau Weber!","Bitte, bis morgen!","Danke, du auch!"])
+ ]},
+ {day:"Mi",n:3,d:"Nacht",de:"Nachtdienst",en:"The night round",r:[
+  R("say","weber","Ich kann nicht schlafen.","I can't sleep.",["Möchten Sie einen Tee?","Möchten Sie joggen?","Dann stehen Sie bitte auf."]),
+  R("need","weber","Es ist so dunkel hier.","It's so dark here.",["💡|das Licht","🪟|das Fenster","📞|das Telefon","🧼|die Seife"],"Ich mache das Licht an."),
+  R("need","schmidt","Mir ist kalt.","I'm cold.",["🛌|die Decke","💧|das Wasser","☕|der Kaffee","🪥|die Zahnbürste"],"Hier ist eine Decke."),
+  R("say","yilmaz","Es ist zu laut.","It's too loud.",["Entschuldigung. Ich mache die Tür zu.","Ja, super Musik!","Dann sprechen Sie bitte lauter."]),
+  R("do","schmidt","","It's 2 a.m. You check on Herr Schmidt quietly.",["Alles in Ordnung, Herr Schmidt?","Guten Morgen, aufstehen!","Frühstück ist fertig!"]),
+  R("say","schmidt","Wie spät ist es?","What time is it? (The clock shows 3:00.)",["Es ist drei Uhr. Schlafen Sie weiter.","Es ist drei Grad.","Es ist Mittag."]),
+  R("do","weber","","Frau Weber must not get up alone at night.",["Bitte klingeln Sie, dann komme ich.","Bitte gehen Sie allein spazieren.","Bitte stehen Sie schnell auf."]),
+  R("say","weber","Ich muss zur Toilette.","I need to go to the toilet.",["Warten Sie, ich helfe Ihnen.","Nein, jetzt nicht.","Die Toilette ist zu."]),
+  R("num","lena","Die Übergabe ist um 5 Uhr 45.","Handover at:",["5:45","4:45","5:15","6:45"]),
+  R("say","lena","Wie war die Nacht?","How was the night?",["Ruhig. Alle Patienten schlafen.","Ich bin ein Patient.","Es gibt Suppe."])
+ ]},
+ {day:"Do",n:3,d:"Spät",de:"Am Telefon",en:"Phone calls",r:[
+  R("need","lena","Das Telefon klingelt!","The phone is ringing!",["📞|das Telefon","🔔|die Klingel","📱|das Handy","⏰|die Uhr"],"Station 3, Priya, guten Tag."),
+  R("say","braun","Hallo, hier ist Dr. Braun.","Hello, this is Dr. Braun.",["Guten Tag, Dr. Braun. Hier ist Priya, Station 3.","Hallo, wer bist du?","Tschüss!"]),
+  R("num","braun","Das Labor, Durchwahl 2 4 7.","Lab extension:",["247","274","427","742"]),
+  R("num","braun","Der Kaliumwert von Herrn Schmidt ist 5,8.","Potassium value:",["5,8","8,5","5,5","8,8"]),
+  R("say","braun","Bitte rufen Sie mich zurück.","Please call me back.",["Ja, gern. Wie ist Ihre Nummer?","Ja, gern. Wie ist das Wetter?","Nein, ich habe kein Telefon."]),
+  R("do","braun","","The doctor speaks too fast on the phone.",["Langsam, bitte. Ich schreibe mit.","Schneller, bitte.","Guten Appetit!"]),
+  R("do","braun","","End the phone call politely.",["Danke. Auf Wiederhören!","Danke. Gute Besserung!","Tschüss, Alter!"]),
+  R("say","anna","Ist meine Mutter wach?","Is my mother awake?",["Ja, sie ist wach. Einen Moment, bitte.","Ja, sie ist 82.","Nein, sie ist Pflegekraft."]),
+  R("do","anna","","You didn't understand the caller's name.",["Wie ist Ihr Name, bitte? Können Sie das buchstabieren?","Wie alt sind Sie?","Ich verstehe alles, danke."]),
+  R("say","anna","Kann ich meine Mutter besuchen?","Can I visit my mother?",["Ja, Besuchszeit ist von 15 bis 18 Uhr.","Ja, um 3 Uhr nachts.","Nein, nie."])
+ ]},
+ {day:"Fr",n:3,d:"Früh",de:"Hygiene",en:"Hygiene & isolation",r:[
+  R("do","anna","","Remind a visitor to disinfect their hands.",["Bitte desinfizieren Sie die Hände.","Bitte waschen Sie das Auto.","Bitte essen Sie die Hände."]),
+  R("do","lena","","You go into the next patient's room. What do you do first?",["Ich desinfiziere die Hände.","Ich trinke einen Kaffee.","Ich rufe ein Taxi."]),
+  R("num","lena","Die Hände 30 Sekunden desinfizieren.","How long?",["30 Sekunden","13 Sekunden","3 Minuten","30 Minuten"]),
+  R("say","schmidt","Muss ich die Hände waschen?","Do I have to wash my hands?",["Ja, bitte vor dem Essen.","Nein, nie.","Ja, mit Kaffee."]),
+  R("need","lena","Zimmer 4 ist Isolation. Was brauchst du?","Room 4 is isolation. What do you need?",["😷|die Maske","☕|der Kaffee","📰|die Zeitung","🍞|das Brot"],"Ich brauche Maske, Kittel und Handschuhe."),
+  R("need","braun","Bitte ziehen Sie Handschuhe an.","Please put on gloves.",["🧤|die Handschuhe·pl","🧦|die Socken·pl","🧥|die Jacke","👟|die Schuhe·pl"]),
+  R("do","lena","","Tell Lena there are no gloves left.",["Wir haben keine Handschuhe mehr.","Wir haben keine Patienten mehr.","Die Handschuhe sind krank."]),
+  R("say","yilmaz","Warum tragen Sie eine Maske?","Why are you wearing a mask?",["Für Ihre Sicherheit.","Ich habe Hunger.","Heute ist Karneval."]),
+  R("say","anna","Darf ich in Zimmer 4 gehen?","May I go into room 4?",["Nur mit Maske und Kittel, bitte.","Ja, ohne Schuhe.","Ja, mit Kaffee."]),
+  R("need","weber","Das Bett ist schmutzig.","The bed is dirty.",["🛏️|das Bett","🚪|die Tür","🪟|das Fenster","📺|der Fernseher"],"Ich mache das Bett sauber.")
+ ]},
+ {day:"Sa",n:3,d:"Spät",de:"Mobilisation & Sturz",en:"Walking & falls",r:[
+  R("do","schmidt","","Herr Schmidt wants to walk. He needs his walker.",["Bitte nehmen Sie den Rollator.","Bitte nehmen Sie den Aufzug.","Bitte laufen Sie schnell."]),
+  R("need","schmidt","Wo ist mein Rollator?","Where is my walker?",["🦯|der Rollator","🦽|der Rollstuhl","🛏️|das Bett","🚪|die Tür"],"Hier ist Ihr Rollator."),
+  R("need","weber","Meine Schuhe, bitte.","My shoes, please.",["👟|die Schuhe·pl","🧦|die Socken·pl","🧥|die Jacke","👓|die Brille"],"Hier sind Ihre Schuhe."),
+  R("do","weber","","Frau Weber wants to walk in socks. The floor is slippery.",["Bitte ziehen Sie Schuhe an.","Bitte laufen Sie in Socken.","Bitte tanzen Sie."]),
+  R("say","weber","Mir ist schwindelig.","I feel dizzy.",["Setzen Sie sich bitte sofort.","Gehen Sie bitte schneller.","Stehen Sie bitte auf einem Bein."]),
+  R("say","yilmaz","Hilfe! Ich bin gefallen!","Help! I fell!",["Bleiben Sie liegen. Ich hole Hilfe.","Stehen Sie schnell auf!","Das ist nicht schlimm, tschüss."]),
+  R("do","schmidt","","Herr Schmidt should sit on the edge of the bed first.",["Setzen Sie sich bitte erst auf die Bettkante.","Springen Sie bitte aus dem Bett.","Legen Sie sich bitte auf den Boden."]),
+  R("say","schmidt","Kann ich allein gehen?","Can I walk alone?",["Heute noch nicht. Ich gehe mit Ihnen.","Ja, rennen Sie!","Nein, nie wieder."]),
+  R("need","lena","Hilf mir bitte. Wir drehen Herrn Yılmaz.","Help me please. We're turning Herr Yılmaz.",["🤝|helfen","🍽️|essen","😴|schlafen","📞|anrufen"],"Okay, ich helfe dir."),
+  R("num","lena","Wir drehen Herrn Yılmaz alle 2 Stunden.","How often?",["every 2 hours","every 12 hours","every 20 minutes","every 2 days"])
+ ]},
+ {day:"Mo",n:4,d:"Früh",de:"Toilette & Ausscheidung",en:"Toilet & continence",r:[
+  R("say","weber","Ich muss mal.","I need to go (to the toilet).",["Kommen Sie, ich helfe Ihnen zur Toilette.","Was müssen Sie? Arbeiten?","Später, bitte."]),
+  R("need","schmidt","Ich kann nicht aufstehen. Ich muss Wasser lassen.","I can't get up. I need to pass urine.",["🫗|die Urinflasche","☕|die Tasse","🧴|die Creme","💧|das Wasser"],"Hier ist die Urinflasche."),
+  R("need","weber","Ich brauche Toilettenpapier.","I need toilet paper.",["🧻|das Toilettenpapier","📰|die Zeitung","🧤|die Handschuhe·pl","🪥|die Zahnbürste"]),
+  R("say","weber","Ich möchte allein auf die Toilette.","I want to use the toilet alone.",["Gut. Bitte klingeln Sie danach.","Nein, das ist verboten.","Gut, ich komme mit ins Bad und singe."]),
+  R("do","schmidt","","Ask Herr Schmidt if he had a bowel movement today.",["Hatten Sie heute Stuhlgang?","Hatten Sie heute Besuch?","Haben Sie heute Geburtstag?"]),
+  R("say","schmidt","Nein, seit drei Tagen nicht.","No, not for three days.",["Okay, ich schreibe das auf und frage den Arzt.","Super, weiter so!","Dann essen Sie nicht."]),
+  R("num","lena","Herr Schmidt hat 800 ml Urin.","Urine amount:",["800 ml","180 ml","80 ml","8000 ml"]),
+  R("say","yilmaz","Das ist mir peinlich.","This is embarrassing for me.",["Das ist ganz normal. Keine Sorge.","Ja, sehr peinlich!","Dann machen Sie das allein."]),
+  R("need","weber","Das Bett ist nass. Entschuldigung.","The bed is wet. Sorry.",["🛏️|die Bettwäsche","🍞|das Brot","📺|der Fernseher","🧳|die Tasche"],"Kein Problem. Ich wechsle die Bettwäsche."),
+  R("do","lena","","Tell Lena: Frau Weber needs a new incontinence pad.",["Frau Weber braucht eine neue Vorlage.","Frau Weber braucht ein neues Auto.","Frau Weber ist eine Vorlage."])
+ ]},
+ {day:"Di",n:4,d:"Spät",de:"Besuch & Angehörige",en:"Visitors & relatives",r:[
+  R("say","anna","Wo ist meine Mutter? Frau Weber.","Where is my mother? Frau Weber.",["Sie ist in Zimmer 1. Kommen Sie mit.","Sie ist 82 Jahre alt.","Das weiß ich nicht, tschüss."]),
+  R("say","anna","Darf ich Blumen mitbringen?","May I bring flowers?",["Ja, gern.","Nein, Blumen essen wir nicht.","Ja, bitte ins Bett."]),
+  R("need","anna","Wo kann ich einen Kaffee trinken?","Where can I get a coffee?",["☕|die Cafeteria","🚽|die Toilette","🚑|die Notaufnahme","🧪|das Labor"],"Die Cafeteria ist im Erdgeschoss."),
+  R("say","anna","Danke, Sie sind so nett zu meiner Mutter.","Thank you, you're so kind to my mother.",["Gern. Ihre Mutter ist sehr nett.","Ja, ich weiß.","Danke, du auch."]),
+  R("do","anna","","The visitor is in the room during the ward round.",["Bitte warten Sie kurz draußen.","Bitte legen Sie sich ins Bett.","Bitte machen Sie die Visite."]),
+  R("num","lena","Heute sind zwei Besucher erlaubt.","How many visitors are allowed?",["2","12","20","3"]),
+  R("do","anna","","There are four visitors in the room. Only two are allowed.",["Bitte nur zwei Besucher im Zimmer.","Bitte nur vier Kuchen.","Bitte alle ins Bett."]),
+  R("say","anna","Kann ich den Arzt sprechen?","Can I talk to the doctor?",["Ja, der Arzt kommt um 14 Uhr.","Ja, der Arzt ist krank.","Nein, der Arzt spricht nicht."]),
+  R("say","anna","Darf meine Mutter Kuchen essen?","May my mother eat cake?",["Einen Moment, ich frage den Arzt.","Ja, zehn Stück!","Nein, Kuchen ist in Deutschland verboten."]),
+  R("say","anna","Können Sie mich anrufen?","Can you call me?",["Ja. Wie ist Ihre Telefonnummer?","Ja. Wie ist Ihr Lieblingsessen?","Nein, ich habe kein Telefon."])
+ ]}
+);
+
+GOALS.push(
+ [ {t:"Welcome and personal data", p:"Wie ist Ihr [Name], bitte?", pe:"What is your name, please?", tip:"Name, Geburtsdatum (date of birth), Telefonnummer: the first three questions.", k:["Ich bin neu hier","Mein Name ist Emre","Meine Nummer ist"]},
+   {t:"Medicines and contacts", p:"Welche [Medikamente] nehmen Sie?", pe:"Which medicines do you take?", k:["do:Ask Herr Yılmaz which","Tabletten für den Blutdruck","do:Ask Herr Yılmaz who","Meine Frau"]},
+   {t:"Show the room", p:"Hier ist Ihr [Schrank].", pe:"Here is your wardrobe.", k:["Schrank","Handy laden","Licht an"]} ],
+ [ {t:"When the patient goes home", p:"[Morgen] um [10] Uhr.", pe:"Tomorrow at 10 o'clock.", k:["Wann kann ich nach Hause","meine Mutter abholen","10 Uhr nach Hause"]},
+   {t:"Papers and medicines", p:"Hier ist Ihr [Arztbrief].", pe:"Here is your doctor's letter.", tip:"der Arztbrief = discharge letter for the family doctor (der Hausarzt).", k:["Arztbrief","do:Tell Herr Schmidt to take","weiter nehmen"]},
+   {t:"Say goodbye", p:"Alles Gute!", pe:"All the best!", k:["meine Sachen","do:Ask Frau Weber if she has","Taxi","Vielen Dank für alles"]} ],
+ [ {t:"Help patients sleep", p:"Möchten Sie [einen Tee]?", pe:"Would you like a tea?", k:["nicht schlafen","dunkel","Mir ist kalt","zu laut"]},
+   {t:"Night checks", p:"Alles in Ordnung?", pe:"Is everything okay?", tip:"At night: speak quietly and use a small light.", k:["do:It's 2 a.m.","Wie spät ist es?","do:Frau Weber must not","zur Toilette"]},
+   {t:"Morning handover", p:"Die Nacht war [ruhig].", pe:"The night was quiet.", k:["Übergabe","Wie war die Nacht"]} ],
+ [ {t:"Answer the phone", p:"Station 3, [Priya], guten Tag.", pe:"Ward 3, Priya speaking, hello.", tip:"On the phone, say goodbye with „Auf Wiederhören“.", k:["Das Telefon klingelt","Hallo, hier ist Dr. Braun","do:End the phone call"]},
+   {t:"Write down details", p:"Langsam, bitte. Ich schreibe mit.", pe:"Slowly, please. I'm writing it down.", k:["Durchwahl","Kaliumwert","do:The doctor speaks too fast","zurück"]},
+   {t:"Calls from relatives", p:"Können Sie das bitte [buchstabieren]?", pe:"Can you spell that, please?", k:["wach?","do:You didn't understand the caller","besuchen?"]} ],
+ [ {t:"Clean hands", p:"Bitte desinfizieren Sie [die Hände].", pe:"Please disinfect your hands.", tip:"Before and after every patient: 30 seconds.", k:["do:Remind a visitor","do:You go into the next","30 Sekunden","Hände waschen"]},
+   {t:"Protective equipment", p:"Ich brauche [eine Maske].", pe:"I need a mask.", tip:"der Kittel = gown · die Maske · die Handschuhe", k:["Isolation. Was brauchst","ziehen Sie Handschuhe","do:Tell Lena there are no gloves","Warum tragen"]},
+   {t:"Isolation and clean rooms", p:"Nur mit [Maske], bitte.", pe:"Only with a mask, please.", k:["Darf ich in Zimmer 4","schmutzig"]} ],
+ [ {t:"Walk safely", p:"Bitte nehmen Sie [den Rollator].", pe:"Please take the walker.", k:["do:Herr Schmidt wants to walk","Wo ist mein Rollator","Meine Schuhe","do:Frau Weber wants to walk"]},
+   {t:"Dizziness and falls", p:"Bleiben Sie liegen. Ich hole Hilfe.", pe:"Stay lying down. I'll get help.", tip:"After a fall, never lift the patient alone.", k:["schwindelig","gefallen","do:Herr Schmidt should sit","allein gehen"]},
+   {t:"Move a patient together", p:"Wir drehen [Herrn Yılmaz].", pe:"We're turning Herr Yılmaz.", k:["Hilf mir bitte","alle 2 Stunden"]} ],
+ [ {t:"Help to the toilet", p:"Ich helfe Ihnen zur [Toilette].", pe:"I'll help you to the toilet.", k:["Ich muss mal","Wasser lassen","Toilettenpapier","allein auf die Toilette"]},
+   {t:"Ask about stool and urine", p:"Hatten Sie heute [Stuhlgang]?", pe:"Did you have a bowel movement today?", k:["do:Ask Herr Schmidt if he had","seit drei Tagen","800 ml"]},
+   {t:"Protect dignity", p:"Das ist ganz normal. Keine Sorge.", pe:"That's completely normal. Don't worry.", tip:"Close the door or curtain first.", k:["peinlich","nass. Entschuldigung","do:Tell Lena: Frau Weber needs"]} ],
+ [ {t:"Welcome visitors", p:"Sie ist in [Zimmer 1]. Kommen Sie mit.", pe:"She's in room 1. Come with me.", k:["Wo ist meine Mutter","Blumen","Kaffee trinken","so nett"]},
+   {t:"Visiting rules", p:"Bitte nur [zwei] Besucher.", pe:"Only two visitors, please.", k:["do:The visitor is in the room","Besucher erlaubt","do:There are four visitors"]},
+   {t:"Questions from relatives", p:"Einen Moment, ich frage den Arzt.", pe:"One moment, I'll ask the doctor.", tip:"Medical questions go to the doctor. That's normal and safe.", k:["den Arzt sprechen","Kuchen","anrufen?"]} ]
+);
+
+Object.assign(TR,{
+"Herzlich willkommen! Wie ist Ihr Name, bitte?":"Welcome! What is your name, please?","Danke. Wie ist Ihr Geburtsdatum?":"Thank you. What is your date of birth?",
+"Welche Medikamente nehmen Sie?":"Which medicines do you take?","Okay. Haben Sie die Tabletten dabei?":"Okay. Do you have the tablets with you?",
+"der Schrank":"the wardrobe","Hier ist Ihr Schrank.":"Here is your wardrobe.","Wen können wir anrufen?":"Who can we call?",
+"Danke, ich schreibe die Nummer auf.":"Thank you, I'll write the number down.","Hier, neben dem Bett.":"Here, next to the bed.",
+"das Licht":"the light","Hier, der Knopf am Bett.":"Here, the button on the bed.",
+"Morgen, nach der Visite.":"Tomorrow, after the ward round.","Morgen um 11 Uhr.":"Tomorrow at 11 o'clock.","der Arztbrief":"the doctor's letter",
+"Hier ist Ihr Arztbrief.":"Here is your doctor's letter.","Bitte bringen Sie den Brief zum Hausarzt.":"Please take the letter to your family doctor.",
+"Ja, jeden Morgen eine Tablette.":"Yes, one tablet every morning.","die Tasche":"the bag","Hier ist Ihre Tasche.":"Here is your bag.",
+"Haben Sie alles?":"Do you have everything?","Kein Problem. Ich rufe ein Taxi.":"No problem. I'll call a taxi.","Gern geschehen. Alles Gute, Frau Weber!":"You're welcome. All the best, Frau Weber!",
+"Möchten Sie einen Tee?":"Would you like a tea?","Ich mache das Licht an.":"I'll switch the light on.","die Decke":"the blanket","Hier ist eine Decke.":"Here is a blanket.",
+"Entschuldigung. Ich mache die Tür zu.":"Sorry. I'll close the door.","Alles in Ordnung, Herr Schmidt?":"Is everything okay, Herr Schmidt?",
+"Es ist drei Uhr. Schlafen Sie weiter.":"It's three o'clock. Go back to sleep.","Bitte klingeln Sie, dann komme ich.":"Please ring, then I'll come.",
+"Warten Sie, ich helfe Ihnen.":"Wait, I'll help you.","Ruhig. Alle Patienten schlafen.":"Quiet. All the patients are sleeping.",
+"das Telefon":"the phone","Station 3, Priya, guten Tag.":"Ward 3, Priya speaking, hello.","Guten Tag, Dr. Braun. Hier ist Priya, Station 3.":"Hello, Dr. Braun. This is Priya, ward 3.",
+"Ja, gern. Wie ist Ihre Nummer?":"Yes, of course. What is your number?","Langsam, bitte. Ich schreibe mit.":"Slowly, please. I'm writing it down.",
+"Danke. Auf Wiederhören!":"Thank you. Goodbye! (on the phone)","Ja, sie ist wach. Einen Moment, bitte.":"Yes, she's awake. One moment, please.",
+"Wie ist Ihr Name, bitte? Können Sie das buchstabieren?":"What is your name, please? Can you spell that?","Ja, Besuchszeit ist von 15 bis 18 Uhr.":"Yes, visiting time is from 15:00 to 18:00.",
+"Bitte desinfizieren Sie die Hände.":"Please disinfect your hands.","Ich desinfiziere die Hände.":"I disinfect my hands.","Ja, bitte vor dem Essen.":"Yes, please, before eating.",
+"die Maske":"the mask","Ich brauche Maske, Kittel und Handschuhe.":"I need a mask, gown and gloves.","Wir haben keine Handschuhe mehr.":"We have no gloves left.",
+"Für Ihre Sicherheit.":"For your safety.","Nur mit Maske und Kittel, bitte.":"Only with a mask and gown, please.","das Bett":"the bed","Ich mache das Bett sauber.":"I'll clean the bed.",
+"Bitte nehmen Sie den Rollator.":"Please take the walker.","der Rollator":"the walker","Hier ist Ihr Rollator.":"Here is your walker.","die Schuhe·pl":"the shoes",
+"Hier sind Ihre Schuhe.":"Here are your shoes.","Bitte ziehen Sie Schuhe an.":"Please put on shoes.","Setzen Sie sich bitte sofort.":"Please sit down immediately.",
+"Bleiben Sie liegen. Ich hole Hilfe.":"Stay lying down. I'll get help.","Setzen Sie sich bitte erst auf die Bettkante.":"Please sit on the edge of the bed first.",
+"Heute noch nicht. Ich gehe mit Ihnen.":"Not yet today. I'll walk with you.","helfen":"to help","Okay, ich helfe dir.":"Okay, I'll help you.",
+"Kommen Sie, ich helfe Ihnen zur Toilette.":"Come, I'll help you to the toilet.","die Urinflasche":"the urine bottle","Hier ist die Urinflasche.":"Here is the urine bottle.",
+"das Toilettenpapier":"the toilet paper","Gut. Bitte klingeln Sie danach.":"Good. Please ring afterwards.","Hatten Sie heute Stuhlgang?":"Did you have a bowel movement today?",
+"Okay, ich schreibe das auf und frage den Arzt.":"Okay, I'll write that down and ask the doctor.","Das ist ganz normal. Keine Sorge.":"That's completely normal. Don't worry.",
+"die Bettwäsche":"the bed linen","Kein Problem. Ich wechsle die Bettwäsche.":"No problem. I'll change the bed linen.","Frau Weber braucht eine neue Vorlage.":"Frau Weber needs a new incontinence pad.",
+"Sie ist in Zimmer 1. Kommen Sie mit.":"She's in room 1. Come with me.","Ja, gern.":"Yes, of course.","die Cafeteria":"the cafeteria","Die Cafeteria ist im Erdgeschoss.":"The cafeteria is on the ground floor.",
+"Gern. Ihre Mutter ist sehr nett.":"You're welcome. Your mother is very kind.","Bitte warten Sie kurz draußen.":"Please wait outside for a moment.",
+"Bitte nur zwei Besucher im Zimmer.":"Only two visitors in the room, please.","Ja, der Arzt kommt um 14 Uhr.":"Yes, the doctor comes at 14:00.",
+"Einen Moment, ich frage den Arzt.":"One moment, I'll ask the doctor.","Ja. Wie ist Ihre Telefonnummer?":"Yes. What is your phone number?"
+});
+
+WORDS.push(
+ {en:"ECG", de:"das EKG", chart:"Say it: „E-K-G“ (eh-kah-geh)", ill:"abbr:EKG"},
+ {en:"MRI", de:"das MRT", chart:"Say it: „M-R-T“", ill:"abbr:MRT"},
+ {en:"CT scan", de:"das CT", chart:"Say it: „C-T“ (tseh-teh)", ill:"abbr:CT"},
+ {en:"X-ray", de:"das Röntgen", chart:"„Röntgen Thorax“ = chest X-ray", ill:"abbr:Rö"},
+ {en:"IV (intravenous)", de:"i.v. (intravenös)", chart:"On plans: i.v.", ill:"abbr:i.v."},
+ {en:"SC (subcutaneous)", de:"s.c. (subkutan)", chart:"On plans: s.c.", ill:"abbr:s.c."},
+ {en:"Tab.", de:"die Tablette", chart:"On plans: Tbl.", ill:"abbr:Tbl."},
+ {en:"Sats / SpO₂", de:"die Sauerstoffsättigung", chart:"On charts: SpO₂", ill:"abbr:SpO₂"},
+ {en:"NS (normal saline)", de:"die Kochsalzlösung", chart:"On bags: NaCl 0,9 %", ill:"abbr:NaCl"},
+ {en:"Pulse / HR", de:"der Puls", chart:"On charts: P or HF (Herzfrequenz)", ill:"abbr:HF"},
+ {en:"OD (once a day)", de:"einmal täglich", chart:"On plans: 1-0-0-0", ill:"abbr:1-0-0"},
+ {en:"BD (twice a day)", de:"zweimal täglich", chart:"On plans: 1-0-1-0", ill:"abbr:1-0-1"},
+ {en:"SOS / PRN", de:"bei Bedarf", chart:"On plans: b. B.", tip:"Only give it when the patient needs it.", ill:"abbr:b.B."},
+ {en:"NBM / NPO", de:"nüchtern", chart:"Nothing to eat or drink", tip:"„Ab 22 Uhr nüchtern“ = nothing to eat or drink from 22:00.", ill:"abbr:0"},
+ {en:"Ward in-charge", de:"die Stationsleitung", tip:"Your manager on the ward.", ill:"person:SL"},
+ {en:"Staff nurse", de:"die Pflegefachkraft", chart:"die Pflegefachfrau / der Pflegefachmann", ill:"person:PFK"},
+ {en:"Ward aide / nursing assistant", de:"der Pflegehelfer / die Pflegehelferin", ill:"person:PH"},
+ {en:"Nursing student", de:"der Azubi / die Azubi", tip:"Azubi = a trainee in Ausbildung (training).", ill:"person:Azubi"},
+ {en:"Junior doctor / resident", de:"der Assistenzarzt / die Assistenzärztin", ill:"person:AA"},
+ {en:"Senior doctor / consultant", de:"der Oberarzt / die Oberärztin", ill:"person:OA"},
+ {en:"HOD / chief doctor", de:"der Chefarzt / die Chefärztin", ill:"person:CA"},
+ {en:"Physio", de:"der Physiotherapeut / die Physiotherapeutin", ill:"person:PT"},
+ {en:"Social worker", de:"der Sozialdienst", tip:"Helps patients with care after discharge.", ill:"person:SD"},
+ {en:"Housekeeping / cleaning staff", de:"die Reinigungskraft", ill:"person:RK"},
+ {en:"Nurses' station", de:"das Stationszimmer", ill:"door:Stationszimmer"},
+ {en:"Staff room", de:"der Pausenraum", ill:"door:Pause"},
+ {en:"Changing room", de:"die Umkleide", ill:"door:Umkleide"},
+ {en:"Lab", de:"das Labor", ill:"door:Labor"},
+ {en:"Pharmacy", de:"die Apotheke", ill:"door:Apotheke"},
+ {en:"Labour room", de:"der Kreißsaal", ill:"door:Kreißsaal"},
+ {en:"Ambulance", de:"der Krankenwagen", tip:"Emergency number in Germany: 112.", ill:"key:Casualty"},
+ {en:"Bedpan", de:"die Bettpfanne", ill:"thing:bedpan"},
+ {en:"Urine bag", de:"der Urinbeutel", ill:"thing:urinebag"},
+ {en:"Cannula / Venflon", de:"die Braunüle", tip:"Germans often use this brand name for any IV cannula.", ill:"thing:cannula"},
+ {en:"Catheter", de:"der Katheter", ill:"thing:catheter"},
+ {en:"Dressing", de:"der Verband", ill:"thing:dressing"},
+ {en:"Glucometer", de:"das Blutzuckermessgerät", chart:"Short: das BZ-Gerät", ill:"key:Sugar"},
+ {en:"Gown / apron", de:"der Kittel", ill:"thing:gown"},
+ {en:"Sharps box", de:"der Abwurfbehälter", ill:"thing:sharps"},
+ {en:"OPD (outpatient department)", de:"die Ambulanz", false:true, tip:"„Ambulanz“ = outpatient clinic. The vehicle is „der Krankenwagen“.", ill:"door:Ambulanz"},
+ {en:"Prescription", de:"das Rezept", false:true, tip:"„Rezept“ = prescription (and also a cooking recipe).", ill:"thing:rx"},
+ {en:"Hospital diet", de:"die Kost", false:true, tip:"Vollkost, Schonkost, Diabeteskost. „Kost“ is not „cost“!", ill:"thing:plate"},
+ {en:"Doctor's clinic (GP)", de:"die Praxis", false:true, tip:"„Praxis“ = a doctor's office, e.g. die Hausarztpraxis.", ill:"door:Praxis"},
+ {en:"To get / receive", de:"bekommen", false:true, tip:"„Sie bekommen eine Tablette“ = You get a tablet. Not „become“!", ill:"thing:receive"},
+ {en:"So / well …", de:"also", false:true, tip:"„also“ means „so“. „Too“ is „auch“.", ill:"thing:bubble"}
+);
+
+DOCS.push(
+ {id:"band", title:"Patient wristband", de:"Patientenarmband", sub:"Name, birth date, allergy",
+  html:`<h4>PATIENTENARMBAND</h4><div class="band"><b>Yılmaz, Emre</b><span>* 12.03.1981</span><span>Station 3 · Zi. 3</span><span class="hi">ALLERGIE: Penicillin</span></div>`,
+  qs:[{q:"What is the patient's first name?",o:["Emre","Yılmaz","Station"]},{q:"Which allergy does he have?",o:["Penicillin","Paracetamol","No allergy"]},{q:"Which room is he in?",o:["Room 3","Room 12","Room 81"]}]},
+ {id:"meal", title:"Meal order card", de:"Essensbestellung", sub:"Food, drinks, diet",
+  html:`<h4>ESSENSBESTELLUNG</h4><div class="dmeta">Weber, Erika · Zimmer 1 · Diabeteskost</div>
+   <div class="doc-wrap"><table><tr><th>Mahlzeit</th><th>Bestellung</th></tr><tr><td>Frühstück</td><td>Brot, Tee</td></tr><tr><td>Mittagessen</td><td>Fisch, Kartoffeln</td></tr><tr><td>Abendessen</td><td>Suppe</td></tr><tr><td>Getränk</td><td>Wasser ohne Kohlensäure</td></tr></table></div>`,
+  qs:[{q:"What does Frau Weber drink?",o:["Still water","Coffee with milk","Juice"]},{q:"What does she get for dinner?",o:["Soup","Bread and tea","Fish"]},{q:"Why does she get special food?",o:["She has diabetes","She has a cold","She is vegetarian"]}]},
+ {id:"admission", title:"Admission form", de:"Aufnahmebogen", sub:"Contacts, allergies, aids",
+  html:`<h4>AUFNAHMEBOGEN</h4><div class="doc-wrap"><table>
+   <tr><td>Name</td><td>Schmidt, Klaus</td></tr><tr><td>Geburtsdatum</td><td>14.07.1959</td></tr><tr><td>Kontaktperson</td><td>Tochter: Sabine Schmidt</td></tr>
+   <tr><td>Allergien</td><td>keine</td></tr><tr><td>Medikamente</td><td>Ramipril 5 mg 1-0-0-0</td></tr><tr><td>Hilfsmittel</td><td>Brille, Rollator</td></tr></table></div>`,
+  qs:[{q:"Who is his contact person?",o:["His daughter","His wife","His doctor"]},{q:"Does he have allergies?",o:["No","Yes, to penicillin","Yes, to food"]},{q:"Which aids does he use?",o:["Glasses and a walker","A wheelchair","Nothing"]}]},
+ {id:"fluid", title:"Fluid chart", de:"Ein- und Ausfuhr", sub:"Input and output in ml",
+  html:`<h4>EIN- UND AUSFUHR</h4><div class="dmeta">Yılmaz, Emre · Zimmer 3</div><div class="doc-wrap"><table>
+   <tr><th>Uhrzeit</th><th>Einfuhr</th><th>Ausfuhr</th></tr><tr><td>08:00</td><td>Tee 200 ml</td><td>Urin 300 ml</td></tr><tr><td>12:00</td><td>Wasser 250 ml</td><td>–</td></tr>
+   <tr><td>16:00</td><td>Infusion 500 ml</td><td>Urin 400 ml</td></tr><tr><td><b>Summe</b></td><td><b>950 ml</b></td><td><b>700 ml</b></td></tr></table></div>`,
+  qs:[{q:"What does „Ausfuhr“ mean?",o:["Output, e.g. urine","Input, e.g. drinks","Food"]},{q:"How much fluid did he get in total?",o:["950 ml","700 ml","500 ml"]},{q:"How much urine at 16:00?",o:["400 ml","300 ml","500 ml"]}]},
+ {id:"isolation", title:"Isolation door sign", de:"Isolationsschild", sub:"What to do before entering",
+  html:`<div class="sign"><div class="sign-h">ISOLATION</div><p>Bitte melden Sie sich im <b>Stationszimmer</b>.</p><p>Vor dem Betreten:</p><ul><li>Hände desinfizieren</li><li>Kittel · Maske · Handschuhe</li></ul><p>Besuch nur nach Absprache.</p></div>`,
+  qs:[{q:"What must visitors do first?",o:["Go to the nurses' station","Knock and go in","Wait outside for an hour"]},{q:"What do you put on before going in?",o:["Gown, mask and gloves","Only shoes","Nothing"]},{q:"„Besuch nur nach Absprache“ means:",o:["Visits only after asking staff","No visits ever","Visits all day"]}]},
+ {id:"appointment", title:"Appointment slip", de:"Terminzettel", sub:"Time, place, transport",
+  html:`<h4>TERMIN</h4><div class="doc-wrap"><table><tr><td>Patientin</td><td>Weber, Erika</td></tr><tr><td>Untersuchung</td><td>Röntgen Thorax</td></tr><tr><td>Datum</td><td>Dienstag</td></tr>
+   <tr><td>Uhrzeit</td><td>10:30</td></tr><tr><td>Ort</td><td>Erdgeschoss, Raum 014</td></tr><tr><td>Nüchtern</td><td>nein</td></tr><tr><td>Transport</td><td>Rollstuhl</td></tr></table></div>`,
+  qs:[{q:"What time is the X-ray?",o:["10:30","14:30","10:03"]},{q:"How does Frau Weber get there?",o:["In a wheelchair","She walks alone","By taxi"]},{q:"Does she have to be „nüchtern“?",o:["No, she can eat","Yes, nothing to eat","Only coffee"]}]},
+ {id:"handover", title:"Handover note", de:"Übergabe", sub:"Three patients, three problems",
+  html:`<h4>ÜBERGABE · FRÜHDIENST</h4><div class="doc-wrap"><table>
+   <tr><td>Zi. 1 Weber</td><td>RR 150/90, Kopfschmerzen, Arzt informiert</td></tr><tr><td>Zi. 2 Schmidt</td><td>OP morgen 8 Uhr, ab 22 Uhr nüchtern</td></tr><tr><td>Zi. 3 Yılmaz</td><td class="hi">Sturzgefahr! Nicht allein aufstehen</td></tr></table></div>`,
+  qs:[{q:"Who has an operation tomorrow?",o:["Herr Schmidt","Frau Weber","Herr Yılmaz"]},{q:"From what time must Herr Schmidt not eat?",o:["22:00","8:00","12:00"]},{q:"What is the risk for Herr Yılmaz?",o:["He may fall","He has a fever","He has no glasses"]}]}
+);
+
+EMERGENCY.push(
+ ["Bewusstlos!","Unconscious!"],["Er atmet nicht!","He is not breathing!"],["Sie atmet.","She is breathing."],["Ich brauche Hilfe in Zimmer 3!","I need help in room 3!"],
+ ["Holen Sie bitte den Notfallwagen!","Please get the emergency trolley!"],["Blutung!","Bleeding!"],["Drücken Sie hier fest.","Press firmly here."],["Sturz in Zimmer 2!","Fall in room 2!"],
+ ["Bewegen Sie sich nicht.","Don't move."],["Feuer!","Fire!"],["Bitte zum Notausgang!","Please go to the emergency exit!"],["Ruhig bleiben.","Stay calm."],
+ ["Der Arzt kommt sofort.","The doctor is coming right away."],["Wie heißen Sie? Welcher Tag ist heute?","What's your name? What day is it today?"],["Rufen Sie die 112!","Call 112!"]
+);
+
+CULTURE.push(
+ {t:"Call in sick early", home:"You might message a colleague, or come in anyway.", de:"If you are sick, call the ward before your shift. After 3 days, you usually need a doctor's note.", say:["Ich bin krank. Ich komme heute nicht.","I'm sick. I'm not coming in today."]},
+ {t:"Breaks are protected", home:"Breaks are often skipped when the ward is busy.", de:"On a long shift you get at least a 30-minute break by law. Tell a colleague when you go.", say:["Ich mache jetzt Pause.","I'm taking my break now."]},
+ {t:"A flatter team", home:"Juniors rarely give their opinion to seniors or doctors.", de:"Nurses share their observations in handover and with doctors. Your view matters.", say:["Ich denke, der Patient hat Schmerzen.","I think the patient is in pain."]},
+ {t:"Patients can say no", home:"Patients and families usually follow what staff decide.", de:"Patients decide for themselves. If they refuse care or medicine, respect it and tell the doctor.", say:["Okay. Ich sage es dem Arzt.","Okay. I'll tell the doctor."]},
+ {t:"Ask before personal care", home:"Patients rarely say who they want for washing.", de:"Some patients prefer a nurse of the same gender for washing. Ask, and respect the answer.", say:["Ist das okay für Sie?","Is that okay for you?"]},
+ {t:"Food and religion", home:"Families often bring food from home.", de:"Hospitals offer vegetarian and pork-free meals. Always ask, never guess.", say:["Essen Sie Schweinefleisch?","Do you eat pork?"]},
+ {t:"Write it down straight away", home:"Some care is only passed on by talking.", de:"Everything you do is documented, usually on a computer. If it isn't written down, it didn't happen.", say:["Ich dokumentiere das.","I'll document that."]},
+ {t:"Names and titles", home:"Senior staff are called „Sir“ or „Madam“.", de:"Colleagues use first names and du. Doctors are „Herr Braun“ or „Frau Doktor“ until they offer du.", say:["Guten Morgen, Frau Doktor.","Good morning, doctor."]},
+ {t:"Quiet at night", home:"Wards can be busy and loud at all hours.", de:"Night rest is usually from 22:00 to 6:00. Speak quietly and use small lights.", say:["Bitte leise, die Patienten schlafen.","Quiet please, the patients are sleeping."]}
+);
 
 /* ---------- Helpers ---------- */
 const $ = s => document.querySelector(s);
@@ -924,7 +1188,27 @@ const ILL = {
  "Boss": S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><circle cx="60" cy="42" r="15" fill="${W0}"/><path d="M28 106c3-24 15-38 32-38s29 14 32 38" fill="${W0}"/><path d="M60 68l-6 8 6 22 6-22z" fill="${N}"/><rect x="74" y="84" width="24" height="18" rx="3" fill="${GOLD}"/><path d="M80 84v-4h12v4"/>`),
  "Mobile phone": S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><rect x="40" y="18" width="40" height="84" rx="9" fill="${W0}"/><path d="M54 26h12"/><rect x="46" y="34" width="28" height="52" rx="3" fill="${SKY}" stroke="none"/><path d="M50 50h20M50 60h14" stroke-width="2.5"/><circle cx="60" cy="94" r="3"/>`)
 };
-const illFor = w => ILL[w.en] || "";
+const TXT = (x,y,s,t,fill) => `<text x="${x}" y="${y}" text-anchor="middle" font-family="Inter,sans-serif" font-size="${s}" font-weight="700" fill="${fill||N}" stroke="none">${t}</text>`;
+const GEN = {
+  abbr: t => S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><rect x="28" y="22" width="64" height="80" rx="8" fill="${W0}"/><rect x="46" y="16" width="28" height="12" rx="3" fill="${GOLD}"/><path d="M40 84h40M40 92h26" stroke-width="2.5"/>${TXT(60,66,t.length>4?17:t.length>3?20:26,t)}`),
+  person: t => S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><circle cx="60" cy="42" r="15" fill="${W0}"/><path d="M26 106c3-24 16-36 34-36s31 12 34 36" fill="${W0}"/><rect x="${60-Math.max(20,t.length*6)/2}" y="80" width="${Math.max(20,t.length*6)+4}" height="16" rx="4" fill="${GOLD}"/>${TXT(62,92,10,t)}`),
+  door: t => S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><rect x="34" y="34" width="52" height="72" rx="3" fill="${W0}"/><circle cx="76" cy="72" r="3" fill="${N}"/><rect x="${60-Math.min(46,t.length*6.2)/2-4}" y="14" width="${Math.min(46,t.length*6.2)+8}" height="16" rx="4" fill="${N}" stroke="none"/>${TXT(60,26,t.length>9?7.5:9.5,t,W0)}`),
+  key: k => ILL[k],
+  thing: k => ({
+    bedpan: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><path d="M22 62h58c8 0 14 6 14 14v4H30c-5 0-8-4-8-8z" fill="${W0}"/><path d="M94 70h10"/><ellipse cx="54" cy="66" rx="18" ry="3" stroke-width="2"/>`),
+    urinebag: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><path d="M60 14v18"/><rect x="36" y="32" width="48" height="66" rx="10" fill="${W0}"/><path d="M44 50h10M44 62h10M44 74h10" stroke-width="2"/><rect x="40" y="78" width="40" height="16" rx="6" fill="${GOLD}" stroke="none"/>`),
+    cannula: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><path d="M20 60h44" stroke-width="4"/><path d="M64 60h30" stroke-width="2"/><path d="M40 60l-8-18h16zM40 60l-8 18h16z" fill="${GOLD}"/><rect x="12" y="52" width="14" height="16" rx="3" fill="${W0}"/>`),
+    catheter: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><path d="M30 30c30 0 40 10 40 24s-24 12-24 26 16 20 42 20" stroke-width="5"/><circle cx="30" cy="30" r="5" fill="${GOLD}"/>`),
+    dressing: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><rect x="22" y="40" width="76" height="40" rx="10" fill="${W0}"/><rect x="44" y="46" width="32" height="28" rx="4" fill="${SKY}"/><path d="M60 52v16M52 60h16" stroke="${RED}"/>`),
+    gown: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><path d="M44 22l-24 16 8 16 10-6v54h44V48l10 6 8-16-24-16c-2 8-8 12-16 12s-14-4-16-12z" fill="${W0}"/><path d="M60 34v70" stroke-width="2"/>`),
+    sharps: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><rect x="30" y="40" width="60" height="62" rx="6" fill="${GOLD}"/><rect x="26" y="30" width="68" height="14" rx="4" fill="${RED}" stroke="${N}"/><path d="M60 58l12 22H48z" fill="${W0}"/><path d="M60 66v6"/>`),
+    rx: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><rect x="30" y="20" width="60" height="82" rx="6" fill="${W0}"/>${TXT(52,56,24,"Rx")}<path d="M42 72h36M42 82h24" stroke-width="2.5"/>`),
+    plate: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><circle cx="60" cy="62" r="30" fill="${W0}"/><circle cx="60" cy="62" r="18" fill="${GOLD}" stroke="none"/><path d="M20 36v20M20 46h0M24 36v14M16 36v14M20 50v40M100 36c-6 6-6 20 0 24v30"/>`),
+    receive: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><path d="M20 82c10 0 18-6 30-6h24c4 0 4 8 0 8H58M50 90h36l20-18c4-4-2-10-6-6L86 76" fill="${W0}"/><rect x="50" y="36" width="24" height="12" rx="6" fill="${GOLD}" transform="rotate(-20 62 42)"/>`),
+    bubble: S(`<circle cx="60" cy="60" r="46" fill="${SKY}" stroke="none"/><path d="M22 30h76v46H56l-18 16V76H22z" fill="${W0}"/>${TXT(60,60,18,"also…")}`)
+  })[k]
+};
+const illFor = w => { if(w.ill){ const [kind,arg]=w.ill.split(/:(.*)/s); const g=GEN[kind]; return (g&&g(arg))||""; } return ILL[w.en]||""; };
 
 /* ---------- Learn: Hospital English flashcards (swipe) ---------- */
 const W={i:0,flip:false,missed:[]};
@@ -969,7 +1253,7 @@ function vWords(view){
 function wordsDone(view){
   const missed=[...new Set(W.missed)];
   const known=WORDS.length-missed.length;
-  view.innerHTML=topbar("Hospital English → German",1)+summaryHtml("All cards done!",known>=14?3:known>=10?2:1,`${known} of ${WORDS.length} words known`,known*2,missed.map(i=>artLabel(WORDS[i].de)),"Back to Nursing German");
+  view.innerHTML=topbar("Hospital English → German",1)+summaryHtml("All cards done!",known>=WORDS.length*.85?3:known>=WORDS.length*.6?2:1,`${known} of ${WORDS.length} words known`,known*2,missed.map(i=>artLabel(WORDS[i].de)),"Back to Nursing German");
   $("#s-next").onclick=()=>{W.missed=[];stack=["practice","hub"];render()};
   $("#s-again").onclick=()=>{W.i=0;W.flip=false;W.missed=[];render()};
 }
@@ -1300,6 +1584,23 @@ const DRILL = [
  {s:"Your colleague is walking too slowly.", o:["Schnell, bitte!","Langsam, bitte!","Später, bitte!"]},
  {s:"The patient is frightened and alone.", o:["Ich bin hier.","Ich gehe jetzt.","Ich bin müde."]}
 ];
+DRILL.push(
+ {s:"Herr Yılmaz lies on the floor and does not react.", o:["Bewusstlos! Hilfe!","Guten Morgen!","Schlafen Sie gut!"]},
+ {s:"The patient's chest is not moving.", o:["Er atmet nicht!","Er isst nicht!","Er schläft gut."]},
+ {s:"You need the emergency trolley.", o:["Holen Sie bitte den Notfallwagen!","Holen Sie bitte den Kaffee!","Holen Sie bitte die Zeitung!"]},
+ {s:"A cannula comes out. There is a lot of blood.", o:["Blutung! Drücken Sie hier fest.","Drücken Sie bitte die Tür.","Kein Problem, tschüss."]},
+ {s:"You find Herr Schmidt on the floor. Call your colleague.", o:["Sturz in Zimmer 2!","Kaffee in Zimmer 2!","Visite in Zimmer 2!"]},
+ {s:"The patient on the floor tries to move his head.", o:["Bewegen Sie sich nicht.","Tanzen Sie bitte.","Drehen Sie sich schnell."]},
+ {s:"You see smoke in the corridor.", o:["Feuer!","Hunger!","Pause!"]},
+ {s:"Fire alarm. Show visitors the way out.", o:["Bitte zum Notausgang!","Bitte zur Cafeteria!","Bitte zum Aufzug!"]},
+ {s:"A relative is panicking.", o:["Ruhig bleiben.","Schnell laufen.","Laut schreien."]},
+ {s:"The patient asks if the doctor is coming.", o:["Der Arzt kommt sofort.","Der Arzt kommt morgen.","Der Arzt hat frei."]},
+ {s:"After a fall, check if the patient is confused.", o:["Wie heißen Sie? Welcher Tag ist heute?","Wie alt ist Ihr Auto?","Haben Sie Hunger?"]},
+ {s:"Tell your colleague the patient is breathing.", o:["Sie atmet.","Sie isst.","Sie singt."]},
+ {s:"You are alone with an emergency in room 3.", o:["Ich brauche Hilfe in Zimmer 3!","Ich brauche Kaffee in Zimmer 3!","Ich habe frei in Zimmer 3!"]},
+ {s:"A patient suddenly has strong pain.", o:["Wo haben Sie Schmerzen?","Wo haben Sie Ihr Handy?","Wie ist das Wetter?"]},
+ {s:"Outside the hospital, a person collapses. Tell someone to call.", o:["Rufen Sie die 112!","Rufen Sie morgen an!","Rufen Sie ein Taxi!"]}
+);
 const DRILL_SECONDS = 8;
 const EM={mode:"cards",pos:0,flip:false,queue:null,retried:0,d:null};
 function vEmergency(view){
@@ -1346,7 +1647,7 @@ function emCards(view,tabs){
   card.onkeydown=ev=>{ if(ev.key===" "||ev.key==="Enter"){ev.preventDefault();flip()} };
 }
 function emDrill(view,tabs){
-  if(!EM.d){ EM.d={order:shuffle(DRILL.map((_,k)=>k)),pos:0,right:0,fast:0,state:"ready",left:DRILL_SECONDS,opts:null,pick:null}; }
+  if(!EM.d){ EM.d={order:shuffle(DRILL.map((_,k)=>k)).slice(0,10),pos:0,right:0,fast:0,state:"ready",left:DRILL_SECONDS,opts:null,pick:null}; }
   const D2=EM.d;
   if(D2.pos>=D2.order.length){
     const stars=D2.right>=9?3:D2.right>=7?2:1;
@@ -1362,7 +1663,7 @@ function emDrill(view,tabs){
       <div class="sheet" style="margin-top:10px"><div class="sheet-body drill-intro">
         <div class="em-ico big">${ICON.alert}</div>
         <h2>Emergency drill</h2>
-        <p>${DRILL.length} situations. You have <b>${DRILL_SECONDS} seconds</b> for each one. Pick what you shout, then say it out loud.</p>
+        <p>10 random situations from ${DRILL.length}. You have <b>${DRILL_SECONDS} seconds</b> for each one. Pick what you shout, then say it out loud.</p>
         <ul><li>Right answer: +5 coins</li><li>Under 4 seconds: +5 bonus</li><li>8 or more right: Emergency German is marked as learned</li></ul>
       </div><div class="sheet-foot"><button class="cta" id="go">Start drill</button></div></div></div>`;
     $("#go").onclick=()=>{interacted=true; D2.state="ask"; D2.left=DRILL_SECONDS; D2.opts=null; render();};

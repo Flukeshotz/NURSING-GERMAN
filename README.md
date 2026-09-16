@@ -6,10 +6,10 @@ A clickable prototype of the **Nursing German** feature for the Skillcase app. I
 
 | Section | What it does |
 |---|---|
-| Hospital words | Swipe cards with illustrations: hospital English you use at work → the German word (e.g. BP → der Blutdruck, RR) |
-| Ward phrases | 12 situations, each taught in 3 steps: pattern → cards → *Klingel!* call-bell practice game |
-| Ward documents | Read a medication plan, vital signs chart and duty roster, then answer questions |
-| Emergency German | Swipe cards plus a timed emergency drill |
-| Ward culture | How German wards differ from hospitals back home |
+| Hospital words | 61 illustrated swipe cards: hospital English, chart abbreviations, ward roles, places and false friends → German |
+| Ward phrases | 20 situations (200 exchanges), each taught in 3 steps: pattern → cards → *Klingel!* call-bell practice game |
+| Ward documents | 10 real ward documents (medication plan, vitals, roster, wristband, meal card, admission form, fluid chart, isolation sign, appointment slip, handover note) with 30 questions |
+| Emergency German | 25 swipe cards plus a timed drill (10 random situations from 25) |
+| Ward culture | 15 cards on how German wards differ from hospitals back home |
 
 It's a single static file (`index.html`) with no build step. Audio uses the browser's German text-to-speech voice as a placeholder. The illustrations and emoji are placeholder art.
