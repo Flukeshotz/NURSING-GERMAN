@@ -2,14 +2,16 @@
 
 A clickable prototype of the **Nursing German** feature for the Skillcase app. It's for nurses moving to Germany and covers A1 level only.
 
-**Flow:** tap *Nursing German* in German Practice → choose what to learn → learn.
+It follows the same teaching method as the other A1 practice modes: **teach first with flashcards, then ask questions**. Levels open one after another, so learners don't have to choose what to do next.
 
-| Section | What it does |
+**Flow:** German Practice → *Nursing German* → Level 1 → flashcards → quiz (70% to pass) → the next level opens.
+
+| | |
 |---|---|
-| Hospital words | 61 illustrated swipe cards: hospital English, chart abbreviations, ward roles, places and false friends → German |
-| Ward phrases | 20 situations (200 exchanges), each taught in 3 steps: pattern → cards → *Klingel!* call-bell practice game |
-| Ward documents | 10 real ward documents (medication plan, vitals, roster, wristband, meal card, admission form, fluid chart, isolation sign, appointment slip, handover note) with 30 questions |
-| Emergency German | 25 swipe cards plus a timed drill (10 random situations from 25) |
-| Ward culture | 15 cards on how German wards differ from hospitals back home |
+| Levels | 21, in a fixed order (e.g. Who I am at work → Hospital places → Equipment → The body → Emergency German → …) |
+| Flashcards | Same look as A1 Flashcards: picture and German word, tap to flip to a gold back with the meaning and your answer. Swipe, Shuffle, Reset. |
+| Quick check | After every 20 cards, only on cards already seen |
+| Level quiz | Picture quiz, meaning quiz, true/false, ward situations, document reading and name spelling. The emergency level uses a timed drill. |
+| Content | 80 hospital words, 20 ward situations (200 exchanges), 10 ward documents, 25 emergency phrases, 25 drill situations, name spelling |
 
 It's a single static file (`index.html`) with no build step. Audio uses the browser's German text-to-speech voice as a placeholder. The illustrations and emoji are placeholder art.
