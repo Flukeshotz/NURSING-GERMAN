@@ -8,7 +8,7 @@ module.exports = function load() {
   const code = s.slice(0, cut) + "\n" + back + `
     const slugId = s => s.toLowerCase().replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue").replace(/ß/g,"ss").replace("·pl","").replace(/^(der|die|das|sich) /,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
     globalThis.APP = {PEOPLE,SHIFTS,BODY,WORDS,DOCS,EMERGENCY,DRILL,TR,GOALS,LEVELS,SPELL,DOC_KEYS,LETTER,levelDeck,levelTitle,roundForCard,exchangesFor,goalCards,backParts,wordByEn,slugId,plain,slotText};`;
-  const ctx = { console, window: {}, document: { querySelector: () => null, addEventListener() {} }, localStorage: undefined, fetch: () => Promise.reject() };
+  const ctx = { console, location: { search: "" }, window: {}, document: { querySelector: () => null, addEventListener() {} }, localStorage: undefined, fetch: () => Promise.reject() };
   vm.createContext(ctx);
   vm.runInContext(code, ctx);
   return ctx.APP;

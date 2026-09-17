@@ -205,13 +205,13 @@
       "order": 9,
       "type": "phrase",
       "front": {
-        "german": "Hilfe! Ich bin gefallen!",
+        "german": "Hilfe! Ich liege auf dem Boden!",
         "speaker": "yilmaz",
         "label": "Patient says",
         "image": "p-18-06.jpg"
       },
       "back": {
-        "meaning_en": "Help! I fell!",
+        "meaning_en": "Help! I'm lying on the floor!",
         "label": "You answer",
         "german": "Bleiben Sie liegen. Ich hole Hilfe.",
         "english": "Stay lying down. I'll get help.",
@@ -439,11 +439,11 @@
     },
     {
       "type": "choose_reply",
-      "from_card": "Hilfe! Ich bin gefallen!",
+      "from_card": "Hilfe! Ich liege auf dem Boden!",
       "supporting_image": "p-18-06.jpg",
       "speaker": "yilmaz",
-      "prompt_de": "Hilfe! Ich bin gefallen!",
-      "prompt_en": "Help! I fell!",
+      "prompt_de": "Hilfe! Ich liege auf dem Boden!",
+      "prompt_en": "Help! I'm lying on the floor!",
       "options": [
         "Bleiben Sie liegen. Ich hole Hilfe.",
         "Stehen Sie schnell auf!",

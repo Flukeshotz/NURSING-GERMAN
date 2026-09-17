@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "Social worker",
         "label": "Example",
-        "german": "Der Sozialdienst hilft nach der Entlassung.",
-        "english": "The social worker helps after discharge.",
+        "german": "Der Sozialdienst hilft Frau Weber.",
+        "english": "The social worker helps Frau Weber.",
         "note": "Helps patients with care after discharge."
       },
       "article_word": "der Sozialdienst",
