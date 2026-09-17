@@ -394,26 +394,10 @@
       "prompt_de": "Es ist so dunkel hier.",
       "prompt_en": "It's so dark here.",
       "options": [
-        {
-          "german": "das Licht",
-          "english": "the light",
-          "image": "i-licht.jpg"
-        },
-        {
-          "german": "das Fenster",
-          "english": "the window",
-          "image": "i-fenster.jpg"
-        },
-        {
-          "german": "das Telefon",
-          "english": "the phone",
-          "image": "i-telefon.jpg"
-        },
-        {
-          "german": "die Seife",
-          "english": "the soap",
-          "image": "i-seife.jpg"
-        }
+        "das Licht",
+        "das Fenster",
+        "das Telefon",
+        "die Seife"
       ],
       "answer": "das Licht",
       "feedback_de": "Ich mache das Licht an.",
@@ -427,26 +411,10 @@
       "prompt_de": "Mir ist kalt.",
       "prompt_en": "I'm cold.",
       "options": [
-        {
-          "german": "die Decke",
-          "english": "the blanket",
-          "image": "i-decke.jpg"
-        },
-        {
-          "german": "das Wasser",
-          "english": "the water",
-          "image": "i-wasser.jpg"
-        },
-        {
-          "german": "der Kaffee",
-          "english": "the coffee",
-          "image": "i-kaffee.jpg"
-        },
-        {
-          "german": "die Zahnbürste",
-          "english": "the toothbrush",
-          "image": "i-zahnbuerste.jpg"
-        }
+        "die Decke",
+        "das Wasser",
+        "der Kaffee",
+        "die Zahnbürste"
       ],
       "answer": "die Decke",
       "feedback_de": "Hier ist eine Decke.",
@@ -554,14 +522,6 @@
   ],
   "images_zip": "level-20-images.zip",
   "images": [
-    "i-decke.jpg",
-    "i-fenster.jpg",
-    "i-kaffee.jpg",
-    "i-licht.jpg",
-    "i-seife.jpg",
-    "i-telefon.jpg",
-    "i-wasser.jpg",
-    "i-zahnbuerste.jpg",
     "p-15-01.jpg",
     "p-15-02.jpg",
     "p-15-03.jpg",

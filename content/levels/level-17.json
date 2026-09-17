@@ -514,26 +514,10 @@
       "prompt_de": "Zimmer 4 ist Isolation. Was brauchst du?",
       "prompt_en": "Room 4 is isolation. What do you need?",
       "options": [
-        {
-          "german": "die Maske",
-          "english": "the mask",
-          "image": "i-maske.jpg"
-        },
-        {
-          "german": "der Kaffee",
-          "english": "the coffee",
-          "image": "i-kaffee.jpg"
-        },
-        {
-          "german": "die Zeitung",
-          "english": "the newspaper",
-          "image": "i-zeitung.jpg"
-        },
-        {
-          "german": "das Brot",
-          "english": "the bread",
-          "image": "i-brot.jpg"
-        }
+        "die Maske",
+        "der Kaffee",
+        "die Zeitung",
+        "das Brot"
       ],
       "answer": "die Maske",
       "feedback_de": "Ich brauche Maske, Kittel und Handschuhe.",
@@ -547,26 +531,10 @@
       "prompt_de": "Bitte ziehen Sie Handschuhe an.",
       "prompt_en": "Please put on gloves.",
       "options": [
-        {
-          "german": "die Handschuhe",
-          "english": "the gloves",
-          "image": "i-handschuhe.jpg"
-        },
-        {
-          "german": "die Socken",
-          "english": null,
-          "image": "i-socken.jpg"
-        },
-        {
-          "german": "die Jacke",
-          "english": "the jacket",
-          "image": "i-jacke.jpg"
-        },
-        {
-          "german": "die Schuhe",
-          "english": "the shoes",
-          "image": "i-schuhe.jpg"
-        }
+        "die Handschuhe",
+        "die Socken",
+        "die Jacke",
+        "die Schuhe"
       ],
       "answer": "die Handschuhe"
     },
@@ -620,26 +588,10 @@
       "prompt_de": "Das Bett ist schmutzig.",
       "prompt_en": "The bed is dirty.",
       "options": [
-        {
-          "german": "das Bett",
-          "english": "the bed",
-          "image": "i-bett.jpg"
-        },
-        {
-          "german": "die Tür",
-          "english": null,
-          "image": "i-tuer.jpg"
-        },
-        {
-          "german": "das Fenster",
-          "english": "the window",
-          "image": "i-fenster.jpg"
-        },
-        {
-          "german": "der Fernseher",
-          "english": null,
-          "image": "i-fernseher.jpg"
-        }
+        "das Bett",
+        "die Tür",
+        "das Fenster",
+        "der Fernseher"
       ],
       "answer": "das Bett",
       "feedback_de": "Ich mache das Bett sauber.",
@@ -691,18 +643,6 @@
   "images_zip": "level-17-images.zip",
   "images": [
     "d-isolation.jpg",
-    "i-bett.jpg",
-    "i-brot.jpg",
-    "i-fenster.jpg",
-    "i-fernseher.jpg",
-    "i-handschuhe.jpg",
-    "i-jacke.jpg",
-    "i-kaffee.jpg",
-    "i-maske.jpg",
-    "i-schuhe.jpg",
-    "i-socken.jpg",
-    "i-tuer.jpg",
-    "i-zeitung.jpg",
     "p-17-01.jpg",
     "p-17-02.jpg",
     "p-17-03.jpg",

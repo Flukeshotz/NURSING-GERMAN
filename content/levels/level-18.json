@@ -474,26 +474,10 @@
       "prompt_de": "Ich kann nicht aufstehen. Ich muss Wasser lassen.",
       "prompt_en": "I can't get up. I need to pass urine.",
       "options": [
-        {
-          "german": "die Urinflasche",
-          "english": "the urine bottle",
-          "image": "i-urinflasche.jpg"
-        },
-        {
-          "german": "die Tasse",
-          "english": null,
-          "image": "i-tasse.jpg"
-        },
-        {
-          "german": "die Creme",
-          "english": null,
-          "image": "i-creme.jpg"
-        },
-        {
-          "german": "das Wasser",
-          "english": "the water",
-          "image": "i-wasser.jpg"
-        }
+        "die Urinflasche",
+        "die Tasse",
+        "die Creme",
+        "das Wasser"
       ],
       "answer": "die Urinflasche",
       "feedback_de": "Hier ist die Urinflasche.",
@@ -507,26 +491,10 @@
       "prompt_de": "Ich brauche Toilettenpapier.",
       "prompt_en": "I need toilet paper.",
       "options": [
-        {
-          "german": "das Toilettenpapier",
-          "english": "the toilet paper",
-          "image": "i-toilettenpapier.jpg"
-        },
-        {
-          "german": "die Zeitung",
-          "english": "the newspaper",
-          "image": "i-zeitung.jpg"
-        },
-        {
-          "german": "die Handschuhe",
-          "english": "the gloves",
-          "image": "i-handschuhe.jpg"
-        },
-        {
-          "german": "die Zahnbürste",
-          "english": "the toothbrush",
-          "image": "i-zahnbuerste.jpg"
-        }
+        "das Toilettenpapier",
+        "die Zeitung",
+        "die Handschuhe",
+        "die Zahnbürste"
       ],
       "answer": "das Toilettenpapier"
     },
@@ -609,26 +577,10 @@
       "prompt_de": "Das Bett ist nass. Entschuldigung.",
       "prompt_en": "The bed is wet. Sorry.",
       "options": [
-        {
-          "german": "die Bettwäsche",
-          "english": "the bed linen",
-          "image": "i-bettwaesche.jpg"
-        },
-        {
-          "german": "das Brot",
-          "english": "the bread",
-          "image": "i-brot.jpg"
-        },
-        {
-          "german": "der Fernseher",
-          "english": null,
-          "image": "i-fernseher.jpg"
-        },
-        {
-          "german": "die Tasche",
-          "english": "the bag",
-          "image": "i-tasche.jpg"
-        }
+        "die Bettwäsche",
+        "das Brot",
+        "der Fernseher",
+        "die Tasche"
       ],
       "answer": "die Bettwäsche",
       "feedback_de": "Kein Problem. Ich wechsle die Bettwäsche.",
@@ -694,18 +646,6 @@
   "images_zip": "level-18-images.zip",
   "images": [
     "d-fluid.jpg",
-    "i-bettwaesche.jpg",
-    "i-brot.jpg",
-    "i-creme.jpg",
-    "i-fernseher.jpg",
-    "i-handschuhe.jpg",
-    "i-tasche.jpg",
-    "i-tasse.jpg",
-    "i-toilettenpapier.jpg",
-    "i-urinflasche.jpg",
-    "i-wasser.jpg",
-    "i-zahnbuerste.jpg",
-    "i-zeitung.jpg",
     "p-19-01.jpg",
     "p-19-02.jpg",
     "p-19-03.jpg",

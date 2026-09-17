@@ -54,8 +54,8 @@ Every card has the same front and back shape, so the UI uses one component.
 |---|---|---|
 | `image_choice` | `image` | one of `options` (German) |
 | `meaning_choice` | `image` + `german` | one of `options` (English) |
-| `picture_choice` | audio `prompt_de` + `prompt_en` | option objects `{german, english, image}`; `answer` = German |
-| `body_part_choice` | audio `prompt_de` | option objects `{german, english, body_part}` |
+| `picture_choice` | card `image` + audio `prompt_de` + `prompt_en` | German key word (text) |
+| `body_part_choice` | card `image` + audio `prompt_de` | German body part (text) |
 | `choose_reply` / `choose_reply_sie_du` | audio `prompt_de` | German reply |
 | `situation_choice` | `prompt_en` (no audio) | German sentence |
 | `listen_and_note` | audio `prompt_de` | value, e.g. `130/85` |
@@ -68,3 +68,5 @@ Every card has the same front and back shape, so the UI uses one component.
 Every question has `from_card`: the German text of the flashcard it tests. The quiz only asks about what the level taught, with the same picture.
 
 **Picture captions:** questions with a picture carry `image_caption` and `image_caption_lang`. Show the caption on the picture so it is unambiguous. When the answer is German, the caption is English; when the answer is English, the caption is German.
+
+**Options are always text, never pictures.** Pictures only appear in the question.

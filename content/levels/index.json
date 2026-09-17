@@ -18,7 +18,7 @@
       "images_zip": "level-02-images.zip",
       "flashcards": 25,
       "quiz_pool": 35,
-      "images": 31
+      "images": 22
     },
     {
       "level": 3,
@@ -27,7 +27,7 @@
       "images_zip": "level-03-images.zip",
       "flashcards": 24,
       "quiz_pool": 32,
-      "images": 39
+      "images": 21
     },
     {
       "level": 4,
@@ -54,7 +54,7 @@
       "images_zip": "level-06-images.zip",
       "flashcards": 15,
       "quiz_pool": 14,
-      "images": 20
+      "images": 12
     },
     {
       "level": 7,
@@ -81,7 +81,7 @@
       "images_zip": "level-09-images.zip",
       "flashcards": 28,
       "quiz_pool": 42,
-      "images": 37
+      "images": 25
     },
     {
       "level": 10,
@@ -90,7 +90,7 @@
       "images_zip": "level-10-images.zip",
       "flashcards": 14,
       "quiz_pool": 12,
-      "images": 20
+      "images": 11
     },
     {
       "level": 11,
@@ -99,7 +99,7 @@
       "images_zip": "level-11-images.zip",
       "flashcards": 16,
       "quiz_pool": 16,
-      "images": 27
+      "images": 13
     },
     {
       "level": 12,
@@ -126,7 +126,7 @@
       "images_zip": "level-14-images.zip",
       "flashcards": 22,
       "quiz_pool": 28,
-      "images": 27
+      "images": 19
     },
     {
       "level": 15,
@@ -135,7 +135,7 @@
       "images_zip": "level-15-images.zip",
       "flashcards": 14,
       "quiz_pool": 12,
-      "images": 23
+      "images": 11
     },
     {
       "level": 16,
@@ -144,7 +144,7 @@
       "images_zip": "level-16-images.zip",
       "flashcards": 16,
       "quiz_pool": 14,
-      "images": 17
+      "images": 13
     },
     {
       "level": 17,
@@ -153,7 +153,7 @@
       "images_zip": "level-17-images.zip",
       "flashcards": 16,
       "quiz_pool": 17,
-      "images": 25
+      "images": 13
     },
     {
       "level": 18,
@@ -162,7 +162,7 @@
       "images_zip": "level-18-images.zip",
       "flashcards": 16,
       "quiz_pool": 17,
-      "images": 25
+      "images": 13
     },
     {
       "level": 19,
@@ -171,7 +171,7 @@
       "images_zip": "level-19-images.zip",
       "flashcards": 15,
       "quiz_pool": 14,
-      "images": 16
+      "images": 12
     },
     {
       "level": 20,
@@ -180,7 +180,7 @@
       "images_zip": "level-20-images.zip",
       "flashcards": 14,
       "quiz_pool": 12,
-      "images": 19
+      "images": 11
     },
     {
       "level": 21,
@@ -189,7 +189,7 @@
       "images_zip": "level-21-images.zip",
       "flashcards": 15,
       "quiz_pool": 15,
-      "images": 20
+      "images": 12
     }
   ]
 }

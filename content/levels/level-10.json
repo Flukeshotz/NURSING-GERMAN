@@ -342,26 +342,10 @@
       "prompt_de": "Frau Weber, legen Sie sich bitte hin.",
       "prompt_en": "What should Frau Weber do?",
       "options": [
-        {
-          "german": "sich hinlegen",
-          "english": "to lie down",
-          "image": "i-hinlegen.jpg"
-        },
-        {
-          "german": "aufstehen",
-          "english": "to get up",
-          "image": "i-aufstehen.jpg"
-        },
-        {
-          "german": "sich setzen",
-          "english": null,
-          "image": "i-setzen.jpg"
-        },
-        {
-          "german": "gehen",
-          "english": "to walk",
-          "image": "i-gehen.jpg"
-        }
+        "sich hinlegen",
+        "aufstehen",
+        "sich setzen",
+        "gehen"
       ],
       "answer": "sich hinlegen"
     },
@@ -373,26 +357,10 @@
       "prompt_de": "Herr Schmidt, stehen Sie bitte langsam auf.",
       "prompt_en": "What should Herr Schmidt do?",
       "options": [
-        {
-          "german": "aufstehen",
-          "english": "to get up",
-          "image": "i-aufstehen.jpg"
-        },
-        {
-          "german": "sich hinlegen",
-          "english": "to lie down",
-          "image": "i-hinlegen.jpg"
-        },
-        {
-          "german": "sich setzen",
-          "english": null,
-          "image": "i-setzen.jpg"
-        },
-        {
-          "german": "gehen",
-          "english": "to walk",
-          "image": "i-gehen.jpg"
-        }
+        "aufstehen",
+        "sich hinlegen",
+        "sich setzen",
+        "gehen"
       ],
       "answer": "aufstehen"
     },
@@ -404,26 +372,10 @@
       "prompt_de": "Herr Schmidt, gehen Sie bitte langsam.",
       "prompt_en": "What should Herr Schmidt do?",
       "options": [
-        {
-          "german": "gehen",
-          "english": "to walk",
-          "image": "i-gehen.jpg"
-        },
-        {
-          "german": "laufen",
-          "english": null,
-          "image": "i-laufen.jpg"
-        },
-        {
-          "german": "sich hinlegen",
-          "english": "to lie down",
-          "image": "i-hinlegen.jpg"
-        },
-        {
-          "german": "sich setzen",
-          "english": null,
-          "image": "i-setzen.jpg"
-        }
+        "gehen",
+        "laufen",
+        "sich hinlegen",
+        "sich setzen"
       ],
       "answer": "gehen"
     },
@@ -463,26 +415,10 @@
       "prompt_de": "Zeigen Sie bitte die Zunge.",
       "prompt_en": "Please show your tongue.",
       "options": [
-        {
-          "german": "die Zunge",
-          "english": "the tongue",
-          "image": "i-zunge.jpg"
-        },
-        {
-          "german": "das Ohr",
-          "english": "the ear",
-          "image": "i-ohr.jpg"
-        },
-        {
-          "german": "das Auge",
-          "english": null,
-          "image": "i-auge.jpg"
-        },
-        {
-          "german": "die Hand",
-          "english": "the hand",
-          "image": "i-hand.jpg"
-        }
+        "die Zunge",
+        "das Ohr",
+        "das Auge",
+        "die Hand"
       ],
       "answer": "die Zunge"
     },
@@ -531,15 +467,6 @@
   ],
   "images_zip": "level-10-images.zip",
   "images": [
-    "i-aufstehen.jpg",
-    "i-auge.jpg",
-    "i-gehen.jpg",
-    "i-hand.jpg",
-    "i-hinlegen.jpg",
-    "i-laufen.jpg",
-    "i-ohr.jpg",
-    "i-setzen.jpg",
-    "i-zunge.jpg",
     "p-09-01.jpg",
     "p-09-02.jpg",
     "p-09-03.jpg",

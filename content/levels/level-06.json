@@ -445,26 +445,10 @@
       "prompt_de": "Ich habe Durst.",
       "prompt_en": "I'm thirsty.",
       "options": [
-        {
-          "german": "das Wasser",
-          "english": "the water",
-          "image": "i-wasser.jpg"
-        },
-        {
-          "german": "das Brot",
-          "english": "the bread",
-          "image": "i-brot.jpg"
-        },
-        {
-          "german": "die Tablette",
-          "english": "the tablet",
-          "image": "i-tablette.jpg"
-        },
-        {
-          "german": "das Bett",
-          "english": "the bed",
-          "image": "i-bett.jpg"
-        }
+        "das Wasser",
+        "das Brot",
+        "die Tablette",
+        "das Bett"
       ],
       "answer": "das Wasser",
       "feedback_de": "Hier ist Ihr Wasser.",
@@ -478,26 +462,10 @@
       "prompt_de": "Ich habe Fieber, glaube ich.",
       "prompt_en": "I have a fever, I think.",
       "options": [
-        {
-          "german": "das Thermometer",
-          "english": "the thermometer",
-          "image": "i-thermometer.jpg"
-        },
-        {
-          "german": "das Pflaster",
-          "english": "the plaster",
-          "image": "i-pflaster.jpg"
-        },
-        {
-          "german": "die Seife",
-          "english": "the soap",
-          "image": "i-seife.jpg"
-        },
-        {
-          "german": "die Zeitung",
-          "english": "the newspaper",
-          "image": "i-zeitung.jpg"
-        }
+        "das Thermometer",
+        "das Pflaster",
+        "die Seife",
+        "die Zeitung"
       ],
       "answer": "das Thermometer",
       "feedback_de": "Ich messe die Temperatur.",
@@ -511,26 +479,10 @@
       "prompt_de": "Ich habe Hunger.",
       "prompt_en": "I'm hungry.",
       "options": [
-        {
-          "german": "das Brot",
-          "english": "the bread",
-          "image": "i-brot.jpg"
-        },
-        {
-          "german": "das Wasser",
-          "english": "the water",
-          "image": "i-wasser.jpg"
-        },
-        {
-          "german": "die Tablette",
-          "english": "the tablet",
-          "image": "i-tablette.jpg"
-        },
-        {
-          "german": "das Bett",
-          "english": "the bed",
-          "image": "i-bett.jpg"
-        }
+        "das Brot",
+        "das Wasser",
+        "die Tablette",
+        "das Bett"
       ],
       "answer": "das Brot"
     },
@@ -622,14 +574,6 @@
   ],
   "images_zip": "level-06-images.zip",
   "images": [
-    "i-bett.jpg",
-    "i-brot.jpg",
-    "i-pflaster.jpg",
-    "i-seife.jpg",
-    "i-tablette.jpg",
-    "i-thermometer.jpg",
-    "i-wasser.jpg",
-    "i-zeitung.jpg",
     "p-05-01.jpg",
     "p-05-02.jpg",
     "p-05-03.jpg",

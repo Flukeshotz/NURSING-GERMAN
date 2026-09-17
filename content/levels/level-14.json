@@ -851,26 +851,10 @@
       "prompt_de": "Wo ist mein Schrank?",
       "prompt_en": "Where is my wardrobe?",
       "options": [
-        {
-          "german": "der Schrank",
-          "english": "the wardrobe",
-          "image": "i-schrank.jpg"
-        },
-        {
-          "german": "das Bett",
-          "english": "the bed",
-          "image": "i-bett.jpg"
-        },
-        {
-          "german": "die Tür",
-          "english": null,
-          "image": "i-tuer.jpg"
-        },
-        {
-          "german": "das Fenster",
-          "english": "the window",
-          "image": "i-fenster.jpg"
-        }
+        "der Schrank",
+        "das Bett",
+        "die Tür",
+        "das Fenster"
       ],
       "answer": "der Schrank",
       "feedback_de": "Hier ist Ihr Schrank.",
@@ -898,26 +882,10 @@
       "prompt_de": "Wie mache ich das Licht an?",
       "prompt_en": "How do I switch on the light?",
       "options": [
-        {
-          "german": "das Licht",
-          "english": "the light",
-          "image": "i-licht.jpg"
-        },
-        {
-          "german": "der Fernseher",
-          "english": null,
-          "image": "i-fernseher.jpg"
-        },
-        {
-          "german": "die Klingel",
-          "english": "the call bell",
-          "image": "i-klingel.jpg"
-        },
-        {
-          "german": "das Telefon",
-          "english": "the phone",
-          "image": "i-telefon.jpg"
-        }
+        "das Licht",
+        "der Fernseher",
+        "die Klingel",
+        "das Telefon"
       ],
       "answer": "das Licht",
       "feedback_de": "Hier, der Knopf am Bett.",
@@ -1050,14 +1018,6 @@
   "images": [
     "d-admission.jpg",
     "d-band.jpg",
-    "i-bett.jpg",
-    "i-fenster.jpg",
-    "i-fernseher.jpg",
-    "i-klingel.jpg",
-    "i-licht.jpg",
-    "i-schrank.jpg",
-    "i-telefon.jpg",
-    "i-tuer.jpg",
     "p-13-01.jpg",
     "p-13-02.jpg",
     "p-13-03.jpg",

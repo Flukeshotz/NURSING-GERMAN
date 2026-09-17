@@ -44,8 +44,8 @@ A.LEVELS.forEach((L, i) => {
   deck.filter(c => c.kind === "phrase").forEach(c => {
     const r = A.roundForCard(L, c); if (!r) return;
     const q = { type: TYPE[r.t], from_card: c.de, image: use(cardImage(c)), speaker: r.sp, prompt_de: r.de || null, prompt_en: r.en };
-    if (r.t === "need") { q.options = r.o.map(o => { const lab = o.split("|")[1]; return { german: plain(lab), english: A.TR[lab] || null, image: use("i-" + A.slugId(lab)) }; }); q.answer = plain(r.o[0].split("|")[1]); }
-    else if (r.t === "where") { q.options = r.o.map(k => ({ german: A.BODY[k][0], english: A.TR[A.BODY[k][0]] || null, body_part: k })); q.answer = A.BODY[r.o[0]][0]; }
+    if (r.t === "need") { q.options = r.o.map(o => plain(o.split("|")[1])); q.answer = plain(r.o[0].split("|")[1]); }
+    else if (r.t === "where") { q.options = r.o.map(k => A.BODY[k][0]); q.answer = A.BODY[r.o[0]][0]; }
     else { q.options = r.o.slice(); q.answer = r.o[0]; }
     if (r.fb) q.feedback_de = r.fb, q.feedback_en = A.TR[r.fb] || null;
     quiz.push(q);

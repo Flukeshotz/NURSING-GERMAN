@@ -387,26 +387,10 @@
       "prompt_de": "Wo ist mein Rollator?",
       "prompt_en": "Where is my walker?",
       "options": [
-        {
-          "german": "der Rollator",
-          "english": "the walker",
-          "image": "i-rollator.jpg"
-        },
-        {
-          "german": "der Rollstuhl",
-          "english": "the wheelchair",
-          "image": "i-rollstuhl.jpg"
-        },
-        {
-          "german": "das Bett",
-          "english": "the bed",
-          "image": "i-bett.jpg"
-        },
-        {
-          "german": "die Tür",
-          "english": null,
-          "image": "i-tuer.jpg"
-        }
+        "der Rollator",
+        "der Rollstuhl",
+        "das Bett",
+        "die Tür"
       ],
       "answer": "der Rollator",
       "feedback_de": "Hier ist Ihr Rollator.",
@@ -420,26 +404,10 @@
       "prompt_de": "Meine Schuhe, bitte.",
       "prompt_en": "My shoes, please.",
       "options": [
-        {
-          "german": "die Schuhe",
-          "english": "the shoes",
-          "image": "i-schuhe.jpg"
-        },
-        {
-          "german": "die Socken",
-          "english": null,
-          "image": "i-socken.jpg"
-        },
-        {
-          "german": "die Jacke",
-          "english": "the jacket",
-          "image": "i-jacke.jpg"
-        },
-        {
-          "german": "die Brille",
-          "english": "the glasses",
-          "image": "i-brille.jpg"
-        }
+        "die Schuhe",
+        "die Socken",
+        "die Jacke",
+        "die Brille"
       ],
       "answer": "die Schuhe",
       "feedback_de": "Hier sind Ihre Schuhe.",
@@ -523,26 +491,10 @@
       "prompt_de": "Hilf mir bitte. Wir drehen Herrn Yılmaz.",
       "prompt_en": "Help me please. We're turning Herr Yılmaz.",
       "options": [
-        {
-          "german": "helfen",
-          "english": "to help",
-          "image": "i-helfen.jpg"
-        },
-        {
-          "german": "essen",
-          "english": null,
-          "image": "i-essen.jpg"
-        },
-        {
-          "german": "schlafen",
-          "english": null,
-          "image": "i-schlafen.jpg"
-        },
-        {
-          "german": "anrufen",
-          "english": null,
-          "image": "i-anrufen.jpg"
-        }
+        "helfen",
+        "essen",
+        "schlafen",
+        "anrufen"
       ],
       "answer": "helfen",
       "feedback_de": "Okay, ich helfe dir.",
@@ -566,18 +518,6 @@
   ],
   "images_zip": "level-15-images.zip",
   "images": [
-    "i-anrufen.jpg",
-    "i-bett.jpg",
-    "i-brille.jpg",
-    "i-essen.jpg",
-    "i-helfen.jpg",
-    "i-jacke.jpg",
-    "i-rollator.jpg",
-    "i-rollstuhl.jpg",
-    "i-schlafen.jpg",
-    "i-schuhe.jpg",
-    "i-socken.jpg",
-    "i-tuer.jpg",
     "p-18-01.jpg",
     "p-18-02.jpg",
     "p-18-03.jpg",

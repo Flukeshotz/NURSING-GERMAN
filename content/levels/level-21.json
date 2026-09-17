@@ -463,26 +463,10 @@
       "prompt_de": "Wo ist mein Arztbrief?",
       "prompt_en": "Where is my doctor's letter?",
       "options": [
-        {
-          "german": "der Arztbrief",
-          "english": "the doctor's letter",
-          "image": "i-arztbrief.jpg"
-        },
-        {
-          "german": "die Zeitung",
-          "english": "the newspaper",
-          "image": "i-zeitung.jpg"
-        },
-        {
-          "german": "die Tablette",
-          "english": "the tablet",
-          "image": "i-tablette.jpg"
-        },
-        {
-          "german": "die Brille",
-          "english": "the glasses",
-          "image": "i-brille.jpg"
-        }
+        "der Arztbrief",
+        "die Zeitung",
+        "die Tablette",
+        "die Brille"
       ],
       "answer": "der Arztbrief",
       "feedback_de": "Hier ist Ihr Arztbrief.",
@@ -524,26 +508,10 @@
       "prompt_de": "Wo sind meine Sachen?",
       "prompt_en": "Where are my things?",
       "options": [
-        {
-          "german": "die Tasche",
-          "english": "the bag",
-          "image": "i-tasche.jpg"
-        },
-        {
-          "german": "das Bett",
-          "english": "the bed",
-          "image": "i-bett.jpg"
-        },
-        {
-          "german": "die Toilette",
-          "english": "the toilet",
-          "image": "i-toilette.jpg"
-        },
-        {
-          "german": "das Stethoskop",
-          "english": null,
-          "image": "i-stethoskop.jpg"
-        }
+        "die Tasche",
+        "das Bett",
+        "die Toilette",
+        "das Stethoskop"
       ],
       "answer": "die Tasche",
       "feedback_de": "Hier ist Ihre Tasche.",
@@ -637,14 +605,6 @@
   "images_zip": "level-21-images.zip",
   "images": [
     "d-appointment.jpg",
-    "i-arztbrief.jpg",
-    "i-bett.jpg",
-    "i-brille.jpg",
-    "i-stethoskop.jpg",
-    "i-tablette.jpg",
-    "i-tasche.jpg",
-    "i-toilette.jpg",
-    "i-zeitung.jpg",
     "p-14-01.jpg",
     "p-14-02.jpg",
     "p-14-03.jpg",

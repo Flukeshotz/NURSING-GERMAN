@@ -458,26 +458,10 @@
       "prompt_de": "Wo kann ich einen Kaffee trinken?",
       "prompt_en": "Where can I get a coffee?",
       "options": [
-        {
-          "german": "die Cafeteria",
-          "english": "the cafeteria",
-          "image": "i-cafeteria.jpg"
-        },
-        {
-          "german": "die Toilette",
-          "english": "the toilet",
-          "image": "i-toilette.jpg"
-        },
-        {
-          "german": "die Notaufnahme",
-          "english": "the emergency room",
-          "image": "i-notaufnahme.jpg"
-        },
-        {
-          "german": "das Labor",
-          "english": null,
-          "image": "i-labor.jpg"
-        }
+        "die Cafeteria",
+        "die Toilette",
+        "die Notaufnahme",
+        "das Labor"
       ],
       "answer": "die Cafeteria",
       "feedback_de": "Die Cafeteria ist im Erdgeschoss.",
@@ -585,10 +569,6 @@
   ],
   "images_zip": "level-19-images.zip",
   "images": [
-    "i-cafeteria.jpg",
-    "i-labor.jpg",
-    "i-notaufnahme.jpg",
-    "i-toilette.jpg",
     "p-20-01.jpg",
     "p-20-02.jpg",
     "p-20-03.jpg",

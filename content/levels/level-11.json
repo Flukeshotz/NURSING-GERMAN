@@ -509,26 +509,10 @@
       "prompt_de": "Ich möchte zur Toilette.",
       "prompt_en": "I'd like to go to the toilet.",
       "options": [
-        {
-          "german": "die Toilette",
-          "english": "the toilet",
-          "image": "i-toilette.jpg"
-        },
-        {
-          "german": "der Aufzug",
-          "english": "the lift",
-          "image": "i-aufzug.jpg"
-        },
-        {
-          "german": "das Bett",
-          "english": "the bed",
-          "image": "i-bett.jpg"
-        },
-        {
-          "german": "die Cafeteria",
-          "english": "the cafeteria",
-          "image": "i-cafeteria.jpg"
-        }
+        "die Toilette",
+        "der Aufzug",
+        "das Bett",
+        "die Cafeteria"
       ],
       "answer": "die Toilette",
       "feedback_de": "Kommen Sie, ich helfe Ihnen.",
@@ -542,26 +526,10 @@
       "prompt_de": "Wo ist meine Zahnbürste?",
       "prompt_en": "Where is my toothbrush?",
       "options": [
-        {
-          "german": "die Zahnbürste",
-          "english": "the toothbrush",
-          "image": "i-zahnbuerste.jpg"
-        },
-        {
-          "german": "die Seife",
-          "english": "the soap",
-          "image": "i-seife.jpg"
-        },
-        {
-          "german": "die Schere",
-          "english": null,
-          "image": "i-schere.jpg"
-        },
-        {
-          "german": "die Brille",
-          "english": "the glasses",
-          "image": "i-brille.jpg"
-        }
+        "die Zahnbürste",
+        "die Seife",
+        "die Schere",
+        "die Brille"
       ],
       "answer": "die Zahnbürste",
       "feedback_de": "Hier ist Ihre Zahnbürste.",
@@ -575,26 +543,10 @@
       "prompt_de": "Ich möchte mich waschen.",
       "prompt_en": "I'd like to wash.",
       "options": [
-        {
-          "german": "die Seife",
-          "english": "the soap",
-          "image": "i-seife.jpg"
-        },
-        {
-          "german": "die Zeitung",
-          "english": "the newspaper",
-          "image": "i-zeitung.jpg"
-        },
-        {
-          "german": "der Kaffee",
-          "english": "the coffee",
-          "image": "i-kaffee.jpg"
-        },
-        {
-          "german": "das Ladekabel",
-          "english": "the charger",
-          "image": "i-ladekabel.jpg"
-        }
+        "die Seife",
+        "die Zeitung",
+        "der Kaffee",
+        "das Ladekabel"
       ],
       "answer": "die Seife",
       "feedback_de": "Hier ist die Seife.",
@@ -608,26 +560,10 @@
       "prompt_de": "Ich möchte meine Jacke anziehen.",
       "prompt_en": "I'd like to put on my jacket.",
       "options": [
-        {
-          "german": "die Jacke",
-          "english": "the jacket",
-          "image": "i-jacke.jpg"
-        },
-        {
-          "german": "die Brille",
-          "english": "the glasses",
-          "image": "i-brille.jpg"
-        },
-        {
-          "german": "die Socken",
-          "english": null,
-          "image": "i-socken.jpg"
-        },
-        {
-          "german": "die Schuhe",
-          "english": "the shoes",
-          "image": "i-schuhe.jpg"
-        }
+        "die Jacke",
+        "die Brille",
+        "die Socken",
+        "die Schuhe"
       ],
       "answer": "die Jacke"
     },
@@ -676,20 +612,6 @@
   ],
   "images_zip": "level-11-images.zip",
   "images": [
-    "i-aufzug.jpg",
-    "i-bett.jpg",
-    "i-brille.jpg",
-    "i-cafeteria.jpg",
-    "i-jacke.jpg",
-    "i-kaffee.jpg",
-    "i-ladekabel.jpg",
-    "i-schere.jpg",
-    "i-schuhe.jpg",
-    "i-seife.jpg",
-    "i-socken.jpg",
-    "i-toilette.jpg",
-    "i-zahnbuerste.jpg",
-    "i-zeitung.jpg",
     "p-10-01.jpg",
     "p-10-02.jpg",
     "p-10-03.jpg",

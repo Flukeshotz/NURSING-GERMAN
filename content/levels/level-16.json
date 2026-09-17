@@ -461,26 +461,10 @@
       "prompt_de": "Das Telefon klingelt!",
       "prompt_en": "The phone is ringing!",
       "options": [
-        {
-          "german": "das Telefon",
-          "english": "the phone",
-          "image": "i-telefon.jpg"
-        },
-        {
-          "german": "die Klingel",
-          "english": "the call bell",
-          "image": "i-klingel.jpg"
-        },
-        {
-          "german": "das Handy",
-          "english": null,
-          "image": "i-handy.jpg"
-        },
-        {
-          "german": "die Uhr",
-          "english": null,
-          "image": "i-uhr.jpg"
-        }
+        "das Telefon",
+        "die Klingel",
+        "das Handy",
+        "die Uhr"
       ],
       "answer": "das Telefon",
       "feedback_de": "Station 3, Priya, guten Tag.",
@@ -654,10 +638,6 @@
   ],
   "images_zip": "level-16-images.zip",
   "images": [
-    "i-handy.jpg",
-    "i-klingel.jpg",
-    "i-telefon.jpg",
-    "i-uhr.jpg",
     "p-16-01.jpg",
     "p-16-02.jpg",
     "p-16-03.jpg",

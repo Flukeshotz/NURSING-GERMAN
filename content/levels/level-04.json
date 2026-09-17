@@ -296,26 +296,10 @@
       "prompt_de": "Mein Kopf tut weh.",
       "prompt_en": "My head hurts.",
       "options": [
-        {
-          "german": "der Kopf",
-          "english": "the head",
-          "body_part": "kopf"
-        },
-        {
-          "german": "der Bauch",
-          "english": "the stomach",
-          "body_part": "bauch"
-        },
-        {
-          "german": "das Bein",
-          "english": "the leg",
-          "body_part": "bein"
-        },
-        {
-          "german": "die Hand",
-          "english": "the hand",
-          "body_part": "hand"
-        }
+        "der Kopf",
+        "der Bauch",
+        "das Bein",
+        "die Hand"
       ],
       "answer": "der Kopf",
       "feedback_de": "Ihr Kopf tut weh. Ich hole den Arzt.",
@@ -329,26 +313,10 @@
       "prompt_de": "Mein Bauch tut weh.",
       "prompt_en": "My stomach hurts.",
       "options": [
-        {
-          "german": "der Bauch",
-          "english": "the stomach",
-          "body_part": "bauch"
-        },
-        {
-          "german": "die Brust",
-          "english": "the chest",
-          "body_part": "brust"
-        },
-        {
-          "german": "der Kopf",
-          "english": "the head",
-          "body_part": "kopf"
-        },
-        {
-          "german": "der Fuß",
-          "english": "the foot",
-          "body_part": "fuss"
-        }
+        "der Bauch",
+        "die Brust",
+        "der Kopf",
+        "der Fuß"
       ],
       "answer": "der Bauch"
     },
@@ -360,26 +328,10 @@
       "prompt_de": "Mein Arm tut weh.",
       "prompt_en": "My arm hurts.",
       "options": [
-        {
-          "german": "der Arm",
-          "english": "the arm",
-          "body_part": "arm"
-        },
-        {
-          "german": "das Bein",
-          "english": "the leg",
-          "body_part": "bein"
-        },
-        {
-          "german": "der Hals",
-          "english": "the throat / neck",
-          "body_part": "hals"
-        },
-        {
-          "german": "der Bauch",
-          "english": "the stomach",
-          "body_part": "bauch"
-        }
+        "der Arm",
+        "das Bein",
+        "der Hals",
+        "der Bauch"
       ],
       "answer": "der Arm"
     },
@@ -391,26 +343,10 @@
       "prompt_de": "Mein Fuß tut weh.",
       "prompt_en": "My foot hurts.",
       "options": [
-        {
-          "german": "der Fuß",
-          "english": "the foot",
-          "body_part": "fuss"
-        },
-        {
-          "german": "die Hand",
-          "english": "the hand",
-          "body_part": "hand"
-        },
-        {
-          "german": "der Arm",
-          "english": "the arm",
-          "body_part": "arm"
-        },
-        {
-          "german": "der Hals",
-          "english": "the throat / neck",
-          "body_part": "hals"
-        }
+        "der Fuß",
+        "die Hand",
+        "der Arm",
+        "der Hals"
       ],
       "answer": "der Fuß"
     },
@@ -422,26 +358,10 @@
       "prompt_de": "Mein Hals tut weh.",
       "prompt_en": "My throat hurts.",
       "options": [
-        {
-          "german": "der Hals",
-          "english": "the throat / neck",
-          "body_part": "hals"
-        },
-        {
-          "german": "der Bauch",
-          "english": "the stomach",
-          "body_part": "bauch"
-        },
-        {
-          "german": "das Bein",
-          "english": "the leg",
-          "body_part": "bein"
-        },
-        {
-          "german": "die Hand",
-          "english": "the hand",
-          "body_part": "hand"
-        }
+        "der Hals",
+        "der Bauch",
+        "das Bein",
+        "die Hand"
       ],
       "answer": "der Hals"
     },
@@ -453,26 +373,10 @@
       "prompt_de": "Mein Knie tut weh.",
       "prompt_en": "My knee hurts.",
       "options": [
-        {
-          "german": "das Knie",
-          "english": "the knee",
-          "body_part": "knie"
-        },
-        {
-          "german": "der Arm",
-          "english": "the arm",
-          "body_part": "arm"
-        },
-        {
-          "german": "der Kopf",
-          "english": "the head",
-          "body_part": "kopf"
-        },
-        {
-          "german": "der Bauch",
-          "english": "the stomach",
-          "body_part": "bauch"
-        }
+        "das Knie",
+        "der Arm",
+        "der Kopf",
+        "der Bauch"
       ],
       "answer": "das Knie"
     },
@@ -484,26 +388,10 @@
       "prompt_de": "Mein Ohr tut weh.",
       "prompt_en": "My ear hurts.",
       "options": [
-        {
-          "german": "das Ohr",
-          "english": "the ear",
-          "body_part": "ohr"
-        },
-        {
-          "german": "der Mund",
-          "english": null,
-          "body_part": "mund"
-        },
-        {
-          "german": "der Hals",
-          "english": "the throat / neck",
-          "body_part": "hals"
-        },
-        {
-          "german": "der Bauch",
-          "english": "the stomach",
-          "body_part": "bauch"
-        }
+        "das Ohr",
+        "der Mund",
+        "der Hals",
+        "der Bauch"
       ],
       "answer": "das Ohr"
     },
@@ -515,26 +403,10 @@
       "prompt_de": "Meine Hand ist kalt.",
       "prompt_en": "My hand is cold.",
       "options": [
-        {
-          "german": "die Hand",
-          "english": "the hand",
-          "body_part": "hand"
-        },
-        {
-          "german": "der Fuß",
-          "english": "the foot",
-          "body_part": "fuss"
-        },
-        {
-          "german": "der Kopf",
-          "english": "the head",
-          "body_part": "kopf"
-        },
-        {
-          "german": "die Brust",
-          "english": "the chest",
-          "body_part": "brust"
-        }
+        "die Hand",
+        "der Fuß",
+        "der Kopf",
+        "die Brust"
       ],
       "answer": "die Hand"
     },
@@ -546,26 +418,10 @@
       "prompt_de": "Meine Brust tut weh.",
       "prompt_en": "My chest hurts.",
       "options": [
-        {
-          "german": "die Brust",
-          "english": "the chest",
-          "body_part": "brust"
-        },
-        {
-          "german": "der Bauch",
-          "english": "the stomach",
-          "body_part": "bauch"
-        },
-        {
-          "german": "der Kopf",
-          "english": "the head",
-          "body_part": "kopf"
-        },
-        {
-          "german": "der Fuß",
-          "english": "the foot",
-          "body_part": "fuss"
-        }
+        "die Brust",
+        "der Bauch",
+        "der Kopf",
+        "der Fuß"
       ],
       "answer": "die Brust",
       "feedback_de": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
@@ -579,26 +435,10 @@
       "prompt_de": "Zeigen Sie bitte Ihr Bein.",
       "prompt_en": "Please show your leg.",
       "options": [
-        {
-          "german": "das Bein",
-          "english": "the leg",
-          "body_part": "bein"
-        },
-        {
-          "german": "der Arm",
-          "english": "the arm",
-          "body_part": "arm"
-        },
-        {
-          "german": "der Hals",
-          "english": "the throat / neck",
-          "body_part": "hals"
-        },
-        {
-          "german": "der Kopf",
-          "english": "the head",
-          "body_part": "kopf"
-        }
+        "das Bein",
+        "der Arm",
+        "der Hals",
+        "der Kopf"
       ],
       "answer": "das Bein"
     }

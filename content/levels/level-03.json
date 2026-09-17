@@ -863,26 +863,10 @@
       "prompt_de": "Ich brauche meine Brille.",
       "prompt_en": "I need my glasses.",
       "options": [
-        {
-          "german": "die Brille",
-          "english": "the glasses",
-          "image": "i-brille.jpg"
-        },
-        {
-          "german": "das Telefon",
-          "english": "the phone",
-          "image": "i-telefon.jpg"
-        },
-        {
-          "german": "die Tablette",
-          "english": "the tablet",
-          "image": "i-tablette.jpg"
-        },
-        {
-          "german": "die Zeitung",
-          "english": "the newspaper",
-          "image": "i-zeitung.jpg"
-        }
+        "die Brille",
+        "das Telefon",
+        "die Tablette",
+        "die Zeitung"
       ],
       "answer": "die Brille",
       "feedback_de": "Hier ist Ihre Brille.",
@@ -896,26 +880,10 @@
       "prompt_de": "Wo ist die Klingel?",
       "prompt_en": "Where is the call bell?",
       "options": [
-        {
-          "german": "die Klingel",
-          "english": "the call bell",
-          "image": "i-klingel.jpg"
-        },
-        {
-          "german": "die Uhr",
-          "english": null,
-          "image": "i-uhr.jpg"
-        },
-        {
-          "german": "das Handy",
-          "english": null,
-          "image": "i-handy.jpg"
-        },
-        {
-          "german": "das Fenster",
-          "english": "the window",
-          "image": "i-fenster.jpg"
-        }
+        "die Klingel",
+        "die Uhr",
+        "das Handy",
+        "das Fenster"
       ],
       "answer": "die Klingel",
       "feedback_de": "Hier ist die Klingel. Bitte klingeln Sie.",
@@ -929,26 +897,10 @@
       "prompt_de": "Ich möchte die Zeitung, bitte.",
       "prompt_en": "I'd like the newspaper, please.",
       "options": [
-        {
-          "german": "die Zeitung",
-          "english": "the newspaper",
-          "image": "i-zeitung.jpg"
-        },
-        {
-          "german": "das Handy",
-          "english": null,
-          "image": "i-handy.jpg"
-        },
-        {
-          "german": "die Brille",
-          "english": "the glasses",
-          "image": "i-brille.jpg"
-        },
-        {
-          "german": "der Tee",
-          "english": "the tea",
-          "image": "i-tee.jpg"
-        }
+        "die Zeitung",
+        "das Handy",
+        "die Brille",
+        "der Tee"
       ],
       "answer": "die Zeitung",
       "feedback_de": "Hier ist die Zeitung.",
@@ -962,26 +914,10 @@
       "prompt_de": "Mein Handy ist leer.",
       "prompt_en": "My phone is empty (battery dead).",
       "options": [
-        {
-          "german": "das Ladekabel",
-          "english": "the charger",
-          "image": "i-ladekabel.jpg"
-        },
-        {
-          "german": "das Telefon",
-          "english": "the phone",
-          "image": "i-telefon.jpg"
-        },
-        {
-          "german": "die Klingel",
-          "english": "the call bell",
-          "image": "i-klingel.jpg"
-        },
-        {
-          "german": "die Uhr",
-          "english": null,
-          "image": "i-uhr.jpg"
-        }
+        "das Ladekabel",
+        "das Telefon",
+        "die Klingel",
+        "die Uhr"
       ],
       "answer": "das Ladekabel",
       "feedback_de": "Hier ist ein Ladekabel.",
@@ -995,26 +931,10 @@
       "prompt_de": "Ich brauche ein Pflaster.",
       "prompt_en": "I need a plaster.",
       "options": [
-        {
-          "german": "das Pflaster",
-          "english": "the plaster",
-          "image": "i-pflaster.jpg"
-        },
-        {
-          "german": "die Schere",
-          "english": null,
-          "image": "i-schere.jpg"
-        },
-        {
-          "german": "die Seife",
-          "english": "the soap",
-          "image": "i-seife.jpg"
-        },
-        {
-          "german": "die Handschuhe",
-          "english": "the gloves",
-          "image": "i-handschuhe.jpg"
-        }
+        "das Pflaster",
+        "die Schere",
+        "die Seife",
+        "die Handschuhe"
       ],
       "answer": "das Pflaster"
     },
@@ -1026,26 +946,10 @@
       "prompt_de": "Ich brauche Handschuhe.",
       "prompt_en": "I need gloves.",
       "options": [
-        {
-          "german": "die Handschuhe",
-          "english": "the gloves",
-          "image": "i-handschuhe.jpg"
-        },
-        {
-          "german": "die Maske",
-          "english": "the mask",
-          "image": "i-maske.jpg"
-        },
-        {
-          "german": "das Pflaster",
-          "english": "the plaster",
-          "image": "i-pflaster.jpg"
-        },
-        {
-          "german": "die Schere",
-          "english": null,
-          "image": "i-schere.jpg"
-        }
+        "die Handschuhe",
+        "die Maske",
+        "das Pflaster",
+        "die Schere"
       ],
       "answer": "die Handschuhe"
     },
@@ -1057,26 +961,10 @@
       "prompt_de": "Das Thermometer, bitte.",
       "prompt_en": "The thermometer, please.",
       "options": [
-        {
-          "german": "das Thermometer",
-          "english": "the thermometer",
-          "image": "i-thermometer.jpg"
-        },
-        {
-          "german": "die Spritze",
-          "english": "the syringe",
-          "image": "i-spritze.jpg"
-        },
-        {
-          "german": "das Stethoskop",
-          "english": null,
-          "image": "i-stethoskop.jpg"
-        },
-        {
-          "german": "die Tablette",
-          "english": "the tablet",
-          "image": "i-tablette.jpg"
-        }
+        "das Thermometer",
+        "die Spritze",
+        "das Stethoskop",
+        "die Tablette"
       ],
       "answer": "das Thermometer"
     },
@@ -1088,26 +976,10 @@
       "prompt_de": "Die Spritze, bitte.",
       "prompt_en": "The syringe, please.",
       "options": [
-        {
-          "german": "die Spritze",
-          "english": "the syringe",
-          "image": "i-spritze.jpg"
-        },
-        {
-          "german": "das Thermometer",
-          "english": "the thermometer",
-          "image": "i-thermometer.jpg"
-        },
-        {
-          "german": "das Pflaster",
-          "english": "the plaster",
-          "image": "i-pflaster.jpg"
-        },
-        {
-          "german": "die Handschuhe",
-          "english": "the gloves",
-          "image": "i-handschuhe.jpg"
-        }
+        "die Spritze",
+        "das Thermometer",
+        "das Pflaster",
+        "die Handschuhe"
       ],
       "answer": "die Spritze"
     },
@@ -1142,24 +1014,6 @@
   ],
   "images_zip": "level-03-images.zip",
   "images": [
-    "i-brille.jpg",
-    "i-fenster.jpg",
-    "i-handschuhe.jpg",
-    "i-handy.jpg",
-    "i-klingel.jpg",
-    "i-ladekabel.jpg",
-    "i-maske.jpg",
-    "i-pflaster.jpg",
-    "i-schere.jpg",
-    "i-seife.jpg",
-    "i-spritze.jpg",
-    "i-stethoskop.jpg",
-    "i-tablette.jpg",
-    "i-tee.jpg",
-    "i-telefon.jpg",
-    "i-thermometer.jpg",
-    "i-uhr.jpg",
-    "i-zeitung.jpg",
     "p-03-01.jpg",
     "p-03-02.jpg",
     "p-03-03.jpg",

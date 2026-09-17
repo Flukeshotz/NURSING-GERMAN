@@ -42,7 +42,6 @@ Or set `OPENAI_API_KEY` to use OpenAI directly.
 | Prefix | Used for | Example |
 |---|---|---|
 | `w-` | Word flashcards and picture quiz questions | `w-bp.jpg` (der Blutdruck) |
-| `i-` | Picture answer options in ward situations | `i-rollstuhl.jpg` (der Rollstuhl) |
 | `p-SS-NN` | Phrase and pattern flashcards (situation SS, exchange NN) | `p-02-01.jpg` (Wo ist die Toilette?) |
 | `e-NN` | Emergency flashcards | `e-01.jpg` (Hilfe!) |
 | `d-<doc>` | Document flashcards | `d-med.jpg` (Medikamentenplan) |

@@ -1048,26 +1048,10 @@
       "prompt_de": "Frau Weber bekommt eine Tablette.",
       "prompt_en": "Frau Weber gets a tablet.",
       "options": [
-        {
-          "german": "die Tablette",
-          "english": "the tablet",
-          "image": "i-tablette.jpg"
-        },
-        {
-          "german": "die Spritze",
-          "english": "the syringe",
-          "image": "i-spritze.jpg"
-        },
-        {
-          "german": "der Tee",
-          "english": "the tea",
-          "image": "i-tee.jpg"
-        },
-        {
-          "german": "das Pflaster",
-          "english": "the plaster",
-          "image": "i-pflaster.jpg"
-        }
+        "die Tablette",
+        "die Spritze",
+        "der Tee",
+        "das Pflaster"
       ],
       "answer": "die Tablette"
     },
@@ -1149,26 +1133,10 @@
       "prompt_de": "Ich möchte einen Tee.",
       "prompt_en": "I'd like a tea.",
       "options": [
-        {
-          "german": "der Tee",
-          "english": "the tea",
-          "image": "i-tee.jpg"
-        },
-        {
-          "german": "der Kaffee",
-          "english": "the coffee",
-          "image": "i-kaffee.jpg"
-        },
-        {
-          "german": "das Wasser",
-          "english": "the water",
-          "image": "i-wasser.jpg"
-        },
-        {
-          "german": "die Suppe",
-          "english": null,
-          "image": "i-suppe.jpg"
-        }
+        "der Tee",
+        "der Kaffee",
+        "das Wasser",
+        "die Suppe"
       ],
       "answer": "der Tee",
       "feedback_de": "Hier ist Ihr Tee.",
@@ -1196,26 +1164,10 @@
       "prompt_de": "Ich esse kein Fleisch.",
       "prompt_en": "I don't eat meat. Which lunch is OK?",
       "options": [
-        {
-          "german": "der Salat",
-          "english": "the salad",
-          "image": "i-salat.jpg"
-        },
-        {
-          "german": "das Hähnchen",
-          "english": null,
-          "image": "i-haehnchen.jpg"
-        },
-        {
-          "german": "das Fleisch",
-          "english": null,
-          "image": "i-fleisch.jpg"
-        },
-        {
-          "german": "die Wurst",
-          "english": null,
-          "image": "i-wurst.jpg"
-        }
+        "der Salat",
+        "das Hähnchen",
+        "das Fleisch",
+        "die Wurst"
       ],
       "answer": "der Salat"
     },
@@ -1227,26 +1179,10 @@
       "prompt_de": "Ich möchte bitte Kaffee mit Milch.",
       "prompt_en": "I'd like coffee with milk, please.",
       "options": [
-        {
-          "german": "der Kaffee",
-          "english": "the coffee",
-          "image": "i-kaffee.jpg"
-        },
-        {
-          "german": "der Tee",
-          "english": "the tea",
-          "image": "i-tee.jpg"
-        },
-        {
-          "german": "die Milch",
-          "english": null,
-          "image": "i-milch.jpg"
-        },
-        {
-          "german": "das Wasser",
-          "english": "the water",
-          "image": "i-wasser.jpg"
-        }
+        "der Kaffee",
+        "der Tee",
+        "die Milch",
+        "das Wasser"
       ],
       "answer": "der Kaffee",
       "feedback_de": "Hier ist Ihr Kaffee mit Milch.",
@@ -1341,18 +1277,6 @@
   "images": [
     "d-meal.jpg",
     "d-med.jpg",
-    "i-fleisch.jpg",
-    "i-haehnchen.jpg",
-    "i-kaffee.jpg",
-    "i-milch.jpg",
-    "i-pflaster.jpg",
-    "i-salat.jpg",
-    "i-spritze.jpg",
-    "i-suppe.jpg",
-    "i-tablette.jpg",
-    "i-tee.jpg",
-    "i-wasser.jpg",
-    "i-wurst.jpg",
     "p-08-01.jpg",
     "p-08-02.jpg",
     "p-08-03.jpg",
