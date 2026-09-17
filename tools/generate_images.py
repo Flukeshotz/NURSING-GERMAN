@@ -26,7 +26,7 @@ def generate(item, key, model, quality, url, headers):
     out = os.path.join(APP, item["file"])
     if os.path.exists(out):
         return item["id"], "skipped"
-    body = json.dumps({"model": model, "prompt": item["prompt"], "size": "1024x1024",
+    body = json.dumps({"model": model, "prompt": item["prompt"], "size": item.get("size", "1024x1024"),
                        "quality": quality, "output_format": "jpeg", "output_compression": 82, "n": 1}).encode()
     req = urllib.request.Request(url, data=body, headers=headers)
     try:

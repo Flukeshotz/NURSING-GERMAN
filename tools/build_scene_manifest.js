@@ -2,7 +2,7 @@
 const fs = require("fs"), path = require("path");
 const A = require("./lib_load")();
 const man = JSON.parse(fs.readFileSync(path.join(__dirname, "image_manifest.json"), "utf8"));
-const STYLE = s => `Soft 3D illustration, friendly and clean, like a modern language-learning app. ${s} Plain very light blue background, soft studio lighting, warm realistic colours. Absolutely no text, no letters, no numbers, no speech bubbles, no logos.`;
+const STYLE = s => `Realistic photograph in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. ${s} Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.`;
 const WHO = {
   weber: "Frau Weber, an 82-year-old German woman patient with short grey hair, in a hospital gown",
   schmidt: "Herr Schmidt, a 67-year-old German man patient with glasses, in pyjamas",

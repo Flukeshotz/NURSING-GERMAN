@@ -8,7 +8,9 @@ for f in sorted(os.listdir(D)):
     if f.endswith(".jpg"):
         p = os.path.join(D, f)
         im = Image.open(p)
-        if im.size[0] > 640:
-            im.convert("RGB").resize((640, 640), Image.LANCZOS).save(p, "JPEG", quality=78, optimize=True, progressive=True)
+        limit = 640 if im.size[0] == im.size[1] else 1200   # square cards 640, wide header 1200
+        if max(im.size) > limit:
+            im = im.convert("RGB"); im.thumbnail((limit, limit), Image.LANCZOS)
+            im.save(p, "JPEG", quality=78, optimize=True, progressive=True)
             done += 1
 print(f"optimized {done} images")
