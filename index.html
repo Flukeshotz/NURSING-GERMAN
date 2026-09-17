@@ -128,6 +128,9 @@
 .q-img img.pic{width:180px;height:180px;object-fit:cover;border-radius:12px}
 .opt.pic .emo img.pic{width:64px;height:64px;object-fit:cover;border-radius:10px;display:block}
 
+.f-img.scene{position:relative}
+.scene-tag{position:absolute;left:10px;bottom:8px;max-width:calc(100% - 20px);font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:rgba(0,40,86,.82);color:#fff;border-radius:999px;padding:3px 10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.f-img.em img.pic{width:100%;height:100%;object-fit:cover}
 </style>
 <title>Klingel! Station 3</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1411,19 +1414,19 @@ function levelDeck(i){
   L.words.forEach(en=>{ const w=wordByEn(en); if(!w) return;
     cards.push({kind:"word", de:w.de, meaning:w.en, img:illFor(w), false:!!w.false,
       exLabel:w.false?"Careful":w.chart?"On the ward":w.tip?"Tip":"", ex:w.false?(w.tip||""):(w.chart||w.tip||""), ex2:(!w.false&&w.chart&&w.tip)?w.tip:""}); });
-  if(L.em){ EMERGENCY.forEach(([g,e])=>cards.push({kind:"em", de:g, meaning:e, exLabel:"Say it", ex:"Short and loud. Say it twice."})); return cards; }
+  if(L.em){ EMERGENCY.forEach(([g,e],k)=>cards.push({kind:"em", pic:`e-${String(k+1).padStart(2,"0")}`, de:g, meaning:e, exLabel:"Say it", ex:"Short and loud. Say it twice."})); return cards; }
   const exs=exchangesFor(L.s);
   GOALS[L.s].forEach((g,gi)=>{
-    cards.push({kind:"pattern", de:slotText(g.p), deHtml:slotHtml(g.p), meaning:g.pe, title:g.t, exLabel:g.tip?"Tip":"", ex:g.tip||""});
+    cards.push({kind:"pattern", pic:(()=>{const j0=goalCards(L.s,gi)[0]; return j0==null?"":`p-${String(L.s+1).padStart(2,"0")}-${String(j0+1).padStart(2,"0")}`})(), de:slotText(g.p), deHtml:slotHtml(g.p), meaning:g.pe, title:g.t, exLabel:g.tip?"Tip":"", ex:g.tip||""});
     goalCards(L.s,gi).forEach(j=>{
       const ex=exs[j];
       if(ex.sit){
         const r0=ex.replies[0];
-        cards.push({kind:"phrase", label:"You say", sp:"nurse", ini:"Du", de:r0.g, meaning:r0.en||"", exLabel:"When", ex:ex.en});
+        cards.push({kind:"phrase", pic:`p-${String(L.s+1).padStart(2,"0")}-${String(j+1).padStart(2,"0")}`, label:"You say", sp:"nurse", ini:"Du", de:r0.g, meaning:r0.en||"", exLabel:"When", ex:ex.en});
       } else {
         const replies=ex.replies.filter(r=>r.label!=="Key word").slice(0,2);
         const key=ex.replies.find(r=>r.label==="Key word");
-        cards.push({kind:"phrase", label:whoLabel(ex), sp:ex.sp, ini:PEOPLE[ex.sp].ini, staff:!!PEOPLE[ex.sp].staff, de:ex.de, meaning:ex.en||ex.ctx, key, replies, ctx:ex.en?ex.ctx:""});
+        cards.push({kind:"phrase", pic:`p-${String(L.s+1).padStart(2,"0")}-${String(j+1).padStart(2,"0")}`, label:whoLabel(ex), sp:ex.sp, ini:PEOPLE[ex.sp].ini, staff:!!PEOPLE[ex.sp].staff, de:ex.de, meaning:ex.en||ex.ctx, key, replies, ctx:ex.en?ex.ctx:""});
       }
     });
   });
@@ -1567,15 +1570,16 @@ function backParts(c){
   if(c.key) return {label:"Key word", line:plain(c.key.g), sub:c.key.en||"", say:plain(c.key.g), note:""};
   return {label:"", line:"", sub:"", say:"", note:""};
 }
-function picFor(id, fallback){ return (window.IMGSET && IMGSET.has(id)) ? `<img class="pic" src="images/${id}.jpg" alt="" loading="lazy" draggable="false">` : fallback; }
+function picFor(id, fallback){ return (window.IMGSET && IMGSET.has(id)) ? `<img class="pic" src="images/${id}.jpg" alt="" decoding="async" draggable="false">` : fallback; }
 const slugId = s => s.toLowerCase().replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue").replace(/ß/g,"ss").replace("·pl","").replace(/^(der|die|das|sich) /,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function cardFaces(c){
   let top, word;
   if(c.kind==="word"){ top=`<div class="f-img">${picFor("w-"+slugId(c.meaning), c.img)}</div>`; word=`<p class="f-word">${artLabel(c.de)}</p>`; }
-  else if(c.kind==="em"){ top=`<div class="f-img em"><div class="em-ico big">${ICON.alert}</div></div>`; word=`<p class="f-word">${esc(c.de)}</p>`; }
-  else if(c.kind==="pattern"){ top=`<div class="f-img pat"><span class="pat-tag">Pattern</span><span class="pat-title">${esc(c.title)}</span></div>`; word=`<p class="f-word sm">${c.deHtml}</p>`; }
+  else if(c.kind==="em"){ top=`<div class="f-img em">${picFor(c.pic,`<div class="em-ico big">${ICON.alert}</div>`)}</div>`; word=`<p class="f-word">${esc(c.de)}</p>`; }
+  else if(c.kind==="pattern"){ top = (window.IMGSET&&IMGSET.has(c.pic)) ? `<div class="f-img scene">${picFor(c.pic,"")}<span class="scene-tag">Pattern · ${esc(c.title)}</span></div>` : `<div class="f-img pat"><span class="pat-tag">Pattern</span><span class="pat-title">${esc(c.title)}</span></div>`; word=`<p class="f-word sm">${c.deHtml}</p>`; }
   else if(c.kind==="doc"){ top=`<div class="f-img docprev"><div class="doc mini">${c.doc}</div></div>`; word=`<p class="f-word sm">${esc(c.de)}</p>`; }
   else if(c.kind==="spell"){ top=`<div class="f-img pat"><span class="pat-tag">Spelling</span><span class="pat-title letters">${c.letters.join(" · ")}</span></div>`; word=`<p class="f-word sm">Wie schreibt man das?</p>`; }
+  else if(window.IMGSET&&IMGSET.has(c.pic)){ top=`<div class="f-img scene">${picFor(c.pic,"")}<span class="scene-tag">${esc(c.label)}</span></div>`; word=`<p class="f-word sm">${esc(c.de)}</p>`; }
   else { top=`<div class="f-img who"><span class="who-av ${c.staff?"staff":""} ${c.sp==="nurse"?"you":""}">${esc(c.ini)}</span><span class="who-lab">${esc(c.label)}</span></div>`; word=`<p class="f-word sm">${esc(c.de)}</p>`; }
   const frontSay = c.kind==="spell" ? c.letters.join(", ") : plain(c.de);
   const front=`${top}<div class="f-bottom">${word}${spk(0,frontSay,c.sp||(c.kind==="em"?"braun":""))}<div class="f-hint">${ICON.flip}<span>Tap to flip</span></div></div>`;
