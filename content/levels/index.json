@@ -1,0 +1,195 @@
+{
+  "course": "Nursing German",
+  "cefr": "A1",
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "Who I am at work",
+      "file": "level-01.json",
+      "images_zip": "level-01-images.zip",
+      "flashcards": 18,
+      "quiz_pool": 20,
+      "images": 15
+    },
+    {
+      "level": 2,
+      "title_en": "Hospital places",
+      "file": "level-02.json",
+      "images_zip": "level-02-images.zip",
+      "flashcards": 25,
+      "quiz_pool": 36,
+      "images": 31
+    },
+    {
+      "level": 3,
+      "title_en": "Objects & equipment",
+      "file": "level-03.json",
+      "images_zip": "level-03-images.zip",
+      "flashcards": 24,
+      "quiz_pool": 32,
+      "images": 39
+    },
+    {
+      "level": 4,
+      "title_en": "The body",
+      "file": "level-04.json",
+      "images_zip": "level-04-images.zip",
+      "flashcards": 13,
+      "quiz_pool": 10,
+      "images": 10
+    },
+    {
+      "level": 5,
+      "title_en": "Emergency German",
+      "file": "level-05.json",
+      "images_zip": "level-05-images.zip",
+      "flashcards": 25,
+      "quiz_pool": 25,
+      "images": 25
+    },
+    {
+      "level": 6,
+      "title_en": "Symptoms & pain",
+      "file": "level-06.json",
+      "images_zip": "level-06-images.zip",
+      "flashcards": 15,
+      "quiz_pool": 14,
+      "images": 20
+    },
+    {
+      "level": 7,
+      "title_en": "Numbers & vital signs",
+      "file": "level-07.json",
+      "images_zip": "level-07-images.zip",
+      "flashcards": 21,
+      "quiz_pool": 27,
+      "images": 17
+    },
+    {
+      "level": 8,
+      "title_en": "Times & shifts",
+      "file": "level-08.json",
+      "images_zip": "level-08-images.zip",
+      "flashcards": 16,
+      "quiz_pool": 17,
+      "images": 12
+    },
+    {
+      "level": 9,
+      "title_en": "Medication & food",
+      "file": "level-09.json",
+      "images_zip": "level-09-images.zip",
+      "flashcards": 28,
+      "quiz_pool": 42,
+      "images": 35
+    },
+    {
+      "level": 10,
+      "title_en": "Instructions",
+      "file": "level-10.json",
+      "images_zip": "level-10-images.zip",
+      "flashcards": 14,
+      "quiz_pool": 12,
+      "images": 20
+    },
+    {
+      "level": 11,
+      "title_en": "Basic care",
+      "file": "level-11.json",
+      "images_zip": "level-11-images.zip",
+      "flashcards": 16,
+      "quiz_pool": 16,
+      "images": 27
+    },
+    {
+      "level": 12,
+      "title_en": "Talking to colleagues",
+      "file": "level-12.json",
+      "images_zip": "level-12-images.zip",
+      "flashcards": 21,
+      "quiz_pool": 27,
+      "images": 17
+    },
+    {
+      "level": 13,
+      "title_en": "Comforting patients",
+      "file": "level-13.json",
+      "images_zip": "level-13-images.zip",
+      "flashcards": 14,
+      "quiz_pool": 12,
+      "images": 11
+    },
+    {
+      "level": 14,
+      "title_en": "Admitting a patient",
+      "file": "level-14.json",
+      "images_zip": "level-14-images.zip",
+      "flashcards": 22,
+      "quiz_pool": 28,
+      "images": 23
+    },
+    {
+      "level": 15,
+      "title_en": "Walking & falls",
+      "file": "level-15.json",
+      "images_zip": "level-15-images.zip",
+      "flashcards": 14,
+      "quiz_pool": 12,
+      "images": 23
+    },
+    {
+      "level": 16,
+      "title_en": "Phone calls",
+      "file": "level-16.json",
+      "images_zip": "level-16-images.zip",
+      "flashcards": 16,
+      "quiz_pool": 14,
+      "images": 15
+    },
+    {
+      "level": 17,
+      "title_en": "Hygiene & isolation",
+      "file": "level-17.json",
+      "images_zip": "level-17-images.zip",
+      "flashcards": 16,
+      "quiz_pool": 17,
+      "images": 24
+    },
+    {
+      "level": 18,
+      "title_en": "Toilet & continence",
+      "file": "level-18.json",
+      "images_zip": "level-18-images.zip",
+      "flashcards": 16,
+      "quiz_pool": 17,
+      "images": 24
+    },
+    {
+      "level": 19,
+      "title_en": "Visitors & relatives",
+      "file": "level-19.json",
+      "images_zip": "level-19-images.zip",
+      "flashcards": 15,
+      "quiz_pool": 14,
+      "images": 16
+    },
+    {
+      "level": 20,
+      "title_en": "The night round",
+      "file": "level-20.json",
+      "images_zip": "level-20-images.zip",
+      "flashcards": 14,
+      "quiz_pool": 12,
+      "images": 19
+    },
+    {
+      "level": 21,
+      "title_en": "Discharge day",
+      "file": "level-21.json",
+      "images_zip": "level-21-images.zip",
+      "flashcards": 15,
+      "quiz_pool": 15,
+      "images": 19
+    }
+  ]
+}

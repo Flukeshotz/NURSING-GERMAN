@@ -1,0 +1,565 @@
+{
+  "level": 15,
+  "cefr": "A1",
+  "title_en": "Walking & falls",
+  "title_de": "Mobilisation & Sturz",
+  "unlock": {
+    "requires_level": 14,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 11
+  },
+  "goals": [
+    {
+      "title": "Walk safely",
+      "pattern": "Bitte nehmen Sie [den Rollator].",
+      "pattern_en": "Please take the walker.",
+      "tip": null
+    },
+    {
+      "title": "Dizziness and falls",
+      "pattern": "Bleiben Sie liegen. Ich hole Hilfe.",
+      "pattern_en": "Stay lying down. I'll get help.",
+      "tip": "After a fall, never lift the patient alone."
+    },
+    {
+      "title": "Move a patient together",
+      "pattern": "Wir drehen [Herrn Yılmaz].",
+      "pattern_en": "We're turning Herr Yılmaz.",
+      "tip": null
+    }
+  ],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "word",
+      "front": {
+        "german": "das Bettgitter",
+        "speaker": null,
+        "label": null,
+        "image": "w-side-rails.jpg"
+      },
+      "back": {
+        "meaning_en": "Side rails",
+        "label": "Example",
+        "german": "Hier ist das Bettgitter.",
+        "english": "Here is the Side rails.",
+        "note": "Up at night for patients who might fall."
+      },
+      "article_word": "das Bettgitter",
+      "false_friend": false
+    },
+    {
+      "order": 2,
+      "type": "pattern",
+      "front": {
+        "german": "Bitte nehmen Sie den Rollator.",
+        "speaker": null,
+        "label": "Walk safely",
+        "image": "p-18-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Please take the walker.",
+        "label": "Tip",
+        "german": "Bitte nehmen Sie den Rollator.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Bitte nehmen Sie [den Rollator]."
+    },
+    {
+      "order": 3,
+      "type": "phrase",
+      "front": {
+        "german": "Bitte nehmen Sie den Rollator.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-18-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Please take the walker.",
+        "label": "When",
+        "german": "Bitte nehmen Sie den Rollator.",
+        "english": "Herr Schmidt wants to walk. He needs his walker.",
+        "note": null
+      }
+    },
+    {
+      "order": 4,
+      "type": "phrase",
+      "front": {
+        "german": "Wo ist mein Rollator?",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-18-02.jpg"
+      },
+      "back": {
+        "meaning_en": "Where is my walker?",
+        "label": "You answer",
+        "german": "Hier ist Ihr Rollator.",
+        "english": "Here is your walker.",
+        "note": "Key word: der Rollator = the walker"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist Ihr Rollator.",
+          "english": "Here is your walker."
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "type": "phrase",
+      "front": {
+        "german": "Meine Schuhe, bitte.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-18-03.jpg"
+      },
+      "back": {
+        "meaning_en": "My shoes, please.",
+        "label": "You answer",
+        "german": "Hier sind Ihre Schuhe.",
+        "english": "Here are your shoes.",
+        "note": "Key word: die Schuhe = the shoes"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier sind Ihre Schuhe.",
+          "english": "Here are your shoes."
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "type": "phrase",
+      "front": {
+        "german": "Bitte ziehen Sie Schuhe an.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-18-04.jpg"
+      },
+      "back": {
+        "meaning_en": "Please put on shoes.",
+        "label": "When",
+        "german": "Bitte ziehen Sie Schuhe an.",
+        "english": "Frau Weber wants to walk in socks. The floor is slippery.",
+        "note": null
+      }
+    },
+    {
+      "order": 7,
+      "type": "pattern",
+      "front": {
+        "german": "Bleiben Sie liegen. Ich hole Hilfe.",
+        "speaker": null,
+        "label": "Dizziness and falls",
+        "image": "p-18-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Stay lying down. I'll get help.",
+        "label": "Tip",
+        "german": "Bleiben Sie liegen. Ich hole Hilfe.",
+        "english": "After a fall, never lift the patient alone.",
+        "note": null
+      },
+      "pattern": "Bleiben Sie liegen. Ich hole Hilfe."
+    },
+    {
+      "order": 8,
+      "type": "phrase",
+      "front": {
+        "german": "Mir ist schwindelig.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-18-05.jpg"
+      },
+      "back": {
+        "meaning_en": "I feel dizzy.",
+        "label": "You answer",
+        "german": "Setzen Sie sich bitte sofort.",
+        "english": "Please sit down immediately.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Setzen Sie sich bitte sofort.",
+          "english": "Please sit down immediately."
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "type": "phrase",
+      "front": {
+        "german": "Hilfe! Ich bin gefallen!",
+        "speaker": "yilmaz",
+        "label": "Patient says",
+        "image": "p-18-06.jpg"
+      },
+      "back": {
+        "meaning_en": "Help! I fell!",
+        "label": "You answer",
+        "german": "Bleiben Sie liegen. Ich hole Hilfe.",
+        "english": "Stay lying down. I'll get help.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Bleiben Sie liegen. Ich hole Hilfe.",
+          "english": "Stay lying down. I'll get help."
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "type": "phrase",
+      "front": {
+        "german": "Setzen Sie sich bitte erst auf die Bettkante.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-18-07.jpg"
+      },
+      "back": {
+        "meaning_en": "Please sit on the edge of the bed first.",
+        "label": "When",
+        "german": "Setzen Sie sich bitte erst auf die Bettkante.",
+        "english": "Herr Schmidt should sit on the edge of the bed first.",
+        "note": null
+      }
+    },
+    {
+      "order": 11,
+      "type": "phrase",
+      "front": {
+        "german": "Kann ich allein gehen?",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-18-08.jpg"
+      },
+      "back": {
+        "meaning_en": "Can I walk alone?",
+        "label": "You answer",
+        "german": "Heute noch nicht. Ich gehe mit Ihnen.",
+        "english": "Not yet today. I'll walk with you.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Heute noch nicht. Ich gehe mit Ihnen.",
+          "english": "Not yet today. I'll walk with you."
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "type": "pattern",
+      "front": {
+        "german": "Wir drehen Herrn Yılmaz.",
+        "speaker": null,
+        "label": "Move a patient together",
+        "image": "p-18-09.jpg"
+      },
+      "back": {
+        "meaning_en": "We're turning Herr Yılmaz.",
+        "label": "Tip",
+        "german": "Wir drehen Herrn Yılmaz.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Wir drehen [Herrn Yılmaz]."
+    },
+    {
+      "order": 13,
+      "type": "phrase",
+      "front": {
+        "german": "Hilf mir bitte. Wir drehen Herrn Yılmaz.",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-18-09.jpg"
+      },
+      "back": {
+        "meaning_en": "Help me please. We're turning Herr Yılmaz.",
+        "label": "You answer",
+        "german": "Okay, ich helfe dir.",
+        "english": "Okay, I'll help you.",
+        "note": "Key word: helfen = to help"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Okay, ich helfe dir.",
+          "english": "Okay, I'll help you."
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "type": "phrase",
+      "front": {
+        "german": "Wir drehen Herrn Yılmaz alle 2 Stunden.",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-18-10.jpg"
+      },
+      "back": {
+        "meaning_en": "How often?",
+        "label": "You note down",
+        "german": "every 2 hours",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "every 2 hours",
+          "english": null
+        }
+      ]
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-side-rails.jpg",
+      "options": [
+        "das Bettgitter",
+        "die Pflegekraft",
+        "der Blutdruck",
+        "der Blutzucker"
+      ],
+      "answer": "das Bettgitter"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "das Bettgitter",
+      "options": [
+        "Side rails",
+        "Sister",
+        "BP",
+        "Sugar"
+      ],
+      "answer": "Side rails"
+    },
+    {
+      "type": "situation_choice",
+      "speaker": "schmidt",
+      "prompt_de": null,
+      "prompt_en": "Herr Schmidt wants to walk. He needs his walker.",
+      "options": [
+        "Bitte nehmen Sie den Rollator.",
+        "Bitte nehmen Sie den Aufzug.",
+        "Bitte laufen Sie schnell."
+      ],
+      "answer": "Bitte nehmen Sie den Rollator."
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "schmidt",
+      "prompt_de": "Wo ist mein Rollator?",
+      "prompt_en": "Where is my walker?",
+      "options": [
+        {
+          "german": "der Rollator",
+          "english": "the walker",
+          "image": "i-rollator.jpg"
+        },
+        {
+          "german": "der Rollstuhl",
+          "english": "the wheelchair",
+          "image": "i-rollstuhl.jpg"
+        },
+        {
+          "german": "das Bett",
+          "english": "the bed",
+          "image": "i-bett.jpg"
+        },
+        {
+          "german": "die Tür",
+          "english": null,
+          "image": "i-tuer.jpg"
+        }
+      ],
+      "answer": "der Rollator",
+      "feedback_de": "Hier ist Ihr Rollator.",
+      "feedback_en": "Here is your walker."
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "weber",
+      "prompt_de": "Meine Schuhe, bitte.",
+      "prompt_en": "My shoes, please.",
+      "options": [
+        {
+          "german": "die Schuhe",
+          "english": "the shoes",
+          "image": "i-schuhe.jpg"
+        },
+        {
+          "german": "die Socken",
+          "english": null,
+          "image": "i-socken.jpg"
+        },
+        {
+          "german": "die Jacke",
+          "english": "the jacket",
+          "image": "i-jacke.jpg"
+        },
+        {
+          "german": "die Brille",
+          "english": "the glasses",
+          "image": "i-brille.jpg"
+        }
+      ],
+      "answer": "die Schuhe",
+      "feedback_de": "Hier sind Ihre Schuhe.",
+      "feedback_en": "Here are your shoes."
+    },
+    {
+      "type": "situation_choice",
+      "speaker": "weber",
+      "prompt_de": null,
+      "prompt_en": "Frau Weber wants to walk in socks. The floor is slippery.",
+      "options": [
+        "Bitte ziehen Sie Schuhe an.",
+        "Bitte laufen Sie in Socken.",
+        "Bitte tanzen Sie."
+      ],
+      "answer": "Bitte ziehen Sie Schuhe an."
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "weber",
+      "prompt_de": "Mir ist schwindelig.",
+      "prompt_en": "I feel dizzy.",
+      "options": [
+        "Setzen Sie sich bitte sofort.",
+        "Gehen Sie bitte schneller.",
+        "Stehen Sie bitte auf einem Bein."
+      ],
+      "answer": "Setzen Sie sich bitte sofort."
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "yilmaz",
+      "prompt_de": "Hilfe! Ich bin gefallen!",
+      "prompt_en": "Help! I fell!",
+      "options": [
+        "Bleiben Sie liegen. Ich hole Hilfe.",
+        "Stehen Sie schnell auf!",
+        "Das ist nicht schlimm, tschüss."
+      ],
+      "answer": "Bleiben Sie liegen. Ich hole Hilfe."
+    },
+    {
+      "type": "situation_choice",
+      "speaker": "schmidt",
+      "prompt_de": null,
+      "prompt_en": "Herr Schmidt should sit on the edge of the bed first.",
+      "options": [
+        "Setzen Sie sich bitte erst auf die Bettkante.",
+        "Springen Sie bitte aus dem Bett.",
+        "Legen Sie sich bitte auf den Boden."
+      ],
+      "answer": "Setzen Sie sich bitte erst auf die Bettkante."
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "schmidt",
+      "prompt_de": "Kann ich allein gehen?",
+      "prompt_en": "Can I walk alone?",
+      "options": [
+        "Heute noch nicht. Ich gehe mit Ihnen.",
+        "Ja, rennen Sie!",
+        "Nein, nie wieder."
+      ],
+      "answer": "Heute noch nicht. Ich gehe mit Ihnen."
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "lena",
+      "prompt_de": "Hilf mir bitte. Wir drehen Herrn Yılmaz.",
+      "prompt_en": "Help me please. We're turning Herr Yılmaz.",
+      "options": [
+        {
+          "german": "helfen",
+          "english": "to help",
+          "image": "i-helfen.jpg"
+        },
+        {
+          "german": "essen",
+          "english": null,
+          "image": "i-essen.jpg"
+        },
+        {
+          "german": "schlafen",
+          "english": null,
+          "image": "i-schlafen.jpg"
+        },
+        {
+          "german": "anrufen",
+          "english": null,
+          "image": "i-anrufen.jpg"
+        }
+      ],
+      "answer": "helfen",
+      "feedback_de": "Okay, ich helfe dir.",
+      "feedback_en": "Okay, I'll help you."
+    },
+    {
+      "type": "listen_and_note",
+      "speaker": "lena",
+      "prompt_de": "Wir drehen Herrn Yılmaz alle 2 Stunden.",
+      "prompt_en": "How often?",
+      "options": [
+        "every 2 hours",
+        "every 12 hours",
+        "every 20 minutes",
+        "every 2 days"
+      ],
+      "answer": "every 2 hours"
+    }
+  ],
+  "images_zip": "level-15-images.zip",
+  "images": [
+    "i-anrufen.jpg",
+    "i-bett.jpg",
+    "i-brille.jpg",
+    "i-essen.jpg",
+    "i-helfen.jpg",
+    "i-jacke.jpg",
+    "i-rollator.jpg",
+    "i-rollstuhl.jpg",
+    "i-schlafen.jpg",
+    "i-schuhe.jpg",
+    "i-socken.jpg",
+    "i-tuer.jpg",
+    "p-18-01.jpg",
+    "p-18-02.jpg",
+    "p-18-03.jpg",
+    "p-18-04.jpg",
+    "p-18-05.jpg",
+    "p-18-06.jpg",
+    "p-18-07.jpg",
+    "p-18-08.jpg",
+    "p-18-09.jpg",
+    "p-18-10.jpg",
+    "w-side-rails.jpg"
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "level": 4,
+  "cefr": "A1",
+  "title_en": "The body",
+  "title_de": "Der Körper",
+  "unlock": {
+    "requires_level": 3,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 10
+  },
+  "goals": [
+    {
+      "title": "Understand where it hurts",
+      "pattern": "Mein [Kopf] tut weh.",
+      "pattern_en": "My head hurts.",
+      "tip": "Mein with der and das words: mein Kopf, mein Bein."
+    },
+    {
+      "title": "„Meine“ with die words",
+      "pattern": "Meine [Brust] tut weh.",
+      "pattern_en": "My chest hurts.",
+      "tip": "die Brust → meine Brust · die Hand → meine Hand."
+    },
+    {
+      "title": "Ask to see a body part",
+      "pattern": "Zeigen Sie bitte Ihr [Bein].",
+      "pattern_en": "Please show your leg.",
+      "tip": null
+    }
+  ],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "pattern",
+      "front": {
+        "german": "Mein Kopf tut weh.",
+        "speaker": null,
+        "label": "Understand where it hurts",
+        "image": "p-04-01.jpg"
+      },
+      "back": {
+        "meaning_en": "My head hurts.",
+        "label": "Tip",
+        "german": "Mein Kopf tut weh.",
+        "english": "Mein with der and das words: mein Kopf, mein Bein.",
+        "note": null
+      },
+      "pattern": "Mein [Kopf] tut weh."
+    },
+    {
+      "order": 2,
+      "type": "phrase",
+      "front": {
+        "german": "Mein Kopf tut weh.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-04-01.jpg"
+      },
+      "back": {
+        "meaning_en": "My head hurts.",
+        "label": "You answer",
+        "german": "Ihr Kopf tut weh. Ich hole den Arzt.",
+        "english": "Your head hurts. I'll get the doctor.",
+        "note": "Key word: der Kopf = the head"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ihr Kopf tut weh. Ich hole den Arzt.",
+          "english": "Your head hurts. I'll get the doctor."
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "type": "phrase",
+      "front": {
+        "german": "Mein Bauch tut weh.",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-04-02.jpg"
+      },
+      "back": {
+        "meaning_en": "My stomach hurts.",
+        "label": "Key word",
+        "german": "der Bauch",
+        "english": "the stomach",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 4,
+      "type": "phrase",
+      "front": {
+        "german": "Mein Arm tut weh.",
+        "speaker": "yilmaz",
+        "label": "Patient says",
+        "image": "p-04-03.jpg"
+      },
+      "back": {
+        "meaning_en": "My arm hurts.",
+        "label": "Key word",
+        "german": "der Arm",
+        "english": "the arm",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 5,
+      "type": "phrase",
+      "front": {
+        "german": "Mein Fuß tut weh.",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-04-05.jpg"
+      },
+      "back": {
+        "meaning_en": "My foot hurts.",
+        "label": "Key word",
+        "german": "der Fuß",
+        "english": "the foot",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 6,
+      "type": "phrase",
+      "front": {
+        "german": "Mein Hals tut weh.",
+        "speaker": "yilmaz",
+        "label": "Patient says",
+        "image": "p-04-06.jpg"
+      },
+      "back": {
+        "meaning_en": "My throat hurts.",
+        "label": "Key word",
+        "german": "der Hals",
+        "english": "the throat / neck",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 7,
+      "type": "phrase",
+      "front": {
+        "german": "Mein Knie tut weh.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-04-07.jpg"
+      },
+      "back": {
+        "meaning_en": "My knee hurts.",
+        "label": "Key word",
+        "german": "das Knie",
+        "english": "the knee",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 8,
+      "type": "phrase",
+      "front": {
+        "german": "Mein Ohr tut weh.",
+        "speaker": "yilmaz",
+        "label": "Patient says",
+        "image": "p-04-10.jpg"
+      },
+      "back": {
+        "meaning_en": "My ear hurts.",
+        "label": "Key word",
+        "german": "das Ohr",
+        "english": "the ear",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 9,
+      "type": "pattern",
+      "front": {
+        "german": "Meine Brust tut weh.",
+        "speaker": null,
+        "label": "„Meine“ with die words",
+        "image": "p-04-04.jpg"
+      },
+      "back": {
+        "meaning_en": "My chest hurts.",
+        "label": "Tip",
+        "german": "Meine Brust tut weh.",
+        "english": "die Brust → meine Brust · die Hand → meine Hand.",
+        "note": null
+      },
+      "pattern": "Meine [Brust] tut weh."
+    },
+    {
+      "order": 10,
+      "type": "phrase",
+      "front": {
+        "german": "Meine Hand ist kalt.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-04-04.jpg"
+      },
+      "back": {
+        "meaning_en": "My hand is cold.",
+        "label": "Key word",
+        "german": "die Hand",
+        "english": "the hand",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 11,
+      "type": "phrase",
+      "front": {
+        "german": "Meine Brust tut weh.",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-04-08.jpg"
+      },
+      "back": {
+        "meaning_en": "My chest hurts.",
+        "label": "You answer",
+        "german": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+        "english": "Please stay in bed. I'll get the doctor.",
+        "note": "Key word: die Brust = the chest"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+          "english": "Please stay in bed. I'll get the doctor."
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "type": "pattern",
+      "front": {
+        "german": "Zeigen Sie bitte Ihr Bein.",
+        "speaker": null,
+        "label": "Ask to see a body part",
+        "image": "p-04-09.jpg"
+      },
+      "back": {
+        "meaning_en": "Please show your leg.",
+        "label": "Tip",
+        "german": "Zeigen Sie bitte Ihr Bein.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Zeigen Sie bitte Ihr [Bein]."
+    },
+    {
+      "order": 13,
+      "type": "phrase",
+      "front": {
+        "german": "Zeigen Sie bitte Ihr Bein.",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-04-09.jpg"
+      },
+      "back": {
+        "meaning_en": "Please show your leg.",
+        "label": "Key word",
+        "german": "das Bein",
+        "english": "the leg",
+        "note": null
+      },
+      "replies": []
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "body_part_choice",
+      "speaker": "weber",
+      "prompt_de": "Mein Kopf tut weh.",
+      "prompt_en": "My head hurts.",
+      "options": [
+        {
+          "german": "der Kopf",
+          "english": "the head",
+          "body_part": "kopf"
+        },
+        {
+          "german": "der Bauch",
+          "english": "the stomach",
+          "body_part": "bauch"
+        },
+        {
+          "german": "das Bein",
+          "english": "the leg",
+          "body_part": "bein"
+        },
+        {
+          "german": "die Hand",
+          "english": "the hand",
+          "body_part": "hand"
+        }
+      ],
+      "answer": "der Kopf",
+      "feedback_de": "Ihr Kopf tut weh. Ich hole den Arzt.",
+      "feedback_en": "Your head hurts. I'll get the doctor."
+    },
+    {
+      "type": "body_part_choice",
+      "speaker": "schmidt",
+      "prompt_de": "Mein Bauch tut weh.",
+      "prompt_en": "My stomach hurts.",
+      "options": [
+        {
+          "german": "der Bauch",
+          "english": "the stomach",
+          "body_part": "bauch"
+        },
+        {
+          "german": "die Brust",
+          "english": "the chest",
+          "body_part": "brust"
+        },
+        {
+          "german": "der Kopf",
+          "english": "the head",
+          "body_part": "kopf"
+        },
+        {
+          "german": "der Fuß",
+          "english": "the foot",
+          "body_part": "fuss"
+        }
+      ],
+      "answer": "der Bauch"
+    },
+    {
+      "type": "body_part_choice",
+      "speaker": "yilmaz",
+      "prompt_de": "Mein Arm tut weh.",
+      "prompt_en": "My arm hurts.",
+      "options": [
+        {
+          "german": "der Arm",
+          "english": "the arm",
+          "body_part": "arm"
+        },
+        {
+          "german": "das Bein",
+          "english": "the leg",
+          "body_part": "bein"
+        },
+        {
+          "german": "der Hals",
+          "english": "the throat / neck",
+          "body_part": "hals"
+        },
+        {
+          "german": "der Bauch",
+          "english": "the stomach",
+          "body_part": "bauch"
+        }
+      ],
+      "answer": "der Arm"
+    },
+    {
+      "type": "body_part_choice",
+      "speaker": "weber",
+      "prompt_de": "Meine Hand ist kalt.",
+      "prompt_en": "My hand is cold.",
+      "options": [
+        {
+          "german": "die Hand",
+          "english": "the hand",
+          "body_part": "hand"
+        },
+        {
+          "german": "der Fuß",
+          "english": "the foot",
+          "body_part": "fuss"
+        },
+        {
+          "german": "der Kopf",
+          "english": "the head",
+          "body_part": "kopf"
+        },
+        {
+          "german": "die Brust",
+          "english": "the chest",
+          "body_part": "brust"
+        }
+      ],
+      "answer": "die Hand"
+    },
+    {
+      "type": "body_part_choice",
+      "speaker": "schmidt",
+      "prompt_de": "Mein Fuß tut weh.",
+      "prompt_en": "My foot hurts.",
+      "options": [
+        {
+          "german": "der Fuß",
+          "english": "the foot",
+          "body_part": "fuss"
+        },
+        {
+          "german": "die Hand",
+          "english": "the hand",
+          "body_part": "hand"
+        },
+        {
+          "german": "der Arm",
+          "english": "the arm",
+          "body_part": "arm"
+        },
+        {
+          "german": "der Hals",
+          "english": "the throat / neck",
+          "body_part": "hals"
+        }
+      ],
+      "answer": "der Fuß"
+    },
+    {
+      "type": "body_part_choice",
+      "speaker": "yilmaz",
+      "prompt_de": "Mein Hals tut weh.",
+      "prompt_en": "My throat hurts.",
+      "options": [
+        {
+          "german": "der Hals",
+          "english": "the throat / neck",
+          "body_part": "hals"
+        },
+        {
+          "german": "der Bauch",
+          "english": "the stomach",
+          "body_part": "bauch"
+        },
+        {
+          "german": "das Bein",
+          "english": "the leg",
+          "body_part": "bein"
+        },
+        {
+          "german": "die Hand",
+          "english": "the hand",
+          "body_part": "hand"
+        }
+      ],
+      "answer": "der Hals"
+    },
+    {
+      "type": "body_part_choice",
+      "speaker": "weber",
+      "prompt_de": "Mein Knie tut weh.",
+      "prompt_en": "My knee hurts.",
+      "options": [
+        {
+          "german": "das Knie",
+          "english": "the knee",
+          "body_part": "knie"
+        },
+        {
+          "german": "der Arm",
+          "english": "the arm",
+          "body_part": "arm"
+        },
+        {
+          "german": "der Kopf",
+          "english": "the head",
+          "body_part": "kopf"
+        },
+        {
+          "german": "der Bauch",
+          "english": "the stomach",
+          "body_part": "bauch"
+        }
+      ],
+      "answer": "das Knie"
+    },
+    {
+      "type": "body_part_choice",
+      "speaker": "schmidt",
+      "prompt_de": "Meine Brust tut weh.",
+      "prompt_en": "My chest hurts.",
+      "options": [
+        {
+          "german": "die Brust",
+          "english": "the chest",
+          "body_part": "brust"
+        },
+        {
+          "german": "der Bauch",
+          "english": "the stomach",
+          "body_part": "bauch"
+        },
+        {
+          "german": "der Kopf",
+          "english": "the head",
+          "body_part": "kopf"
+        },
+        {
+          "german": "der Fuß",
+          "english": "the foot",
+          "body_part": "fuss"
+        }
+      ],
+      "answer": "die Brust",
+      "feedback_de": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+      "feedback_en": "Please stay in bed. I'll get the doctor."
+    },
+    {
+      "type": "body_part_choice",
+      "speaker": "braun",
+      "prompt_de": "Zeigen Sie bitte Ihr Bein.",
+      "prompt_en": "Please show your leg.",
+      "options": [
+        {
+          "german": "das Bein",
+          "english": "the leg",
+          "body_part": "bein"
+        },
+        {
+          "german": "der Arm",
+          "english": "the arm",
+          "body_part": "arm"
+        },
+        {
+          "german": "der Hals",
+          "english": "the throat / neck",
+          "body_part": "hals"
+        },
+        {
+          "german": "der Kopf",
+          "english": "the head",
+          "body_part": "kopf"
+        }
+      ],
+      "answer": "das Bein"
+    },
+    {
+      "type": "body_part_choice",
+      "speaker": "yilmaz",
+      "prompt_de": "Mein Ohr tut weh.",
+      "prompt_en": "My ear hurts.",
+      "options": [
+        {
+          "german": "das Ohr",
+          "english": "the ear",
+          "body_part": "ohr"
+        },
+        {
+          "german": "der Mund",
+          "english": null,
+          "body_part": "mund"
+        },
+        {
+          "german": "der Hals",
+          "english": "the throat / neck",
+          "body_part": "hals"
+        },
+        {
+          "german": "der Bauch",
+          "english": "the stomach",
+          "body_part": "bauch"
+        }
+      ],
+      "answer": "das Ohr"
+    }
+  ],
+  "images_zip": "level-04-images.zip",
+  "images": [
+    "p-04-01.jpg",
+    "p-04-02.jpg",
+    "p-04-03.jpg",
+    "p-04-04.jpg",
+    "p-04-05.jpg",
+    "p-04-06.jpg",
+    "p-04-07.jpg",
+    "p-04-08.jpg",
+    "p-04-09.jpg",
+    "p-04-10.jpg"
+  ]
+}

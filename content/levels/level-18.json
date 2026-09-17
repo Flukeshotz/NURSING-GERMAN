@@ -1,0 +1,680 @@
+{
+  "level": 18,
+  "cefr": "A1",
+  "title_en": "Toilet & continence",
+  "title_de": "Toilette & Ausscheidung",
+  "unlock": {
+    "requires_level": 17,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 13
+  },
+  "goals": [
+    {
+      "title": "Help to the toilet",
+      "pattern": "Ich helfe Ihnen zur [Toilette].",
+      "pattern_en": "I'll help you to the toilet.",
+      "tip": null
+    },
+    {
+      "title": "Ask about stool and urine",
+      "pattern": "Hatten Sie heute [Stuhlgang]?",
+      "pattern_en": "Did you have a bowel movement today?",
+      "tip": null
+    },
+    {
+      "title": "Protect dignity",
+      "pattern": "Das ist ganz normal. Keine Sorge.",
+      "pattern_en": "That's completely normal. Don't worry.",
+      "tip": "Close the door or curtain first."
+    }
+  ],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "word",
+      "front": {
+        "german": "die Vorlage",
+        "speaker": null,
+        "label": null,
+        "image": "w-incontinence-pad.jpg"
+      },
+      "back": {
+        "meaning_en": "Incontinence pad",
+        "label": "Example",
+        "german": "Hier ist die Vorlage.",
+        "english": "Here is the Incontinence pad.",
+        "note": null
+      },
+      "article_word": "die Vorlage",
+      "false_friend": false
+    },
+    {
+      "order": 2,
+      "type": "word",
+      "front": {
+        "german": "der Toilettenstuhl",
+        "speaker": null,
+        "label": null,
+        "image": "w-commode.jpg"
+      },
+      "back": {
+        "meaning_en": "Commode",
+        "label": "Example",
+        "german": "Hier ist der Toilettenstuhl.",
+        "english": "Here is the Commode.",
+        "note": null
+      },
+      "article_word": "der Toilettenstuhl",
+      "false_friend": false
+    },
+    {
+      "order": 3,
+      "type": "pattern",
+      "front": {
+        "german": "Ich helfe Ihnen zur Toilette.",
+        "speaker": null,
+        "label": "Help to the toilet",
+        "image": "p-19-01.jpg"
+      },
+      "back": {
+        "meaning_en": "I'll help you to the toilet.",
+        "label": "Tip",
+        "german": "Ich helfe Ihnen zur Toilette.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Ich helfe Ihnen zur [Toilette]."
+    },
+    {
+      "order": 4,
+      "type": "phrase",
+      "front": {
+        "german": "Ich muss mal.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-19-01.jpg"
+      },
+      "back": {
+        "meaning_en": "I need to go (to the toilet).",
+        "label": "You answer",
+        "german": "Kommen Sie, ich helfe Ihnen zur Toilette.",
+        "english": "Come, I'll help you to the toilet.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Kommen Sie, ich helfe Ihnen zur Toilette.",
+          "english": "Come, I'll help you to the toilet."
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "type": "phrase",
+      "front": {
+        "german": "Ich kann nicht aufstehen. Ich muss Wasser lassen.",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-19-02.jpg"
+      },
+      "back": {
+        "meaning_en": "I can't get up. I need to pass urine.",
+        "label": "You answer",
+        "german": "Hier ist die Urinflasche.",
+        "english": "Here is the urine bottle.",
+        "note": "Key word: die Urinflasche = the urine bottle"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist die Urinflasche.",
+          "english": "Here is the urine bottle."
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "type": "phrase",
+      "front": {
+        "german": "Ich brauche Toilettenpapier.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-19-03.jpg"
+      },
+      "back": {
+        "meaning_en": "I need toilet paper.",
+        "label": "Key word",
+        "german": "das Toilettenpapier",
+        "english": "the toilet paper",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 7,
+      "type": "phrase",
+      "front": {
+        "german": "Ich möchte allein auf die Toilette.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-19-04.jpg"
+      },
+      "back": {
+        "meaning_en": "I want to use the toilet alone.",
+        "label": "You answer",
+        "german": "Gut. Bitte klingeln Sie danach.",
+        "english": "Good. Please ring afterwards.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Gut. Bitte klingeln Sie danach.",
+          "english": "Good. Please ring afterwards."
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "type": "pattern",
+      "front": {
+        "german": "Hatten Sie heute Stuhlgang?",
+        "speaker": null,
+        "label": "Ask about stool and urine",
+        "image": "p-19-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Did you have a bowel movement today?",
+        "label": "Tip",
+        "german": "Hatten Sie heute Stuhlgang?",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Hatten Sie heute [Stuhlgang]?"
+    },
+    {
+      "order": 9,
+      "type": "phrase",
+      "front": {
+        "german": "Hatten Sie heute Stuhlgang?",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-19-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Did you have a bowel movement today?",
+        "label": "When",
+        "german": "Hatten Sie heute Stuhlgang?",
+        "english": "Ask Herr Schmidt if he had a bowel movement today.",
+        "note": null
+      }
+    },
+    {
+      "order": 10,
+      "type": "phrase",
+      "front": {
+        "german": "Nein, seit drei Tagen nicht.",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-19-06.jpg"
+      },
+      "back": {
+        "meaning_en": "No, not for three days.",
+        "label": "You answer",
+        "german": "Okay, ich schreibe das auf und frage den Arzt.",
+        "english": "Okay, I'll write that down and ask the doctor.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Okay, ich schreibe das auf und frage den Arzt.",
+          "english": "Okay, I'll write that down and ask the doctor."
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "type": "phrase",
+      "front": {
+        "german": "Herr Schmidt hat 800 ml Urin.",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-19-07.jpg"
+      },
+      "back": {
+        "meaning_en": "Urine amount",
+        "label": "You note down",
+        "german": "800 ml",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "800 ml",
+          "english": null
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "type": "pattern",
+      "front": {
+        "german": "Das ist ganz normal. Keine Sorge.",
+        "speaker": null,
+        "label": "Protect dignity",
+        "image": "p-19-08.jpg"
+      },
+      "back": {
+        "meaning_en": "That's completely normal. Don't worry.",
+        "label": "Tip",
+        "german": "Das ist ganz normal. Keine Sorge.",
+        "english": "Close the door or curtain first.",
+        "note": null
+      },
+      "pattern": "Das ist ganz normal. Keine Sorge."
+    },
+    {
+      "order": 13,
+      "type": "phrase",
+      "front": {
+        "german": "Das ist mir peinlich.",
+        "speaker": "yilmaz",
+        "label": "Patient says",
+        "image": "p-19-08.jpg"
+      },
+      "back": {
+        "meaning_en": "This is embarrassing for me.",
+        "label": "You answer",
+        "german": "Das ist ganz normal. Keine Sorge.",
+        "english": "That's completely normal. Don't worry.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Das ist ganz normal. Keine Sorge.",
+          "english": "That's completely normal. Don't worry."
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "type": "phrase",
+      "front": {
+        "german": "Das Bett ist nass. Entschuldigung.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-19-09.jpg"
+      },
+      "back": {
+        "meaning_en": "The bed is wet. Sorry.",
+        "label": "You answer",
+        "german": "Kein Problem. Ich wechsle die Bettwäsche.",
+        "english": "No problem. I'll change the bed linen.",
+        "note": "Key word: die Bettwäsche = the bed linen"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Kein Problem. Ich wechsle die Bettwäsche.",
+          "english": "No problem. I'll change the bed linen."
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "type": "phrase",
+      "front": {
+        "german": "Frau Weber braucht eine neue Vorlage.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-19-10.jpg"
+      },
+      "back": {
+        "meaning_en": "Frau Weber needs a new incontinence pad.",
+        "label": "When",
+        "german": "Frau Weber braucht eine neue Vorlage.",
+        "english": "Tell Lena: Frau Weber needs a new incontinence pad.",
+        "note": null
+      }
+    },
+    {
+      "order": 16,
+      "type": "document",
+      "front": {
+        "german": "Ein- und Ausfuhr",
+        "speaker": null,
+        "label": null,
+        "image": null
+      },
+      "back": {
+        "meaning_en": "Fluid chart",
+        "label": "Key words",
+        "german": "Einfuhr · Ausfuhr · Summe",
+        "english": "input: drinks, drips · output: urine · total",
+        "note": null
+      },
+      "document": {
+        "title_de": "Ein- und Ausfuhr",
+        "title_en": "Fluid chart",
+        "html": "<h4>EIN- UND AUSFUHR</h4><div class=\"dmeta\">Yılmaz, Emre · Zimmer 3</div><div class=\"doc-wrap\"><table>\n   <tr><th>Uhrzeit</th><th>Einfuhr</th><th>Ausfuhr</th></tr><tr><td>08:00</td><td>Tee 200 ml</td><td>Urin 300 ml</td></tr><tr><td>12:00</td><td>Wasser 250 ml</td><td>–</td></tr>\n   <tr><td>16:00</td><td>Infusion 500 ml</td><td>Urin 400 ml</td></tr><tr><td><b>Summe</b></td><td><b>950 ml</b></td><td><b>700 ml</b></td></tr></table></div>",
+        "key_words": [
+          {
+            "de": "Einfuhr",
+            "en": "input: drinks, drips"
+          },
+          {
+            "de": "Ausfuhr",
+            "en": "output: urine"
+          },
+          {
+            "de": "Summe",
+            "en": "total"
+          }
+        ]
+      }
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-incontinence-pad.jpg",
+      "options": [
+        "die Vorlage",
+        "der Toilettenstuhl",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "die Vorlage"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "die Vorlage",
+      "options": [
+        "Incontinence pad",
+        "Commode",
+        "Sister",
+        "BP"
+      ],
+      "answer": "Incontinence pad"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-commode.jpg",
+      "options": [
+        "der Toilettenstuhl",
+        "die Vorlage",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "der Toilettenstuhl"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "der Toilettenstuhl",
+      "options": [
+        "Commode",
+        "Incontinence pad",
+        "Sister",
+        "BP"
+      ],
+      "answer": "Commode"
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "weber",
+      "prompt_de": "Ich muss mal.",
+      "prompt_en": "I need to go (to the toilet).",
+      "options": [
+        "Kommen Sie, ich helfe Ihnen zur Toilette.",
+        "Was müssen Sie? Arbeiten?",
+        "Später, bitte."
+      ],
+      "answer": "Kommen Sie, ich helfe Ihnen zur Toilette."
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "schmidt",
+      "prompt_de": "Ich kann nicht aufstehen. Ich muss Wasser lassen.",
+      "prompt_en": "I can't get up. I need to pass urine.",
+      "options": [
+        {
+          "german": "die Urinflasche",
+          "english": "the urine bottle",
+          "image": "i-urinflasche.jpg"
+        },
+        {
+          "german": "die Tasse",
+          "english": null,
+          "image": "i-tasse.jpg"
+        },
+        {
+          "german": "die Creme",
+          "english": null,
+          "image": "i-creme.jpg"
+        },
+        {
+          "german": "das Wasser",
+          "english": "the water",
+          "image": "i-wasser.jpg"
+        }
+      ],
+      "answer": "die Urinflasche",
+      "feedback_de": "Hier ist die Urinflasche.",
+      "feedback_en": "Here is the urine bottle."
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "weber",
+      "prompt_de": "Ich brauche Toilettenpapier.",
+      "prompt_en": "I need toilet paper.",
+      "options": [
+        {
+          "german": "das Toilettenpapier",
+          "english": "the toilet paper",
+          "image": "i-toilettenpapier.jpg"
+        },
+        {
+          "german": "die Zeitung",
+          "english": "the newspaper",
+          "image": "i-zeitung.jpg"
+        },
+        {
+          "german": "die Handschuhe",
+          "english": "the gloves",
+          "image": "i-handschuhe.jpg"
+        },
+        {
+          "german": "die Zahnbürste",
+          "english": "the toothbrush",
+          "image": "i-zahnbuerste.jpg"
+        }
+      ],
+      "answer": "das Toilettenpapier"
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "weber",
+      "prompt_de": "Ich möchte allein auf die Toilette.",
+      "prompt_en": "I want to use the toilet alone.",
+      "options": [
+        "Gut. Bitte klingeln Sie danach.",
+        "Nein, das ist verboten.",
+        "Gut, ich komme mit ins Bad und singe."
+      ],
+      "answer": "Gut. Bitte klingeln Sie danach."
+    },
+    {
+      "type": "situation_choice",
+      "speaker": "schmidt",
+      "prompt_de": null,
+      "prompt_en": "Ask Herr Schmidt if he had a bowel movement today.",
+      "options": [
+        "Hatten Sie heute Stuhlgang?",
+        "Hatten Sie heute Besuch?",
+        "Haben Sie heute Geburtstag?"
+      ],
+      "answer": "Hatten Sie heute Stuhlgang?"
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "schmidt",
+      "prompt_de": "Nein, seit drei Tagen nicht.",
+      "prompt_en": "No, not for three days.",
+      "options": [
+        "Okay, ich schreibe das auf und frage den Arzt.",
+        "Super, weiter so!",
+        "Dann essen Sie nicht."
+      ],
+      "answer": "Okay, ich schreibe das auf und frage den Arzt."
+    },
+    {
+      "type": "listen_and_note",
+      "speaker": "lena",
+      "prompt_de": "Herr Schmidt hat 800 ml Urin.",
+      "prompt_en": "Urine amount:",
+      "options": [
+        "800 ml",
+        "180 ml",
+        "80 ml",
+        "8000 ml"
+      ],
+      "answer": "800 ml"
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "yilmaz",
+      "prompt_de": "Das ist mir peinlich.",
+      "prompt_en": "This is embarrassing for me.",
+      "options": [
+        "Das ist ganz normal. Keine Sorge.",
+        "Ja, sehr peinlich!",
+        "Dann machen Sie das allein."
+      ],
+      "answer": "Das ist ganz normal. Keine Sorge."
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "weber",
+      "prompt_de": "Das Bett ist nass. Entschuldigung.",
+      "prompt_en": "The bed is wet. Sorry.",
+      "options": [
+        {
+          "german": "die Bettwäsche",
+          "english": "the bed linen",
+          "image": "i-bettwaesche.jpg"
+        },
+        {
+          "german": "das Brot",
+          "english": "the bread",
+          "image": "i-brot.jpg"
+        },
+        {
+          "german": "der Fernseher",
+          "english": null,
+          "image": "i-fernseher.jpg"
+        },
+        {
+          "german": "die Tasche",
+          "english": "the bag",
+          "image": "i-tasche.jpg"
+        }
+      ],
+      "answer": "die Bettwäsche",
+      "feedback_de": "Kein Problem. Ich wechsle die Bettwäsche.",
+      "feedback_en": "No problem. I'll change the bed linen."
+    },
+    {
+      "type": "situation_choice",
+      "speaker": "lena",
+      "prompt_de": null,
+      "prompt_en": "Tell Lena: Frau Weber needs a new incontinence pad.",
+      "options": [
+        "Frau Weber braucht eine neue Vorlage.",
+        "Frau Weber braucht ein neues Auto.",
+        "Frau Weber ist eine Vorlage."
+      ],
+      "answer": "Frau Weber braucht eine neue Vorlage."
+    },
+    {
+      "type": "document_question",
+      "document": "Fluid chart",
+      "document_de": "Ein- und Ausfuhr",
+      "question_en": "What does „Ausfuhr“ mean?",
+      "options": [
+        "Output, e.g. urine",
+        "Input, e.g. drinks",
+        "Food"
+      ],
+      "answer": "Output, e.g. urine"
+    },
+    {
+      "type": "document_question",
+      "document": "Fluid chart",
+      "document_de": "Ein- und Ausfuhr",
+      "question_en": "How much fluid did he get in total?",
+      "options": [
+        "950 ml",
+        "700 ml",
+        "500 ml"
+      ],
+      "answer": "950 ml"
+    },
+    {
+      "type": "document_question",
+      "document": "Fluid chart",
+      "document_de": "Ein- und Ausfuhr",
+      "question_en": "How much urine at 16:00?",
+      "options": [
+        "400 ml",
+        "300 ml",
+        "500 ml"
+      ],
+      "answer": "400 ml"
+    }
+  ],
+  "images_zip": "level-18-images.zip",
+  "images": [
+    "i-bettwaesche.jpg",
+    "i-brot.jpg",
+    "i-creme.jpg",
+    "i-fernseher.jpg",
+    "i-handschuhe.jpg",
+    "i-tasche.jpg",
+    "i-tasse.jpg",
+    "i-toilettenpapier.jpg",
+    "i-urinflasche.jpg",
+    "i-wasser.jpg",
+    "i-zahnbuerste.jpg",
+    "i-zeitung.jpg",
+    "p-19-01.jpg",
+    "p-19-02.jpg",
+    "p-19-03.jpg",
+    "p-19-04.jpg",
+    "p-19-05.jpg",
+    "p-19-06.jpg",
+    "p-19-07.jpg",
+    "p-19-08.jpg",
+    "p-19-09.jpg",
+    "p-19-10.jpg",
+    "w-commode.jpg",
+    "w-incontinence-pad.jpg"
+  ]
+}

@@ -1,0 +1,1120 @@
+{
+  "level": 2,
+  "cefr": "A1",
+  "title_en": "Hospital places",
+  "title_de": "Im Krankenhaus",
+  "unlock": {
+    "requires_level": 1,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 11
+  },
+  "goals": [
+    {
+      "title": "Show the way",
+      "pattern": "[Die Toilette] ist hier rechts.",
+      "pattern_en": "The toilet is here on the right.",
+      "tip": "hier = here · dort = over there · rechts = right · links = left"
+    },
+    {
+      "title": "Say where someone is",
+      "pattern": "Sie ist in [Zimmer 1].",
+      "pattern_en": "She is in room 1.",
+      "tip": "Er = he · Sie = she."
+    },
+    {
+      "title": "React to a request",
+      "pattern": "Ich bringe [den Rollstuhl].",
+      "pattern_en": "I'll bring the wheelchair.",
+      "tip": null
+    }
+  ],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "word",
+      "front": {
+        "german": "die Station",
+        "speaker": null,
+        "label": null,
+        "image": "w-ward.jpg"
+      },
+      "back": {
+        "meaning_en": "Ward",
+        "label": "Example",
+        "german": "Hier ist die Station.",
+        "english": "Here is the Ward.",
+        "note": "„Station 3“ is a hospital ward. It is not a train station."
+      },
+      "article_word": "die Station",
+      "false_friend": false
+    },
+    {
+      "order": 2,
+      "type": "word",
+      "front": {
+        "german": "das Stationszimmer",
+        "speaker": null,
+        "label": null,
+        "image": "w-nurses-station.jpg"
+      },
+      "back": {
+        "meaning_en": "Nurses' station",
+        "label": "Example",
+        "german": "Hier ist das Stationszimmer.",
+        "english": "Here is the Nurses' station.",
+        "note": null
+      },
+      "article_word": "das Stationszimmer",
+      "false_friend": false
+    },
+    {
+      "order": 3,
+      "type": "word",
+      "front": {
+        "german": "der Pausenraum",
+        "speaker": null,
+        "label": null,
+        "image": "w-staff-room.jpg"
+      },
+      "back": {
+        "meaning_en": "Staff room",
+        "label": "Example",
+        "german": "Hier ist der Pausenraum.",
+        "english": "Here is the Staff room.",
+        "note": null
+      },
+      "article_word": "der Pausenraum",
+      "false_friend": false
+    },
+    {
+      "order": 4,
+      "type": "word",
+      "front": {
+        "german": "die Umkleide",
+        "speaker": null,
+        "label": null,
+        "image": "w-changing-room.jpg"
+      },
+      "back": {
+        "meaning_en": "Changing room",
+        "label": "Example",
+        "german": "Hier ist die Umkleide.",
+        "english": "Here is the Changing room.",
+        "note": null
+      },
+      "article_word": "die Umkleide",
+      "false_friend": false
+    },
+    {
+      "order": 5,
+      "type": "word",
+      "front": {
+        "german": "die Notaufnahme",
+        "speaker": null,
+        "label": null,
+        "image": "w-casualty.jpg"
+      },
+      "back": {
+        "meaning_en": "Casualty",
+        "label": "Example",
+        "german": "Hier ist die Notaufnahme.",
+        "english": "Here is the Casualty.",
+        "note": null
+      },
+      "article_word": "die Notaufnahme",
+      "false_friend": false
+    },
+    {
+      "order": 6,
+      "type": "word",
+      "front": {
+        "german": "die Intensivstation",
+        "speaker": null,
+        "label": null,
+        "image": "w-icu.jpg"
+      },
+      "back": {
+        "meaning_en": "ICU",
+        "label": "Example",
+        "german": "Hier ist die Intensivstation.",
+        "english": "Here is the ICU.",
+        "note": null
+      },
+      "article_word": "die Intensivstation",
+      "false_friend": false
+    },
+    {
+      "order": 7,
+      "type": "word",
+      "front": {
+        "german": "der OP",
+        "speaker": null,
+        "label": null,
+        "image": "w-ot.jpg"
+      },
+      "back": {
+        "meaning_en": "OT",
+        "label": "Example",
+        "german": "Hier ist der OP.",
+        "english": "Here is the OT.",
+        "note": "Say it: „O-P“"
+      },
+      "article_word": "der OP",
+      "false_friend": false
+    },
+    {
+      "order": 8,
+      "type": "word",
+      "front": {
+        "german": "das Labor",
+        "speaker": null,
+        "label": null,
+        "image": "w-lab.jpg"
+      },
+      "back": {
+        "meaning_en": "Lab",
+        "label": "Example",
+        "german": "Hier ist das Labor.",
+        "english": "Here is the Lab.",
+        "note": null
+      },
+      "article_word": "das Labor",
+      "false_friend": false
+    },
+    {
+      "order": 9,
+      "type": "word",
+      "front": {
+        "german": "die Apotheke",
+        "speaker": null,
+        "label": null,
+        "image": "w-pharmacy.jpg"
+      },
+      "back": {
+        "meaning_en": "Pharmacy",
+        "label": "Example",
+        "german": "Hier ist die Apotheke.",
+        "english": "Here is the Pharmacy.",
+        "note": null
+      },
+      "article_word": "die Apotheke",
+      "false_friend": false
+    },
+    {
+      "order": 10,
+      "type": "word",
+      "front": {
+        "german": "der Kreißsaal",
+        "speaker": null,
+        "label": null,
+        "image": "w-labour-room.jpg"
+      },
+      "back": {
+        "meaning_en": "Labour room",
+        "label": "Example",
+        "german": "Hier ist der Kreißsaal.",
+        "english": "Here is the Labour room.",
+        "note": null
+      },
+      "article_word": "der Kreißsaal",
+      "false_friend": false
+    },
+    {
+      "order": 11,
+      "type": "word",
+      "front": {
+        "german": "die Ambulanz",
+        "speaker": null,
+        "label": null,
+        "image": "w-opd-outpatient-department.jpg"
+      },
+      "back": {
+        "meaning_en": "OPD (outpatient department)",
+        "label": "Example",
+        "german": "Hier ist die Ambulanz.",
+        "english": "Here is the OPD.",
+        "note": "„Ambulanz“ = outpatient clinic. The vehicle is „der Krankenwagen“."
+      },
+      "article_word": "die Ambulanz",
+      "false_friend": true
+    },
+    {
+      "order": 12,
+      "type": "word",
+      "front": {
+        "german": "der Krankenwagen",
+        "speaker": null,
+        "label": null,
+        "image": "w-ambulance.jpg"
+      },
+      "back": {
+        "meaning_en": "Ambulance",
+        "label": "Example",
+        "german": "Hier ist der Krankenwagen.",
+        "english": "Here is the Ambulance.",
+        "note": "Emergency number in Germany: 112."
+      },
+      "article_word": "der Krankenwagen",
+      "false_friend": false
+    },
+    {
+      "order": 13,
+      "type": "word",
+      "front": {
+        "german": "die Trage",
+        "speaker": null,
+        "label": null,
+        "image": "w-stretcher.jpg"
+      },
+      "back": {
+        "meaning_en": "Stretcher",
+        "label": "Example",
+        "german": "Hier ist die Trage.",
+        "english": "Here is the Stretcher.",
+        "note": null
+      },
+      "article_word": "die Trage",
+      "false_friend": false
+    },
+    {
+      "order": 14,
+      "type": "pattern",
+      "front": {
+        "german": "Die Toilette ist hier rechts.",
+        "speaker": null,
+        "label": "Show the way",
+        "image": "p-02-01.jpg"
+      },
+      "back": {
+        "meaning_en": "The toilet is here on the right.",
+        "label": "Tip",
+        "german": "Die Toilette ist hier rechts.",
+        "english": "hier = here · dort = over there · rechts = right · links = left",
+        "note": null
+      },
+      "pattern": "[Die Toilette] ist hier rechts."
+    },
+    {
+      "order": 15,
+      "type": "phrase",
+      "front": {
+        "german": "Wo ist die Toilette?",
+        "speaker": "weber",
+        "label": "Patients ask",
+        "image": "p-02-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Where is the toilet?",
+        "label": "You answer",
+        "german": "Die Toilette ist hier rechts.",
+        "english": "The toilet is here on the right.",
+        "note": "Key word: die Toilette = the toilet"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Die Toilette ist hier rechts.",
+          "english": "The toilet is here on the right."
+        },
+        {
+          "label": "You say",
+          "german": "Hier rechts, die zweite Tür.",
+          "english": "Here on the right, the second door."
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "type": "phrase",
+      "front": {
+        "german": "Ich suche den Aufzug.",
+        "speaker": "yilmaz",
+        "label": "Patient says",
+        "image": "p-02-02.jpg"
+      },
+      "back": {
+        "meaning_en": "I'm looking for the lift.",
+        "label": "You answer",
+        "german": "Der Aufzug ist dort links.",
+        "english": "The lift is over there on the left.",
+        "note": "Key word: der Aufzug = the lift"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Der Aufzug ist dort links.",
+          "english": "The lift is over there on the left."
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "type": "phrase",
+      "front": {
+        "german": "Wo ist Zimmer 1?",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-02-03.jpg"
+      },
+      "back": {
+        "meaning_en": "Where is room 1?",
+        "label": "You answer",
+        "german": "Zimmer 1 ist dort links.",
+        "english": "Room 1 is over there on the left.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Zimmer 1 ist dort links.",
+          "english": "Room 1 is over there on the left."
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "type": "phrase",
+      "front": {
+        "german": "Gibt es hier eine Cafeteria?",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-02-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Is there a cafeteria here?",
+        "label": "You answer",
+        "german": "Ja, im Erdgeschoss.",
+        "english": "Yes, on the ground floor.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, im Erdgeschoss.",
+          "english": "Yes, on the ground floor."
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "type": "phrase",
+      "front": {
+        "german": "Wo ist mein Zimmer?",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-02-08.jpg"
+      },
+      "back": {
+        "meaning_en": "Where is my room?",
+        "label": "You answer",
+        "german": "Ihr Zimmer ist Nummer 2.",
+        "english": "Your room is number 2.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ihr Zimmer ist Nummer 2.",
+          "english": "Your room is number 2."
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "type": "pattern",
+      "front": {
+        "german": "Sie ist in Zimmer 1.",
+        "speaker": null,
+        "label": "Say where someone is",
+        "image": "p-02-06.jpg"
+      },
+      "back": {
+        "meaning_en": "She is in room 1.",
+        "label": "Tip",
+        "german": "Sie ist in Zimmer 1.",
+        "english": "Er = he · Sie = she.",
+        "note": null
+      },
+      "pattern": "Sie ist in [Zimmer 1]."
+    },
+    {
+      "order": 21,
+      "type": "phrase",
+      "front": {
+        "german": "Wo ist Frau Weber?",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-02-06.jpg"
+      },
+      "back": {
+        "meaning_en": "Where is Frau Weber?",
+        "label": "You answer",
+        "german": "Sie ist in Zimmer 1.",
+        "english": "She is in room 1.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Sie ist in Zimmer 1.",
+          "english": "She is in room 1."
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "type": "phrase",
+      "front": {
+        "german": "Ein Patient ist in der Notaufnahme.",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-02-07.jpg"
+      },
+      "back": {
+        "meaning_en": "A patient is in the emergency room.",
+        "label": "Key word",
+        "german": "die Notaufnahme",
+        "english": "the emergency room",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 23,
+      "type": "pattern",
+      "front": {
+        "german": "Ich bringe den Rollstuhl.",
+        "speaker": null,
+        "label": "React to a request",
+        "image": "p-02-04.jpg"
+      },
+      "back": {
+        "meaning_en": "I'll bring the wheelchair.",
+        "label": "Tip",
+        "german": "Ich bringe den Rollstuhl.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Ich bringe [den Rollstuhl]."
+    },
+    {
+      "order": 24,
+      "type": "phrase",
+      "front": {
+        "german": "Bring bitte den Rollstuhl in Zimmer 2.",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-02-04.jpg"
+      },
+      "back": {
+        "meaning_en": "Please bring the wheelchair to room 2.",
+        "label": "You answer",
+        "german": "Okay, ich bringe den Rollstuhl.",
+        "english": "Okay, I'll bring the wheelchair.",
+        "note": "Key word: der Rollstuhl = the wheelchair"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Okay, ich bringe den Rollstuhl.",
+          "english": "Okay, I'll bring the wheelchair."
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "type": "phrase",
+      "front": {
+        "german": "Das Fenster ist offen. Es ist kalt.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-02-09.jpg"
+      },
+      "back": {
+        "meaning_en": "The window is open. It's cold.",
+        "label": "You answer",
+        "german": "Ich mache das Fenster zu.",
+        "english": "I'll close the window.",
+        "note": "Key word: das Fenster = the window"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich mache das Fenster zu.",
+          "english": "I'll close the window."
+        }
+      ]
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-ward.jpg",
+      "options": [
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum",
+        "die Umkleide"
+      ],
+      "answer": "die Station"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "die Station",
+      "options": [
+        "Ward",
+        "Nurses' station",
+        "Staff room",
+        "Changing room"
+      ],
+      "answer": "Ward"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-nurses-station.jpg",
+      "options": [
+        "das Stationszimmer",
+        "die Station",
+        "der Pausenraum",
+        "die Umkleide"
+      ],
+      "answer": "das Stationszimmer"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "das Stationszimmer",
+      "options": [
+        "Nurses' station",
+        "Ward",
+        "Staff room",
+        "Changing room"
+      ],
+      "answer": "Nurses' station"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-staff-room.jpg",
+      "options": [
+        "der Pausenraum",
+        "die Station",
+        "das Stationszimmer",
+        "die Umkleide"
+      ],
+      "answer": "der Pausenraum"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "der Pausenraum",
+      "options": [
+        "Staff room",
+        "Ward",
+        "Nurses' station",
+        "Changing room"
+      ],
+      "answer": "Staff room"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-changing-room.jpg",
+      "options": [
+        "die Umkleide",
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum"
+      ],
+      "answer": "die Umkleide"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "die Umkleide",
+      "options": [
+        "Changing room",
+        "Ward",
+        "Nurses' station",
+        "Staff room"
+      ],
+      "answer": "Changing room"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-casualty.jpg",
+      "options": [
+        "die Notaufnahme",
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum"
+      ],
+      "answer": "die Notaufnahme"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "die Notaufnahme",
+      "options": [
+        "Casualty",
+        "Ward",
+        "Nurses' station",
+        "Staff room"
+      ],
+      "answer": "Casualty"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-icu.jpg",
+      "options": [
+        "die Intensivstation",
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum"
+      ],
+      "answer": "die Intensivstation"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "die Intensivstation",
+      "options": [
+        "ICU",
+        "Ward",
+        "Nurses' station",
+        "Staff room"
+      ],
+      "answer": "ICU"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-ot.jpg",
+      "options": [
+        "der OP",
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum"
+      ],
+      "answer": "der OP"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "der OP",
+      "options": [
+        "OT",
+        "Ward",
+        "Nurses' station",
+        "Staff room"
+      ],
+      "answer": "OT"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-lab.jpg",
+      "options": [
+        "das Labor",
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum"
+      ],
+      "answer": "das Labor"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "das Labor",
+      "options": [
+        "Lab",
+        "Ward",
+        "Nurses' station",
+        "Staff room"
+      ],
+      "answer": "Lab"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-pharmacy.jpg",
+      "options": [
+        "die Apotheke",
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum"
+      ],
+      "answer": "die Apotheke"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "die Apotheke",
+      "options": [
+        "Pharmacy",
+        "Ward",
+        "Nurses' station",
+        "Staff room"
+      ],
+      "answer": "Pharmacy"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-labour-room.jpg",
+      "options": [
+        "der Kreißsaal",
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum"
+      ],
+      "answer": "der Kreißsaal"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "der Kreißsaal",
+      "options": [
+        "Labour room",
+        "Ward",
+        "Nurses' station",
+        "Staff room"
+      ],
+      "answer": "Labour room"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-opd-outpatient-department.jpg",
+      "options": [
+        "die Ambulanz",
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum"
+      ],
+      "answer": "die Ambulanz"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "die Ambulanz",
+      "options": [
+        "OPD (outpatient department)",
+        "Ward",
+        "Nurses' station",
+        "Staff room"
+      ],
+      "answer": "OPD (outpatient department)"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-ambulance.jpg",
+      "options": [
+        "der Krankenwagen",
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum"
+      ],
+      "answer": "der Krankenwagen"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "der Krankenwagen",
+      "options": [
+        "Ambulance",
+        "Ward",
+        "Nurses' station",
+        "Staff room"
+      ],
+      "answer": "Ambulance"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-stretcher.jpg",
+      "options": [
+        "die Trage",
+        "die Station",
+        "das Stationszimmer",
+        "der Pausenraum"
+      ],
+      "answer": "die Trage"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "die Trage",
+      "options": [
+        "Stretcher",
+        "Ward",
+        "Nurses' station",
+        "Staff room"
+      ],
+      "answer": "Stretcher"
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "weber",
+      "prompt_de": "Wo ist die Toilette?",
+      "prompt_en": "Where is the toilet?",
+      "options": [
+        {
+          "german": "die Toilette",
+          "english": "the toilet",
+          "image": "i-toilette.jpg"
+        },
+        {
+          "german": "der Aufzug",
+          "english": "the lift",
+          "image": "i-aufzug.jpg"
+        },
+        {
+          "german": "das Bett",
+          "english": "the bed",
+          "image": "i-bett.jpg"
+        },
+        {
+          "german": "die Tür",
+          "english": null,
+          "image": "i-tuer.jpg"
+        }
+      ],
+      "answer": "die Toilette",
+      "feedback_de": "Die Toilette ist hier rechts.",
+      "feedback_en": "The toilet is here on the right."
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "schmidt",
+      "prompt_de": "Wo ist die Toilette?",
+      "prompt_en": "Where is the toilet?",
+      "options": [
+        "Hier rechts, die zweite Tür.",
+        "Um acht Uhr.",
+        "Ja, bitte."
+      ],
+      "answer": "Hier rechts, die zweite Tür."
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "yilmaz",
+      "prompt_de": "Ich suche den Aufzug.",
+      "prompt_en": "I'm looking for the lift.",
+      "options": [
+        {
+          "german": "der Aufzug",
+          "english": "the lift",
+          "image": "i-aufzug.jpg"
+        },
+        {
+          "german": "die Toilette",
+          "english": "the toilet",
+          "image": "i-toilette.jpg"
+        },
+        {
+          "german": "die Notaufnahme",
+          "english": "the emergency room",
+          "image": "i-notaufnahme.jpg"
+        },
+        {
+          "german": "die Cafeteria",
+          "english": "the cafeteria",
+          "image": "i-cafeteria.jpg"
+        }
+      ],
+      "answer": "der Aufzug",
+      "feedback_de": "Der Aufzug ist dort links.",
+      "feedback_en": "The lift is over there on the left."
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "anna",
+      "prompt_de": "Wo ist Zimmer 1?",
+      "prompt_en": "Where is room 1?",
+      "options": [
+        "Zimmer 1 ist dort links.",
+        "Um ein Uhr.",
+        "Ich bin Zimmer 1."
+      ],
+      "answer": "Zimmer 1 ist dort links."
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "lena",
+      "prompt_de": "Bring bitte den Rollstuhl in Zimmer 2.",
+      "prompt_en": "Please bring the wheelchair to room 2.",
+      "options": [
+        {
+          "german": "der Rollstuhl",
+          "english": "the wheelchair",
+          "image": "i-rollstuhl.jpg"
+        },
+        {
+          "german": "das Bett",
+          "english": "the bed",
+          "image": "i-bett.jpg"
+        },
+        {
+          "german": "der Aufzug",
+          "english": "the lift",
+          "image": "i-aufzug.jpg"
+        },
+        {
+          "german": "die Tür",
+          "english": null,
+          "image": "i-tuer.jpg"
+        }
+      ],
+      "answer": "der Rollstuhl",
+      "feedback_de": "Okay, ich bringe den Rollstuhl.",
+      "feedback_en": "Okay, I'll bring the wheelchair."
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "anna",
+      "prompt_de": "Gibt es hier eine Cafeteria?",
+      "prompt_en": "Is there a cafeteria here?",
+      "options": [
+        "Ja, im Erdgeschoss.",
+        "Ja, im Bett.",
+        "Nein, ich habe keinen Kaffee."
+      ],
+      "answer": "Ja, im Erdgeschoss."
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "braun",
+      "prompt_de": "Wo ist Frau Weber?",
+      "prompt_en": "Where is Frau Weber?",
+      "options": [
+        "Sie ist in Zimmer 1.",
+        "Sie ist 82 Jahre alt.",
+        "Sie heißt Weber."
+      ],
+      "answer": "Sie ist in Zimmer 1."
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "lena",
+      "prompt_de": "Ein Patient ist in der Notaufnahme.",
+      "prompt_en": "A patient is in the emergency room.",
+      "options": [
+        {
+          "german": "die Notaufnahme",
+          "english": "the emergency room",
+          "image": "i-notaufnahme.jpg"
+        },
+        {
+          "german": "das Labor",
+          "english": null,
+          "image": "i-labor.jpg"
+        },
+        {
+          "german": "die Cafeteria",
+          "english": "the cafeteria",
+          "image": "i-cafeteria.jpg"
+        },
+        {
+          "german": "der Aufzug",
+          "english": "the lift",
+          "image": "i-aufzug.jpg"
+        }
+      ],
+      "answer": "die Notaufnahme"
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "schmidt",
+      "prompt_de": "Wo ist mein Zimmer?",
+      "prompt_en": "Where is my room?",
+      "options": [
+        "Ihr Zimmer ist Nummer 2.",
+        "Mein Zimmer ist schön.",
+        "Das ist der Arzt."
+      ],
+      "answer": "Ihr Zimmer ist Nummer 2."
+    },
+    {
+      "type": "picture_choice",
+      "speaker": "weber",
+      "prompt_de": "Das Fenster ist offen. Es ist kalt.",
+      "prompt_en": "The window is open. It's cold.",
+      "options": [
+        {
+          "german": "das Fenster",
+          "english": "the window",
+          "image": "i-fenster.jpg"
+        },
+        {
+          "german": "die Tür",
+          "english": null,
+          "image": "i-tuer.jpg"
+        },
+        {
+          "german": "das Bett",
+          "english": "the bed",
+          "image": "i-bett.jpg"
+        },
+        {
+          "german": "die Toilette",
+          "english": "the toilet",
+          "image": "i-toilette.jpg"
+        }
+      ],
+      "answer": "das Fenster",
+      "feedback_de": "Ich mache das Fenster zu.",
+      "feedback_en": "I'll close the window."
+    }
+  ],
+  "images_zip": "level-02-images.zip",
+  "images": [
+    "i-aufzug.jpg",
+    "i-bett.jpg",
+    "i-cafeteria.jpg",
+    "i-fenster.jpg",
+    "i-labor.jpg",
+    "i-notaufnahme.jpg",
+    "i-rollstuhl.jpg",
+    "i-toilette.jpg",
+    "i-tuer.jpg",
+    "p-02-01.jpg",
+    "p-02-02.jpg",
+    "p-02-03.jpg",
+    "p-02-04.jpg",
+    "p-02-05.jpg",
+    "p-02-06.jpg",
+    "p-02-07.jpg",
+    "p-02-08.jpg",
+    "p-02-09.jpg",
+    "w-ambulance.jpg",
+    "w-casualty.jpg",
+    "w-changing-room.jpg",
+    "w-icu.jpg",
+    "w-lab.jpg",
+    "w-labour-room.jpg",
+    "w-nurses-station.jpg",
+    "w-opd-outpatient-department.jpg",
+    "w-ot.jpg",
+    "w-pharmacy.jpg",
+    "w-staff-room.jpg",
+    "w-stretcher.jpg",
+    "w-ward.jpg"
+  ]
+}

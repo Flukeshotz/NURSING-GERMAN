@@ -1,0 +1,830 @@
+{
+  "level": 12,
+  "cefr": "A1",
+  "title_en": "Talking to colleagues",
+  "title_de": "Mit Kollegen",
+  "unlock": {
+    "requires_level": 11,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 13
+  },
+  "goals": [
+    {
+      "title": "Report about patients",
+      "pattern": "[Herr Schmidt] hat [Fieber].",
+      "pattern_en": "Herr Schmidt has a fever.",
+      "tip": null
+    },
+    {
+      "title": "Ask colleagues (du)",
+      "pattern": "Kannst du bitte [helfen]?",
+      "pattern_en": "Can you please help?",
+      "tip": "Most colleagues: du. Doctors: usually Sie."
+    },
+    {
+      "title": "Talk to the doctor (Sie)",
+      "pattern": "Können Sie das bitte wiederholen?",
+      "pattern_en": "Can you repeat that, please?",
+      "tip": null
+    }
+  ],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "word",
+      "front": {
+        "german": "der Assistenzarzt / die Assistenzärztin",
+        "speaker": null,
+        "label": null,
+        "image": "w-junior-doctor-resident.jpg"
+      },
+      "back": {
+        "meaning_en": "Junior doctor / resident",
+        "label": "Example",
+        "german": "Das ist der Assistenzarzt.",
+        "english": "This is the junior doctor.",
+        "note": null
+      },
+      "article_word": "der Assistenzarzt / die Assistenzärztin",
+      "false_friend": false
+    },
+    {
+      "order": 2,
+      "type": "word",
+      "front": {
+        "german": "der Oberarzt / die Oberärztin",
+        "speaker": null,
+        "label": null,
+        "image": "w-senior-doctor-consultant.jpg"
+      },
+      "back": {
+        "meaning_en": "Senior doctor / consultant",
+        "label": "Example",
+        "german": "Das ist der Oberarzt.",
+        "english": "This is the senior doctor.",
+        "note": null
+      },
+      "article_word": "der Oberarzt / die Oberärztin",
+      "false_friend": false
+    },
+    {
+      "order": 3,
+      "type": "word",
+      "front": {
+        "german": "der Chefarzt / die Chefärztin",
+        "speaker": null,
+        "label": null,
+        "image": "w-hod-chief-doctor.jpg"
+      },
+      "back": {
+        "meaning_en": "HOD / chief doctor",
+        "label": "Example",
+        "german": "Das ist der Chefarzt.",
+        "english": "This is the hod.",
+        "note": null
+      },
+      "article_word": "der Chefarzt / die Chefärztin",
+      "false_friend": false
+    },
+    {
+      "order": 4,
+      "type": "word",
+      "front": {
+        "german": "der Chef / die Chefin",
+        "speaker": null,
+        "label": null,
+        "image": "w-boss.jpg"
+      },
+      "back": {
+        "meaning_en": "Boss",
+        "label": "Example",
+        "german": "Das ist der Chef.",
+        "english": "This is the boss.",
+        "note": "Not a cook. „Chef“ means boss."
+      },
+      "article_word": "der Chef / die Chefin",
+      "false_friend": true
+    },
+    {
+      "order": 5,
+      "type": "word",
+      "front": {
+        "german": "also",
+        "speaker": null,
+        "label": null,
+        "image": "w-so-well.jpg"
+      },
+      "back": {
+        "meaning_en": "So / well …",
+        "label": "Example",
+        "german": "Also, wie geht es Ihnen?",
+        "english": "So, how are you?",
+        "note": "„also“ means „so“. „Too“ is „auch“."
+      },
+      "article_word": "also",
+      "false_friend": true
+    },
+    {
+      "order": 6,
+      "type": "word",
+      "front": {
+        "german": "bekommen",
+        "speaker": null,
+        "label": null,
+        "image": "w-to-get-receive.jpg"
+      },
+      "back": {
+        "meaning_en": "To get / receive",
+        "label": "Example",
+        "german": "Sie bekommen eine Tablette.",
+        "english": "You get a tablet.",
+        "note": "„Sie bekommen eine Tablette“ = You get a tablet. Not „become“!"
+      },
+      "article_word": "bekommen",
+      "false_friend": true
+    },
+    {
+      "order": 7,
+      "type": "word",
+      "front": {
+        "german": "die Übergabe",
+        "speaker": null,
+        "label": null,
+        "image": "w-handover.jpg"
+      },
+      "back": {
+        "meaning_en": "Handover",
+        "label": "Example",
+        "german": "Hier ist die Übergabe.",
+        "english": "Here is the Handover.",
+        "note": "At every change of shift."
+      },
+      "article_word": "die Übergabe",
+      "false_friend": false
+    },
+    {
+      "order": 8,
+      "type": "pattern",
+      "front": {
+        "german": "Herr Schmidt hat Fieber.",
+        "speaker": null,
+        "label": "Report about patients",
+        "image": "p-11-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Herr Schmidt has a fever.",
+        "label": "Tip",
+        "german": "Herr Schmidt hat Fieber.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "[Herr Schmidt] hat [Fieber]."
+    },
+    {
+      "order": 9,
+      "type": "phrase",
+      "front": {
+        "german": "Wie geht es Frau Weber?",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-11-01.jpg"
+      },
+      "back": {
+        "meaning_en": "How is Frau Weber?",
+        "label": "You answer",
+        "german": "Sie hat Kopfschmerzen.",
+        "english": "She has a headache.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Sie hat Kopfschmerzen.",
+          "english": "She has a headache."
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "type": "phrase",
+      "front": {
+        "german": "Herr Schmidt hat Fieber.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-11-03.jpg"
+      },
+      "back": {
+        "meaning_en": "Herr Schmidt has a fever.",
+        "label": "When",
+        "german": "Herr Schmidt hat Fieber.",
+        "english": "Tell Dr. Braun: Herr Schmidt has a fever.",
+        "note": null
+      }
+    },
+    {
+      "order": 11,
+      "type": "phrase",
+      "front": {
+        "german": "Wie ist der Blutdruck von Herrn Yılmaz?",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-11-04.jpg"
+      },
+      "back": {
+        "meaning_en": "What's Herr Yılmaz's blood pressure?",
+        "label": "You answer",
+        "german": "Der Blutdruck ist 140 zu 90.",
+        "english": "The blood pressure is 140 over 90.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Der Blutdruck ist 140 zu 90.",
+          "english": "The blood pressure is 140 over 90."
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "type": "pattern",
+      "front": {
+        "german": "Kannst du bitte helfen?",
+        "speaker": null,
+        "label": "Ask colleagues (du)",
+        "image": "p-11-02.jpg"
+      },
+      "back": {
+        "meaning_en": "Can you please help?",
+        "label": "Tip",
+        "german": "Kannst du bitte helfen?",
+        "english": "Most colleagues: du. Doctors: usually Sie.",
+        "note": null
+      },
+      "pattern": "Kannst du bitte [helfen]?"
+    },
+    {
+      "order": 13,
+      "type": "phrase",
+      "front": {
+        "german": "Lena, kannst du bitte in Zimmer 2 gehen?",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-11-02.jpg"
+      },
+      "back": {
+        "meaning_en": "Lena, can you please go to room 2?",
+        "label": "When",
+        "german": "Lena, kannst du bitte in Zimmer 2 gehen?",
+        "english": "Room 2 rings. You are busy. Ask Lena.",
+        "note": null
+      }
+    },
+    {
+      "order": 14,
+      "type": "phrase",
+      "front": {
+        "german": "Kaffee?",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-11-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Coffee?",
+        "label": "You answer",
+        "german": "Ja, gern! Danke, Lena.",
+        "english": "Yes, please! Thanks, Lena.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, gern! Danke, Lena.",
+          "english": "Yes, please! Thanks, Lena."
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "type": "phrase",
+      "front": {
+        "german": "Kannst du mir helfen?",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-11-06.jpg"
+      },
+      "back": {
+        "meaning_en": "Can you help me?",
+        "label": "You answer",
+        "german": "Ja, klar. Was brauchst du?",
+        "english": "Yes, of course. What do you need?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, klar. Was brauchst du?",
+          "english": "Yes, of course. What do you need?"
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "type": "phrase",
+      "front": {
+        "german": "Tschüss Lena, bis morgen!",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-11-10.jpg"
+      },
+      "back": {
+        "meaning_en": "Bye Lena, see you tomorrow!",
+        "label": "When",
+        "german": "Tschüss Lena, bis morgen!",
+        "english": "End of shift. Say goodbye to Lena.",
+        "note": null
+      }
+    },
+    {
+      "order": 17,
+      "type": "pattern",
+      "front": {
+        "german": "Können Sie das bitte wiederholen?",
+        "speaker": null,
+        "label": "Talk to the doctor (Sie)",
+        "image": "p-11-07.jpg"
+      },
+      "back": {
+        "meaning_en": "Can you repeat that, please?",
+        "label": "Tip",
+        "german": "Können Sie das bitte wiederholen?",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Können Sie das bitte wiederholen?"
+    },
+    {
+      "order": 18,
+      "type": "phrase",
+      "front": {
+        "german": "Entschuldigung, können Sie das bitte wiederholen?",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-11-07.jpg"
+      },
+      "back": {
+        "meaning_en": "Sorry, can you repeat that, please?",
+        "label": "When",
+        "german": "Entschuldigung, können Sie das bitte wiederholen?",
+        "english": "You didn't understand Dr. Braun.",
+        "note": null
+      }
+    },
+    {
+      "order": 19,
+      "type": "phrase",
+      "front": {
+        "german": "Wer hat heute Nachtdienst?",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-11-08.jpg"
+      },
+      "back": {
+        "meaning_en": "Who has the night shift today?",
+        "label": "You answer",
+        "german": "Ich habe heute Nachtdienst.",
+        "english": "I have the night shift today.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich habe heute Nachtdienst.",
+          "english": "I have the night shift today."
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "type": "phrase",
+      "front": {
+        "german": "Danke für die Hilfe.",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-11-09.jpg"
+      },
+      "back": {
+        "meaning_en": "Thanks for the help.",
+        "label": "You answer",
+        "german": "Bitte, gern, Dr. Braun.",
+        "english": "You're welcome, Dr. Braun.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Bitte, gern, Dr. Braun.",
+          "english": "You're welcome, Dr. Braun."
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "type": "document",
+      "front": {
+        "german": "Übergabe",
+        "speaker": null,
+        "label": null,
+        "image": null
+      },
+      "back": {
+        "meaning_en": "Handover note",
+        "label": "Key words",
+        "german": "Übergabe · Arzt informiert · ab 22 Uhr nüchtern · Sturzgefahr",
+        "english": "handover · doctor informed · nothing to eat from 22:00 · risk of falling",
+        "note": null
+      },
+      "document": {
+        "title_de": "Übergabe",
+        "title_en": "Handover note",
+        "html": "<h4>ÜBERGABE · FRÜHDIENST</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Zi. 1 Weber</td><td>RR 150/90, Kopfschmerzen, Arzt informiert</td></tr><tr><td>Zi. 2 Schmidt</td><td>OP morgen 8 Uhr, ab 22 Uhr nüchtern</td></tr><tr><td>Zi. 3 Yılmaz</td><td class=\"hi\">Sturzgefahr! Nicht allein aufstehen</td></tr></table></div>",
+        "key_words": [
+          {
+            "de": "Übergabe",
+            "en": "handover"
+          },
+          {
+            "de": "Arzt informiert",
+            "en": "doctor informed"
+          },
+          {
+            "de": "ab 22 Uhr nüchtern",
+            "en": "nothing to eat from 22:00"
+          },
+          {
+            "de": "Sturzgefahr",
+            "en": "risk of falling"
+          }
+        ]
+      }
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-junior-doctor-resident.jpg",
+      "options": [
+        "der Assistenzarzt / die Assistenzärztin",
+        "der Oberarzt / die Oberärztin",
+        "der Chefarzt / die Chefärztin",
+        "der Chef / die Chefin"
+      ],
+      "answer": "der Assistenzarzt / die Assistenzärztin"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "der Assistenzarzt / die Assistenzärztin",
+      "options": [
+        "Junior doctor / resident",
+        "Senior doctor / consultant",
+        "HOD / chief doctor",
+        "Boss"
+      ],
+      "answer": "Junior doctor / resident"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-senior-doctor-consultant.jpg",
+      "options": [
+        "der Oberarzt / die Oberärztin",
+        "der Assistenzarzt / die Assistenzärztin",
+        "der Chefarzt / die Chefärztin",
+        "der Chef / die Chefin"
+      ],
+      "answer": "der Oberarzt / die Oberärztin"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "der Oberarzt / die Oberärztin",
+      "options": [
+        "Senior doctor / consultant",
+        "Junior doctor / resident",
+        "HOD / chief doctor",
+        "Boss"
+      ],
+      "answer": "Senior doctor / consultant"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-hod-chief-doctor.jpg",
+      "options": [
+        "der Chefarzt / die Chefärztin",
+        "der Assistenzarzt / die Assistenzärztin",
+        "der Oberarzt / die Oberärztin",
+        "der Chef / die Chefin"
+      ],
+      "answer": "der Chefarzt / die Chefärztin"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "der Chefarzt / die Chefärztin",
+      "options": [
+        "HOD / chief doctor",
+        "Junior doctor / resident",
+        "Senior doctor / consultant",
+        "Boss"
+      ],
+      "answer": "HOD / chief doctor"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-boss.jpg",
+      "options": [
+        "der Chef / die Chefin",
+        "der Assistenzarzt / die Assistenzärztin",
+        "der Oberarzt / die Oberärztin",
+        "der Chefarzt / die Chefärztin"
+      ],
+      "answer": "der Chef / die Chefin"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "der Chef / die Chefin",
+      "options": [
+        "Boss",
+        "Junior doctor / resident",
+        "Senior doctor / consultant",
+        "HOD / chief doctor"
+      ],
+      "answer": "Boss"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-so-well.jpg",
+      "options": [
+        "also",
+        "der Assistenzarzt / die Assistenzärztin",
+        "der Oberarzt / die Oberärztin",
+        "der Chefarzt / die Chefärztin"
+      ],
+      "answer": "also"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "also",
+      "options": [
+        "So / well …",
+        "Junior doctor / resident",
+        "Senior doctor / consultant",
+        "HOD / chief doctor"
+      ],
+      "answer": "So / well …"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-to-get-receive.jpg",
+      "options": [
+        "bekommen",
+        "der Assistenzarzt / die Assistenzärztin",
+        "der Oberarzt / die Oberärztin",
+        "der Chefarzt / die Chefärztin"
+      ],
+      "answer": "bekommen"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "bekommen",
+      "options": [
+        "To get / receive",
+        "Junior doctor / resident",
+        "Senior doctor / consultant",
+        "HOD / chief doctor"
+      ],
+      "answer": "To get / receive"
+    },
+    {
+      "type": "image_choice",
+      "instruction": "Match the correct word to this image",
+      "image": "w-handover.jpg",
+      "options": [
+        "die Übergabe",
+        "der Assistenzarzt / die Assistenzärztin",
+        "der Oberarzt / die Oberärztin",
+        "der Chefarzt / die Chefärztin"
+      ],
+      "answer": "die Übergabe"
+    },
+    {
+      "type": "meaning_choice",
+      "instruction": "Choose the correct meaning",
+      "german": "die Übergabe",
+      "options": [
+        "Handover",
+        "Junior doctor / resident",
+        "Senior doctor / consultant",
+        "HOD / chief doctor"
+      ],
+      "answer": "Handover"
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "lena",
+      "prompt_de": "Wie geht es Frau Weber?",
+      "prompt_en": "How is Frau Weber? (She has a headache.)",
+      "options": [
+        "Sie hat Kopfschmerzen.",
+        "Ich habe Kopfschmerzen.",
+        "Er hat Kopfschmerzen."
+      ],
+      "answer": "Sie hat Kopfschmerzen."
+    },
+    {
+      "type": "situation_choice",
+      "speaker": "lena",
+      "prompt_de": null,
+      "prompt_en": "Room 2 rings. You are busy. Ask Lena.",
+      "options": [
+        "Lena, kannst du bitte in Zimmer 2 gehen?",
+        "Lena, können Sie bitte schlafen?",
+        "Lena, gehst du nach Hause?"
+      ],
+      "answer": "Lena, kannst du bitte in Zimmer 2 gehen?"
+    },
+    {
+      "type": "situation_choice",
+      "speaker": "braun",
+      "prompt_de": null,
+      "prompt_en": "Tell Dr. Braun: Herr Schmidt has a fever.",
+      "options": [
+        "Herr Schmidt hat Fieber.",
+        "Herr Schmidt ist Fieber.",
+        "Herr Schmidt hat Hunger."
+      ],
+      "answer": "Herr Schmidt hat Fieber."
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "braun",
+      "prompt_de": "Wie ist der Blutdruck von Herrn Yılmaz?",
+      "prompt_en": "What's Herr Yılmaz's blood pressure? (It's 140/90.)",
+      "options": [
+        "Der Blutdruck ist 140 zu 90.",
+        "Der Blutdruck ist 14 zu 9.",
+        "Der Puls ist 140."
+      ],
+      "answer": "Der Blutdruck ist 140 zu 90."
+    },
+    {
+      "type": "choose_reply_sie_du",
+      "speaker": "lena",
+      "prompt_de": "Kaffee?",
+      "prompt_en": "Lena offers you coffee in the break.",
+      "options": [
+        "Ja, gern! Danke, Lena.",
+        "Ja, gern! Danke, Frau Lena. Wie geht es Ihnen?",
+        "Nein, Sie haben Durst."
+      ],
+      "answer": "Ja, gern! Danke, Lena."
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "lena",
+      "prompt_de": "Kannst du mir helfen?",
+      "prompt_en": "Can you help me?",
+      "options": [
+        "Ja, klar. Was brauchst du?",
+        "Nein, ich bin Patientin.",
+        "Ja, klar. Wie heißen Sie?"
+      ],
+      "answer": "Ja, klar. Was brauchst du?"
+    },
+    {
+      "type": "situation_choice",
+      "speaker": "braun",
+      "prompt_de": null,
+      "prompt_en": "You didn't understand Dr. Braun.",
+      "options": [
+        "Entschuldigung, können Sie das bitte wiederholen?",
+        "Alles klar, danke!",
+        "Entschuldigung, kannst du das bitte essen?"
+      ],
+      "answer": "Entschuldigung, können Sie das bitte wiederholen?"
+    },
+    {
+      "type": "choose_reply",
+      "speaker": "lena",
+      "prompt_de": "Wer hat heute Nachtdienst?",
+      "prompt_en": "Who has the night shift today? (You do.)",
+      "options": [
+        "Ich habe heute Nachtdienst.",
+        "Ich habe heute Nachtisch.",
+        "Ich bin heute Nacht."
+      ],
+      "answer": "Ich habe heute Nachtdienst.",
+      "feedback_de": "Careful: der Nachtisch = dessert!",
+      "feedback_en": null
+    },
+    {
+      "type": "choose_reply_sie_du",
+      "speaker": "braun",
+      "prompt_de": "Danke für die Hilfe.",
+      "prompt_en": "Dr. Braun thanks you.",
+      "options": [
+        "Bitte, gern, Dr. Braun.",
+        "Kein Ding, Alter!",
+        "Danke, du auch."
+      ],
+      "answer": "Bitte, gern, Dr. Braun."
+    },
+    {
+      "type": "situation_choice",
+      "speaker": "lena",
+      "prompt_de": null,
+      "prompt_en": "End of shift. Say goodbye to Lena.",
+      "options": [
+        "Tschüss Lena, bis morgen!",
+        "Guten Morgen, Lena!",
+        "Gute Besserung, Lena!"
+      ],
+      "answer": "Tschüss Lena, bis morgen!"
+    },
+    {
+      "type": "document_question",
+      "document": "Handover note",
+      "document_de": "Übergabe",
+      "question_en": "Who has an operation tomorrow?",
+      "options": [
+        "Herr Schmidt",
+        "Frau Weber",
+        "Herr Yılmaz"
+      ],
+      "answer": "Herr Schmidt"
+    },
+    {
+      "type": "document_question",
+      "document": "Handover note",
+      "document_de": "Übergabe",
+      "question_en": "From what time must Herr Schmidt not eat?",
+      "options": [
+        "22:00",
+        "8:00",
+        "12:00"
+      ],
+      "answer": "22:00"
+    },
+    {
+      "type": "document_question",
+      "document": "Handover note",
+      "document_de": "Übergabe",
+      "question_en": "What is the risk for Herr Yılmaz?",
+      "options": [
+        "He may fall",
+        "He has a fever",
+        "He has no glasses"
+      ],
+      "answer": "He may fall"
+    }
+  ],
+  "images_zip": "level-12-images.zip",
+  "images": [
+    "p-11-01.jpg",
+    "p-11-02.jpg",
+    "p-11-03.jpg",
+    "p-11-04.jpg",
+    "p-11-05.jpg",
+    "p-11-06.jpg",
+    "p-11-07.jpg",
+    "p-11-08.jpg",
+    "p-11-09.jpg",
+    "p-11-10.jpg",
+    "w-boss.jpg",
+    "w-handover.jpg",
+    "w-hod-chief-doctor.jpg",
+    "w-junior-doctor-resident.jpg",
+    "w-senior-doctor-consultant.jpg",
+    "w-so-well.jpg",
+    "w-to-get-receive.jpg"
+  ]
+}

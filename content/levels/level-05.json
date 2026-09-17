@@ -1,0 +1,754 @@
+{
+  "level": 5,
+  "cefr": "A1",
+  "title_en": "Emergency German",
+  "title_de": "Notfall-Deutsch",
+  "unlock": {
+    "requires_level": 4,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 10
+  },
+  "goals": [],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "emergency",
+      "front": {
+        "german": "Hilfe!",
+        "speaker": null,
+        "label": null,
+        "image": "e-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Help!",
+        "label": "Say it",
+        "german": "Hilfe!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 2,
+      "type": "emergency",
+      "front": {
+        "german": "Notfall!",
+        "speaker": null,
+        "label": null,
+        "image": "e-02.jpg"
+      },
+      "back": {
+        "meaning_en": "Emergency!",
+        "label": "Say it",
+        "german": "Notfall!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 3,
+      "type": "emergency",
+      "front": {
+        "german": "Rufen Sie bitte den Arzt!",
+        "speaker": null,
+        "label": null,
+        "image": "e-03.jpg"
+      },
+      "back": {
+        "meaning_en": "Please call the doctor!",
+        "label": "Say it",
+        "german": "Rufen Sie bitte den Arzt!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 4,
+      "type": "emergency",
+      "front": {
+        "german": "Schnell, bitte!",
+        "speaker": null,
+        "label": null,
+        "image": "e-04.jpg"
+      },
+      "back": {
+        "meaning_en": "Quickly, please!",
+        "label": "Say it",
+        "german": "Schnell, bitte!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 5,
+      "type": "emergency",
+      "front": {
+        "german": "Bleiben Sie bitte liegen.",
+        "speaker": null,
+        "label": null,
+        "image": "e-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Please stay lying down.",
+        "label": "Say it",
+        "german": "Bleiben Sie bitte liegen.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 6,
+      "type": "emergency",
+      "front": {
+        "german": "Nicht aufstehen!",
+        "speaker": null,
+        "label": null,
+        "image": "e-06.jpg"
+      },
+      "back": {
+        "meaning_en": "Don't get up!",
+        "label": "Say it",
+        "german": "Nicht aufstehen!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 7,
+      "type": "emergency",
+      "front": {
+        "german": "Atmen Sie ruhig.",
+        "speaker": null,
+        "label": null,
+        "image": "e-07.jpg"
+      },
+      "back": {
+        "meaning_en": "Breathe calmly.",
+        "label": "Say it",
+        "german": "Atmen Sie ruhig.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 8,
+      "type": "emergency",
+      "front": {
+        "german": "Haben Sie Allergien?",
+        "speaker": null,
+        "label": null,
+        "image": "e-08.jpg"
+      },
+      "back": {
+        "meaning_en": "Do you have allergies?",
+        "label": "Say it",
+        "german": "Haben Sie Allergien?",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 9,
+      "type": "emergency",
+      "front": {
+        "german": "Können Sie mich hören?",
+        "speaker": null,
+        "label": null,
+        "image": "e-09.jpg"
+      },
+      "back": {
+        "meaning_en": "Can you hear me?",
+        "label": "Say it",
+        "german": "Können Sie mich hören?",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 10,
+      "type": "emergency",
+      "front": {
+        "german": "Ich bin hier.",
+        "speaker": null,
+        "label": null,
+        "image": "e-10.jpg"
+      },
+      "back": {
+        "meaning_en": "I'm here.",
+        "label": "Say it",
+        "german": "Ich bin hier.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 11,
+      "type": "emergency",
+      "front": {
+        "german": "Bewusstlos!",
+        "speaker": null,
+        "label": null,
+        "image": "e-11.jpg"
+      },
+      "back": {
+        "meaning_en": "Unconscious!",
+        "label": "Say it",
+        "german": "Bewusstlos!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 12,
+      "type": "emergency",
+      "front": {
+        "german": "Er atmet nicht!",
+        "speaker": null,
+        "label": null,
+        "image": "e-12.jpg"
+      },
+      "back": {
+        "meaning_en": "He is not breathing!",
+        "label": "Say it",
+        "german": "Er atmet nicht!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 13,
+      "type": "emergency",
+      "front": {
+        "german": "Sie atmet.",
+        "speaker": null,
+        "label": null,
+        "image": "e-13.jpg"
+      },
+      "back": {
+        "meaning_en": "She is breathing.",
+        "label": "Say it",
+        "german": "Sie atmet.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 14,
+      "type": "emergency",
+      "front": {
+        "german": "Ich brauche Hilfe in Zimmer 3!",
+        "speaker": null,
+        "label": null,
+        "image": "e-14.jpg"
+      },
+      "back": {
+        "meaning_en": "I need help in room 3!",
+        "label": "Say it",
+        "german": "Ich brauche Hilfe in Zimmer 3!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 15,
+      "type": "emergency",
+      "front": {
+        "german": "Holen Sie bitte den Notfallwagen!",
+        "speaker": null,
+        "label": null,
+        "image": "e-15.jpg"
+      },
+      "back": {
+        "meaning_en": "Please get the emergency trolley!",
+        "label": "Say it",
+        "german": "Holen Sie bitte den Notfallwagen!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 16,
+      "type": "emergency",
+      "front": {
+        "german": "Blutung!",
+        "speaker": null,
+        "label": null,
+        "image": "e-16.jpg"
+      },
+      "back": {
+        "meaning_en": "Bleeding!",
+        "label": "Say it",
+        "german": "Blutung!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 17,
+      "type": "emergency",
+      "front": {
+        "german": "Drücken Sie hier fest.",
+        "speaker": null,
+        "label": null,
+        "image": "e-17.jpg"
+      },
+      "back": {
+        "meaning_en": "Press firmly here.",
+        "label": "Say it",
+        "german": "Drücken Sie hier fest.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 18,
+      "type": "emergency",
+      "front": {
+        "german": "Sturz in Zimmer 2!",
+        "speaker": null,
+        "label": null,
+        "image": "e-18.jpg"
+      },
+      "back": {
+        "meaning_en": "Fall in room 2!",
+        "label": "Say it",
+        "german": "Sturz in Zimmer 2!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 19,
+      "type": "emergency",
+      "front": {
+        "german": "Bewegen Sie sich nicht.",
+        "speaker": null,
+        "label": null,
+        "image": "e-19.jpg"
+      },
+      "back": {
+        "meaning_en": "Don't move.",
+        "label": "Say it",
+        "german": "Bewegen Sie sich nicht.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 20,
+      "type": "emergency",
+      "front": {
+        "german": "Feuer!",
+        "speaker": null,
+        "label": null,
+        "image": "e-20.jpg"
+      },
+      "back": {
+        "meaning_en": "Fire!",
+        "label": "Say it",
+        "german": "Feuer!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 21,
+      "type": "emergency",
+      "front": {
+        "german": "Bitte zum Notausgang!",
+        "speaker": null,
+        "label": null,
+        "image": "e-21.jpg"
+      },
+      "back": {
+        "meaning_en": "Please go to the emergency exit!",
+        "label": "Say it",
+        "german": "Bitte zum Notausgang!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 22,
+      "type": "emergency",
+      "front": {
+        "german": "Ruhig bleiben.",
+        "speaker": null,
+        "label": null,
+        "image": "e-22.jpg"
+      },
+      "back": {
+        "meaning_en": "Stay calm.",
+        "label": "Say it",
+        "german": "Ruhig bleiben.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 23,
+      "type": "emergency",
+      "front": {
+        "german": "Der Arzt kommt sofort.",
+        "speaker": null,
+        "label": null,
+        "image": "e-23.jpg"
+      },
+      "back": {
+        "meaning_en": "The doctor is coming right away.",
+        "label": "Say it",
+        "german": "Der Arzt kommt sofort.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 24,
+      "type": "emergency",
+      "front": {
+        "german": "Wie heißen Sie? Welcher Tag ist heute?",
+        "speaker": null,
+        "label": null,
+        "image": "e-24.jpg"
+      },
+      "back": {
+        "meaning_en": "What's your name? What day is it today?",
+        "label": "Say it",
+        "german": "Wie heißen Sie? Welcher Tag ist heute?",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    },
+    {
+      "order": 25,
+      "type": "emergency",
+      "front": {
+        "german": "Rufen Sie die 112!",
+        "speaker": null,
+        "label": null,
+        "image": "e-25.jpg"
+      },
+      "back": {
+        "meaning_en": "Call 112!",
+        "label": "Say it",
+        "german": "Rufen Sie die 112!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      }
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "A patient falls in the corridor. You need colleagues now.",
+      "options": [
+        "Hilfe!",
+        "Tschüss!",
+        "Guten Appetit!"
+      ],
+      "answer": "Hilfe!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "A patient does not react when you speak to her.",
+      "options": [
+        "Können Sie mich hören?",
+        "Wie heißen Sie?",
+        "Haben Sie Hunger?"
+      ],
+      "answer": "Können Sie mich hören?"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "You need the doctor immediately.",
+      "options": [
+        "Rufen Sie bitte den Arzt!",
+        "Rufen Sie bitte ein Taxi!",
+        "Rufen Sie bitte morgen an!"
+      ],
+      "answer": "Rufen Sie bitte den Arzt!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "Herr Schmidt has chest pain and wants to walk.",
+      "options": [
+        "Nicht aufstehen!",
+        "Stehen Sie bitte auf!",
+        "Gehen Sie bitte spazieren!"
+      ],
+      "answer": "Nicht aufstehen!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "A patient is breathing very fast and is scared.",
+      "options": [
+        "Atmen Sie ruhig.",
+        "Atmen Sie schnell.",
+        "Essen Sie ruhig."
+      ],
+      "answer": "Atmen Sie ruhig."
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "Before the doctor gives a new medicine, you check.",
+      "options": [
+        "Haben Sie Allergien?",
+        "Haben Sie Zeit?",
+        "Haben Sie Kinder?"
+      ],
+      "answer": "Haben Sie Allergien?"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "Tell your colleague this is an emergency.",
+      "options": [
+        "Notfall!",
+        "Feierabend!",
+        "Mittagspause!"
+      ],
+      "answer": "Notfall!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "The patient on the floor tries to get up.",
+      "options": [
+        "Bleiben Sie bitte liegen.",
+        "Stehen Sie schnell auf.",
+        "Setzen Sie sich an den Tisch."
+      ],
+      "answer": "Bleiben Sie bitte liegen."
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "Your colleague is walking too slowly.",
+      "options": [
+        "Schnell, bitte!",
+        "Langsam, bitte!",
+        "Später, bitte!"
+      ],
+      "answer": "Schnell, bitte!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "The patient is frightened and alone.",
+      "options": [
+        "Ich bin hier.",
+        "Ich gehe jetzt.",
+        "Ich bin müde."
+      ],
+      "answer": "Ich bin hier."
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "Herr Yılmaz lies on the floor and does not react.",
+      "options": [
+        "Bewusstlos! Hilfe!",
+        "Guten Morgen!",
+        "Schlafen Sie gut!"
+      ],
+      "answer": "Bewusstlos! Hilfe!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "The patient's chest is not moving.",
+      "options": [
+        "Er atmet nicht!",
+        "Er isst nicht!",
+        "Er schläft gut."
+      ],
+      "answer": "Er atmet nicht!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "You need the emergency trolley.",
+      "options": [
+        "Holen Sie bitte den Notfallwagen!",
+        "Holen Sie bitte den Kaffee!",
+        "Holen Sie bitte die Zeitung!"
+      ],
+      "answer": "Holen Sie bitte den Notfallwagen!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "A cannula comes out. There is a lot of blood.",
+      "options": [
+        "Blutung! Drücken Sie hier fest.",
+        "Drücken Sie bitte die Tür.",
+        "Kein Problem, tschüss."
+      ],
+      "answer": "Blutung! Drücken Sie hier fest."
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "You find Herr Schmidt on the floor. Call your colleague.",
+      "options": [
+        "Sturz in Zimmer 2!",
+        "Kaffee in Zimmer 2!",
+        "Visite in Zimmer 2!"
+      ],
+      "answer": "Sturz in Zimmer 2!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "The patient on the floor tries to move his head.",
+      "options": [
+        "Bewegen Sie sich nicht.",
+        "Tanzen Sie bitte.",
+        "Drehen Sie sich schnell."
+      ],
+      "answer": "Bewegen Sie sich nicht."
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "You see smoke in the corridor.",
+      "options": [
+        "Feuer!",
+        "Hunger!",
+        "Pause!"
+      ],
+      "answer": "Feuer!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "Fire alarm. Show visitors the way out.",
+      "options": [
+        "Bitte zum Notausgang!",
+        "Bitte zur Cafeteria!",
+        "Bitte zum Aufzug!"
+      ],
+      "answer": "Bitte zum Notausgang!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "A relative is panicking.",
+      "options": [
+        "Ruhig bleiben.",
+        "Schnell laufen.",
+        "Laut schreien."
+      ],
+      "answer": "Ruhig bleiben."
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "The patient asks if the doctor is coming.",
+      "options": [
+        "Der Arzt kommt sofort.",
+        "Der Arzt kommt morgen.",
+        "Der Arzt hat frei."
+      ],
+      "answer": "Der Arzt kommt sofort."
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "After a fall, check if the patient is confused.",
+      "options": [
+        "Wie heißen Sie? Welcher Tag ist heute?",
+        "Wie alt ist Ihr Auto?",
+        "Haben Sie Hunger?"
+      ],
+      "answer": "Wie heißen Sie? Welcher Tag ist heute?"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "Tell your colleague the patient is breathing.",
+      "options": [
+        "Sie atmet.",
+        "Sie isst.",
+        "Sie singt."
+      ],
+      "answer": "Sie atmet."
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "You are alone with an emergency in room 3.",
+      "options": [
+        "Ich brauche Hilfe in Zimmer 3!",
+        "Ich brauche Kaffee in Zimmer 3!",
+        "Ich habe frei in Zimmer 3!"
+      ],
+      "answer": "Ich brauche Hilfe in Zimmer 3!"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "A patient suddenly has strong pain.",
+      "options": [
+        "Wo haben Sie Schmerzen?",
+        "Wo haben Sie Ihr Handy?",
+        "Wie ist das Wetter?"
+      ],
+      "answer": "Wo haben Sie Schmerzen?"
+    },
+    {
+      "type": "emergency_drill",
+      "time_limit_seconds": 8,
+      "situation_en": "Outside the hospital, a person collapses. Tell someone to call.",
+      "options": [
+        "Rufen Sie die 112!",
+        "Rufen Sie morgen an!",
+        "Rufen Sie ein Taxi!"
+      ],
+      "answer": "Rufen Sie die 112!"
+    }
+  ],
+  "images_zip": "level-05-images.zip",
+  "images": [
+    "e-01.jpg",
+    "e-02.jpg",
+    "e-03.jpg",
+    "e-04.jpg",
+    "e-05.jpg",
+    "e-06.jpg",
+    "e-07.jpg",
+    "e-08.jpg",
+    "e-09.jpg",
+    "e-10.jpg",
+    "e-11.jpg",
+    "e-12.jpg",
+    "e-13.jpg",
+    "e-14.jpg",
+    "e-15.jpg",
+    "e-16.jpg",
+    "e-17.jpg",
+    "e-18.jpg",
+    "e-19.jpg",
+    "e-20.jpg",
+    "e-21.jpg",
+    "e-22.jpg",
+    "e-23.jpg",
+    "e-24.jpg",
+    "e-25.jpg"
+  ]
+}
