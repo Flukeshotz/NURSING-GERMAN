@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 15
+    "quiz_questions_per_attempt": 16,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -561,7 +562,7 @@
         "german": "Medikamentenplan",
         "speaker": null,
         "label": null,
-        "image": null
+        "image": "d-med.jpg"
       },
       "back": {
         "meaning_en": "Medication plan",
@@ -601,7 +602,7 @@
         "german": "Essensbestellung",
         "speaker": null,
         "label": null,
-        "image": null
+        "image": "d-meal.jpg"
       },
       "back": {
         "meaning_en": "Meal order card",
@@ -638,8 +639,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Tablette",
+      "instruction": "What is this in German?",
       "image": "w-tab.jpg",
+      "image_caption": "Tab.",
+      "image_caption_lang": "en",
       "options": [
         "die Tablette",
         "einmal täglich",
@@ -650,7 +654,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Tablette",
+      "instruction": "What does it mean?",
+      "image": "w-tab.jpg",
+      "image_caption": "die Tablette",
+      "image_caption_lang": "de",
       "german": "die Tablette",
       "options": [
         "Tab.",
@@ -662,8 +670,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "einmal täglich",
+      "instruction": "What is this in German?",
       "image": "w-od-once-a-day.jpg",
+      "image_caption": "OD (once a day)",
+      "image_caption_lang": "en",
       "options": [
         "einmal täglich",
         "die Tablette",
@@ -674,7 +685,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "einmal täglich",
+      "instruction": "What does it mean?",
+      "image": "w-od-once-a-day.jpg",
+      "image_caption": "einmal täglich",
+      "image_caption_lang": "de",
       "german": "einmal täglich",
       "options": [
         "OD (once a day)",
@@ -686,8 +701,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "zweimal täglich",
+      "instruction": "What is this in German?",
       "image": "w-bd-twice-a-day.jpg",
+      "image_caption": "BD (twice a day)",
+      "image_caption_lang": "en",
       "options": [
         "zweimal täglich",
         "die Tablette",
@@ -698,7 +716,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "zweimal täglich",
+      "instruction": "What does it mean?",
+      "image": "w-bd-twice-a-day.jpg",
+      "image_caption": "zweimal täglich",
+      "image_caption_lang": "de",
       "german": "zweimal täglich",
       "options": [
         "BD (twice a day)",
@@ -710,8 +732,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "bei Bedarf",
+      "instruction": "What is this in German?",
       "image": "w-sos-prn.jpg",
+      "image_caption": "SOS / PRN",
+      "image_caption_lang": "en",
       "options": [
         "bei Bedarf",
         "die Tablette",
@@ -722,7 +747,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "bei Bedarf",
+      "instruction": "What does it mean?",
+      "image": "w-sos-prn.jpg",
+      "image_caption": "bei Bedarf",
+      "image_caption_lang": "de",
       "german": "bei Bedarf",
       "options": [
         "SOS / PRN",
@@ -734,8 +763,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "nüchtern",
+      "instruction": "What is this in German?",
       "image": "w-nbm-npo.jpg",
+      "image_caption": "NBM / NPO",
+      "image_caption_lang": "en",
       "options": [
         "nüchtern",
         "die Tablette",
@@ -746,7 +778,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "nüchtern",
+      "instruction": "What does it mean?",
+      "image": "w-nbm-npo.jpg",
+      "image_caption": "nüchtern",
+      "image_caption_lang": "de",
       "german": "nüchtern",
       "options": [
         "NBM / NPO",
@@ -758,8 +794,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Infusion",
+      "instruction": "What is this in German?",
       "image": "w-drip.jpg",
+      "image_caption": "Drip",
+      "image_caption_lang": "en",
       "options": [
         "die Infusion",
         "die Tablette",
@@ -770,7 +809,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Infusion",
+      "instruction": "What does it mean?",
+      "image": "w-drip.jpg",
+      "image_caption": "die Infusion",
+      "image_caption_lang": "de",
       "german": "die Infusion",
       "options": [
         "Drip",
@@ -782,8 +825,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Kochsalzlösung",
+      "instruction": "What is this in German?",
       "image": "w-ns-normal-saline.jpg",
+      "image_caption": "NS (normal saline)",
+      "image_caption_lang": "en",
       "options": [
         "die Kochsalzlösung",
         "die Tablette",
@@ -794,7 +840,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Kochsalzlösung",
+      "instruction": "What does it mean?",
+      "image": "w-ns-normal-saline.jpg",
+      "image_caption": "die Kochsalzlösung",
+      "image_caption_lang": "de",
       "german": "die Kochsalzlösung",
       "options": [
         "NS (normal saline)",
@@ -806,8 +856,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "i.v. (intravenös)",
+      "instruction": "What is this in German?",
       "image": "w-iv-intravenous.jpg",
+      "image_caption": "IV (intravenous)",
+      "image_caption_lang": "en",
       "options": [
         "i.v. (intravenös)",
         "die Tablette",
@@ -818,7 +871,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "i.v. (intravenös)",
+      "instruction": "What does it mean?",
+      "image": "w-iv-intravenous.jpg",
+      "image_caption": "i.v. (intravenös)",
+      "image_caption_lang": "de",
       "german": "i.v. (intravenös)",
       "options": [
         "IV (intravenous)",
@@ -830,8 +887,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "s.c. (subkutan)",
+      "instruction": "What is this in German?",
       "image": "w-sc-subcutaneous.jpg",
+      "image_caption": "SC (subcutaneous)",
+      "image_caption_lang": "en",
       "options": [
         "s.c. (subkutan)",
         "die Tablette",
@@ -842,7 +902,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "s.c. (subkutan)",
+      "instruction": "What does it mean?",
+      "image": "w-sc-subcutaneous.jpg",
+      "image_caption": "s.c. (subkutan)",
+      "image_caption_lang": "de",
       "german": "s.c. (subkutan)",
       "options": [
         "SC (subcutaneous)",
@@ -854,8 +918,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das Rezept",
+      "instruction": "What is this in German?",
       "image": "w-prescription.jpg",
+      "image_caption": "Prescription",
+      "image_caption_lang": "en",
       "options": [
         "das Rezept",
         "die Tablette",
@@ -866,7 +933,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das Rezept",
+      "instruction": "What does it mean?",
+      "image": "w-prescription.jpg",
+      "image_caption": "das Rezept",
+      "image_caption_lang": "de",
       "german": "das Rezept",
       "options": [
         "Prescription",
@@ -878,8 +949,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Kost",
+      "instruction": "What is this in German?",
       "image": "w-hospital-diet.jpg",
+      "image_caption": "Hospital diet",
+      "image_caption_lang": "en",
       "options": [
         "die Kost",
         "die Tablette",
@@ -890,7 +964,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Kost",
+      "instruction": "What does it mean?",
+      "image": "w-hospital-diet.jpg",
+      "image_caption": "die Kost",
+      "image_caption_lang": "de",
       "german": "die Kost",
       "options": [
         "Hospital diet",
@@ -902,8 +980,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das Gift",
+      "instruction": "What is this in German?",
       "image": "w-poison.jpg",
+      "image_caption": "Poison",
+      "image_caption_lang": "en",
       "options": [
         "das Gift",
         "die Tablette",
@@ -914,7 +995,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das Gift",
+      "instruction": "What does it mean?",
+      "image": "w-poison.jpg",
+      "image_caption": "das Gift",
+      "image_caption_lang": "de",
       "german": "das Gift",
       "options": [
         "Poison",
@@ -926,8 +1011,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Narkose",
+      "instruction": "What is this in German?",
       "image": "w-anaesthesia.jpg",
+      "image_caption": "Anaesthesia",
+      "image_caption_lang": "en",
       "options": [
         "die Narkose",
         "die Tablette",
@@ -938,7 +1026,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Narkose",
+      "instruction": "What does it mean?",
+      "image": "w-anaesthesia.jpg",
+      "image_caption": "die Narkose",
+      "image_caption_lang": "de",
       "german": "die Narkose",
       "options": [
         "Anaesthesia",
@@ -950,6 +1042,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Frau Weber bekommt eine Tablette.",
+      "image": "p-08-01.jpg",
       "speaker": "braun",
       "prompt_de": "Frau Weber bekommt eine Tablette.",
       "prompt_en": "Frau Weber gets a tablet.",
@@ -979,6 +1073,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Muss ich die Tablette jetzt nehmen?",
+      "image": "p-08-02.jpg",
       "speaker": "weber",
       "prompt_de": "Muss ich die Tablette jetzt nehmen?",
       "prompt_en": "Do I have to take the tablet now?",
@@ -990,7 +1086,23 @@
       "answer": "Ja, bitte mit Wasser."
     },
     {
+      "type": "situation_choice",
+      "from_card": "Bitte trinken Sie viel Wasser.",
+      "image": "p-08-09.jpg",
+      "speaker": "weber",
+      "prompt_de": null,
+      "prompt_en": "Tell Frau Weber to drink a lot of water.",
+      "options": [
+        "Bitte trinken Sie viel Wasser.",
+        "Bitte trinken Sie nicht.",
+        "Bitte essen Sie viel Wasser."
+      ],
+      "answer": "Bitte trinken Sie viel Wasser."
+    },
+    {
       "type": "choose_reply",
+      "from_card": "Kann ich frühstücken?",
+      "image": "p-08-03.jpg",
       "speaker": "schmidt",
       "prompt_de": "Kann ich frühstücken?",
       "prompt_en": "Can I have breakfast? (He has an operation today.)",
@@ -1002,7 +1114,37 @@
       "answer": "Nein, Sie müssen nüchtern bleiben."
     },
     {
+      "type": "situation_choice",
+      "from_card": "Haben Sie Allergien?",
+      "image": "p-08-07.jpg",
+      "speaker": "yilmaz",
+      "prompt_de": null,
+      "prompt_en": "Ask Herr Yılmaz if he has allergies.",
+      "options": [
+        "Haben Sie Allergien?",
+        "Haben Sie Hunger?",
+        "Sind Sie Allergien?"
+      ],
+      "answer": "Haben Sie Allergien?"
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Ja, ich habe eine Allergie gegen Penicillin.",
+      "image": "p-08-08.jpg",
+      "speaker": "yilmaz",
+      "prompt_de": "Ja, ich habe eine Allergie gegen Penicillin.",
+      "prompt_en": "Yes, I'm allergic to penicillin.",
+      "options": [
+        "Danke. Ich schreibe das auf.",
+        "Gut, dann bekommen Sie Penicillin.",
+        "Schön!"
+      ],
+      "answer": "Danke. Ich schreibe das auf."
+    },
+    {
       "type": "picture_choice",
+      "from_card": "Ich möchte einen Tee.",
+      "image": "p-08-04.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich möchte einen Tee.",
       "prompt_en": "I'd like a tea.",
@@ -1034,6 +1176,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Was gibt es heute zum Mittagessen?",
+      "image": "p-08-05.jpg",
       "speaker": "weber",
       "prompt_de": "Was gibt es heute zum Mittagessen?",
       "prompt_en": "What's for lunch today?",
@@ -1046,6 +1190,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Ich esse kein Fleisch.",
+      "image": "p-08-06.jpg",
       "speaker": "schmidt",
       "prompt_de": "Ich esse kein Fleisch.",
       "prompt_en": "I don't eat meat. Which lunch is OK?",
@@ -1074,43 +1220,9 @@
       "answer": "der Salat"
     },
     {
-      "type": "situation_choice",
-      "speaker": "yilmaz",
-      "prompt_de": null,
-      "prompt_en": "Ask Herr Yılmaz if he has allergies.",
-      "options": [
-        "Haben Sie Allergien?",
-        "Haben Sie Hunger?",
-        "Sind Sie Allergien?"
-      ],
-      "answer": "Haben Sie Allergien?"
-    },
-    {
-      "type": "choose_reply",
-      "speaker": "yilmaz",
-      "prompt_de": "Ja, ich habe eine Allergie gegen Penicillin.",
-      "prompt_en": "Yes, I'm allergic to penicillin.",
-      "options": [
-        "Danke. Ich schreibe das auf.",
-        "Gut, dann bekommen Sie Penicillin.",
-        "Schön!"
-      ],
-      "answer": "Danke. Ich schreibe das auf."
-    },
-    {
-      "type": "situation_choice",
-      "speaker": "weber",
-      "prompt_de": null,
-      "prompt_en": "Tell Frau Weber to drink a lot of water.",
-      "options": [
-        "Bitte trinken Sie viel Wasser.",
-        "Bitte trinken Sie nicht.",
-        "Bitte essen Sie viel Wasser."
-      ],
-      "answer": "Bitte trinken Sie viel Wasser."
-    },
-    {
       "type": "picture_choice",
+      "from_card": "Ich möchte bitte Kaffee mit Milch.",
+      "image": "p-08-10.jpg",
       "speaker": "weber",
       "prompt_de": "Ich möchte bitte Kaffee mit Milch.",
       "prompt_en": "I'd like coffee with milk, please.",
@@ -1142,8 +1254,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Medikamentenplan",
+      "image": "d-med.jpg",
       "document": "Medication plan",
-      "document_de": "Medikamentenplan",
+      "document_html": "<h4>MEDIKAMENTENPLAN</h4><div class=\"dmeta\">Weber, Erika · geb. 03.05.1944 · Zimmer 1</div>\n   <div class=\"doc-wrap\"><table><tr><th>Medikament</th><th>Dosis</th><th>mo</th><th>mi</th><th>ab</th><th>na</th></tr>\n   <tr><td>Metformin</td><td>500 mg</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>\n   <tr><td>Ramipril</td><td>5 mg</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>\n   <tr><td>Paracetamol</td><td>500 mg</td><td colspan=\"4\">bei Bedarf</td></tr></table></div>",
       "question_en": "When does Frau Weber take Metformin?",
       "options": [
         "Morning and evening",
@@ -1154,8 +1268,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Medikamentenplan",
+      "image": "d-med.jpg",
       "document": "Medication plan",
-      "document_de": "Medikamentenplan",
+      "document_html": "<h4>MEDIKAMENTENPLAN</h4><div class=\"dmeta\">Weber, Erika · geb. 03.05.1944 · Zimmer 1</div>\n   <div class=\"doc-wrap\"><table><tr><th>Medikament</th><th>Dosis</th><th>mo</th><th>mi</th><th>ab</th><th>na</th></tr>\n   <tr><td>Metformin</td><td>500 mg</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>\n   <tr><td>Ramipril</td><td>5 mg</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>\n   <tr><td>Paracetamol</td><td>500 mg</td><td colspan=\"4\">bei Bedarf</td></tr></table></div>",
       "question_en": "How much Ramipril does she take?",
       "options": [
         "5 mg, in the morning",
@@ -1166,8 +1282,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Medikamentenplan",
+      "image": "d-med.jpg",
       "document": "Medication plan",
-      "document_de": "Medikamentenplan",
+      "document_html": "<h4>MEDIKAMENTENPLAN</h4><div class=\"dmeta\">Weber, Erika · geb. 03.05.1944 · Zimmer 1</div>\n   <div class=\"doc-wrap\"><table><tr><th>Medikament</th><th>Dosis</th><th>mo</th><th>mi</th><th>ab</th><th>na</th></tr>\n   <tr><td>Metformin</td><td>500 mg</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>\n   <tr><td>Ramipril</td><td>5 mg</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>\n   <tr><td>Paracetamol</td><td>500 mg</td><td colspan=\"4\">bei Bedarf</td></tr></table></div>",
       "question_en": "What does „bei Bedarf“ mean?",
       "options": [
         "Only when needed",
@@ -1178,8 +1296,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Essensbestellung",
+      "image": "d-meal.jpg",
       "document": "Meal order card",
-      "document_de": "Essensbestellung",
+      "document_html": "<h4>ESSENSBESTELLUNG</h4><div class=\"dmeta\">Weber, Erika · Zimmer 1 · Diabeteskost</div>\n   <div class=\"doc-wrap\"><table><tr><th>Mahlzeit</th><th>Bestellung</th></tr><tr><td>Frühstück</td><td>Brot, Tee</td></tr><tr><td>Mittagessen</td><td>Fisch, Kartoffeln</td></tr><tr><td>Abendessen</td><td>Suppe</td></tr><tr><td>Getränk</td><td>Wasser ohne Kohlensäure</td></tr></table></div>",
       "question_en": "What does Frau Weber drink?",
       "options": [
         "Still water",
@@ -1190,8 +1310,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Essensbestellung",
+      "image": "d-meal.jpg",
       "document": "Meal order card",
-      "document_de": "Essensbestellung",
+      "document_html": "<h4>ESSENSBESTELLUNG</h4><div class=\"dmeta\">Weber, Erika · Zimmer 1 · Diabeteskost</div>\n   <div class=\"doc-wrap\"><table><tr><th>Mahlzeit</th><th>Bestellung</th></tr><tr><td>Frühstück</td><td>Brot, Tee</td></tr><tr><td>Mittagessen</td><td>Fisch, Kartoffeln</td></tr><tr><td>Abendessen</td><td>Suppe</td></tr><tr><td>Getränk</td><td>Wasser ohne Kohlensäure</td></tr></table></div>",
       "question_en": "What does she get for dinner?",
       "options": [
         "Soup",
@@ -1202,8 +1324,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Essensbestellung",
+      "image": "d-meal.jpg",
       "document": "Meal order card",
-      "document_de": "Essensbestellung",
+      "document_html": "<h4>ESSENSBESTELLUNG</h4><div class=\"dmeta\">Weber, Erika · Zimmer 1 · Diabeteskost</div>\n   <div class=\"doc-wrap\"><table><tr><th>Mahlzeit</th><th>Bestellung</th></tr><tr><td>Frühstück</td><td>Brot, Tee</td></tr><tr><td>Mittagessen</td><td>Fisch, Kartoffeln</td></tr><tr><td>Abendessen</td><td>Suppe</td></tr><tr><td>Getränk</td><td>Wasser ohne Kohlensäure</td></tr></table></div>",
       "question_en": "Why does she get special food?",
       "options": [
         "She has diabetes",
@@ -1215,6 +1339,8 @@
   ],
   "images_zip": "level-09-images.zip",
   "images": [
+    "d-meal.jpg",
+    "d-med.jpg",
     "i-fleisch.jpg",
     "i-haehnchen.jpg",
     "i-kaffee.jpg",

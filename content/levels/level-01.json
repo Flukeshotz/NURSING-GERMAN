@@ -13,7 +13,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 11
+    "quiz_questions_per_attempt": 12,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -415,8 +416,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Pflegekraft",
+      "instruction": "What is this in German?",
       "image": "w-sister.jpg",
+      "image_caption": "Sister",
+      "image_caption_lang": "en",
       "options": [
         "die Pflegekraft",
         "die Pflegefachkraft",
@@ -427,7 +431,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Pflegekraft",
+      "instruction": "What does it mean?",
+      "image": "w-sister.jpg",
+      "image_caption": "die Pflegekraft",
+      "image_caption_lang": "de",
       "german": "die Pflegekraft",
       "options": [
         "Sister",
@@ -439,8 +447,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Pflegefachkraft",
+      "instruction": "What is this in German?",
       "image": "w-staff-nurse.jpg",
+      "image_caption": "Staff nurse",
+      "image_caption_lang": "en",
       "options": [
         "die Pflegefachkraft",
         "die Pflegekraft",
@@ -451,7 +462,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Pflegefachkraft",
+      "instruction": "What does it mean?",
+      "image": "w-staff-nurse.jpg",
+      "image_caption": "die Pflegefachkraft",
+      "image_caption_lang": "de",
       "german": "die Pflegefachkraft",
       "options": [
         "Staff nurse",
@@ -463,8 +478,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Stationsleitung",
+      "instruction": "What is this in German?",
       "image": "w-ward-in-charge.jpg",
+      "image_caption": "Ward in-charge",
+      "image_caption_lang": "en",
       "options": [
         "die Stationsleitung",
         "die Pflegekraft",
@@ -475,7 +493,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Stationsleitung",
+      "instruction": "What does it mean?",
+      "image": "w-ward-in-charge.jpg",
+      "image_caption": "die Stationsleitung",
+      "image_caption_lang": "de",
       "german": "die Stationsleitung",
       "options": [
         "Ward in-charge",
@@ -487,8 +509,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Azubi / die Azubi",
+      "instruction": "What is this in German?",
       "image": "w-nursing-student.jpg",
+      "image_caption": "Nursing student",
+      "image_caption_lang": "en",
       "options": [
         "der Azubi / die Azubi",
         "die Pflegekraft",
@@ -499,7 +524,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Azubi / die Azubi",
+      "instruction": "What does it mean?",
+      "image": "w-nursing-student.jpg",
+      "image_caption": "der Azubi / die Azubi",
+      "image_caption_lang": "de",
       "german": "der Azubi / die Azubi",
       "options": [
         "Nursing student",
@@ -511,8 +540,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Dienst",
+      "instruction": "What is this in German?",
       "image": "w-duty.jpg",
+      "image_caption": "Duty",
+      "image_caption_lang": "en",
       "options": [
         "der Dienst",
         "die Pflegekraft",
@@ -523,7 +555,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Dienst",
+      "instruction": "What does it mean?",
+      "image": "w-duty.jpg",
+      "image_caption": "der Dienst",
+      "image_caption_lang": "de",
       "german": "der Dienst",
       "options": [
         "Duty",
@@ -534,19 +570,9 @@
       "answer": "Duty"
     },
     {
-      "type": "choose_reply_sie_du",
-      "speaker": "weber",
-      "prompt_de": "Guten Morgen!",
-      "prompt_en": "Frau Weber (patient) greets you.",
-      "options": [
-        "Guten Morgen, Frau Weber! Wie geht es Ihnen?",
-        "Morgen! Wie geht's dir?",
-        "Tschüss, Frau Weber!"
-      ],
-      "answer": "Guten Morgen, Frau Weber! Wie geht es Ihnen?"
-    },
-    {
       "type": "choose_reply",
+      "from_card": "Wer sind Sie?",
+      "image": "p-01-02.jpg",
       "speaker": "weber",
       "prompt_de": "Wer sind Sie?",
       "prompt_en": "Who are you?",
@@ -559,6 +585,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Woher kommen Sie?",
+      "image": "p-01-03.jpg",
       "speaker": "schmidt",
       "prompt_de": "Woher kommen Sie?",
       "prompt_en": "Where are you from?",
@@ -571,30 +599,8 @@
     },
     {
       "type": "choose_reply",
-      "speaker": "schmidt",
-      "prompt_de": "Sprechen Sie Deutsch?",
-      "prompt_en": "Do you speak German?",
-      "options": [
-        "Ja, ein bisschen.",
-        "Nein, danke.",
-        "Ja, bitte."
-      ],
-      "answer": "Ja, ein bisschen."
-    },
-    {
-      "type": "choose_reply_sie_du",
-      "speaker": "lena",
-      "prompt_de": "Hallo! Ich bin Lena.",
-      "prompt_en": "Your colleague Lena introduces herself.",
-      "options": [
-        "Hallo Lena! Ich bin Priya. Ich bin neu hier.",
-        "Guten Tag, Frau Lena. Wie geht es Ihnen?",
-        "Auf Wiedersehen!"
-      ],
-      "answer": "Hallo Lena! Ich bin Priya. Ich bin neu hier."
-    },
-    {
-      "type": "choose_reply",
+      "from_card": "Wie heißen Sie?",
+      "image": "p-01-06.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Wie heißen Sie?",
       "prompt_en": "What is your name?",
@@ -606,31 +612,51 @@
       "answer": "Ich heiße Priya."
     },
     {
-      "type": "situation_choice",
-      "speaker": "yilmaz",
-      "prompt_de": null,
-      "prompt_en": "You don't understand Herr Yılmaz.",
-      "options": [
-        "Entschuldigung, noch einmal bitte.",
-        "Ich verstehe alles.",
-        "Guten Appetit!"
-      ],
-      "answer": "Entschuldigung, noch einmal bitte."
-    },
-    {
-      "type": "situation_choice",
+      "type": "choose_reply",
+      "from_card": "Sind Sie morgen auch da?",
+      "image": "p-01-10.jpg",
       "speaker": "weber",
-      "prompt_de": null,
-      "prompt_en": "Frau Weber speaks too fast for you.",
+      "prompt_de": "Sind Sie morgen auch da?",
+      "prompt_en": "Are you here tomorrow too?",
       "options": [
-        "Bitte sprechen Sie langsam.",
-        "Bitte schlafen Sie jetzt.",
-        "Bitte sprechen Sie Englisch."
+        "Ja, ich arbeite morgen auch.",
+        "Nein, ich bin Patientin.",
+        "Ja, ich habe Hunger."
       ],
-      "answer": "Bitte sprechen Sie langsam."
+      "answer": "Ja, ich arbeite morgen auch."
     },
     {
       "type": "choose_reply_sie_du",
+      "from_card": "Guten Morgen!",
+      "image": "p-01-01.jpg",
+      "speaker": "weber",
+      "prompt_de": "Guten Morgen!",
+      "prompt_en": "Frau Weber (patient) greets you.",
+      "options": [
+        "Guten Morgen, Frau Weber! Wie geht es Ihnen?",
+        "Morgen! Wie geht's dir?",
+        "Tschüss, Frau Weber!"
+      ],
+      "answer": "Guten Morgen, Frau Weber! Wie geht es Ihnen?"
+    },
+    {
+      "type": "choose_reply_sie_du",
+      "from_card": "Hallo! Ich bin Lena.",
+      "image": "p-01-05.jpg",
+      "speaker": "lena",
+      "prompt_de": "Hallo! Ich bin Lena.",
+      "prompt_en": "Your colleague Lena introduces herself.",
+      "options": [
+        "Hallo Lena! Ich bin Priya. Ich bin neu hier.",
+        "Guten Tag, Frau Lena. Wie geht es Ihnen?",
+        "Auf Wiedersehen!"
+      ],
+      "answer": "Hallo Lena! Ich bin Priya. Ich bin neu hier."
+    },
+    {
+      "type": "choose_reply_sie_du",
+      "from_card": "Guten Morgen. Ich bin Dr. Braun.",
+      "image": "p-01-09.jpg",
       "speaker": "braun",
       "prompt_de": "Guten Morgen. Ich bin Dr. Braun.",
       "prompt_en": "The doctor introduces himself.",
@@ -643,15 +669,45 @@
     },
     {
       "type": "choose_reply",
-      "speaker": "weber",
-      "prompt_de": "Sind Sie morgen auch da?",
-      "prompt_en": "Are you here tomorrow too?",
+      "from_card": "Sprechen Sie Deutsch?",
+      "image": "p-01-04.jpg",
+      "speaker": "schmidt",
+      "prompt_de": "Sprechen Sie Deutsch?",
+      "prompt_en": "Do you speak German?",
       "options": [
-        "Ja, ich arbeite morgen auch.",
-        "Nein, ich bin Patientin.",
-        "Ja, ich habe Hunger."
+        "Ja, ein bisschen.",
+        "Nein, danke.",
+        "Ja, bitte."
       ],
-      "answer": "Ja, ich arbeite morgen auch."
+      "answer": "Ja, ein bisschen."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Entschuldigung, noch einmal bitte.",
+      "image": "p-01-07.jpg",
+      "speaker": "yilmaz",
+      "prompt_de": null,
+      "prompt_en": "You don't understand Herr Yılmaz.",
+      "options": [
+        "Entschuldigung, noch einmal bitte.",
+        "Ich verstehe alles.",
+        "Guten Appetit!"
+      ],
+      "answer": "Entschuldigung, noch einmal bitte."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Bitte sprechen Sie langsam.",
+      "image": "p-01-08.jpg",
+      "speaker": "weber",
+      "prompt_de": null,
+      "prompt_en": "Frau Weber speaks too fast for you.",
+      "options": [
+        "Bitte sprechen Sie langsam.",
+        "Bitte schlafen Sie jetzt.",
+        "Bitte sprechen Sie Englisch."
+      ],
+      "answer": "Bitte sprechen Sie langsam."
     }
   ],
   "images_zip": "level-01-images.zip",

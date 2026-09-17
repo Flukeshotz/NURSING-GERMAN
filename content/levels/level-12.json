@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 13
+    "quiz_questions_per_attempt": 14,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -445,7 +446,7 @@
         "german": "Übergabe",
         "speaker": null,
         "label": null,
-        "image": null
+        "image": "d-handover.jpg"
       },
       "back": {
         "meaning_en": "Handover note",
@@ -482,8 +483,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Assistenzarzt / die Assistenzärztin",
+      "instruction": "What is this in German?",
       "image": "w-junior-doctor-resident.jpg",
+      "image_caption": "Junior doctor / resident",
+      "image_caption_lang": "en",
       "options": [
         "der Assistenzarzt / die Assistenzärztin",
         "der Oberarzt / die Oberärztin",
@@ -494,7 +498,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Assistenzarzt / die Assistenzärztin",
+      "instruction": "What does it mean?",
+      "image": "w-junior-doctor-resident.jpg",
+      "image_caption": "der Assistenzarzt / die Assistenzärztin",
+      "image_caption_lang": "de",
       "german": "der Assistenzarzt / die Assistenzärztin",
       "options": [
         "Junior doctor / resident",
@@ -506,8 +514,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Oberarzt / die Oberärztin",
+      "instruction": "What is this in German?",
       "image": "w-senior-doctor-consultant.jpg",
+      "image_caption": "Senior doctor / consultant",
+      "image_caption_lang": "en",
       "options": [
         "der Oberarzt / die Oberärztin",
         "der Assistenzarzt / die Assistenzärztin",
@@ -518,7 +529,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Oberarzt / die Oberärztin",
+      "instruction": "What does it mean?",
+      "image": "w-senior-doctor-consultant.jpg",
+      "image_caption": "der Oberarzt / die Oberärztin",
+      "image_caption_lang": "de",
       "german": "der Oberarzt / die Oberärztin",
       "options": [
         "Senior doctor / consultant",
@@ -530,8 +545,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Chefarzt / die Chefärztin",
+      "instruction": "What is this in German?",
       "image": "w-hod-chief-doctor.jpg",
+      "image_caption": "HOD / chief doctor",
+      "image_caption_lang": "en",
       "options": [
         "der Chefarzt / die Chefärztin",
         "der Assistenzarzt / die Assistenzärztin",
@@ -542,7 +560,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Chefarzt / die Chefärztin",
+      "instruction": "What does it mean?",
+      "image": "w-hod-chief-doctor.jpg",
+      "image_caption": "der Chefarzt / die Chefärztin",
+      "image_caption_lang": "de",
       "german": "der Chefarzt / die Chefärztin",
       "options": [
         "HOD / chief doctor",
@@ -554,8 +576,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Chef / die Chefin",
+      "instruction": "What is this in German?",
       "image": "w-boss.jpg",
+      "image_caption": "Boss",
+      "image_caption_lang": "en",
       "options": [
         "der Chef / die Chefin",
         "der Assistenzarzt / die Assistenzärztin",
@@ -566,7 +591,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Chef / die Chefin",
+      "instruction": "What does it mean?",
+      "image": "w-boss.jpg",
+      "image_caption": "der Chef / die Chefin",
+      "image_caption_lang": "de",
       "german": "der Chef / die Chefin",
       "options": [
         "Boss",
@@ -578,8 +607,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "also",
+      "instruction": "What is this in German?",
       "image": "w-so-well.jpg",
+      "image_caption": "So / well …",
+      "image_caption_lang": "en",
       "options": [
         "also",
         "der Assistenzarzt / die Assistenzärztin",
@@ -590,7 +622,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "also",
+      "instruction": "What does it mean?",
+      "image": "w-so-well.jpg",
+      "image_caption": "also",
+      "image_caption_lang": "de",
       "german": "also",
       "options": [
         "So / well …",
@@ -602,8 +638,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "bekommen",
+      "instruction": "What is this in German?",
       "image": "w-to-get-receive.jpg",
+      "image_caption": "To get / receive",
+      "image_caption_lang": "en",
       "options": [
         "bekommen",
         "der Assistenzarzt / die Assistenzärztin",
@@ -614,7 +653,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "bekommen",
+      "instruction": "What does it mean?",
+      "image": "w-to-get-receive.jpg",
+      "image_caption": "bekommen",
+      "image_caption_lang": "de",
       "german": "bekommen",
       "options": [
         "To get / receive",
@@ -626,8 +669,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Übergabe",
+      "instruction": "What is this in German?",
       "image": "w-handover.jpg",
+      "image_caption": "Handover",
+      "image_caption_lang": "en",
       "options": [
         "die Übergabe",
         "der Assistenzarzt / die Assistenzärztin",
@@ -638,7 +684,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Übergabe",
+      "instruction": "What does it mean?",
+      "image": "w-handover.jpg",
+      "image_caption": "die Übergabe",
+      "image_caption_lang": "de",
       "german": "die Übergabe",
       "options": [
         "Handover",
@@ -650,6 +700,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Wie geht es Frau Weber?",
+      "image": "p-11-01.jpg",
       "speaker": "lena",
       "prompt_de": "Wie geht es Frau Weber?",
       "prompt_en": "How is Frau Weber? (She has a headache.)",
@@ -662,18 +714,8 @@
     },
     {
       "type": "situation_choice",
-      "speaker": "lena",
-      "prompt_de": null,
-      "prompt_en": "Room 2 rings. You are busy. Ask Lena.",
-      "options": [
-        "Lena, kannst du bitte in Zimmer 2 gehen?",
-        "Lena, können Sie bitte schlafen?",
-        "Lena, gehst du nach Hause?"
-      ],
-      "answer": "Lena, kannst du bitte in Zimmer 2 gehen?"
-    },
-    {
-      "type": "situation_choice",
+      "from_card": "Herr Schmidt hat Fieber.",
+      "image": "p-11-03.jpg",
       "speaker": "braun",
       "prompt_de": null,
       "prompt_en": "Tell Dr. Braun: Herr Schmidt has a fever.",
@@ -686,6 +728,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Wie ist der Blutdruck von Herrn Yılmaz?",
+      "image": "p-11-04.jpg",
       "speaker": "braun",
       "prompt_de": "Wie ist der Blutdruck von Herrn Yılmaz?",
       "prompt_en": "What's Herr Yılmaz's blood pressure? (It's 140/90.)",
@@ -697,7 +741,23 @@
       "answer": "Der Blutdruck ist 140 zu 90."
     },
     {
+      "type": "situation_choice",
+      "from_card": "Lena, kannst du bitte in Zimmer 2 gehen?",
+      "image": "p-11-02.jpg",
+      "speaker": "lena",
+      "prompt_de": null,
+      "prompt_en": "Room 2 rings. You are busy. Ask Lena.",
+      "options": [
+        "Lena, kannst du bitte in Zimmer 2 gehen?",
+        "Lena, können Sie bitte schlafen?",
+        "Lena, gehst du nach Hause?"
+      ],
+      "answer": "Lena, kannst du bitte in Zimmer 2 gehen?"
+    },
+    {
       "type": "choose_reply_sie_du",
+      "from_card": "Kaffee?",
+      "image": "p-11-05.jpg",
       "speaker": "lena",
       "prompt_de": "Kaffee?",
       "prompt_en": "Lena offers you coffee in the break.",
@@ -710,6 +770,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Kannst du mir helfen?",
+      "image": "p-11-06.jpg",
       "speaker": "lena",
       "prompt_de": "Kannst du mir helfen?",
       "prompt_en": "Can you help me?",
@@ -722,6 +784,22 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Tschüss Lena, bis morgen!",
+      "image": "p-11-10.jpg",
+      "speaker": "lena",
+      "prompt_de": null,
+      "prompt_en": "End of shift. Say goodbye to Lena.",
+      "options": [
+        "Tschüss Lena, bis morgen!",
+        "Guten Morgen, Lena!",
+        "Gute Besserung, Lena!"
+      ],
+      "answer": "Tschüss Lena, bis morgen!"
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Entschuldigung, können Sie das bitte wiederholen?",
+      "image": "p-11-07.jpg",
       "speaker": "braun",
       "prompt_de": null,
       "prompt_en": "You didn't understand Dr. Braun.",
@@ -734,6 +812,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Wer hat heute Nachtdienst?",
+      "image": "p-11-08.jpg",
       "speaker": "lena",
       "prompt_de": "Wer hat heute Nachtdienst?",
       "prompt_en": "Who has the night shift today? (You do.)",
@@ -748,6 +828,8 @@
     },
     {
       "type": "choose_reply_sie_du",
+      "from_card": "Danke für die Hilfe.",
+      "image": "p-11-09.jpg",
       "speaker": "braun",
       "prompt_de": "Danke für die Hilfe.",
       "prompt_en": "Dr. Braun thanks you.",
@@ -759,21 +841,11 @@
       "answer": "Bitte, gern, Dr. Braun."
     },
     {
-      "type": "situation_choice",
-      "speaker": "lena",
-      "prompt_de": null,
-      "prompt_en": "End of shift. Say goodbye to Lena.",
-      "options": [
-        "Tschüss Lena, bis morgen!",
-        "Guten Morgen, Lena!",
-        "Gute Besserung, Lena!"
-      ],
-      "answer": "Tschüss Lena, bis morgen!"
-    },
-    {
       "type": "document_question",
+      "from_card": "Übergabe",
+      "image": "d-handover.jpg",
       "document": "Handover note",
-      "document_de": "Übergabe",
+      "document_html": "<h4>ÜBERGABE · FRÜHDIENST</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Zi. 1 Weber</td><td>RR 150/90, Kopfschmerzen, Arzt informiert</td></tr><tr><td>Zi. 2 Schmidt</td><td>OP morgen 8 Uhr, ab 22 Uhr nüchtern</td></tr><tr><td>Zi. 3 Yılmaz</td><td class=\"hi\">Sturzgefahr! Nicht allein aufstehen</td></tr></table></div>",
       "question_en": "Who has an operation tomorrow?",
       "options": [
         "Herr Schmidt",
@@ -784,8 +856,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Übergabe",
+      "image": "d-handover.jpg",
       "document": "Handover note",
-      "document_de": "Übergabe",
+      "document_html": "<h4>ÜBERGABE · FRÜHDIENST</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Zi. 1 Weber</td><td>RR 150/90, Kopfschmerzen, Arzt informiert</td></tr><tr><td>Zi. 2 Schmidt</td><td>OP morgen 8 Uhr, ab 22 Uhr nüchtern</td></tr><tr><td>Zi. 3 Yılmaz</td><td class=\"hi\">Sturzgefahr! Nicht allein aufstehen</td></tr></table></div>",
       "question_en": "From what time must Herr Schmidt not eat?",
       "options": [
         "22:00",
@@ -796,8 +870,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Übergabe",
+      "image": "d-handover.jpg",
       "document": "Handover note",
-      "document_de": "Übergabe",
+      "document_html": "<h4>ÜBERGABE · FRÜHDIENST</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Zi. 1 Weber</td><td>RR 150/90, Kopfschmerzen, Arzt informiert</td></tr><tr><td>Zi. 2 Schmidt</td><td>OP morgen 8 Uhr, ab 22 Uhr nüchtern</td></tr><tr><td>Zi. 3 Yılmaz</td><td class=\"hi\">Sturzgefahr! Nicht allein aufstehen</td></tr></table></div>",
       "question_en": "What is the risk for Herr Yılmaz?",
       "options": [
         "He may fall",
@@ -809,6 +885,7 @@
   ],
   "images_zip": "level-12-images.zip",
   "images": [
+    "d-handover.jpg",
     "p-11-01.jpg",
     "p-11-02.jpg",
     "p-11-03.jpg",

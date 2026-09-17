@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 11
+    "quiz_questions_per_attempt": 12,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -342,8 +343,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das Nachtlicht",
+      "instruction": "What is this in German?",
       "image": "w-night-light.jpg",
+      "image_caption": "Night light",
+      "image_caption_lang": "en",
       "options": [
         "das Nachtlicht",
         "die Pflegekraft",
@@ -354,7 +358,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das Nachtlicht",
+      "instruction": "What does it mean?",
+      "image": "w-night-light.jpg",
+      "image_caption": "das Nachtlicht",
+      "image_caption_lang": "de",
       "german": "das Nachtlicht",
       "options": [
         "Night light",
@@ -366,6 +374,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Ich kann nicht schlafen.",
+      "image": "p-15-01.jpg",
       "speaker": "weber",
       "prompt_de": "Ich kann nicht schlafen.",
       "prompt_en": "I can't sleep.",
@@ -378,6 +388,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Es ist so dunkel hier.",
+      "image": "p-15-02.jpg",
       "speaker": "weber",
       "prompt_de": "Es ist so dunkel hier.",
       "prompt_en": "It's so dark here.",
@@ -409,6 +421,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Mir ist kalt.",
+      "image": "p-15-03.jpg",
       "speaker": "schmidt",
       "prompt_de": "Mir ist kalt.",
       "prompt_en": "I'm cold.",
@@ -440,6 +454,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Es ist zu laut.",
+      "image": "p-15-04.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Es ist zu laut.",
       "prompt_en": "It's too loud.",
@@ -452,6 +468,8 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Alles in Ordnung, Herr Schmidt?",
+      "image": "p-15-05.jpg",
       "speaker": "schmidt",
       "prompt_de": null,
       "prompt_en": "It's 2 a.m. You check on Herr Schmidt quietly.",
@@ -464,6 +482,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Wie spät ist es?",
+      "image": "p-15-06.jpg",
       "speaker": "schmidt",
       "prompt_de": "Wie spät ist es?",
       "prompt_en": "What time is it? (The clock shows 3:00.)",
@@ -476,6 +496,8 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Bitte klingeln Sie, dann komme ich.",
+      "image": "p-15-07.jpg",
       "speaker": "weber",
       "prompt_de": null,
       "prompt_en": "Frau Weber must not get up alone at night.",
@@ -488,6 +510,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Ich muss zur Toilette.",
+      "image": "p-15-08.jpg",
       "speaker": "weber",
       "prompt_de": "Ich muss zur Toilette.",
       "prompt_en": "I need to go to the toilet.",
@@ -500,6 +524,8 @@
     },
     {
       "type": "listen_and_note",
+      "from_card": "Die Übergabe ist um 5 Uhr 45.",
+      "image": "p-15-09.jpg",
       "speaker": "lena",
       "prompt_de": "Die Übergabe ist um 5 Uhr 45.",
       "prompt_en": "Handover at:",
@@ -513,6 +539,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Wie war die Nacht?",
+      "image": "p-15-10.jpg",
       "speaker": "lena",
       "prompt_de": "Wie war die Nacht?",
       "prompt_en": "How was the night?",

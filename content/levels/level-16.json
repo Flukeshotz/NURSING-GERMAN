@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 13
+    "quiz_questions_per_attempt": 14,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -338,7 +339,7 @@
         "german": "Wie schreibt man das?",
         "speaker": null,
         "label": null,
-        "image": null
+        "image": "s-krause.jpg"
       },
       "back": {
         "meaning_en": "How do you spell that?",
@@ -384,7 +385,7 @@
         "german": "Wie schreibt man das?",
         "speaker": null,
         "label": null,
-        "image": null
+        "image": "s-meyer.jpg"
       },
       "back": {
         "meaning_en": "How do you spell that?",
@@ -423,8 +424,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das Handy",
+      "instruction": "What is this in German?",
       "image": "w-mobile-phone.jpg",
+      "image_caption": "Mobile phone",
+      "image_caption_lang": "en",
       "options": [
         "das Handy",
         "die Pflegekraft",
@@ -435,7 +439,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das Handy",
+      "instruction": "What does it mean?",
+      "image": "w-mobile-phone.jpg",
+      "image_caption": "das Handy",
+      "image_caption_lang": "de",
       "german": "das Handy",
       "options": [
         "Mobile phone",
@@ -447,6 +455,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Das Telefon klingelt!",
+      "image": "p-16-01.jpg",
       "speaker": "lena",
       "prompt_de": "Das Telefon klingelt!",
       "prompt_en": "The phone is ringing!",
@@ -478,6 +488,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Hallo, hier ist Dr. Braun.",
+      "image": "p-16-02.jpg",
       "speaker": "braun",
       "prompt_de": "Hallo, hier ist Dr. Braun.",
       "prompt_en": "Hello, this is Dr. Braun.",
@@ -489,7 +501,23 @@
       "answer": "Guten Tag, Dr. Braun. Hier ist Priya, Station 3."
     },
     {
+      "type": "situation_choice",
+      "from_card": "Danke. Auf Wiederhören!",
+      "image": "p-16-07.jpg",
+      "speaker": "braun",
+      "prompt_de": null,
+      "prompt_en": "End the phone call politely.",
+      "options": [
+        "Danke. Auf Wiederhören!",
+        "Danke. Gute Besserung!",
+        "Tschüss, Alter!"
+      ],
+      "answer": "Danke. Auf Wiederhören!"
+    },
+    {
       "type": "listen_and_note",
+      "from_card": "Das Labor, Durchwahl 2 4 7.",
+      "image": "p-16-03.jpg",
       "speaker": "braun",
       "prompt_de": "Das Labor, Durchwahl 2 4 7.",
       "prompt_en": "Lab extension:",
@@ -503,6 +531,8 @@
     },
     {
       "type": "listen_and_note",
+      "from_card": "Der Kaliumwert von Herrn Schmidt ist 5,8.",
+      "image": "p-16-04.jpg",
       "speaker": "braun",
       "prompt_de": "Der Kaliumwert von Herrn Schmidt ist 5,8.",
       "prompt_en": "Potassium value:",
@@ -516,6 +546,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Bitte rufen Sie mich zurück.",
+      "image": "p-16-05.jpg",
       "speaker": "braun",
       "prompt_de": "Bitte rufen Sie mich zurück.",
       "prompt_en": "Please call me back.",
@@ -528,6 +560,8 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Langsam, bitte. Ich schreibe mit.",
+      "image": "p-16-06.jpg",
       "speaker": "braun",
       "prompt_de": null,
       "prompt_en": "The doctor speaks too fast on the phone.",
@@ -539,19 +573,9 @@
       "answer": "Langsam, bitte. Ich schreibe mit."
     },
     {
-      "type": "situation_choice",
-      "speaker": "braun",
-      "prompt_de": null,
-      "prompt_en": "End the phone call politely.",
-      "options": [
-        "Danke. Auf Wiederhören!",
-        "Danke. Gute Besserung!",
-        "Tschüss, Alter!"
-      ],
-      "answer": "Danke. Auf Wiederhören!"
-    },
-    {
       "type": "choose_reply",
+      "from_card": "Ist meine Mutter wach?",
+      "image": "p-16-08.jpg",
       "speaker": "anna",
       "prompt_de": "Ist meine Mutter wach?",
       "prompt_en": "Is my mother awake?",
@@ -564,6 +588,8 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Wie ist Ihr Name, bitte? Können Sie das buchstabieren?",
+      "image": "p-16-09.jpg",
       "speaker": "anna",
       "prompt_de": null,
       "prompt_en": "You didn't understand the caller's name.",
@@ -576,6 +602,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Kann ich meine Mutter besuchen?",
+      "image": "p-16-10.jpg",
       "speaker": "anna",
       "prompt_de": "Kann ich meine Mutter besuchen?",
       "prompt_en": "Can I visit my mother?",
@@ -588,6 +616,8 @@
     },
     {
       "type": "spelling",
+      "from_card": "Krause",
+      "image": "s-krause.jpg",
       "audio_letters": [
         "K",
         "R",
@@ -605,6 +635,8 @@
     },
     {
       "type": "spelling",
+      "from_card": "Meyer",
+      "image": "s-meyer.jpg",
       "audio_letters": [
         "M",
         "E",
@@ -636,6 +668,8 @@
     "p-16-08.jpg",
     "p-16-09.jpg",
     "p-16-10.jpg",
+    "s-krause.jpg",
+    "s-meyer.jpg",
     "w-mobile-phone.jpg"
   ]
 }

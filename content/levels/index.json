@@ -17,7 +17,7 @@
       "file": "level-02.json",
       "images_zip": "level-02-images.zip",
       "flashcards": 25,
-      "quiz_pool": 36,
+      "quiz_pool": 35,
       "images": 31
     },
     {
@@ -63,7 +63,7 @@
       "images_zip": "level-07-images.zip",
       "flashcards": 21,
       "quiz_pool": 27,
-      "images": 17
+      "images": 18
     },
     {
       "level": 8,
@@ -72,7 +72,7 @@
       "images_zip": "level-08-images.zip",
       "flashcards": 16,
       "quiz_pool": 17,
-      "images": 12
+      "images": 13
     },
     {
       "level": 9,
@@ -81,7 +81,7 @@
       "images_zip": "level-09-images.zip",
       "flashcards": 28,
       "quiz_pool": 42,
-      "images": 35
+      "images": 37
     },
     {
       "level": 10,
@@ -108,7 +108,7 @@
       "images_zip": "level-12-images.zip",
       "flashcards": 21,
       "quiz_pool": 27,
-      "images": 17
+      "images": 18
     },
     {
       "level": 13,
@@ -126,7 +126,7 @@
       "images_zip": "level-14-images.zip",
       "flashcards": 22,
       "quiz_pool": 28,
-      "images": 23
+      "images": 27
     },
     {
       "level": 15,
@@ -144,7 +144,7 @@
       "images_zip": "level-16-images.zip",
       "flashcards": 16,
       "quiz_pool": 14,
-      "images": 15
+      "images": 17
     },
     {
       "level": 17,
@@ -153,7 +153,7 @@
       "images_zip": "level-17-images.zip",
       "flashcards": 16,
       "quiz_pool": 17,
-      "images": 24
+      "images": 25
     },
     {
       "level": 18,
@@ -162,7 +162,7 @@
       "images_zip": "level-18-images.zip",
       "flashcards": 16,
       "quiz_pool": 17,
-      "images": 24
+      "images": 25
     },
     {
       "level": 19,
@@ -189,7 +189,7 @@
       "images_zip": "level-21-images.zip",
       "flashcards": 15,
       "quiz_pool": 15,
-      "images": 19
+      "images": 20
     }
   ]
 }

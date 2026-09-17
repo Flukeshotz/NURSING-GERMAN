@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 10
+    "quiz_questions_per_attempt": 10,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [],
   "flashcards": [
@@ -448,277 +449,377 @@
   ],
   "quiz_pool": [
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Hilfe!",
       "time_limit_seconds": 8,
-      "situation_en": "A patient falls in the corridor. You need colleagues now.",
+      "image": "e-01.jpg",
+      "image_caption": "Help!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
         "Hilfe!",
-        "Tschüss!",
-        "Guten Appetit!"
+        "Notfall!",
+        "Rufen Sie bitte den Arzt!"
       ],
       "answer": "Hilfe!"
     },
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Notfall!",
       "time_limit_seconds": 8,
-      "situation_en": "A patient does not react when you speak to her.",
-      "options": [
-        "Können Sie mich hören?",
-        "Wie heißen Sie?",
-        "Haben Sie Hunger?"
-      ],
-      "answer": "Können Sie mich hören?"
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "You need the doctor immediately.",
-      "options": [
-        "Rufen Sie bitte den Arzt!",
-        "Rufen Sie bitte ein Taxi!",
-        "Rufen Sie bitte morgen an!"
-      ],
-      "answer": "Rufen Sie bitte den Arzt!"
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "Herr Schmidt has chest pain and wants to walk.",
-      "options": [
-        "Nicht aufstehen!",
-        "Stehen Sie bitte auf!",
-        "Gehen Sie bitte spazieren!"
-      ],
-      "answer": "Nicht aufstehen!"
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "A patient is breathing very fast and is scared.",
-      "options": [
-        "Atmen Sie ruhig.",
-        "Atmen Sie schnell.",
-        "Essen Sie ruhig."
-      ],
-      "answer": "Atmen Sie ruhig."
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "Before the doctor gives a new medicine, you check.",
-      "options": [
-        "Haben Sie Allergien?",
-        "Haben Sie Zeit?",
-        "Haben Sie Kinder?"
-      ],
-      "answer": "Haben Sie Allergien?"
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "Tell your colleague this is an emergency.",
+      "image": "e-02.jpg",
+      "image_caption": "Emergency!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
         "Notfall!",
-        "Feierabend!",
-        "Mittagspause!"
+        "Rufen Sie bitte den Arzt!",
+        "Schnell, bitte!"
       ],
       "answer": "Notfall!"
     },
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Rufen Sie bitte den Arzt!",
       "time_limit_seconds": 8,
-      "situation_en": "The patient on the floor tries to get up.",
+      "image": "e-03.jpg",
+      "image_caption": "Please call the doctor!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
-        "Bleiben Sie bitte liegen.",
-        "Stehen Sie schnell auf.",
-        "Setzen Sie sich an den Tisch."
+        "Rufen Sie bitte den Arzt!",
+        "Schnell, bitte!",
+        "Bleiben Sie bitte liegen."
       ],
-      "answer": "Bleiben Sie bitte liegen."
+      "answer": "Rufen Sie bitte den Arzt!"
     },
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Schnell, bitte!",
       "time_limit_seconds": 8,
-      "situation_en": "Your colleague is walking too slowly.",
+      "image": "e-04.jpg",
+      "image_caption": "Quickly, please!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
         "Schnell, bitte!",
-        "Langsam, bitte!",
-        "Später, bitte!"
+        "Bleiben Sie bitte liegen.",
+        "Nicht aufstehen!"
       ],
       "answer": "Schnell, bitte!"
     },
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Bleiben Sie bitte liegen.",
       "time_limit_seconds": 8,
-      "situation_en": "The patient is frightened and alone.",
+      "image": "e-05.jpg",
+      "image_caption": "Please stay lying down.",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Bleiben Sie bitte liegen.",
+        "Nicht aufstehen!",
+        "Atmen Sie ruhig."
+      ],
+      "answer": "Bleiben Sie bitte liegen."
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Nicht aufstehen!",
+      "time_limit_seconds": 8,
+      "image": "e-06.jpg",
+      "image_caption": "Don't get up!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Nicht aufstehen!",
+        "Atmen Sie ruhig.",
+        "Haben Sie Allergien?"
+      ],
+      "answer": "Nicht aufstehen!"
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Atmen Sie ruhig.",
+      "time_limit_seconds": 8,
+      "image": "e-07.jpg",
+      "image_caption": "Breathe calmly.",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Atmen Sie ruhig.",
+        "Haben Sie Allergien?",
+        "Können Sie mich hören?"
+      ],
+      "answer": "Atmen Sie ruhig."
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Haben Sie Allergien?",
+      "time_limit_seconds": 8,
+      "image": "e-08.jpg",
+      "image_caption": "Do you have allergies?",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Haben Sie Allergien?",
+        "Können Sie mich hören?",
+        "Ich bin hier."
+      ],
+      "answer": "Haben Sie Allergien?"
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Können Sie mich hören?",
+      "time_limit_seconds": 8,
+      "image": "e-09.jpg",
+      "image_caption": "Can you hear me?",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Können Sie mich hören?",
+        "Ich bin hier.",
+        "Bewusstlos!"
+      ],
+      "answer": "Können Sie mich hören?"
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Ich bin hier.",
+      "time_limit_seconds": 8,
+      "image": "e-10.jpg",
+      "image_caption": "I'm here.",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
         "Ich bin hier.",
-        "Ich gehe jetzt.",
-        "Ich bin müde."
+        "Bewusstlos!",
+        "Er atmet nicht!"
       ],
       "answer": "Ich bin hier."
     },
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Bewusstlos!",
       "time_limit_seconds": 8,
-      "situation_en": "Herr Yılmaz lies on the floor and does not react.",
+      "image": "e-11.jpg",
+      "image_caption": "Unconscious!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
-        "Bewusstlos! Hilfe!",
-        "Guten Morgen!",
-        "Schlafen Sie gut!"
+        "Bewusstlos!",
+        "Er atmet nicht!",
+        "Sie atmet."
       ],
-      "answer": "Bewusstlos! Hilfe!"
+      "answer": "Bewusstlos!"
     },
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Er atmet nicht!",
       "time_limit_seconds": 8,
-      "situation_en": "The patient's chest is not moving.",
+      "image": "e-12.jpg",
+      "image_caption": "He is not breathing!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
         "Er atmet nicht!",
-        "Er isst nicht!",
-        "Er schläft gut."
+        "Sie atmet.",
+        "Ich brauche Hilfe in Zimmer 3!"
       ],
       "answer": "Er atmet nicht!"
     },
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Sie atmet.",
       "time_limit_seconds": 8,
-      "situation_en": "You need the emergency trolley.",
-      "options": [
-        "Holen Sie bitte den Notfallwagen!",
-        "Holen Sie bitte den Kaffee!",
-        "Holen Sie bitte die Zeitung!"
-      ],
-      "answer": "Holen Sie bitte den Notfallwagen!"
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "A cannula comes out. There is a lot of blood.",
-      "options": [
-        "Blutung! Drücken Sie hier fest.",
-        "Drücken Sie bitte die Tür.",
-        "Kein Problem, tschüss."
-      ],
-      "answer": "Blutung! Drücken Sie hier fest."
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "You find Herr Schmidt on the floor. Call your colleague.",
-      "options": [
-        "Sturz in Zimmer 2!",
-        "Kaffee in Zimmer 2!",
-        "Visite in Zimmer 2!"
-      ],
-      "answer": "Sturz in Zimmer 2!"
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "The patient on the floor tries to move his head.",
-      "options": [
-        "Bewegen Sie sich nicht.",
-        "Tanzen Sie bitte.",
-        "Drehen Sie sich schnell."
-      ],
-      "answer": "Bewegen Sie sich nicht."
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "You see smoke in the corridor.",
-      "options": [
-        "Feuer!",
-        "Hunger!",
-        "Pause!"
-      ],
-      "answer": "Feuer!"
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "Fire alarm. Show visitors the way out.",
-      "options": [
-        "Bitte zum Notausgang!",
-        "Bitte zur Cafeteria!",
-        "Bitte zum Aufzug!"
-      ],
-      "answer": "Bitte zum Notausgang!"
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "A relative is panicking.",
-      "options": [
-        "Ruhig bleiben.",
-        "Schnell laufen.",
-        "Laut schreien."
-      ],
-      "answer": "Ruhig bleiben."
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "The patient asks if the doctor is coming.",
-      "options": [
-        "Der Arzt kommt sofort.",
-        "Der Arzt kommt morgen.",
-        "Der Arzt hat frei."
-      ],
-      "answer": "Der Arzt kommt sofort."
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "After a fall, check if the patient is confused.",
-      "options": [
-        "Wie heißen Sie? Welcher Tag ist heute?",
-        "Wie alt ist Ihr Auto?",
-        "Haben Sie Hunger?"
-      ],
-      "answer": "Wie heißen Sie? Welcher Tag ist heute?"
-    },
-    {
-      "type": "emergency_drill",
-      "time_limit_seconds": 8,
-      "situation_en": "Tell your colleague the patient is breathing.",
+      "image": "e-13.jpg",
+      "image_caption": "She is breathing.",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
         "Sie atmet.",
-        "Sie isst.",
-        "Sie singt."
+        "Ich brauche Hilfe in Zimmer 3!",
+        "Holen Sie bitte den Notfallwagen!"
       ],
       "answer": "Sie atmet."
     },
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Ich brauche Hilfe in Zimmer 3!",
       "time_limit_seconds": 8,
-      "situation_en": "You are alone with an emergency in room 3.",
+      "image": "e-14.jpg",
+      "image_caption": "I need help in room 3!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
         "Ich brauche Hilfe in Zimmer 3!",
-        "Ich brauche Kaffee in Zimmer 3!",
-        "Ich habe frei in Zimmer 3!"
+        "Holen Sie bitte den Notfallwagen!",
+        "Blutung!"
       ],
       "answer": "Ich brauche Hilfe in Zimmer 3!"
     },
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Holen Sie bitte den Notfallwagen!",
       "time_limit_seconds": 8,
-      "situation_en": "A patient suddenly has strong pain.",
+      "image": "e-15.jpg",
+      "image_caption": "Please get the emergency trolley!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
-        "Wo haben Sie Schmerzen?",
-        "Wo haben Sie Ihr Handy?",
-        "Wie ist das Wetter?"
+        "Holen Sie bitte den Notfallwagen!",
+        "Blutung!",
+        "Drücken Sie hier fest."
       ],
-      "answer": "Wo haben Sie Schmerzen?"
+      "answer": "Holen Sie bitte den Notfallwagen!"
     },
     {
-      "type": "emergency_drill",
+      "type": "emergency_choice",
+      "from_card": "Blutung!",
       "time_limit_seconds": 8,
-      "situation_en": "Outside the hospital, a person collapses. Tell someone to call.",
+      "image": "e-16.jpg",
+      "image_caption": "Bleeding!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Blutung!",
+        "Drücken Sie hier fest.",
+        "Sturz in Zimmer 2!"
+      ],
+      "answer": "Blutung!"
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Drücken Sie hier fest.",
+      "time_limit_seconds": 8,
+      "image": "e-17.jpg",
+      "image_caption": "Press firmly here.",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Drücken Sie hier fest.",
+        "Sturz in Zimmer 2!",
+        "Bewegen Sie sich nicht."
+      ],
+      "answer": "Drücken Sie hier fest."
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Sturz in Zimmer 2!",
+      "time_limit_seconds": 8,
+      "image": "e-18.jpg",
+      "image_caption": "Fall in room 2!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Sturz in Zimmer 2!",
+        "Bewegen Sie sich nicht.",
+        "Feuer!"
+      ],
+      "answer": "Sturz in Zimmer 2!"
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Bewegen Sie sich nicht.",
+      "time_limit_seconds": 8,
+      "image": "e-19.jpg",
+      "image_caption": "Don't move.",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Bewegen Sie sich nicht.",
+        "Feuer!",
+        "Bitte zum Notausgang!"
+      ],
+      "answer": "Bewegen Sie sich nicht."
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Feuer!",
+      "time_limit_seconds": 8,
+      "image": "e-20.jpg",
+      "image_caption": "Fire!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Feuer!",
+        "Bitte zum Notausgang!",
+        "Ruhig bleiben."
+      ],
+      "answer": "Feuer!"
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Bitte zum Notausgang!",
+      "time_limit_seconds": 8,
+      "image": "e-21.jpg",
+      "image_caption": "Please go to the emergency exit!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Bitte zum Notausgang!",
+        "Ruhig bleiben.",
+        "Der Arzt kommt sofort."
+      ],
+      "answer": "Bitte zum Notausgang!"
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Ruhig bleiben.",
+      "time_limit_seconds": 8,
+      "image": "e-22.jpg",
+      "image_caption": "Stay calm.",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Ruhig bleiben.",
+        "Der Arzt kommt sofort.",
+        "Wie heißen Sie? Welcher Tag ist heute?"
+      ],
+      "answer": "Ruhig bleiben."
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Der Arzt kommt sofort.",
+      "time_limit_seconds": 8,
+      "image": "e-23.jpg",
+      "image_caption": "The doctor is coming right away.",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Der Arzt kommt sofort.",
+        "Wie heißen Sie? Welcher Tag ist heute?",
+        "Rufen Sie die 112!"
+      ],
+      "answer": "Der Arzt kommt sofort."
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Wie heißen Sie? Welcher Tag ist heute?",
+      "time_limit_seconds": 8,
+      "image": "e-24.jpg",
+      "image_caption": "What's your name? What day is it today?",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
+      "options": [
+        "Wie heißen Sie? Welcher Tag ist heute?",
+        "Hilfe!",
+        "Notfall!"
+      ],
+      "answer": "Wie heißen Sie? Welcher Tag ist heute?"
+    },
+    {
+      "type": "emergency_choice",
+      "from_card": "Rufen Sie die 112!",
+      "time_limit_seconds": 8,
+      "image": "e-25.jpg",
+      "image_caption": "Call 112!",
+      "image_caption_lang": "en",
+      "instruction": "What do you say in this situation?",
       "options": [
         "Rufen Sie die 112!",
-        "Rufen Sie morgen an!",
-        "Rufen Sie ein Taxi!"
+        "Hilfe!",
+        "Notfall!"
       ],
       "answer": "Rufen Sie die 112!"
     }

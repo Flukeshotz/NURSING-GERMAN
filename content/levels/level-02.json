@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 11
+    "quiz_questions_per_attempt": 12,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -559,8 +560,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Station",
+      "instruction": "What is this in German?",
       "image": "w-ward.jpg",
+      "image_caption": "Ward",
+      "image_caption_lang": "en",
       "options": [
         "die Station",
         "das Stationszimmer",
@@ -571,7 +575,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Station",
+      "instruction": "What does it mean?",
+      "image": "w-ward.jpg",
+      "image_caption": "die Station",
+      "image_caption_lang": "de",
       "german": "die Station",
       "options": [
         "Ward",
@@ -583,8 +591,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das Stationszimmer",
+      "instruction": "What is this in German?",
       "image": "w-nurses-station.jpg",
+      "image_caption": "Nurses' station",
+      "image_caption_lang": "en",
       "options": [
         "das Stationszimmer",
         "die Station",
@@ -595,7 +606,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das Stationszimmer",
+      "instruction": "What does it mean?",
+      "image": "w-nurses-station.jpg",
+      "image_caption": "das Stationszimmer",
+      "image_caption_lang": "de",
       "german": "das Stationszimmer",
       "options": [
         "Nurses' station",
@@ -607,8 +622,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Pausenraum",
+      "instruction": "What is this in German?",
       "image": "w-staff-room.jpg",
+      "image_caption": "Staff room",
+      "image_caption_lang": "en",
       "options": [
         "der Pausenraum",
         "die Station",
@@ -619,7 +637,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Pausenraum",
+      "instruction": "What does it mean?",
+      "image": "w-staff-room.jpg",
+      "image_caption": "der Pausenraum",
+      "image_caption_lang": "de",
       "german": "der Pausenraum",
       "options": [
         "Staff room",
@@ -631,8 +653,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Umkleide",
+      "instruction": "What is this in German?",
       "image": "w-changing-room.jpg",
+      "image_caption": "Changing room",
+      "image_caption_lang": "en",
       "options": [
         "die Umkleide",
         "die Station",
@@ -643,7 +668,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Umkleide",
+      "instruction": "What does it mean?",
+      "image": "w-changing-room.jpg",
+      "image_caption": "die Umkleide",
+      "image_caption_lang": "de",
       "german": "die Umkleide",
       "options": [
         "Changing room",
@@ -655,8 +684,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Notaufnahme",
+      "instruction": "What is this in German?",
       "image": "w-casualty.jpg",
+      "image_caption": "Casualty",
+      "image_caption_lang": "en",
       "options": [
         "die Notaufnahme",
         "die Station",
@@ -667,7 +699,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Notaufnahme",
+      "instruction": "What does it mean?",
+      "image": "w-casualty.jpg",
+      "image_caption": "die Notaufnahme",
+      "image_caption_lang": "de",
       "german": "die Notaufnahme",
       "options": [
         "Casualty",
@@ -679,8 +715,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Intensivstation",
+      "instruction": "What is this in German?",
       "image": "w-icu.jpg",
+      "image_caption": "ICU",
+      "image_caption_lang": "en",
       "options": [
         "die Intensivstation",
         "die Station",
@@ -691,7 +730,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Intensivstation",
+      "instruction": "What does it mean?",
+      "image": "w-icu.jpg",
+      "image_caption": "die Intensivstation",
+      "image_caption_lang": "de",
       "german": "die Intensivstation",
       "options": [
         "ICU",
@@ -703,8 +746,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der OP",
+      "instruction": "What is this in German?",
       "image": "w-ot.jpg",
+      "image_caption": "OT",
+      "image_caption_lang": "en",
       "options": [
         "der OP",
         "die Station",
@@ -715,7 +761,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der OP",
+      "instruction": "What does it mean?",
+      "image": "w-ot.jpg",
+      "image_caption": "der OP",
+      "image_caption_lang": "de",
       "german": "der OP",
       "options": [
         "OT",
@@ -727,8 +777,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das Labor",
+      "instruction": "What is this in German?",
       "image": "w-lab.jpg",
+      "image_caption": "Lab",
+      "image_caption_lang": "en",
       "options": [
         "das Labor",
         "die Station",
@@ -739,7 +792,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das Labor",
+      "instruction": "What does it mean?",
+      "image": "w-lab.jpg",
+      "image_caption": "das Labor",
+      "image_caption_lang": "de",
       "german": "das Labor",
       "options": [
         "Lab",
@@ -751,8 +808,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Apotheke",
+      "instruction": "What is this in German?",
       "image": "w-pharmacy.jpg",
+      "image_caption": "Pharmacy",
+      "image_caption_lang": "en",
       "options": [
         "die Apotheke",
         "die Station",
@@ -763,7 +823,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Apotheke",
+      "instruction": "What does it mean?",
+      "image": "w-pharmacy.jpg",
+      "image_caption": "die Apotheke",
+      "image_caption_lang": "de",
       "german": "die Apotheke",
       "options": [
         "Pharmacy",
@@ -775,8 +839,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Kreißsaal",
+      "instruction": "What is this in German?",
       "image": "w-labour-room.jpg",
+      "image_caption": "Labour room",
+      "image_caption_lang": "en",
       "options": [
         "der Kreißsaal",
         "die Station",
@@ -787,7 +854,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Kreißsaal",
+      "instruction": "What does it mean?",
+      "image": "w-labour-room.jpg",
+      "image_caption": "der Kreißsaal",
+      "image_caption_lang": "de",
       "german": "der Kreißsaal",
       "options": [
         "Labour room",
@@ -799,8 +870,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Ambulanz",
+      "instruction": "What is this in German?",
       "image": "w-opd-outpatient-department.jpg",
+      "image_caption": "OPD (outpatient department)",
+      "image_caption_lang": "en",
       "options": [
         "die Ambulanz",
         "die Station",
@@ -811,7 +885,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Ambulanz",
+      "instruction": "What does it mean?",
+      "image": "w-opd-outpatient-department.jpg",
+      "image_caption": "die Ambulanz",
+      "image_caption_lang": "de",
       "german": "die Ambulanz",
       "options": [
         "OPD (outpatient department)",
@@ -823,8 +901,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Krankenwagen",
+      "instruction": "What is this in German?",
       "image": "w-ambulance.jpg",
+      "image_caption": "Ambulance",
+      "image_caption_lang": "en",
       "options": [
         "der Krankenwagen",
         "die Station",
@@ -835,7 +916,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Krankenwagen",
+      "instruction": "What does it mean?",
+      "image": "w-ambulance.jpg",
+      "image_caption": "der Krankenwagen",
+      "image_caption_lang": "de",
       "german": "der Krankenwagen",
       "options": [
         "Ambulance",
@@ -847,8 +932,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Trage",
+      "instruction": "What is this in German?",
       "image": "w-stretcher.jpg",
+      "image_caption": "Stretcher",
+      "image_caption_lang": "en",
       "options": [
         "die Trage",
         "die Station",
@@ -859,7 +947,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Trage",
+      "instruction": "What does it mean?",
+      "image": "w-stretcher.jpg",
+      "image_caption": "die Trage",
+      "image_caption_lang": "de",
       "german": "die Trage",
       "options": [
         "Stretcher",
@@ -870,38 +962,9 @@
       "answer": "Stretcher"
     },
     {
-      "type": "picture_choice",
-      "speaker": "weber",
-      "prompt_de": "Wo ist die Toilette?",
-      "prompt_en": "Where is the toilet?",
-      "options": [
-        {
-          "german": "die Toilette",
-          "english": "the toilet",
-          "image": "i-toilette.jpg"
-        },
-        {
-          "german": "der Aufzug",
-          "english": "the lift",
-          "image": "i-aufzug.jpg"
-        },
-        {
-          "german": "das Bett",
-          "english": "the bed",
-          "image": "i-bett.jpg"
-        },
-        {
-          "german": "die Tür",
-          "english": null,
-          "image": "i-tuer.jpg"
-        }
-      ],
-      "answer": "die Toilette",
-      "feedback_de": "Die Toilette ist hier rechts.",
-      "feedback_en": "The toilet is here on the right."
-    },
-    {
       "type": "choose_reply",
+      "from_card": "Wo ist die Toilette?",
+      "image": "p-02-01.jpg",
       "speaker": "schmidt",
       "prompt_de": "Wo ist die Toilette?",
       "prompt_en": "Where is the toilet?",
@@ -914,6 +977,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Ich suche den Aufzug.",
+      "image": "p-02-02.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich suche den Aufzug.",
       "prompt_en": "I'm looking for the lift.",
@@ -945,6 +1010,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Wo ist Zimmer 1?",
+      "image": "p-02-03.jpg",
       "speaker": "anna",
       "prompt_de": "Wo ist Zimmer 1?",
       "prompt_en": "Where is room 1?",
@@ -956,7 +1023,82 @@
       "answer": "Zimmer 1 ist dort links."
     },
     {
+      "type": "choose_reply",
+      "from_card": "Gibt es hier eine Cafeteria?",
+      "image": "p-02-05.jpg",
+      "speaker": "anna",
+      "prompt_de": "Gibt es hier eine Cafeteria?",
+      "prompt_en": "Is there a cafeteria here?",
+      "options": [
+        "Ja, im Erdgeschoss.",
+        "Ja, im Bett.",
+        "Nein, ich habe keinen Kaffee."
+      ],
+      "answer": "Ja, im Erdgeschoss."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Wo ist mein Zimmer?",
+      "image": "p-02-08.jpg",
+      "speaker": "schmidt",
+      "prompt_de": "Wo ist mein Zimmer?",
+      "prompt_en": "Where is my room?",
+      "options": [
+        "Ihr Zimmer ist Nummer 2.",
+        "Mein Zimmer ist schön.",
+        "Das ist der Arzt."
+      ],
+      "answer": "Ihr Zimmer ist Nummer 2."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Wo ist Frau Weber?",
+      "image": "p-02-06.jpg",
+      "speaker": "braun",
+      "prompt_de": "Wo ist Frau Weber?",
+      "prompt_en": "Where is Frau Weber?",
+      "options": [
+        "Sie ist in Zimmer 1.",
+        "Sie ist 82 Jahre alt.",
+        "Sie heißt Weber."
+      ],
+      "answer": "Sie ist in Zimmer 1."
+    },
+    {
       "type": "picture_choice",
+      "from_card": "Ein Patient ist in der Notaufnahme.",
+      "image": "p-02-07.jpg",
+      "speaker": "lena",
+      "prompt_de": "Ein Patient ist in der Notaufnahme.",
+      "prompt_en": "A patient is in the emergency room.",
+      "options": [
+        {
+          "german": "die Notaufnahme",
+          "english": "the emergency room",
+          "image": "i-notaufnahme.jpg"
+        },
+        {
+          "german": "das Labor",
+          "english": null,
+          "image": "i-labor.jpg"
+        },
+        {
+          "german": "die Cafeteria",
+          "english": "the cafeteria",
+          "image": "i-cafeteria.jpg"
+        },
+        {
+          "german": "der Aufzug",
+          "english": "the lift",
+          "image": "i-aufzug.jpg"
+        }
+      ],
+      "answer": "die Notaufnahme"
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Bring bitte den Rollstuhl in Zimmer 2.",
+      "image": "p-02-04.jpg",
       "speaker": "lena",
       "prompt_de": "Bring bitte den Rollstuhl in Zimmer 2.",
       "prompt_en": "Please bring the wheelchair to room 2.",
@@ -987,72 +1129,9 @@
       "feedback_en": "Okay, I'll bring the wheelchair."
     },
     {
-      "type": "choose_reply",
-      "speaker": "anna",
-      "prompt_de": "Gibt es hier eine Cafeteria?",
-      "prompt_en": "Is there a cafeteria here?",
-      "options": [
-        "Ja, im Erdgeschoss.",
-        "Ja, im Bett.",
-        "Nein, ich habe keinen Kaffee."
-      ],
-      "answer": "Ja, im Erdgeschoss."
-    },
-    {
-      "type": "choose_reply",
-      "speaker": "braun",
-      "prompt_de": "Wo ist Frau Weber?",
-      "prompt_en": "Where is Frau Weber?",
-      "options": [
-        "Sie ist in Zimmer 1.",
-        "Sie ist 82 Jahre alt.",
-        "Sie heißt Weber."
-      ],
-      "answer": "Sie ist in Zimmer 1."
-    },
-    {
       "type": "picture_choice",
-      "speaker": "lena",
-      "prompt_de": "Ein Patient ist in der Notaufnahme.",
-      "prompt_en": "A patient is in the emergency room.",
-      "options": [
-        {
-          "german": "die Notaufnahme",
-          "english": "the emergency room",
-          "image": "i-notaufnahme.jpg"
-        },
-        {
-          "german": "das Labor",
-          "english": null,
-          "image": "i-labor.jpg"
-        },
-        {
-          "german": "die Cafeteria",
-          "english": "the cafeteria",
-          "image": "i-cafeteria.jpg"
-        },
-        {
-          "german": "der Aufzug",
-          "english": "the lift",
-          "image": "i-aufzug.jpg"
-        }
-      ],
-      "answer": "die Notaufnahme"
-    },
-    {
-      "type": "choose_reply",
-      "speaker": "schmidt",
-      "prompt_de": "Wo ist mein Zimmer?",
-      "prompt_en": "Where is my room?",
-      "options": [
-        "Ihr Zimmer ist Nummer 2.",
-        "Mein Zimmer ist schön.",
-        "Das ist der Arzt."
-      ],
-      "answer": "Ihr Zimmer ist Nummer 2."
-    },
-    {
-      "type": "picture_choice",
+      "from_card": "Das Fenster ist offen. Es ist kalt.",
+      "image": "p-02-09.jpg",
       "speaker": "weber",
       "prompt_de": "Das Fenster ist offen. Es ist kalt.",
       "prompt_en": "The window is open. It's cold.",

@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 11
+    "quiz_questions_per_attempt": 12,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -362,8 +363,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Stuhlgang",
+      "instruction": "What is this in German?",
       "image": "w-motion-stool.jpg",
+      "image_caption": "Motion (stool)",
+      "image_caption_lang": "en",
       "options": [
         "der Stuhlgang",
         "der Blutzucker",
@@ -374,7 +378,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Stuhlgang",
+      "instruction": "What does it mean?",
+      "image": "w-motion-stool.jpg",
+      "image_caption": "der Stuhlgang",
+      "image_caption_lang": "de",
       "german": "der Stuhlgang",
       "options": [
         "Motion (stool)",
@@ -386,8 +394,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Blutzucker",
+      "instruction": "What is this in German?",
       "image": "w-sugar.jpg",
+      "image_caption": "Sugar",
+      "image_caption_lang": "en",
       "options": [
         "der Blutzucker",
         "der Stuhlgang",
@@ -398,7 +409,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Blutzucker",
+      "instruction": "What does it mean?",
+      "image": "w-sugar.jpg",
+      "image_caption": "der Blutzucker",
+      "image_caption_lang": "de",
       "german": "der Blutzucker",
       "options": [
         "Sugar",
@@ -410,6 +425,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Ich habe Schmerzen.",
+      "image": "p-05-01.jpg",
       "speaker": "schmidt",
       "prompt_de": "Ich habe Schmerzen.",
       "prompt_en": "I'm in pain.",
@@ -422,6 +439,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Ich habe Durst.",
+      "image": "p-05-02.jpg",
       "speaker": "weber",
       "prompt_de": "Ich habe Durst.",
       "prompt_en": "I'm thirsty.",
@@ -453,6 +472,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Ich habe Fieber, glaube ich.",
+      "image": "p-05-03.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich habe Fieber, glaube ich.",
       "prompt_en": "I have a fever, I think.",
@@ -483,44 +504,9 @@
       "feedback_en": "I'll take your temperature."
     },
     {
-      "type": "choose_reply",
-      "speaker": "weber",
-      "prompt_de": "Mir ist schwindelig.",
-      "prompt_en": "I feel dizzy.",
-      "options": [
-        "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
-        "Stehen Sie bitte schnell auf.",
-        "Gehen Sie bitte spazieren."
-      ],
-      "answer": "Bleiben Sie bitte im Bett. Ich hole den Arzt."
-    },
-    {
-      "type": "choose_reply",
-      "speaker": "schmidt",
-      "prompt_de": "Es tut sehr weh.",
-      "prompt_en": "It hurts a lot.",
-      "options": [
-        "Wie stark? Von 1 bis 10?",
-        "Wie alt sind Sie?",
-        "Wie heißen Sie?"
-      ],
-      "answer": "Wie stark? Von 1 bis 10?"
-    },
-    {
-      "type": "listen_and_note",
-      "speaker": "schmidt",
-      "prompt_de": "Acht.",
-      "prompt_en": "His pain score, 1 to 10:",
-      "options": [
-        "8",
-        "18",
-        "3",
-        "10"
-      ],
-      "answer": "8"
-    },
-    {
       "type": "picture_choice",
+      "from_card": "Ich habe Hunger.",
+      "image": "p-05-07.jpg",
       "speaker": "weber",
       "prompt_de": "Ich habe Hunger.",
       "prompt_en": "I'm hungry.",
@@ -550,6 +536,65 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Ich habe Husten.",
+      "image": "p-05-10.jpg",
+      "speaker": "schmidt",
+      "prompt_de": "Ich habe Husten.",
+      "prompt_en": "I have a cough.",
+      "options": [
+        "Okay. Ich hole den Arzt.",
+        "Schön!",
+        "Keine Ahnung."
+      ],
+      "answer": "Okay. Ich hole den Arzt."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Mir ist schwindelig.",
+      "image": "p-05-04.jpg",
+      "speaker": "weber",
+      "prompt_de": "Mir ist schwindelig.",
+      "prompt_en": "I feel dizzy.",
+      "options": [
+        "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+        "Stehen Sie bitte schnell auf.",
+        "Gehen Sie bitte spazieren."
+      ],
+      "answer": "Bleiben Sie bitte im Bett. Ich hole den Arzt."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Es tut sehr weh.",
+      "image": "p-05-05.jpg",
+      "speaker": "schmidt",
+      "prompt_de": "Es tut sehr weh.",
+      "prompt_en": "It hurts a lot.",
+      "options": [
+        "Wie stark? Von 1 bis 10?",
+        "Wie alt sind Sie?",
+        "Wie heißen Sie?"
+      ],
+      "answer": "Wie stark? Von 1 bis 10?"
+    },
+    {
+      "type": "listen_and_note",
+      "from_card": "Acht.",
+      "image": "p-05-06.jpg",
+      "speaker": "schmidt",
+      "prompt_de": "Acht.",
+      "prompt_en": "His pain score, 1 to 10:",
+      "options": [
+        "8",
+        "18",
+        "3",
+        "10"
+      ],
+      "answer": "8"
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Ich bin so müde.",
+      "image": "p-05-08.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich bin so müde.",
       "prompt_en": "I'm so tired.",
@@ -562,6 +607,8 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Frau Weber hat Kopfschmerzen.",
+      "image": "p-05-09.jpg",
       "speaker": "lena",
       "prompt_de": null,
       "prompt_en": "Tell Lena: Frau Weber has a headache.",
@@ -571,18 +618,6 @@
         "Frau Weber ist Kopfschmerzen."
       ],
       "answer": "Frau Weber hat Kopfschmerzen."
-    },
-    {
-      "type": "choose_reply",
-      "speaker": "schmidt",
-      "prompt_de": "Ich habe Husten.",
-      "prompt_en": "I have a cough.",
-      "options": [
-        "Okay. Ich hole den Arzt.",
-        "Schön!",
-        "Keine Ahnung."
-      ],
-      "answer": "Okay. Ich hole den Arzt."
     }
   ],
   "images_zip": "level-06-images.zip",

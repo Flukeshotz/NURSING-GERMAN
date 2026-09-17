@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 17
+    "quiz_questions_per_attempt": 18,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -421,7 +422,7 @@
         "german": "Patientenarmband",
         "speaker": null,
         "label": null,
-        "image": null
+        "image": "d-band.jpg"
       },
       "back": {
         "meaning_en": "Patient wristband",
@@ -461,7 +462,7 @@
         "german": "Aufnahmebogen",
         "speaker": null,
         "label": null,
-        "image": null
+        "image": "d-admission.jpg"
       },
       "back": {
         "meaning_en": "Admission form",
@@ -501,7 +502,7 @@
         "german": "Wie schreibt man das?",
         "speaker": null,
         "label": null,
-        "image": null
+        "image": "s-weber.jpg"
       },
       "back": {
         "meaning_en": "How do you spell that?",
@@ -543,7 +544,7 @@
         "german": "Wie schreibt man das?",
         "speaker": null,
         "label": null,
-        "image": null
+        "image": "s-schmidt.jpg"
       },
       "back": {
         "meaning_en": "How do you spell that?",
@@ -590,8 +591,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Aufnahme",
+      "instruction": "What is this in German?",
       "image": "w-admission.jpg",
+      "image_caption": "Admission",
+      "image_caption_lang": "en",
       "options": [
         "die Aufnahme",
         "das EKG",
@@ -602,7 +606,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Aufnahme",
+      "instruction": "What does it mean?",
+      "image": "w-admission.jpg",
+      "image_caption": "die Aufnahme",
+      "image_caption_lang": "de",
       "german": "die Aufnahme",
       "options": [
         "Admission",
@@ -614,8 +622,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das EKG",
+      "instruction": "What is this in German?",
       "image": "w-ecg.jpg",
+      "image_caption": "ECG",
+      "image_caption_lang": "en",
       "options": [
         "das EKG",
         "die Aufnahme",
@@ -626,7 +637,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das EKG",
+      "instruction": "What does it mean?",
+      "image": "w-ecg.jpg",
+      "image_caption": "das EKG",
+      "image_caption_lang": "de",
       "german": "das EKG",
       "options": [
         "ECG",
@@ -638,8 +653,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das Röntgen",
+      "instruction": "What is this in German?",
       "image": "w-x-ray.jpg",
+      "image_caption": "X-ray",
+      "image_caption_lang": "en",
       "options": [
         "das Röntgen",
         "die Aufnahme",
@@ -650,7 +668,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das Röntgen",
+      "instruction": "What does it mean?",
+      "image": "w-x-ray.jpg",
+      "image_caption": "das Röntgen",
+      "image_caption_lang": "de",
       "german": "das Röntgen",
       "options": [
         "X-ray",
@@ -662,8 +684,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das CT",
+      "instruction": "What is this in German?",
       "image": "w-ct-scan.jpg",
+      "image_caption": "CT scan",
+      "image_caption_lang": "en",
       "options": [
         "das CT",
         "die Aufnahme",
@@ -674,7 +699,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das CT",
+      "instruction": "What does it mean?",
+      "image": "w-ct-scan.jpg",
+      "image_caption": "das CT",
+      "image_caption_lang": "de",
       "german": "das CT",
       "options": [
         "CT scan",
@@ -686,8 +715,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das MRT",
+      "instruction": "What is this in German?",
       "image": "w-mri.jpg",
+      "image_caption": "MRI",
+      "image_caption_lang": "en",
       "options": [
         "das MRT",
         "die Aufnahme",
@@ -698,7 +730,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das MRT",
+      "instruction": "What does it mean?",
+      "image": "w-mri.jpg",
+      "image_caption": "das MRT",
+      "image_caption_lang": "de",
       "german": "das MRT",
       "options": [
         "MRI",
@@ -710,6 +746,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Ich bin neu hier. Ich habe einen Termin.",
+      "image": "p-13-01.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich bin neu hier. Ich habe einen Termin.",
       "prompt_en": "I'm new here. I have an appointment.",
@@ -722,6 +760,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Mein Name ist Emre Yılmaz.",
+      "image": "p-13-02.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Mein Name ist Emre Yılmaz.",
       "prompt_en": "My name is Emre Yılmaz.",
@@ -734,6 +774,8 @@
     },
     {
       "type": "listen_and_note",
+      "from_card": "Meine Nummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben.",
+      "image": "p-13-03.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Meine Nummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben.",
       "prompt_en": "His phone number:",
@@ -747,6 +789,8 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Welche Medikamente nehmen Sie?",
+      "image": "p-13-04.jpg",
       "speaker": "yilmaz",
       "prompt_de": null,
       "prompt_en": "Ask Herr Yılmaz which medicines he takes.",
@@ -759,6 +803,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Ich nehme Tabletten für den Blutdruck.",
+      "image": "p-13-05.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich nehme Tabletten für den Blutdruck.",
       "prompt_en": "I take tablets for my blood pressure.",
@@ -771,6 +817,8 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Wen können wir anrufen?",
+      "image": "p-13-06.jpg",
       "speaker": "yilmaz",
       "prompt_de": null,
       "prompt_en": "Ask Herr Yılmaz who you can call if needed.",
@@ -783,6 +831,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Meine Frau. Ihre Nummer ist im Handy.",
+      "image": "p-13-07.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Meine Frau. Ihre Nummer ist im Handy.",
       "prompt_en": "My wife. Her number is in my phone.",
@@ -795,6 +845,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Wo ist mein Schrank?",
+      "image": "p-13-08.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Wo ist mein Schrank?",
       "prompt_en": "Where is my wardrobe?",
@@ -826,6 +878,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Wo kann ich mein Handy laden?",
+      "image": "p-13-09.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Wo kann ich mein Handy laden?",
       "prompt_en": "Where can I charge my phone?",
@@ -838,6 +892,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Wie mache ich das Licht an?",
+      "image": "p-13-10.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Wie mache ich das Licht an?",
       "prompt_en": "How do I switch on the light?",
@@ -869,8 +925,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Patientenarmband",
+      "image": "d-band.jpg",
       "document": "Patient wristband",
-      "document_de": "Patientenarmband",
+      "document_html": "<h4>PATIENTENARMBAND</h4><div class=\"band\"><b>Yılmaz, Emre</b><span>* 12.03.1981</span><span>Station 3 · Zi. 3</span><span class=\"hi\">ALLERGIE: Penicillin</span></div>",
       "question_en": "What is the patient's first name?",
       "options": [
         "Emre",
@@ -881,8 +939,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Patientenarmband",
+      "image": "d-band.jpg",
       "document": "Patient wristband",
-      "document_de": "Patientenarmband",
+      "document_html": "<h4>PATIENTENARMBAND</h4><div class=\"band\"><b>Yılmaz, Emre</b><span>* 12.03.1981</span><span>Station 3 · Zi. 3</span><span class=\"hi\">ALLERGIE: Penicillin</span></div>",
       "question_en": "Which allergy does he have?",
       "options": [
         "Penicillin",
@@ -893,8 +953,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Patientenarmband",
+      "image": "d-band.jpg",
       "document": "Patient wristband",
-      "document_de": "Patientenarmband",
+      "document_html": "<h4>PATIENTENARMBAND</h4><div class=\"band\"><b>Yılmaz, Emre</b><span>* 12.03.1981</span><span>Station 3 · Zi. 3</span><span class=\"hi\">ALLERGIE: Penicillin</span></div>",
       "question_en": "Which room is he in?",
       "options": [
         "Room 3",
@@ -905,8 +967,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Aufnahmebogen",
+      "image": "d-admission.jpg",
       "document": "Admission form",
-      "document_de": "Aufnahmebogen",
+      "document_html": "<h4>AUFNAHMEBOGEN</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Name</td><td>Schmidt, Klaus</td></tr><tr><td>Geburtsdatum</td><td>14.07.1959</td></tr><tr><td>Kontaktperson</td><td>Tochter: Sabine Schmidt</td></tr>\n   <tr><td>Allergien</td><td>keine</td></tr><tr><td>Medikamente</td><td>Ramipril 5 mg 1-0-0-0</td></tr><tr><td>Hilfsmittel</td><td>Brille, Rollator</td></tr></table></div>",
       "question_en": "Who is his contact person?",
       "options": [
         "His daughter",
@@ -917,8 +981,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Aufnahmebogen",
+      "image": "d-admission.jpg",
       "document": "Admission form",
-      "document_de": "Aufnahmebogen",
+      "document_html": "<h4>AUFNAHMEBOGEN</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Name</td><td>Schmidt, Klaus</td></tr><tr><td>Geburtsdatum</td><td>14.07.1959</td></tr><tr><td>Kontaktperson</td><td>Tochter: Sabine Schmidt</td></tr>\n   <tr><td>Allergien</td><td>keine</td></tr><tr><td>Medikamente</td><td>Ramipril 5 mg 1-0-0-0</td></tr><tr><td>Hilfsmittel</td><td>Brille, Rollator</td></tr></table></div>",
       "question_en": "Does he have allergies?",
       "options": [
         "No",
@@ -929,8 +995,10 @@
     },
     {
       "type": "document_question",
+      "from_card": "Aufnahmebogen",
+      "image": "d-admission.jpg",
       "document": "Admission form",
-      "document_de": "Aufnahmebogen",
+      "document_html": "<h4>AUFNAHMEBOGEN</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Name</td><td>Schmidt, Klaus</td></tr><tr><td>Geburtsdatum</td><td>14.07.1959</td></tr><tr><td>Kontaktperson</td><td>Tochter: Sabine Schmidt</td></tr>\n   <tr><td>Allergien</td><td>keine</td></tr><tr><td>Medikamente</td><td>Ramipril 5 mg 1-0-0-0</td></tr><tr><td>Hilfsmittel</td><td>Brille, Rollator</td></tr></table></div>",
       "question_en": "Which aids does he use?",
       "options": [
         "Glasses and a walker",
@@ -941,6 +1009,8 @@
     },
     {
       "type": "spelling",
+      "from_card": "Weber",
+      "image": "s-weber.jpg",
       "audio_letters": [
         "W",
         "E",
@@ -957,6 +1027,8 @@
     },
     {
       "type": "spelling",
+      "from_card": "Schmidt",
+      "image": "s-schmidt.jpg",
       "audio_letters": [
         "S",
         "C",
@@ -976,6 +1048,8 @@
   ],
   "images_zip": "level-14-images.zip",
   "images": [
+    "d-admission.jpg",
+    "d-band.jpg",
     "i-bett.jpg",
     "i-fenster.jpg",
     "i-fernseher.jpg",
@@ -994,6 +1068,8 @@
     "p-13-08.jpg",
     "p-13-09.jpg",
     "p-13-10.jpg",
+    "s-schmidt.jpg",
+    "s-weber.jpg",
     "w-admission.jpg",
     "w-ct-scan.jpg",
     "w-ecg.jpg",

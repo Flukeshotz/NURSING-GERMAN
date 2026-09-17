@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 11
+    "quiz_questions_per_attempt": 12,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -361,8 +362,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Sozialdienst",
+      "instruction": "What is this in German?",
       "image": "w-social-worker.jpg",
+      "image_caption": "Social worker",
+      "image_caption_lang": "en",
       "options": [
         "der Sozialdienst",
         "die Praxis",
@@ -373,7 +377,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Sozialdienst",
+      "instruction": "What does it mean?",
+      "image": "w-social-worker.jpg",
+      "image_caption": "der Sozialdienst",
+      "image_caption_lang": "de",
       "german": "der Sozialdienst",
       "options": [
         "Social worker",
@@ -385,8 +393,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Praxis",
+      "instruction": "What is this in German?",
       "image": "w-doctor-s-clinic-gp.jpg",
+      "image_caption": "Doctor's clinic (GP)",
+      "image_caption_lang": "en",
       "options": [
         "die Praxis",
         "der Sozialdienst",
@@ -397,7 +408,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Praxis",
+      "instruction": "What does it mean?",
+      "image": "w-doctor-s-clinic-gp.jpg",
+      "image_caption": "die Praxis",
+      "image_caption_lang": "de",
       "german": "die Praxis",
       "options": [
         "Doctor's clinic (GP)",
@@ -409,6 +424,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Wo ist meine Mutter? Frau Weber.",
+      "image": "p-20-01.jpg",
       "speaker": "anna",
       "prompt_de": "Wo ist meine Mutter? Frau Weber.",
       "prompt_en": "Where is my mother? Frau Weber.",
@@ -421,6 +438,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Darf ich Blumen mitbringen?",
+      "image": "p-20-02.jpg",
       "speaker": "anna",
       "prompt_de": "Darf ich Blumen mitbringen?",
       "prompt_en": "May I bring flowers?",
@@ -433,6 +452,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Wo kann ich einen Kaffee trinken?",
+      "image": "p-20-03.jpg",
       "speaker": "anna",
       "prompt_de": "Wo kann ich einen Kaffee trinken?",
       "prompt_en": "Where can I get a coffee?",
@@ -464,6 +485,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Danke, Sie sind so nett zu meiner Mutter.",
+      "image": "p-20-04.jpg",
       "speaker": "anna",
       "prompt_de": "Danke, Sie sind so nett zu meiner Mutter.",
       "prompt_en": "Thank you, you're so kind to my mother.",
@@ -476,6 +499,8 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Bitte warten Sie kurz draußen.",
+      "image": "p-20-05.jpg",
       "speaker": "anna",
       "prompt_de": null,
       "prompt_en": "The visitor is in the room during the ward round.",
@@ -488,6 +513,8 @@
     },
     {
       "type": "listen_and_note",
+      "from_card": "Heute sind zwei Besucher erlaubt.",
+      "image": "p-20-06.jpg",
       "speaker": "lena",
       "prompt_de": "Heute sind zwei Besucher erlaubt.",
       "prompt_en": "How many visitors are allowed?",
@@ -501,6 +528,8 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Bitte nur zwei Besucher im Zimmer.",
+      "image": "p-20-07.jpg",
       "speaker": "anna",
       "prompt_de": null,
       "prompt_en": "There are four visitors in the room. Only two are allowed.",
@@ -513,6 +542,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Kann ich den Arzt sprechen?",
+      "image": "p-20-08.jpg",
       "speaker": "anna",
       "prompt_de": "Kann ich den Arzt sprechen?",
       "prompt_en": "Can I talk to the doctor?",
@@ -525,6 +556,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Darf meine Mutter Kuchen essen?",
+      "image": "p-20-09.jpg",
       "speaker": "anna",
       "prompt_de": "Darf meine Mutter Kuchen essen?",
       "prompt_en": "May my mother eat cake?",
@@ -537,6 +570,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Können Sie mich anrufen?",
+      "image": "p-20-10.jpg",
       "speaker": "anna",
       "prompt_de": "Können Sie mich anrufen?",
       "prompt_en": "Can you call me?",

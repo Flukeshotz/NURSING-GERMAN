@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 11
+    "quiz_questions_per_attempt": 12,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -515,8 +516,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Spritze",
+      "instruction": "What is this in German?",
       "image": "w-injection.jpg",
+      "image_caption": "Injection",
+      "image_caption_lang": "en",
       "options": [
         "die Spritze",
         "die Braunüle",
@@ -527,7 +531,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Spritze",
+      "instruction": "What does it mean?",
+      "image": "w-injection.jpg",
+      "image_caption": "die Spritze",
+      "image_caption_lang": "de",
       "german": "die Spritze",
       "options": [
         "Injection",
@@ -539,8 +547,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Braunüle",
+      "instruction": "What is this in German?",
       "image": "w-cannula-venflon.jpg",
+      "image_caption": "Cannula / Venflon",
+      "image_caption_lang": "en",
       "options": [
         "die Braunüle",
         "die Spritze",
@@ -551,7 +562,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Braunüle",
+      "instruction": "What does it mean?",
+      "image": "w-cannula-venflon.jpg",
+      "image_caption": "die Braunüle",
+      "image_caption_lang": "de",
       "german": "die Braunüle",
       "options": [
         "Cannula / Venflon",
@@ -563,8 +578,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Katheter",
+      "instruction": "What is this in German?",
       "image": "w-catheter.jpg",
+      "image_caption": "Catheter",
+      "image_caption_lang": "en",
       "options": [
         "der Katheter",
         "die Spritze",
@@ -575,7 +593,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Katheter",
+      "instruction": "What does it mean?",
+      "image": "w-catheter.jpg",
+      "image_caption": "der Katheter",
+      "image_caption_lang": "de",
       "german": "der Katheter",
       "options": [
         "Catheter",
@@ -587,8 +609,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Verband",
+      "instruction": "What is this in German?",
       "image": "w-dressing.jpg",
+      "image_caption": "Dressing",
+      "image_caption_lang": "en",
       "options": [
         "der Verband",
         "die Spritze",
@@ -599,7 +624,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Verband",
+      "instruction": "What does it mean?",
+      "image": "w-dressing.jpg",
+      "image_caption": "der Verband",
+      "image_caption_lang": "de",
       "german": "der Verband",
       "options": [
         "Dressing",
@@ -611,8 +640,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Kittel",
+      "instruction": "What is this in German?",
       "image": "w-gown-apron.jpg",
+      "image_caption": "Gown / apron",
+      "image_caption_lang": "en",
       "options": [
         "der Kittel",
         "die Spritze",
@@ -623,7 +655,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Kittel",
+      "instruction": "What does it mean?",
+      "image": "w-gown-apron.jpg",
+      "image_caption": "der Kittel",
+      "image_caption_lang": "de",
       "german": "der Kittel",
       "options": [
         "Gown / apron",
@@ -635,8 +671,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Abwurfbehälter",
+      "instruction": "What is this in German?",
       "image": "w-sharps-box.jpg",
+      "image_caption": "Sharps box",
+      "image_caption_lang": "en",
       "options": [
         "der Abwurfbehälter",
         "die Spritze",
@@ -647,7 +686,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Abwurfbehälter",
+      "instruction": "What does it mean?",
+      "image": "w-sharps-box.jpg",
+      "image_caption": "der Abwurfbehälter",
+      "image_caption_lang": "de",
       "german": "der Abwurfbehälter",
       "options": [
         "Sharps box",
@@ -659,8 +702,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Bettpfanne",
+      "instruction": "What is this in German?",
       "image": "w-bedpan.jpg",
+      "image_caption": "Bedpan",
+      "image_caption_lang": "en",
       "options": [
         "die Bettpfanne",
         "die Spritze",
@@ -671,7 +717,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Bettpfanne",
+      "instruction": "What does it mean?",
+      "image": "w-bedpan.jpg",
+      "image_caption": "die Bettpfanne",
+      "image_caption_lang": "de",
       "german": "die Bettpfanne",
       "options": [
         "Bedpan",
@@ -683,8 +733,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Urinbeutel",
+      "instruction": "What is this in German?",
       "image": "w-urine-bag.jpg",
+      "image_caption": "Urine bag",
+      "image_caption_lang": "en",
       "options": [
         "der Urinbeutel",
         "die Spritze",
@@ -695,7 +748,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Urinbeutel",
+      "instruction": "What does it mean?",
+      "image": "w-urine-bag.jpg",
+      "image_caption": "der Urinbeutel",
+      "image_caption_lang": "de",
       "german": "der Urinbeutel",
       "options": [
         "Urine bag",
@@ -707,8 +764,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das Blutzuckermessgerät",
+      "instruction": "What is this in German?",
       "image": "w-glucometer.jpg",
+      "image_caption": "Glucometer",
+      "image_caption_lang": "en",
       "options": [
         "das Blutzuckermessgerät",
         "die Spritze",
@@ -719,7 +779,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das Blutzuckermessgerät",
+      "instruction": "What does it mean?",
+      "image": "w-glucometer.jpg",
+      "image_caption": "das Blutzuckermessgerät",
+      "image_caption_lang": "de",
       "german": "das Blutzuckermessgerät",
       "options": [
         "Glucometer",
@@ -731,8 +795,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "das Stethoskop",
+      "instruction": "What is this in German?",
       "image": "w-stethoscope.jpg",
+      "image_caption": "Stethoscope",
+      "image_caption_lang": "en",
       "options": [
         "das Stethoskop",
         "die Spritze",
@@ -743,7 +810,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "das Stethoskop",
+      "instruction": "What does it mean?",
+      "image": "w-stethoscope.jpg",
+      "image_caption": "das Stethoskop",
+      "image_caption_lang": "de",
       "german": "das Stethoskop",
       "options": [
         "Stethoscope",
@@ -755,8 +826,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Wunde",
+      "instruction": "What is this in German?",
       "image": "w-wound.jpg",
+      "image_caption": "Wound",
+      "image_caption_lang": "en",
       "options": [
         "die Wunde",
         "die Spritze",
@@ -767,7 +841,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Wunde",
+      "instruction": "What does it mean?",
+      "image": "w-wound.jpg",
+      "image_caption": "die Wunde",
+      "image_caption_lang": "de",
       "german": "die Wunde",
       "options": [
         "Wound",
@@ -779,6 +857,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Ich brauche meine Brille.",
+      "image": "p-03-01.jpg",
       "speaker": "weber",
       "prompt_de": "Ich brauche meine Brille.",
       "prompt_en": "I need my glasses.",
@@ -810,6 +890,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Wo ist die Klingel?",
+      "image": "p-03-02.jpg",
       "speaker": "schmidt",
       "prompt_de": "Wo ist die Klingel?",
       "prompt_en": "Where is the call bell?",
@@ -841,64 +923,8 @@
     },
     {
       "type": "picture_choice",
-      "speaker": "lena",
-      "prompt_de": "Ich brauche Handschuhe.",
-      "prompt_en": "I need gloves.",
-      "options": [
-        {
-          "german": "die Handschuhe",
-          "english": "the gloves",
-          "image": "i-handschuhe.jpg"
-        },
-        {
-          "german": "die Maske",
-          "english": "the mask",
-          "image": "i-maske.jpg"
-        },
-        {
-          "german": "das Pflaster",
-          "english": "the plaster",
-          "image": "i-pflaster.jpg"
-        },
-        {
-          "german": "die Schere",
-          "english": null,
-          "image": "i-schere.jpg"
-        }
-      ],
-      "answer": "die Handschuhe"
-    },
-    {
-      "type": "picture_choice",
-      "speaker": "braun",
-      "prompt_de": "Das Thermometer, bitte.",
-      "prompt_en": "The thermometer, please.",
-      "options": [
-        {
-          "german": "das Thermometer",
-          "english": "the thermometer",
-          "image": "i-thermometer.jpg"
-        },
-        {
-          "german": "die Spritze",
-          "english": "the syringe",
-          "image": "i-spritze.jpg"
-        },
-        {
-          "german": "das Stethoskop",
-          "english": null,
-          "image": "i-stethoskop.jpg"
-        },
-        {
-          "german": "die Tablette",
-          "english": "the tablet",
-          "image": "i-tablette.jpg"
-        }
-      ],
-      "answer": "das Thermometer"
-    },
-    {
-      "type": "picture_choice",
+      "from_card": "Ich möchte die Zeitung, bitte.",
+      "image": "p-03-05.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich möchte die Zeitung, bitte.",
       "prompt_en": "I'd like the newspaper, please.",
@@ -930,35 +956,8 @@
     },
     {
       "type": "picture_choice",
-      "speaker": "lena",
-      "prompt_de": "Die Spritze, bitte.",
-      "prompt_en": "The syringe, please.",
-      "options": [
-        {
-          "german": "die Spritze",
-          "english": "the syringe",
-          "image": "i-spritze.jpg"
-        },
-        {
-          "german": "das Thermometer",
-          "english": "the thermometer",
-          "image": "i-thermometer.jpg"
-        },
-        {
-          "german": "das Pflaster",
-          "english": "the plaster",
-          "image": "i-pflaster.jpg"
-        },
-        {
-          "german": "die Handschuhe",
-          "english": "the gloves",
-          "image": "i-handschuhe.jpg"
-        }
-      ],
-      "answer": "die Spritze"
-    },
-    {
-      "type": "picture_choice",
+      "from_card": "Mein Handy ist leer.",
+      "image": "p-03-07.jpg",
       "speaker": "weber",
       "prompt_de": "Mein Handy ist leer.",
       "prompt_en": "My phone is empty (battery dead).",
@@ -990,6 +989,8 @@
     },
     {
       "type": "picture_choice",
+      "from_card": "Ich brauche ein Pflaster.",
+      "image": "p-03-08.jpg",
       "speaker": "schmidt",
       "prompt_de": "Ich brauche ein Pflaster.",
       "prompt_en": "I need a plaster.",
@@ -1018,7 +1019,102 @@
       "answer": "das Pflaster"
     },
     {
+      "type": "picture_choice",
+      "from_card": "Ich brauche Handschuhe.",
+      "image": "p-03-03.jpg",
+      "speaker": "lena",
+      "prompt_de": "Ich brauche Handschuhe.",
+      "prompt_en": "I need gloves.",
+      "options": [
+        {
+          "german": "die Handschuhe",
+          "english": "the gloves",
+          "image": "i-handschuhe.jpg"
+        },
+        {
+          "german": "die Maske",
+          "english": "the mask",
+          "image": "i-maske.jpg"
+        },
+        {
+          "german": "das Pflaster",
+          "english": "the plaster",
+          "image": "i-pflaster.jpg"
+        },
+        {
+          "german": "die Schere",
+          "english": null,
+          "image": "i-schere.jpg"
+        }
+      ],
+      "answer": "die Handschuhe"
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Das Thermometer, bitte.",
+      "image": "p-03-04.jpg",
+      "speaker": "braun",
+      "prompt_de": "Das Thermometer, bitte.",
+      "prompt_en": "The thermometer, please.",
+      "options": [
+        {
+          "german": "das Thermometer",
+          "english": "the thermometer",
+          "image": "i-thermometer.jpg"
+        },
+        {
+          "german": "die Spritze",
+          "english": "the syringe",
+          "image": "i-spritze.jpg"
+        },
+        {
+          "german": "das Stethoskop",
+          "english": null,
+          "image": "i-stethoskop.jpg"
+        },
+        {
+          "german": "die Tablette",
+          "english": "the tablet",
+          "image": "i-tablette.jpg"
+        }
+      ],
+      "answer": "das Thermometer"
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Die Spritze, bitte.",
+      "image": "p-03-06.jpg",
+      "speaker": "lena",
+      "prompt_de": "Die Spritze, bitte.",
+      "prompt_en": "The syringe, please.",
+      "options": [
+        {
+          "german": "die Spritze",
+          "english": "the syringe",
+          "image": "i-spritze.jpg"
+        },
+        {
+          "german": "das Thermometer",
+          "english": "the thermometer",
+          "image": "i-thermometer.jpg"
+        },
+        {
+          "german": "das Pflaster",
+          "english": "the plaster",
+          "image": "i-pflaster.jpg"
+        },
+        {
+          "german": "die Handschuhe",
+          "english": "the gloves",
+          "image": "i-handschuhe.jpg"
+        }
+      ],
+      "answer": "die Spritze"
+    },
+    {
       "type": "situation_choice",
+      "from_card": "Wo ist die Maske?",
+      "image": "p-03-09.jpg",
       "speaker": "lena",
       "prompt_de": null,
       "prompt_en": "Ask Lena where the mask is.",
@@ -1031,6 +1127,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Was ist das?",
+      "image": "p-03-10.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Was ist das?",
       "prompt_en": "What is that? (He points at the 🩺.)",

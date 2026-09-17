@@ -16,7 +16,8 @@
   "rules": {
     "quick_check_every_cards": 20,
     "quiz_pass_mark": 0.7,
-    "quiz_questions_per_attempt": 11
+    "quiz_questions_per_attempt": 12,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
   },
   "goals": [
     {
@@ -367,8 +368,11 @@
   "quiz_pool": [
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Pflegehelfer / die Pflegehelferin",
+      "instruction": "What is this in German?",
       "image": "w-ward-aide-nursing-assistant.jpg",
+      "image_caption": "Ward aide / nursing assistant",
+      "image_caption_lang": "en",
       "options": [
         "der Pflegehelfer / die Pflegehelferin",
         "die Reinigungskraft",
@@ -379,7 +383,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Pflegehelfer / die Pflegehelferin",
+      "instruction": "What does it mean?",
+      "image": "w-ward-aide-nursing-assistant.jpg",
+      "image_caption": "der Pflegehelfer / die Pflegehelferin",
+      "image_caption_lang": "de",
       "german": "der Pflegehelfer / die Pflegehelferin",
       "options": [
         "Ward aide / nursing assistant",
@@ -391,8 +399,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "die Reinigungskraft",
+      "instruction": "What is this in German?",
       "image": "w-housekeeping-cleaning-staff.jpg",
+      "image_caption": "Housekeeping / cleaning staff",
+      "image_caption_lang": "en",
       "options": [
         "die Reinigungskraft",
         "der Pflegehelfer / die Pflegehelferin",
@@ -403,7 +414,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "die Reinigungskraft",
+      "instruction": "What does it mean?",
+      "image": "w-housekeeping-cleaning-staff.jpg",
+      "image_caption": "die Reinigungskraft",
+      "image_caption_lang": "de",
       "german": "die Reinigungskraft",
       "options": [
         "Housekeeping / cleaning staff",
@@ -415,8 +430,11 @@
     },
     {
       "type": "image_choice",
-      "instruction": "Match the correct word to this image",
+      "from_card": "der Dekubitus",
+      "instruction": "What is this in German?",
       "image": "w-bedsore.jpg",
+      "image_caption": "Bedsore",
+      "image_caption_lang": "en",
       "options": [
         "der Dekubitus",
         "der Pflegehelfer / die Pflegehelferin",
@@ -427,7 +445,11 @@
     },
     {
       "type": "meaning_choice",
-      "instruction": "Choose the correct meaning",
+      "from_card": "der Dekubitus",
+      "instruction": "What does it mean?",
+      "image": "w-bedsore.jpg",
+      "image_caption": "der Dekubitus",
+      "image_caption_lang": "de",
       "german": "der Dekubitus",
       "options": [
         "Bedsore",
@@ -439,6 +461,8 @@
     },
     {
       "type": "choose_reply",
+      "from_card": "Ich möchte duschen.",
+      "image": "p-10-01.jpg",
       "speaker": "weber",
       "prompt_de": "Ich möchte duschen.",
       "prompt_en": "I'd like to shower.",
@@ -450,7 +474,70 @@
       "answer": "Gut. Ich helfe Ihnen."
     },
     {
+      "type": "situation_choice",
+      "from_card": "Brauchen Sie Hilfe?",
+      "image": "p-10-03.jpg",
+      "speaker": "schmidt",
+      "prompt_de": null,
+      "prompt_en": "Ask Herr Schmidt if he needs help.",
+      "options": [
+        "Brauchen Sie Hilfe?",
+        "Brauchen Sie ein Taxi?",
+        "Helfen Sie mir?"
+      ],
+      "answer": "Brauchen Sie Hilfe?"
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Ich kann nicht allein aufstehen.",
+      "image": "p-10-04.jpg",
+      "speaker": "schmidt",
+      "prompt_de": "Ich kann nicht allein aufstehen.",
+      "prompt_en": "I can't get up alone.",
+      "options": [
+        "Kein Problem. Ich helfe Ihnen.",
+        "Das ist nicht mein Problem.",
+        "Dann bleiben Sie bitte immer im Bett."
+      ],
+      "answer": "Kein Problem. Ich helfe Ihnen."
+    },
+    {
       "type": "picture_choice",
+      "from_card": "Ich möchte zur Toilette.",
+      "image": "p-10-10.jpg",
+      "speaker": "weber",
+      "prompt_de": "Ich möchte zur Toilette.",
+      "prompt_en": "I'd like to go to the toilet.",
+      "options": [
+        {
+          "german": "die Toilette",
+          "english": "the toilet",
+          "image": "i-toilette.jpg"
+        },
+        {
+          "german": "der Aufzug",
+          "english": "the lift",
+          "image": "i-aufzug.jpg"
+        },
+        {
+          "german": "das Bett",
+          "english": "the bed",
+          "image": "i-bett.jpg"
+        },
+        {
+          "german": "die Cafeteria",
+          "english": "the cafeteria",
+          "image": "i-cafeteria.jpg"
+        }
+      ],
+      "answer": "die Toilette",
+      "feedback_de": "Kommen Sie, ich helfe Ihnen.",
+      "feedback_en": "Come, I'll help you."
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Wo ist meine Zahnbürste?",
+      "image": "p-10-02.jpg",
       "speaker": "weber",
       "prompt_de": "Wo ist meine Zahnbürste?",
       "prompt_en": "Where is my toothbrush?",
@@ -481,31 +568,9 @@
       "feedback_en": "Here is your toothbrush."
     },
     {
-      "type": "situation_choice",
-      "speaker": "schmidt",
-      "prompt_de": null,
-      "prompt_en": "Ask Herr Schmidt if he needs help.",
-      "options": [
-        "Brauchen Sie Hilfe?",
-        "Brauchen Sie ein Taxi?",
-        "Helfen Sie mir?"
-      ],
-      "answer": "Brauchen Sie Hilfe?"
-    },
-    {
-      "type": "choose_reply",
-      "speaker": "schmidt",
-      "prompt_de": "Ich kann nicht allein aufstehen.",
-      "prompt_en": "I can't get up alone.",
-      "options": [
-        "Kein Problem. Ich helfe Ihnen.",
-        "Das ist nicht mein Problem.",
-        "Dann bleiben Sie bitte immer im Bett."
-      ],
-      "answer": "Kein Problem. Ich helfe Ihnen."
-    },
-    {
       "type": "picture_choice",
+      "from_card": "Ich möchte mich waschen.",
+      "image": "p-10-05.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich möchte mich waschen.",
       "prompt_en": "I'd like to wash.",
@@ -536,19 +601,9 @@
       "feedback_en": "Here is the soap."
     },
     {
-      "type": "situation_choice",
-      "speaker": "weber",
-      "prompt_de": null,
-      "prompt_en": "Ask Frau Weber if she wants to get up.",
-      "options": [
-        "Möchten Sie aufstehen?",
-        "Möchten Sie schlafen?",
-        "Können Sie Deutsch?"
-      ],
-      "answer": "Möchten Sie aufstehen?"
-    },
-    {
       "type": "picture_choice",
+      "from_card": "Ich möchte meine Jacke anziehen.",
+      "image": "p-10-07.jpg",
       "speaker": "weber",
       "prompt_de": "Ich möchte meine Jacke anziehen.",
       "prompt_en": "I'd like to put on my jacket.",
@@ -577,7 +632,23 @@
       "answer": "die Jacke"
     },
     {
+      "type": "situation_choice",
+      "from_card": "Möchten Sie aufstehen?",
+      "image": "p-10-06.jpg",
+      "speaker": "weber",
+      "prompt_de": null,
+      "prompt_en": "Ask Frau Weber if she wants to get up.",
+      "options": [
+        "Möchten Sie aufstehen?",
+        "Möchten Sie schlafen?",
+        "Können Sie Deutsch?"
+      ],
+      "answer": "Möchten Sie aufstehen?"
+    },
+    {
       "type": "choose_reply",
+      "from_card": "Das Bett ist nass.",
+      "image": "p-10-08.jpg",
       "speaker": "schmidt",
       "prompt_de": "Das Bett ist nass.",
       "prompt_en": "The bed is wet.",
@@ -590,6 +661,8 @@
     },
     {
       "type": "situation_choice",
+      "from_card": "Das Essen kommt um 12 Uhr.",
+      "image": "p-10-09.jpg",
       "speaker": "yilmaz",
       "prompt_de": null,
       "prompt_en": "Tell Herr Yılmaz: the food comes at 12.",
@@ -599,37 +672,6 @@
         "Das Essen ist 12 Jahre alt."
       ],
       "answer": "Das Essen kommt um 12 Uhr."
-    },
-    {
-      "type": "picture_choice",
-      "speaker": "weber",
-      "prompt_de": "Ich möchte zur Toilette.",
-      "prompt_en": "I'd like to go to the toilet.",
-      "options": [
-        {
-          "german": "die Toilette",
-          "english": "the toilet",
-          "image": "i-toilette.jpg"
-        },
-        {
-          "german": "der Aufzug",
-          "english": "the lift",
-          "image": "i-aufzug.jpg"
-        },
-        {
-          "german": "das Bett",
-          "english": "the bed",
-          "image": "i-bett.jpg"
-        },
-        {
-          "german": "die Cafeteria",
-          "english": "the cafeteria",
-          "image": "i-cafeteria.jpg"
-        }
-      ],
-      "answer": "die Toilette",
-      "feedback_de": "Kommen Sie, ich helfe Ihnen.",
-      "feedback_en": "Come, I'll help you."
     }
   ],
   "images_zip": "level-11-images.zip",
