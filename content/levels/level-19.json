@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "Social worker",
         "label": "Example",
-        "german": "Das ist der Sozialdienst.",
-        "english": "This is the social worker.",
+        "german": "Der Sozialdienst hilft nach der Entlassung.",
+        "english": "The social worker helps after discharge.",
         "note": "Helps patients with care after discharge."
       },
       "article_word": "der Sozialdienst",
@@ -71,8 +71,8 @@
       "back": {
         "meaning_en": "Doctor's clinic (GP)",
         "label": "Example",
-        "german": "Hier ist die Praxis.",
-        "english": "Here is the Doctor's clinic.",
+        "german": "Die Praxis von Dr. Klein ist hier.",
+        "english": "Dr. Klein's practice is here.",
         "note": "„Praxis“ = a doctor's office, e.g. die Hausarztpraxis."
       },
       "article_word": "die Praxis",

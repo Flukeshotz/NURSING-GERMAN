@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "Junior doctor / resident",
         "label": "Example",
-        "german": "Das ist der Assistenzarzt.",
-        "english": "This is the junior doctor.",
+        "german": "Der Assistenzarzt macht die Aufnahme.",
+        "english": "The junior doctor does the admission.",
         "note": null
       },
       "article_word": "der Assistenzarzt / die Assistenzärztin",
@@ -71,8 +71,8 @@
       "back": {
         "meaning_en": "Senior doctor / consultant",
         "label": "Example",
-        "german": "Das ist der Oberarzt.",
-        "english": "This is the senior doctor.",
+        "german": "Die Oberärztin kommt zur Visite.",
+        "english": "The senior doctor comes to the ward round.",
         "note": null
       },
       "article_word": "der Oberarzt / die Oberärztin",
@@ -90,8 +90,8 @@
       "back": {
         "meaning_en": "HOD / chief doctor",
         "label": "Example",
-        "german": "Das ist der Chefarzt.",
-        "english": "This is the hod.",
+        "german": "Der Chefarzt spricht mit dem Patienten.",
+        "english": "The chief doctor talks to the patient.",
         "note": null
       },
       "article_word": "der Chefarzt / die Chefärztin",
@@ -109,8 +109,8 @@
       "back": {
         "meaning_en": "Boss",
         "label": "Example",
-        "german": "Das ist der Chef.",
-        "english": "This is the boss.",
+        "german": "Meine Chefin heißt Frau Braun.",
+        "english": "My boss is called Frau Braun.",
         "note": "Not a cook. „Chef“ means boss."
       },
       "article_word": "der Chef / die Chefin",
@@ -166,8 +166,8 @@
       "back": {
         "meaning_en": "Handover",
         "label": "Example",
-        "german": "Hier ist die Übergabe.",
-        "english": "Here is the Handover.",
+        "german": "Die Übergabe ist um 14 Uhr.",
+        "english": "The handover is at 14:00.",
         "note": "At every change of shift."
       },
       "article_word": "die Übergabe",

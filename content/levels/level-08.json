@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "Ward round",
         "label": "Example",
-        "german": "Hier ist die Visite.",
-        "english": "Here is the Ward round.",
+        "german": "Die Visite ist um 9 Uhr.",
+        "english": "The ward round is at 9 o'clock.",
         "note": null
       },
       "article_word": "die Visite",
@@ -71,8 +71,8 @@
       "back": {
         "meaning_en": "Operation",
         "label": "Example",
-        "german": "Hier ist die Operation.",
-        "english": "Here is the Operation.",
+        "german": "Die Operation ist morgen.",
+        "english": "The operation is tomorrow.",
         "note": "Short: die OP"
       },
       "article_word": "die Operation",

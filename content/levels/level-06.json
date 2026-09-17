@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "Motion (stool)",
         "label": "Example",
-        "german": "Hier ist der Stuhlgang.",
-        "english": "Here is the Motion.",
+        "german": "Hatten Sie heute Stuhlgang?",
+        "english": "Did you have a bowel movement today?",
         "note": "Ask: „Hatten Sie heute Stuhlgang?“ will come at A2. For now: „Stuhlgang? Ja oder nein?“"
       },
       "article_word": "der Stuhlgang",
@@ -71,8 +71,8 @@
       "back": {
         "meaning_en": "Sugar",
         "label": "Example",
-        "german": "Hier ist der Blutzucker.",
-        "english": "Here is the Sugar.",
+        "german": "Der Blutzucker ist 110.",
+        "english": "The blood sugar is 110.",
         "note": "On charts: BZ"
       },
       "article_word": "der Blutzucker",

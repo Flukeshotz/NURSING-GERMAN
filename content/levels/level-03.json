@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "Injection",
         "label": "Example",
-        "german": "Hier ist die Spritze.",
-        "english": "Here is the Injection.",
+        "german": "Ich brauche eine Spritze.",
+        "english": "I need a syringe.",
         "note": null
       },
       "article_word": "die Spritze",
@@ -71,8 +71,8 @@
       "back": {
         "meaning_en": "Cannula / Venflon",
         "label": "Example",
-        "german": "Hier ist die Braunüle.",
-        "english": "Here is the Cannula.",
+        "german": "Die Braunüle ist im Arm.",
+        "english": "The cannula is in the arm.",
         "note": "Germans often use this brand name for any IV cannula."
       },
       "article_word": "die Braunüle",
@@ -90,8 +90,8 @@
       "back": {
         "meaning_en": "Catheter",
         "label": "Example",
-        "german": "Hier ist der Katheter.",
-        "english": "Here is the Catheter.",
+        "german": "Der Patient hat einen Katheter.",
+        "english": "The patient has a catheter.",
         "note": null
       },
       "article_word": "der Katheter",
@@ -109,8 +109,8 @@
       "back": {
         "meaning_en": "Dressing",
         "label": "Example",
-        "german": "Hier ist der Verband.",
-        "english": "Here is the Dressing.",
+        "german": "Ich wechsle den Verband.",
+        "english": "I'm changing the dressing.",
         "note": null
       },
       "article_word": "der Verband",
@@ -128,8 +128,8 @@
       "back": {
         "meaning_en": "Gown / apron",
         "label": "Example",
-        "german": "Hier ist der Kittel.",
-        "english": "Here is the Gown.",
+        "german": "Bitte ziehen Sie den Kittel an.",
+        "english": "Please put on the gown.",
         "note": null
       },
       "article_word": "der Kittel",
@@ -147,8 +147,8 @@
       "back": {
         "meaning_en": "Sharps box",
         "label": "Example",
-        "german": "Hier ist der Abwurfbehälter.",
-        "english": "Here is the Sharps box.",
+        "german": "Die Nadel kommt in den Abwurfbehälter.",
+        "english": "The needle goes into the sharps box.",
         "note": null
       },
       "article_word": "der Abwurfbehälter",
@@ -166,8 +166,8 @@
       "back": {
         "meaning_en": "Bedpan",
         "label": "Example",
-        "german": "Hier ist die Bettpfanne.",
-        "english": "Here is the Bedpan.",
+        "german": "Brauchen Sie die Bettpfanne?",
+        "english": "Do you need the bedpan?",
         "note": null
       },
       "article_word": "die Bettpfanne",
@@ -185,8 +185,8 @@
       "back": {
         "meaning_en": "Urine bag",
         "label": "Example",
-        "german": "Hier ist der Urinbeutel.",
-        "english": "Here is the Urine bag.",
+        "german": "Der Urinbeutel ist voll.",
+        "english": "The urine bag is full.",
         "note": null
       },
       "article_word": "der Urinbeutel",
@@ -204,8 +204,8 @@
       "back": {
         "meaning_en": "Glucometer",
         "label": "Example",
-        "german": "Hier ist das Blutzuckermessgerät.",
-        "english": "Here is the Glucometer.",
+        "german": "Das Blutzuckermessgerät ist im Stationszimmer.",
+        "english": "The glucometer is in the nurses' station.",
         "note": "Short: das BZ-Gerät"
       },
       "article_word": "das Blutzuckermessgerät",
@@ -223,8 +223,8 @@
       "back": {
         "meaning_en": "Stethoscope",
         "label": "Example",
-        "german": "Hier ist das Stethoskop.",
-        "english": "Here is the Stethoscope.",
+        "german": "Der Arzt braucht sein Stethoskop.",
+        "english": "The doctor needs his stethoscope.",
         "note": null
       },
       "article_word": "das Stethoskop",
@@ -242,8 +242,8 @@
       "back": {
         "meaning_en": "Wound",
         "label": "Example",
-        "german": "Hier ist die Wunde.",
-        "english": "Here is the Wound.",
+        "german": "Die Wunde ist sauber.",
+        "english": "The wound is clean.",
         "note": null
       },
       "article_word": "die Wunde",

@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "BP",
         "label": "Example",
-        "german": "Hier ist der Blutdruck.",
-        "english": "Here is the BP.",
+        "german": "Ich messe den Blutdruck.",
+        "english": "I'm measuring the blood pressure.",
         "note": "On charts: RR"
       },
       "article_word": "der Blutdruck",
@@ -71,8 +71,8 @@
       "back": {
         "meaning_en": "Pulse / HR",
         "label": "Example",
-        "german": "Hier ist der Puls.",
-        "english": "Here is the Pulse.",
+        "german": "Der Puls ist 72.",
+        "english": "The pulse is 72.",
         "note": "On charts: P or HF (Herzfrequenz)"
       },
       "article_word": "der Puls",
@@ -90,8 +90,8 @@
       "back": {
         "meaning_en": "Sats / SpO₂",
         "label": "Example",
-        "german": "Hier ist die Sauerstoffsättigung.",
-        "english": "Here is the Sats.",
+        "german": "Die Sauerstoffsättigung ist 97 Prozent.",
+        "english": "The oxygen saturation is 97 percent.",
         "note": "On charts: SpO₂"
       },
       "article_word": "die Sauerstoffsättigung",
@@ -109,8 +109,8 @@
       "back": {
         "meaning_en": "Oxygen",
         "label": "Example",
-        "german": "Hier ist der Sauerstoff.",
-        "english": "Here is the Oxygen.",
+        "german": "Der Patient bekommt Sauerstoff.",
+        "english": "The patient is getting oxygen.",
         "note": "On charts: O₂"
       },
       "article_word": "der Sauerstoff",
@@ -128,8 +128,8 @@
       "back": {
         "meaning_en": "Blood sample",
         "label": "Example",
-        "german": "Hier ist die Blutabnahme.",
-        "english": "Here is the Blood sample.",
+        "german": "Die Blutabnahme ist um 7 Uhr.",
+        "english": "The blood sample is taken at 7 o'clock.",
         "note": null
       },
       "article_word": "die Blutabnahme",
@@ -147,8 +147,8 @@
       "back": {
         "meaning_en": "Pulse oximeter",
         "label": "Example",
-        "german": "Hier ist das Pulsoximeter.",
-        "english": "Here is the Pulse oximeter.",
+        "german": "Das Pulsoximeter ist am Finger.",
+        "english": "The pulse oximeter is on the finger.",
         "note": "Measures SpO₂"
       },
       "article_word": "das Pulsoximeter",
@@ -166,8 +166,8 @@
       "back": {
         "meaning_en": "Weight",
         "label": "Example",
-        "german": "Hier ist das Gewicht.",
-        "english": "Here is the Weight.",
+        "german": "Wie ist Ihr Gewicht?",
+        "english": "What is your weight?",
         "note": "in kg"
       },
       "article_word": "das Gewicht",

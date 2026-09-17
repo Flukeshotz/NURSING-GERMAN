@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "Tab.",
         "label": "Example",
-        "german": "Hier ist die Tablette.",
-        "english": "Here is the Tab..",
+        "german": "Bitte nehmen Sie die Tablette.",
+        "english": "Please take the tablet.",
         "note": "On plans: Tbl."
       },
       "article_word": "die Tablette",
@@ -147,8 +147,8 @@
       "back": {
         "meaning_en": "Drip",
         "label": "Example",
-        "german": "Hier ist die Infusion.",
-        "english": "Here is the Drip.",
+        "german": "Die Infusion ist fertig.",
+        "english": "The drip is finished.",
         "note": null
       },
       "article_word": "die Infusion",
@@ -166,8 +166,8 @@
       "back": {
         "meaning_en": "NS (normal saline)",
         "label": "Example",
-        "german": "Hier ist die Kochsalzlösung.",
-        "english": "Here is the NS.",
+        "german": "Ich brauche eine Kochsalzlösung.",
+        "english": "I need a saline solution.",
         "note": "On bags: NaCl 0,9 %"
       },
       "article_word": "die Kochsalzlösung",
@@ -223,8 +223,8 @@
       "back": {
         "meaning_en": "Prescription",
         "label": "Example",
-        "german": "Hier ist das Rezept.",
-        "english": "Here is the Prescription.",
+        "german": "Der Arzt schreibt ein Rezept.",
+        "english": "The doctor writes a prescription.",
         "note": "„Rezept“ = prescription (and also a cooking recipe)."
       },
       "article_word": "das Rezept",
@@ -242,8 +242,8 @@
       "back": {
         "meaning_en": "Hospital diet",
         "label": "Example",
-        "german": "Hier ist die Kost.",
-        "english": "Here is the Hospital diet.",
+        "german": "Frau Weber bekommt Diabeteskost.",
+        "english": "Frau Weber gets a diabetic diet.",
         "note": "Vollkost, Schonkost, Diabeteskost. „Kost“ is not „cost“!"
       },
       "article_word": "die Kost",
@@ -261,8 +261,8 @@
       "back": {
         "meaning_en": "Poison",
         "label": "Example",
-        "german": "Hier ist das Gift.",
-        "english": "Here is the Poison.",
+        "german": "Das ist Gift! Nicht trinken!",
+        "english": "That is poison! Don't drink it!",
         "note": "Not a present! „Gift“ means poison."
       },
       "article_word": "das Gift",
@@ -280,8 +280,8 @@
       "back": {
         "meaning_en": "Anaesthesia",
         "label": "Example",
-        "german": "Hier ist die Narkose.",
-        "english": "Here is the Anaesthesia.",
+        "german": "Der Patient bekommt eine Narkose.",
+        "english": "The patient is getting anaesthesia.",
         "note": null
       },
       "article_word": "die Narkose",

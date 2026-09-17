@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "Admission",
         "label": "Example",
-        "german": "Hier ist die Aufnahme.",
-        "english": "Here is the Admission.",
+        "german": "Die Aufnahme ist um 11 Uhr.",
+        "english": "The admission is at 11 o'clock.",
         "note": null
       },
       "article_word": "die Aufnahme",
@@ -71,8 +71,8 @@
       "back": {
         "meaning_en": "ECG",
         "label": "Example",
-        "german": "Hier ist das EKG.",
-        "english": "Here is the ECG.",
+        "german": "Wir machen jetzt ein EKG.",
+        "english": "We're doing an ECG now.",
         "note": "Say it: „E-K-G“ (eh-kah-geh)"
       },
       "article_word": "das EKG",
@@ -90,8 +90,8 @@
       "back": {
         "meaning_en": "X-ray",
         "label": "Example",
-        "german": "Hier ist das Röntgen.",
-        "english": "Here is the X-ray.",
+        "german": "Das Röntgen ist im Erdgeschoss.",
+        "english": "X-ray is on the ground floor.",
         "note": "„Röntgen Thorax“ = chest X-ray"
       },
       "article_word": "das Röntgen",
@@ -109,8 +109,8 @@
       "back": {
         "meaning_en": "CT scan",
         "label": "Example",
-        "german": "Hier ist das CT.",
-        "english": "Here is the CT scan.",
+        "german": "Herr Yılmaz hat heute ein CT.",
+        "english": "Herr Yılmaz has a CT scan today.",
         "note": "Say it: „C-T“ (tseh-teh)"
       },
       "article_word": "das CT",
@@ -128,8 +128,8 @@
       "back": {
         "meaning_en": "MRI",
         "label": "Example",
-        "german": "Hier ist das MRT.",
-        "english": "Here is the MRI.",
+        "german": "Das MRT dauert 30 Minuten.",
+        "english": "The MRI takes 30 minutes.",
         "note": "Say it: „M-R-T“"
       },
       "article_word": "das MRT",

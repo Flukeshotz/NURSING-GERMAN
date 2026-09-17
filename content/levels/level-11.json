@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "Ward aide / nursing assistant",
         "label": "Example",
-        "german": "Das ist der Pflegehelfer.",
-        "english": "This is the ward aide.",
+        "german": "Der Pflegehelfer bringt das Essen.",
+        "english": "The ward aide brings the food.",
         "note": null
       },
       "article_word": "der Pflegehelfer / die Pflegehelferin",
@@ -71,8 +71,8 @@
       "back": {
         "meaning_en": "Housekeeping / cleaning staff",
         "label": "Example",
-        "german": "Das ist die Reinigungskraft.",
-        "english": "This is the housekeeping.",
+        "german": "Die Reinigungskraft macht das Zimmer sauber.",
+        "english": "The cleaner cleans the room.",
         "note": null
       },
       "article_word": "die Reinigungskraft",
@@ -90,8 +90,8 @@
       "back": {
         "meaning_en": "Bedsore",
         "label": "Example",
-        "german": "Hier ist der Dekubitus.",
-        "english": "Here is the Bedsore.",
+        "german": "Der Patient hat einen Dekubitus.",
+        "english": "The patient has a bedsore.",
         "note": "Turn the patient every 2 hours to prevent it."
       },
       "article_word": "der Dekubitus",

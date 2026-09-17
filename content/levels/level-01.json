@@ -49,8 +49,8 @@
       "back": {
         "meaning_en": "Sister",
         "label": "Example",
-        "german": "Das ist die Pflegekraft.",
-        "english": "This is the nurse.",
+        "german": "Ich bin Ihre Pflegekraft.",
+        "english": "I am your nurse.",
         "note": "Patients may still call you „Schwester“. Introduce yourself with your name."
       },
       "article_word": "die Pflegekraft",
@@ -68,8 +68,8 @@
       "back": {
         "meaning_en": "Staff nurse",
         "label": "Example",
-        "german": "Das ist die Pflegefachkraft.",
-        "english": "This is the staff nurse.",
+        "german": "Lena ist Pflegefachkraft.",
+        "english": "Lena is a staff nurse.",
         "note": "die Pflegefachfrau / der Pflegefachmann"
       },
       "article_word": "die Pflegefachkraft",
@@ -87,8 +87,8 @@
       "back": {
         "meaning_en": "Ward in-charge",
         "label": "Example",
-        "german": "Das ist die Stationsleitung.",
-        "english": "This is the ward in-charge.",
+        "german": "Die Stationsleitung macht den Dienstplan.",
+        "english": "The ward in-charge makes the duty roster.",
         "note": "Your manager on the ward."
       },
       "article_word": "die Stationsleitung",
@@ -106,8 +106,8 @@
       "back": {
         "meaning_en": "Nursing student",
         "label": "Example",
-        "german": "Das ist der Azubi.",
-        "english": "This is the nursing student.",
+        "german": "Der Azubi lernt auf Station 3.",
+        "english": "The nursing student is learning on ward 3.",
         "note": "Azubi = a trainee in Ausbildung (training)."
       },
       "article_word": "der Azubi / die Azubi",
@@ -125,8 +125,8 @@
       "back": {
         "meaning_en": "Duty",
         "label": "Example",
-        "german": "Hier ist der Dienst.",
-        "english": "Here is the Duty.",
+        "german": "Mein Dienst beginnt um 6 Uhr.",
+        "english": "My shift starts at 6 o'clock.",
         "note": "Frühdienst · Spätdienst · Nachtdienst"
       },
       "article_word": "der Dienst",

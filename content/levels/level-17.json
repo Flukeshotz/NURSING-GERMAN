@@ -52,8 +52,8 @@
       "back": {
         "meaning_en": "Hand sanitiser",
         "label": "Example",
-        "german": "Hier ist das Desinfektionsmittel.",
-        "english": "Here is the Hand sanitiser.",
+        "german": "Das Desinfektionsmittel ist an der Tür.",
+        "english": "The hand sanitiser is at the door.",
         "note": null
       },
       "article_word": "das Desinfektionsmittel",
@@ -71,8 +71,8 @@
       "back": {
         "meaning_en": "Isolation",
         "label": "Example",
-        "german": "Hier ist die Isolation.",
-        "english": "Here is the Isolation.",
+        "german": "Zimmer 4 ist Isolation.",
+        "english": "Room 4 is isolation.",
         "note": null
       },
       "article_word": "die Isolation",
