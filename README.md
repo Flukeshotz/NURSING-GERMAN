@@ -3,7 +3,7 @@
 A nursing-only German practice mode for the Skillcase app, for nurses moving to Germany. It covers CEFR A1 only.
 
 **Live prototype:** https://nursing-german.vercel.app
-**Product spec:** [`docs/PRD.md`](docs/PRD.md) · **Final audit:** [`docs/AUDIT.md`](docs/AUDIT.md)
+**Developer PRD:** [`docs/PRD.md`](docs/PRD.md) · **Complete audit:** [`docs/AUDIT.md`](docs/AUDIT.md)
 
 ## How it works
 
@@ -26,8 +26,8 @@ German Practice → **Nursing German** → 21 levels unlocked in order → each 
 │       └── …               (21 levels)
 ├── tools/                  Picture generation and content export (see tools/README.md)
 └── docs/
-    ├── PRD.md              Product requirements
-    └── AUDIT.md            Final audit results and open items
+    ├── PRD.md              Developer PRD: screens, logic, data model, API, QA plan
+    └── AUDIT.md            Complete audit: tests, findings, fixes
 ```
 
 ## For developers
