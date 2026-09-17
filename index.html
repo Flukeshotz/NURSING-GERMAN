@@ -195,6 +195,14 @@
 .qc-img img.pic{position:absolute;inset:0;width:100%;height:170px;object-fit:cover}
 .qc-body{position:relative;z-index:1;background:#fff}
 .qcard .qc-img .qc-timer{position:absolute;top:10px;right:10px;left:auto;width:44px;height:44px;z-index:2}
+/* whole picture always visible: contained image over a soft blurred fill, same frame everywhere */
+.picbox{position:absolute;inset:0;display:block;overflow:hidden;background:#eef3fa}
+.picbox img.pic-bg{position:absolute;inset:-12%;width:124%;height:124%;object-fit:cover;filter:blur(18px) saturate(1.05);opacity:.55;pointer-events:none}
+.picbox img.pic,
+.f-img .picbox img.pic,.qc-img .picbox img.pic,.q-thumb .picbox img.pic,.f-img.em .picbox img.pic{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block}
+.f-img,.qc-img{position:relative}
+.qc-img{height:200px;min-height:200px;max-height:200px}
+.face.fr .f-img,.qcard .qc-img{width:100%;align-self:stretch;flex:none}
 </style>
 <title>Klingel! Station 3</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1584,7 +1592,7 @@ function vLevels(el){
   const prog = i => { const s=LP.lv[i]; const total=levelDeck(i).length; return {done:s&&s.done?total:Math.min(s?s.card:0,total), total, complete:!!(s&&s.done)}; };
   el.innerHTML=`<div class="scroll lv-page">
     <div class="backrow"><button class="backlink" id="lv-back">${ICON.back}<span>Back</span></button><span class="backrow-t">Nursing German</span></div>
-    <div class="lv-hero"><img src="images/h-nursing-german.jpg?v=20260917e" alt=""><span></span></div>
+    <div class="lv-hero"><img src="images/h-nursing-german.jpg?v=20260917f" alt=""><span></span></div>
     <div class="lv-info">
       <div class="lv-level"><h1>A1</h1><span>Nursing German</span></div>
       <p>German for your first weeks on the ward. Levels open one after another.</p>
@@ -1644,8 +1652,8 @@ function backParts(c){
   if(c.key) return {label:"Key word", line:plain(c.key.g), sub:c.key.en||"", say:plain(c.key.g), note:""};
   return {label:"", line:"", sub:"", say:"", note:""};
 }
-const IMGV="20260917e";
-function picFor(id, fallback){ return (window.IMGSET && IMGSET.has(id)) ? `<img class="pic" src="images/${id}.jpg?v=${IMGV}" alt="" decoding="async" draggable="false" onerror="this.style.visibility='hidden'">` : fallback; }
+const IMGV="20260917f";
+function picFor(id, fallback){ return (window.IMGSET && IMGSET.has(id)) ? `<span class="picbox"><img class="pic-bg" src="images/${id}.jpg?v=${IMGV}" alt="" aria-hidden="true" draggable="false"><img class="pic" src="images/${id}.jpg?v=${IMGV}" alt="" decoding="async" draggable="false" onerror="this.parentNode.style.visibility='hidden'"></span>` : fallback; }
 const slugId = s => s.toLowerCase().replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue").replace(/ß/g,"ss").replace("·pl","").replace(/^(der|die|das|sich) /,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function cardFaces(c){
   let top, word;
