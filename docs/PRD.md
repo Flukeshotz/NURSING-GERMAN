@@ -49,7 +49,7 @@ Give A1 learners a **nursing-only practice mode** that works exactly like the pr
 - 21 levels unlocked one after another.
 - Flashcards, then a quick check every 20 cards, then a level quiz.
 - Audio for every German line.
-- Pictures for every word, phrase and emergency card, and every picture answer.
+- A realistic photo on every flashcard, and every picture answer.
 
 ### Out of scope (V1)
 - A2, B1, B2 nursing content
@@ -89,6 +89,7 @@ Same component as the A1 chapter list (`ChapterSelectTemplate`):
 ### 6.3 Flashcards
 Same component as A1 Flashcards (`A1FlashcardDeck` / `A1FlashcardCard`):
 - A stacked deck of 3 cards (purple, light blue, white, slightly rotated)
+- **Fixed positions on every card:** photo on the top half; German text centred in a fixed 2-line slot; speaker button and "Tap to flip" always in the same place
 - **Front:** picture on the top half; German text, a speaker button and "Tap to flip" on the bottom half
 - **Back (gold):** always the same layout:
   1. `Meaning` (English)
@@ -101,19 +102,20 @@ Same component as A1 Flashcards (`A1FlashcardDeck` / `A1FlashcardCard`):
 | Card type | Front | Back label |
 |---|---|---|
 | word | picture + word with article colour | Example (*Hier ist die Station.*) |
-| pattern | scene + sentence pattern with the swappable word highlighted | Tip |
+| pattern | photo + sentence pattern with the swappable word highlighted | Tip |
 | phrase | scene + what the patient, colleague or doctor says | You answer / You note down |
 | phrase (you speak first) | scene + what you say | When (the situation) |
-| document | preview of the real document | Key words |
-| spelling | letters of a name | Letters (how each letter sounds) |
+| document | photo of the document in use | Key words |
+| spelling | photo + letters of a name | Letters (how each letter sounds) |
 | emergency | scene + phrase | Say it |
 
 ### 6.4 Quick check
 After every 20 cards: 5 multiple-choice meaning questions on cards already seen. No pass mark; it continues automatically.
 
 ### 6.5 Level quiz
-- Drawn from the level's `quiz_pool`: 3 word questions, 8 ward situations, 2 questions per document, and spelling questions if the level has them.
-- Emergency level: 10 random items from the 25-item drill, **8 seconds each**.
+- **Every question is built from a flashcard of the same level, with the same picture and the same German.** Nothing is asked that the level did not teach.
+- Drawn from the level's `quiz_pool`: 4 word questions (picture → German, German → meaning), 8 phrase questions (card photo + what the person says → the right reply), 2 questions per document, and spelling questions if the level has them.
+- Emergency level: 10 emergency cards as photo → "What do you say?", **8 seconds each**.
 - Flow per question: select → **Check** → result card (green "Richtig!" / red "Incorrect!").
   - Wrong answers can be retried; only the first attempt counts toward the score.
   - True/false and drill questions move on straight away.
@@ -134,7 +136,7 @@ Coins use the existing economy: +10 per first-try correct quiz answer, +20 for p
 | Ward situations | 20 (200 exchanges, 60 sentence patterns) |
 | Ward documents | 10 |
 | Emergency phrases / drill situations | 25 / 25 |
-| Pictures | 368 |
+| Pictures | 382 (one per word, phrase, pattern scene, document, spelling and emergency card, plus picture answers) |
 
 ### 7.2 Levels
 
@@ -180,7 +182,7 @@ Coins use the existing economy: +10 per first-try correct quiz answer, +20 for p
 
 | | Prototype | Production |
 |---|---|---|
-| Pictures | gpt-image-1-mini, soft 3D style, no text (`tools/generate_images.py`) | Review every picture; replace any that don't show exactly the card's meaning |
+| Pictures | gpt-image-1-mini, **realistic healthcare-photo style**, adults only, no text (`tools/generate_images.py`) | Review every picture; replace any that don't show exactly the card's meaning |
 | Audio | Browser text-to-speech | Pre-generated neural TTS (e.g. Azure Speech, de-DE) with one voice per character: older woman, older man, colleague, doctor, visitor, learner |
 
 ## 10. Analytics events
@@ -199,6 +201,7 @@ Coins use the existing economy: +10 per first-try correct quiz answer, +20 for p
 
 | Risk | Mitigation |
 |---|---|
+| Cards look inconsistent | One fixed card layout: photo 50%, text slot, speaker and hint in fixed positions; one fixed back layout |
 | A generated picture shows the wrong thing | Human review of all 368 pictures before launch; regenerate from the manifest |
 | Robotic browser audio | Replace with recorded or neural TTS files before launch |
 | 21 levels feels long | Levels are 13–25 cards; show "Level X of 21" and the next level on every results screen |
