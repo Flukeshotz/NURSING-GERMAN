@@ -503,12 +503,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Blutdruck",
-      "instruction": "What is this in German?",
-      "image": "w-bp.jpg",
-      "image_caption": "BP",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"BP\" in German?",
+      "supporting_image": "w-bp.jpg",
       "options": [
         "der Blutdruck",
         "der Puls",
@@ -518,12 +516,10 @@
       "answer": "der Blutdruck"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Blutdruck",
-      "instruction": "What does it mean?",
-      "image": "w-bp.jpg",
-      "image_caption": "der Blutdruck",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Blutdruck\" mean?",
+      "supporting_image": "w-bp.jpg",
       "german": "der Blutdruck",
       "options": [
         "BP",
@@ -534,12 +530,10 @@
       "answer": "BP"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Puls",
-      "instruction": "What is this in German?",
-      "image": "w-pulse-hr.jpg",
-      "image_caption": "Pulse / HR",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Pulse / HR\" in German?",
+      "supporting_image": "w-pulse-hr.jpg",
       "options": [
         "der Puls",
         "der Blutdruck",
@@ -549,12 +543,10 @@
       "answer": "der Puls"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Puls",
-      "instruction": "What does it mean?",
-      "image": "w-pulse-hr.jpg",
-      "image_caption": "der Puls",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Puls\" mean?",
+      "supporting_image": "w-pulse-hr.jpg",
       "german": "der Puls",
       "options": [
         "Pulse / HR",
@@ -565,12 +557,10 @@
       "answer": "Pulse / HR"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Sauerstoffsättigung",
-      "instruction": "What is this in German?",
-      "image": "w-sats-spo.jpg",
-      "image_caption": "Sats / SpO₂",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Sats / SpO₂\" in German?",
+      "supporting_image": "w-sats-spo.jpg",
       "options": [
         "die Sauerstoffsättigung",
         "der Blutdruck",
@@ -580,12 +570,10 @@
       "answer": "die Sauerstoffsättigung"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Sauerstoffsättigung",
-      "instruction": "What does it mean?",
-      "image": "w-sats-spo.jpg",
-      "image_caption": "die Sauerstoffsättigung",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Sauerstoffsättigung\" mean?",
+      "supporting_image": "w-sats-spo.jpg",
       "german": "die Sauerstoffsättigung",
       "options": [
         "Sats / SpO₂",
@@ -596,12 +584,10 @@
       "answer": "Sats / SpO₂"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Sauerstoff",
-      "instruction": "What is this in German?",
-      "image": "w-oxygen.jpg",
-      "image_caption": "Oxygen",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Oxygen\" in German?",
+      "supporting_image": "w-oxygen.jpg",
       "options": [
         "der Sauerstoff",
         "der Blutdruck",
@@ -611,12 +597,10 @@
       "answer": "der Sauerstoff"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Sauerstoff",
-      "instruction": "What does it mean?",
-      "image": "w-oxygen.jpg",
-      "image_caption": "der Sauerstoff",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Sauerstoff\" mean?",
+      "supporting_image": "w-oxygen.jpg",
       "german": "der Sauerstoff",
       "options": [
         "Oxygen",
@@ -627,12 +611,10 @@
       "answer": "Oxygen"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Blutabnahme",
-      "instruction": "What is this in German?",
-      "image": "w-blood-sample.jpg",
-      "image_caption": "Blood sample",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Blood sample\" in German?",
+      "supporting_image": "w-blood-sample.jpg",
       "options": [
         "die Blutabnahme",
         "der Blutdruck",
@@ -642,12 +624,10 @@
       "answer": "die Blutabnahme"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Blutabnahme",
-      "instruction": "What does it mean?",
-      "image": "w-blood-sample.jpg",
-      "image_caption": "die Blutabnahme",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Blutabnahme\" mean?",
+      "supporting_image": "w-blood-sample.jpg",
       "german": "die Blutabnahme",
       "options": [
         "Blood sample",
@@ -658,12 +638,10 @@
       "answer": "Blood sample"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das Pulsoximeter",
-      "instruction": "What is this in German?",
-      "image": "w-pulse-oximeter.jpg",
-      "image_caption": "Pulse oximeter",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Pulse oximeter\" in German?",
+      "supporting_image": "w-pulse-oximeter.jpg",
       "options": [
         "das Pulsoximeter",
         "der Blutdruck",
@@ -673,12 +651,10 @@
       "answer": "das Pulsoximeter"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das Pulsoximeter",
-      "instruction": "What does it mean?",
-      "image": "w-pulse-oximeter.jpg",
-      "image_caption": "das Pulsoximeter",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das Pulsoximeter\" mean?",
+      "supporting_image": "w-pulse-oximeter.jpg",
       "german": "das Pulsoximeter",
       "options": [
         "Pulse oximeter",
@@ -689,12 +665,10 @@
       "answer": "Pulse oximeter"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das Gewicht",
-      "instruction": "What is this in German?",
-      "image": "w-weight.jpg",
-      "image_caption": "Weight",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Weight\" in German?",
+      "supporting_image": "w-weight.jpg",
       "options": [
         "das Gewicht",
         "der Blutdruck",
@@ -704,12 +678,10 @@
       "answer": "das Gewicht"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das Gewicht",
-      "instruction": "What does it mean?",
-      "image": "w-weight.jpg",
-      "image_caption": "das Gewicht",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das Gewicht\" mean?",
+      "supporting_image": "w-weight.jpg",
       "german": "das Gewicht",
       "options": [
         "Weight",
@@ -722,7 +694,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Blutdruck 130 zu 85.",
-      "image": "p-06-01.jpg",
+      "supporting_image": "p-06-01.jpg",
       "speaker": "lena",
       "prompt_de": "Blutdruck 130 zu 85.",
       "prompt_en": "Blood pressure:",
@@ -737,7 +709,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Puls 72.",
-      "image": "p-06-02.jpg",
+      "supporting_image": "p-06-02.jpg",
       "speaker": "lena",
       "prompt_de": "Puls 72.",
       "prompt_en": "Pulse:",
@@ -752,7 +724,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Die Temperatur ist 38,5 Grad.",
-      "image": "p-06-03.jpg",
+      "supporting_image": "p-06-03.jpg",
       "speaker": "braun",
       "prompt_de": "Die Temperatur ist 38,5 Grad.",
       "prompt_en": "Temperature:",
@@ -767,7 +739,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Der Blutzucker ist 110.",
-      "image": "p-06-07.jpg",
+      "supporting_image": "p-06-07.jpg",
       "speaker": "lena",
       "prompt_de": "Der Blutzucker ist 110.",
       "prompt_en": "Blood sugar:",
@@ -782,7 +754,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Zimmer 14, bitte.",
-      "image": "p-06-04.jpg",
+      "supporting_image": "p-06-04.jpg",
       "speaker": "lena",
       "prompt_de": "Zimmer 14, bitte.",
       "prompt_en": "Which room?",
@@ -797,7 +769,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Ich wiege 64 Kilo.",
-      "image": "p-06-05.jpg",
+      "supporting_image": "p-06-05.jpg",
       "speaker": "weber",
       "prompt_de": "Ich wiege 64 Kilo.",
       "prompt_en": "Her weight:",
@@ -812,7 +784,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Frau Weber ist 82 Jahre alt.",
-      "image": "p-06-06.jpg",
+      "supporting_image": "p-06-06.jpg",
       "speaker": "braun",
       "prompt_de": "Frau Weber ist 82 Jahre alt.",
       "prompt_en": "Her age:",
@@ -827,7 +799,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Ich bin 1,80 Meter groß.",
-      "image": "p-06-09.jpg",
+      "supporting_image": "p-06-09.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich bin 1,80 Meter groß.",
       "prompt_en": "His height:",
@@ -842,7 +814,7 @@
     {
       "type": "situation_choice",
       "from_card": "Der Puls ist sechsundneunzig.",
-      "image": "p-06-08.jpg",
+      "supporting_image": "p-06-08.jpg",
       "speaker": "braun",
       "prompt_de": null,
       "prompt_en": "Read the monitor to Dr. Braun: pulse 96.",
@@ -856,7 +828,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Bitte messen Sie um 16 Uhr den Blutdruck.",
-      "image": "p-06-10.jpg",
+      "supporting_image": "p-06-10.jpg",
       "speaker": "braun",
       "prompt_de": "Bitte messen Sie um 16 Uhr den Blutdruck.",
       "prompt_en": "When do you measure?",
@@ -871,7 +843,7 @@
     {
       "type": "document_question",
       "from_card": "Vitalzeichen",
-      "image": "d-vitals.jpg",
+      "supporting_image": "d-vitals.jpg",
       "document": "Vital signs chart",
       "document_html": "<h4>VITALZEICHEN</h4><div class=\"dmeta\">Schmidt, Klaus · Zimmer 2 · Frühdienst</div>\n   <div class=\"doc-wrap\"><table><tr><th>Uhrzeit</th><th>RR</th><th>P</th><th>T</th><th>BZ</th></tr>\n   <tr><td>07:00</td><td>128/82</td><td>74</td><td>36,8</td><td>104</td></tr>\n   <tr><td>11:00</td><td class=\"hi\">165/98</td><td>80</td><td>37,0</td><td>118</td></tr></table></div>",
       "question_en": "What does „RR“ mean on this chart?",
@@ -885,7 +857,7 @@
     {
       "type": "document_question",
       "from_card": "Vitalzeichen",
-      "image": "d-vitals.jpg",
+      "supporting_image": "d-vitals.jpg",
       "document": "Vital signs chart",
       "document_html": "<h4>VITALZEICHEN</h4><div class=\"dmeta\">Schmidt, Klaus · Zimmer 2 · Frühdienst</div>\n   <div class=\"doc-wrap\"><table><tr><th>Uhrzeit</th><th>RR</th><th>P</th><th>T</th><th>BZ</th></tr>\n   <tr><td>07:00</td><td>128/82</td><td>74</td><td>36,8</td><td>104</td></tr>\n   <tr><td>11:00</td><td class=\"hi\">165/98</td><td>80</td><td>37,0</td><td>118</td></tr></table></div>",
       "question_en": "Which value at 11:00 is too high?",
@@ -899,7 +871,7 @@
     {
       "type": "document_question",
       "from_card": "Vitalzeichen",
-      "image": "d-vitals.jpg",
+      "supporting_image": "d-vitals.jpg",
       "document": "Vital signs chart",
       "document_html": "<h4>VITALZEICHEN</h4><div class=\"dmeta\">Schmidt, Klaus · Zimmer 2 · Frühdienst</div>\n   <div class=\"doc-wrap\"><table><tr><th>Uhrzeit</th><th>RR</th><th>P</th><th>T</th><th>BZ</th></tr>\n   <tr><td>07:00</td><td>128/82</td><td>74</td><td>36,8</td><td>104</td></tr>\n   <tr><td>11:00</td><td class=\"hi\">165/98</td><td>80</td><td>37,0</td><td>118</td></tr></table></div>",
       "question_en": "What was his temperature at 07:00?",

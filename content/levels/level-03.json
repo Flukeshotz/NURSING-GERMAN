@@ -515,12 +515,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Spritze",
-      "instruction": "What is this in German?",
-      "image": "w-injection.jpg",
-      "image_caption": "Injection",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Injection\" in German?",
+      "supporting_image": "w-injection.jpg",
       "options": [
         "die Spritze",
         "die Braunüle",
@@ -530,12 +528,10 @@
       "answer": "die Spritze"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Spritze",
-      "instruction": "What does it mean?",
-      "image": "w-injection.jpg",
-      "image_caption": "die Spritze",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Spritze\" mean?",
+      "supporting_image": "w-injection.jpg",
       "german": "die Spritze",
       "options": [
         "Injection",
@@ -546,12 +542,10 @@
       "answer": "Injection"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Braunüle",
-      "instruction": "What is this in German?",
-      "image": "w-cannula-venflon.jpg",
-      "image_caption": "Cannula / Venflon",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Cannula / Venflon\" in German?",
+      "supporting_image": "w-cannula-venflon.jpg",
       "options": [
         "die Braunüle",
         "die Spritze",
@@ -561,12 +555,10 @@
       "answer": "die Braunüle"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Braunüle",
-      "instruction": "What does it mean?",
-      "image": "w-cannula-venflon.jpg",
-      "image_caption": "die Braunüle",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Braunüle\" mean?",
+      "supporting_image": "w-cannula-venflon.jpg",
       "german": "die Braunüle",
       "options": [
         "Cannula / Venflon",
@@ -577,12 +569,10 @@
       "answer": "Cannula / Venflon"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Katheter",
-      "instruction": "What is this in German?",
-      "image": "w-catheter.jpg",
-      "image_caption": "Catheter",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Catheter\" in German?",
+      "supporting_image": "w-catheter.jpg",
       "options": [
         "der Katheter",
         "die Spritze",
@@ -592,12 +582,10 @@
       "answer": "der Katheter"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Katheter",
-      "instruction": "What does it mean?",
-      "image": "w-catheter.jpg",
-      "image_caption": "der Katheter",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Katheter\" mean?",
+      "supporting_image": "w-catheter.jpg",
       "german": "der Katheter",
       "options": [
         "Catheter",
@@ -608,12 +596,10 @@
       "answer": "Catheter"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Verband",
-      "instruction": "What is this in German?",
-      "image": "w-dressing.jpg",
-      "image_caption": "Dressing",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Dressing\" in German?",
+      "supporting_image": "w-dressing.jpg",
       "options": [
         "der Verband",
         "die Spritze",
@@ -623,12 +609,10 @@
       "answer": "der Verband"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Verband",
-      "instruction": "What does it mean?",
-      "image": "w-dressing.jpg",
-      "image_caption": "der Verband",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Verband\" mean?",
+      "supporting_image": "w-dressing.jpg",
       "german": "der Verband",
       "options": [
         "Dressing",
@@ -639,12 +623,10 @@
       "answer": "Dressing"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Kittel",
-      "instruction": "What is this in German?",
-      "image": "w-gown-apron.jpg",
-      "image_caption": "Gown / apron",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Gown / apron\" in German?",
+      "supporting_image": "w-gown-apron.jpg",
       "options": [
         "der Kittel",
         "die Spritze",
@@ -654,12 +636,10 @@
       "answer": "der Kittel"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Kittel",
-      "instruction": "What does it mean?",
-      "image": "w-gown-apron.jpg",
-      "image_caption": "der Kittel",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Kittel\" mean?",
+      "supporting_image": "w-gown-apron.jpg",
       "german": "der Kittel",
       "options": [
         "Gown / apron",
@@ -670,12 +650,10 @@
       "answer": "Gown / apron"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Abwurfbehälter",
-      "instruction": "What is this in German?",
-      "image": "w-sharps-box.jpg",
-      "image_caption": "Sharps box",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Sharps box\" in German?",
+      "supporting_image": "w-sharps-box.jpg",
       "options": [
         "der Abwurfbehälter",
         "die Spritze",
@@ -685,12 +663,10 @@
       "answer": "der Abwurfbehälter"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Abwurfbehälter",
-      "instruction": "What does it mean?",
-      "image": "w-sharps-box.jpg",
-      "image_caption": "der Abwurfbehälter",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Abwurfbehälter\" mean?",
+      "supporting_image": "w-sharps-box.jpg",
       "german": "der Abwurfbehälter",
       "options": [
         "Sharps box",
@@ -701,12 +677,10 @@
       "answer": "Sharps box"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Bettpfanne",
-      "instruction": "What is this in German?",
-      "image": "w-bedpan.jpg",
-      "image_caption": "Bedpan",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Bedpan\" in German?",
+      "supporting_image": "w-bedpan.jpg",
       "options": [
         "die Bettpfanne",
         "die Spritze",
@@ -716,12 +690,10 @@
       "answer": "die Bettpfanne"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Bettpfanne",
-      "instruction": "What does it mean?",
-      "image": "w-bedpan.jpg",
-      "image_caption": "die Bettpfanne",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Bettpfanne\" mean?",
+      "supporting_image": "w-bedpan.jpg",
       "german": "die Bettpfanne",
       "options": [
         "Bedpan",
@@ -732,12 +704,10 @@
       "answer": "Bedpan"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Urinbeutel",
-      "instruction": "What is this in German?",
-      "image": "w-urine-bag.jpg",
-      "image_caption": "Urine bag",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Urine bag\" in German?",
+      "supporting_image": "w-urine-bag.jpg",
       "options": [
         "der Urinbeutel",
         "die Spritze",
@@ -747,12 +717,10 @@
       "answer": "der Urinbeutel"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Urinbeutel",
-      "instruction": "What does it mean?",
-      "image": "w-urine-bag.jpg",
-      "image_caption": "der Urinbeutel",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Urinbeutel\" mean?",
+      "supporting_image": "w-urine-bag.jpg",
       "german": "der Urinbeutel",
       "options": [
         "Urine bag",
@@ -763,12 +731,10 @@
       "answer": "Urine bag"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das Blutzuckermessgerät",
-      "instruction": "What is this in German?",
-      "image": "w-glucometer.jpg",
-      "image_caption": "Glucometer",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Glucometer\" in German?",
+      "supporting_image": "w-glucometer.jpg",
       "options": [
         "das Blutzuckermessgerät",
         "die Spritze",
@@ -778,12 +744,10 @@
       "answer": "das Blutzuckermessgerät"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das Blutzuckermessgerät",
-      "instruction": "What does it mean?",
-      "image": "w-glucometer.jpg",
-      "image_caption": "das Blutzuckermessgerät",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das Blutzuckermessgerät\" mean?",
+      "supporting_image": "w-glucometer.jpg",
       "german": "das Blutzuckermessgerät",
       "options": [
         "Glucometer",
@@ -794,12 +758,10 @@
       "answer": "Glucometer"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das Stethoskop",
-      "instruction": "What is this in German?",
-      "image": "w-stethoscope.jpg",
-      "image_caption": "Stethoscope",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Stethoscope\" in German?",
+      "supporting_image": "w-stethoscope.jpg",
       "options": [
         "das Stethoskop",
         "die Spritze",
@@ -809,12 +771,10 @@
       "answer": "das Stethoskop"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das Stethoskop",
-      "instruction": "What does it mean?",
-      "image": "w-stethoscope.jpg",
-      "image_caption": "das Stethoskop",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das Stethoskop\" mean?",
+      "supporting_image": "w-stethoscope.jpg",
       "german": "das Stethoskop",
       "options": [
         "Stethoscope",
@@ -825,12 +785,10 @@
       "answer": "Stethoscope"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Wunde",
-      "instruction": "What is this in German?",
-      "image": "w-wound.jpg",
-      "image_caption": "Wound",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Wound\" in German?",
+      "supporting_image": "w-wound.jpg",
       "options": [
         "die Wunde",
         "die Spritze",
@@ -840,12 +798,10 @@
       "answer": "die Wunde"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Wunde",
-      "instruction": "What does it mean?",
-      "image": "w-wound.jpg",
-      "image_caption": "die Wunde",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Wunde\" mean?",
+      "supporting_image": "w-wound.jpg",
       "german": "die Wunde",
       "options": [
         "Wound",
@@ -858,7 +814,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich brauche meine Brille.",
-      "image": "p-03-01.jpg",
+      "supporting_image": "p-03-01.jpg",
       "speaker": "weber",
       "prompt_de": "Ich brauche meine Brille.",
       "prompt_en": "I need my glasses.",
@@ -875,7 +831,7 @@
     {
       "type": "picture_choice",
       "from_card": "Wo ist die Klingel?",
-      "image": "p-03-02.jpg",
+      "supporting_image": "p-03-02.jpg",
       "speaker": "schmidt",
       "prompt_de": "Wo ist die Klingel?",
       "prompt_en": "Where is the call bell?",
@@ -892,7 +848,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich möchte die Zeitung, bitte.",
-      "image": "p-03-05.jpg",
+      "supporting_image": "p-03-05.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich möchte die Zeitung, bitte.",
       "prompt_en": "I'd like the newspaper, please.",
@@ -909,7 +865,7 @@
     {
       "type": "picture_choice",
       "from_card": "Mein Handy ist leer.",
-      "image": "p-03-07.jpg",
+      "supporting_image": "p-03-07.jpg",
       "speaker": "weber",
       "prompt_de": "Mein Handy ist leer.",
       "prompt_en": "My phone is empty (battery dead).",
@@ -926,7 +882,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich brauche ein Pflaster.",
-      "image": "p-03-08.jpg",
+      "supporting_image": "p-03-08.jpg",
       "speaker": "schmidt",
       "prompt_de": "Ich brauche ein Pflaster.",
       "prompt_en": "I need a plaster.",
@@ -941,7 +897,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich brauche Handschuhe.",
-      "image": "p-03-03.jpg",
+      "supporting_image": "p-03-03.jpg",
       "speaker": "lena",
       "prompt_de": "Ich brauche Handschuhe.",
       "prompt_en": "I need gloves.",
@@ -956,7 +912,7 @@
     {
       "type": "picture_choice",
       "from_card": "Das Thermometer, bitte.",
-      "image": "p-03-04.jpg",
+      "supporting_image": "p-03-04.jpg",
       "speaker": "braun",
       "prompt_de": "Das Thermometer, bitte.",
       "prompt_en": "The thermometer, please.",
@@ -971,7 +927,7 @@
     {
       "type": "picture_choice",
       "from_card": "Die Spritze, bitte.",
-      "image": "p-03-06.jpg",
+      "supporting_image": "p-03-06.jpg",
       "speaker": "lena",
       "prompt_de": "Die Spritze, bitte.",
       "prompt_en": "The syringe, please.",
@@ -986,7 +942,7 @@
     {
       "type": "situation_choice",
       "from_card": "Wo ist die Maske?",
-      "image": "p-03-09.jpg",
+      "supporting_image": "p-03-09.jpg",
       "speaker": "lena",
       "prompt_de": null,
       "prompt_en": "Ask Lena where the mask is.",
@@ -1000,7 +956,7 @@
     {
       "type": "choose_reply",
       "from_card": "Was ist das?",
-      "image": "p-03-10.jpg",
+      "supporting_image": "p-03-10.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Was ist das?",
       "prompt_en": "What is that? (He points at the 🩺.)",

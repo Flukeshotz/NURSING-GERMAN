@@ -449,13 +449,11 @@
   ],
   "quiz_pool": [
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Hilfe!",
       "time_limit_seconds": 8,
-      "image": "e-01.jpg",
-      "image_caption": "Help!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Help!\" in German?",
+      "supporting_image": "e-01.jpg",
       "options": [
         "Hilfe!",
         "Notfall!",
@@ -464,13 +462,11 @@
       "answer": "Hilfe!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Notfall!",
       "time_limit_seconds": 8,
-      "image": "e-02.jpg",
-      "image_caption": "Emergency!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Emergency!\" in German?",
+      "supporting_image": "e-02.jpg",
       "options": [
         "Notfall!",
         "Rufen Sie bitte den Arzt!",
@@ -479,13 +475,11 @@
       "answer": "Notfall!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Rufen Sie bitte den Arzt!",
       "time_limit_seconds": 8,
-      "image": "e-03.jpg",
-      "image_caption": "Please call the doctor!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Please call the doctor!\" in German?",
+      "supporting_image": "e-03.jpg",
       "options": [
         "Rufen Sie bitte den Arzt!",
         "Schnell, bitte!",
@@ -494,13 +488,11 @@
       "answer": "Rufen Sie bitte den Arzt!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Schnell, bitte!",
       "time_limit_seconds": 8,
-      "image": "e-04.jpg",
-      "image_caption": "Quickly, please!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Quickly, please!\" in German?",
+      "supporting_image": "e-04.jpg",
       "options": [
         "Schnell, bitte!",
         "Bleiben Sie bitte liegen.",
@@ -509,13 +501,11 @@
       "answer": "Schnell, bitte!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Bleiben Sie bitte liegen.",
       "time_limit_seconds": 8,
-      "image": "e-05.jpg",
-      "image_caption": "Please stay lying down.",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Please stay lying down.\" in German?",
+      "supporting_image": "e-05.jpg",
       "options": [
         "Bleiben Sie bitte liegen.",
         "Nicht aufstehen!",
@@ -524,13 +514,11 @@
       "answer": "Bleiben Sie bitte liegen."
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Nicht aufstehen!",
       "time_limit_seconds": 8,
-      "image": "e-06.jpg",
-      "image_caption": "Don't get up!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Don't get up!\" in German?",
+      "supporting_image": "e-06.jpg",
       "options": [
         "Nicht aufstehen!",
         "Atmen Sie ruhig.",
@@ -539,13 +527,11 @@
       "answer": "Nicht aufstehen!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Atmen Sie ruhig.",
       "time_limit_seconds": 8,
-      "image": "e-07.jpg",
-      "image_caption": "Breathe calmly.",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Breathe calmly.\" in German?",
+      "supporting_image": "e-07.jpg",
       "options": [
         "Atmen Sie ruhig.",
         "Haben Sie Allergien?",
@@ -554,13 +540,11 @@
       "answer": "Atmen Sie ruhig."
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Haben Sie Allergien?",
       "time_limit_seconds": 8,
-      "image": "e-08.jpg",
-      "image_caption": "Do you have allergies?",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Do you have allergies?\" in German?",
+      "supporting_image": "e-08.jpg",
       "options": [
         "Haben Sie Allergien?",
         "Können Sie mich hören?",
@@ -569,13 +553,11 @@
       "answer": "Haben Sie Allergien?"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Können Sie mich hören?",
       "time_limit_seconds": 8,
-      "image": "e-09.jpg",
-      "image_caption": "Can you hear me?",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Can you hear me?\" in German?",
+      "supporting_image": "e-09.jpg",
       "options": [
         "Können Sie mich hören?",
         "Ich bin hier.",
@@ -584,13 +566,11 @@
       "answer": "Können Sie mich hören?"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Ich bin hier.",
       "time_limit_seconds": 8,
-      "image": "e-10.jpg",
-      "image_caption": "I'm here.",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"I'm here.\" in German?",
+      "supporting_image": "e-10.jpg",
       "options": [
         "Ich bin hier.",
         "Bewusstlos!",
@@ -599,13 +579,11 @@
       "answer": "Ich bin hier."
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Bewusstlos!",
       "time_limit_seconds": 8,
-      "image": "e-11.jpg",
-      "image_caption": "Unconscious!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Unconscious!\" in German?",
+      "supporting_image": "e-11.jpg",
       "options": [
         "Bewusstlos!",
         "Er atmet nicht!",
@@ -614,13 +592,11 @@
       "answer": "Bewusstlos!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Er atmet nicht!",
       "time_limit_seconds": 8,
-      "image": "e-12.jpg",
-      "image_caption": "He is not breathing!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"He is not breathing!\" in German?",
+      "supporting_image": "e-12.jpg",
       "options": [
         "Er atmet nicht!",
         "Sie atmet.",
@@ -629,13 +605,11 @@
       "answer": "Er atmet nicht!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Sie atmet.",
       "time_limit_seconds": 8,
-      "image": "e-13.jpg",
-      "image_caption": "She is breathing.",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"She is breathing.\" in German?",
+      "supporting_image": "e-13.jpg",
       "options": [
         "Sie atmet.",
         "Ich brauche Hilfe in Zimmer 3!",
@@ -644,13 +618,11 @@
       "answer": "Sie atmet."
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Ich brauche Hilfe in Zimmer 3!",
       "time_limit_seconds": 8,
-      "image": "e-14.jpg",
-      "image_caption": "I need help in room 3!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"I need help in room 3!\" in German?",
+      "supporting_image": "e-14.jpg",
       "options": [
         "Ich brauche Hilfe in Zimmer 3!",
         "Holen Sie bitte den Notfallwagen!",
@@ -659,13 +631,11 @@
       "answer": "Ich brauche Hilfe in Zimmer 3!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Holen Sie bitte den Notfallwagen!",
       "time_limit_seconds": 8,
-      "image": "e-15.jpg",
-      "image_caption": "Please get the emergency trolley!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Please get the emergency trolley!\" in German?",
+      "supporting_image": "e-15.jpg",
       "options": [
         "Holen Sie bitte den Notfallwagen!",
         "Blutung!",
@@ -674,13 +644,11 @@
       "answer": "Holen Sie bitte den Notfallwagen!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Blutung!",
       "time_limit_seconds": 8,
-      "image": "e-16.jpg",
-      "image_caption": "Bleeding!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Bleeding!\" in German?",
+      "supporting_image": "e-16.jpg",
       "options": [
         "Blutung!",
         "Drücken Sie hier fest.",
@@ -689,13 +657,11 @@
       "answer": "Blutung!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Drücken Sie hier fest.",
       "time_limit_seconds": 8,
-      "image": "e-17.jpg",
-      "image_caption": "Press firmly here.",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Press firmly here.\" in German?",
+      "supporting_image": "e-17.jpg",
       "options": [
         "Drücken Sie hier fest.",
         "Sturz in Zimmer 2!",
@@ -704,13 +670,11 @@
       "answer": "Drücken Sie hier fest."
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Sturz in Zimmer 2!",
       "time_limit_seconds": 8,
-      "image": "e-18.jpg",
-      "image_caption": "Fall in room 2!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Fall in room 2!\" in German?",
+      "supporting_image": "e-18.jpg",
       "options": [
         "Sturz in Zimmer 2!",
         "Bewegen Sie sich nicht.",
@@ -719,13 +683,11 @@
       "answer": "Sturz in Zimmer 2!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Bewegen Sie sich nicht.",
       "time_limit_seconds": 8,
-      "image": "e-19.jpg",
-      "image_caption": "Don't move.",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Don't move.\" in German?",
+      "supporting_image": "e-19.jpg",
       "options": [
         "Bewegen Sie sich nicht.",
         "Feuer!",
@@ -734,13 +696,11 @@
       "answer": "Bewegen Sie sich nicht."
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Feuer!",
       "time_limit_seconds": 8,
-      "image": "e-20.jpg",
-      "image_caption": "Fire!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Fire!\" in German?",
+      "supporting_image": "e-20.jpg",
       "options": [
         "Feuer!",
         "Bitte zum Notausgang!",
@@ -749,13 +709,11 @@
       "answer": "Feuer!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Bitte zum Notausgang!",
       "time_limit_seconds": 8,
-      "image": "e-21.jpg",
-      "image_caption": "Please go to the emergency exit!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Please go to the emergency exit!\" in German?",
+      "supporting_image": "e-21.jpg",
       "options": [
         "Bitte zum Notausgang!",
         "Ruhig bleiben.",
@@ -764,13 +722,11 @@
       "answer": "Bitte zum Notausgang!"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Ruhig bleiben.",
       "time_limit_seconds": 8,
-      "image": "e-22.jpg",
-      "image_caption": "Stay calm.",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Stay calm.\" in German?",
+      "supporting_image": "e-22.jpg",
       "options": [
         "Ruhig bleiben.",
         "Der Arzt kommt sofort.",
@@ -779,13 +735,11 @@
       "answer": "Ruhig bleiben."
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Der Arzt kommt sofort.",
       "time_limit_seconds": 8,
-      "image": "e-23.jpg",
-      "image_caption": "The doctor is coming right away.",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"The doctor is coming right away.\" in German?",
+      "supporting_image": "e-23.jpg",
       "options": [
         "Der Arzt kommt sofort.",
         "Wie heißen Sie? Welcher Tag ist heute?",
@@ -794,13 +748,11 @@
       "answer": "Der Arzt kommt sofort."
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Wie heißen Sie? Welcher Tag ist heute?",
       "time_limit_seconds": 8,
-      "image": "e-24.jpg",
-      "image_caption": "What's your name? What day is it today?",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"What's your name? What day is it today?\" in German?",
+      "supporting_image": "e-24.jpg",
       "options": [
         "Wie heißen Sie? Welcher Tag ist heute?",
         "Hilfe!",
@@ -809,13 +761,11 @@
       "answer": "Wie heißen Sie? Welcher Tag ist heute?"
     },
     {
-      "type": "emergency_choice",
+      "type": "emergency_translate",
       "from_card": "Rufen Sie die 112!",
       "time_limit_seconds": 8,
-      "image": "e-25.jpg",
-      "image_caption": "Call 112!",
-      "image_caption_lang": "en",
-      "instruction": "What do you say in this situation?",
+      "question_en": "How do you say \"Call 112!\" in German?",
+      "supporting_image": "e-25.jpg",
       "options": [
         "Rufen Sie die 112!",
         "Hilfe!",

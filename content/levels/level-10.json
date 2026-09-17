@@ -290,12 +290,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Physiotherapeut / die Physiotherapeutin",
-      "instruction": "What is this in German?",
-      "image": "w-physio.jpg",
-      "image_caption": "Physio",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Physio\" in German?",
+      "supporting_image": "w-physio.jpg",
       "options": [
         "der Physiotherapeut / die Physiotherapeutin",
         "die Pflegekraft",
@@ -305,12 +303,10 @@
       "answer": "der Physiotherapeut / die Physiotherapeutin"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Physiotherapeut / die Physiotherapeutin",
-      "instruction": "What does it mean?",
-      "image": "w-physio.jpg",
-      "image_caption": "der Physiotherapeut / die Physiotherapeutin",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Physiotherapeut / die Physiotherapeutin\" mean?",
+      "supporting_image": "w-physio.jpg",
       "german": "der Physiotherapeut / die Physiotherapeutin",
       "options": [
         "Physio",
@@ -323,7 +319,7 @@
     {
       "type": "situation_choice",
       "from_card": "Setzen Sie sich bitte.",
-      "image": "p-09-01.jpg",
+      "supporting_image": "p-09-01.jpg",
       "speaker": "schmidt",
       "prompt_de": null,
       "prompt_en": "Herr Schmidt should sit down.",
@@ -337,7 +333,7 @@
     {
       "type": "picture_choice",
       "from_card": "Frau Weber, legen Sie sich bitte hin.",
-      "image": "p-09-04.jpg",
+      "supporting_image": "p-09-04.jpg",
       "speaker": "braun",
       "prompt_de": "Frau Weber, legen Sie sich bitte hin.",
       "prompt_en": "What should Frau Weber do?",
@@ -352,7 +348,7 @@
     {
       "type": "picture_choice",
       "from_card": "Herr Schmidt, stehen Sie bitte langsam auf.",
-      "image": "p-09-05.jpg",
+      "supporting_image": "p-09-05.jpg",
       "speaker": "lena",
       "prompt_de": "Herr Schmidt, stehen Sie bitte langsam auf.",
       "prompt_en": "What should Herr Schmidt do?",
@@ -367,7 +363,7 @@
     {
       "type": "picture_choice",
       "from_card": "Herr Schmidt, gehen Sie bitte langsam.",
-      "image": "p-09-10.jpg",
+      "supporting_image": "p-09-10.jpg",
       "speaker": "lena",
       "prompt_de": "Herr Schmidt, gehen Sie bitte langsam.",
       "prompt_en": "What should Herr Schmidt do?",
@@ -382,7 +378,7 @@
     {
       "type": "situation_choice",
       "from_card": "Machen Sie bitte den Mund auf.",
-      "image": "p-09-02.jpg",
+      "supporting_image": "p-09-02.jpg",
       "speaker": "weber",
       "prompt_de": null,
       "prompt_en": "Dr. Braun wants to look in Frau Weber's mouth.",
@@ -396,7 +392,7 @@
     {
       "type": "situation_choice",
       "from_card": "Atmen Sie bitte tief ein.",
-      "image": "p-09-03.jpg",
+      "supporting_image": "p-09-03.jpg",
       "speaker": "yilmaz",
       "prompt_de": null,
       "prompt_en": "Herr Yılmaz should breathe in deeply.",
@@ -410,7 +406,7 @@
     {
       "type": "picture_choice",
       "from_card": "Zeigen Sie bitte die Zunge.",
-      "image": "p-09-07.jpg",
+      "supporting_image": "p-09-07.jpg",
       "speaker": "braun",
       "prompt_de": "Zeigen Sie bitte die Zunge.",
       "prompt_en": "Please show your tongue.",
@@ -425,7 +421,7 @@
     {
       "type": "situation_choice",
       "from_card": "Geben Sie mir bitte Ihren Arm.",
-      "image": "p-09-09.jpg",
+      "supporting_image": "p-09-09.jpg",
       "speaker": "weber",
       "prompt_de": null,
       "prompt_en": "You want to measure blood pressure. Ask for her arm.",
@@ -439,7 +435,7 @@
     {
       "type": "situation_choice",
       "from_card": "Bitte klingeln Sie. Ich komme dann.",
-      "image": "p-09-06.jpg",
+      "supporting_image": "p-09-06.jpg",
       "speaker": "weber",
       "prompt_de": null,
       "prompt_en": "Frau Weber needs you at night. Tell her to ring.",
@@ -453,7 +449,7 @@
     {
       "type": "situation_choice",
       "from_card": "Sie dürfen nicht allein aufstehen.",
-      "image": "p-09-08.jpg",
+      "supporting_image": "p-09-08.jpg",
       "speaker": "yilmaz",
       "prompt_de": null,
       "prompt_en": "Herr Yılmaz must not get up alone.",

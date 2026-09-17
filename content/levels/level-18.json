@@ -391,12 +391,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Vorlage",
-      "instruction": "What is this in German?",
-      "image": "w-incontinence-pad.jpg",
-      "image_caption": "Incontinence pad",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Incontinence pad\" in German?",
+      "supporting_image": "w-incontinence-pad.jpg",
       "options": [
         "die Vorlage",
         "der Toilettenstuhl",
@@ -406,12 +404,10 @@
       "answer": "die Vorlage"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Vorlage",
-      "instruction": "What does it mean?",
-      "image": "w-incontinence-pad.jpg",
-      "image_caption": "die Vorlage",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Vorlage\" mean?",
+      "supporting_image": "w-incontinence-pad.jpg",
       "german": "die Vorlage",
       "options": [
         "Incontinence pad",
@@ -422,12 +418,10 @@
       "answer": "Incontinence pad"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Toilettenstuhl",
-      "instruction": "What is this in German?",
-      "image": "w-commode.jpg",
-      "image_caption": "Commode",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Commode\" in German?",
+      "supporting_image": "w-commode.jpg",
       "options": [
         "der Toilettenstuhl",
         "die Vorlage",
@@ -437,12 +431,10 @@
       "answer": "der Toilettenstuhl"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Toilettenstuhl",
-      "instruction": "What does it mean?",
-      "image": "w-commode.jpg",
-      "image_caption": "der Toilettenstuhl",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Toilettenstuhl\" mean?",
+      "supporting_image": "w-commode.jpg",
       "german": "der Toilettenstuhl",
       "options": [
         "Commode",
@@ -455,7 +447,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich muss mal.",
-      "image": "p-19-01.jpg",
+      "supporting_image": "p-19-01.jpg",
       "speaker": "weber",
       "prompt_de": "Ich muss mal.",
       "prompt_en": "I need to go (to the toilet).",
@@ -469,7 +461,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich kann nicht aufstehen. Ich muss Wasser lassen.",
-      "image": "p-19-02.jpg",
+      "supporting_image": "p-19-02.jpg",
       "speaker": "schmidt",
       "prompt_de": "Ich kann nicht aufstehen. Ich muss Wasser lassen.",
       "prompt_en": "I can't get up. I need to pass urine.",
@@ -486,7 +478,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich brauche Toilettenpapier.",
-      "image": "p-19-03.jpg",
+      "supporting_image": "p-19-03.jpg",
       "speaker": "weber",
       "prompt_de": "Ich brauche Toilettenpapier.",
       "prompt_en": "I need toilet paper.",
@@ -501,7 +493,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich möchte allein auf die Toilette.",
-      "image": "p-19-04.jpg",
+      "supporting_image": "p-19-04.jpg",
       "speaker": "weber",
       "prompt_de": "Ich möchte allein auf die Toilette.",
       "prompt_en": "I want to use the toilet alone.",
@@ -515,7 +507,7 @@
     {
       "type": "situation_choice",
       "from_card": "Hatten Sie heute Stuhlgang?",
-      "image": "p-19-05.jpg",
+      "supporting_image": "p-19-05.jpg",
       "speaker": "schmidt",
       "prompt_de": null,
       "prompt_en": "Ask Herr Schmidt if he had a bowel movement today.",
@@ -529,7 +521,7 @@
     {
       "type": "choose_reply",
       "from_card": "Nein, seit drei Tagen nicht.",
-      "image": "p-19-06.jpg",
+      "supporting_image": "p-19-06.jpg",
       "speaker": "schmidt",
       "prompt_de": "Nein, seit drei Tagen nicht.",
       "prompt_en": "No, not for three days.",
@@ -543,7 +535,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Herr Schmidt hat 800 ml Urin.",
-      "image": "p-19-07.jpg",
+      "supporting_image": "p-19-07.jpg",
       "speaker": "lena",
       "prompt_de": "Herr Schmidt hat 800 ml Urin.",
       "prompt_en": "Urine amount:",
@@ -558,7 +550,7 @@
     {
       "type": "choose_reply",
       "from_card": "Das ist mir peinlich.",
-      "image": "p-19-08.jpg",
+      "supporting_image": "p-19-08.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Das ist mir peinlich.",
       "prompt_en": "This is embarrassing for me.",
@@ -572,7 +564,7 @@
     {
       "type": "picture_choice",
       "from_card": "Das Bett ist nass. Entschuldigung.",
-      "image": "p-19-09.jpg",
+      "supporting_image": "p-19-09.jpg",
       "speaker": "weber",
       "prompt_de": "Das Bett ist nass. Entschuldigung.",
       "prompt_en": "The bed is wet. Sorry.",
@@ -589,7 +581,7 @@
     {
       "type": "situation_choice",
       "from_card": "Frau Weber braucht eine neue Vorlage.",
-      "image": "p-19-10.jpg",
+      "supporting_image": "p-19-10.jpg",
       "speaker": "lena",
       "prompt_de": null,
       "prompt_en": "Tell Lena: Frau Weber needs a new incontinence pad.",
@@ -603,7 +595,7 @@
     {
       "type": "document_question",
       "from_card": "Ein- und Ausfuhr",
-      "image": "d-fluid.jpg",
+      "supporting_image": "d-fluid.jpg",
       "document": "Fluid chart",
       "document_html": "<h4>EIN- UND AUSFUHR</h4><div class=\"dmeta\">Yılmaz, Emre · Zimmer 3</div><div class=\"doc-wrap\"><table>\n   <tr><th>Uhrzeit</th><th>Einfuhr</th><th>Ausfuhr</th></tr><tr><td>08:00</td><td>Tee 200 ml</td><td>Urin 300 ml</td></tr><tr><td>12:00</td><td>Wasser 250 ml</td><td>–</td></tr>\n   <tr><td>16:00</td><td>Infusion 500 ml</td><td>Urin 400 ml</td></tr><tr><td><b>Summe</b></td><td><b>950 ml</b></td><td><b>700 ml</b></td></tr></table></div>",
       "question_en": "What does „Ausfuhr“ mean?",
@@ -617,7 +609,7 @@
     {
       "type": "document_question",
       "from_card": "Ein- und Ausfuhr",
-      "image": "d-fluid.jpg",
+      "supporting_image": "d-fluid.jpg",
       "document": "Fluid chart",
       "document_html": "<h4>EIN- UND AUSFUHR</h4><div class=\"dmeta\">Yılmaz, Emre · Zimmer 3</div><div class=\"doc-wrap\"><table>\n   <tr><th>Uhrzeit</th><th>Einfuhr</th><th>Ausfuhr</th></tr><tr><td>08:00</td><td>Tee 200 ml</td><td>Urin 300 ml</td></tr><tr><td>12:00</td><td>Wasser 250 ml</td><td>–</td></tr>\n   <tr><td>16:00</td><td>Infusion 500 ml</td><td>Urin 400 ml</td></tr><tr><td><b>Summe</b></td><td><b>950 ml</b></td><td><b>700 ml</b></td></tr></table></div>",
       "question_en": "How much fluid did he get in total?",
@@ -631,7 +623,7 @@
     {
       "type": "document_question",
       "from_card": "Ein- und Ausfuhr",
-      "image": "d-fluid.jpg",
+      "supporting_image": "d-fluid.jpg",
       "document": "Fluid chart",
       "document_html": "<h4>EIN- UND AUSFUHR</h4><div class=\"dmeta\">Yılmaz, Emre · Zimmer 3</div><div class=\"doc-wrap\"><table>\n   <tr><th>Uhrzeit</th><th>Einfuhr</th><th>Ausfuhr</th></tr><tr><td>08:00</td><td>Tee 200 ml</td><td>Urin 300 ml</td></tr><tr><td>12:00</td><td>Wasser 250 ml</td><td>–</td></tr>\n   <tr><td>16:00</td><td>Infusion 500 ml</td><td>Urin 400 ml</td></tr><tr><td><b>Summe</b></td><td><b>950 ml</b></td><td><b>700 ml</b></td></tr></table></div>",
       "question_en": "How much urine at 16:00?",

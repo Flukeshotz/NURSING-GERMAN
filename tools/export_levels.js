@@ -38,12 +38,12 @@ A.LEVELS.forEach((L, i) => {
   const pool = f => words.map(x => x[f]).concat(A.WORDS.map(w => f === "de" ? w.de : w.en));
   const three = (f, not) => pool(f).filter((v, k, a) => v !== not && a.indexOf(v) === k).slice(0, 3);
   words.forEach(c => {
-    quiz.push({ type: "image_choice", from_card: c.de, instruction: "What is this in German?", image: use(cardImage(c)), image_caption: c.meaning, image_caption_lang: "en", options: [c.de, ...three("de", c.de)], answer: c.de });
-    quiz.push({ type: "meaning_choice", from_card: c.de, instruction: "What does it mean?", image: use(cardImage(c)), image_caption: c.de, image_caption_lang: "de", german: c.de, options: [c.meaning, ...three("meaning", c.meaning)], answer: c.meaning });
+    quiz.push({ type: "translate_to_german", from_card: c.de, question_en: `How do you say "${c.meaning}" in German?`, supporting_image: use(cardImage(c)), options: [c.de, ...three("de", c.de)], answer: c.de });
+    quiz.push({ type: "translate_to_english", from_card: c.de, question_en: `What does "${plain(c.de)}" mean?`, supporting_image: use(cardImage(c)), german: c.de, options: [c.meaning, ...three("meaning", c.meaning)], answer: c.meaning });
   });
   deck.filter(c => c.kind === "phrase").forEach(c => {
     const r = A.roundForCard(L, c); if (!r) return;
-    const q = { type: TYPE[r.t], from_card: c.de, image: use(cardImage(c)), speaker: r.sp, prompt_de: r.de || null, prompt_en: r.en };
+    const q = { type: TYPE[r.t], from_card: c.de, supporting_image: use(cardImage(c)), speaker: r.sp, prompt_de: r.de || null, prompt_en: r.en };
     if (r.t === "need") { q.options = r.o.map(o => plain(o.split("|")[1])); q.answer = plain(r.o[0].split("|")[1]); }
     else if (r.t === "where") { q.options = r.o.map(k => A.BODY[k][0]); q.answer = A.BODY[r.o[0]][0]; }
     else { q.options = r.o.slice(); q.answer = r.o[0]; }
@@ -53,12 +53,12 @@ A.LEVELS.forEach((L, i) => {
   deck.filter(c => c.kind === "em").forEach((c, k, all) => {
     const others = all.filter(x => x !== c).map(x => x.de).slice(k, k + 2);
     const opts = others.length === 2 ? others : all.filter(x => x !== c).map(x => x.de).slice(0, 2);
-    quiz.push({ type: "emergency_choice", from_card: c.de, time_limit_seconds: 8, image: use(cardImage(c)), image_caption: c.meaning, image_caption_lang: "en", instruction: "What do you say in this situation?", options: [c.de, ...opts], answer: c.de });
+    quiz.push({ type: "emergency_translate", from_card: c.de, time_limit_seconds: 8, question_en: `How do you say "${c.meaning}" in German?`, supporting_image: use(cardImage(c)), options: [c.de, ...opts], answer: c.de });
   });
   deck.filter(c => c.kind === "doc").forEach(c => { const d = A.DOCS.find(x => x.id === c.docId);
-    d.qs.forEach(qq => quiz.push({ type: "document_question", from_card: c.de, image: use(cardImage(c)), document: d.title, document_html: d.html, question_en: qq.q, options: qq.o, answer: qq.o[0] })); });
+    d.qs.forEach(qq => quiz.push({ type: "document_question", from_card: c.de, supporting_image: use(cardImage(c)), document: d.title, document_html: d.html, question_en: qq.q, options: qq.o, answer: qq.o[0] })); });
   deck.filter(c => c.kind === "spell").forEach(c => { const s = A.SPELL[L.spell].find(x => x.name === c.de);
-    quiz.push({ type: "spelling", from_card: c.de, image: use(cardImage(c)), audio_letters: c.letters, options: s.o, answer: s.name }); });
+    quiz.push({ type: "spelling", from_card: c.de, supporting_image: use(cardImage(c)), audio_letters: c.letters, options: s.o, answer: s.name }); });
 
   const file = `level-${pad(n)}.json`;
   const data = { level: n, cefr: "A1", title_en: title, title_de: L.em ? "Notfall-Deutsch" : A.SHIFTS[L.s].de,

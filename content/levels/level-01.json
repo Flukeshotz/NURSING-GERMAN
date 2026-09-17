@@ -415,12 +415,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Pflegekraft",
-      "instruction": "What is this in German?",
-      "image": "w-sister.jpg",
-      "image_caption": "Sister",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Sister\" in German?",
+      "supporting_image": "w-sister.jpg",
       "options": [
         "die Pflegekraft",
         "die Pflegefachkraft",
@@ -430,12 +428,10 @@
       "answer": "die Pflegekraft"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Pflegekraft",
-      "instruction": "What does it mean?",
-      "image": "w-sister.jpg",
-      "image_caption": "die Pflegekraft",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Pflegekraft\" mean?",
+      "supporting_image": "w-sister.jpg",
       "german": "die Pflegekraft",
       "options": [
         "Sister",
@@ -446,12 +442,10 @@
       "answer": "Sister"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Pflegefachkraft",
-      "instruction": "What is this in German?",
-      "image": "w-staff-nurse.jpg",
-      "image_caption": "Staff nurse",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Staff nurse\" in German?",
+      "supporting_image": "w-staff-nurse.jpg",
       "options": [
         "die Pflegefachkraft",
         "die Pflegekraft",
@@ -461,12 +455,10 @@
       "answer": "die Pflegefachkraft"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Pflegefachkraft",
-      "instruction": "What does it mean?",
-      "image": "w-staff-nurse.jpg",
-      "image_caption": "die Pflegefachkraft",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Pflegefachkraft\" mean?",
+      "supporting_image": "w-staff-nurse.jpg",
       "german": "die Pflegefachkraft",
       "options": [
         "Staff nurse",
@@ -477,12 +469,10 @@
       "answer": "Staff nurse"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Stationsleitung",
-      "instruction": "What is this in German?",
-      "image": "w-ward-in-charge.jpg",
-      "image_caption": "Ward in-charge",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Ward in-charge\" in German?",
+      "supporting_image": "w-ward-in-charge.jpg",
       "options": [
         "die Stationsleitung",
         "die Pflegekraft",
@@ -492,12 +482,10 @@
       "answer": "die Stationsleitung"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Stationsleitung",
-      "instruction": "What does it mean?",
-      "image": "w-ward-in-charge.jpg",
-      "image_caption": "die Stationsleitung",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Stationsleitung\" mean?",
+      "supporting_image": "w-ward-in-charge.jpg",
       "german": "die Stationsleitung",
       "options": [
         "Ward in-charge",
@@ -508,12 +496,10 @@
       "answer": "Ward in-charge"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Azubi / die Azubi",
-      "instruction": "What is this in German?",
-      "image": "w-nursing-student.jpg",
-      "image_caption": "Nursing student",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Nursing student\" in German?",
+      "supporting_image": "w-nursing-student.jpg",
       "options": [
         "der Azubi / die Azubi",
         "die Pflegekraft",
@@ -523,12 +509,10 @@
       "answer": "der Azubi / die Azubi"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Azubi / die Azubi",
-      "instruction": "What does it mean?",
-      "image": "w-nursing-student.jpg",
-      "image_caption": "der Azubi / die Azubi",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Azubi / die Azubi\" mean?",
+      "supporting_image": "w-nursing-student.jpg",
       "german": "der Azubi / die Azubi",
       "options": [
         "Nursing student",
@@ -539,12 +523,10 @@
       "answer": "Nursing student"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Dienst",
-      "instruction": "What is this in German?",
-      "image": "w-duty.jpg",
-      "image_caption": "Duty",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Duty\" in German?",
+      "supporting_image": "w-duty.jpg",
       "options": [
         "der Dienst",
         "die Pflegekraft",
@@ -554,12 +536,10 @@
       "answer": "der Dienst"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Dienst",
-      "instruction": "What does it mean?",
-      "image": "w-duty.jpg",
-      "image_caption": "der Dienst",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Dienst\" mean?",
+      "supporting_image": "w-duty.jpg",
       "german": "der Dienst",
       "options": [
         "Duty",
@@ -572,7 +552,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wer sind Sie?",
-      "image": "p-01-02.jpg",
+      "supporting_image": "p-01-02.jpg",
       "speaker": "weber",
       "prompt_de": "Wer sind Sie?",
       "prompt_en": "Who are you?",
@@ -586,7 +566,7 @@
     {
       "type": "choose_reply",
       "from_card": "Woher kommen Sie?",
-      "image": "p-01-03.jpg",
+      "supporting_image": "p-01-03.jpg",
       "speaker": "schmidt",
       "prompt_de": "Woher kommen Sie?",
       "prompt_en": "Where are you from?",
@@ -600,7 +580,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wie heißen Sie?",
-      "image": "p-01-06.jpg",
+      "supporting_image": "p-01-06.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Wie heißen Sie?",
       "prompt_en": "What is your name?",
@@ -614,7 +594,7 @@
     {
       "type": "choose_reply",
       "from_card": "Sind Sie morgen auch da?",
-      "image": "p-01-10.jpg",
+      "supporting_image": "p-01-10.jpg",
       "speaker": "weber",
       "prompt_de": "Sind Sie morgen auch da?",
       "prompt_en": "Are you here tomorrow too?",
@@ -628,7 +608,7 @@
     {
       "type": "choose_reply_sie_du",
       "from_card": "Guten Morgen!",
-      "image": "p-01-01.jpg",
+      "supporting_image": "p-01-01.jpg",
       "speaker": "weber",
       "prompt_de": "Guten Morgen!",
       "prompt_en": "Frau Weber (patient) greets you.",
@@ -642,7 +622,7 @@
     {
       "type": "choose_reply_sie_du",
       "from_card": "Hallo! Ich bin Lena.",
-      "image": "p-01-05.jpg",
+      "supporting_image": "p-01-05.jpg",
       "speaker": "lena",
       "prompt_de": "Hallo! Ich bin Lena.",
       "prompt_en": "Your colleague Lena introduces herself.",
@@ -656,7 +636,7 @@
     {
       "type": "choose_reply_sie_du",
       "from_card": "Guten Morgen. Ich bin Dr. Braun.",
-      "image": "p-01-09.jpg",
+      "supporting_image": "p-01-09.jpg",
       "speaker": "braun",
       "prompt_de": "Guten Morgen. Ich bin Dr. Braun.",
       "prompt_en": "The doctor introduces himself.",
@@ -670,7 +650,7 @@
     {
       "type": "choose_reply",
       "from_card": "Sprechen Sie Deutsch?",
-      "image": "p-01-04.jpg",
+      "supporting_image": "p-01-04.jpg",
       "speaker": "schmidt",
       "prompt_de": "Sprechen Sie Deutsch?",
       "prompt_en": "Do you speak German?",
@@ -684,7 +664,7 @@
     {
       "type": "situation_choice",
       "from_card": "Entschuldigung, noch einmal bitte.",
-      "image": "p-01-07.jpg",
+      "supporting_image": "p-01-07.jpg",
       "speaker": "yilmaz",
       "prompt_de": null,
       "prompt_en": "You don't understand Herr Yılmaz.",
@@ -698,7 +678,7 @@
     {
       "type": "situation_choice",
       "from_card": "Bitte sprechen Sie langsam.",
-      "image": "p-01-08.jpg",
+      "supporting_image": "p-01-08.jpg",
       "speaker": "weber",
       "prompt_de": null,
       "prompt_en": "Frau Weber speaks too fast for you.",

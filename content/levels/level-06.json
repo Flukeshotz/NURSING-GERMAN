@@ -362,12 +362,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Stuhlgang",
-      "instruction": "What is this in German?",
-      "image": "w-motion-stool.jpg",
-      "image_caption": "Motion (stool)",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Motion (stool)\" in German?",
+      "supporting_image": "w-motion-stool.jpg",
       "options": [
         "der Stuhlgang",
         "der Blutzucker",
@@ -377,12 +375,10 @@
       "answer": "der Stuhlgang"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Stuhlgang",
-      "instruction": "What does it mean?",
-      "image": "w-motion-stool.jpg",
-      "image_caption": "der Stuhlgang",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Stuhlgang\" mean?",
+      "supporting_image": "w-motion-stool.jpg",
       "german": "der Stuhlgang",
       "options": [
         "Motion (stool)",
@@ -393,12 +389,10 @@
       "answer": "Motion (stool)"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Blutzucker",
-      "instruction": "What is this in German?",
-      "image": "w-sugar.jpg",
-      "image_caption": "Sugar",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Sugar\" in German?",
+      "supporting_image": "w-sugar.jpg",
       "options": [
         "der Blutzucker",
         "der Stuhlgang",
@@ -408,12 +402,10 @@
       "answer": "der Blutzucker"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Blutzucker",
-      "instruction": "What does it mean?",
-      "image": "w-sugar.jpg",
-      "image_caption": "der Blutzucker",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Blutzucker\" mean?",
+      "supporting_image": "w-sugar.jpg",
       "german": "der Blutzucker",
       "options": [
         "Sugar",
@@ -426,7 +418,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich habe Schmerzen.",
-      "image": "p-05-01.jpg",
+      "supporting_image": "p-05-01.jpg",
       "speaker": "schmidt",
       "prompt_de": "Ich habe Schmerzen.",
       "prompt_en": "I'm in pain.",
@@ -440,7 +432,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich habe Durst.",
-      "image": "p-05-02.jpg",
+      "supporting_image": "p-05-02.jpg",
       "speaker": "weber",
       "prompt_de": "Ich habe Durst.",
       "prompt_en": "I'm thirsty.",
@@ -457,7 +449,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich habe Fieber, glaube ich.",
-      "image": "p-05-03.jpg",
+      "supporting_image": "p-05-03.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich habe Fieber, glaube ich.",
       "prompt_en": "I have a fever, I think.",
@@ -474,7 +466,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich habe Hunger.",
-      "image": "p-05-07.jpg",
+      "supporting_image": "p-05-07.jpg",
       "speaker": "weber",
       "prompt_de": "Ich habe Hunger.",
       "prompt_en": "I'm hungry.",
@@ -489,7 +481,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich habe Husten.",
-      "image": "p-05-10.jpg",
+      "supporting_image": "p-05-10.jpg",
       "speaker": "schmidt",
       "prompt_de": "Ich habe Husten.",
       "prompt_en": "I have a cough.",
@@ -503,7 +495,7 @@
     {
       "type": "choose_reply",
       "from_card": "Mir ist schwindelig.",
-      "image": "p-05-04.jpg",
+      "supporting_image": "p-05-04.jpg",
       "speaker": "weber",
       "prompt_de": "Mir ist schwindelig.",
       "prompt_en": "I feel dizzy.",
@@ -517,7 +509,7 @@
     {
       "type": "choose_reply",
       "from_card": "Es tut sehr weh.",
-      "image": "p-05-05.jpg",
+      "supporting_image": "p-05-05.jpg",
       "speaker": "schmidt",
       "prompt_de": "Es tut sehr weh.",
       "prompt_en": "It hurts a lot.",
@@ -531,7 +523,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Acht.",
-      "image": "p-05-06.jpg",
+      "supporting_image": "p-05-06.jpg",
       "speaker": "schmidt",
       "prompt_de": "Acht.",
       "prompt_en": "His pain score, 1 to 10:",
@@ -546,7 +538,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich bin so müde.",
-      "image": "p-05-08.jpg",
+      "supporting_image": "p-05-08.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich bin so müde.",
       "prompt_en": "I'm so tired.",
@@ -560,7 +552,7 @@
     {
       "type": "situation_choice",
       "from_card": "Frau Weber hat Kopfschmerzen.",
-      "image": "p-05-09.jpg",
+      "supporting_image": "p-05-09.jpg",
       "speaker": "lena",
       "prompt_de": null,
       "prompt_en": "Tell Lena: Frau Weber has a headache.",

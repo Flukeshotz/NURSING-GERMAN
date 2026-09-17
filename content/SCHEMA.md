@@ -50,23 +50,19 @@ Every card has the same front and back shape, so the UI uses one component.
 
 ## Question types in `quiz_pool`
 
-| type | Shows | Answer |
-|---|---|---|
-| `image_choice` | `image` | one of `options` (German) |
-| `meaning_choice` | `image` + `german` | one of `options` (English) |
-| `picture_choice` | card `image` + audio `prompt_de` + `prompt_en` | German key word (text) |
-| `body_part_choice` | card `image` + audio `prompt_de` | German body part (text) |
-| `choose_reply` / `choose_reply_sie_du` | audio `prompt_de` | German reply |
-| `situation_choice` | `prompt_en` (no audio) | German sentence |
-| `listen_and_note` | audio `prompt_de` | value, e.g. `130/85` |
-| `document_question` | the level's document card | English option |
-| `spelling` | letters read aloud (`audio_letters`) | name |
-| `emergency_choice` | `image`, `time_limit_seconds` | German phrase |
+**Every question is asked in words.** Pictures are never the question and never an option. `supporting_image` is a small thumbnail next to the question text, optional to show.
 
-`answer` is always one of the `options`; shuffle options at runtime. `feedback_de`/`feedback_en` (optional) is what the nurse says after a correct answer.
+| type | Question (text) | Options | answer |
+|---|---|---|---|
+| `translate_to_german` | `question_en`, e.g. How do you say "Lab" in German? | German | German |
+| `translate_to_english` | `question_en`, e.g. What does "das Labor" mean? | English | English |
+| `choose_reply` / `choose_reply_sie_du` | `prompt_de` (with audio) + `prompt_en` | German replies | German |
+| `situation_choice` | `prompt_en` | German sentences | German |
+| `picture_choice` | `prompt_de` + `prompt_en`: what the person needs | German key words | German |
+| `body_part_choice` | `prompt_de` + `prompt_en`: where it hurts | German body parts | German |
+| `listen_and_note` | `prompt_de` (audio) | values, e.g. `130/85` | value |
+| `document_question` | `question_en` + `document_html` | English | English |
+| `spelling` | letters read aloud (`audio_letters`) | names | name |
+| `emergency_translate` | `question_en`, `time_limit_seconds` = 8 | German | German |
 
-Every question has `from_card`: the German text of the flashcard it tests. The quiz only asks about what the level taught, with the same picture.
-
-**Picture captions:** questions with a picture carry `image_caption` and `image_caption_lang`. Show the caption on the picture so it is unambiguous. When the answer is German, the caption is English; when the answer is English, the caption is German.
-
-**Options are always text, never pictures.** Pictures only appear in the question.
+`answer` is always one of `options`; shuffle options at runtime. `feedback_de`/`feedback_en` (optional) is what the nurse says after a correct answer. Every question has `from_card`: the German text of the flashcard it tests.

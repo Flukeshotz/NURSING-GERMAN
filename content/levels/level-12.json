@@ -482,12 +482,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Assistenzarzt / die Assistenzärztin",
-      "instruction": "What is this in German?",
-      "image": "w-junior-doctor-resident.jpg",
-      "image_caption": "Junior doctor / resident",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Junior doctor / resident\" in German?",
+      "supporting_image": "w-junior-doctor-resident.jpg",
       "options": [
         "der Assistenzarzt / die Assistenzärztin",
         "der Oberarzt / die Oberärztin",
@@ -497,12 +495,10 @@
       "answer": "der Assistenzarzt / die Assistenzärztin"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Assistenzarzt / die Assistenzärztin",
-      "instruction": "What does it mean?",
-      "image": "w-junior-doctor-resident.jpg",
-      "image_caption": "der Assistenzarzt / die Assistenzärztin",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Assistenzarzt / die Assistenzärztin\" mean?",
+      "supporting_image": "w-junior-doctor-resident.jpg",
       "german": "der Assistenzarzt / die Assistenzärztin",
       "options": [
         "Junior doctor / resident",
@@ -513,12 +509,10 @@
       "answer": "Junior doctor / resident"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Oberarzt / die Oberärztin",
-      "instruction": "What is this in German?",
-      "image": "w-senior-doctor-consultant.jpg",
-      "image_caption": "Senior doctor / consultant",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Senior doctor / consultant\" in German?",
+      "supporting_image": "w-senior-doctor-consultant.jpg",
       "options": [
         "der Oberarzt / die Oberärztin",
         "der Assistenzarzt / die Assistenzärztin",
@@ -528,12 +522,10 @@
       "answer": "der Oberarzt / die Oberärztin"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Oberarzt / die Oberärztin",
-      "instruction": "What does it mean?",
-      "image": "w-senior-doctor-consultant.jpg",
-      "image_caption": "der Oberarzt / die Oberärztin",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Oberarzt / die Oberärztin\" mean?",
+      "supporting_image": "w-senior-doctor-consultant.jpg",
       "german": "der Oberarzt / die Oberärztin",
       "options": [
         "Senior doctor / consultant",
@@ -544,12 +536,10 @@
       "answer": "Senior doctor / consultant"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Chefarzt / die Chefärztin",
-      "instruction": "What is this in German?",
-      "image": "w-hod-chief-doctor.jpg",
-      "image_caption": "HOD / chief doctor",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"HOD / chief doctor\" in German?",
+      "supporting_image": "w-hod-chief-doctor.jpg",
       "options": [
         "der Chefarzt / die Chefärztin",
         "der Assistenzarzt / die Assistenzärztin",
@@ -559,12 +549,10 @@
       "answer": "der Chefarzt / die Chefärztin"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Chefarzt / die Chefärztin",
-      "instruction": "What does it mean?",
-      "image": "w-hod-chief-doctor.jpg",
-      "image_caption": "der Chefarzt / die Chefärztin",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Chefarzt / die Chefärztin\" mean?",
+      "supporting_image": "w-hod-chief-doctor.jpg",
       "german": "der Chefarzt / die Chefärztin",
       "options": [
         "HOD / chief doctor",
@@ -575,12 +563,10 @@
       "answer": "HOD / chief doctor"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Chef / die Chefin",
-      "instruction": "What is this in German?",
-      "image": "w-boss.jpg",
-      "image_caption": "Boss",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Boss\" in German?",
+      "supporting_image": "w-boss.jpg",
       "options": [
         "der Chef / die Chefin",
         "der Assistenzarzt / die Assistenzärztin",
@@ -590,12 +576,10 @@
       "answer": "der Chef / die Chefin"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Chef / die Chefin",
-      "instruction": "What does it mean?",
-      "image": "w-boss.jpg",
-      "image_caption": "der Chef / die Chefin",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Chef / die Chefin\" mean?",
+      "supporting_image": "w-boss.jpg",
       "german": "der Chef / die Chefin",
       "options": [
         "Boss",
@@ -606,12 +590,10 @@
       "answer": "Boss"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "also",
-      "instruction": "What is this in German?",
-      "image": "w-so-well.jpg",
-      "image_caption": "So / well …",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"So / well …\" in German?",
+      "supporting_image": "w-so-well.jpg",
       "options": [
         "also",
         "der Assistenzarzt / die Assistenzärztin",
@@ -621,12 +603,10 @@
       "answer": "also"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "also",
-      "instruction": "What does it mean?",
-      "image": "w-so-well.jpg",
-      "image_caption": "also",
-      "image_caption_lang": "de",
+      "question_en": "What does \"also\" mean?",
+      "supporting_image": "w-so-well.jpg",
       "german": "also",
       "options": [
         "So / well …",
@@ -637,12 +617,10 @@
       "answer": "So / well …"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "bekommen",
-      "instruction": "What is this in German?",
-      "image": "w-to-get-receive.jpg",
-      "image_caption": "To get / receive",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"To get / receive\" in German?",
+      "supporting_image": "w-to-get-receive.jpg",
       "options": [
         "bekommen",
         "der Assistenzarzt / die Assistenzärztin",
@@ -652,12 +630,10 @@
       "answer": "bekommen"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "bekommen",
-      "instruction": "What does it mean?",
-      "image": "w-to-get-receive.jpg",
-      "image_caption": "bekommen",
-      "image_caption_lang": "de",
+      "question_en": "What does \"bekommen\" mean?",
+      "supporting_image": "w-to-get-receive.jpg",
       "german": "bekommen",
       "options": [
         "To get / receive",
@@ -668,12 +644,10 @@
       "answer": "To get / receive"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Übergabe",
-      "instruction": "What is this in German?",
-      "image": "w-handover.jpg",
-      "image_caption": "Handover",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Handover\" in German?",
+      "supporting_image": "w-handover.jpg",
       "options": [
         "die Übergabe",
         "der Assistenzarzt / die Assistenzärztin",
@@ -683,12 +657,10 @@
       "answer": "die Übergabe"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Übergabe",
-      "instruction": "What does it mean?",
-      "image": "w-handover.jpg",
-      "image_caption": "die Übergabe",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Übergabe\" mean?",
+      "supporting_image": "w-handover.jpg",
       "german": "die Übergabe",
       "options": [
         "Handover",
@@ -701,7 +673,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wie geht es Frau Weber?",
-      "image": "p-11-01.jpg",
+      "supporting_image": "p-11-01.jpg",
       "speaker": "lena",
       "prompt_de": "Wie geht es Frau Weber?",
       "prompt_en": "How is Frau Weber? (She has a headache.)",
@@ -715,7 +687,7 @@
     {
       "type": "situation_choice",
       "from_card": "Herr Schmidt hat Fieber.",
-      "image": "p-11-03.jpg",
+      "supporting_image": "p-11-03.jpg",
       "speaker": "braun",
       "prompt_de": null,
       "prompt_en": "Tell Dr. Braun: Herr Schmidt has a fever.",
@@ -729,7 +701,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wie ist der Blutdruck von Herrn Yılmaz?",
-      "image": "p-11-04.jpg",
+      "supporting_image": "p-11-04.jpg",
       "speaker": "braun",
       "prompt_de": "Wie ist der Blutdruck von Herrn Yılmaz?",
       "prompt_en": "What's Herr Yılmaz's blood pressure? (It's 140/90.)",
@@ -743,7 +715,7 @@
     {
       "type": "situation_choice",
       "from_card": "Lena, kannst du bitte in Zimmer 2 gehen?",
-      "image": "p-11-02.jpg",
+      "supporting_image": "p-11-02.jpg",
       "speaker": "lena",
       "prompt_de": null,
       "prompt_en": "Room 2 rings. You are busy. Ask Lena.",
@@ -757,7 +729,7 @@
     {
       "type": "choose_reply_sie_du",
       "from_card": "Kaffee?",
-      "image": "p-11-05.jpg",
+      "supporting_image": "p-11-05.jpg",
       "speaker": "lena",
       "prompt_de": "Kaffee?",
       "prompt_en": "Lena offers you coffee in the break.",
@@ -771,7 +743,7 @@
     {
       "type": "choose_reply",
       "from_card": "Kannst du mir helfen?",
-      "image": "p-11-06.jpg",
+      "supporting_image": "p-11-06.jpg",
       "speaker": "lena",
       "prompt_de": "Kannst du mir helfen?",
       "prompt_en": "Can you help me?",
@@ -785,7 +757,7 @@
     {
       "type": "situation_choice",
       "from_card": "Tschüss Lena, bis morgen!",
-      "image": "p-11-10.jpg",
+      "supporting_image": "p-11-10.jpg",
       "speaker": "lena",
       "prompt_de": null,
       "prompt_en": "End of shift. Say goodbye to Lena.",
@@ -799,7 +771,7 @@
     {
       "type": "situation_choice",
       "from_card": "Entschuldigung, können Sie das bitte wiederholen?",
-      "image": "p-11-07.jpg",
+      "supporting_image": "p-11-07.jpg",
       "speaker": "braun",
       "prompt_de": null,
       "prompt_en": "You didn't understand Dr. Braun.",
@@ -813,7 +785,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wer hat heute Nachtdienst?",
-      "image": "p-11-08.jpg",
+      "supporting_image": "p-11-08.jpg",
       "speaker": "lena",
       "prompt_de": "Wer hat heute Nachtdienst?",
       "prompt_en": "Who has the night shift today? (You do.)",
@@ -829,7 +801,7 @@
     {
       "type": "choose_reply_sie_du",
       "from_card": "Danke für die Hilfe.",
-      "image": "p-11-09.jpg",
+      "supporting_image": "p-11-09.jpg",
       "speaker": "braun",
       "prompt_de": "Danke für die Hilfe.",
       "prompt_en": "Dr. Braun thanks you.",
@@ -843,7 +815,7 @@
     {
       "type": "document_question",
       "from_card": "Übergabe",
-      "image": "d-handover.jpg",
+      "supporting_image": "d-handover.jpg",
       "document": "Handover note",
       "document_html": "<h4>ÜBERGABE · FRÜHDIENST</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Zi. 1 Weber</td><td>RR 150/90, Kopfschmerzen, Arzt informiert</td></tr><tr><td>Zi. 2 Schmidt</td><td>OP morgen 8 Uhr, ab 22 Uhr nüchtern</td></tr><tr><td>Zi. 3 Yılmaz</td><td class=\"hi\">Sturzgefahr! Nicht allein aufstehen</td></tr></table></div>",
       "question_en": "Who has an operation tomorrow?",
@@ -857,7 +829,7 @@
     {
       "type": "document_question",
       "from_card": "Übergabe",
-      "image": "d-handover.jpg",
+      "supporting_image": "d-handover.jpg",
       "document": "Handover note",
       "document_html": "<h4>ÜBERGABE · FRÜHDIENST</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Zi. 1 Weber</td><td>RR 150/90, Kopfschmerzen, Arzt informiert</td></tr><tr><td>Zi. 2 Schmidt</td><td>OP morgen 8 Uhr, ab 22 Uhr nüchtern</td></tr><tr><td>Zi. 3 Yılmaz</td><td class=\"hi\">Sturzgefahr! Nicht allein aufstehen</td></tr></table></div>",
       "question_en": "From what time must Herr Schmidt not eat?",
@@ -871,7 +843,7 @@
     {
       "type": "document_question",
       "from_card": "Übergabe",
-      "image": "d-handover.jpg",
+      "supporting_image": "d-handover.jpg",
       "document": "Handover note",
       "document_html": "<h4>ÜBERGABE · FRÜHDIENST</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Zi. 1 Weber</td><td>RR 150/90, Kopfschmerzen, Arzt informiert</td></tr><tr><td>Zi. 2 Schmidt</td><td>OP morgen 8 Uhr, ab 22 Uhr nüchtern</td></tr><tr><td>Zi. 3 Yılmaz</td><td class=\"hi\">Sturzgefahr! Nicht allein aufstehen</td></tr></table></div>",
       "question_en": "What is the risk for Herr Yılmaz?",

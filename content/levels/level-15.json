@@ -335,12 +335,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das Bettgitter",
-      "instruction": "What is this in German?",
-      "image": "w-side-rails.jpg",
-      "image_caption": "Side rails",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Side rails\" in German?",
+      "supporting_image": "w-side-rails.jpg",
       "options": [
         "das Bettgitter",
         "die Pflegekraft",
@@ -350,12 +348,10 @@
       "answer": "das Bettgitter"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das Bettgitter",
-      "instruction": "What does it mean?",
-      "image": "w-side-rails.jpg",
-      "image_caption": "das Bettgitter",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das Bettgitter\" mean?",
+      "supporting_image": "w-side-rails.jpg",
       "german": "das Bettgitter",
       "options": [
         "Side rails",
@@ -368,7 +364,7 @@
     {
       "type": "situation_choice",
       "from_card": "Bitte nehmen Sie den Rollator.",
-      "image": "p-18-01.jpg",
+      "supporting_image": "p-18-01.jpg",
       "speaker": "schmidt",
       "prompt_de": null,
       "prompt_en": "Herr Schmidt wants to walk. He needs his walker.",
@@ -382,7 +378,7 @@
     {
       "type": "picture_choice",
       "from_card": "Wo ist mein Rollator?",
-      "image": "p-18-02.jpg",
+      "supporting_image": "p-18-02.jpg",
       "speaker": "schmidt",
       "prompt_de": "Wo ist mein Rollator?",
       "prompt_en": "Where is my walker?",
@@ -399,7 +395,7 @@
     {
       "type": "picture_choice",
       "from_card": "Meine Schuhe, bitte.",
-      "image": "p-18-03.jpg",
+      "supporting_image": "p-18-03.jpg",
       "speaker": "weber",
       "prompt_de": "Meine Schuhe, bitte.",
       "prompt_en": "My shoes, please.",
@@ -416,7 +412,7 @@
     {
       "type": "situation_choice",
       "from_card": "Bitte ziehen Sie Schuhe an.",
-      "image": "p-18-04.jpg",
+      "supporting_image": "p-18-04.jpg",
       "speaker": "weber",
       "prompt_de": null,
       "prompt_en": "Frau Weber wants to walk in socks. The floor is slippery.",
@@ -430,7 +426,7 @@
     {
       "type": "choose_reply",
       "from_card": "Mir ist schwindelig.",
-      "image": "p-18-05.jpg",
+      "supporting_image": "p-18-05.jpg",
       "speaker": "weber",
       "prompt_de": "Mir ist schwindelig.",
       "prompt_en": "I feel dizzy.",
@@ -444,7 +440,7 @@
     {
       "type": "choose_reply",
       "from_card": "Hilfe! Ich bin gefallen!",
-      "image": "p-18-06.jpg",
+      "supporting_image": "p-18-06.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Hilfe! Ich bin gefallen!",
       "prompt_en": "Help! I fell!",
@@ -458,7 +454,7 @@
     {
       "type": "situation_choice",
       "from_card": "Setzen Sie sich bitte erst auf die Bettkante.",
-      "image": "p-18-07.jpg",
+      "supporting_image": "p-18-07.jpg",
       "speaker": "schmidt",
       "prompt_de": null,
       "prompt_en": "Herr Schmidt should sit on the edge of the bed first.",
@@ -472,7 +468,7 @@
     {
       "type": "choose_reply",
       "from_card": "Kann ich allein gehen?",
-      "image": "p-18-08.jpg",
+      "supporting_image": "p-18-08.jpg",
       "speaker": "schmidt",
       "prompt_de": "Kann ich allein gehen?",
       "prompt_en": "Can I walk alone?",
@@ -486,7 +482,7 @@
     {
       "type": "picture_choice",
       "from_card": "Hilf mir bitte. Wir drehen Herrn Yılmaz.",
-      "image": "p-18-09.jpg",
+      "supporting_image": "p-18-09.jpg",
       "speaker": "lena",
       "prompt_de": "Hilf mir bitte. Wir drehen Herrn Yılmaz.",
       "prompt_en": "Help me please. We're turning Herr Yılmaz.",
@@ -503,7 +499,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Wir drehen Herrn Yılmaz alle 2 Stunden.",
-      "image": "p-18-10.jpg",
+      "supporting_image": "p-18-10.jpg",
       "speaker": "lena",
       "prompt_de": "Wir drehen Herrn Yılmaz alle 2 Stunden.",
       "prompt_en": "How often?",

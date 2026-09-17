@@ -367,12 +367,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Pflegehelfer / die Pflegehelferin",
-      "instruction": "What is this in German?",
-      "image": "w-ward-aide-nursing-assistant.jpg",
-      "image_caption": "Ward aide / nursing assistant",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Ward aide / nursing assistant\" in German?",
+      "supporting_image": "w-ward-aide-nursing-assistant.jpg",
       "options": [
         "der Pflegehelfer / die Pflegehelferin",
         "die Reinigungskraft",
@@ -382,12 +380,10 @@
       "answer": "der Pflegehelfer / die Pflegehelferin"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Pflegehelfer / die Pflegehelferin",
-      "instruction": "What does it mean?",
-      "image": "w-ward-aide-nursing-assistant.jpg",
-      "image_caption": "der Pflegehelfer / die Pflegehelferin",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Pflegehelfer / die Pflegehelferin\" mean?",
+      "supporting_image": "w-ward-aide-nursing-assistant.jpg",
       "german": "der Pflegehelfer / die Pflegehelferin",
       "options": [
         "Ward aide / nursing assistant",
@@ -398,12 +394,10 @@
       "answer": "Ward aide / nursing assistant"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Reinigungskraft",
-      "instruction": "What is this in German?",
-      "image": "w-housekeeping-cleaning-staff.jpg",
-      "image_caption": "Housekeeping / cleaning staff",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Housekeeping / cleaning staff\" in German?",
+      "supporting_image": "w-housekeeping-cleaning-staff.jpg",
       "options": [
         "die Reinigungskraft",
         "der Pflegehelfer / die Pflegehelferin",
@@ -413,12 +407,10 @@
       "answer": "die Reinigungskraft"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Reinigungskraft",
-      "instruction": "What does it mean?",
-      "image": "w-housekeeping-cleaning-staff.jpg",
-      "image_caption": "die Reinigungskraft",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Reinigungskraft\" mean?",
+      "supporting_image": "w-housekeeping-cleaning-staff.jpg",
       "german": "die Reinigungskraft",
       "options": [
         "Housekeeping / cleaning staff",
@@ -429,12 +421,10 @@
       "answer": "Housekeeping / cleaning staff"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Dekubitus",
-      "instruction": "What is this in German?",
-      "image": "w-bedsore.jpg",
-      "image_caption": "Bedsore",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Bedsore\" in German?",
+      "supporting_image": "w-bedsore.jpg",
       "options": [
         "der Dekubitus",
         "der Pflegehelfer / die Pflegehelferin",
@@ -444,12 +434,10 @@
       "answer": "der Dekubitus"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Dekubitus",
-      "instruction": "What does it mean?",
-      "image": "w-bedsore.jpg",
-      "image_caption": "der Dekubitus",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Dekubitus\" mean?",
+      "supporting_image": "w-bedsore.jpg",
       "german": "der Dekubitus",
       "options": [
         "Bedsore",
@@ -462,7 +450,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich möchte duschen.",
-      "image": "p-10-01.jpg",
+      "supporting_image": "p-10-01.jpg",
       "speaker": "weber",
       "prompt_de": "Ich möchte duschen.",
       "prompt_en": "I'd like to shower.",
@@ -476,7 +464,7 @@
     {
       "type": "situation_choice",
       "from_card": "Brauchen Sie Hilfe?",
-      "image": "p-10-03.jpg",
+      "supporting_image": "p-10-03.jpg",
       "speaker": "schmidt",
       "prompt_de": null,
       "prompt_en": "Ask Herr Schmidt if he needs help.",
@@ -490,7 +478,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich kann nicht allein aufstehen.",
-      "image": "p-10-04.jpg",
+      "supporting_image": "p-10-04.jpg",
       "speaker": "schmidt",
       "prompt_de": "Ich kann nicht allein aufstehen.",
       "prompt_en": "I can't get up alone.",
@@ -504,7 +492,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich möchte zur Toilette.",
-      "image": "p-10-10.jpg",
+      "supporting_image": "p-10-10.jpg",
       "speaker": "weber",
       "prompt_de": "Ich möchte zur Toilette.",
       "prompt_en": "I'd like to go to the toilet.",
@@ -521,7 +509,7 @@
     {
       "type": "picture_choice",
       "from_card": "Wo ist meine Zahnbürste?",
-      "image": "p-10-02.jpg",
+      "supporting_image": "p-10-02.jpg",
       "speaker": "weber",
       "prompt_de": "Wo ist meine Zahnbürste?",
       "prompt_en": "Where is my toothbrush?",
@@ -538,7 +526,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich möchte mich waschen.",
-      "image": "p-10-05.jpg",
+      "supporting_image": "p-10-05.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich möchte mich waschen.",
       "prompt_en": "I'd like to wash.",
@@ -555,7 +543,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich möchte meine Jacke anziehen.",
-      "image": "p-10-07.jpg",
+      "supporting_image": "p-10-07.jpg",
       "speaker": "weber",
       "prompt_de": "Ich möchte meine Jacke anziehen.",
       "prompt_en": "I'd like to put on my jacket.",
@@ -570,7 +558,7 @@
     {
       "type": "situation_choice",
       "from_card": "Möchten Sie aufstehen?",
-      "image": "p-10-06.jpg",
+      "supporting_image": "p-10-06.jpg",
       "speaker": "weber",
       "prompt_de": null,
       "prompt_en": "Ask Frau Weber if she wants to get up.",
@@ -584,7 +572,7 @@
     {
       "type": "choose_reply",
       "from_card": "Das Bett ist nass.",
-      "image": "p-10-08.jpg",
+      "supporting_image": "p-10-08.jpg",
       "speaker": "schmidt",
       "prompt_de": "Das Bett ist nass.",
       "prompt_en": "The bed is wet.",
@@ -598,7 +586,7 @@
     {
       "type": "situation_choice",
       "from_card": "Das Essen kommt um 12 Uhr.",
-      "image": "p-10-09.jpg",
+      "supporting_image": "p-10-09.jpg",
       "speaker": "yilmaz",
       "prompt_de": null,
       "prompt_en": "Tell Herr Yılmaz: the food comes at 12.",

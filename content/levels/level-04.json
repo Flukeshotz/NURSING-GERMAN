@@ -291,7 +291,7 @@
     {
       "type": "body_part_choice",
       "from_card": "Mein Kopf tut weh.",
-      "image": "p-04-01.jpg",
+      "supporting_image": "p-04-01.jpg",
       "speaker": "weber",
       "prompt_de": "Mein Kopf tut weh.",
       "prompt_en": "My head hurts.",
@@ -308,7 +308,7 @@
     {
       "type": "body_part_choice",
       "from_card": "Mein Bauch tut weh.",
-      "image": "p-04-02.jpg",
+      "supporting_image": "p-04-02.jpg",
       "speaker": "schmidt",
       "prompt_de": "Mein Bauch tut weh.",
       "prompt_en": "My stomach hurts.",
@@ -323,7 +323,7 @@
     {
       "type": "body_part_choice",
       "from_card": "Mein Arm tut weh.",
-      "image": "p-04-03.jpg",
+      "supporting_image": "p-04-03.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Mein Arm tut weh.",
       "prompt_en": "My arm hurts.",
@@ -338,7 +338,7 @@
     {
       "type": "body_part_choice",
       "from_card": "Mein Fuß tut weh.",
-      "image": "p-04-05.jpg",
+      "supporting_image": "p-04-05.jpg",
       "speaker": "schmidt",
       "prompt_de": "Mein Fuß tut weh.",
       "prompt_en": "My foot hurts.",
@@ -353,7 +353,7 @@
     {
       "type": "body_part_choice",
       "from_card": "Mein Hals tut weh.",
-      "image": "p-04-06.jpg",
+      "supporting_image": "p-04-06.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Mein Hals tut weh.",
       "prompt_en": "My throat hurts.",
@@ -368,7 +368,7 @@
     {
       "type": "body_part_choice",
       "from_card": "Mein Knie tut weh.",
-      "image": "p-04-07.jpg",
+      "supporting_image": "p-04-07.jpg",
       "speaker": "weber",
       "prompt_de": "Mein Knie tut weh.",
       "prompt_en": "My knee hurts.",
@@ -383,7 +383,7 @@
     {
       "type": "body_part_choice",
       "from_card": "Mein Ohr tut weh.",
-      "image": "p-04-10.jpg",
+      "supporting_image": "p-04-10.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Mein Ohr tut weh.",
       "prompt_en": "My ear hurts.",
@@ -398,7 +398,7 @@
     {
       "type": "body_part_choice",
       "from_card": "Meine Hand ist kalt.",
-      "image": "p-04-04.jpg",
+      "supporting_image": "p-04-04.jpg",
       "speaker": "weber",
       "prompt_de": "Meine Hand ist kalt.",
       "prompt_en": "My hand is cold.",
@@ -413,7 +413,7 @@
     {
       "type": "body_part_choice",
       "from_card": "Meine Brust tut weh.",
-      "image": "p-04-08.jpg",
+      "supporting_image": "p-04-08.jpg",
       "speaker": "schmidt",
       "prompt_de": "Meine Brust tut weh.",
       "prompt_en": "My chest hurts.",
@@ -430,7 +430,7 @@
     {
       "type": "body_part_choice",
       "from_card": "Zeigen Sie bitte Ihr Bein.",
-      "image": "p-04-09.jpg",
+      "supporting_image": "p-04-09.jpg",
       "speaker": "braun",
       "prompt_de": "Zeigen Sie bitte Ihr Bein.",
       "prompt_en": "Please show your leg.",

@@ -388,12 +388,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das Desinfektionsmittel",
-      "instruction": "What is this in German?",
-      "image": "w-hand-sanitiser.jpg",
-      "image_caption": "Hand sanitiser",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Hand sanitiser\" in German?",
+      "supporting_image": "w-hand-sanitiser.jpg",
       "options": [
         "das Desinfektionsmittel",
         "die Isolation",
@@ -403,12 +401,10 @@
       "answer": "das Desinfektionsmittel"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das Desinfektionsmittel",
-      "instruction": "What does it mean?",
-      "image": "w-hand-sanitiser.jpg",
-      "image_caption": "das Desinfektionsmittel",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das Desinfektionsmittel\" mean?",
+      "supporting_image": "w-hand-sanitiser.jpg",
       "german": "das Desinfektionsmittel",
       "options": [
         "Hand sanitiser",
@@ -419,12 +415,10 @@
       "answer": "Hand sanitiser"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Isolation",
-      "instruction": "What is this in German?",
-      "image": "w-isolation.jpg",
-      "image_caption": "Isolation",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Isolation\" in German?",
+      "supporting_image": "w-isolation.jpg",
       "options": [
         "die Isolation",
         "das Desinfektionsmittel",
@@ -434,12 +428,10 @@
       "answer": "die Isolation"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Isolation",
-      "instruction": "What does it mean?",
-      "image": "w-isolation.jpg",
-      "image_caption": "die Isolation",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Isolation\" mean?",
+      "supporting_image": "w-isolation.jpg",
       "german": "die Isolation",
       "options": [
         "Isolation",
@@ -452,7 +444,7 @@
     {
       "type": "situation_choice",
       "from_card": "Bitte desinfizieren Sie die Hände.",
-      "image": "p-17-01.jpg",
+      "supporting_image": "p-17-01.jpg",
       "speaker": "anna",
       "prompt_de": null,
       "prompt_en": "Remind a visitor to disinfect their hands.",
@@ -466,7 +458,7 @@
     {
       "type": "situation_choice",
       "from_card": "Ich desinfiziere die Hände.",
-      "image": "p-17-02.jpg",
+      "supporting_image": "p-17-02.jpg",
       "speaker": "lena",
       "prompt_de": null,
       "prompt_en": "You go into the next patient's room. What do you do first?",
@@ -480,7 +472,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Die Hände 30 Sekunden desinfizieren.",
-      "image": "p-17-03.jpg",
+      "supporting_image": "p-17-03.jpg",
       "speaker": "lena",
       "prompt_de": "Die Hände 30 Sekunden desinfizieren.",
       "prompt_en": "How long?",
@@ -495,7 +487,7 @@
     {
       "type": "choose_reply",
       "from_card": "Muss ich die Hände waschen?",
-      "image": "p-17-04.jpg",
+      "supporting_image": "p-17-04.jpg",
       "speaker": "schmidt",
       "prompt_de": "Muss ich die Hände waschen?",
       "prompt_en": "Do I have to wash my hands?",
@@ -509,7 +501,7 @@
     {
       "type": "picture_choice",
       "from_card": "Zimmer 4 ist Isolation. Was brauchst du?",
-      "image": "p-17-05.jpg",
+      "supporting_image": "p-17-05.jpg",
       "speaker": "lena",
       "prompt_de": "Zimmer 4 ist Isolation. Was brauchst du?",
       "prompt_en": "Room 4 is isolation. What do you need?",
@@ -526,7 +518,7 @@
     {
       "type": "picture_choice",
       "from_card": "Bitte ziehen Sie Handschuhe an.",
-      "image": "p-17-06.jpg",
+      "supporting_image": "p-17-06.jpg",
       "speaker": "braun",
       "prompt_de": "Bitte ziehen Sie Handschuhe an.",
       "prompt_en": "Please put on gloves.",
@@ -541,7 +533,7 @@
     {
       "type": "situation_choice",
       "from_card": "Wir haben keine Handschuhe mehr.",
-      "image": "p-17-07.jpg",
+      "supporting_image": "p-17-07.jpg",
       "speaker": "lena",
       "prompt_de": null,
       "prompt_en": "Tell Lena there are no gloves left.",
@@ -555,7 +547,7 @@
     {
       "type": "choose_reply",
       "from_card": "Warum tragen Sie eine Maske?",
-      "image": "p-17-08.jpg",
+      "supporting_image": "p-17-08.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Warum tragen Sie eine Maske?",
       "prompt_en": "Why are you wearing a mask?",
@@ -569,7 +561,7 @@
     {
       "type": "choose_reply",
       "from_card": "Darf ich in Zimmer 4 gehen?",
-      "image": "p-17-09.jpg",
+      "supporting_image": "p-17-09.jpg",
       "speaker": "anna",
       "prompt_de": "Darf ich in Zimmer 4 gehen?",
       "prompt_en": "May I go into room 4?",
@@ -583,7 +575,7 @@
     {
       "type": "picture_choice",
       "from_card": "Das Bett ist schmutzig.",
-      "image": "p-17-10.jpg",
+      "supporting_image": "p-17-10.jpg",
       "speaker": "weber",
       "prompt_de": "Das Bett ist schmutzig.",
       "prompt_en": "The bed is dirty.",
@@ -600,7 +592,7 @@
     {
       "type": "document_question",
       "from_card": "Isolationsschild",
-      "image": "d-isolation.jpg",
+      "supporting_image": "d-isolation.jpg",
       "document": "Isolation door sign",
       "document_html": "<div class=\"sign\"><div class=\"sign-h\">ISOLATION</div><p>Bitte melden Sie sich im <b>Stationszimmer</b>.</p><p>Vor dem Betreten:</p><ul><li>Hände desinfizieren</li><li>Kittel · Maske · Handschuhe</li></ul><p>Besuch nur nach Absprache.</p></div>",
       "question_en": "What must visitors do first?",
@@ -614,7 +606,7 @@
     {
       "type": "document_question",
       "from_card": "Isolationsschild",
-      "image": "d-isolation.jpg",
+      "supporting_image": "d-isolation.jpg",
       "document": "Isolation door sign",
       "document_html": "<div class=\"sign\"><div class=\"sign-h\">ISOLATION</div><p>Bitte melden Sie sich im <b>Stationszimmer</b>.</p><p>Vor dem Betreten:</p><ul><li>Hände desinfizieren</li><li>Kittel · Maske · Handschuhe</li></ul><p>Besuch nur nach Absprache.</p></div>",
       "question_en": "What do you put on before going in?",
@@ -628,7 +620,7 @@
     {
       "type": "document_question",
       "from_card": "Isolationsschild",
-      "image": "d-isolation.jpg",
+      "supporting_image": "d-isolation.jpg",
       "document": "Isolation door sign",
       "document_html": "<div class=\"sign\"><div class=\"sign-h\">ISOLATION</div><p>Bitte melden Sie sich im <b>Stationszimmer</b>.</p><p>Vor dem Betreten:</p><ul><li>Hände desinfizieren</li><li>Kittel · Maske · Handschuhe</li></ul><p>Besuch nur nach Absprache.</p></div>",
       "question_en": "„Besuch nur nach Absprache“ means:",

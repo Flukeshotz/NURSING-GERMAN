@@ -590,12 +590,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Aufnahme",
-      "instruction": "What is this in German?",
-      "image": "w-admission.jpg",
-      "image_caption": "Admission",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Admission\" in German?",
+      "supporting_image": "w-admission.jpg",
       "options": [
         "die Aufnahme",
         "das EKG",
@@ -605,12 +603,10 @@
       "answer": "die Aufnahme"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Aufnahme",
-      "instruction": "What does it mean?",
-      "image": "w-admission.jpg",
-      "image_caption": "die Aufnahme",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Aufnahme\" mean?",
+      "supporting_image": "w-admission.jpg",
       "german": "die Aufnahme",
       "options": [
         "Admission",
@@ -621,12 +617,10 @@
       "answer": "Admission"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das EKG",
-      "instruction": "What is this in German?",
-      "image": "w-ecg.jpg",
-      "image_caption": "ECG",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"ECG\" in German?",
+      "supporting_image": "w-ecg.jpg",
       "options": [
         "das EKG",
         "die Aufnahme",
@@ -636,12 +630,10 @@
       "answer": "das EKG"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das EKG",
-      "instruction": "What does it mean?",
-      "image": "w-ecg.jpg",
-      "image_caption": "das EKG",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das EKG\" mean?",
+      "supporting_image": "w-ecg.jpg",
       "german": "das EKG",
       "options": [
         "ECG",
@@ -652,12 +644,10 @@
       "answer": "ECG"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das Röntgen",
-      "instruction": "What is this in German?",
-      "image": "w-x-ray.jpg",
-      "image_caption": "X-ray",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"X-ray\" in German?",
+      "supporting_image": "w-x-ray.jpg",
       "options": [
         "das Röntgen",
         "die Aufnahme",
@@ -667,12 +657,10 @@
       "answer": "das Röntgen"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das Röntgen",
-      "instruction": "What does it mean?",
-      "image": "w-x-ray.jpg",
-      "image_caption": "das Röntgen",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das Röntgen\" mean?",
+      "supporting_image": "w-x-ray.jpg",
       "german": "das Röntgen",
       "options": [
         "X-ray",
@@ -683,12 +671,10 @@
       "answer": "X-ray"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das CT",
-      "instruction": "What is this in German?",
-      "image": "w-ct-scan.jpg",
-      "image_caption": "CT scan",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"CT scan\" in German?",
+      "supporting_image": "w-ct-scan.jpg",
       "options": [
         "das CT",
         "die Aufnahme",
@@ -698,12 +684,10 @@
       "answer": "das CT"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das CT",
-      "instruction": "What does it mean?",
-      "image": "w-ct-scan.jpg",
-      "image_caption": "das CT",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das CT\" mean?",
+      "supporting_image": "w-ct-scan.jpg",
       "german": "das CT",
       "options": [
         "CT scan",
@@ -714,12 +698,10 @@
       "answer": "CT scan"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das MRT",
-      "instruction": "What is this in German?",
-      "image": "w-mri.jpg",
-      "image_caption": "MRI",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"MRI\" in German?",
+      "supporting_image": "w-mri.jpg",
       "options": [
         "das MRT",
         "die Aufnahme",
@@ -729,12 +711,10 @@
       "answer": "das MRT"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das MRT",
-      "instruction": "What does it mean?",
-      "image": "w-mri.jpg",
-      "image_caption": "das MRT",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das MRT\" mean?",
+      "supporting_image": "w-mri.jpg",
       "german": "das MRT",
       "options": [
         "MRI",
@@ -747,7 +727,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich bin neu hier. Ich habe einen Termin.",
-      "image": "p-13-01.jpg",
+      "supporting_image": "p-13-01.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich bin neu hier. Ich habe einen Termin.",
       "prompt_en": "I'm new here. I have an appointment.",
@@ -761,7 +741,7 @@
     {
       "type": "choose_reply",
       "from_card": "Mein Name ist Emre Yılmaz.",
-      "image": "p-13-02.jpg",
+      "supporting_image": "p-13-02.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Mein Name ist Emre Yılmaz.",
       "prompt_en": "My name is Emre Yılmaz.",
@@ -775,7 +755,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Meine Nummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben.",
-      "image": "p-13-03.jpg",
+      "supporting_image": "p-13-03.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Meine Nummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben.",
       "prompt_en": "His phone number:",
@@ -790,7 +770,7 @@
     {
       "type": "situation_choice",
       "from_card": "Welche Medikamente nehmen Sie?",
-      "image": "p-13-04.jpg",
+      "supporting_image": "p-13-04.jpg",
       "speaker": "yilmaz",
       "prompt_de": null,
       "prompt_en": "Ask Herr Yılmaz which medicines he takes.",
@@ -804,7 +784,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich nehme Tabletten für den Blutdruck.",
-      "image": "p-13-05.jpg",
+      "supporting_image": "p-13-05.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich nehme Tabletten für den Blutdruck.",
       "prompt_en": "I take tablets for my blood pressure.",
@@ -818,7 +798,7 @@
     {
       "type": "situation_choice",
       "from_card": "Wen können wir anrufen?",
-      "image": "p-13-06.jpg",
+      "supporting_image": "p-13-06.jpg",
       "speaker": "yilmaz",
       "prompt_de": null,
       "prompt_en": "Ask Herr Yılmaz who you can call if needed.",
@@ -832,7 +812,7 @@
     {
       "type": "choose_reply",
       "from_card": "Meine Frau. Ihre Nummer ist im Handy.",
-      "image": "p-13-07.jpg",
+      "supporting_image": "p-13-07.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Meine Frau. Ihre Nummer ist im Handy.",
       "prompt_en": "My wife. Her number is in my phone.",
@@ -846,7 +826,7 @@
     {
       "type": "picture_choice",
       "from_card": "Wo ist mein Schrank?",
-      "image": "p-13-08.jpg",
+      "supporting_image": "p-13-08.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Wo ist mein Schrank?",
       "prompt_en": "Where is my wardrobe?",
@@ -863,7 +843,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wo kann ich mein Handy laden?",
-      "image": "p-13-09.jpg",
+      "supporting_image": "p-13-09.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Wo kann ich mein Handy laden?",
       "prompt_en": "Where can I charge my phone?",
@@ -877,7 +857,7 @@
     {
       "type": "picture_choice",
       "from_card": "Wie mache ich das Licht an?",
-      "image": "p-13-10.jpg",
+      "supporting_image": "p-13-10.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Wie mache ich das Licht an?",
       "prompt_en": "How do I switch on the light?",
@@ -894,7 +874,7 @@
     {
       "type": "document_question",
       "from_card": "Patientenarmband",
-      "image": "d-band.jpg",
+      "supporting_image": "d-band.jpg",
       "document": "Patient wristband",
       "document_html": "<h4>PATIENTENARMBAND</h4><div class=\"band\"><b>Yılmaz, Emre</b><span>* 12.03.1981</span><span>Station 3 · Zi. 3</span><span class=\"hi\">ALLERGIE: Penicillin</span></div>",
       "question_en": "What is the patient's first name?",
@@ -908,7 +888,7 @@
     {
       "type": "document_question",
       "from_card": "Patientenarmband",
-      "image": "d-band.jpg",
+      "supporting_image": "d-band.jpg",
       "document": "Patient wristband",
       "document_html": "<h4>PATIENTENARMBAND</h4><div class=\"band\"><b>Yılmaz, Emre</b><span>* 12.03.1981</span><span>Station 3 · Zi. 3</span><span class=\"hi\">ALLERGIE: Penicillin</span></div>",
       "question_en": "Which allergy does he have?",
@@ -922,7 +902,7 @@
     {
       "type": "document_question",
       "from_card": "Patientenarmband",
-      "image": "d-band.jpg",
+      "supporting_image": "d-band.jpg",
       "document": "Patient wristband",
       "document_html": "<h4>PATIENTENARMBAND</h4><div class=\"band\"><b>Yılmaz, Emre</b><span>* 12.03.1981</span><span>Station 3 · Zi. 3</span><span class=\"hi\">ALLERGIE: Penicillin</span></div>",
       "question_en": "Which room is he in?",
@@ -936,7 +916,7 @@
     {
       "type": "document_question",
       "from_card": "Aufnahmebogen",
-      "image": "d-admission.jpg",
+      "supporting_image": "d-admission.jpg",
       "document": "Admission form",
       "document_html": "<h4>AUFNAHMEBOGEN</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Name</td><td>Schmidt, Klaus</td></tr><tr><td>Geburtsdatum</td><td>14.07.1959</td></tr><tr><td>Kontaktperson</td><td>Tochter: Sabine Schmidt</td></tr>\n   <tr><td>Allergien</td><td>keine</td></tr><tr><td>Medikamente</td><td>Ramipril 5 mg 1-0-0-0</td></tr><tr><td>Hilfsmittel</td><td>Brille, Rollator</td></tr></table></div>",
       "question_en": "Who is his contact person?",
@@ -950,7 +930,7 @@
     {
       "type": "document_question",
       "from_card": "Aufnahmebogen",
-      "image": "d-admission.jpg",
+      "supporting_image": "d-admission.jpg",
       "document": "Admission form",
       "document_html": "<h4>AUFNAHMEBOGEN</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Name</td><td>Schmidt, Klaus</td></tr><tr><td>Geburtsdatum</td><td>14.07.1959</td></tr><tr><td>Kontaktperson</td><td>Tochter: Sabine Schmidt</td></tr>\n   <tr><td>Allergien</td><td>keine</td></tr><tr><td>Medikamente</td><td>Ramipril 5 mg 1-0-0-0</td></tr><tr><td>Hilfsmittel</td><td>Brille, Rollator</td></tr></table></div>",
       "question_en": "Does he have allergies?",
@@ -964,7 +944,7 @@
     {
       "type": "document_question",
       "from_card": "Aufnahmebogen",
-      "image": "d-admission.jpg",
+      "supporting_image": "d-admission.jpg",
       "document": "Admission form",
       "document_html": "<h4>AUFNAHMEBOGEN</h4><div class=\"doc-wrap\"><table>\n   <tr><td>Name</td><td>Schmidt, Klaus</td></tr><tr><td>Geburtsdatum</td><td>14.07.1959</td></tr><tr><td>Kontaktperson</td><td>Tochter: Sabine Schmidt</td></tr>\n   <tr><td>Allergien</td><td>keine</td></tr><tr><td>Medikamente</td><td>Ramipril 5 mg 1-0-0-0</td></tr><tr><td>Hilfsmittel</td><td>Brille, Rollator</td></tr></table></div>",
       "question_en": "Which aids does he use?",
@@ -978,7 +958,7 @@
     {
       "type": "spelling",
       "from_card": "Weber",
-      "image": "s-weber.jpg",
+      "supporting_image": "s-weber.jpg",
       "audio_letters": [
         "W",
         "E",
@@ -996,7 +976,7 @@
     {
       "type": "spelling",
       "from_card": "Schmidt",
-      "image": "s-schmidt.jpg",
+      "supporting_image": "s-schmidt.jpg",
       "audio_letters": [
         "S",
         "C",

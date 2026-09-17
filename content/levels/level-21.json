@@ -382,12 +382,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Entlassung",
-      "instruction": "What is this in German?",
-      "image": "w-discharge.jpg",
-      "image_caption": "Discharge",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Discharge\" in German?",
+      "supporting_image": "w-discharge.jpg",
       "options": [
         "die Entlassung",
         "die Pflegekraft",
@@ -397,12 +395,10 @@
       "answer": "die Entlassung"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Entlassung",
-      "instruction": "What does it mean?",
-      "image": "w-discharge.jpg",
-      "image_caption": "die Entlassung",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Entlassung\" mean?",
+      "supporting_image": "w-discharge.jpg",
       "german": "die Entlassung",
       "options": [
         "Discharge",
@@ -415,7 +411,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wann kann ich nach Hause?",
-      "image": "p-14-01.jpg",
+      "supporting_image": "p-14-01.jpg",
       "speaker": "schmidt",
       "prompt_de": "Wann kann ich nach Hause?",
       "prompt_en": "When can I go home?",
@@ -429,7 +425,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wann kann ich meine Mutter abholen?",
-      "image": "p-14-02.jpg",
+      "supporting_image": "p-14-02.jpg",
       "speaker": "anna",
       "prompt_de": "Wann kann ich meine Mutter abholen?",
       "prompt_en": "When can I pick up my mother?",
@@ -443,7 +439,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Herr Schmidt geht morgen um 10 Uhr nach Hause.",
-      "image": "p-14-03.jpg",
+      "supporting_image": "p-14-03.jpg",
       "speaker": "braun",
       "prompt_de": "Herr Schmidt geht morgen um 10 Uhr nach Hause.",
       "prompt_en": "Discharge:",
@@ -458,7 +454,7 @@
     {
       "type": "picture_choice",
       "from_card": "Wo ist mein Arztbrief?",
-      "image": "p-14-04.jpg",
+      "supporting_image": "p-14-04.jpg",
       "speaker": "schmidt",
       "prompt_de": "Wo ist mein Arztbrief?",
       "prompt_en": "Where is my doctor's letter?",
@@ -475,7 +471,7 @@
     {
       "type": "situation_choice",
       "from_card": "Bitte bringen Sie den Brief zum Hausarzt.",
-      "image": "p-14-05.jpg",
+      "supporting_image": "p-14-05.jpg",
       "speaker": "schmidt",
       "prompt_de": null,
       "prompt_en": "Tell Herr Schmidt to take the letter to his family doctor.",
@@ -489,7 +485,7 @@
     {
       "type": "choose_reply",
       "from_card": "Muss ich die Tabletten weiter nehmen?",
-      "image": "p-14-06.jpg",
+      "supporting_image": "p-14-06.jpg",
       "speaker": "schmidt",
       "prompt_de": "Muss ich die Tabletten weiter nehmen?",
       "prompt_en": "Do I have to keep taking the tablets?",
@@ -503,7 +499,7 @@
     {
       "type": "picture_choice",
       "from_card": "Wo sind meine Sachen?",
-      "image": "p-14-07.jpg",
+      "supporting_image": "p-14-07.jpg",
       "speaker": "weber",
       "prompt_de": "Wo sind meine Sachen?",
       "prompt_en": "Where are my things?",
@@ -520,7 +516,7 @@
     {
       "type": "situation_choice",
       "from_card": "Haben Sie alles?",
-      "image": "p-14-08.jpg",
+      "supporting_image": "p-14-08.jpg",
       "speaker": "weber",
       "prompt_de": null,
       "prompt_en": "Ask Frau Weber if she has everything.",
@@ -534,7 +530,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich brauche ein Taxi.",
-      "image": "p-14-09.jpg",
+      "supporting_image": "p-14-09.jpg",
       "speaker": "weber",
       "prompt_de": "Ich brauche ein Taxi.",
       "prompt_en": "I need a taxi.",
@@ -548,7 +544,7 @@
     {
       "type": "choose_reply",
       "from_card": "Vielen Dank für alles!",
-      "image": "p-14-10.jpg",
+      "supporting_image": "p-14-10.jpg",
       "speaker": "weber",
       "prompt_de": "Vielen Dank für alles!",
       "prompt_en": "Thank you for everything!",
@@ -562,7 +558,7 @@
     {
       "type": "document_question",
       "from_card": "Terminzettel",
-      "image": "d-appointment.jpg",
+      "supporting_image": "d-appointment.jpg",
       "document": "Appointment slip",
       "document_html": "<h4>TERMIN</h4><div class=\"doc-wrap\"><table><tr><td>Patientin</td><td>Weber, Erika</td></tr><tr><td>Untersuchung</td><td>Röntgen Thorax</td></tr><tr><td>Datum</td><td>Dienstag</td></tr>\n   <tr><td>Uhrzeit</td><td>10:30</td></tr><tr><td>Ort</td><td>Erdgeschoss, Raum 014</td></tr><tr><td>Nüchtern</td><td>nein</td></tr><tr><td>Transport</td><td>Rollstuhl</td></tr></table></div>",
       "question_en": "What time is the X-ray?",
@@ -576,7 +572,7 @@
     {
       "type": "document_question",
       "from_card": "Terminzettel",
-      "image": "d-appointment.jpg",
+      "supporting_image": "d-appointment.jpg",
       "document": "Appointment slip",
       "document_html": "<h4>TERMIN</h4><div class=\"doc-wrap\"><table><tr><td>Patientin</td><td>Weber, Erika</td></tr><tr><td>Untersuchung</td><td>Röntgen Thorax</td></tr><tr><td>Datum</td><td>Dienstag</td></tr>\n   <tr><td>Uhrzeit</td><td>10:30</td></tr><tr><td>Ort</td><td>Erdgeschoss, Raum 014</td></tr><tr><td>Nüchtern</td><td>nein</td></tr><tr><td>Transport</td><td>Rollstuhl</td></tr></table></div>",
       "question_en": "How does Frau Weber get there?",
@@ -590,7 +586,7 @@
     {
       "type": "document_question",
       "from_card": "Terminzettel",
-      "image": "d-appointment.jpg",
+      "supporting_image": "d-appointment.jpg",
       "document": "Appointment slip",
       "document_html": "<h4>TERMIN</h4><div class=\"doc-wrap\"><table><tr><td>Patientin</td><td>Weber, Erika</td></tr><tr><td>Untersuchung</td><td>Röntgen Thorax</td></tr><tr><td>Datum</td><td>Dienstag</td></tr>\n   <tr><td>Uhrzeit</td><td>10:30</td></tr><tr><td>Ort</td><td>Erdgeschoss, Raum 014</td></tr><tr><td>Nüchtern</td><td>nein</td></tr><tr><td>Transport</td><td>Rollstuhl</td></tr></table></div>",
       "question_en": "Does she have to be „nüchtern“?",

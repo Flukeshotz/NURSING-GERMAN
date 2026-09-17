@@ -349,12 +349,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Angehörigen·pl",
-      "instruction": "What is this in German?",
-      "image": "w-bystander-attendant.jpg",
-      "image_caption": "Bystander / attendant",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Bystander / attendant\" in German?",
+      "supporting_image": "w-bystander-attendant.jpg",
       "options": [
         "die Angehörigen·pl",
         "die Pflegekraft",
@@ -364,12 +362,10 @@
       "answer": "die Angehörigen·pl"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Angehörigen·pl",
-      "instruction": "What does it mean?",
-      "image": "w-bystander-attendant.jpg",
-      "image_caption": "die Angehörigen·pl",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Angehörigen\" mean?",
+      "supporting_image": "w-bystander-attendant.jpg",
       "german": "die Angehörigen·pl",
       "options": [
         "Bystander / attendant",
@@ -382,7 +378,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich habe Angst.",
-      "image": "p-12-01.jpg",
+      "supporting_image": "p-12-01.jpg",
       "speaker": "weber",
       "prompt_de": "Ich habe Angst.",
       "prompt_en": "I'm scared.",
@@ -396,7 +392,7 @@
     {
       "type": "choose_reply",
       "from_card": "Schwester! Schwester!",
-      "image": "p-12-02.jpg",
+      "supporting_image": "p-12-02.jpg",
       "speaker": "schmidt",
       "prompt_de": "Schwester! Schwester!",
       "prompt_en": "Herr Schmidt calls loudly.",
@@ -412,7 +408,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wann kommt der Arzt?",
-      "image": "p-12-03.jpg",
+      "supporting_image": "p-12-03.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Wann kommt der Arzt?",
       "prompt_en": "When is the doctor coming?",
@@ -426,7 +422,7 @@
     {
       "type": "situation_choice",
       "from_card": "Frau Weber, was ist denn los?",
-      "image": "p-12-07.jpg",
+      "supporting_image": "p-12-07.jpg",
       "speaker": "weber",
       "prompt_de": null,
       "prompt_en": "Frau Weber is crying. Ask what's wrong.",
@@ -440,7 +436,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ich möchte nach Hause.",
-      "image": "p-12-05.jpg",
+      "supporting_image": "p-12-05.jpg",
       "speaker": "weber",
       "prompt_de": "Ich möchte nach Hause.",
       "prompt_en": "I want to go home.",
@@ -454,7 +450,7 @@
     {
       "type": "choose_reply",
       "from_card": "Das Essen ist schlecht!",
-      "image": "p-12-06.jpg",
+      "supporting_image": "p-12-06.jpg",
       "speaker": "schmidt",
       "prompt_de": "Das Essen ist schlecht!",
       "prompt_en": "The food is bad!",
@@ -468,7 +464,7 @@
     {
       "type": "choose_reply",
       "from_card": "Darf ich hier bleiben?",
-      "image": "p-12-09.jpg",
+      "supporting_image": "p-12-09.jpg",
       "speaker": "anna",
       "prompt_de": "Darf ich hier bleiben?",
       "prompt_en": "May I stay here? (It's 21:00. Visiting time is over.)",
@@ -482,7 +478,7 @@
     {
       "type": "choose_reply",
       "from_card": "Ist meine Mutter okay?",
-      "image": "p-12-04.jpg",
+      "supporting_image": "p-12-04.jpg",
       "speaker": "anna",
       "prompt_de": "Ist meine Mutter okay?",
       "prompt_en": "Is my mother okay?",
@@ -496,7 +492,7 @@
     {
       "type": "choose_reply",
       "from_card": "Danke, Schwester Priya!",
-      "image": "p-12-08.jpg",
+      "supporting_image": "p-12-08.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Danke, Schwester Priya!",
       "prompt_en": "Thank you, nurse Priya!",
@@ -510,7 +506,7 @@
     {
       "type": "choose_reply",
       "from_card": "Sie sind sehr nett.",
-      "image": "p-12-10.jpg",
+      "supporting_image": "p-12-10.jpg",
       "speaker": "weber",
       "prompt_de": "Sie sind sehr nett.",
       "prompt_en": "You're very kind.",

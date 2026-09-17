@@ -559,12 +559,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Station",
-      "instruction": "What is this in German?",
-      "image": "w-ward.jpg",
-      "image_caption": "Ward",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Ward\" in German?",
+      "supporting_image": "w-ward.jpg",
       "options": [
         "die Station",
         "das Stationszimmer",
@@ -574,12 +572,10 @@
       "answer": "die Station"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Station",
-      "instruction": "What does it mean?",
-      "image": "w-ward.jpg",
-      "image_caption": "die Station",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Station\" mean?",
+      "supporting_image": "w-ward.jpg",
       "german": "die Station",
       "options": [
         "Ward",
@@ -590,12 +586,10 @@
       "answer": "Ward"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das Stationszimmer",
-      "instruction": "What is this in German?",
-      "image": "w-nurses-station.jpg",
-      "image_caption": "Nurses' station",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Nurses' station\" in German?",
+      "supporting_image": "w-nurses-station.jpg",
       "options": [
         "das Stationszimmer",
         "die Station",
@@ -605,12 +599,10 @@
       "answer": "das Stationszimmer"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das Stationszimmer",
-      "instruction": "What does it mean?",
-      "image": "w-nurses-station.jpg",
-      "image_caption": "das Stationszimmer",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das Stationszimmer\" mean?",
+      "supporting_image": "w-nurses-station.jpg",
       "german": "das Stationszimmer",
       "options": [
         "Nurses' station",
@@ -621,12 +613,10 @@
       "answer": "Nurses' station"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Pausenraum",
-      "instruction": "What is this in German?",
-      "image": "w-staff-room.jpg",
-      "image_caption": "Staff room",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Staff room\" in German?",
+      "supporting_image": "w-staff-room.jpg",
       "options": [
         "der Pausenraum",
         "die Station",
@@ -636,12 +626,10 @@
       "answer": "der Pausenraum"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Pausenraum",
-      "instruction": "What does it mean?",
-      "image": "w-staff-room.jpg",
-      "image_caption": "der Pausenraum",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Pausenraum\" mean?",
+      "supporting_image": "w-staff-room.jpg",
       "german": "der Pausenraum",
       "options": [
         "Staff room",
@@ -652,12 +640,10 @@
       "answer": "Staff room"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Umkleide",
-      "instruction": "What is this in German?",
-      "image": "w-changing-room.jpg",
-      "image_caption": "Changing room",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Changing room\" in German?",
+      "supporting_image": "w-changing-room.jpg",
       "options": [
         "die Umkleide",
         "die Station",
@@ -667,12 +653,10 @@
       "answer": "die Umkleide"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Umkleide",
-      "instruction": "What does it mean?",
-      "image": "w-changing-room.jpg",
-      "image_caption": "die Umkleide",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Umkleide\" mean?",
+      "supporting_image": "w-changing-room.jpg",
       "german": "die Umkleide",
       "options": [
         "Changing room",
@@ -683,12 +667,10 @@
       "answer": "Changing room"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Notaufnahme",
-      "instruction": "What is this in German?",
-      "image": "w-casualty.jpg",
-      "image_caption": "Casualty",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Casualty\" in German?",
+      "supporting_image": "w-casualty.jpg",
       "options": [
         "die Notaufnahme",
         "die Station",
@@ -698,12 +680,10 @@
       "answer": "die Notaufnahme"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Notaufnahme",
-      "instruction": "What does it mean?",
-      "image": "w-casualty.jpg",
-      "image_caption": "die Notaufnahme",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Notaufnahme\" mean?",
+      "supporting_image": "w-casualty.jpg",
       "german": "die Notaufnahme",
       "options": [
         "Casualty",
@@ -714,12 +694,10 @@
       "answer": "Casualty"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Intensivstation",
-      "instruction": "What is this in German?",
-      "image": "w-icu.jpg",
-      "image_caption": "ICU",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"ICU\" in German?",
+      "supporting_image": "w-icu.jpg",
       "options": [
         "die Intensivstation",
         "die Station",
@@ -729,12 +707,10 @@
       "answer": "die Intensivstation"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Intensivstation",
-      "instruction": "What does it mean?",
-      "image": "w-icu.jpg",
-      "image_caption": "die Intensivstation",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Intensivstation\" mean?",
+      "supporting_image": "w-icu.jpg",
       "german": "die Intensivstation",
       "options": [
         "ICU",
@@ -745,12 +721,10 @@
       "answer": "ICU"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der OP",
-      "instruction": "What is this in German?",
-      "image": "w-ot.jpg",
-      "image_caption": "OT",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"OT\" in German?",
+      "supporting_image": "w-ot.jpg",
       "options": [
         "der OP",
         "die Station",
@@ -760,12 +734,10 @@
       "answer": "der OP"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der OP",
-      "instruction": "What does it mean?",
-      "image": "w-ot.jpg",
-      "image_caption": "der OP",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der OP\" mean?",
+      "supporting_image": "w-ot.jpg",
       "german": "der OP",
       "options": [
         "OT",
@@ -776,12 +748,10 @@
       "answer": "OT"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "das Labor",
-      "instruction": "What is this in German?",
-      "image": "w-lab.jpg",
-      "image_caption": "Lab",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Lab\" in German?",
+      "supporting_image": "w-lab.jpg",
       "options": [
         "das Labor",
         "die Station",
@@ -791,12 +761,10 @@
       "answer": "das Labor"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "das Labor",
-      "instruction": "What does it mean?",
-      "image": "w-lab.jpg",
-      "image_caption": "das Labor",
-      "image_caption_lang": "de",
+      "question_en": "What does \"das Labor\" mean?",
+      "supporting_image": "w-lab.jpg",
       "german": "das Labor",
       "options": [
         "Lab",
@@ -807,12 +775,10 @@
       "answer": "Lab"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Apotheke",
-      "instruction": "What is this in German?",
-      "image": "w-pharmacy.jpg",
-      "image_caption": "Pharmacy",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Pharmacy\" in German?",
+      "supporting_image": "w-pharmacy.jpg",
       "options": [
         "die Apotheke",
         "die Station",
@@ -822,12 +788,10 @@
       "answer": "die Apotheke"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Apotheke",
-      "instruction": "What does it mean?",
-      "image": "w-pharmacy.jpg",
-      "image_caption": "die Apotheke",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Apotheke\" mean?",
+      "supporting_image": "w-pharmacy.jpg",
       "german": "die Apotheke",
       "options": [
         "Pharmacy",
@@ -838,12 +802,10 @@
       "answer": "Pharmacy"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Kreißsaal",
-      "instruction": "What is this in German?",
-      "image": "w-labour-room.jpg",
-      "image_caption": "Labour room",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Labour room\" in German?",
+      "supporting_image": "w-labour-room.jpg",
       "options": [
         "der Kreißsaal",
         "die Station",
@@ -853,12 +815,10 @@
       "answer": "der Kreißsaal"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Kreißsaal",
-      "instruction": "What does it mean?",
-      "image": "w-labour-room.jpg",
-      "image_caption": "der Kreißsaal",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Kreißsaal\" mean?",
+      "supporting_image": "w-labour-room.jpg",
       "german": "der Kreißsaal",
       "options": [
         "Labour room",
@@ -869,12 +829,10 @@
       "answer": "Labour room"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Ambulanz",
-      "instruction": "What is this in German?",
-      "image": "w-opd-outpatient-department.jpg",
-      "image_caption": "OPD (outpatient department)",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"OPD (outpatient department)\" in German?",
+      "supporting_image": "w-opd-outpatient-department.jpg",
       "options": [
         "die Ambulanz",
         "die Station",
@@ -884,12 +842,10 @@
       "answer": "die Ambulanz"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Ambulanz",
-      "instruction": "What does it mean?",
-      "image": "w-opd-outpatient-department.jpg",
-      "image_caption": "die Ambulanz",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Ambulanz\" mean?",
+      "supporting_image": "w-opd-outpatient-department.jpg",
       "german": "die Ambulanz",
       "options": [
         "OPD (outpatient department)",
@@ -900,12 +856,10 @@
       "answer": "OPD (outpatient department)"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "der Krankenwagen",
-      "instruction": "What is this in German?",
-      "image": "w-ambulance.jpg",
-      "image_caption": "Ambulance",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Ambulance\" in German?",
+      "supporting_image": "w-ambulance.jpg",
       "options": [
         "der Krankenwagen",
         "die Station",
@@ -915,12 +869,10 @@
       "answer": "der Krankenwagen"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "der Krankenwagen",
-      "instruction": "What does it mean?",
-      "image": "w-ambulance.jpg",
-      "image_caption": "der Krankenwagen",
-      "image_caption_lang": "de",
+      "question_en": "What does \"der Krankenwagen\" mean?",
+      "supporting_image": "w-ambulance.jpg",
       "german": "der Krankenwagen",
       "options": [
         "Ambulance",
@@ -931,12 +883,10 @@
       "answer": "Ambulance"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Trage",
-      "instruction": "What is this in German?",
-      "image": "w-stretcher.jpg",
-      "image_caption": "Stretcher",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Stretcher\" in German?",
+      "supporting_image": "w-stretcher.jpg",
       "options": [
         "die Trage",
         "die Station",
@@ -946,12 +896,10 @@
       "answer": "die Trage"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Trage",
-      "instruction": "What does it mean?",
-      "image": "w-stretcher.jpg",
-      "image_caption": "die Trage",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Trage\" mean?",
+      "supporting_image": "w-stretcher.jpg",
       "german": "die Trage",
       "options": [
         "Stretcher",
@@ -964,7 +912,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wo ist die Toilette?",
-      "image": "p-02-01.jpg",
+      "supporting_image": "p-02-01.jpg",
       "speaker": "schmidt",
       "prompt_de": "Wo ist die Toilette?",
       "prompt_en": "Where is the toilet?",
@@ -978,7 +926,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ich suche den Aufzug.",
-      "image": "p-02-02.jpg",
+      "supporting_image": "p-02-02.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Ich suche den Aufzug.",
       "prompt_en": "I'm looking for the lift.",
@@ -995,7 +943,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wo ist Zimmer 1?",
-      "image": "p-02-03.jpg",
+      "supporting_image": "p-02-03.jpg",
       "speaker": "anna",
       "prompt_de": "Wo ist Zimmer 1?",
       "prompt_en": "Where is room 1?",
@@ -1009,7 +957,7 @@
     {
       "type": "choose_reply",
       "from_card": "Gibt es hier eine Cafeteria?",
-      "image": "p-02-05.jpg",
+      "supporting_image": "p-02-05.jpg",
       "speaker": "anna",
       "prompt_de": "Gibt es hier eine Cafeteria?",
       "prompt_en": "Is there a cafeteria here?",
@@ -1023,7 +971,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wo ist mein Zimmer?",
-      "image": "p-02-08.jpg",
+      "supporting_image": "p-02-08.jpg",
       "speaker": "schmidt",
       "prompt_de": "Wo ist mein Zimmer?",
       "prompt_en": "Where is my room?",
@@ -1037,7 +985,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wo ist Frau Weber?",
-      "image": "p-02-06.jpg",
+      "supporting_image": "p-02-06.jpg",
       "speaker": "braun",
       "prompt_de": "Wo ist Frau Weber?",
       "prompt_en": "Where is Frau Weber?",
@@ -1051,7 +999,7 @@
     {
       "type": "picture_choice",
       "from_card": "Ein Patient ist in der Notaufnahme.",
-      "image": "p-02-07.jpg",
+      "supporting_image": "p-02-07.jpg",
       "speaker": "lena",
       "prompt_de": "Ein Patient ist in der Notaufnahme.",
       "prompt_en": "A patient is in the emergency room.",
@@ -1066,7 +1014,7 @@
     {
       "type": "picture_choice",
       "from_card": "Bring bitte den Rollstuhl in Zimmer 2.",
-      "image": "p-02-04.jpg",
+      "supporting_image": "p-02-04.jpg",
       "speaker": "lena",
       "prompt_de": "Bring bitte den Rollstuhl in Zimmer 2.",
       "prompt_en": "Please bring the wheelchair to room 2.",
@@ -1083,7 +1031,7 @@
     {
       "type": "picture_choice",
       "from_card": "Das Fenster ist offen. Es ist kalt.",
-      "image": "p-02-09.jpg",
+      "supporting_image": "p-02-09.jpg",
       "speaker": "weber",
       "prompt_de": "Das Fenster ist offen. Es ist kalt.",
       "prompt_en": "The window is open. It's cold.",

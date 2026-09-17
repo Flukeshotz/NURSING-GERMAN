@@ -411,12 +411,10 @@
   ],
   "quiz_pool": [
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Visite",
-      "instruction": "What is this in German?",
-      "image": "w-ward-round.jpg",
-      "image_caption": "Ward round",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Ward round\" in German?",
+      "supporting_image": "w-ward-round.jpg",
       "options": [
         "die Visite",
         "die Operation",
@@ -426,12 +424,10 @@
       "answer": "die Visite"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Visite",
-      "instruction": "What does it mean?",
-      "image": "w-ward-round.jpg",
-      "image_caption": "die Visite",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Visite\" mean?",
+      "supporting_image": "w-ward-round.jpg",
       "german": "die Visite",
       "options": [
         "Ward round",
@@ -442,12 +438,10 @@
       "answer": "Ward round"
     },
     {
-      "type": "image_choice",
+      "type": "translate_to_german",
       "from_card": "die Operation",
-      "instruction": "What is this in German?",
-      "image": "w-operation.jpg",
-      "image_caption": "Operation",
-      "image_caption_lang": "en",
+      "question_en": "How do you say \"Operation\" in German?",
+      "supporting_image": "w-operation.jpg",
       "options": [
         "die Operation",
         "die Visite",
@@ -457,12 +451,10 @@
       "answer": "die Operation"
     },
     {
-      "type": "meaning_choice",
+      "type": "translate_to_english",
       "from_card": "die Operation",
-      "instruction": "What does it mean?",
-      "image": "w-operation.jpg",
-      "image_caption": "die Operation",
-      "image_caption_lang": "de",
+      "question_en": "What does \"die Operation\" mean?",
+      "supporting_image": "w-operation.jpg",
       "german": "die Operation",
       "options": [
         "Operation",
@@ -475,7 +467,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Ich habe heute Frühdienst. Von 6 bis 14 Uhr.",
-      "image": "p-07-01.jpg",
+      "supporting_image": "p-07-01.jpg",
       "speaker": "lena",
       "prompt_de": "Ich habe heute Frühdienst. Von 6 bis 14 Uhr.",
       "prompt_en": "Lena's shift:",
@@ -490,7 +482,7 @@
     {
       "type": "choose_reply",
       "from_card": "Du hast morgen Spätdienst.",
-      "image": "p-07-02.jpg",
+      "supporting_image": "p-07-02.jpg",
       "speaker": "lena",
       "prompt_de": "Du hast morgen Spätdienst.",
       "prompt_en": "Which shift do you have tomorrow?",
@@ -504,7 +496,7 @@
     {
       "type": "choose_reply",
       "from_card": "Arbeitest du am Samstag?",
-      "image": "p-07-08.jpg",
+      "supporting_image": "p-07-08.jpg",
       "speaker": "lena",
       "prompt_de": "Arbeitest du am Samstag?",
       "prompt_en": "Do you work on Saturday? (You're off.)",
@@ -518,7 +510,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Die Visite ist um halb neun.",
-      "image": "p-07-03.jpg",
+      "supporting_image": "p-07-03.jpg",
       "speaker": "braun",
       "prompt_de": "Die Visite ist um halb neun.",
       "prompt_en": "Ward round at:",
@@ -533,7 +525,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Die Tablette um Viertel nach acht.",
-      "image": "p-07-05.jpg",
+      "supporting_image": "p-07-05.jpg",
       "speaker": "lena",
       "prompt_de": "Die Tablette um Viertel nach acht.",
       "prompt_en": "Medication time:",
@@ -548,7 +540,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wie spät ist es?",
-      "image": "p-07-06.jpg",
+      "supporting_image": "p-07-06.jpg",
       "speaker": "yilmaz",
       "prompt_de": "Wie spät ist es?",
       "prompt_en": "What time is it? (The clock shows 10:00.)",
@@ -562,7 +554,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Die Operation ist am Dienstag um Viertel vor zehn.",
-      "image": "p-07-09.jpg",
+      "supporting_image": "p-07-09.jpg",
       "speaker": "braun",
       "prompt_de": "Die Operation ist am Dienstag um Viertel vor zehn.",
       "prompt_en": "Operation:",
@@ -577,7 +569,7 @@
     {
       "type": "choose_reply",
       "from_card": "Wann gibt es Mittagessen?",
-      "image": "p-07-04.jpg",
+      "supporting_image": "p-07-04.jpg",
       "speaker": "weber",
       "prompt_de": "Wann gibt es Mittagessen?",
       "prompt_en": "When is lunch?",
@@ -591,7 +583,7 @@
     {
       "type": "listen_and_note",
       "from_card": "Besuchszeit ist von 15 bis 18 Uhr.",
-      "image": "p-07-07.jpg",
+      "supporting_image": "p-07-07.jpg",
       "speaker": "lena",
       "prompt_de": "Besuchszeit ist von 15 bis 18 Uhr.",
       "prompt_en": "Visiting hours:",
@@ -606,7 +598,7 @@
     {
       "type": "choose_reply",
       "from_card": "Gute Nacht, Schwester!",
-      "image": "p-07-10.jpg",
+      "supporting_image": "p-07-10.jpg",
       "speaker": "weber",
       "prompt_de": "Gute Nacht, Schwester!",
       "prompt_en": "It's late. Frau Weber says good night.",
@@ -620,7 +612,7 @@
     {
       "type": "document_question",
       "from_card": "Dienstplan",
-      "image": "d-roster.jpg",
+      "supporting_image": "d-roster.jpg",
       "document": "Duty roster",
       "document_html": "<h4>DIENSTPLAN · STATION 3</h4><div class=\"dmeta\">F = Früh 6–14 · S = Spät 14–22 · N = Nacht 22–6</div>\n   <div class=\"doc-wrap\"><table><tr><th></th><th>Mo</th><th>Di</th><th>Mi</th><th>Do</th><th>Fr</th></tr>\n   <tr><td>Lena</td><td>F</td><td>F</td><td>S</td><td>frei</td><td>N</td></tr>\n   <tr><td>Priya</td><td>S</td><td>S</td><td>F</td><td>F</td><td>frei</td></tr></table></div>",
       "question_en": "When does Priya have a day off?",
@@ -634,7 +626,7 @@
     {
       "type": "document_question",
       "from_card": "Dienstplan",
-      "image": "d-roster.jpg",
+      "supporting_image": "d-roster.jpg",
       "document": "Duty roster",
       "document_html": "<h4>DIENSTPLAN · STATION 3</h4><div class=\"dmeta\">F = Früh 6–14 · S = Spät 14–22 · N = Nacht 22–6</div>\n   <div class=\"doc-wrap\"><table><tr><th></th><th>Mo</th><th>Di</th><th>Mi</th><th>Do</th><th>Fr</th></tr>\n   <tr><td>Lena</td><td>F</td><td>F</td><td>S</td><td>frei</td><td>N</td></tr>\n   <tr><td>Priya</td><td>S</td><td>S</td><td>F</td><td>F</td><td>frei</td></tr></table></div>",
       "question_en": "What time does Lena start on Wednesday?",
@@ -648,7 +640,7 @@
     {
       "type": "document_question",
       "from_card": "Dienstplan",
-      "image": "d-roster.jpg",
+      "supporting_image": "d-roster.jpg",
       "document": "Duty roster",
       "document_html": "<h4>DIENSTPLAN · STATION 3</h4><div class=\"dmeta\">F = Früh 6–14 · S = Spät 14–22 · N = Nacht 22–6</div>\n   <div class=\"doc-wrap\"><table><tr><th></th><th>Mo</th><th>Di</th><th>Mi</th><th>Do</th><th>Fr</th></tr>\n   <tr><td>Lena</td><td>F</td><td>F</td><td>S</td><td>frei</td><td>N</td></tr>\n   <tr><td>Priya</td><td>S</td><td>S</td><td>F</td><td>F</td><td>frei</td></tr></table></div>",
       "question_en": "Who works the night shift on Friday?",
