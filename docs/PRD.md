@@ -49,7 +49,7 @@ Give A1 learners a **nursing-only practice mode** that works exactly like the pr
 - 21 levels unlocked one after another.
 - Flashcards, then a quick check every 20 cards, then a level quiz.
 - Audio for every German line.
-- A realistic photo on every flashcard, and every picture answer.
+- A realistic photo on every flashcard. Quiz questions reuse the card's photo; **answer options are always text**.
 
 ### Out of scope (V1)
 - A2, B1, B2 nursing content
@@ -136,7 +136,7 @@ Coins use the existing economy: +10 per first-try correct quiz answer, +20 for p
 | Ward situations | 20 (200 exchanges, 60 sentence patterns) |
 | Ward documents | 10 |
 | Emergency phrases / drill situations | 25 / 25 |
-| Pictures | 382 (one per word, phrase, pattern scene, document, spelling and emergency card, plus picture answers) |
+| Pictures | 319 (one photo per flashcard; answer options are text only) |
 
 ### 7.2 Levels
 
