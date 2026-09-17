@@ -175,6 +175,26 @@
 .q-thumb{width:120px;height:90px;border-radius:12px;overflow:hidden;background:#f3f6fb;margin:0 0 12px}
 .q-thumb img.pic{width:100%;height:100%;object-fit:cover}
 .q-thumb:empty{display:none}
+/* one consistent question card */
+.qcard{border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 6px 18px rgba(0,40,86,.10),inset 0 0 0 1px #e9eaeb;margin-top:6px}
+.qc-img{position:relative;height:170px;background:#eef3fa;display:grid;place-items:center}
+.qc-img img.pic{width:100%;height:100%;object-fit:cover;display:block}
+.qc-ph{color:#89a1bd}
+.qc-ph svg{width:40px;height:40px}
+.qc-timer{position:absolute;top:10px;right:10px;background:transparent}
+.qc-body{padding:14px 16px 16px;min-height:112px;display:flex;flex-direction:column;gap:6px}
+.qc-label{font-family:var(--font-ui);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#717680}
+.qc-q{margin:0;font-size:19px;font-weight:700;line-height:1.3;color:#002856;text-wrap:balance}
+.qc-sub{display:flex;align-items:center;gap:10px;font-family:var(--font-ui);font-size:14px;color:#535862;line-height:1.35}
+.qc-sub .spk.sm{margin:0;width:34px;height:34px;flex:none}
+.qdoc{margin-top:10px;font-family:var(--font-ui);font-size:13px}
+.qdoc summary{cursor:pointer;font-weight:600;color:#003d83;padding:6px 0}
+.q-thumb,.q-text,.q-scene{display:none}
+.qcard{display:flex;flex-direction:column}
+.qc-img{height:170px;min-height:170px;max-height:170px;overflow:hidden;flex:none}
+.qc-img img.pic{position:absolute;inset:0;width:100%;height:170px;object-fit:cover}
+.qc-body{position:relative;z-index:1;background:#fff}
+.qcard .qc-img .qc-timer{position:absolute;top:10px;right:10px;left:auto;width:44px;height:44px;z-index:2}
 </style>
 <title>Klingel! Station 3</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1564,7 +1584,7 @@ function vLevels(el){
   const prog = i => { const s=LP.lv[i]; const total=levelDeck(i).length; return {done:s&&s.done?total:Math.min(s?s.card:0,total), total, complete:!!(s&&s.done)}; };
   el.innerHTML=`<div class="scroll lv-page">
     <div class="backrow"><button class="backlink" id="lv-back">${ICON.back}<span>Back</span></button><span class="backrow-t">Nursing German</span></div>
-    <div class="lv-hero"><img src="images/h-nursing-german.jpg?v=20260917d" alt=""><span></span></div>
+    <div class="lv-hero"><img src="images/h-nursing-german.jpg?v=20260917e" alt=""><span></span></div>
     <div class="lv-info">
       <div class="lv-level"><h1>A1</h1><span>Nursing German</span></div>
       <p>German for your first weeks on the ward. Levels open one after another.</p>
@@ -1624,7 +1644,7 @@ function backParts(c){
   if(c.key) return {label:"Key word", line:plain(c.key.g), sub:c.key.en||"", say:plain(c.key.g), note:""};
   return {label:"", line:"", sub:"", say:"", note:""};
 }
-const IMGV="20260917d";
+const IMGV="20260917e";
 function picFor(id, fallback){ return (window.IMGSET && IMGSET.has(id)) ? `<img class="pic" src="images/${id}.jpg?v=${IMGV}" alt="" decoding="async" draggable="false" onerror="this.style.visibility='hidden'">` : fallback; }
 const slugId = s => s.toLowerCase().replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue").replace(/ß/g,"ss").replace("·pl","").replace(/^(der|die|das|sich) /,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function cardFaces(c){
@@ -1733,23 +1753,32 @@ function vQuiz(el){
     Q.order = q.kind==="tf" ? [{o:"True",idx:q.answer?0:1},{o:"False",idx:q.answer?1:0}] : shuffle(base.map((o,idx)=>({o,idx})));
     Q.left=8;
   }
-  let prompt="", label="", grid=false, textual=true;
+  /* One question layout for every type: picture (fixed) → label → question → German line/audio → options */
+  let label="", question="", sub="", say="", sayWho="", extra="", grid=false, textual=true;
+  const picId = q.card ? (q.card.kind==="word" ? "w-"+slugId(q.card.meaning) : q.card.pic)
+              : q.kind==="doc" ? "d-"+q.d.id : q.kind==="spell" ? "s-"+q.s.name.toLowerCase() : q.w ? "w-"+slugId(q.w.en) : "";
   if(q.kind==="round"){
     const r=q.r, p=PEOPLE[r.sp];
-    label = r.t==="need" ? "What does this person need?" : r.t==="where" ? "Where is the problem?" : TASK[r.t]; grid=false; textual=true;
-    prompt = r.de ? `<div class="line"><div class="tap"><button data-say="${esc(r.de)}" data-who="${r.sp}" aria-label="Play audio">${wave(26)}</button></div><div style="min-width:0"><div class="who-meta">${esc(p.name)}</div><div class="said">${esc(r.de)}</div><div class="gloss">${esc(r.en)}</div></div></div>`
-      : `<div class="line situation"><div><div class="sit-label">Situation</div><div class="sit-text">${esc(r.en)}</div></div></div>`;
-  } else if(q.kind==="imgmcq"){ const en=q.card?q.card.meaning:q.w.en; label="Translate into German"; prompt=`<div class="q-text">How do you say <b>“${esc(en)}”</b> in German?</div><div class="q-thumb">${picFor("w-"+slugId(q.w.en),"")}</div>`; }
-  else if(q.kind==="mcq"){ label="Translate into English"; prompt=`<div class="q-text">What does <b>${artLabel(q.q)}</b> mean? <button class="spk sm" data-say="${esc(plain(q.q))}" aria-label="Play audio">${ICON.vol}</button></div>${q.card&&q.card.kind==="word"?`<div class="q-thumb">${picFor("w-"+slugId(q.card.meaning),"")}</div>`:""}`; }
-  else if(q.kind==="tf"){ label=q.label; prompt=`<div class="q-word">${artLabel(q.q)}</div><div class="q-eq">= ${esc(q.shown)}</div>`; }
-  else if(q.kind==="doc"){ label="Read the document"; prompt=`<div class="doc">${q.d.html}</div><div class="q" style="margin-top:12px">${esc(q.q.q)}</div>`; }
-  else if(q.kind==="spell"){ label="Listen to the spelling. Which name is it?"; prompt=`<div class="line"><div class="tap"><button data-say="${esc(q.s.name.toUpperCase().split("").join(", "))}" data-who="braun" aria-label="Play spelling">${wave(26)}</button></div><div><div class="said">Wie schreibt man das?</div><div class="gloss">How do you spell that? Tap to hear the letters.</div></div></div>`; }
-  else if(q.kind==="drill"){ label="What do you say?"; prompt=`<div class="drill-top"><span class="qn">Emergency</span><span class="timer" id="timer"><svg viewBox="0 0 36 36" width="44" height="44" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="none" stroke="#eef0f3" stroke-width="4"/><circle id="ring" cx="18" cy="18" r="15" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-dasharray="94.2" stroke-dashoffset="${94.2*(1-Q.left/8)}" transform="rotate(-90 18 18)"/></svg><b id="secs">${Math.ceil(Q.left)}</b></span></div><div class="drill-sit"><div class="em-ico">${ICON.alert}</div><div>${esc(q.d.s)}</div></div>`; }
-  const cardPic = q.card ? (q.card.kind==="word" ? "w-"+slugId(q.card.meaning) : q.card.pic) : "";
-  
-  
-  if(q.kind==="round" && cardPic && IMGSET.has(cardPic)) prompt=prompt+`<div class="q-thumb">${picFor(cardPic,"")}</div>`;
-  if(q.kind==="drill" && q.card){ label="Emergency · translate into German"; prompt=prompt.replace(/<div class="drill-sit">[\s\S]*$/, `<div class="q-text">How do you say <b>“${esc(q.card.meaning)}”</b> in German?</div>${cardPic&&IMGSET.has(cardPic)?`<div class="q-thumb">${picFor(cardPic,"")}</div>`:""}`); }
+    if(r.de){
+      label = r.t==="need" ? "What does this person need?" : r.t==="where" ? "Where is the problem?" : r.t==="num" ? "What do you write down?" : "What do you answer?";
+      question = `${esc(p.name)}: „${esc(r.de)}“`; sub = esc(r.en); say=r.de; sayWho=r.sp;
+    } else { label="What do you say?"; question=esc(r.en); }
+  }
+  else if(q.kind==="imgmcq"){ label="Translate into German"; question=`How do you say “${esc(q.card?q.card.meaning:q.w.en)}” in German?`; }
+  else if(q.kind==="mcq"){ label="Translate into English"; question=`What does „${artLabel(q.q)}“ mean?`; say=plain(q.q); }
+  else if(q.kind==="tf"){ label="True or false?"; question=`„${artLabel(q.q)}“ = ${esc(q.shown)}`; }
+  else if(q.kind==="doc"){ label="Read the document"; question=esc(q.q.q); extra=`<details class="qdoc" open><summary>The document</summary><div class="doc">${q.d.html}</div></details>`; }
+  else if(q.kind==="spell"){ label="Listen to the spelling"; question="Which name is spelled?"; sub="„Wie schreibt man das?“"; say=q.s.name.toUpperCase().split("").join(", "); sayWho="braun"; }
+  else if(q.kind==="drill"){ label="Emergency · translate into German"; question=`How do you say “${esc(q.card?q.card.meaning:"")}” in German?`; }
+  const timer = q.kind==="drill" ? `<span class="timer qc-timer" id="timer"><svg viewBox="0 0 36 36" width="44" height="44" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="rgba(255,255,255,.9)" stroke="#eef0f3" stroke-width="4"/><circle id="ring" cx="18" cy="18" r="15" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-dasharray="94.2" stroke-dashoffset="${94.2*(1-Q.left/8)}" transform="rotate(-90 18 18)"/></svg><b id="secs">${Math.ceil(Q.left)}</b></span>` : "";
+  const prompt = `<div class="qcard">
+      <div class="qc-img">${picId && IMGSET.has(picId) ? picFor(picId,"") : `<span class="qc-ph">${ICON.cross}</span>`}${timer}</div>
+      <div class="qc-body">
+        <span class="qc-label">${esc(label)}</span>
+        <p class="qc-q">${question}</p>
+        ${sub||say ? `<div class="qc-sub">${say?`<button class="spk sm qc-say" data-say="${esc(say)}" data-who="${sayWho}" aria-label="Play audio">${ICON.vol}</button>`:""}<span>${sub}</span></div>` : ""}
+      </div>
+    </div>${extra}`;
   const reveal=Q.checked&&Q.lastOk;
   const opts=Q.order.map((x,n)=>{
     let st=""; if(Q.checked&&Q.lastOk&&x.idx===0)st="correct"; else if(Q.checked&&!Q.lastOk&&Q.sel===n)st="incorrect"; else if(Q.sel===n)st="selected";
@@ -1762,14 +1791,14 @@ function vQuiz(el){
   el.innerHTML=`<div class="view"><div class="scroll lvl">
     <div class="backrow"><button class="backlink" id="l-back">${ICON.back}<span>Back</span></button><span class="backrow-t">Level ${RUN.i+1}: ${esc(levelTitle(RUN.i))}</span></div>
     <div class="lvl-head"><div class="lvl-title"><h1>${Q.mini?"Quick check":"Quiz"}</h1><span>${Q.pos+1}/${total}</span></div>${segBar(Q.pos+1,total)}</div>
-    <div class="quiz-body"><div class="task" style="margin-top:4px">${esc(label)}</div>${prompt}<div class="opts ${grid?"grid2":""}" style="margin-top:12px">${opts}</div></div>
+    <div class="quiz-body">${prompt}<div class="opts" style="margin-top:12px">${opts}</div></div>
   </div><div class="lv-cta"><button class="cta" id="check" ${Q.sel===null?"disabled":""}>Check</button></div></div>`;
   $("#l-back").onclick=()=>show("levels");
   el.querySelectorAll("[data-say]").forEach(b=>b.onclick=()=>speak(b.dataset.say,b.dataset.who||null,b.closest(".tap")||b));
   el.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{ if(Q.checked)return; Q.sel=+b.dataset.n; if(q.kind==="drill") return quizCheck(); render(); });
   $("#check").onclick=quizCheck;
-  if(q.kind==="round" && q.r.de && Q.autoplay!==Q.pos){ Q.autoplay=Q.pos; setTimeout(()=>speak(q.r.de,q.r.sp,$(".tap")),300); }
-  if(q.kind==="spell" && Q.autoplay!==Q.pos){ Q.autoplay=Q.pos; setTimeout(()=>speak(q.s.name.toUpperCase().split("").join(", "),"braun",$(".tap")),300); }
+  if(q.kind==="round" && q.r.de && Q.autoplay!==Q.pos){ Q.autoplay=Q.pos; setTimeout(()=>speak(q.r.de,q.r.sp,$(".qc-say")),300); }
+  if(q.kind==="spell" && Q.autoplay!==Q.pos){ Q.autoplay=Q.pos; setTimeout(()=>speak(q.s.name.toUpperCase().split("").join(", "),"braun",$(".qc-say")),300); }
   clearInterval(window.__drillTimer);
   if(q.kind==="drill" && !Q.checked){
     window.__drillTimer=setInterval(()=>{
