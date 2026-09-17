@@ -170,6 +170,11 @@
 .q-scene{position:relative}
 .q-cap{position:absolute;left:50%;bottom:10px;transform:translateX(-50%);max-width:calc(100% - 24px);background:rgba(255,255,255,.94);color:#002856;font-size:17px;font-weight:700;line-height:1.2;padding:6px 14px;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.18);text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .q-cap.de [class^="art-"]{font-weight:800}
+.q-text{font-size:20px;font-weight:600;line-height:1.35;color:#002856;margin:4px 0 10px;text-wrap:balance}
+.q-text b{font-weight:800}
+.q-thumb{width:120px;height:90px;border-radius:12px;overflow:hidden;background:#f3f6fb;margin:0 0 12px}
+.q-thumb img.pic{width:100%;height:100%;object-fit:cover}
+.q-thumb:empty{display:none}
 </style>
 <title>Klingel! Station 3</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1559,7 +1564,7 @@ function vLevels(el){
   const prog = i => { const s=LP.lv[i]; const total=levelDeck(i).length; return {done:s&&s.done?total:Math.min(s?s.card:0,total), total, complete:!!(s&&s.done)}; };
   el.innerHTML=`<div class="scroll lv-page">
     <div class="backrow"><button class="backlink" id="lv-back">${ICON.back}<span>Back</span></button><span class="backrow-t">Nursing German</span></div>
-    <div class="lv-hero"><img src="images/h-nursing-german.jpg?v=20260917c" alt=""><span></span></div>
+    <div class="lv-hero"><img src="images/h-nursing-german.jpg?v=20260917d" alt=""><span></span></div>
     <div class="lv-info">
       <div class="lv-level"><h1>A1</h1><span>Nursing German</span></div>
       <p>German for your first weeks on the ward. Levels open one after another.</p>
@@ -1619,7 +1624,7 @@ function backParts(c){
   if(c.key) return {label:"Key word", line:plain(c.key.g), sub:c.key.en||"", say:plain(c.key.g), note:""};
   return {label:"", line:"", sub:"", say:"", note:""};
 }
-const IMGV="20260917c";
+const IMGV="20260917d";
 function picFor(id, fallback){ return (window.IMGSET && IMGSET.has(id)) ? `<img class="pic" src="images/${id}.jpg?v=${IMGV}" alt="" decoding="async" draggable="false" onerror="this.style.visibility='hidden'">` : fallback; }
 const slugId = s => s.toLowerCase().replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue").replace(/ß/g,"ss").replace("·pl","").replace(/^(der|die|das|sich) /,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function cardFaces(c){
@@ -1734,17 +1739,17 @@ function vQuiz(el){
     label = r.t==="need" ? "What does this person need?" : r.t==="where" ? "Where is the problem?" : TASK[r.t]; grid=false; textual=true;
     prompt = r.de ? `<div class="line"><div class="tap"><button data-say="${esc(r.de)}" data-who="${r.sp}" aria-label="Play audio">${wave(26)}</button></div><div style="min-width:0"><div class="who-meta">${esc(p.name)}</div><div class="said">${esc(r.de)}</div><div class="gloss">${esc(r.en)}</div></div></div>`
       : `<div class="line situation"><div><div class="sit-label">Situation</div><div class="sit-text">${esc(r.en)}</div></div></div>`;
-  } else if(q.kind==="imgmcq"){ label=q.label; prompt=`<div class="q-scene">${picFor("w-"+slugId(q.w.en), `<div class="q-img">${illFor(q.w)}</div>`)}<span class="q-cap">${esc(q.card?q.card.meaning:q.w.en)}</span></div>`; }
-  else if(q.kind==="mcq"){ label=q.label; prompt=`<div class="q-word">${artLabel(q.q)} <button class="spk sm" data-say="${esc(plain(q.q))}" aria-label="Play audio">${ICON.vol}</button></div>`; }
+  } else if(q.kind==="imgmcq"){ const en=q.card?q.card.meaning:q.w.en; label="Translate into German"; prompt=`<div class="q-text">How do you say <b>“${esc(en)}”</b> in German?</div><div class="q-thumb">${picFor("w-"+slugId(q.w.en),"")}</div>`; }
+  else if(q.kind==="mcq"){ label="Translate into English"; prompt=`<div class="q-text">What does <b>${artLabel(q.q)}</b> mean? <button class="spk sm" data-say="${esc(plain(q.q))}" aria-label="Play audio">${ICON.vol}</button></div>${q.card&&q.card.kind==="word"?`<div class="q-thumb">${picFor("w-"+slugId(q.card.meaning),"")}</div>`:""}`; }
   else if(q.kind==="tf"){ label=q.label; prompt=`<div class="q-word">${artLabel(q.q)}</div><div class="q-eq">= ${esc(q.shown)}</div>`; }
   else if(q.kind==="doc"){ label="Read the document"; prompt=`<div class="doc">${q.d.html}</div><div class="q" style="margin-top:12px">${esc(q.q.q)}</div>`; }
   else if(q.kind==="spell"){ label="Listen to the spelling. Which name is it?"; prompt=`<div class="line"><div class="tap"><button data-say="${esc(q.s.name.toUpperCase().split("").join(", "))}" data-who="braun" aria-label="Play spelling">${wave(26)}</button></div><div><div class="said">Wie schreibt man das?</div><div class="gloss">How do you spell that? Tap to hear the letters.</div></div></div>`; }
   else if(q.kind==="drill"){ label="What do you say?"; prompt=`<div class="drill-top"><span class="qn">Emergency</span><span class="timer" id="timer"><svg viewBox="0 0 36 36" width="44" height="44" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="none" stroke="#eef0f3" stroke-width="4"/><circle id="ring" cx="18" cy="18" r="15" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-dasharray="94.2" stroke-dashoffset="${94.2*(1-Q.left/8)}" transform="rotate(-90 18 18)"/></svg><b id="secs">${Math.ceil(Q.left)}</b></span></div><div class="drill-sit"><div class="em-ico">${ICON.alert}</div><div>${esc(q.d.s)}</div></div>`; }
   const cardPic = q.card ? (q.card.kind==="word" ? "w-"+slugId(q.card.meaning) : q.card.pic) : "";
-  if(q.kind==="drill"){ label="What do you say in this situation?"; }
-  if(q.kind==="mcq" && cardPic && IMGSET.has(cardPic)) prompt=`<div class="q-scene">${picFor(cardPic,"")}<span class="q-cap de">${artLabel(q.q)}</span></div>`+prompt;
-  if(q.kind==="round" && cardPic && IMGSET.has(cardPic)) prompt=`<div class="q-scene">${picFor(cardPic,"")}</div>`+prompt;
-  if(q.kind==="drill" && cardPic) prompt=prompt.replace('<div class="drill-sit">', `<div class="q-scene">${picFor(cardPic,`<div class="em-ico big">${ICON.alert}</div>`)}<span class="q-cap">${esc(q.card.meaning)}</span></div><div class="drill-sit" hidden>`);
+  
+  
+  if(q.kind==="round" && cardPic && IMGSET.has(cardPic)) prompt=prompt+`<div class="q-thumb">${picFor(cardPic,"")}</div>`;
+  if(q.kind==="drill" && q.card){ label="Emergency · translate into German"; prompt=prompt.replace(/<div class="drill-sit">[\s\S]*$/, `<div class="q-text">How do you say <b>“${esc(q.card.meaning)}”</b> in German?</div>${cardPic&&IMGSET.has(cardPic)?`<div class="q-thumb">${picFor(cardPic,"")}</div>`:""}`); }
   const reveal=Q.checked&&Q.lastOk;
   const opts=Q.order.map((x,n)=>{
     let st=""; if(Q.checked&&Q.lastOk&&x.idx===0)st="correct"; else if(Q.checked&&!Q.lastOk&&Q.sel===n)st="incorrect"; else if(Q.sel===n)st="selected";

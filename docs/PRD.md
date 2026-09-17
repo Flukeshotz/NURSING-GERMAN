@@ -113,9 +113,10 @@ Same component as A1 Flashcards (`A1FlashcardDeck` / `A1FlashcardCard`):
 After every 20 cards: 5 multiple-choice meaning questions on cards already seen. No pass mark; it continues automatically.
 
 ### 6.5 Level quiz
-- **Every question is built from a flashcard of the same level, with the same picture and the same German.** Nothing is asked that the level did not teach.
-- Drawn from the level's `quiz_pool`: 4 word questions (picture → German, German → meaning), 8 phrase questions (card photo + what the person says → the right reply), 2 questions per document, and spelling questions if the level has them.
-- Emergency level: 10 emergency cards as photo → "What do you say?", **8 seconds each**.
+- **Every question is built from a flashcard of the same level.** Nothing is asked that the level did not teach.
+- **Questions and options are always words.** A picture is only a small supporting thumbnail, never the question or an option, because pictures are ambiguous.
+- Drawn from the level's `quiz_pool`: 4 word questions ("How do you say 'Lab' in German?" / "What does 'das Labor' mean?"), 8 phrase questions (what the person says, in German with English → the right reply), 2 questions per document, and spelling questions if the level has them.
+- Emergency level: 10 emergency cards as "How do you say 'Help!' in German?", **8 seconds each**.
 - Flow per question: select → **Check** → result card (green "Richtig!" / red "Incorrect!").
   - Wrong answers can be retried; only the first attempt counts toward the score.
   - True/false and drill questions move on straight away.
