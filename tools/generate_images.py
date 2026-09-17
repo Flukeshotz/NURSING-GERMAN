@@ -60,7 +60,7 @@ def main():
     if "--limit" in sys.argv:
         items = items[: int(sys.argv[sys.argv.index("--limit") + 1])]
     failed = 0
-    with ThreadPoolExecutor(max_workers=4) as pool:
+    with ThreadPoolExecutor(max_workers=int(os.environ.get("IMAGE_WORKERS", "10"))) as pool:
         for fut in as_completed([pool.submit(generate, it, key, model, quality, url, headers) for it in items]):
             iid, status = fut.result()
             failed += status.startswith("error")
