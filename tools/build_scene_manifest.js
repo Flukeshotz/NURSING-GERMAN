@@ -2,7 +2,7 @@
 const fs = require("fs"), path = require("path");
 const A = require("./lib_load")();
 const man = JSON.parse(fs.readFileSync(path.join(__dirname, "image_manifest.json"), "utf8"));
-const STYLE = s => `Realistic photograph in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. ${s} Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.`;
+const STYLE = s => `Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. ${s} Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.`;
 const WHO = {
   weber: "Frau Weber, an 82-year-old German woman patient with short grey hair, in a hospital gown",
   schmidt: "Herr Schmidt, a 67-year-old German man patient with glasses, in pyjamas",
@@ -51,5 +51,6 @@ A.LEVELS.forEach((L, li) => {
     man.push({ id, file: `images/${id}.jpg`, type: "phrase", level: li + 1, de: ex.sit ? ex.replies[0].g : ex.de, en: ex.en, prompt: STYLE(scene) });
   });
 });
+for (const it of man) it.size = it.size || "1536x1024";
 fs.writeFileSync(path.join(__dirname, "image_manifest.json"), JSON.stringify(man, null, 1));
 console.log("manifest:", man.length, "images;", man.filter(m => m.redo).length, "to redo;", man.filter(m => m.type === "phrase").length, "phrase scenes;", man.filter(m => m.type === "emergency").length, "emergency scenes");

@@ -6,8 +6,8 @@ Content lives in `index.html` (the prototype). These scripts turn it into develo
 |---|---|
 | `lib_load.js` | Loads the content and level logic from `index.html` into Node. Used by the other JS tools. |
 | `build_scene_manifest.js` | Builds `image_manifest.json`: one exact prompt for every picture a card or question needs. |
-| `generate_images.py` | Generates the missing pictures with **gpt-image-1-mini** (Azure OpenAI or OpenAI). Skips existing files. |
-| `optimize_images.py` | Resizes pictures to 640×640 JPEG for mobile. |
+| `generate_images.py` | Generates the missing pictures with **gpt-image-1-mini** (Azure OpenAI or OpenAI) at 1536×1024 (3:2). Skips existing files. |
+| `optimize_images.py` | Resizes pictures for mobile: 3:2 landscape photos to 960×640 JPEG. |
 | `sync_image_list.py` | Writes the list of available pictures into `index.html`. |
 | `export_levels.js` | Writes `content/levels/level-XX.json` and `content/levels/index.json`. |
 | `zip_levels.py` | Writes `content/levels/level-XX-images.zip` with exactly the pictures that level uses. |
