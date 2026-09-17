@@ -203,6 +203,41 @@
 .f-img,.qc-img{position:relative}
 .qc-img{height:200px;min-height:200px;max-height:200px}
 .face.fr .f-img,.qcard .qc-img{width:100%;align-self:stretch;flex:none}
+/* landscape 3:2 photos fill 3:2 frames exactly */
+.picbox img.pic,.f-img .picbox img.pic,.qc-img .picbox img.pic,.f-img.em .picbox img.pic{object-fit:cover}
+.face.fr .f-img{height:auto;aspect-ratio:3/2}
+.face.fr .f-bottom{height:auto;flex:1;grid-template-rows:1fr 44px 20px;padding:8px 18px 12px}
+.qcard .qc-img{height:auto;min-height:0;max-height:none;aspect-ratio:3/2}
+.qc-img img.pic{height:100%}
+/* ---- fit every screen on the phone without scrolling ---- */
+.backrow{padding:8px 16px}
+.lvl-head{padding:6px 16px 8px}
+.lvl-title{margin-bottom:6px}
+.lvl-title h1{font-size:26px}
+.deck3-wrap{padding:26px 8px 10px}
+.lvl-ctrls{padding:4px 16px 12px}
+.quiz-body{padding:2px 16px 84px}
+.qcard{margin-top:2px}
+.qcard .qc-img{aspect-ratio:auto;height:clamp(120px, 24vh, 190px)}
+.qc-body{padding:10px 14px 12px;min-height:0;gap:4px}
+.qc-q{font-size:17px}
+.qc-sub{font-size:13px}
+.qc-sub .spk.sm{width:30px;height:30px}
+.quiz-body .opts{gap:6px}
+.quiz-body .opt{padding:7px 10px;min-height:46px}
+.quiz-body .opt .chip{width:28px;height:28px;font-size:13px}
+.quiz-body .opt-label{font-size:14px}
+.lv-cta{padding:8px 16px 10px}
+.lv-cta .cta{padding:12px 16px}
+.qc-doc{cursor:zoom-in;background:#f6f1e3;align-items:start}
+.qc-docmini{position:absolute;left:50%;top:6px;width:150%;transform:translateX(-50%) scale(.66);transform-origin:top center;pointer-events:none;box-shadow:none}
+.docscrim{align-items:center}
+.docsheet{width:100%;max-height:90%;overflow:auto;background:#fff;border-radius:18px;padding:14px;display:grid;gap:12px}
+.qcard .qc-img{height:clamp(92px, calc(100dvh - 590px), 190px)}
+.quiz-body{padding-bottom:74px}
+.quiz-body .opt{min-height:44px;padding:6px 10px}
+.lvl-head .segbar .seg-set{height:10px}
+.qc-q{font-size:16px;line-height:1.28}
 </style>
 <title>Klingel! Station 3</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1652,8 +1687,8 @@ function backParts(c){
   if(c.key) return {label:"Key word", line:plain(c.key.g), sub:c.key.en||"", say:plain(c.key.g), note:""};
   return {label:"", line:"", sub:"", say:"", note:""};
 }
-const IMGV="20260917f";
-function picFor(id, fallback){ return (window.IMGSET && IMGSET.has(id)) ? `<span class="picbox"><img class="pic-bg" src="images/${id}.jpg?v=${IMGV}" alt="" aria-hidden="true" draggable="false"><img class="pic" src="images/${id}.jpg?v=${IMGV}" alt="" decoding="async" draggable="false" onerror="this.parentNode.style.visibility='hidden'"></span>` : fallback; }
+const IMGV="20260917h";
+function picFor(id, fallback){ return (window.IMGSET && IMGSET.has(id)) ? `<span class="picbox"><img class="pic" src="images/${id}.jpg?v=${IMGV}" alt="" decoding="async" draggable="false" onerror="this.parentNode.style.visibility='hidden'"></span>` : fallback; }
 const slugId = s => s.toLowerCase().replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue").replace(/ß/g,"ss").replace("·pl","").replace(/^(der|die|das|sich) /,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function cardFaces(c){
   let top, word;
@@ -1775,12 +1810,12 @@ function vQuiz(el){
   else if(q.kind==="imgmcq"){ label="Translate into German"; question=`How do you say “${esc(q.card?q.card.meaning:q.w.en)}” in German?`; }
   else if(q.kind==="mcq"){ label="Translate into English"; question=`What does „${artLabel(q.q)}“ mean?`; say=plain(q.q); }
   else if(q.kind==="tf"){ label="True or false?"; question=`„${artLabel(q.q)}“ = ${esc(q.shown)}`; }
-  else if(q.kind==="doc"){ label="Read the document"; question=esc(q.q.q); extra=`<details class="qdoc" open><summary>The document</summary><div class="doc">${q.d.html}</div></details>`; }
+  else if(q.kind==="doc"){ label="Read the document · tap to zoom"; question=esc(q.q.q); }
   else if(q.kind==="spell"){ label="Listen to the spelling"; question="Which name is spelled?"; sub="„Wie schreibt man das?“"; say=q.s.name.toUpperCase().split("").join(", "); sayWho="braun"; }
   else if(q.kind==="drill"){ label="Emergency · translate into German"; question=`How do you say “${esc(q.card?q.card.meaning:"")}” in German?`; }
   const timer = q.kind==="drill" ? `<span class="timer qc-timer" id="timer"><svg viewBox="0 0 36 36" width="44" height="44" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="rgba(255,255,255,.9)" stroke="#eef0f3" stroke-width="4"/><circle id="ring" cx="18" cy="18" r="15" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-dasharray="94.2" stroke-dashoffset="${94.2*(1-Q.left/8)}" transform="rotate(-90 18 18)"/></svg><b id="secs">${Math.ceil(Q.left)}</b></span>` : "";
   const prompt = `<div class="qcard">
-      <div class="qc-img">${picId && IMGSET.has(picId) ? picFor(picId,"") : `<span class="qc-ph">${ICON.cross}</span>`}${timer}</div>
+      <div class="qc-img ${q.kind==="doc"?"qc-doc":""}" ${q.kind==="doc"?'id="qc-doc" role="button" tabindex="0" aria-label="Open the document"':""}>${q.kind==="doc" ? `<div class="doc qc-docmini">${q.d.html}</div>` : picId && IMGSET.has(picId) ? picFor(picId,"") : `<span class="qc-ph">${ICON.cross}</span>`}${timer}</div>
       <div class="qc-body">
         <span class="qc-label">${esc(label)}</span>
         <p class="qc-q">${question}</p>
@@ -1805,6 +1840,7 @@ function vQuiz(el){
   el.querySelectorAll("[data-say]").forEach(b=>b.onclick=()=>speak(b.dataset.say,b.dataset.who||null,b.closest(".tap")||b));
   el.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{ if(Q.checked)return; Q.sel=+b.dataset.n; if(q.kind==="drill") return quizCheck(); render(); });
   $("#check").onclick=quizCheck;
+  const dz=$("#qc-doc"); if(dz) dz.onclick=()=>{ const s=document.createElement("div"); s.className="scrim docscrim"; s.innerHTML=`<div class="docsheet"><div class="doc">${q.d.html}</div><button class="cta" id="doc-close">Close</button></div>`; $("#phone").appendChild(s); $("#doc-close").onclick=()=>s.remove(); s.onclick=e=>{ if(e.target===s) s.remove(); }; };
   if(q.kind==="round" && q.r.de && Q.autoplay!==Q.pos){ Q.autoplay=Q.pos; setTimeout(()=>speak(q.r.de,q.r.sp,$(".qc-say")),300); }
   if(q.kind==="spell" && Q.autoplay!==Q.pos){ Q.autoplay=Q.pos; setTimeout(()=>speak(q.s.name.toUpperCase().split("").join(", "),"braun",$(".qc-say")),300); }
   clearInterval(window.__drillTimer);
@@ -1852,7 +1888,7 @@ function finishQuiz(){
 function vLevelResult(el){
   const r=RUN.result, next=RUN.i+1, hasNext=next<LEVELS.length;
   const stars=r.passed?(r.right/r.total>=.95?3:r.right/r.total>=.85?2:1):0;
-  el.innerHTML=`<div class="view"><div class="summary">
+  el.innerHTML=`<div class="view"><div class="backrow"><button class="backlink" id="l-back">${ICON.back}<span>Back</span></button><span class="backrow-t">Level ${RUN.i+1}: ${esc(levelTitle(RUN.i))}</span></div><div class="summary">
     <img class="maya-big" src="${r.passed?IMG.thumb:IMG.smile}" alt="">
     <div class="big-stars" aria-label="${stars} of 3 stars">${[1,2,3].map(n=>`<span class="${n<=stars?"":"off"}">★</span>`).join("")}</div>
     <h2>${r.passed?`Level ${RUN.i+1} complete!`:"Almost there"}</h2>
@@ -1862,6 +1898,7 @@ function vLevelResult(el){
     <div class="sum-actions">
       ${r.passed ? (hasNext?`<button class="cta" id="r-next">Start Level ${next+1}</button>`:`<button class="cta" id="r-levels">All levels done!</button>`) : `<button class="cta" id="r-retry">Try the quiz again</button><button class="cta outline" id="r-review">Review the cards</button>`}
     </div></div></div>`;
+  $("#l-back").onclick=()=>show("levels");
   const n=$("#r-next"); if(n) n.onclick=()=>openLevel(next);
   const l=$("#r-levels"); if(l) l.onclick=()=>show("levels");
   const t=$("#r-retry"); if(t) t.onclick=()=>{ RUN.phase="quizintro"; RUN.quizType="final"; render(); };
