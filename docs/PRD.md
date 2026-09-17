@@ -89,6 +89,8 @@ Same component as the A1 chapter list (`ChapterSelectTemplate`):
 ### 6.3 Flashcards
 Same component as A1 Flashcards (`A1FlashcardDeck` / `A1FlashcardCard`):
 - A stacked deck of 3 cards (purple, light blue, white, slightly rotated)
+- **Pictures are 3:2 landscape photos (960×640) shown in 3:2 frames**, so they fill the frame with no cropping or gaps.
+- **Every screen fits on the phone without scrolling** (tested at 375×700 and 375×812). Document questions show the document inside the picture frame; tap to open it full size.
 - **Fixed positions on every card:** photo on the top half; German text centred in a fixed 2-line slot; speaker button and "Tap to flip" always in the same place
 - **Front:** picture on the top half; German text, a speaker button and "Tap to flip" on the bottom half
 - **Back (gold):** always the same layout:
