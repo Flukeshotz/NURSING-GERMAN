@@ -6,9 +6,9 @@
 <meta name="description" content="Skillcase Nursing German (A1) prototype: hospital words, ward phrases, ward documents, emergency German and ward culture for nurses moving to Germany.">
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}/* ---- Level path, styled like the A1 practice screens ---- */
 .backrow{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 16px}
-.backlink{display:flex;align-items:center;gap:6px;background:none;border:0;font-size:14px;font-weight:600;color:#181d27;cursor:pointer;padding:0}
+.backlink{display:flex;align-items:center;gap:6px;background:none;border:0;font-size:14px;font-weight:600;color:#181d27;cursor:pointer;padding:14px 4px;margin:-14px -4px}
 .backlink svg{width:16px;height:16px}
-.backrow-t{font-size:14px;font-weight:600;color:#7b7b7b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:65%}
+.backrow-t{font-size:14px;font-weight:600;color:#666;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:65%}
 .lv-page{padding-bottom:84px}
 .lv-hero{position:relative;height:120px;overflow:hidden}
 .lv-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
@@ -36,7 +36,7 @@
 .lv-right{display:flex;align-items:center;gap:4px;flex:none;color:#414651}
 .lv-right svg{width:18px;height:18px}
 .lv-row.locked .lv-right{color:#6b7280}
-.lv-badge{font-size:12px;font-weight:500;padding:4px 10px;border-radius:999px;background:rgba(255,235,192,.65);color:#ac8121;white-space:nowrap}
+.lv-badge{font-size:12px;font-weight:500;padding:4px 10px;border-radius:999px;background:rgba(255,235,192,.65);color:#8a6414;white-space:nowrap}
 .lv-badge.ok{background:rgba(1,144,53,.12);color:#019035}
 .lv-row.locked .lv-badge{background:#f3f4f6;color:#6b7280}
 .lv-cta{position:absolute;left:0;right:0;bottom:0;padding:12px 16px 14px;background:linear-gradient(180deg,rgba(255,255,255,0),#fff 30%);z-index:5}
@@ -78,7 +78,8 @@
 .f-word{margin:0;font-size:24px;font-weight:800;color:#002856;letter-spacing:-.01em;line-height:1.15;text-wrap:balance}
 .f-word.sm{font-size:18px;font-weight:700;line-height:1.25}
 .f-word .slot{font-weight:800}
-.spk{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:#f5f7fa;color:#002856;border:1.5px solid #e4e9f0;cursor:pointer;flex:none;padding:0}
+.spk{position:relative;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:#f5f7fa;color:#002856;border:1.5px solid #e4e9f0;cursor:pointer;flex:none;padding:0}
+.spk::after{content:"";position:absolute;top:50%;left:50%;width:44px;height:44px;transform:translate(-50%,-50%)}
 .spk:hover{background:#ebf0f5}
 .spk.playing{background:#edb843;color:#fff;border-color:transparent}
 .spk.sm{width:30px;height:30px;display:inline-grid;vertical-align:middle;margin-left:4px}
@@ -96,7 +97,7 @@
 .ff-pill{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;background:#b42318;color:#fff;border-radius:999px;padding:2px 8px;margin-bottom:4px}
 .face.bk [class^="art-"]{color:#3a2806}
 .lvl-ctrls{display:flex;align-items:center;justify-content:center;gap:8px;padding:6px 16px 20px}
-.ctrl{display:flex;align-items:center;gap:6px;background:#fff;border:1px solid #d9d9d9;border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,.05);padding:8px 12px;cursor:pointer;color:#414651;font-size:14px;font-weight:600}
+.ctrl{display:flex;align-items:center;justify-content:center;gap:6px;background:#fff;border:1px solid #d9d9d9;border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,.05);padding:8px 12px;min-height:44px;box-sizing:border-box;cursor:pointer;color:#414651;font-size:14px;font-weight:600}
 .ctrl:hover{background:#f9fafb}
 .ctrl:disabled{opacity:.5;cursor:default}
 .ctrl.wide{color:#181d27}
@@ -155,7 +156,7 @@
 .fb-wrap{position:absolute;left:0;right:0;top:0;bottom:44px;display:grid;grid-template-rows:118px 2px 1fr 40px;grid-template-columns:100%;padding:22px 22px 0;box-sizing:border-box}
 .fb-slot{width:100%;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;min-width:0}
 .fb-meaning-slot{justify-content:center}
-.fb-label{display:block;font-size:10px;font-weight:900;letter-spacing:.2em;text-transform:uppercase;color:rgba(90,74,26,.6);margin:0 0 6px}
+.fb-label{display:block;font-size:11px;font-weight:900;letter-spacing:.2em;text-transform:uppercase;color:#5a4a1a;margin:0 0 6px}
 .fb-meaning{margin:0;width:100%;font-size:22px;font-weight:800;line-height:1.15;color:#3a2806;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .fb-ff{margin-top:6px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;background:#b42318;color:#fff;border-radius:999px;padding:2px 8px}
 .fb-rule{width:60px;height:2px;border-radius:999px;background:rgba(102,75,15,.18);justify-self:center;align-self:center}
@@ -163,7 +164,8 @@
 .fb-de{margin:0;width:100%;font-size:16px;font-weight:700;font-style:italic;line-height:1.3;color:#3a2806;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .fb-en{margin:6px 0 0;width:100%;font-size:13px;font-weight:600;font-style:normal;text-transform:none;letter-spacing:0;line-height:1.35;color:rgba(58,40,6,.78);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .fb-spk,.fb-spk-space{margin-top:12px;width:40px;height:40px;flex:none}
-.fb-spk{border-radius:50%;display:grid;place-items:center;padding:0;cursor:pointer;background:rgba(0,0,0,.06);color:#3a2806;border:1.5px solid rgba(0,0,0,.12)}
+.fb-spk{position:relative;border-radius:50%;display:grid;place-items:center;padding:0;cursor:pointer;background:rgba(0,0,0,.06);color:#3a2806;border:1.5px solid rgba(0,0,0,.12)}
+.fb-spk::after{content:"";position:absolute;top:50%;left:50%;width:44px;height:44px;transform:translate(-50%,-50%)}
 .fb-spk.playing{background:#fff;color:#ebaf44}
 .fb-note{margin:0;align-self:center;width:100%;font-size:11px;font-weight:600;line-height:1.35;color:rgba(58,40,6,.7);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .fb-hint{position:absolute;left:0;right:0;bottom:16px;display:flex;align-items:center;justify-content:center;gap:6px;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#664b0f;opacity:.5}
@@ -1034,7 +1036,7 @@ SHIFTS.push(
  {day:"Di",n:3,d:"Früh",de:"Entlassung",en:"Discharge day",r:[
   R("say","schmidt","Wann kann ich nach Hause?","When can I go home?",["Morgen, nach der Visite.","Gestern, um 5 Uhr.","Nie."]),
   R("say","anna","Wann kann ich meine Mutter abholen?","When can I pick up my mother?",["Morgen um 11 Uhr.","Morgen ist Sonntag.","Heute Nacht um 3 Uhr."]),
-  R("num","braun","Herr Schmidt geht morgen um 10 Uhr nach Hause.","Discharge:",["tomorrow 10:00","today 10:00","tomorrow 12:00","tomorrow 2:00"]),
+  R("num","braun","Herr Schmidt geht morgen um 10 Uhr nach Hause.","Discharge:",["morgen, 10 Uhr","heute, 10 Uhr","morgen, 12 Uhr","morgen, 14 Uhr"]),
   R("need","schmidt","Wo ist mein Arztbrief?","Where is my doctor's letter?",["📄|der Arztbrief","📰|die Zeitung","💊|die Tablette","👓|die Brille"],"Hier ist Ihr Arztbrief."),
   R("do","schmidt","","Tell Herr Schmidt to take the letter to his family doctor.",["Bitte bringen Sie den Brief zum Hausarzt.","Bitte lesen Sie den Brief nicht.","Bitte bringen Sie den Brief zur Post."]),
   R("say","schmidt","Muss ich die Tabletten weiter nehmen?","Do I have to keep taking the tablets?",["Ja, jeden Morgen eine Tablette.","Nein, nie wieder essen.","Ja, zehn Tabletten sofort."]),
@@ -1089,7 +1091,7 @@ SHIFTS.push(
   R("do","schmidt","","Herr Schmidt should sit on the edge of the bed first.",["Setzen Sie sich bitte erst auf die Bettkante.","Springen Sie bitte aus dem Bett.","Legen Sie sich bitte auf den Boden."]),
   R("say","schmidt","Kann ich allein gehen?","Can I walk alone?",["Heute noch nicht. Ich gehe mit Ihnen.","Ja, rennen Sie!","Nein, nie wieder."]),
   R("need","lena","Hilf mir bitte. Wir drehen Herrn Yılmaz.","Help me please. We're turning Herr Yılmaz.",["🤝|helfen","🍽️|essen","😴|schlafen","📞|anrufen"],"Okay, ich helfe dir."),
-  R("num","lena","Wir drehen Herrn Yılmaz alle 2 Stunden.","How often?",["every 2 hours","every 12 hours","every 20 minutes","every 2 days"])
+  R("num","lena","Wir drehen Herrn Yılmaz alle 2 Stunden.","How often?",["alle 2 Stunden","alle 12 Stunden","alle 20 Minuten","alle 2 Tage"])
  ]},
  {day:"Mo",n:4,d:"Früh",de:"Toilette & Ausscheidung",en:"Toilet & continence",r:[
   R("say","weber","Ich muss mal.","I need to go (to the toilet).",["Kommen Sie, ich helfe Ihnen zur Toilette.","Was müssen Sie? Arbeiten?","Später, bitte."]),
@@ -1636,7 +1638,7 @@ function vLevels(el){
     <div class="lv-list">${LEVELS.map((_,i)=>{const p=prog(i), locked=!isUnlocked(i);
       return `<button class="lv-row ${locked?"locked":""} ${i===cl?"current":""}" data-i="${i}" ${locked?'aria-disabled="true"':""}>
         <span class="lv-name">Level ${i+1}: ${esc(levelTitle(i))}</span>
-        <span class="lv-right"><span class="lv-badge ${locked?"":p.complete?"ok":""}">${locked?"Locked":`${p.done}/${p.total} done`}</span>${locked?ICON.lock:ICON.chev}</span></button>`}).join("")}</div>
+        <span class="lv-right"><span class="lv-badge ${locked?"":p.complete?"ok":""}">${locked?"Locked":p.complete?"Done":p.done>=p.total?"Quiz left":`${p.done}/${p.total}`}</span>${locked?ICON.lock:ICON.chev}</span></button>`}).join("")}</div>
   </div>
   <div class="lv-cta"><button class="cta" id="continue">${LP.lv[cl]&&LP.lv[cl].card>0&&!LP.lv[cl].done?"Continue":"Start"} Level ${cl+1}: ${esc(levelTitle(cl))}</button></div>`;
   $("#lv-back").onclick=()=>show("practice");
@@ -1648,7 +1650,16 @@ function vLevels(el){
 /* ---- Level runner: cards → quiz → next level ---- */
 function openLevel(i){
   const s=lvState(i), deck=levelDeck(i);
-  RUN={i, deck, idx:s.done?0:Math.min(s.card,deck.length-1), flipped:false, phase:"cards", miniDone:{}, q:null};
+  s.miniSeen = s.miniSeen || {};
+  const idx = s.done?0:Math.min(s.card,deck.length-1);
+  RUN={i, deck, idx, flipped:false, phase:"cards", miniDone:{...s.miniSeen}, q:null};
+  if(!s.done){
+    for(let b=20;b<=idx;b+=20){
+      if(s.miniSeen[b]) continue;
+      const qs=miniQuiz(deck,b);
+      if(qs.length>=3){ RUN.idx=b; RUN.phase="quizintro"; RUN.quizType="mini"; RUN.miniQs=qs; break; }
+    }
+  }
   interacted=true; show("level");
 }
 function vLevel(el){
@@ -1689,24 +1700,24 @@ function backParts(c){
 }
 const AUDIT=/[?&]audit\b/.test(location.search);
 const IMGV="20260917i";
-function picFor(id, fallback){ return (window.IMGSET && IMGSET.has(id)) ? `<span class="picbox"><img class="pic" src="images/${id}.jpg?v=${IMGV}" alt="" decoding="async" draggable="false" onerror="this.parentNode.style.visibility='hidden'"></span>` : fallback; }
+function picFor(id, fallback, alt){ return (window.IMGSET && IMGSET.has(id)) ? `<span class="picbox"><img class="pic" src="images/${id}.jpg?v=${IMGV}" alt="${esc(alt||"")}" decoding="async" draggable="false" onerror="this.parentNode.style.visibility='hidden'"></span>` : fallback; }
 const slugId = s => s.toLowerCase().replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue").replace(/ß/g,"ss").replace("·pl","").replace(/^(der|die|das|sich) /,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function cardFaces(c){
   let top, word;
-  if(c.kind==="word"){ top=`<div class="f-img">${picFor("w-"+slugId(c.meaning), c.img)}</div>`; word=`<p class="f-word">${artLabel(c.de)}</p>`; }
-  else if(c.kind==="em"){ top=`<div class="f-img em">${picFor(c.pic,`<div class="em-ico big">${ICON.alert}</div>`)}</div>`; word=`<p class="f-word">${esc(c.de)}</p>`; }
-  else if(c.kind==="pattern"){ top = (window.IMGSET&&IMGSET.has(c.pic)) ? `<div class="f-img scene">${picFor(c.pic,"")}<span class="scene-tag">Pattern · ${esc(c.title)}</span></div>` : `<div class="f-img pat"><span class="pat-tag">Pattern</span><span class="pat-title">${esc(c.title)}</span></div>`; word=`<p class="f-word sm">${c.deHtml}</p>`; }
-  else if(c.kind==="doc"){ top=`<div class="f-img scene">${picFor("d-"+c.docId, `<div class="doc mini">${c.doc}</div>`)}<span class="scene-tag">Ward document</span></div>`; word=`<p class="f-word sm">${esc(c.de)}</p>`; }
-  else if(c.kind==="spell"){ top=`<div class="f-img scene">${picFor("s-"+c.de.toLowerCase(), "")}<span class="scene-tag">Spelling · ${c.letters.join(" · ")}</span></div>`; word=`<p class="f-word sm">Wie schreibt man das?</p>`; }
-  else if(window.IMGSET&&IMGSET.has(c.pic)){ top=`<div class="f-img scene">${picFor(c.pic,"")}<span class="scene-tag">${esc(c.label)}</span></div>`; word=`<p class="f-word sm">${esc(c.de)}</p>`; }
-  else { top=`<div class="f-img who"><span class="who-av ${c.staff?"staff":""} ${c.sp==="nurse"?"you":""}">${esc(c.ini)}</span><span class="who-lab">${esc(c.label)}</span></div>`; word=`<p class="f-word sm">${esc(c.de)}</p>`; }
+  if(c.kind==="word"){ top=`<div class="f-img">${picFor("w-"+slugId(c.meaning), c.img)}</div>`; word=`<p class="f-word" lang="de">${artLabel(c.de)}</p>`; }
+  else if(c.kind==="em"){ top=`<div class="f-img em">${picFor(c.pic,`<div class="em-ico big">${ICON.alert}</div>`)}</div>`; word=`<p class="f-word" lang="de">${esc(c.de)}</p>`; }
+  else if(c.kind==="pattern"){ top = (window.IMGSET&&IMGSET.has(c.pic)) ? `<div class="f-img scene">${picFor(c.pic,"")}<span class="scene-tag">Pattern · ${esc(c.title)}</span></div>` : `<div class="f-img pat"><span class="pat-tag">Pattern</span><span class="pat-title">${esc(c.title)}</span></div>`; word=`<p class="f-word sm" lang="de">${c.deHtml}</p>`; }
+  else if(c.kind==="doc"){ top=`<div class="f-img scene">${picFor("d-"+c.docId, `<div class="doc mini">${c.doc}</div>`)}<span class="scene-tag">Ward document</span></div>`; word=`<p class="f-word sm" lang="de">${esc(c.de)}</p>`; }
+  else if(c.kind==="spell"){ top=`<div class="f-img scene">${picFor("s-"+c.de.toLowerCase(), "")}<span class="scene-tag">Spelling · ${c.letters.join(" · ")}</span></div>`; word=`<p class="f-word sm" lang="de">Wie schreibt man das?</p>`; }
+  else if(window.IMGSET&&IMGSET.has(c.pic)){ top=`<div class="f-img scene">${picFor(c.pic,"")}<span class="scene-tag">${esc(c.label)}</span></div>`; word=`<p class="f-word sm" lang="de">${esc(c.de)}</p>`; }
+  else { top=`<div class="f-img who"><span class="who-av ${c.staff?"staff":""} ${c.sp==="nurse"?"you":""}">${esc(c.ini)}</span><span class="who-lab">${esc(c.label)}</span></div>`; word=`<p class="f-word sm" lang="de">${esc(c.de)}</p>`; }
   const frontSay = c.kind==="spell" ? c.letters.join(", ") : plain(c.de);
   const front=`${top}<div class="f-bottom">${word}${spk(0,frontSay,c.sp||(c.kind==="em"?"braun":""))}<div class="f-hint">${ICON.flip}<span>Tap to flip</span></div></div>`;
   const p=backParts(c);
   const back=`<div class="fb-wrap">
       <div class="fb-slot fb-meaning-slot"><span class="fb-label">Meaning</span><p class="fb-meaning">${esc(c.meaning)}</p>${c.false?`<span class="fb-ff">False friend</span>`:""}</div>
       <div class="fb-rule"></div>
-      <div class="fb-slot fb-ex-slot"><span class="fb-label">${esc(p.label)}</span><p class="fb-de">${esc(p.line)}</p><p class="fb-en">${esc(p.sub)}</p>${p.say?`<button class="fb-spk" data-say="${esc(p.say)}" data-who="nurse" aria-label="Play audio">${ICON.vol}</button>`:`<span class="fb-spk-space"></span>`}</div>
+      <div class="fb-slot fb-ex-slot"><span class="fb-label">${esc(p.label)}</span><p class="fb-de" lang="de">${esc(p.line)}</p><p class="fb-en">${esc(p.sub)}</p>${p.say?`<button class="fb-spk" data-say="${esc(p.say)}" data-who="nurse" aria-label="Play audio">${ICON.vol}</button>`:`<span class="fb-spk-space"></span>`}</div>
       <p class="fb-note">${esc(p.note)}</p>
     </div>`;
   return {front, back};
@@ -1752,7 +1763,7 @@ function vCards(el){
   card.onkeydown=e=>{ if(e.key===" "||e.key==="Enter"){e.preventDefault();flip()} if(e.key==="ArrowRight")go(1); if(e.key==="ArrowLeft")go(-1); };
   $("#c-prev").onclick=()=>go(-1); $("#c-next").onclick=()=>go(1);
   $("#c-shuffle").onclick=()=>{ const head=RUN.deck.slice(0,RUN.idx), rest=shuffle(RUN.deck.slice(RUN.idx)); RUN.deck=head.concat(rest); RUN.flipped=false; render(); };
-  $("#c-reset").onclick=()=>{ RUN.deck=levelDeck(RUN.i); RUN.idx=0; RUN.flipped=false; render(); };
+  $("#c-reset").onclick=()=>{ RUN.deck=levelDeck(RUN.i); RUN.idx=0; RUN.flipped=false; const s=lvState(RUN.i); if(!s.done){ s.card=0; saveLP(); } render(); };
 }
 function animateOut(card,dir,after){
   card.style.transition="transform .35s cubic-bezier(.25,.46,.45,.94), opacity .35s";
@@ -1801,22 +1812,23 @@ function vQuiz(el){
   let label="", question="", sub="", say="", sayWho="", extra="", grid=false, textual=true;
   const picId = q.card ? (q.card.kind==="word" ? "w-"+slugId(q.card.meaning) : q.card.pic)
               : q.kind==="doc" ? "d-"+q.d.id : q.kind==="spell" ? "s-"+q.s.name.toLowerCase() : q.w ? "w-"+slugId(q.w.en) : "";
+  const picAlt = q.card ? q.card.meaning : q.w ? q.w.en : "";
   if(q.kind==="round"){
     const r=q.r, p=PEOPLE[r.sp];
     if(r.de){
       label = r.t==="need" ? "What does this person need?" : r.t==="where" ? "Where is the problem?" : r.t==="num" ? "What do you write down?" : "What do you answer?";
-      question = `${esc(p.name)}: „${esc(r.de)}“`; sub = esc(r.en); say=r.de; sayWho=r.sp;
+      question = `${esc(p.name)}: „<span lang="de">${esc(r.de)}</span>“`; sub = esc(r.en); say=r.de; sayWho=r.sp;
     } else { label="What do you say?"; question=esc(r.en); }
   }
   else if(q.kind==="imgmcq"){ label="Translate into German"; question=`How do you say “${esc(q.card?q.card.meaning:q.w.en)}” in German?`; }
-  else if(q.kind==="mcq"){ label="Translate into English"; question=`What does „${artLabel(q.q)}“ mean?`; say=plain(q.q); }
-  else if(q.kind==="tf"){ label="True or false?"; question=`„${artLabel(q.q)}“ = ${esc(q.shown)}`; }
+  else if(q.kind==="mcq"){ label="Translate into English"; question=`What does „<span lang="de">${artLabel(q.q)}</span>“ mean?`; say=plain(q.q); }
+  else if(q.kind==="tf"){ label="True or false?"; question=`„<span lang="de">${artLabel(q.q)}</span>“ = ${esc(q.shown)}`; }
   else if(q.kind==="doc"){ label="Read the document · tap to zoom"; question=esc(q.q.q); }
-  else if(q.kind==="spell"){ label="Listen to the spelling"; question="Which name is spelled?"; sub="„Wie schreibt man das?“"; say=q.s.name.toUpperCase().split("").join(", "); sayWho="braun"; }
+  else if(q.kind==="spell"){ label="Listen to the spelling"; question="Which name is spelled?"; sub=`<span lang="de">„Wie schreibt man das?“</span>`; say=q.s.name.toUpperCase().split("").join(", "); sayWho="braun"; }
   else if(q.kind==="drill"){ label="Emergency · translate into German"; question=`How do you say “${esc(q.card?q.card.meaning:"")}” in German?`; }
   const timer = q.kind==="drill" ? `<span class="timer qc-timer" id="timer"><svg viewBox="0 0 36 36" width="44" height="44" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="rgba(255,255,255,.9)" stroke="#eef0f3" stroke-width="4"/><circle id="ring" cx="18" cy="18" r="15" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-dasharray="94.2" stroke-dashoffset="${94.2*(1-Q.left/8)}" transform="rotate(-90 18 18)"/></svg><b id="secs">${Math.ceil(Q.left)}</b></span>` : "";
   const prompt = `<div class="qcard">
-      <div class="qc-img ${q.kind==="doc"?"qc-doc":""}" ${q.kind==="doc"?'id="qc-doc" role="button" tabindex="0" aria-label="Open the document"':""}>${q.kind==="doc" ? `<div class="doc qc-docmini">${q.d.html}</div>` : picId && IMGSET.has(picId) ? picFor(picId,"") : `<span class="qc-ph">${ICON.cross}</span>`}${timer}</div>
+      <div class="qc-img ${q.kind==="doc"?"qc-doc":""}" ${q.kind==="doc"?'id="qc-doc" role="button" tabindex="0" aria-label="Open the document"':""}>${q.kind==="doc" ? `<div class="doc qc-docmini">${q.d.html}</div>` : picId && IMGSET.has(picId) ? picFor(picId,"",picAlt) : `<span class="qc-ph">${ICON.cross}</span>`}${timer}</div>
       <div class="qc-body">
         <span class="qc-label">${esc(label)}</span>
         <p class="qc-q">${question}</p>
@@ -1824,13 +1836,15 @@ function vQuiz(el){
       </div>
     </div>${extra}`;
   const reveal=Q.checked&&Q.lastOk;
+  const optDe = q.kind!=="mcq" && q.kind!=="tf" && q.kind!=="doc" && q.kind!=="spell";
+  const optLangAttr = optDe ? ' lang="de"' : "";
   const opts=Q.order.map((x,n)=>{
     let st=""; if(Q.checked&&Q.lastOk&&x.idx===0)st="correct"; else if(Q.checked&&!Q.lastOk&&Q.sel===n)st="incorrect"; else if(Q.sel===n)st="selected";
     const chip=`<span class="chip">${LETTERS[n]}</span>`;
-    if(q.kind==="round"&&q.r.t==="need") return `<button class="opt ${st}" data-n="${n}"${AUDIT&&x.idx===0?' data-audit-ok="1"':""}>${chip}<span class="opt-label">${artLabel(x.o.split("|")[1])}</span></button>`;
-    if(q.kind==="round"&&q.r.t==="where") return `<button class="opt ${st}" data-n="${n}"${AUDIT&&x.idx===0?' data-audit-ok="1"':""}>${chip}<span class="opt-label">${artLabel(BODY[x.o][0])}</span></button>`;
+    if(q.kind==="round"&&q.r.t==="need") return `<button class="opt ${st}" data-n="${n}"${AUDIT&&x.idx===0?' data-audit-ok="1"':""}>${chip}<span class="opt-label"${optLangAttr}>${artLabel(x.o.split("|")[1])}</span></button>`;
+    if(q.kind==="round"&&q.r.t==="where") return `<button class="opt ${st}" data-n="${n}"${AUDIT&&x.idx===0?' data-audit-ok="1"':""}>${chip}<span class="opt-label"${optLangAttr}>${artLabel(BODY[x.o][0])}</span></button>`;
     const lab = (q.kind==="imgmcq"||q.kind==="mcq") ? artLabel(x.o) : esc(x.o);
-    return `<button class="opt ${q.kind==="round"&&q.r.t==="num"?"num":""} ${st}" data-n="${n}"${AUDIT&&x.idx===0?' data-audit-ok="1"':""}>${chip}<span class="opt-label">${lab}</span></button>`;
+    return `<button class="opt ${q.kind==="round"&&q.r.t==="num"?"num":""} ${st}" data-n="${n}"${AUDIT&&x.idx===0?' data-audit-ok="1"':""}>${chip}<span class="opt-label"${optLangAttr}>${lab}</span></button>`;
   }).join("");
   el.innerHTML=`<div class="view"><div class="scroll lvl">
     <div class="backrow"><button class="backlink" id="l-back">${ICON.back}<span>Back</span></button><span class="backrow-t">Level ${RUN.i+1}: ${esc(levelTitle(RUN.i))}</span></div>
@@ -1880,7 +1894,7 @@ function quizCheck(){
 }
 function finishQuiz(){
   const Q=RUN.q;
-  if(Q.mini){ RUN.phase="cards"; RUN.flipped=false; return render(); }
+  if(Q.mini){ const s=lvState(RUN.i); s.miniSeen=s.miniSeen||{}; s.miniSeen[RUN.idx]=true; saveLP(); RUN.miniDone[RUN.idx]=true; RUN.phase="cards"; RUN.flipped=false; return render(); }
   const pct=Q.right/Q.qs.length, passed=pct>=.7;
   const s=lvState(RUN.i);
   if(passed){ const stars=pct>=.95?3:pct>=.85?2:1; s.done=true; s.stars=Math.max(s.stars||0,stars); s.card=RUN.deck.length; coins+=20; saveLP(); }

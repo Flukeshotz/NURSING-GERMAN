@@ -137,21 +137,21 @@ During the run: 0 JavaScript errors, 0 screens that scrolled, 0 cards or questio
 
 ## 3. Findings
 
-| ID | Severity | Area | Finding | Fix | Owner |
-|---|---|---|---|---|---|
-| F-01 | Medium | Accessibility | German text is not marked `lang="de"`, so screen readers read German with English pronunciation. | Add `lang="de"` to every element that renders German (card front, back line, prompts, German options). | Dev |
-| F-02 | Medium | Accessibility | Tap targets below 44 px: Back link (57×21), Shuffle/Reset/Next (≈39 px tall), small speaker buttons (30–36 px). | Minimum 44×44 hit area (padding or `::after` hit zone). | Dev / Design |
-| F-03 | Medium | Accessibility | Low contrast: in-progress level badge text on gold (3.0:1); 10 px uppercase labels on the gold card back (≈4.4:1); grey header titles (4.2:1). Some come from existing design-system tokens. | Darken badge text to ≥ 4.5:1 (e.g. `#8a6414`); raise card-back labels to ≥ 11 px and `#5a4a1a` at full opacity. | Design |
-| F-04 | Low | Accessibility | Pictures use `alt=""`. That is fine on flashcards (the word is shown), but quiz pictures give context. | On quiz cards set `alt` to the card's English meaning. | Dev |
-| F-05 | Medium | Performance | Pictures are JPEG at 40–70 KB each. | Serve WebP/AVIF from a CDN with `srcset` (≈30–50% smaller); preload the next 3 cards like `A1Flashcard` does. | Dev |
-| F-06 | Low | Behaviour | Quiz progress is not saved: leaving mid-quiz restarts it. Quick check is skipped when resuming past card 20. | Production: persist `quiz_state` per level (§8 of PRD), or accept and document. Show the quick check on resume if it was not completed. | Dev / Product |
-| F-07 | Low | Behaviour | "Reset" returns the deck to card 1, but the saved position stays at the furthest card, so "Continue" jumps forward again. | Reset should also reset `current_index` (as A1 Flashcards does). | Dev |
-| F-08 | Low | Performance | Level zips duplicate `images/` in the repo (18 MB twice). | Keep zips as release artefacts (GitHub Release or storage bucket) instead of committing them, if repo size matters. | Dev |
-| F-09 | Medium | Security | The Azure OpenAI key was pasted in a chat session. | Rotate the key in Azure; store in the backend secret manager only. | Harsh |
-| F-10 | Low | Code | Prototype is a single 1,230-line script with some dead code (`bodySvg`, `COUNTRIES`, `DRILL_SECONDS`, `P`, `personal`). | None for the prototype. Production is a React rebuild (PRD §6). | — |
-| F-11 | Low | UX | Level badge says "25/25 done" once all cards are seen, even if the quiz is not passed yet. | Show "Quiz left" until passed, "Done" after. | Design / Dev |
-| F-12 | Low | Content | Two "write it down" questions have English options ("tomorrow 10:00", "every 2 hours") while others use values. | Use German/neutral values: "morgen, 10 Uhr", "alle 2 Stunden". | Content |
-| F-13 | Low | Content | 319 AI photos have been spot-checked (≈30), not fully reviewed. | Human review of all photos against their card before launch; regenerate any mismatch from `tools/image_manifest.json`. | Content |
+| ID | Severity | Area | Finding | Fix | Owner | Status |
+|---|---|---|---|---|---|---|
+| F-01 | Medium | Accessibility | German text is not marked `lang="de"`, so screen readers read German with English pronunciation. | Add `lang="de"` to every element that renders German (card front, back line, prompts, German options). | Dev | **Fixed 2026-09-18** |
+| F-02 | Medium | Accessibility | Tap targets below 44 px: Back link (57×21), Shuffle/Reset/Next (≈39 px tall), small speaker buttons (30–36 px). | Minimum 44×44 hit area (padding or `::after` hit zone). | Dev / Design | **Fixed 2026-09-18** |
+| F-03 | Medium | Accessibility | Low contrast: in-progress level badge text on gold (3.0:1); 10 px uppercase labels on the gold card back (≈4.4:1); grey header titles (4.2:1). Some come from existing design-system tokens. | Darken badge text to ≥ 4.5:1 (e.g. `#8a6414`); raise card-back labels to ≥ 11 px and `#5a4a1a` at full opacity. | Design | **Fixed 2026-09-18** |
+| F-04 | Low | Accessibility | Pictures use `alt=""`. That is fine on flashcards (the word is shown), but quiz pictures give context. | On quiz cards set `alt` to the card's English meaning. | Dev | **Fixed 2026-09-18** |
+| F-05 | Medium | Performance | Pictures are JPEG at 40–70 KB each. | Serve WebP/AVIF from a CDN with `srcset` (≈30–50% smaller); preload the next 3 cards like `A1Flashcard` does. | Dev | Open — needs a CDN, out of scope for the static prototype |
+| F-06 | Low | Behaviour | Quiz progress is not saved: leaving mid-quiz restarts it. Quick check is skipped when resuming past card 20. | Production: persist `quiz_state` per level (§8 of PRD), or accept and document. Show the quick check on resume if it was not completed. | Dev / Product | **Partially fixed 2026-09-18**: the quick check now fires on resume too (`s.miniSeen` persisted per level, checked in `openLevel`). Losing progress on an in-progress quiz itself is still accepted, per the fix note. |
+| F-07 | Low | Behaviour | "Reset" returns the deck to card 1, but the saved position stays at the furthest card, so "Continue" jumps forward again. | Reset should also reset `current_index` (as A1 Flashcards does). | Dev | **Fixed 2026-09-18** |
+| F-08 | Low | Performance | Level zips duplicate `images/` in the repo (18 MB twice). | Keep zips as release artefacts (GitHub Release or storage bucket) instead of committing them, if repo size matters. | Dev | Open — repo-hosting decision, not a code change |
+| F-09 | Medium | Security | The Azure OpenAI key was pasted in a chat session. | Rotate the key in Azure; store in the backend secret manager only. | Harsh | Open — needs Harsh to rotate the key in Azure |
+| F-10 | Low | Code | Prototype is a single 1,230-line script with some dead code (`bodySvg`, `COUNTRIES`, `DRILL_SECONDS`, `P`, `personal`). | None for the prototype. Production is a React rebuild (PRD §6). | — | Won't fix (by design) |
+| F-11 | Low | UX | Level badge says "25/25 done" once all cards are seen, even if the quiz is not passed yet. | Show "Quiz left" until passed, "Done" after. | Design / Dev | **Fixed 2026-09-18** |
+| F-12 | Low | Content | Two "write it down" questions have English options ("tomorrow 10:00", "every 2 hours") while others use values. | Use German/neutral values: "morgen, 10 Uhr", "alle 2 Stunden". | Content | **Fixed 2026-09-18** |
+| F-13 | Low | Content | 319 AI photos have been spot-checked (≈30), not fully reviewed. | Human review of all photos against their card before launch; regenerate any mismatch from `tools/image_manifest.json`. | Content | Open — needs a full manual review pass |
 
 ---
 
