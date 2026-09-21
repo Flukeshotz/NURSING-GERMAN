@@ -8,7 +8,7 @@
 | Status | Ready for build |
 | Prototype | https://nursing-german.vercel.app (open with `?audit` to see correct answers marked) |
 | Repo | https://github.com/Flukeshotz/NURSING-GERMAN |
-| Content | `content/levels/level-01.json` … `level-21.json` + one picture zip per level |
+| Content | `content/levels/level-01.json` … `level-22.json` + one picture zip per level |
 | Content format | [`content/SCHEMA.md`](../content/SCHEMA.md) |
 | Audit | [`docs/AUDIT.md`](AUDIT.md) |
 | Frontend target | `SkillCase-Frontend` (React 19, Vite, Tailwind v4, Redux Toolkit, Capacitor Android) |
