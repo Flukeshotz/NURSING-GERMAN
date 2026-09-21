@@ -32,7 +32,7 @@ Build a new practice mode that **reuses the A1 Flashcards architecture**:
 
 Skillcase learners are internationally trained nurses, mostly from India, preparing to work in Germany. The app teaches general A1 German, but not the language nurses need on the ward from day one:
 
-- Internal organs and glands (heart, lungs, liver, kidney, thyroid, pancreas …) and related terms, introduced after the outer body
+- Internal organs and glands (heart, lungs, liver, kidney, thyroid, pancreas …) and related terms, introduced after the outer body (Level 5) and reused in context in 8 later levels
 - Hospital words and chart abbreviations (nurses say *BP*, *drip*, *OT*; German charts say *RR*, *Infusion*, *OP*)
 - Short exchanges with patients, colleagues, doctors and relatives
 - Reading ward documents (medication plans `1-0-1-0`, vital signs charts, handover notes)
@@ -62,7 +62,7 @@ All of it fits A1 grammar; none of it is in a general A1 course.
 ## 5. Scope
 
 ### In scope (V1)
-- 22 levels, 378 flashcards, 419 quiz questions in the pool, 319 photos (§9, Appendix A)
+- 22 levels, 419 flashcards, 474 quiz questions in the pool, 357 photos (§9, Appendix A)
 - Level list, flashcard runner, quick check, level quiz, results
 - Server-side progress, unlock, coins, streak integration, analytics
 - Audio for every German line
@@ -491,7 +491,7 @@ Content changes after V1 should move to the DB with an admin review step (out of
 
 | | Spec |
 |---|---|
-| Count | 344 card photos + 1 header |
+| Count | 356 card photos + 1 header |
 | Format | 3:2 landscape; source 1536×1024; delivery WebP/AVIF with JPEG fallback, 960 and 480 px widths (`srcset`) |
 | Frames | Flashcard front and question card use 3:2 frames with `object-fit: cover` |
 | Naming | `w-*` word, `p-SS-NN` phrase/pattern scene, `e-NN` emergency, `d-*` document, `s-*` spelling, `h-*` header |
@@ -619,36 +619,36 @@ Usage limits: register module `nursing` under A1 in `useUsageLimitModule` (free 
 | 4 | The body | Der Körper | 0 | 3 | 10 | 0 | 0 | 0 | 13 | 10 | 10 |
 | 5 | Inside the body | Die Organe | 16 | 3 | 10 | 0 | 0 | 0 | 29 | 42 | 12 |
 | 6 | Emergency German | Notfall-Deutsch | 0 | 0 | 0 | 0 | 0 | 25 | 25 | 25 | 10 |
-| 7 | Symptoms & pain | Schmerzen | 2 | 3 | 10 | 0 | 0 | 0 | 15 | 14 | 12 |
-| 8 | Numbers & vital signs | Vitalwerte | 7 | 3 | 10 | 1 | 0 | 0 | 21 | 27 | 14 |
+| 7 | Symptoms & pain | Schmerzen | 2 | 3 | 12 | 0 | 0 | 0 | 17 | 16 | 12 |
+| 8 | Numbers & vital signs | Vitalwerte | 7 | 3 | 11 | 1 | 0 | 0 | 22 | 28 | 14 |
 | 9 | Times & shifts | Dienst & Uhrzeit | 2 | 3 | 10 | 1 | 0 | 0 | 16 | 17 | 14 |
-| 10 | Medication & food | Medikamente & Essen | 13 | 3 | 10 | 2 | 0 | 0 | 28 | 42 | 16 |
-| 11 | Instructions | Bitte …! | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
+| 10 | Medication & food | Medikamente & Essen | 14 | 3 | 12 | 2 | 0 | 0 | 31 | 46 | 16 |
+| 11 | Instructions | Bitte …! | 2 | 3 | 11 | 0 | 0 | 0 | 16 | 15 | 12 |
 | 12 | Basic care | Grundpflege | 3 | 3 | 10 | 0 | 0 | 0 | 16 | 16 | 12 |
-| 13 | Talking to colleagues | Mit Kollegen | 7 | 3 | 10 | 1 | 0 | 0 | 21 | 27 | 14 |
+| 13 | Talking to colleagues | Mit Kollegen | 7 | 3 | 11 | 1 | 0 | 0 | 22 | 28 | 14 |
 | 14 | Comforting patients | Keine Angst | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
-| 15 | Admitting a patient | Aufnahme | 5 | 3 | 10 | 2 | 2 | 0 | 22 | 28 | 18 |
+| 15 | Admitting a patient | Aufnahme | 5 | 3 | 11 | 2 | 2 | 0 | 23 | 29 | 18 |
 | 16 | Walking & falls | Mobilisation & Sturz | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
 | 17 | Phone calls | Am Telefon | 1 | 3 | 10 | 0 | 2 | 0 | 16 | 14 | 14 |
 | 18 | Hygiene & isolation | Hygiene | 2 | 3 | 10 | 1 | 0 | 0 | 16 | 17 | 14 |
-| 19 | Toilet & continence | Toilette & Ausscheidung | 2 | 3 | 10 | 1 | 0 | 0 | 16 | 17 | 14 |
+| 19 | Toilet & continence | Toilette & Ausscheidung | 2 | 3 | 11 | 1 | 0 | 0 | 17 | 18 | 14 |
 | 20 | Visitors & relatives | Besuch & Angehörige | 2 | 3 | 10 | 0 | 0 | 0 | 15 | 14 | 12 |
-| 21 | The night round | Nachtdienst | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
+| 21 | The night round | Nachtdienst | 1 | 3 | 11 | 0 | 0 | 0 | 15 | 13 | 12 |
 | 22 | Discharge day | Entlassung | 1 | 3 | 10 | 1 | 0 | 0 | 15 | 15 | 14 |
 
-Totals: 407 cards · 460 questions in the pool · 344 card photos.
+Totals: 419 cards · 474 questions in the pool · 356 card photos.
 
 ## Appendix B: question pool by type
 
 | Type | Count |
 |---|---|
-| `translate_to_german` | 96 |
-| `translate_to_english` | 96 |
-| `choose_reply` | 83 |
+| `translate_to_german` | 98 |
+| `translate_to_english` | 98 |
+| `choose_reply` | 90 |
+| `situation_choice` | 44 |
 | `picture_choice` | 44 |
-| `situation_choice` | 42 |
 | `document_question` | 30 |
-| `listen_and_note` | 25 |
+| `listen_and_note` | 26 |
 | `emergency_translate` | 25 |
 | `body_part_choice` | 10 |
 | `choose_reply_sie_du` | 5 |
