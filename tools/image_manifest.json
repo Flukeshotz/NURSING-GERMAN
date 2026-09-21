@@ -3280,5 +3280,119 @@
   "en": "Tell Dr. Braun: Frau Weber has pneumonia.",
   "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. On a German hospital ward: a young Indian nurse with dark hair in a ponytail, in a light blue uniform in this situation: Tell Dr. Braun: Frau Weber has pneumonia. Show her about to speak. Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.",
   "size": "1536x1024"
+ },
+ {
+  "id": "w-insulin",
+  "file": "images/w-insulin.jpg",
+  "type": "word",
+  "size": "1536x1024",
+  "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. an insulin pen and an insulin vial on a hospital medication tray. Absolutely no readable text, no letters, no numbers, no logos. Not a cartoon, not a 3D render, not an illustration."
+ },
+ {
+  "id": "w-upper-body",
+  "file": "images/w-upper-body.jpg",
+  "type": "word",
+  "size": "1536x1024",
+  "prompt": "Wide 3:2 landscape realistic photograph in the style of professional healthcare stock photography, natural soft daylight, modern German hospital examination room. A doctor holds a stethoscope while an adult male patient in a light hospital gown sits on the examination bed, ready for a chest examination. Calm and respectful. Absolutely no readable text, no letters, no logos. Not a cartoon, not a 3D render, not an illustration."
+ },
+ {
+  "id": "p-05-11",
+  "file": "images/p-05-11.jpg",
+  "type": "phrase",
+  "level": 7,
+  "de": "Mein Herz schlägt so schnell.",
+  "en": "My heart is beating so fast.",
+  "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. On a German hospital ward: Herr Schmidt, a 67-year-old German man patient with glasses, in pyjamas is saying to a young Indian nurse with dark hair in a ponytail, in a light blue uniform: \"My heart is beating so fast.\". Show exactly this moment with clear body language and the objects mentioned. Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.",
+  "size": "1536x1024"
+ },
+ {
+  "id": "p-05-12",
+  "file": "images/p-05-12.jpg",
+  "type": "phrase",
+  "level": 7,
+  "de": "Mein Magen tut weh.",
+  "en": "My stomach hurts.",
+  "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. On a German hospital ward: Frau Weber, an 82-year-old German woman patient with short grey hair, in a hospital gown is saying to a young Indian nurse with dark hair in a ponytail, in a light blue uniform: \"My stomach hurts.\". Show exactly this moment with clear body language and the objects mentioned. Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.",
+  "size": "1536x1024"
+ },
+ {
+  "id": "p-06-11",
+  "file": "images/p-06-11.jpg",
+  "type": "phrase",
+  "level": 8,
+  "de": "Die Nierenwerte sind gut. Kreatinin 1,1.",
+  "en": "",
+  "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. On a German hospital ward: Lena, a young blonde German nurse colleague in a light blue uniform is saying to a young Indian nurse with dark hair in a ponytail, in a light blue uniform: \"Creatinine (kidney value)\". Context: Creatinine (kidney value). Show exactly this moment with clear body language and the objects mentioned. Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.",
+  "size": "1536x1024"
+ },
+ {
+  "id": "p-08-11",
+  "file": "images/p-08-11.jpg",
+  "type": "phrase",
+  "level": 10,
+  "de": "Ist die Tablette für das Herz?",
+  "en": "Is the tablet for the heart?",
+  "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. On a German hospital ward: Herr Yilmaz, a 45-year-old Turkish-German man patient with a short dark beard is saying to a young Indian nurse with dark hair in a ponytail, in a light blue uniform: \"Is the tablet for the heart?\". Show exactly this moment with clear body language and the objects mentioned. Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.",
+  "size": "1536x1024"
+ },
+ {
+  "id": "p-08-12",
+  "file": "images/p-08-12.jpg",
+  "type": "phrase",
+  "level": 10,
+  "de": "Warum bekomme ich Insulin?",
+  "en": "Why do I get insulin?",
+  "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. On a German hospital ward: Frau Weber, an 82-year-old German woman patient with short grey hair, in a hospital gown is saying to a young Indian nurse with dark hair in a ponytail, in a light blue uniform: \"Why do I get insulin?\". Show exactly this moment with clear body language and the objects mentioned. Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.",
+  "size": "1536x1024"
+ },
+ {
+  "id": "p-09-11",
+  "file": "images/p-09-11.jpg",
+  "type": "phrase",
+  "level": 11,
+  "de": "Machen Sie bitte den Oberkörper frei.",
+  "en": "Dr. Braun wants to listen to the heart and lungs.",
+  "prompt": "Wide 3:2 landscape realistic photograph in the style of professional healthcare stock photography, adults only, natural soft daylight, modern German hospital room, respectful. A young Indian nurse in a light blue uniform politely asks an older male patient in a hospital gown, sitting on the edge of his bed, to open his gown for the doctor. A doctor with a stethoscope waits beside the patient, ready to listen to the patient's chest. Absolutely no readable text, no letters, no logos. Not a cartoon, not a 3D render, not an illustration.",
+  "size": "1536x1024"
+ },
+ {
+  "id": "p-11-11",
+  "file": "images/p-11-11.jpg",
+  "type": "phrase",
+  "level": 13,
+  "de": "Herr Yılmaz hat Nierenschmerzen.",
+  "en": "Tell Lena: Herr Yılmaz has kidney pain.",
+  "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. On a German hospital ward: a young Indian nurse with dark hair in a ponytail, in a light blue uniform in this situation: Tell Lena: Herr Yılmaz has kidney pain. Show her about to speak. Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.",
+  "size": "1536x1024"
+ },
+ {
+  "id": "p-13-11",
+  "file": "images/p-13-11.jpg",
+  "type": "phrase",
+  "level": 15,
+  "de": "Ich habe eine Nierenkrankheit.",
+  "en": "I have a kidney disease.",
+  "prompt": "Wide 3:2 landscape realistic photograph in the style of professional healthcare stock photography, adults only, natural soft daylight, modern German hospital room, respectful. A 45-year-old Turkish-German man with a short dark beard, sitting on his hospital bed, holds one hand on his lower back at the side (kidney area) while telling a young Indian nurse in a light blue uniform about his kidney disease; she listens with a clipboard. Absolutely no readable text, no letters, no logos. Not a cartoon, not a 3D render, not an illustration.",
+  "size": "1536x1024"
+ },
+ {
+  "id": "p-19-11",
+  "file": "images/p-19-11.jpg",
+  "type": "phrase",
+  "level": 19,
+  "de": "Es brennt beim Wasserlassen.",
+  "en": "It burns when I pass urine.",
+  "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. On a German hospital ward: Herr Schmidt, a 67-year-old German man patient with glasses, in pyjamas is saying to a young Indian nurse with dark hair in a ponytail, in a light blue uniform: \"It burns when I pass urine.\". Show exactly this moment with clear body language and the objects mentioned. Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.",
+  "size": "1536x1024"
+ },
+ {
+  "id": "p-15-11",
+  "file": "images/p-15-11.jpg",
+  "type": "phrase",
+  "level": 21,
+  "de": "Ich bekomme schlecht Luft.",
+  "en": "I can't breathe well.",
+  "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges, in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. On a German hospital ward: Frau Weber, an 82-year-old German woman patient with short grey hair, in a hospital gown is saying to a young Indian nurse with dark hair in a ponytail, in a light blue uniform: \"I can't breathe well.\". Show exactly this moment with clear body language and the objects mentioned. Absolutely no text, no letters, no numbers, no speech bubbles, no logos. Not a cartoon, not a 3D render, not an illustration.",
+  "size": "1536x1024"
  }
 ]
