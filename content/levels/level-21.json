@@ -1,0 +1,533 @@
+{
+  "level": 21,
+  "cefr": "A1",
+  "title_en": "The night round",
+  "title_de": "Nachtdienst",
+  "unlock": {
+    "requires_level": 20,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
+  },
+  "goals": [
+    {
+      "title": "Help patients sleep",
+      "pattern": "Möchten Sie [einen Tee]?",
+      "pattern_en": "Would you like a tea?",
+      "tip": null
+    },
+    {
+      "title": "Night checks",
+      "pattern": "Alles in Ordnung?",
+      "pattern_en": "Is everything okay?",
+      "tip": "At night: speak quietly and use a small light."
+    },
+    {
+      "title": "Morning handover",
+      "pattern": "Die Nacht war [ruhig].",
+      "pattern_en": "The night was quiet.",
+      "tip": null
+    }
+  ],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "word",
+      "front": {
+        "german": "das Nachtlicht",
+        "speaker": null,
+        "label": null,
+        "image": "w-night-light.jpg"
+      },
+      "back": {
+        "meaning_en": "Night light",
+        "label": "Example",
+        "german": "Ich mache das Nachtlicht an.",
+        "english": "I'll switch on the night light.",
+        "note": null
+      },
+      "article_word": "das Nachtlicht",
+      "false_friend": false
+    },
+    {
+      "order": 2,
+      "type": "pattern",
+      "front": {
+        "german": "Möchten Sie einen Tee?",
+        "speaker": null,
+        "label": "Help patients sleep",
+        "image": "p-15-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Would you like a tea?",
+        "label": "Tip",
+        "german": "Möchten Sie einen Tee?",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Möchten Sie [einen Tee]?"
+    },
+    {
+      "order": 3,
+      "type": "phrase",
+      "front": {
+        "german": "Ich kann nicht schlafen.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-15-01.jpg"
+      },
+      "back": {
+        "meaning_en": "I can't sleep.",
+        "label": "You answer",
+        "german": "Möchten Sie einen Tee?",
+        "english": "Would you like a tea?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Möchten Sie einen Tee?",
+          "english": "Would you like a tea?"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "type": "phrase",
+      "front": {
+        "german": "Es ist so dunkel hier.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-15-02.jpg"
+      },
+      "back": {
+        "meaning_en": "It's so dark here.",
+        "label": "You answer",
+        "german": "Ich mache das Licht an.",
+        "english": "I'll switch the light on.",
+        "note": "Key word: das Licht = the light"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich mache das Licht an.",
+          "english": "I'll switch the light on."
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "type": "phrase",
+      "front": {
+        "german": "Mir ist kalt.",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-15-03.jpg"
+      },
+      "back": {
+        "meaning_en": "I'm cold.",
+        "label": "You answer",
+        "german": "Hier ist eine Decke.",
+        "english": "Here is a blanket.",
+        "note": "Key word: die Decke = the blanket"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist eine Decke.",
+          "english": "Here is a blanket."
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "type": "phrase",
+      "front": {
+        "german": "Es ist zu laut.",
+        "speaker": "yilmaz",
+        "label": "Patient says",
+        "image": "p-15-04.jpg"
+      },
+      "back": {
+        "meaning_en": "It's too loud.",
+        "label": "You answer",
+        "german": "Entschuldigung. Ich mache die Tür zu.",
+        "english": "Sorry. I'll close the door.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Entschuldigung. Ich mache die Tür zu.",
+          "english": "Sorry. I'll close the door."
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "type": "pattern",
+      "front": {
+        "german": "Alles in Ordnung?",
+        "speaker": null,
+        "label": "Night checks",
+        "image": "p-15-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Is everything okay?",
+        "label": "Tip",
+        "german": "Alles in Ordnung?",
+        "english": "At night: speak quietly and use a small light.",
+        "note": null
+      },
+      "pattern": "Alles in Ordnung?"
+    },
+    {
+      "order": 8,
+      "type": "phrase",
+      "front": {
+        "german": "Alles in Ordnung, Herr Schmidt?",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-15-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Is everything okay, Herr Schmidt?",
+        "label": "When",
+        "german": "Alles in Ordnung, Herr Schmidt?",
+        "english": "It's 2 a.m. You check on Herr Schmidt quietly.",
+        "note": null
+      }
+    },
+    {
+      "order": 9,
+      "type": "phrase",
+      "front": {
+        "german": "Wie spät ist es?",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-15-06.jpg"
+      },
+      "back": {
+        "meaning_en": "What time is it?",
+        "label": "You answer",
+        "german": "Es ist drei Uhr. Schlafen Sie weiter.",
+        "english": "It's three o'clock. Go back to sleep.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Es ist drei Uhr. Schlafen Sie weiter.",
+          "english": "It's three o'clock. Go back to sleep."
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "type": "phrase",
+      "front": {
+        "german": "Bitte klingeln Sie, dann komme ich.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-15-07.jpg"
+      },
+      "back": {
+        "meaning_en": "Please ring, then I'll come.",
+        "label": "When",
+        "german": "Bitte klingeln Sie, dann komme ich.",
+        "english": "Frau Weber must not get up alone at night.",
+        "note": null
+      }
+    },
+    {
+      "order": 11,
+      "type": "phrase",
+      "front": {
+        "german": "Ich muss zur Toilette.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-15-08.jpg"
+      },
+      "back": {
+        "meaning_en": "I need to go to the toilet.",
+        "label": "You answer",
+        "german": "Warten Sie, ich helfe Ihnen.",
+        "english": "Wait, I'll help you.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Warten Sie, ich helfe Ihnen.",
+          "english": "Wait, I'll help you."
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "type": "pattern",
+      "front": {
+        "german": "Die Nacht war ruhig.",
+        "speaker": null,
+        "label": "Morning handover",
+        "image": "p-15-09.jpg"
+      },
+      "back": {
+        "meaning_en": "The night was quiet.",
+        "label": "Tip",
+        "german": "Die Nacht war ruhig.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Die Nacht war [ruhig]."
+    },
+    {
+      "order": 13,
+      "type": "phrase",
+      "front": {
+        "german": "Die Übergabe ist um 5 Uhr 45.",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-15-09.jpg"
+      },
+      "back": {
+        "meaning_en": "Handover at",
+        "label": "You note down",
+        "german": "5:45",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "5:45",
+          "english": null
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "type": "phrase",
+      "front": {
+        "german": "Wie war die Nacht?",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-15-10.jpg"
+      },
+      "back": {
+        "meaning_en": "How was the night?",
+        "label": "You answer",
+        "german": "Ruhig. Alle Patienten schlafen.",
+        "english": "Quiet. All the patients are sleeping.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ruhig. Alle Patienten schlafen.",
+          "english": "Quiet. All the patients are sleeping."
+        }
+      ]
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "translate_to_german",
+      "from_card": "das Nachtlicht",
+      "question_en": "How do you say \"Night light\" in German?",
+      "supporting_image": "w-night-light.jpg",
+      "options": [
+        "das Nachtlicht",
+        "die Pflegekraft",
+        "der Blutdruck",
+        "der Blutzucker"
+      ],
+      "answer": "das Nachtlicht"
+    },
+    {
+      "type": "translate_to_english",
+      "from_card": "das Nachtlicht",
+      "question_en": "What does \"das Nachtlicht\" mean?",
+      "supporting_image": "w-night-light.jpg",
+      "german": "das Nachtlicht",
+      "options": [
+        "Night light",
+        "Nurse",
+        "BP",
+        "Sugar"
+      ],
+      "answer": "Night light"
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Ich kann nicht schlafen.",
+      "supporting_image": "p-15-01.jpg",
+      "speaker": "weber",
+      "prompt_de": "Ich kann nicht schlafen.",
+      "prompt_en": "I can't sleep.",
+      "options": [
+        "Möchten Sie einen Tee?",
+        "Möchten Sie joggen?",
+        "Dann stehen Sie bitte auf."
+      ],
+      "answer": "Möchten Sie einen Tee?"
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Es ist so dunkel hier.",
+      "supporting_image": "p-15-02.jpg",
+      "speaker": "weber",
+      "prompt_de": "Es ist so dunkel hier.",
+      "prompt_en": "It's so dark here.",
+      "options": [
+        "das Licht",
+        "das Fenster",
+        "das Telefon",
+        "die Seife"
+      ],
+      "answer": "das Licht",
+      "feedback_de": "Ich mache das Licht an.",
+      "feedback_en": "I'll switch the light on."
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Mir ist kalt.",
+      "supporting_image": "p-15-03.jpg",
+      "speaker": "schmidt",
+      "prompt_de": "Mir ist kalt.",
+      "prompt_en": "I'm cold.",
+      "options": [
+        "die Decke",
+        "das Wasser",
+        "der Kaffee",
+        "die Zahnbürste"
+      ],
+      "answer": "die Decke",
+      "feedback_de": "Hier ist eine Decke.",
+      "feedback_en": "Here is a blanket."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Es ist zu laut.",
+      "supporting_image": "p-15-04.jpg",
+      "speaker": "yilmaz",
+      "prompt_de": "Es ist zu laut.",
+      "prompt_en": "It's too loud.",
+      "options": [
+        "Entschuldigung. Ich mache die Tür zu.",
+        "Ja, super Musik!",
+        "Dann sprechen Sie bitte lauter."
+      ],
+      "answer": "Entschuldigung. Ich mache die Tür zu."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Alles in Ordnung, Herr Schmidt?",
+      "supporting_image": "p-15-05.jpg",
+      "speaker": "schmidt",
+      "prompt_de": null,
+      "prompt_en": "It's 2 a.m. You check on Herr Schmidt quietly.",
+      "options": [
+        "Alles in Ordnung, Herr Schmidt?",
+        "Guten Morgen, aufstehen!",
+        "Frühstück ist fertig!"
+      ],
+      "answer": "Alles in Ordnung, Herr Schmidt?"
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Wie spät ist es?",
+      "supporting_image": "p-15-06.jpg",
+      "speaker": "schmidt",
+      "prompt_de": "Wie spät ist es?",
+      "prompt_en": "What time is it? (The clock shows 3:00.)",
+      "options": [
+        "Es ist drei Uhr. Schlafen Sie weiter.",
+        "Es ist drei Grad.",
+        "Es ist Mittag."
+      ],
+      "answer": "Es ist drei Uhr. Schlafen Sie weiter."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Bitte klingeln Sie, dann komme ich.",
+      "supporting_image": "p-15-07.jpg",
+      "speaker": "weber",
+      "prompt_de": null,
+      "prompt_en": "Frau Weber must not get up alone at night.",
+      "options": [
+        "Bitte klingeln Sie, dann komme ich.",
+        "Bitte gehen Sie allein spazieren.",
+        "Bitte stehen Sie schnell auf."
+      ],
+      "answer": "Bitte klingeln Sie, dann komme ich."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Ich muss zur Toilette.",
+      "supporting_image": "p-15-08.jpg",
+      "speaker": "weber",
+      "prompt_de": "Ich muss zur Toilette.",
+      "prompt_en": "I need to go to the toilet.",
+      "options": [
+        "Warten Sie, ich helfe Ihnen.",
+        "Nein, jetzt nicht.",
+        "Die Toilette ist zu."
+      ],
+      "answer": "Warten Sie, ich helfe Ihnen."
+    },
+    {
+      "type": "listen_and_note",
+      "from_card": "Die Übergabe ist um 5 Uhr 45.",
+      "supporting_image": "p-15-09.jpg",
+      "speaker": "lena",
+      "prompt_de": "Die Übergabe ist um 5 Uhr 45.",
+      "prompt_en": "Handover at:",
+      "options": [
+        "5:45",
+        "4:45",
+        "5:15",
+        "6:45"
+      ],
+      "answer": "5:45"
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Wie war die Nacht?",
+      "supporting_image": "p-15-10.jpg",
+      "speaker": "lena",
+      "prompt_de": "Wie war die Nacht?",
+      "prompt_en": "How was the night?",
+      "options": [
+        "Ruhig. Alle Patienten schlafen.",
+        "Ich bin ein Patient.",
+        "Es gibt Suppe."
+      ],
+      "answer": "Ruhig. Alle Patienten schlafen."
+    }
+  ],
+  "images_zip": "level-21-images.zip",
+  "images": [
+    "p-15-01.jpg",
+    "p-15-02.jpg",
+    "p-15-03.jpg",
+    "p-15-04.jpg",
+    "p-15-05.jpg",
+    "p-15-06.jpg",
+    "p-15-07.jpg",
+    "p-15-08.jpg",
+    "p-15-09.jpg",
+    "p-15-10.jpg",
+    "w-night-light.jpg"
+  ]
+}

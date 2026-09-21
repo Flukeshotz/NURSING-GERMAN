@@ -1,0 +1,651 @@
+{
+  "level": 17,
+  "cefr": "A1",
+  "title_en": "Phone calls",
+  "title_de": "Am Telefon",
+  "unlock": {
+    "requires_level": 16,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 14,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
+  },
+  "goals": [
+    {
+      "title": "Answer the phone",
+      "pattern": "Station 3, [Priya], guten Tag.",
+      "pattern_en": "Ward 3, Priya speaking, hello.",
+      "tip": "On the phone, say goodbye with „Auf Wiederhören“."
+    },
+    {
+      "title": "Write down details",
+      "pattern": "Langsam, bitte. Ich schreibe mit.",
+      "pattern_en": "Slowly, please. I'm writing it down.",
+      "tip": null
+    },
+    {
+      "title": "Calls from relatives",
+      "pattern": "Können Sie das bitte [buchstabieren]?",
+      "pattern_en": "Can you spell that, please?",
+      "tip": null
+    }
+  ],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "word",
+      "front": {
+        "german": "das Handy",
+        "speaker": null,
+        "label": null,
+        "image": "w-mobile-phone.jpg"
+      },
+      "back": {
+        "meaning_en": "Mobile phone",
+        "label": "Example",
+        "german": "Ihr Handy ist hier.",
+        "english": "Your phone is here.",
+        "note": "Germans say „Handy“ for a mobile phone."
+      },
+      "article_word": "das Handy",
+      "false_friend": true
+    },
+    {
+      "order": 2,
+      "type": "pattern",
+      "front": {
+        "german": "Station 3, Priya, guten Tag.",
+        "speaker": null,
+        "label": "Answer the phone",
+        "image": "p-16-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Ward 3, Priya speaking, hello.",
+        "label": "Tip",
+        "german": "Station 3, Priya, guten Tag.",
+        "english": "On the phone, say goodbye with „Auf Wiederhören“.",
+        "note": null
+      },
+      "pattern": "Station 3, [Priya], guten Tag."
+    },
+    {
+      "order": 3,
+      "type": "phrase",
+      "front": {
+        "german": "Das Telefon klingelt!",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-16-01.jpg"
+      },
+      "back": {
+        "meaning_en": "The phone is ringing!",
+        "label": "You answer",
+        "german": "Station 3, Priya, guten Tag.",
+        "english": "Ward 3, Priya speaking, hello.",
+        "note": "Key word: das Telefon = the phone"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Station 3, Priya, guten Tag.",
+          "english": "Ward 3, Priya speaking, hello."
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "type": "phrase",
+      "front": {
+        "german": "Hallo, hier ist Dr. Braun.",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-16-02.jpg"
+      },
+      "back": {
+        "meaning_en": "Hello, this is Dr. Braun.",
+        "label": "You answer",
+        "german": "Guten Tag, Dr. Braun. Hier ist Priya, Station 3.",
+        "english": "Hello, Dr. Braun. This is Priya, ward 3.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Guten Tag, Dr. Braun. Hier ist Priya, Station 3.",
+          "english": "Hello, Dr. Braun. This is Priya, ward 3."
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "type": "phrase",
+      "front": {
+        "german": "Danke. Auf Wiederhören!",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-16-07.jpg"
+      },
+      "back": {
+        "meaning_en": "Thank you. Goodbye! (on the phone)",
+        "label": "When",
+        "german": "Danke. Auf Wiederhören!",
+        "english": "End the phone call politely.",
+        "note": null
+      }
+    },
+    {
+      "order": 6,
+      "type": "pattern",
+      "front": {
+        "german": "Langsam, bitte. Ich schreibe mit.",
+        "speaker": null,
+        "label": "Write down details",
+        "image": "p-16-03.jpg"
+      },
+      "back": {
+        "meaning_en": "Slowly, please. I'm writing it down.",
+        "label": "Tip",
+        "german": "Langsam, bitte. Ich schreibe mit.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Langsam, bitte. Ich schreibe mit."
+    },
+    {
+      "order": 7,
+      "type": "phrase",
+      "front": {
+        "german": "Das Labor, Durchwahl 2 4 7.",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-16-03.jpg"
+      },
+      "back": {
+        "meaning_en": "Lab extension",
+        "label": "You note down",
+        "german": "247",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "247",
+          "english": null
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "type": "phrase",
+      "front": {
+        "german": "Der Kaliumwert von Herrn Schmidt ist 5,8.",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-16-04.jpg"
+      },
+      "back": {
+        "meaning_en": "Potassium value",
+        "label": "You note down",
+        "german": "5,8",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "5,8",
+          "english": null
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "type": "phrase",
+      "front": {
+        "german": "Bitte rufen Sie mich zurück.",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-16-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Please call me back.",
+        "label": "You answer",
+        "german": "Ja, gern. Wie ist Ihre Nummer?",
+        "english": "Yes, of course. What is your number?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, gern. Wie ist Ihre Nummer?",
+          "english": "Yes, of course. What is your number?"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "type": "phrase",
+      "front": {
+        "german": "Langsam, bitte. Ich schreibe mit.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-16-06.jpg"
+      },
+      "back": {
+        "meaning_en": "Slowly, please. I'm writing it down.",
+        "label": "When",
+        "german": "Langsam, bitte. Ich schreibe mit.",
+        "english": "The doctor speaks too fast on the phone.",
+        "note": null
+      }
+    },
+    {
+      "order": 11,
+      "type": "pattern",
+      "front": {
+        "german": "Können Sie das bitte buchstabieren?",
+        "speaker": null,
+        "label": "Calls from relatives",
+        "image": "p-16-08.jpg"
+      },
+      "back": {
+        "meaning_en": "Can you spell that, please?",
+        "label": "Tip",
+        "german": "Können Sie das bitte buchstabieren?",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Können Sie das bitte [buchstabieren]?"
+    },
+    {
+      "order": 12,
+      "type": "phrase",
+      "front": {
+        "german": "Ist meine Mutter wach?",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-16-08.jpg"
+      },
+      "back": {
+        "meaning_en": "Is my mother awake?",
+        "label": "You answer",
+        "german": "Ja, sie ist wach. Einen Moment, bitte.",
+        "english": "Yes, she's awake. One moment, please.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, sie ist wach. Einen Moment, bitte.",
+          "english": "Yes, she's awake. One moment, please."
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "type": "phrase",
+      "front": {
+        "german": "Wie ist Ihr Name, bitte? Können Sie das buchstabieren?",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-16-09.jpg"
+      },
+      "back": {
+        "meaning_en": "What is your name, please? Can you spell that?",
+        "label": "When",
+        "german": "Wie ist Ihr Name, bitte? Können Sie das buchstabieren?",
+        "english": "You didn't understand the caller's name.",
+        "note": null
+      }
+    },
+    {
+      "order": 14,
+      "type": "phrase",
+      "front": {
+        "german": "Kann ich meine Mutter besuchen?",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-16-10.jpg"
+      },
+      "back": {
+        "meaning_en": "Can I visit my mother?",
+        "label": "You answer",
+        "german": "Ja, Besuchszeit ist von 15 bis 18 Uhr.",
+        "english": "Yes, visiting time is from 15:00 to 18:00.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, Besuchszeit ist von 15 bis 18 Uhr.",
+          "english": "Yes, visiting time is from 15:00 to 18:00."
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "type": "spelling",
+      "front": {
+        "german": "Wie schreibt man das?",
+        "speaker": null,
+        "label": null,
+        "image": "s-krause.jpg"
+      },
+      "back": {
+        "meaning_en": "How do you spell that?",
+        "label": "Letters",
+        "german": "K · R · A · U · S · E",
+        "english": "kah · err · ah · uh · ess · eh",
+        "note": null
+      },
+      "spelling": {
+        "name": "Krause",
+        "letters": [
+          {
+            "letter": "K",
+            "say": "kah"
+          },
+          {
+            "letter": "R",
+            "say": "err"
+          },
+          {
+            "letter": "A",
+            "say": "ah"
+          },
+          {
+            "letter": "U",
+            "say": "uh"
+          },
+          {
+            "letter": "S",
+            "say": "ess"
+          },
+          {
+            "letter": "E",
+            "say": "eh"
+          }
+        ]
+      }
+    },
+    {
+      "order": 16,
+      "type": "spelling",
+      "front": {
+        "german": "Wie schreibt man das?",
+        "speaker": null,
+        "label": null,
+        "image": "s-meyer.jpg"
+      },
+      "back": {
+        "meaning_en": "How do you spell that?",
+        "label": "Letters",
+        "german": "M · E · Y · E · R",
+        "english": "emm · eh · üpsilon · eh · err",
+        "note": null
+      },
+      "spelling": {
+        "name": "Meyer",
+        "letters": [
+          {
+            "letter": "M",
+            "say": "emm"
+          },
+          {
+            "letter": "E",
+            "say": "eh"
+          },
+          {
+            "letter": "Y",
+            "say": "üpsilon"
+          },
+          {
+            "letter": "E",
+            "say": "eh"
+          },
+          {
+            "letter": "R",
+            "say": "err"
+          }
+        ]
+      }
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "translate_to_german",
+      "from_card": "das Handy",
+      "question_en": "How do you say \"Mobile phone\" in German?",
+      "supporting_image": "w-mobile-phone.jpg",
+      "options": [
+        "das Handy",
+        "die Pflegekraft",
+        "der Blutdruck",
+        "der Blutzucker"
+      ],
+      "answer": "das Handy"
+    },
+    {
+      "type": "translate_to_english",
+      "from_card": "das Handy",
+      "question_en": "What does \"das Handy\" mean?",
+      "supporting_image": "w-mobile-phone.jpg",
+      "german": "das Handy",
+      "options": [
+        "Mobile phone",
+        "Nurse",
+        "BP",
+        "Sugar"
+      ],
+      "answer": "Mobile phone"
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Das Telefon klingelt!",
+      "supporting_image": "p-16-01.jpg",
+      "speaker": "lena",
+      "prompt_de": "Das Telefon klingelt!",
+      "prompt_en": "The phone is ringing!",
+      "options": [
+        "das Telefon",
+        "die Klingel",
+        "das Handy",
+        "die Uhr"
+      ],
+      "answer": "das Telefon",
+      "feedback_de": "Station 3, Priya, guten Tag.",
+      "feedback_en": "Ward 3, Priya speaking, hello."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Hallo, hier ist Dr. Braun.",
+      "supporting_image": "p-16-02.jpg",
+      "speaker": "braun",
+      "prompt_de": "Hallo, hier ist Dr. Braun.",
+      "prompt_en": "Hello, this is Dr. Braun.",
+      "options": [
+        "Guten Tag, Dr. Braun. Hier ist Priya, Station 3.",
+        "Hallo, wer bist du?",
+        "Tschüss!"
+      ],
+      "answer": "Guten Tag, Dr. Braun. Hier ist Priya, Station 3."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Danke. Auf Wiederhören!",
+      "supporting_image": "p-16-07.jpg",
+      "speaker": "braun",
+      "prompt_de": null,
+      "prompt_en": "End the phone call politely.",
+      "options": [
+        "Danke. Auf Wiederhören!",
+        "Danke. Gute Besserung!",
+        "Tschüss, Alter!"
+      ],
+      "answer": "Danke. Auf Wiederhören!"
+    },
+    {
+      "type": "listen_and_note",
+      "from_card": "Das Labor, Durchwahl 2 4 7.",
+      "supporting_image": "p-16-03.jpg",
+      "speaker": "braun",
+      "prompt_de": "Das Labor, Durchwahl 2 4 7.",
+      "prompt_en": "Lab extension:",
+      "options": [
+        "247",
+        "274",
+        "427",
+        "742"
+      ],
+      "answer": "247"
+    },
+    {
+      "type": "listen_and_note",
+      "from_card": "Der Kaliumwert von Herrn Schmidt ist 5,8.",
+      "supporting_image": "p-16-04.jpg",
+      "speaker": "braun",
+      "prompt_de": "Der Kaliumwert von Herrn Schmidt ist 5,8.",
+      "prompt_en": "Potassium value:",
+      "options": [
+        "5,8",
+        "8,5",
+        "5,5",
+        "8,8"
+      ],
+      "answer": "5,8"
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Bitte rufen Sie mich zurück.",
+      "supporting_image": "p-16-05.jpg",
+      "speaker": "braun",
+      "prompt_de": "Bitte rufen Sie mich zurück.",
+      "prompt_en": "Please call me back.",
+      "options": [
+        "Ja, gern. Wie ist Ihre Nummer?",
+        "Ja, gern. Wie ist das Wetter?",
+        "Nein, ich habe kein Telefon."
+      ],
+      "answer": "Ja, gern. Wie ist Ihre Nummer?"
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Langsam, bitte. Ich schreibe mit.",
+      "supporting_image": "p-16-06.jpg",
+      "speaker": "braun",
+      "prompt_de": null,
+      "prompt_en": "The doctor speaks too fast on the phone.",
+      "options": [
+        "Langsam, bitte. Ich schreibe mit.",
+        "Schneller, bitte.",
+        "Guten Appetit!"
+      ],
+      "answer": "Langsam, bitte. Ich schreibe mit."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Ist meine Mutter wach?",
+      "supporting_image": "p-16-08.jpg",
+      "speaker": "anna",
+      "prompt_de": "Ist meine Mutter wach?",
+      "prompt_en": "Is my mother awake?",
+      "options": [
+        "Ja, sie ist wach. Einen Moment, bitte.",
+        "Ja, sie ist 82.",
+        "Nein, sie ist Pflegekraft."
+      ],
+      "answer": "Ja, sie ist wach. Einen Moment, bitte."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Wie ist Ihr Name, bitte? Können Sie das buchstabieren?",
+      "supporting_image": "p-16-09.jpg",
+      "speaker": "anna",
+      "prompt_de": null,
+      "prompt_en": "You didn't understand the caller's name.",
+      "options": [
+        "Wie ist Ihr Name, bitte? Können Sie das buchstabieren?",
+        "Wie alt sind Sie?",
+        "Ich verstehe alles, danke."
+      ],
+      "answer": "Wie ist Ihr Name, bitte? Können Sie das buchstabieren?"
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Kann ich meine Mutter besuchen?",
+      "supporting_image": "p-16-10.jpg",
+      "speaker": "anna",
+      "prompt_de": "Kann ich meine Mutter besuchen?",
+      "prompt_en": "Can I visit my mother?",
+      "options": [
+        "Ja, Besuchszeit ist von 15 bis 18 Uhr.",
+        "Ja, um 3 Uhr nachts.",
+        "Nein, nie."
+      ],
+      "answer": "Ja, Besuchszeit ist von 15 bis 18 Uhr."
+    },
+    {
+      "type": "spelling",
+      "from_card": "Krause",
+      "supporting_image": "s-krause.jpg",
+      "audio_letters": [
+        "K",
+        "R",
+        "A",
+        "U",
+        "S",
+        "E"
+      ],
+      "options": [
+        "Krause",
+        "Kraus",
+        "Krauser"
+      ],
+      "answer": "Krause"
+    },
+    {
+      "type": "spelling",
+      "from_card": "Meyer",
+      "supporting_image": "s-meyer.jpg",
+      "audio_letters": [
+        "M",
+        "E",
+        "Y",
+        "E",
+        "R"
+      ],
+      "options": [
+        "Meyer",
+        "Maier",
+        "Meier"
+      ],
+      "answer": "Meyer"
+    }
+  ],
+  "images_zip": "level-17-images.zip",
+  "images": [
+    "p-16-01.jpg",
+    "p-16-02.jpg",
+    "p-16-03.jpg",
+    "p-16-04.jpg",
+    "p-16-05.jpg",
+    "p-16-06.jpg",
+    "p-16-07.jpg",
+    "p-16-08.jpg",
+    "p-16-09.jpg",
+    "p-16-10.jpg",
+    "s-krause.jpg",
+    "s-meyer.jpg",
+    "w-mobile-phone.jpg"
+  ]
+}

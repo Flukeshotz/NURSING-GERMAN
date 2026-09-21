@@ -1,0 +1,478 @@
+{
+  "level": 11,
+  "cefr": "A1",
+  "title_en": "Instructions",
+  "title_de": "Bitte …!",
+  "unlock": {
+    "requires_level": 10,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
+  },
+  "goals": [
+    {
+      "title": "Tell patients how to move",
+      "pattern": "[Setzen] Sie sich bitte.",
+      "pattern_en": "Please sit down.",
+      "tip": "Instruction = verb first + Sie + bitte."
+    },
+    {
+      "title": "During an examination",
+      "pattern": "Machen Sie bitte [den Mund] auf.",
+      "pattern_en": "Please open your mouth.",
+      "tip": null
+    },
+    {
+      "title": "Safety rules",
+      "pattern": "Sie dürfen nicht allein [aufstehen].",
+      "pattern_en": "You must not get up alone.",
+      "tip": null
+    }
+  ],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "word",
+      "front": {
+        "german": "der Physiotherapeut / die Physiotherapeutin",
+        "speaker": null,
+        "label": null,
+        "image": "w-physio.jpg"
+      },
+      "back": {
+        "meaning_en": "Physio",
+        "label": "Example",
+        "german": "Der Physiotherapeut kommt um 10 Uhr.",
+        "english": "The physio comes at 10 o'clock.",
+        "note": null
+      },
+      "article_word": "der Physiotherapeut / die Physiotherapeutin",
+      "false_friend": false
+    },
+    {
+      "order": 2,
+      "type": "pattern",
+      "front": {
+        "german": "Setzen Sie sich bitte.",
+        "speaker": null,
+        "label": "Tell patients how to move",
+        "image": "p-09-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Please sit down.",
+        "label": "Tip",
+        "german": "Setzen Sie sich bitte.",
+        "english": "Instruction = verb first + Sie + bitte.",
+        "note": null
+      },
+      "pattern": "[Setzen] Sie sich bitte."
+    },
+    {
+      "order": 3,
+      "type": "phrase",
+      "front": {
+        "german": "Setzen Sie sich bitte.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-09-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Please sit down.",
+        "label": "When",
+        "german": "Setzen Sie sich bitte.",
+        "english": "Herr Schmidt should sit down.",
+        "note": null
+      }
+    },
+    {
+      "order": 4,
+      "type": "phrase",
+      "front": {
+        "german": "Frau Weber, legen Sie sich bitte hin.",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-09-04.jpg"
+      },
+      "back": {
+        "meaning_en": "What should Frau Weber do?",
+        "label": "Key word",
+        "german": "sich hinlegen",
+        "english": "to lie down",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 5,
+      "type": "phrase",
+      "front": {
+        "german": "Herr Schmidt, stehen Sie bitte langsam auf.",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-09-05.jpg"
+      },
+      "back": {
+        "meaning_en": "What should Herr Schmidt do?",
+        "label": "Key word",
+        "german": "aufstehen",
+        "english": "to get up",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 6,
+      "type": "phrase",
+      "front": {
+        "german": "Herr Schmidt, gehen Sie bitte langsam.",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-09-10.jpg"
+      },
+      "back": {
+        "meaning_en": "What should Herr Schmidt do?",
+        "label": "Key word",
+        "german": "gehen",
+        "english": "to walk",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 7,
+      "type": "pattern",
+      "front": {
+        "german": "Machen Sie bitte den Mund auf.",
+        "speaker": null,
+        "label": "During an examination",
+        "image": "p-09-02.jpg"
+      },
+      "back": {
+        "meaning_en": "Please open your mouth.",
+        "label": "Tip",
+        "german": "Machen Sie bitte den Mund auf.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Machen Sie bitte [den Mund] auf."
+    },
+    {
+      "order": 8,
+      "type": "phrase",
+      "front": {
+        "german": "Machen Sie bitte den Mund auf.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-09-02.jpg"
+      },
+      "back": {
+        "meaning_en": "Please open your mouth.",
+        "label": "When",
+        "german": "Machen Sie bitte den Mund auf.",
+        "english": "Dr. Braun wants to look in Frau Weber's mouth.",
+        "note": null
+      }
+    },
+    {
+      "order": 9,
+      "type": "phrase",
+      "front": {
+        "german": "Atmen Sie bitte tief ein.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-09-03.jpg"
+      },
+      "back": {
+        "meaning_en": "Please breathe in deeply.",
+        "label": "When",
+        "german": "Atmen Sie bitte tief ein.",
+        "english": "Herr Yılmaz should breathe in deeply.",
+        "note": null
+      }
+    },
+    {
+      "order": 10,
+      "type": "phrase",
+      "front": {
+        "german": "Zeigen Sie bitte die Zunge.",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-09-07.jpg"
+      },
+      "back": {
+        "meaning_en": "Please show your tongue.",
+        "label": "Key word",
+        "german": "die Zunge",
+        "english": "the tongue",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 11,
+      "type": "phrase",
+      "front": {
+        "german": "Geben Sie mir bitte Ihren Arm.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-09-09.jpg"
+      },
+      "back": {
+        "meaning_en": "Please give me your arm.",
+        "label": "When",
+        "german": "Geben Sie mir bitte Ihren Arm.",
+        "english": "You want to measure blood pressure. Ask for her arm.",
+        "note": null
+      }
+    },
+    {
+      "order": 12,
+      "type": "pattern",
+      "front": {
+        "german": "Sie dürfen nicht allein aufstehen.",
+        "speaker": null,
+        "label": "Safety rules",
+        "image": "p-09-06.jpg"
+      },
+      "back": {
+        "meaning_en": "You must not get up alone.",
+        "label": "Tip",
+        "german": "Sie dürfen nicht allein aufstehen.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Sie dürfen nicht allein [aufstehen]."
+    },
+    {
+      "order": 13,
+      "type": "phrase",
+      "front": {
+        "german": "Bitte klingeln Sie. Ich komme dann.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-09-06.jpg"
+      },
+      "back": {
+        "meaning_en": "Please ring. Then I'll come.",
+        "label": "When",
+        "german": "Bitte klingeln Sie. Ich komme dann.",
+        "english": "Frau Weber needs you at night. Tell her to ring.",
+        "note": null
+      }
+    },
+    {
+      "order": 14,
+      "type": "phrase",
+      "front": {
+        "german": "Sie dürfen nicht allein aufstehen.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-09-08.jpg"
+      },
+      "back": {
+        "meaning_en": "You must not get up alone.",
+        "label": "When",
+        "german": "Sie dürfen nicht allein aufstehen.",
+        "english": "Herr Yılmaz must not get up alone.",
+        "note": null
+      }
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "translate_to_german",
+      "from_card": "der Physiotherapeut / die Physiotherapeutin",
+      "question_en": "How do you say \"Physio\" in German?",
+      "supporting_image": "w-physio.jpg",
+      "options": [
+        "der Physiotherapeut / die Physiotherapeutin",
+        "die Pflegekraft",
+        "der Blutdruck",
+        "der Blutzucker"
+      ],
+      "answer": "der Physiotherapeut / die Physiotherapeutin"
+    },
+    {
+      "type": "translate_to_english",
+      "from_card": "der Physiotherapeut / die Physiotherapeutin",
+      "question_en": "What does \"der Physiotherapeut / die Physiotherapeutin\" mean?",
+      "supporting_image": "w-physio.jpg",
+      "german": "der Physiotherapeut / die Physiotherapeutin",
+      "options": [
+        "Physio",
+        "Nurse",
+        "BP",
+        "Sugar"
+      ],
+      "answer": "Physio"
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Setzen Sie sich bitte.",
+      "supporting_image": "p-09-01.jpg",
+      "speaker": "schmidt",
+      "prompt_de": null,
+      "prompt_en": "Herr Schmidt should sit down.",
+      "options": [
+        "Setzen Sie sich bitte.",
+        "Stehen Sie bitte auf.",
+        "Legen Sie sich bitte hin."
+      ],
+      "answer": "Setzen Sie sich bitte."
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Frau Weber, legen Sie sich bitte hin.",
+      "supporting_image": "p-09-04.jpg",
+      "speaker": "braun",
+      "prompt_de": "Frau Weber, legen Sie sich bitte hin.",
+      "prompt_en": "What should Frau Weber do?",
+      "options": [
+        "sich hinlegen",
+        "aufstehen",
+        "sich setzen",
+        "gehen"
+      ],
+      "answer": "sich hinlegen"
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Herr Schmidt, stehen Sie bitte langsam auf.",
+      "supporting_image": "p-09-05.jpg",
+      "speaker": "lena",
+      "prompt_de": "Herr Schmidt, stehen Sie bitte langsam auf.",
+      "prompt_en": "What should Herr Schmidt do?",
+      "options": [
+        "aufstehen",
+        "sich hinlegen",
+        "sich setzen",
+        "gehen"
+      ],
+      "answer": "aufstehen"
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Herr Schmidt, gehen Sie bitte langsam.",
+      "supporting_image": "p-09-10.jpg",
+      "speaker": "lena",
+      "prompt_de": "Herr Schmidt, gehen Sie bitte langsam.",
+      "prompt_en": "What should Herr Schmidt do?",
+      "options": [
+        "gehen",
+        "laufen",
+        "sich hinlegen",
+        "sich setzen"
+      ],
+      "answer": "gehen"
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Machen Sie bitte den Mund auf.",
+      "supporting_image": "p-09-02.jpg",
+      "speaker": "weber",
+      "prompt_de": null,
+      "prompt_en": "Dr. Braun wants to look in Frau Weber's mouth.",
+      "options": [
+        "Machen Sie bitte den Mund auf.",
+        "Machen Sie bitte die Tür auf.",
+        "Machen Sie bitte die Augen zu."
+      ],
+      "answer": "Machen Sie bitte den Mund auf."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Atmen Sie bitte tief ein.",
+      "supporting_image": "p-09-03.jpg",
+      "speaker": "yilmaz",
+      "prompt_de": null,
+      "prompt_en": "Herr Yılmaz should breathe in deeply.",
+      "options": [
+        "Atmen Sie bitte tief ein.",
+        "Atmen Sie bitte aus.",
+        "Trinken Sie bitte tief."
+      ],
+      "answer": "Atmen Sie bitte tief ein."
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Zeigen Sie bitte die Zunge.",
+      "supporting_image": "p-09-07.jpg",
+      "speaker": "braun",
+      "prompt_de": "Zeigen Sie bitte die Zunge.",
+      "prompt_en": "Please show your tongue.",
+      "options": [
+        "die Zunge",
+        "das Ohr",
+        "das Auge",
+        "die Hand"
+      ],
+      "answer": "die Zunge"
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Geben Sie mir bitte Ihren Arm.",
+      "supporting_image": "p-09-09.jpg",
+      "speaker": "weber",
+      "prompt_de": null,
+      "prompt_en": "You want to measure blood pressure. Ask for her arm.",
+      "options": [
+        "Geben Sie mir bitte Ihren Arm.",
+        "Geben Sie mir bitte Ihr Bett.",
+        "Nehmen Sie bitte meinen Arm."
+      ],
+      "answer": "Geben Sie mir bitte Ihren Arm."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Bitte klingeln Sie. Ich komme dann.",
+      "supporting_image": "p-09-06.jpg",
+      "speaker": "weber",
+      "prompt_de": null,
+      "prompt_en": "Frau Weber needs you at night. Tell her to ring.",
+      "options": [
+        "Bitte klingeln Sie. Ich komme dann.",
+        "Bitte rufen Sie die Polizei.",
+        "Bitte schlafen Sie."
+      ],
+      "answer": "Bitte klingeln Sie. Ich komme dann."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Sie dürfen nicht allein aufstehen.",
+      "supporting_image": "p-09-08.jpg",
+      "speaker": "yilmaz",
+      "prompt_de": null,
+      "prompt_en": "Herr Yılmaz must not get up alone.",
+      "options": [
+        "Sie dürfen nicht allein aufstehen.",
+        "Sie müssen allein aufstehen.",
+        "Sie können gut aufstehen."
+      ],
+      "answer": "Sie dürfen nicht allein aufstehen."
+    }
+  ],
+  "images_zip": "level-11-images.zip",
+  "images": [
+    "p-09-01.jpg",
+    "p-09-02.jpg",
+    "p-09-03.jpg",
+    "p-09-04.jpg",
+    "p-09-05.jpg",
+    "p-09-06.jpg",
+    "p-09-07.jpg",
+    "p-09-08.jpg",
+    "p-09-09.jpg",
+    "p-09-10.jpg",
+    "w-physio.jpg"
+  ]
+}
