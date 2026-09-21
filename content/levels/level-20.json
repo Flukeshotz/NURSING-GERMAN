@@ -1,0 +1,577 @@
+{
+  "level": 20,
+  "cefr": "A1",
+  "title_en": "Visitors & relatives",
+  "title_de": "Besuch & Angehörige",
+  "unlock": {
+    "requires_level": 19,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
+  },
+  "goals": [
+    {
+      "title": "Welcome visitors",
+      "pattern": "Sie ist in [Zimmer 1]. Kommen Sie mit.",
+      "pattern_en": "She's in room 1. Come with me.",
+      "tip": null
+    },
+    {
+      "title": "Visiting rules",
+      "pattern": "Bitte nur [zwei] Besucher.",
+      "pattern_en": "Only two visitors, please.",
+      "tip": null
+    },
+    {
+      "title": "Questions from relatives",
+      "pattern": "Einen Moment, ich frage den Arzt.",
+      "pattern_en": "One moment, I'll ask the doctor.",
+      "tip": "Medical questions go to the doctor. That's normal and safe."
+    }
+  ],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "word",
+      "front": {
+        "german": "der Sozialdienst",
+        "speaker": null,
+        "label": null,
+        "image": "w-social-worker.jpg"
+      },
+      "back": {
+        "meaning_en": "Social worker",
+        "label": "Example",
+        "german": "Der Sozialdienst hilft Frau Weber.",
+        "english": "The social worker helps Frau Weber.",
+        "note": "Helps patients with care after discharge."
+      },
+      "article_word": "der Sozialdienst",
+      "false_friend": false
+    },
+    {
+      "order": 2,
+      "type": "word",
+      "front": {
+        "german": "die Praxis",
+        "speaker": null,
+        "label": null,
+        "image": "w-doctor-s-clinic-gp.jpg"
+      },
+      "back": {
+        "meaning_en": "Doctor's clinic (GP)",
+        "label": "Example",
+        "german": "Die Praxis von Dr. Klein ist hier.",
+        "english": "Dr. Klein's practice is here.",
+        "note": "„Praxis“ = a doctor's office, e.g. die Hausarztpraxis."
+      },
+      "article_word": "die Praxis",
+      "false_friend": true
+    },
+    {
+      "order": 3,
+      "type": "pattern",
+      "front": {
+        "german": "Sie ist in Zimmer 1. Kommen Sie mit.",
+        "speaker": null,
+        "label": "Welcome visitors",
+        "image": "p-20-01.jpg"
+      },
+      "back": {
+        "meaning_en": "She's in room 1. Come with me.",
+        "label": "Tip",
+        "german": "Sie ist in Zimmer 1. Kommen Sie mit.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Sie ist in [Zimmer 1]. Kommen Sie mit."
+    },
+    {
+      "order": 4,
+      "type": "phrase",
+      "front": {
+        "german": "Wo ist meine Mutter? Frau Weber.",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-20-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Where is my mother? Frau Weber.",
+        "label": "You answer",
+        "german": "Sie ist in Zimmer 1. Kommen Sie mit.",
+        "english": "She's in room 1. Come with me.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Sie ist in Zimmer 1. Kommen Sie mit.",
+          "english": "She's in room 1. Come with me."
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "type": "phrase",
+      "front": {
+        "german": "Darf ich Blumen mitbringen?",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-20-02.jpg"
+      },
+      "back": {
+        "meaning_en": "May I bring flowers?",
+        "label": "You answer",
+        "german": "Ja, gern.",
+        "english": "Yes, of course.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, gern.",
+          "english": "Yes, of course."
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "type": "phrase",
+      "front": {
+        "german": "Wo kann ich einen Kaffee trinken?",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-20-03.jpg"
+      },
+      "back": {
+        "meaning_en": "Where can I get a coffee?",
+        "label": "You answer",
+        "german": "Die Cafeteria ist im Erdgeschoss.",
+        "english": "The cafeteria is on the ground floor.",
+        "note": "Key word: die Cafeteria = the cafeteria"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Die Cafeteria ist im Erdgeschoss.",
+          "english": "The cafeteria is on the ground floor."
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "type": "phrase",
+      "front": {
+        "german": "Danke, Sie sind so nett zu meiner Mutter.",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-20-04.jpg"
+      },
+      "back": {
+        "meaning_en": "Thank you, you're so kind to my mother.",
+        "label": "You answer",
+        "german": "Gern. Ihre Mutter ist sehr nett.",
+        "english": "You're welcome. Your mother is very kind.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Gern. Ihre Mutter ist sehr nett.",
+          "english": "You're welcome. Your mother is very kind."
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "type": "pattern",
+      "front": {
+        "german": "Bitte nur zwei Besucher.",
+        "speaker": null,
+        "label": "Visiting rules",
+        "image": "p-20-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Only two visitors, please.",
+        "label": "Tip",
+        "german": "Bitte nur zwei Besucher.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Bitte nur [zwei] Besucher."
+    },
+    {
+      "order": 9,
+      "type": "phrase",
+      "front": {
+        "german": "Bitte warten Sie kurz draußen.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-20-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Please wait outside for a moment.",
+        "label": "When",
+        "german": "Bitte warten Sie kurz draußen.",
+        "english": "The visitor is in the room during the ward round.",
+        "note": null
+      }
+    },
+    {
+      "order": 10,
+      "type": "phrase",
+      "front": {
+        "german": "Heute sind zwei Besucher erlaubt.",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-20-06.jpg"
+      },
+      "back": {
+        "meaning_en": "How many visitors are allowed?",
+        "label": "You note down",
+        "german": "2",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "2",
+          "english": null
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "type": "phrase",
+      "front": {
+        "german": "Bitte nur zwei Besucher im Zimmer.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-20-07.jpg"
+      },
+      "back": {
+        "meaning_en": "Only two visitors in the room, please.",
+        "label": "When",
+        "german": "Bitte nur zwei Besucher im Zimmer.",
+        "english": "There are four visitors in the room. Only two are allowed.",
+        "note": null
+      }
+    },
+    {
+      "order": 12,
+      "type": "pattern",
+      "front": {
+        "german": "Einen Moment, ich frage den Arzt.",
+        "speaker": null,
+        "label": "Questions from relatives",
+        "image": "p-20-08.jpg"
+      },
+      "back": {
+        "meaning_en": "One moment, I'll ask the doctor.",
+        "label": "Tip",
+        "german": "Einen Moment, ich frage den Arzt.",
+        "english": "Medical questions go to the doctor. That's normal and safe.",
+        "note": null
+      },
+      "pattern": "Einen Moment, ich frage den Arzt."
+    },
+    {
+      "order": 13,
+      "type": "phrase",
+      "front": {
+        "german": "Kann ich den Arzt sprechen?",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-20-08.jpg"
+      },
+      "back": {
+        "meaning_en": "Can I talk to the doctor?",
+        "label": "You answer",
+        "german": "Ja, der Arzt kommt um 14 Uhr.",
+        "english": "Yes, the doctor comes at 14:00.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, der Arzt kommt um 14 Uhr.",
+          "english": "Yes, the doctor comes at 14:00."
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "type": "phrase",
+      "front": {
+        "german": "Darf meine Mutter Kuchen essen?",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-20-09.jpg"
+      },
+      "back": {
+        "meaning_en": "May my mother eat cake?",
+        "label": "You answer",
+        "german": "Einen Moment, ich frage den Arzt.",
+        "english": "One moment, I'll ask the doctor.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Einen Moment, ich frage den Arzt.",
+          "english": "One moment, I'll ask the doctor."
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "type": "phrase",
+      "front": {
+        "german": "Können Sie mich anrufen?",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-20-10.jpg"
+      },
+      "back": {
+        "meaning_en": "Can you call me?",
+        "label": "You answer",
+        "german": "Ja. Wie ist Ihre Telefonnummer?",
+        "english": "Yes. What is your phone number?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja. Wie ist Ihre Telefonnummer?",
+          "english": "Yes. What is your phone number?"
+        }
+      ]
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "translate_to_german",
+      "from_card": "der Sozialdienst",
+      "question_en": "How do you say \"Social worker\" in German?",
+      "supporting_image": "w-social-worker.jpg",
+      "options": [
+        "der Sozialdienst",
+        "die Praxis",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "der Sozialdienst"
+    },
+    {
+      "type": "translate_to_english",
+      "from_card": "der Sozialdienst",
+      "question_en": "What does \"der Sozialdienst\" mean?",
+      "supporting_image": "w-social-worker.jpg",
+      "german": "der Sozialdienst",
+      "options": [
+        "Social worker",
+        "Doctor's clinic (GP)",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Social worker"
+    },
+    {
+      "type": "translate_to_german",
+      "from_card": "die Praxis",
+      "question_en": "How do you say \"Doctor's clinic (GP)\" in German?",
+      "supporting_image": "w-doctor-s-clinic-gp.jpg",
+      "options": [
+        "die Praxis",
+        "der Sozialdienst",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "die Praxis"
+    },
+    {
+      "type": "translate_to_english",
+      "from_card": "die Praxis",
+      "question_en": "What does \"die Praxis\" mean?",
+      "supporting_image": "w-doctor-s-clinic-gp.jpg",
+      "german": "die Praxis",
+      "options": [
+        "Doctor's clinic (GP)",
+        "Social worker",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Doctor's clinic (GP)"
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Wo ist meine Mutter? Frau Weber.",
+      "supporting_image": "p-20-01.jpg",
+      "speaker": "anna",
+      "prompt_de": "Wo ist meine Mutter? Frau Weber.",
+      "prompt_en": "Where is my mother? Frau Weber.",
+      "options": [
+        "Sie ist in Zimmer 1. Kommen Sie mit.",
+        "Sie ist 82 Jahre alt.",
+        "Das weiß ich nicht, tschüss."
+      ],
+      "answer": "Sie ist in Zimmer 1. Kommen Sie mit."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Darf ich Blumen mitbringen?",
+      "supporting_image": "p-20-02.jpg",
+      "speaker": "anna",
+      "prompt_de": "Darf ich Blumen mitbringen?",
+      "prompt_en": "May I bring flowers?",
+      "options": [
+        "Ja, gern.",
+        "Nein, Blumen essen wir nicht.",
+        "Ja, bitte ins Bett."
+      ],
+      "answer": "Ja, gern."
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Wo kann ich einen Kaffee trinken?",
+      "supporting_image": "p-20-03.jpg",
+      "speaker": "anna",
+      "prompt_de": "Wo kann ich einen Kaffee trinken?",
+      "prompt_en": "Where can I get a coffee?",
+      "options": [
+        "die Cafeteria",
+        "die Toilette",
+        "die Notaufnahme",
+        "das Labor"
+      ],
+      "answer": "die Cafeteria",
+      "feedback_de": "Die Cafeteria ist im Erdgeschoss.",
+      "feedback_en": "The cafeteria is on the ground floor."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Danke, Sie sind so nett zu meiner Mutter.",
+      "supporting_image": "p-20-04.jpg",
+      "speaker": "anna",
+      "prompt_de": "Danke, Sie sind so nett zu meiner Mutter.",
+      "prompt_en": "Thank you, you're so kind to my mother.",
+      "options": [
+        "Gern. Ihre Mutter ist sehr nett.",
+        "Ja, ich weiß.",
+        "Danke, du auch."
+      ],
+      "answer": "Gern. Ihre Mutter ist sehr nett."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Bitte warten Sie kurz draußen.",
+      "supporting_image": "p-20-05.jpg",
+      "speaker": "anna",
+      "prompt_de": null,
+      "prompt_en": "The visitor is in the room during the ward round.",
+      "options": [
+        "Bitte warten Sie kurz draußen.",
+        "Bitte legen Sie sich ins Bett.",
+        "Bitte machen Sie die Visite."
+      ],
+      "answer": "Bitte warten Sie kurz draußen."
+    },
+    {
+      "type": "listen_and_note",
+      "from_card": "Heute sind zwei Besucher erlaubt.",
+      "supporting_image": "p-20-06.jpg",
+      "speaker": "lena",
+      "prompt_de": "Heute sind zwei Besucher erlaubt.",
+      "prompt_en": "How many visitors are allowed?",
+      "options": [
+        "2",
+        "12",
+        "20",
+        "3"
+      ],
+      "answer": "2"
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Bitte nur zwei Besucher im Zimmer.",
+      "supporting_image": "p-20-07.jpg",
+      "speaker": "anna",
+      "prompt_de": null,
+      "prompt_en": "There are four visitors in the room. Only two are allowed.",
+      "options": [
+        "Bitte nur zwei Besucher im Zimmer.",
+        "Bitte nur vier Kuchen.",
+        "Bitte alle ins Bett."
+      ],
+      "answer": "Bitte nur zwei Besucher im Zimmer."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Kann ich den Arzt sprechen?",
+      "supporting_image": "p-20-08.jpg",
+      "speaker": "anna",
+      "prompt_de": "Kann ich den Arzt sprechen?",
+      "prompt_en": "Can I talk to the doctor?",
+      "options": [
+        "Ja, der Arzt kommt um 14 Uhr.",
+        "Ja, der Arzt ist krank.",
+        "Nein, der Arzt spricht nicht."
+      ],
+      "answer": "Ja, der Arzt kommt um 14 Uhr."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Darf meine Mutter Kuchen essen?",
+      "supporting_image": "p-20-09.jpg",
+      "speaker": "anna",
+      "prompt_de": "Darf meine Mutter Kuchen essen?",
+      "prompt_en": "May my mother eat cake?",
+      "options": [
+        "Einen Moment, ich frage den Arzt.",
+        "Ja, zehn Stück!",
+        "Nein, Kuchen ist in Deutschland verboten."
+      ],
+      "answer": "Einen Moment, ich frage den Arzt."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Können Sie mich anrufen?",
+      "supporting_image": "p-20-10.jpg",
+      "speaker": "anna",
+      "prompt_de": "Können Sie mich anrufen?",
+      "prompt_en": "Can you call me?",
+      "options": [
+        "Ja. Wie ist Ihre Telefonnummer?",
+        "Ja. Wie ist Ihr Lieblingsessen?",
+        "Nein, ich habe kein Telefon."
+      ],
+      "answer": "Ja. Wie ist Ihre Telefonnummer?"
+    }
+  ],
+  "images_zip": "level-20-images.zip",
+  "images": [
+    "p-20-01.jpg",
+    "p-20-02.jpg",
+    "p-20-03.jpg",
+    "p-20-04.jpg",
+    "p-20-05.jpg",
+    "p-20-06.jpg",
+    "p-20-07.jpg",
+    "p-20-08.jpg",
+    "p-20-09.jpg",
+    "p-20-10.jpg",
+    "w-doctor-s-clinic-gp.jpg",
+    "w-social-worker.jpg"
+  ]
+}

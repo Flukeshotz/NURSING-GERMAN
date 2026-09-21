@@ -1,0 +1,651 @@
+{
+  "level": 18,
+  "cefr": "A1",
+  "title_en": "Hygiene & isolation",
+  "title_de": "Hygiene",
+  "unlock": {
+    "requires_level": 17,
+    "pass_mark": 0.7
+  },
+  "flow": [
+    "flashcards",
+    "quick_check_every_20_cards",
+    "level_quiz",
+    "next_level"
+  ],
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 14,
+    "quiz_rule": "Every question comes from a flashcard in this level (see from_card)."
+  },
+  "goals": [
+    {
+      "title": "Clean hands",
+      "pattern": "Bitte desinfizieren Sie [die Hände].",
+      "pattern_en": "Please disinfect your hands.",
+      "tip": "Before and after every patient: 30 seconds."
+    },
+    {
+      "title": "Protective equipment",
+      "pattern": "Ich brauche [eine Maske].",
+      "pattern_en": "I need a mask.",
+      "tip": "der Kittel = gown · die Maske · die Handschuhe"
+    },
+    {
+      "title": "Isolation and clean rooms",
+      "pattern": "Nur mit [Maske], bitte.",
+      "pattern_en": "Only with a mask, please.",
+      "tip": null
+    }
+  ],
+  "flashcards": [
+    {
+      "order": 1,
+      "type": "word",
+      "front": {
+        "german": "das Desinfektionsmittel",
+        "speaker": null,
+        "label": null,
+        "image": "w-hand-sanitiser.jpg"
+      },
+      "back": {
+        "meaning_en": "Hand sanitiser",
+        "label": "Example",
+        "german": "Das Desinfektionsmittel ist an der Tür.",
+        "english": "The hand sanitiser is at the door.",
+        "note": null
+      },
+      "article_word": "das Desinfektionsmittel",
+      "false_friend": false
+    },
+    {
+      "order": 2,
+      "type": "word",
+      "front": {
+        "german": "die Isolation",
+        "speaker": null,
+        "label": null,
+        "image": "w-isolation.jpg"
+      },
+      "back": {
+        "meaning_en": "Isolation",
+        "label": "Example",
+        "german": "Zimmer 4 ist Isolation.",
+        "english": "Room 4 is isolation.",
+        "note": null
+      },
+      "article_word": "die Isolation",
+      "false_friend": false
+    },
+    {
+      "order": 3,
+      "type": "pattern",
+      "front": {
+        "german": "Bitte desinfizieren Sie die Hände.",
+        "speaker": null,
+        "label": "Clean hands",
+        "image": "p-17-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Please disinfect your hands.",
+        "label": "Tip",
+        "german": "Bitte desinfizieren Sie die Hände.",
+        "english": "Before and after every patient: 30 seconds.",
+        "note": null
+      },
+      "pattern": "Bitte desinfizieren Sie [die Hände]."
+    },
+    {
+      "order": 4,
+      "type": "phrase",
+      "front": {
+        "german": "Bitte desinfizieren Sie die Hände.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-17-01.jpg"
+      },
+      "back": {
+        "meaning_en": "Please disinfect your hands.",
+        "label": "When",
+        "german": "Bitte desinfizieren Sie die Hände.",
+        "english": "Remind a visitor to disinfect their hands.",
+        "note": null
+      }
+    },
+    {
+      "order": 5,
+      "type": "phrase",
+      "front": {
+        "german": "Ich desinfiziere die Hände.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-17-02.jpg"
+      },
+      "back": {
+        "meaning_en": "I disinfect my hands.",
+        "label": "When",
+        "german": "Ich desinfiziere die Hände.",
+        "english": "You go into the next patient's room. What do you do first?",
+        "note": null
+      }
+    },
+    {
+      "order": 6,
+      "type": "phrase",
+      "front": {
+        "german": "Die Hände 30 Sekunden desinfizieren.",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-17-03.jpg"
+      },
+      "back": {
+        "meaning_en": "How long?",
+        "label": "You note down",
+        "german": "30 Sekunden",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "30 Sekunden",
+          "english": null
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "type": "phrase",
+      "front": {
+        "german": "Muss ich die Hände waschen?",
+        "speaker": "schmidt",
+        "label": "Patient says",
+        "image": "p-17-04.jpg"
+      },
+      "back": {
+        "meaning_en": "Do I have to wash my hands?",
+        "label": "You answer",
+        "german": "Ja, bitte vor dem Essen.",
+        "english": "Yes, please, before eating.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, bitte vor dem Essen.",
+          "english": "Yes, please, before eating."
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "type": "pattern",
+      "front": {
+        "german": "Ich brauche eine Maske.",
+        "speaker": null,
+        "label": "Protective equipment",
+        "image": "p-17-05.jpg"
+      },
+      "back": {
+        "meaning_en": "I need a mask.",
+        "label": "Tip",
+        "german": "Ich brauche eine Maske.",
+        "english": "der Kittel = gown · die Maske · die Handschuhe",
+        "note": null
+      },
+      "pattern": "Ich brauche [eine Maske]."
+    },
+    {
+      "order": 9,
+      "type": "phrase",
+      "front": {
+        "german": "Zimmer 4 ist Isolation. Was brauchst du?",
+        "speaker": "lena",
+        "label": "Lena says",
+        "image": "p-17-05.jpg"
+      },
+      "back": {
+        "meaning_en": "Room 4 is isolation. What do you need?",
+        "label": "You answer",
+        "german": "Ich brauche Maske, Kittel und Handschuhe.",
+        "english": "I need a mask, gown and gloves.",
+        "note": "Key word: die Maske = the mask"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich brauche Maske, Kittel und Handschuhe.",
+          "english": "I need a mask, gown and gloves."
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "type": "phrase",
+      "front": {
+        "german": "Bitte ziehen Sie Handschuhe an.",
+        "speaker": "braun",
+        "label": "Dr. Braun says",
+        "image": "p-17-06.jpg"
+      },
+      "back": {
+        "meaning_en": "Please put on gloves.",
+        "label": "Key word",
+        "german": "die Handschuhe",
+        "english": "the gloves",
+        "note": null
+      },
+      "replies": []
+    },
+    {
+      "order": 11,
+      "type": "phrase",
+      "front": {
+        "german": "Wir haben keine Handschuhe mehr.",
+        "speaker": "nurse",
+        "label": "You say",
+        "image": "p-17-07.jpg"
+      },
+      "back": {
+        "meaning_en": "We have no gloves left.",
+        "label": "When",
+        "german": "Wir haben keine Handschuhe mehr.",
+        "english": "Tell Lena there are no gloves left.",
+        "note": null
+      }
+    },
+    {
+      "order": 12,
+      "type": "phrase",
+      "front": {
+        "german": "Warum tragen Sie eine Maske?",
+        "speaker": "yilmaz",
+        "label": "Patient says",
+        "image": "p-17-08.jpg"
+      },
+      "back": {
+        "meaning_en": "Why are you wearing a mask?",
+        "label": "You answer",
+        "german": "Für Ihre Sicherheit.",
+        "english": "For your safety.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Für Ihre Sicherheit.",
+          "english": "For your safety."
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "type": "pattern",
+      "front": {
+        "german": "Nur mit Maske, bitte.",
+        "speaker": null,
+        "label": "Isolation and clean rooms",
+        "image": "p-17-09.jpg"
+      },
+      "back": {
+        "meaning_en": "Only with a mask, please.",
+        "label": "Tip",
+        "german": "Nur mit Maske, bitte.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "pattern": "Nur mit [Maske], bitte."
+    },
+    {
+      "order": 14,
+      "type": "phrase",
+      "front": {
+        "german": "Darf ich in Zimmer 4 gehen?",
+        "speaker": "anna",
+        "label": "Visitor says",
+        "image": "p-17-09.jpg"
+      },
+      "back": {
+        "meaning_en": "May I go into room 4?",
+        "label": "You answer",
+        "german": "Nur mit Maske und Kittel, bitte.",
+        "english": "Only with a mask and gown, please.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Nur mit Maske und Kittel, bitte.",
+          "english": "Only with a mask and gown, please."
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "type": "phrase",
+      "front": {
+        "german": "Das Bett ist schmutzig.",
+        "speaker": "weber",
+        "label": "Patient says",
+        "image": "p-17-10.jpg"
+      },
+      "back": {
+        "meaning_en": "The bed is dirty.",
+        "label": "You answer",
+        "german": "Ich mache das Bett sauber.",
+        "english": "I'll clean the bed.",
+        "note": "Key word: das Bett = the bed"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich mache das Bett sauber.",
+          "english": "I'll clean the bed."
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "type": "document",
+      "front": {
+        "german": "Isolationsschild",
+        "speaker": null,
+        "label": null,
+        "image": "d-isolation.jpg"
+      },
+      "back": {
+        "meaning_en": "Isolation door sign",
+        "label": "Key words",
+        "german": "Bitte melden Sie sich · vor dem Betreten · Kittel · Maske · Handschuhe · nach Absprache",
+        "english": "please report · before going in · gown · mask · gloves · after asking staff",
+        "note": null
+      },
+      "document": {
+        "title_de": "Isolationsschild",
+        "title_en": "Isolation door sign",
+        "html": "<div class=\"sign\"><div class=\"sign-h\">ISOLATION</div><p>Bitte melden Sie sich im <b>Stationszimmer</b>.</p><p>Vor dem Betreten:</p><ul><li>Hände desinfizieren</li><li>Kittel · Maske · Handschuhe</li></ul><p>Besuch nur nach Absprache.</p></div>",
+        "key_words": [
+          {
+            "de": "Bitte melden Sie sich",
+            "en": "please report"
+          },
+          {
+            "de": "vor dem Betreten",
+            "en": "before going in"
+          },
+          {
+            "de": "Kittel · Maske · Handschuhe",
+            "en": "gown · mask · gloves"
+          },
+          {
+            "de": "nach Absprache",
+            "en": "after asking staff"
+          }
+        ]
+      }
+    }
+  ],
+  "quiz_pool": [
+    {
+      "type": "translate_to_german",
+      "from_card": "das Desinfektionsmittel",
+      "question_en": "How do you say \"Hand sanitiser\" in German?",
+      "supporting_image": "w-hand-sanitiser.jpg",
+      "options": [
+        "das Desinfektionsmittel",
+        "die Isolation",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "das Desinfektionsmittel"
+    },
+    {
+      "type": "translate_to_english",
+      "from_card": "das Desinfektionsmittel",
+      "question_en": "What does \"das Desinfektionsmittel\" mean?",
+      "supporting_image": "w-hand-sanitiser.jpg",
+      "german": "das Desinfektionsmittel",
+      "options": [
+        "Hand sanitiser",
+        "Isolation",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Hand sanitiser"
+    },
+    {
+      "type": "translate_to_german",
+      "from_card": "die Isolation",
+      "question_en": "How do you say \"Isolation\" in German?",
+      "supporting_image": "w-isolation.jpg",
+      "options": [
+        "die Isolation",
+        "das Desinfektionsmittel",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "die Isolation"
+    },
+    {
+      "type": "translate_to_english",
+      "from_card": "die Isolation",
+      "question_en": "What does \"die Isolation\" mean?",
+      "supporting_image": "w-isolation.jpg",
+      "german": "die Isolation",
+      "options": [
+        "Isolation",
+        "Hand sanitiser",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Isolation"
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Bitte desinfizieren Sie die Hände.",
+      "supporting_image": "p-17-01.jpg",
+      "speaker": "anna",
+      "prompt_de": null,
+      "prompt_en": "Remind a visitor to disinfect their hands.",
+      "options": [
+        "Bitte desinfizieren Sie die Hände.",
+        "Bitte waschen Sie das Auto.",
+        "Bitte essen Sie die Hände."
+      ],
+      "answer": "Bitte desinfizieren Sie die Hände."
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Ich desinfiziere die Hände.",
+      "supporting_image": "p-17-02.jpg",
+      "speaker": "lena",
+      "prompt_de": null,
+      "prompt_en": "You go into the next patient's room. What do you do first?",
+      "options": [
+        "Ich desinfiziere die Hände.",
+        "Ich trinke einen Kaffee.",
+        "Ich rufe ein Taxi."
+      ],
+      "answer": "Ich desinfiziere die Hände."
+    },
+    {
+      "type": "listen_and_note",
+      "from_card": "Die Hände 30 Sekunden desinfizieren.",
+      "supporting_image": "p-17-03.jpg",
+      "speaker": "lena",
+      "prompt_de": "Die Hände 30 Sekunden desinfizieren.",
+      "prompt_en": "How long?",
+      "options": [
+        "30 Sekunden",
+        "13 Sekunden",
+        "3 Minuten",
+        "30 Minuten"
+      ],
+      "answer": "30 Sekunden"
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Muss ich die Hände waschen?",
+      "supporting_image": "p-17-04.jpg",
+      "speaker": "schmidt",
+      "prompt_de": "Muss ich die Hände waschen?",
+      "prompt_en": "Do I have to wash my hands?",
+      "options": [
+        "Ja, bitte vor dem Essen.",
+        "Nein, nie.",
+        "Ja, mit Kaffee."
+      ],
+      "answer": "Ja, bitte vor dem Essen."
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Zimmer 4 ist Isolation. Was brauchst du?",
+      "supporting_image": "p-17-05.jpg",
+      "speaker": "lena",
+      "prompt_de": "Zimmer 4 ist Isolation. Was brauchst du?",
+      "prompt_en": "Room 4 is isolation. What do you need?",
+      "options": [
+        "die Maske",
+        "der Kaffee",
+        "die Zeitung",
+        "das Brot"
+      ],
+      "answer": "die Maske",
+      "feedback_de": "Ich brauche Maske, Kittel und Handschuhe.",
+      "feedback_en": "I need a mask, gown and gloves."
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Bitte ziehen Sie Handschuhe an.",
+      "supporting_image": "p-17-06.jpg",
+      "speaker": "braun",
+      "prompt_de": "Bitte ziehen Sie Handschuhe an.",
+      "prompt_en": "Please put on gloves.",
+      "options": [
+        "die Handschuhe",
+        "die Socken",
+        "die Jacke",
+        "die Schuhe"
+      ],
+      "answer": "die Handschuhe"
+    },
+    {
+      "type": "situation_choice",
+      "from_card": "Wir haben keine Handschuhe mehr.",
+      "supporting_image": "p-17-07.jpg",
+      "speaker": "lena",
+      "prompt_de": null,
+      "prompt_en": "Tell Lena there are no gloves left.",
+      "options": [
+        "Wir haben keine Handschuhe mehr.",
+        "Wir haben keine Patienten mehr.",
+        "Die Handschuhe sind krank."
+      ],
+      "answer": "Wir haben keine Handschuhe mehr."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Warum tragen Sie eine Maske?",
+      "supporting_image": "p-17-08.jpg",
+      "speaker": "yilmaz",
+      "prompt_de": "Warum tragen Sie eine Maske?",
+      "prompt_en": "Why are you wearing a mask?",
+      "options": [
+        "Für Ihre Sicherheit.",
+        "Ich habe Hunger.",
+        "Heute ist Karneval."
+      ],
+      "answer": "Für Ihre Sicherheit."
+    },
+    {
+      "type": "choose_reply",
+      "from_card": "Darf ich in Zimmer 4 gehen?",
+      "supporting_image": "p-17-09.jpg",
+      "speaker": "anna",
+      "prompt_de": "Darf ich in Zimmer 4 gehen?",
+      "prompt_en": "May I go into room 4?",
+      "options": [
+        "Nur mit Maske und Kittel, bitte.",
+        "Ja, ohne Schuhe.",
+        "Ja, mit Kaffee."
+      ],
+      "answer": "Nur mit Maske und Kittel, bitte."
+    },
+    {
+      "type": "picture_choice",
+      "from_card": "Das Bett ist schmutzig.",
+      "supporting_image": "p-17-10.jpg",
+      "speaker": "weber",
+      "prompt_de": "Das Bett ist schmutzig.",
+      "prompt_en": "The bed is dirty.",
+      "options": [
+        "das Bett",
+        "die Tür",
+        "das Fenster",
+        "der Fernseher"
+      ],
+      "answer": "das Bett",
+      "feedback_de": "Ich mache das Bett sauber.",
+      "feedback_en": "I'll clean the bed."
+    },
+    {
+      "type": "document_question",
+      "from_card": "Isolationsschild",
+      "supporting_image": "d-isolation.jpg",
+      "document": "Isolation door sign",
+      "document_html": "<div class=\"sign\"><div class=\"sign-h\">ISOLATION</div><p>Bitte melden Sie sich im <b>Stationszimmer</b>.</p><p>Vor dem Betreten:</p><ul><li>Hände desinfizieren</li><li>Kittel · Maske · Handschuhe</li></ul><p>Besuch nur nach Absprache.</p></div>",
+      "question_en": "What must visitors do first?",
+      "options": [
+        "Go to the nurses' station",
+        "Knock and go in",
+        "Wait outside for an hour"
+      ],
+      "answer": "Go to the nurses' station"
+    },
+    {
+      "type": "document_question",
+      "from_card": "Isolationsschild",
+      "supporting_image": "d-isolation.jpg",
+      "document": "Isolation door sign",
+      "document_html": "<div class=\"sign\"><div class=\"sign-h\">ISOLATION</div><p>Bitte melden Sie sich im <b>Stationszimmer</b>.</p><p>Vor dem Betreten:</p><ul><li>Hände desinfizieren</li><li>Kittel · Maske · Handschuhe</li></ul><p>Besuch nur nach Absprache.</p></div>",
+      "question_en": "What do you put on before going in?",
+      "options": [
+        "Gown, mask and gloves",
+        "Only shoes",
+        "Nothing"
+      ],
+      "answer": "Gown, mask and gloves"
+    },
+    {
+      "type": "document_question",
+      "from_card": "Isolationsschild",
+      "supporting_image": "d-isolation.jpg",
+      "document": "Isolation door sign",
+      "document_html": "<div class=\"sign\"><div class=\"sign-h\">ISOLATION</div><p>Bitte melden Sie sich im <b>Stationszimmer</b>.</p><p>Vor dem Betreten:</p><ul><li>Hände desinfizieren</li><li>Kittel · Maske · Handschuhe</li></ul><p>Besuch nur nach Absprache.</p></div>",
+      "question_en": "„Besuch nur nach Absprache“ means:",
+      "options": [
+        "Visits only after asking staff",
+        "No visits ever",
+        "Visits all day"
+      ],
+      "answer": "Visits only after asking staff"
+    }
+  ],
+  "images_zip": "level-18-images.zip",
+  "images": [
+    "d-isolation.jpg",
+    "p-17-01.jpg",
+    "p-17-02.jpg",
+    "p-17-03.jpg",
+    "p-17-04.jpg",
+    "p-17-05.jpg",
+    "p-17-06.jpg",
+    "p-17-07.jpg",
+    "p-17-08.jpg",
+    "p-17-09.jpg",
+    "p-17-10.jpg",
+    "w-hand-sanitiser.jpg",
+    "w-isolation.jpg"
+  ]
+}

@@ -61,18 +61,18 @@
       "title_en": "Symptoms & pain",
       "file": "level-07.json",
       "images_zip": "level-07-images.zip",
-      "flashcards": 15,
-      "quiz_pool": 14,
-      "images": 12
+      "flashcards": 17,
+      "quiz_pool": 16,
+      "images": 14
     },
     {
       "level": 8,
       "title_en": "Numbers & vital signs",
       "file": "level-08.json",
       "images_zip": "level-08-images.zip",
-      "flashcards": 21,
-      "quiz_pool": 27,
-      "images": 18
+      "flashcards": 22,
+      "quiz_pool": 28,
+      "images": 19
     },
     {
       "level": 9,
@@ -88,18 +88,18 @@
       "title_en": "Medication & food",
       "file": "level-10.json",
       "images_zip": "level-10-images.zip",
-      "flashcards": 28,
-      "quiz_pool": 42,
-      "images": 25
+      "flashcards": 31,
+      "quiz_pool": 46,
+      "images": 28
     },
     {
       "level": 11,
       "title_en": "Instructions",
       "file": "level-11.json",
       "images_zip": "level-11-images.zip",
-      "flashcards": 14,
-      "quiz_pool": 12,
-      "images": 11
+      "flashcards": 16,
+      "quiz_pool": 15,
+      "images": 13
     },
     {
       "level": 12,
@@ -115,9 +115,9 @@
       "title_en": "Talking to colleagues",
       "file": "level-13.json",
       "images_zip": "level-13-images.zip",
-      "flashcards": 21,
-      "quiz_pool": 27,
-      "images": 18
+      "flashcards": 22,
+      "quiz_pool": 28,
+      "images": 19
     },
     {
       "level": 14,
@@ -133,9 +133,9 @@
       "title_en": "Admitting a patient",
       "file": "level-15.json",
       "images_zip": "level-15-images.zip",
-      "flashcards": 22,
-      "quiz_pool": 28,
-      "images": 19
+      "flashcards": 23,
+      "quiz_pool": 29,
+      "images": 20
     },
     {
       "level": 16,
@@ -169,9 +169,9 @@
       "title_en": "Toilet & continence",
       "file": "level-19.json",
       "images_zip": "level-19-images.zip",
-      "flashcards": 16,
-      "quiz_pool": 17,
-      "images": 13
+      "flashcards": 17,
+      "quiz_pool": 18,
+      "images": 14
     },
     {
       "level": 20,
@@ -187,9 +187,9 @@
       "title_en": "The night round",
       "file": "level-21.json",
       "images_zip": "level-21-images.zip",
-      "flashcards": 14,
-      "quiz_pool": 12,
-      "images": 11
+      "flashcards": 15,
+      "quiz_pool": 13,
+      "images": 12
     },
     {
       "level": 22,
