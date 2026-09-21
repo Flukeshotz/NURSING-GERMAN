@@ -44,14 +44,14 @@
         "german": "die Pflegekraft",
         "speaker": null,
         "label": null,
-        "image": "w-sister.jpg"
+        "image": "w-nurse.jpg"
       },
       "back": {
-        "meaning_en": "Sister",
+        "meaning_en": "Nurse",
         "label": "Example",
         "german": "Ich bin Ihre Pflegekraft.",
         "english": "I am your nurse.",
-        "note": "Patients may still call you „Schwester“. Introduce yourself with your name."
+        "note": "Gender-neutral: for any nurse. Some patients still say „Schwester“ (sister); introduce yourself by name."
       },
       "article_word": "die Pflegekraft",
       "false_friend": false
@@ -63,13 +63,13 @@
         "german": "die Pflegefachkraft",
         "speaker": null,
         "label": null,
-        "image": "w-staff-nurse.jpg"
+        "image": "w-registered-nurse.jpg"
       },
       "back": {
-        "meaning_en": "Staff nurse",
+        "meaning_en": "Registered nurse",
         "label": "Example",
         "german": "Lena ist Pflegefachkraft.",
-        "english": "Lena is a staff nurse.",
+        "english": "Lena is a registered nurse.",
         "note": "die Pflegefachfrau / der Pflegefachmann"
       },
       "article_word": "die Pflegefachkraft",
@@ -417,13 +417,13 @@
     {
       "type": "translate_to_german",
       "from_card": "die Pflegekraft",
-      "question_en": "How do you say \"Sister\" in German?",
-      "supporting_image": "w-sister.jpg",
+      "question_en": "How do you say \"Nurse\" in German?",
+      "supporting_image": "w-nurse.jpg",
       "options": [
         "die Pflegekraft",
-        "die Pflegefachkraft",
         "die Stationsleitung",
-        "der Azubi / die Azubi"
+        "der Azubi / die Azubi",
+        "der Dienst"
       ],
       "answer": "die Pflegekraft"
     },
@@ -431,26 +431,26 @@
       "type": "translate_to_english",
       "from_card": "die Pflegekraft",
       "question_en": "What does \"die Pflegekraft\" mean?",
-      "supporting_image": "w-sister.jpg",
+      "supporting_image": "w-nurse.jpg",
       "german": "die Pflegekraft",
       "options": [
-        "Sister",
-        "Staff nurse",
+        "Nurse",
         "Ward in-charge",
-        "Nursing student"
+        "Nursing student",
+        "Duty"
       ],
-      "answer": "Sister"
+      "answer": "Nurse"
     },
     {
       "type": "translate_to_german",
       "from_card": "die Pflegefachkraft",
-      "question_en": "How do you say \"Staff nurse\" in German?",
-      "supporting_image": "w-staff-nurse.jpg",
+      "question_en": "How do you say \"Registered nurse\" in German?",
+      "supporting_image": "w-registered-nurse.jpg",
       "options": [
         "die Pflegefachkraft",
-        "die Pflegekraft",
         "die Stationsleitung",
-        "der Azubi / die Azubi"
+        "der Azubi / die Azubi",
+        "der Dienst"
       ],
       "answer": "die Pflegefachkraft"
     },
@@ -458,15 +458,15 @@
       "type": "translate_to_english",
       "from_card": "die Pflegefachkraft",
       "question_en": "What does \"die Pflegefachkraft\" mean?",
-      "supporting_image": "w-staff-nurse.jpg",
+      "supporting_image": "w-registered-nurse.jpg",
       "german": "die Pflegefachkraft",
       "options": [
-        "Staff nurse",
-        "Sister",
+        "Registered nurse",
         "Ward in-charge",
-        "Nursing student"
+        "Nursing student",
+        "Duty"
       ],
-      "answer": "Staff nurse"
+      "answer": "Registered nurse"
     },
     {
       "type": "translate_to_german",
@@ -489,8 +489,8 @@
       "german": "die Stationsleitung",
       "options": [
         "Ward in-charge",
-        "Sister",
-        "Staff nurse",
+        "Nurse",
+        "Registered nurse",
         "Nursing student"
       ],
       "answer": "Ward in-charge"
@@ -516,8 +516,8 @@
       "german": "der Azubi / die Azubi",
       "options": [
         "Nursing student",
-        "Sister",
-        "Staff nurse",
+        "Nurse",
+        "Registered nurse",
         "Ward in-charge"
       ],
       "answer": "Nursing student"
@@ -543,8 +543,8 @@
       "german": "der Dienst",
       "options": [
         "Duty",
-        "Sister",
-        "Staff nurse",
+        "Nurse",
+        "Registered nurse",
         "Ward in-charge"
       ],
       "answer": "Duty"
@@ -703,9 +703,9 @@
     "p-01-09.jpg",
     "p-01-10.jpg",
     "w-duty.jpg",
+    "w-nurse.jpg",
     "w-nursing-student.jpg",
-    "w-sister.jpg",
-    "w-staff-nurse.jpg",
+    "w-registered-nurse.jpg",
     "w-ward-in-charge.jpg"
   ]
 }

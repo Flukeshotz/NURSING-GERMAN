@@ -137,14 +137,14 @@
       "back": {
         "meaning_en": "Discharge",
         "label": "You note down",
-        "german": "tomorrow 10:00",
+        "german": "morgen, 10 Uhr",
         "english": "Write it on the chart.",
         "note": null
       },
       "replies": [
         {
           "label": "You note down",
-          "german": "tomorrow 10:00",
+          "german": "morgen, 10 Uhr",
           "english": null
         }
       ]
@@ -402,7 +402,7 @@
       "german": "die Entlassung",
       "options": [
         "Discharge",
-        "Sister",
+        "Nurse",
         "BP",
         "Sugar"
       ],
@@ -444,12 +444,12 @@
       "prompt_de": "Herr Schmidt geht morgen um 10 Uhr nach Hause.",
       "prompt_en": "Discharge:",
       "options": [
-        "tomorrow 10:00",
-        "today 10:00",
-        "tomorrow 12:00",
-        "tomorrow 2:00"
+        "morgen, 10 Uhr",
+        "heute, 10 Uhr",
+        "morgen, 12 Uhr",
+        "morgen, 14 Uhr"
       ],
-      "answer": "tomorrow 10:00"
+      "answer": "morgen, 10 Uhr"
     },
     {
       "type": "picture_choice",

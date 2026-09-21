@@ -389,7 +389,7 @@
         "Ward aide / nursing assistant",
         "Housekeeping / cleaning staff",
         "Bedsore",
-        "Sister"
+        "Nurse"
       ],
       "answer": "Ward aide / nursing assistant"
     },
@@ -416,7 +416,7 @@
         "Housekeeping / cleaning staff",
         "Ward aide / nursing assistant",
         "Bedsore",
-        "Sister"
+        "Nurse"
       ],
       "answer": "Housekeeping / cleaning staff"
     },
@@ -443,7 +443,7 @@
         "Bedsore",
         "Ward aide / nursing assistant",
         "Housekeeping / cleaning staff",
-        "Sister"
+        "Nurse"
       ],
       "answer": "Bedsore"
     },

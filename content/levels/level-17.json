@@ -409,7 +409,7 @@
       "options": [
         "Hand sanitiser",
         "Isolation",
-        "Sister",
+        "Nurse",
         "BP"
       ],
       "answer": "Hand sanitiser"
@@ -436,7 +436,7 @@
       "options": [
         "Isolation",
         "Hand sanitiser",
-        "Sister",
+        "Nurse",
         "BP"
       ],
       "answer": "Isolation"

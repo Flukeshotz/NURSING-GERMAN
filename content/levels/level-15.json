@@ -320,14 +320,14 @@
       "back": {
         "meaning_en": "How often?",
         "label": "You note down",
-        "german": "every 2 hours",
+        "german": "alle 2 Stunden",
         "english": "Write it on the chart.",
         "note": null
       },
       "replies": [
         {
           "label": "You note down",
-          "german": "every 2 hours",
+          "german": "alle 2 Stunden",
           "english": null
         }
       ]
@@ -355,7 +355,7 @@
       "german": "das Bettgitter",
       "options": [
         "Side rails",
-        "Sister",
+        "Nurse",
         "BP",
         "Sugar"
       ],
@@ -504,12 +504,12 @@
       "prompt_de": "Wir drehen Herrn Yılmaz alle 2 Stunden.",
       "prompt_en": "How often?",
       "options": [
-        "every 2 hours",
-        "every 12 hours",
-        "every 20 minutes",
-        "every 2 days"
+        "alle 2 Stunden",
+        "alle 12 Stunden",
+        "alle 20 Minuten",
+        "alle 2 Tage"
       ],
-      "answer": "every 2 hours"
+      "answer": "alle 2 Stunden"
     }
   ],
   "images_zip": "level-15-images.zip",

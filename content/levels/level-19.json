@@ -382,7 +382,7 @@
       "options": [
         "Social worker",
         "Doctor's clinic (GP)",
-        "Sister",
+        "Nurse",
         "BP"
       ],
       "answer": "Social worker"
@@ -409,7 +409,7 @@
       "options": [
         "Doctor's clinic (GP)",
         "Social worker",
-        "Sister",
+        "Nurse",
         "BP"
       ],
       "answer": "Doctor's clinic (GP)"

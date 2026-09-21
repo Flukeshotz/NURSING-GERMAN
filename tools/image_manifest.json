@@ -1,9 +1,9 @@
 [
  {
-  "id": "w-sister",
-  "file": "images/w-sister.jpg",
+  "id": "w-nurse",
+  "file": "images/w-nurse.jpg",
   "type": "word",
-  "en": "Sister",
+  "en": "Nurse",
   "de": "die Pflegekraft",
   "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. a friendly Indian female nurse in a light blue German hospital uniform, smiling, upper body. Show the subject clearly and centred, in a clean hospital setting with a softly blurred background. Absolutely no text, no letters, no numbers, no logos. Not a cartoon, not a 3D render, not an illustration.",
   "size": "1536x1024"
@@ -279,10 +279,10 @@
   "size": "1536x1024"
  },
  {
-  "id": "w-staff-nurse",
-  "file": "images/w-staff-nurse.jpg",
+  "id": "w-registered-nurse",
+  "file": "images/w-registered-nurse.jpg",
   "type": "word",
-  "en": "Staff nurse",
+  "en": "Registered nurse",
   "de": "die Pflegefachkraft",
   "prompt": "Wide 3:2 landscape realistic photograph, main subject centred with a little space around it so nothing important touches the edges in the style of professional healthcare stock photography, adults only, natural soft daylight, real modern German hospital, authentic and respectful, sharp focus on the main subject, shallow depth of field. a nurse in a German hospital uniform with a stethoscope around the neck, upper body. Show the subject clearly and centred, in a clean hospital setting with a softly blurred background. Absolutely no text, no letters, no numbers, no logos. Not a cartoon, not a 3D render, not an illustration.",
   "size": "1536x1024"

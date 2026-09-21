@@ -36,7 +36,9 @@ A.LEVELS.forEach((L, i) => {
   const deck = A.levelDeck(i);
   const words = deck.filter(c => c.kind === "word");
   const pool = f => words.map(x => x[f]).concat(A.WORDS.map(w => f === "de" ? w.de : w.en));
-  const three = (f, not) => pool(f).filter((v, k, a) => v !== not && a.indexOf(v) === k).slice(0, 3);
+  const SYN = [["die Pflegekraft", "die Pflegefachkraft", "Nurse", "Registered nurse"]];
+  const clash = (v, not) => SYN.some(g => g.includes(v) && g.includes(not));
+  const three = (f, not) => pool(f).filter((v, k, a) => v !== not && !clash(v, not) && a.indexOf(v) === k).slice(0, 3);
   words.forEach(c => {
     quiz.push({ type: "translate_to_german", from_card: c.de, question_en: `How do you say "${c.meaning}" in German?`, supporting_image: use(cardImage(c)), options: [c.de, ...three("de", c.de)], answer: c.de });
     quiz.push({ type: "translate_to_english", from_card: c.de, question_en: `What does "${plain(c.de)}" mean?`, supporting_image: use(cardImage(c)), german: c.de, options: [c.meaning, ...three("meaning", c.meaning)], answer: c.meaning });
