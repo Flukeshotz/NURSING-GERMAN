@@ -20,7 +20,7 @@
 Build a new practice mode that **reuses the A1 Flashcards architecture**:
 
 1. **Entry:** a *Nursing German* card at the top of *German Practice*.
-2. **Level list:** 21 levels unlocked in order. Reuse `ChapterSelectTemplate`.
+2. **Level list:** 22 levels unlocked in order. Reuse `ChapterSelectTemplate`.
 3. **Level runner:** flashcards (reuse `A1FlashcardDeck` / `A1FlashcardCard`) → a quick check every 20 cards → level quiz → pass at 70% → the next level unlocks.
 4. **Every quiz question is built from the level's own cards.** Questions are asked in words; options are always text; the card's photo is supporting context.
 5. **Backend:** mirror the `/a1/flashcard/*` endpoints under `/nursing/*` (§10). Content is imported from the level JSON files (§9).
@@ -32,6 +32,7 @@ Build a new practice mode that **reuses the A1 Flashcards architecture**:
 
 Skillcase learners are internationally trained nurses, mostly from India, preparing to work in Germany. The app teaches general A1 German, but not the language nurses need on the ward from day one:
 
+- Internal organs and glands (heart, lungs, liver, kidney, thyroid, pancreas …) and related terms, introduced after the outer body
 - Hospital words and chart abbreviations (nurses say *BP*, *drip*, *OT*; German charts say *RR*, *Infusion*, *OP*)
 - Short exchanges with patients, colleagues, doctors and relatives
 - Reading ward documents (medication plans `1-0-1-0`, vital signs charts, handover notes)
@@ -61,7 +62,7 @@ All of it fits A1 grammar; none of it is in a general A1 course.
 ## 5. Scope
 
 ### In scope (V1)
-- 21 levels, 378 flashcards, 419 quiz questions in the pool, 319 photos (§9, Appendix A)
+- 22 levels, 378 flashcards, 419 quiz questions in the pool, 319 photos (§9, Appendix A)
 - Level list, flashcard runner, quick check, level quiz, results
 - Server-side progress, unlock, coins, streak integration, analytics
 - Audio for every German line
@@ -111,11 +112,11 @@ The frontend reuses existing components wherever possible:
 | Limits | `useUsageLimitModule("A1", "nursing")` | Module key |
 
 ### 7.1 Entry card (German Practice)
-- Full-width card above the existing mode tiles: navy gradient, cross icon, title **Nursing German**, subtitle **Level {current} of 21 · ward words and phrases**, "NEW" pill for 30 days.
+- Full-width card above the existing mode tiles: navy gradient, cross icon, title **Nursing German**, subtitle **Level {current} of 22 · ward words and phrases**, "NEW" pill for 30 days.
 - Tap → `/a1/nursing`.
 
 **Acceptance**
-- [ ] Card shows the user's current level (first level not passed; "21 of 21" when all passed).
+- [ ] Card shows the user's current level (first level not passed; "22 of 22" when all passed).
 - [ ] Hidden when feature flag `nursing_german_a1` is off.
 
 ### 7.2 Level list: `/a1/nursing`
@@ -305,7 +306,7 @@ Shuffle the final list. `rules.quiz_questions_per_attempt` in each level JSON gi
 ```sql
 nursing_levels (
   id            serial primary key,
-  level_number  int unique not null,        -- 1..21
+  level_number  int unique not null,        -- 1..22
   title_en      text not null,
   title_de      text not null,
   pass_mark     numeric not null default 0.7,
@@ -490,7 +491,7 @@ Content changes after V1 should move to the DB with an admin review step (out of
 
 | | Spec |
 |---|---|
-| Count | 318 card photos + 1 header |
+| Count | 344 card photos + 1 header |
 | Format | 3:2 landscape; source 1536×1024; delivery WebP/AVIF with JPEG fallback, 960 and 480 px widths (`srcset`) |
 | Frames | Flashcard front and question card use 3:2 frames with `object-fit: cover` |
 | Naming | `w-*` word, `p-SS-NN` phrase/pattern scene, `e-NN` emergency, `d-*` document, `s-*` spelling, `h-*` header |
@@ -565,8 +566,8 @@ Usage limits: register module `nursing` under A1 in `useUsageLimitModule` (free 
 | T12 | Score ≥ 70% | Level complete, coins once, next level unlocked |
 | T13 | Emergency question time-out | Marked wrong, right answer shown, Next |
 | T14 | Document question | Document visible in frame; tap opens full size |
-| T15 | Pass Level 21 | "All levels done!" |
-| T16 | Full path levels 1→21 (automation) | All unlock in order |
+| T15 | Pass Level 22 | "All levels done!" |
+| T16 | Full path levels 1→22 (automation) | All unlock in order |
 | T17 | Replay a passed level with a lower score | Stays passed; best score kept; no extra level coins |
 
 ### Content (automated in CI on import)
@@ -592,8 +593,8 @@ Usage limits: register module `nursing` under A1 in `useUsageLimitModule` (free 
 |---|---|
 | A photo does not show exactly the card | Human review; regenerate from manifest; questions never rely on the photo alone (P3) |
 | Robotic audio | Pre-generated neural voices per character |
-| German errors | Native-speaker review of all 873 lines before GA |
-| Learners feel 21 levels is long | Short levels (13–28 cards), "Next up" on results, streak integration |
+| German errors | Native-speaker review of all German lines before GA |
+| Learners feel 22 levels is long | Short levels (13–28 cards), "Next up" on results, streak integration |
 | Cheating via client | Server-side scoring, answers never sent before check |
 
 ## 20. Open questions
@@ -616,40 +617,41 @@ Usage limits: register module `nursing` under A1 in `useUsageLimitModule` (free 
 | 2 | Hospital places | Im Krankenhaus | 13 | 3 | 9 | 0 | 0 | 0 | 25 | 35 | 12 |
 | 3 | Objects & equipment | Dinge auf Station | 11 | 3 | 10 | 0 | 0 | 0 | 24 | 32 | 12 |
 | 4 | The body | Der Körper | 0 | 3 | 10 | 0 | 0 | 0 | 13 | 10 | 10 |
-| 5 | Emergency German | Notfall-Deutsch | 0 | 0 | 0 | 0 | 0 | 25 | 25 | 25 | 10 |
-| 6 | Symptoms & pain | Schmerzen | 2 | 3 | 10 | 0 | 0 | 0 | 15 | 14 | 12 |
-| 7 | Numbers & vital signs | Vitalwerte | 7 | 3 | 10 | 1 | 0 | 0 | 21 | 27 | 14 |
-| 8 | Times & shifts | Dienst & Uhrzeit | 2 | 3 | 10 | 1 | 0 | 0 | 16 | 17 | 14 |
-| 9 | Medication & food | Medikamente & Essen | 13 | 3 | 10 | 2 | 0 | 0 | 28 | 42 | 16 |
-| 10 | Instructions | Bitte …! | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
-| 11 | Basic care | Grundpflege | 3 | 3 | 10 | 0 | 0 | 0 | 16 | 16 | 12 |
-| 12 | Talking to colleagues | Mit Kollegen | 7 | 3 | 10 | 1 | 0 | 0 | 21 | 27 | 14 |
-| 13 | Comforting patients | Keine Angst | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
-| 14 | Admitting a patient | Aufnahme | 5 | 3 | 10 | 2 | 2 | 0 | 22 | 28 | 18 |
-| 15 | Walking & falls | Mobilisation & Sturz | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
-| 16 | Phone calls | Am Telefon | 1 | 3 | 10 | 0 | 2 | 0 | 16 | 14 | 14 |
-| 17 | Hygiene & isolation | Hygiene | 2 | 3 | 10 | 1 | 0 | 0 | 16 | 17 | 14 |
-| 18 | Toilet & continence | Toilette & Ausscheidung | 2 | 3 | 10 | 1 | 0 | 0 | 16 | 17 | 14 |
-| 19 | Visitors & relatives | Besuch & Angehörige | 2 | 3 | 10 | 0 | 0 | 0 | 15 | 14 | 12 |
-| 20 | The night round | Nachtdienst | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
-| 21 | Discharge day | Entlassung | 1 | 3 | 10 | 1 | 0 | 0 | 15 | 15 | 14 |
+| 5 | Inside the body | Die Organe | 16 | 3 | 10 | 0 | 0 | 0 | 29 | 42 | 12 |
+| 6 | Emergency German | Notfall-Deutsch | 0 | 0 | 0 | 0 | 0 | 25 | 25 | 25 | 10 |
+| 7 | Symptoms & pain | Schmerzen | 2 | 3 | 10 | 0 | 0 | 0 | 15 | 14 | 12 |
+| 8 | Numbers & vital signs | Vitalwerte | 7 | 3 | 10 | 1 | 0 | 0 | 21 | 27 | 14 |
+| 9 | Times & shifts | Dienst & Uhrzeit | 2 | 3 | 10 | 1 | 0 | 0 | 16 | 17 | 14 |
+| 10 | Medication & food | Medikamente & Essen | 13 | 3 | 10 | 2 | 0 | 0 | 28 | 42 | 16 |
+| 11 | Instructions | Bitte …! | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
+| 12 | Basic care | Grundpflege | 3 | 3 | 10 | 0 | 0 | 0 | 16 | 16 | 12 |
+| 13 | Talking to colleagues | Mit Kollegen | 7 | 3 | 10 | 1 | 0 | 0 | 21 | 27 | 14 |
+| 14 | Comforting patients | Keine Angst | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
+| 15 | Admitting a patient | Aufnahme | 5 | 3 | 10 | 2 | 2 | 0 | 22 | 28 | 18 |
+| 16 | Walking & falls | Mobilisation & Sturz | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
+| 17 | Phone calls | Am Telefon | 1 | 3 | 10 | 0 | 2 | 0 | 16 | 14 | 14 |
+| 18 | Hygiene & isolation | Hygiene | 2 | 3 | 10 | 1 | 0 | 0 | 16 | 17 | 14 |
+| 19 | Toilet & continence | Toilette & Ausscheidung | 2 | 3 | 10 | 1 | 0 | 0 | 16 | 17 | 14 |
+| 20 | Visitors & relatives | Besuch & Angehörige | 2 | 3 | 10 | 0 | 0 | 0 | 15 | 14 | 12 |
+| 21 | The night round | Nachtdienst | 1 | 3 | 10 | 0 | 0 | 0 | 14 | 12 | 12 |
+| 22 | Discharge day | Entlassung | 1 | 3 | 10 | 1 | 0 | 0 | 15 | 15 | 14 |
 
-Totals: 378 cards · 419 questions in the pool · 318 card photos.
+Totals: 407 cards · 460 questions in the pool · 344 card photos.
 
 ## Appendix B: question pool by type
 
 | Type | Count |
 |---|---|
-| `translate_to_german` | 80 |
-| `translate_to_english` | 80 |
-| `choose_reply` | 76 |
-| `choose_reply_sie_du` | 5 |
-| `situation_choice` | 40 |
+| `translate_to_german` | 96 |
+| `translate_to_english` | 96 |
+| `choose_reply` | 83 |
 | `picture_choice` | 44 |
-| `body_part_choice` | 10 |
-| `listen_and_note` | 24 |
+| `situation_choice` | 42 |
 | `document_question` | 30 |
+| `listen_and_note` | 25 |
 | `emergency_translate` | 25 |
+| `body_part_choice` | 10 |
+| `choose_reply_sie_du` | 5 |
 | `spelling` | 4 |
 
 ## Appendix C: frontend file map (suggested)

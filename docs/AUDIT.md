@@ -164,3 +164,12 @@ During the run: 0 JavaScript errors, 0 screens that scrolled, 0 cards or questio
 ## 5. How to re-run
 - **Full path:** open `index.html?audit` locally; audit mode marks the correct option with `data-audit-ok`.
 - **Content integrity:** `node tools/export_levels.js && python3 tools/zip_levels.py`, then the checks in this file (§2.3) can be scripted from `content/levels/*.json`.
+
+---
+
+## Update 21 Sep 2026: teacher feedback
+
+| Feedback (Chinnu Ma'am) | Change |
+|---|---|
+| *Pflegekraft* should be translated "Nurse", not "Sister"; it is gender-neutral | Card: **die Pflegekraft = Nurse** with a note that it is gender-neutral and that some patients still say „Schwester". *die Pflegefachkraft* = **Registered nurse**. The quiz never uses one as a wrong option for the other. |
+| Teach internal organs and glands gradually | New **Level 5: Inside the body** after *The body*: 16 words (Herz, Lunge, Leber, Niere, Magen, Darm, Gehirn, Blase, Schilddrüse, Bauchspeicheldrüse, Gallenblase, Blut, Knochen, Haut, Dialyse, Lungenentzündung), 10 ward exchanges, 3 goals, 26 new photos. Now 22 levels. Tested: Level 5 plays through and unlocks Level 6; no scrolling, no errors; content integrity 0 problems. |

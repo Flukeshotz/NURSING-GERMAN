@@ -9,7 +9,7 @@ A nursing-only German practice mode for the Skillcase app, for nurses moving to 
 
 It uses the same teaching method as the existing A1 practice modes: **teach first, then ask**.
 
-German Practice → **Nursing German** → 21 levels unlocked in order → each level: flashcards → quick check every 20 cards → level quiz (70% to pass) → the next level opens.
+German Practice → **Nursing German** → 22 levels unlocked in order → each level: flashcards → quick check every 20 cards → level quiz (70% to pass) → the next level opens.
 
 ## Repository layout
 
@@ -23,7 +23,7 @@ German Practice → **Nursing German** → 21 levels unlocked in order → each 
 │       ├── index.json      All levels in order
 │       ├── level-01.json   Flashcards + quiz pool for level 1
 │       ├── level-01-images.zip   Exactly the pictures level 1 uses
-│       └── …               (21 levels)
+│       └── …               (22 levels)
 ├── tools/                  Picture generation and content export (see tools/README.md)
 └── docs/
     ├── PRD.md              Developer PRD: screens, logic, data model, API, QA plan
