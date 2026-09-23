@@ -1,0 +1,846 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch14",
+  "chapter_number": 14,
+  "title_en": "Comforting patients",
+  "title_de": "Keine Angst",
+  "unlock": {
+    "requires_chapter": 13,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch14-g1",
+      "title_en": "Calm a worried patient",
+      "pattern_de": "Keine Angst. Ich bin hier.",
+      "pattern_en": "Don't be afraid. I'm here.",
+      "tip_en": null
+    },
+    {
+      "id": "ch14-g2",
+      "title_en": "Say no kindly",
+      "pattern_de": "Das geht [leider] nicht.",
+      "pattern_en": "Unfortunately that's not possible.",
+      "tip_en": "leider = unfortunately. It makes a „no“ polite."
+    },
+    {
+      "id": "ch14-g3",
+      "title_en": "Relatives and thank-yous",
+      "pattern_de": "Gern geschehen!",
+      "pattern_en": "You're welcome!",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch14-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-bystander-attendant.jpg",
+      "front": {
+        "german": "die Angehörigen",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Bystander / attendant",
+        "label": "Example",
+        "german": "Die Angehörigen warten draußen.",
+        "english": "The relatives are waiting outside.",
+        "note": "Relatives visit, but in Germany they don't do washing or feeding. That is the nurse's job."
+      },
+      "word": {
+        "article": "die",
+        "plural": true,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Angehörigen",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Angehörigen warten draußen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c02",
+      "order": 2,
+      "type": "pattern",
+      "goal_id": "ch14-g1",
+      "image": "p-12-01.jpg",
+      "front": {
+        "german": "Keine Angst. Ich bin hier.",
+        "label": "Calm a worried patient",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Keine Angst. Ich bin hier."
+      },
+      "back": {
+        "meaning_en": "Don't be afraid. I'm here.",
+        "label": "Tip",
+        "german": "Keine Angst. Ich bin hier.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Keine Angst. Ich bin hier.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Keine Angst. Ich bin hier.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c03",
+      "order": 3,
+      "type": "phrase",
+      "goal_id": "ch14-g1",
+      "image": "p-12-01.jpg",
+      "front": {
+        "german": "Ich habe Angst.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I'm scared.",
+        "label": "You answer",
+        "german": "Keine Angst. Ich bin hier.",
+        "english": "Don't be afraid. I'm here.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Keine Angst. Ich bin hier.",
+          "english": "Don't be afraid. I'm here."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich habe Angst.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Keine Angst. Ich bin hier.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c04",
+      "order": 4,
+      "type": "phrase",
+      "goal_id": "ch14-g1",
+      "image": "p-12-02.jpg",
+      "front": {
+        "german": "Schwester! Schwester!",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "Herr Schmidt calls loudly.",
+        "label": "You answer",
+        "german": "Ich komme gleich, Herr Schmidt!",
+        "english": "I'm coming right away, Herr Schmidt!",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich komme gleich, Herr Schmidt!",
+          "english": "I'm coming right away, Herr Schmidt!"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Schwester! Schwester!",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich komme gleich, Herr Schmidt!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c05",
+      "order": 5,
+      "type": "phrase",
+      "goal_id": "ch14-g1",
+      "image": "p-12-03.jpg",
+      "front": {
+        "german": "Wann kommt der Arzt?",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "When is the doctor coming?",
+        "label": "You answer",
+        "german": "Einen Moment, bitte. Der Arzt kommt gleich.",
+        "english": "One moment, please. The doctor is coming soon.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Einen Moment, bitte. Der Arzt kommt gleich.",
+          "english": "One moment, please. The doctor is coming soon."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wann kommt der Arzt?",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Einen Moment, bitte. Der Arzt kommt gleich.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c06",
+      "order": 6,
+      "type": "phrase",
+      "goal_id": "ch14-g1",
+      "image": "p-12-07.jpg",
+      "front": {
+        "german": "Frau Weber, was ist denn los?",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Frau Weber, what's wrong?",
+        "label": "When",
+        "german": "Frau Weber, was ist denn los?",
+        "english": "Frau Weber is crying. Ask what's wrong.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Frau Weber, was ist denn los?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Frau Weber, was ist denn los?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c07",
+      "order": 7,
+      "type": "pattern",
+      "goal_id": "ch14-g2",
+      "image": "p-12-05.jpg",
+      "front": {
+        "german": "Das geht leider nicht.",
+        "label": "Say no kindly",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Das geht [leider] nicht."
+      },
+      "back": {
+        "meaning_en": "Unfortunately that's not possible.",
+        "label": "Tip",
+        "german": "Das geht leider nicht.",
+        "english": "leider = unfortunately. It makes a „no“ polite.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Das geht leider nicht.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das geht leider nicht.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c08",
+      "order": 8,
+      "type": "phrase",
+      "goal_id": "ch14-g2",
+      "image": "p-12-05.jpg",
+      "front": {
+        "german": "Ich möchte nach Hause.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I want to go home.",
+        "label": "You answer",
+        "german": "Ich verstehe. Heute geht das leider nicht.",
+        "english": "I understand. Unfortunately that's not possible today.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich verstehe. Heute geht das leider nicht.",
+          "english": "I understand. Unfortunately that's not possible today."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich möchte nach Hause.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich verstehe. Heute geht das leider nicht.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch14-g2",
+      "image": "p-12-06.jpg",
+      "front": {
+        "german": "Das Essen ist schlecht!",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "The food is bad!",
+        "label": "You answer",
+        "german": "Oh, das tut mir leid.",
+        "english": "Oh, I'm sorry.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Oh, das tut mir leid.",
+          "english": "Oh, I'm sorry."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Das Essen ist schlecht!",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Oh, das tut mir leid.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch14-g2",
+      "image": "p-12-09.jpg",
+      "front": {
+        "german": "Darf ich hier bleiben?",
+        "label": "Visitor says",
+        "speaker": "anna",
+        "speaker_name": "Anna Weber"
+      },
+      "back": {
+        "meaning_en": "May I stay here?",
+        "label": "You answer",
+        "german": "Leider nein. Die Besuchszeit ist vorbei.",
+        "english": "Unfortunately not. Visiting time is over.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Leider nein. Die Besuchszeit ist vorbei.",
+          "english": "Unfortunately not. Visiting time is over."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Darf ich hier bleiben?",
+          "voice": "visitor_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Leider nein. Die Besuchszeit ist vorbei.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c11",
+      "order": 11,
+      "type": "pattern",
+      "goal_id": "ch14-g3",
+      "image": "p-12-04.jpg",
+      "front": {
+        "german": "Gern geschehen!",
+        "label": "Relatives and thank-yous",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Gern geschehen!"
+      },
+      "back": {
+        "meaning_en": "You're welcome!",
+        "label": "Tip",
+        "german": "Gern geschehen!",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Gern geschehen!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Gern geschehen!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c12",
+      "order": 12,
+      "type": "phrase",
+      "goal_id": "ch14-g3",
+      "image": "p-12-04.jpg",
+      "front": {
+        "german": "Ist meine Mutter okay?",
+        "label": "Visitor says",
+        "speaker": "anna",
+        "speaker_name": "Anna Weber"
+      },
+      "back": {
+        "meaning_en": "Is my mother okay?",
+        "label": "You answer",
+        "german": "Ja, sie schläft jetzt. Alles gut.",
+        "english": "Yes, she's sleeping now. All is well.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, sie schläft jetzt. Alles gut.",
+          "english": "Yes, she's sleeping now. All is well."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ist meine Mutter okay?",
+          "voice": "visitor_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ja, sie schläft jetzt. Alles gut.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c13",
+      "order": 13,
+      "type": "phrase",
+      "goal_id": "ch14-g3",
+      "image": "p-12-08.jpg",
+      "front": {
+        "german": "Danke, Schwester Priya!",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "Thank you, nurse Priya!",
+        "label": "You answer",
+        "german": "Gern geschehen!",
+        "english": "You're welcome!",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Gern geschehen!",
+          "english": "You're welcome!"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Danke, Schwester Priya!",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Gern geschehen!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch14-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch14-g3",
+      "image": "p-12-10.jpg",
+      "front": {
+        "german": "Sie sind sehr nett.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "You're very kind.",
+        "label": "You answer",
+        "german": "Danke, Frau Weber. Sie auch!",
+        "english": "Thank you, Frau Weber. You too!",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Danke, Frau Weber. Sie auch!",
+          "english": "Thank you, Frau Weber. You too!"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Sie sind sehr nett.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Danke, Frau Weber. Sie auch!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch14-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch14-c01",
+      "image": "w-bystander-attendant.jpg",
+      "question_en": "How do you say \"Bystander / attendant\" in German?",
+      "options": [
+        "die Angehörigen·pl",
+        "die Pflegekraft",
+        "der Blutdruck",
+        "der Blutzucker"
+      ],
+      "answer": "die Angehörigen·pl",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch14-c01",
+      "image": "w-bystander-attendant.jpg",
+      "question_en": "What does \"die Angehörigen\" mean?",
+      "german": "die Angehörigen·pl",
+      "audio": {
+        "text": "die Angehörigen·pl",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Bystander / attendant",
+        "Nurse",
+        "BP",
+        "Sugar"
+      ],
+      "answer": "Bystander / attendant",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q003",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch14-c03",
+      "image": "p-12-01.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich habe Angst.",
+      "prompt_en": "I'm scared.",
+      "audio": {
+        "text": "Ich habe Angst.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Keine Angst. Ich bin hier.",
+        "Ich habe auch Hunger.",
+        "Tschüss!"
+      ],
+      "answer": "Keine Angst. Ich bin hier.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q004",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch14-c04",
+      "image": "p-12-02.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Schwester! Schwester!",
+      "prompt_en": "Herr Schmidt calls loudly.",
+      "audio": {
+        "text": "Schwester! Schwester!",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ich komme gleich, Herr Schmidt!",
+        "Ich gehe jetzt nach Hause.",
+        "Ich bin keine Schwester!"
+      ],
+      "answer": "Ich komme gleich, Herr Schmidt!",
+      "feedback_de": "Patients often still say „Schwester“. Just answer kindly.",
+      "feedback_en": null,
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q005",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch14-c05",
+      "image": "p-12-03.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Wann kommt der Arzt?",
+      "prompt_en": "When is the doctor coming?",
+      "audio": {
+        "text": "Wann kommt der Arzt?",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Einen Moment, bitte. Der Arzt kommt gleich.",
+        "Der Arzt ist 50.",
+        "Keine Ahnung, tschüss."
+      ],
+      "answer": "Einen Moment, bitte. Der Arzt kommt gleich.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q006",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch14-c06",
+      "image": "p-12-07.jpg",
+      "question_en": "Frau Weber is crying. Ask what's wrong.",
+      "options": [
+        "Frau Weber, was ist denn los?",
+        "Frau Weber, was ist das?",
+        "Frau Weber, wie spät ist es?"
+      ],
+      "answer": "Frau Weber, was ist denn los?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q007",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch14-c08",
+      "image": "p-12-05.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich möchte nach Hause.",
+      "prompt_en": "I want to go home.",
+      "audio": {
+        "text": "Ich möchte nach Hause.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ich verstehe. Heute geht das leider nicht.",
+        "Gut, tschüss!",
+        "Nach Hause? Guten Appetit!"
+      ],
+      "answer": "Ich verstehe. Heute geht das leider nicht.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q008",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch14-c09",
+      "image": "p-12-06.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Das Essen ist schlecht!",
+      "prompt_en": "The food is bad!",
+      "audio": {
+        "text": "Das Essen ist schlecht!",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Oh, das tut mir leid.",
+        "Ja, super!",
+        "Dann essen Sie nicht."
+      ],
+      "answer": "Oh, das tut mir leid.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q009",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch14-c10",
+      "image": "p-12-09.jpg",
+      "speaker": "anna",
+      "speaker_name": "Anna Weber",
+      "prompt_de": "Darf ich hier bleiben?",
+      "prompt_en": "May I stay here? (It's 21:00. Visiting time is over.)",
+      "audio": {
+        "text": "Darf ich hier bleiben?",
+        "voice": "visitor_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Leider nein. Die Besuchszeit ist vorbei.",
+        "Ja, bitte schlafen Sie im Bett.",
+        "Nein, Sie sind krank."
+      ],
+      "answer": "Leider nein. Die Besuchszeit ist vorbei.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q010",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch14-c12",
+      "image": "p-12-04.jpg",
+      "speaker": "anna",
+      "speaker_name": "Anna Weber",
+      "prompt_de": "Ist meine Mutter okay?",
+      "prompt_en": "Is my mother okay?",
+      "audio": {
+        "text": "Ist meine Mutter okay?",
+        "voice": "visitor_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ja, sie schläft jetzt. Alles gut.",
+        "Ja, Sie schlafen jetzt.",
+        "Nein, danke."
+      ],
+      "answer": "Ja, sie schläft jetzt. Alles gut.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q011",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch14-c13",
+      "image": "p-12-08.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Danke, Schwester Priya!",
+      "prompt_en": "Thank you, nurse Priya!",
+      "audio": {
+        "text": "Danke, Schwester Priya!",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Gern geschehen!",
+        "Entschuldigung!",
+        "Bitte schön, Herr Doktor."
+      ],
+      "answer": "Gern geschehen!",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch14-q012",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch14-c14",
+      "image": "p-12-10.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Sie sind sehr nett.",
+      "prompt_en": "You're very kind.",
+      "audio": {
+        "text": "Sie sind sehr nett.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Danke, Frau Weber. Sie auch!",
+        "Ja, ich weiß.",
+        "Danke, du auch!"
+      ],
+      "answer": "Danke, Frau Weber. Sie auch!",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "p-12-01.jpg",
+    "p-12-02.jpg",
+    "p-12-03.jpg",
+    "p-12-04.jpg",
+    "p-12-05.jpg",
+    "p-12-06.jpg",
+    "p-12-07.jpg",
+    "p-12-08.jpg",
+    "p-12-09.jpg",
+    "p-12-10.jpg",
+    "w-bystander-attendant.jpg"
+  ]
+}

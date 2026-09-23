@@ -11,6 +11,10 @@ It uses the same teaching method as the existing A1 practice modes: **teach firs
 
 German Practice → **Nursing German** → 22 levels unlocked in order → each level: flashcards → quick check every 20 cards → level quiz (70% to pass) → the next level opens.
 
+## Implementation handoff
+
+**For the developer/agent building this in the production app:** [`handoff/nursing-german-a1/IMPLEMENTATION.md`](handoff/nursing-german-a1/IMPLEMENTATION.md), with one folder per chapter in `handoff/nursing-german-a1/content/` (`chapter.json` + its images).
+
 ## Repository layout
 
 ```

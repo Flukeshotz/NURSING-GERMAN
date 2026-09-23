@@ -1,0 +1,899 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch21",
+  "chapter_number": 21,
+  "title_en": "The night round",
+  "title_de": "Nachtdienst",
+  "unlock": {
+    "requires_chapter": 20,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch21-g1",
+      "title_en": "Help patients sleep",
+      "pattern_de": "Möchten Sie [einen Tee]?",
+      "pattern_en": "Would you like a tea?",
+      "tip_en": null
+    },
+    {
+      "id": "ch21-g2",
+      "title_en": "Night checks",
+      "pattern_de": "Alles in Ordnung?",
+      "pattern_en": "Is everything okay?",
+      "tip_en": "At night: speak quietly and use a small light."
+    },
+    {
+      "id": "ch21-g3",
+      "title_en": "Morning handover",
+      "pattern_de": "Die Nacht war [ruhig].",
+      "pattern_en": "The night was quiet.",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch21-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-night-light.jpg",
+      "front": {
+        "german": "das Nachtlicht",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Night light",
+        "label": "Example",
+        "german": "Ich mache das Nachtlicht an.",
+        "english": "I'll switch on the night light.",
+        "note": null
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Nachtlicht",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich mache das Nachtlicht an.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c02",
+      "order": 2,
+      "type": "pattern",
+      "goal_id": "ch21-g1",
+      "image": "p-15-01.jpg",
+      "front": {
+        "german": "Möchten Sie einen Tee?",
+        "label": "Help patients sleep",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Möchten Sie [einen Tee]?"
+      },
+      "back": {
+        "meaning_en": "Would you like a tea?",
+        "label": "Tip",
+        "german": "Möchten Sie einen Tee?",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Möchten Sie einen Tee?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Möchten Sie einen Tee?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c03",
+      "order": 3,
+      "type": "phrase",
+      "goal_id": "ch21-g1",
+      "image": "p-15-01.jpg",
+      "front": {
+        "german": "Ich kann nicht schlafen.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I can't sleep.",
+        "label": "You answer",
+        "german": "Möchten Sie einen Tee?",
+        "english": "Would you like a tea?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Möchten Sie einen Tee?",
+          "english": "Would you like a tea?"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich kann nicht schlafen.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Möchten Sie einen Tee?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c04",
+      "order": 4,
+      "type": "phrase",
+      "goal_id": "ch21-g1",
+      "image": "p-15-02.jpg",
+      "front": {
+        "german": "Es ist so dunkel hier.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "It's so dark here.",
+        "label": "You answer",
+        "german": "Ich mache das Licht an.",
+        "english": "I'll switch the light on.",
+        "note": "Key word: das Licht = the light"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich mache das Licht an.",
+          "english": "I'll switch the light on."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Es ist so dunkel hier.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich mache das Licht an.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c05",
+      "order": 5,
+      "type": "phrase",
+      "goal_id": "ch21-g1",
+      "image": "p-15-03.jpg",
+      "front": {
+        "german": "Mir ist kalt.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "I'm cold.",
+        "label": "You answer",
+        "german": "Hier ist eine Decke.",
+        "english": "Here is a blanket.",
+        "note": "Key word: die Decke = the blanket"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist eine Decke.",
+          "english": "Here is a blanket."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Mir ist kalt.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist eine Decke.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c06",
+      "order": 6,
+      "type": "phrase",
+      "goal_id": "ch21-g1",
+      "image": "p-15-04.jpg",
+      "front": {
+        "german": "Es ist zu laut.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "It's too loud.",
+        "label": "You answer",
+        "german": "Entschuldigung. Ich mache die Tür zu.",
+        "english": "Sorry. I'll close the door.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Entschuldigung. Ich mache die Tür zu.",
+          "english": "Sorry. I'll close the door."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Es ist zu laut.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Entschuldigung. Ich mache die Tür zu.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c07",
+      "order": 7,
+      "type": "pattern",
+      "goal_id": "ch21-g2",
+      "image": "p-15-05.jpg",
+      "front": {
+        "german": "Alles in Ordnung?",
+        "label": "Night checks",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Alles in Ordnung?"
+      },
+      "back": {
+        "meaning_en": "Is everything okay?",
+        "label": "Tip",
+        "german": "Alles in Ordnung?",
+        "english": "At night: speak quietly and use a small light.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Alles in Ordnung?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Alles in Ordnung?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c08",
+      "order": 8,
+      "type": "phrase",
+      "goal_id": "ch21-g2",
+      "image": "p-15-05.jpg",
+      "front": {
+        "german": "Alles in Ordnung, Herr Schmidt?",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Is everything okay, Herr Schmidt?",
+        "label": "When",
+        "german": "Alles in Ordnung, Herr Schmidt?",
+        "english": "It's 2 a.m. You check on Herr Schmidt quietly.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Alles in Ordnung, Herr Schmidt?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Alles in Ordnung, Herr Schmidt?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch21-g2",
+      "image": "p-15-06.jpg",
+      "front": {
+        "german": "Wie spät ist es?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "What time is it?",
+        "label": "You answer",
+        "german": "Es ist drei Uhr. Schlafen Sie weiter.",
+        "english": "It's three o'clock. Go back to sleep.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Es ist drei Uhr. Schlafen Sie weiter.",
+          "english": "It's three o'clock. Go back to sleep."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wie spät ist es?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Es ist drei Uhr. Schlafen Sie weiter.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch21-g2",
+      "image": "p-15-07.jpg",
+      "front": {
+        "german": "Bitte klingeln Sie, dann komme ich.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please ring, then I'll come.",
+        "label": "When",
+        "german": "Bitte klingeln Sie, dann komme ich.",
+        "english": "Frau Weber must not get up alone at night.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bitte klingeln Sie, dann komme ich.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte klingeln Sie, dann komme ich.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c11",
+      "order": 11,
+      "type": "phrase",
+      "goal_id": "ch21-g2",
+      "image": "p-15-08.jpg",
+      "front": {
+        "german": "Ich muss zur Toilette.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I need to go to the toilet.",
+        "label": "You answer",
+        "german": "Warten Sie, ich helfe Ihnen.",
+        "english": "Wait, I'll help you.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Warten Sie, ich helfe Ihnen.",
+          "english": "Wait, I'll help you."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich muss zur Toilette.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Warten Sie, ich helfe Ihnen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c12",
+      "order": 12,
+      "type": "phrase",
+      "goal_id": "ch21-g2",
+      "image": "p-15-11.jpg",
+      "front": {
+        "german": "Ich bekomme schlecht Luft.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I can't breathe well.",
+        "label": "You answer",
+        "german": "Setzen Sie sich bitte hin. Ich hole den Arzt.",
+        "english": "Please sit up. I'll get the doctor.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Setzen Sie sich bitte hin. Ich hole den Arzt.",
+          "english": "Please sit up. I'll get the doctor."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich bekomme schlecht Luft.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Setzen Sie sich bitte hin. Ich hole den Arzt.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c13",
+      "order": 13,
+      "type": "pattern",
+      "goal_id": "ch21-g3",
+      "image": "p-15-09.jpg",
+      "front": {
+        "german": "Die Nacht war ruhig.",
+        "label": "Morning handover",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Die Nacht war [ruhig]."
+      },
+      "back": {
+        "meaning_en": "The night was quiet.",
+        "label": "Tip",
+        "german": "Die Nacht war ruhig.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Die Nacht war ruhig.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Nacht war ruhig.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch21-g3",
+      "image": "p-15-09.jpg",
+      "front": {
+        "german": "Die Übergabe ist um 5 Uhr 45.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Handover at",
+        "label": "You note down",
+        "german": "5:45",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "5:45",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Die Übergabe ist um 5 Uhr 45.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "5:45",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch21-c15",
+      "order": 15,
+      "type": "phrase",
+      "goal_id": "ch21-g3",
+      "image": "p-15-10.jpg",
+      "front": {
+        "german": "Wie war die Nacht?",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "How was the night?",
+        "label": "You answer",
+        "german": "Ruhig. Alle Patienten schlafen.",
+        "english": "Quiet. All the patients are sleeping.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ruhig. Alle Patienten schlafen.",
+          "english": "Quiet. All the patients are sleeping."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wie war die Nacht?",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ruhig. Alle Patienten schlafen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch21-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch21-c01",
+      "image": "w-night-light.jpg",
+      "question_en": "How do you say \"Night light\" in German?",
+      "options": [
+        "das Nachtlicht",
+        "die Pflegekraft",
+        "der Blutdruck",
+        "der Blutzucker"
+      ],
+      "answer": "das Nachtlicht",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch21-c01",
+      "image": "w-night-light.jpg",
+      "question_en": "What does \"das Nachtlicht\" mean?",
+      "german": "das Nachtlicht",
+      "audio": {
+        "text": "das Nachtlicht",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Night light",
+        "Nurse",
+        "BP",
+        "Sugar"
+      ],
+      "answer": "Night light",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q003",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch21-c03",
+      "image": "p-15-01.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich kann nicht schlafen.",
+      "prompt_en": "I can't sleep.",
+      "audio": {
+        "text": "Ich kann nicht schlafen.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Möchten Sie einen Tee?",
+        "Möchten Sie joggen?",
+        "Dann stehen Sie bitte auf."
+      ],
+      "answer": "Möchten Sie einen Tee?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q004",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch21-c04",
+      "image": "p-15-02.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Es ist so dunkel hier.",
+      "prompt_en": "It's so dark here.",
+      "audio": {
+        "text": "Es ist so dunkel hier.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Licht",
+        "das Fenster",
+        "das Telefon",
+        "die Seife"
+      ],
+      "answer": "das Licht",
+      "feedback_de": "Ich mache das Licht an.",
+      "feedback_en": "I'll switch the light on.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q005",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch21-c05",
+      "image": "p-15-03.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Mir ist kalt.",
+      "prompt_en": "I'm cold.",
+      "audio": {
+        "text": "Mir ist kalt.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Decke",
+        "das Wasser",
+        "der Kaffee",
+        "die Zahnbürste"
+      ],
+      "answer": "die Decke",
+      "feedback_de": "Hier ist eine Decke.",
+      "feedback_en": "Here is a blanket.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q006",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch21-c06",
+      "image": "p-15-04.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Es ist zu laut.",
+      "prompt_en": "It's too loud.",
+      "audio": {
+        "text": "Es ist zu laut.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Entschuldigung. Ich mache die Tür zu.",
+        "Ja, super Musik!",
+        "Dann sprechen Sie bitte lauter."
+      ],
+      "answer": "Entschuldigung. Ich mache die Tür zu.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q007",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch21-c08",
+      "image": "p-15-05.jpg",
+      "question_en": "It's 2 a.m. You check on Herr Schmidt quietly.",
+      "options": [
+        "Alles in Ordnung, Herr Schmidt?",
+        "Guten Morgen, aufstehen!",
+        "Frühstück ist fertig!"
+      ],
+      "answer": "Alles in Ordnung, Herr Schmidt?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q008",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch21-c09",
+      "image": "p-15-06.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Wie spät ist es?",
+      "prompt_en": "What time is it? (The clock shows 3:00.)",
+      "audio": {
+        "text": "Wie spät ist es?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Es ist drei Uhr. Schlafen Sie weiter.",
+        "Es ist drei Grad.",
+        "Es ist Mittag."
+      ],
+      "answer": "Es ist drei Uhr. Schlafen Sie weiter.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q009",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch21-c10",
+      "image": "p-15-07.jpg",
+      "question_en": "Frau Weber must not get up alone at night.",
+      "options": [
+        "Bitte klingeln Sie, dann komme ich.",
+        "Bitte gehen Sie allein spazieren.",
+        "Bitte stehen Sie schnell auf."
+      ],
+      "answer": "Bitte klingeln Sie, dann komme ich.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q010",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch21-c11",
+      "image": "p-15-08.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich muss zur Toilette.",
+      "prompt_en": "I need to go to the toilet.",
+      "audio": {
+        "text": "Ich muss zur Toilette.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Warten Sie, ich helfe Ihnen.",
+        "Nein, jetzt nicht.",
+        "Die Toilette ist zu."
+      ],
+      "answer": "Warten Sie, ich helfe Ihnen.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q011",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch21-c12",
+      "image": "p-15-11.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich bekomme schlecht Luft.",
+      "prompt_en": "I can't breathe well.",
+      "audio": {
+        "text": "Ich bekomme schlecht Luft.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Setzen Sie sich bitte hin. Ich hole den Arzt.",
+        "Schlafen Sie bitte weiter.",
+        "Machen Sie das Fenster zu."
+      ],
+      "answer": "Setzen Sie sich bitte hin. Ich hole den Arzt.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q012",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch21-c14",
+      "image": "p-15-09.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Die Übergabe ist um 5 Uhr 45.",
+      "prompt_en": "Handover at:",
+      "audio": {
+        "text": "Die Übergabe ist um 5 Uhr 45.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "5:45",
+        "4:45",
+        "5:15",
+        "6:45"
+      ],
+      "answer": "5:45",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch21-q013",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch21-c15",
+      "image": "p-15-10.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Wie war die Nacht?",
+      "prompt_en": "How was the night?",
+      "audio": {
+        "text": "Wie war die Nacht?",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ruhig. Alle Patienten schlafen.",
+        "Ich bin ein Patient.",
+        "Es gibt Suppe."
+      ],
+      "answer": "Ruhig. Alle Patienten schlafen.",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "p-15-01.jpg",
+    "p-15-02.jpg",
+    "p-15-03.jpg",
+    "p-15-04.jpg",
+    "p-15-05.jpg",
+    "p-15-06.jpg",
+    "p-15-07.jpg",
+    "p-15-08.jpg",
+    "p-15-09.jpg",
+    "p-15-10.jpg",
+    "p-15-11.jpg",
+    "w-night-light.jpg"
+  ]
+}

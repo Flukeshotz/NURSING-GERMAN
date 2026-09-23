@@ -1,0 +1,2227 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch10",
+  "chapter_number": 10,
+  "title_en": "Medication & food",
+  "title_de": "Medikamente & Essen",
+  "unlock": {
+    "requires_chapter": 9,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 16,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch10-g1",
+      "title_en": "Give medication",
+      "pattern_de": "Nehmen Sie bitte [die Tablette].",
+      "pattern_en": "Please take the tablet.",
+      "tip_en": null
+    },
+    {
+      "id": "ch10-g2",
+      "title_en": "Check allergies and rules",
+      "pattern_de": "Haben Sie [Allergien]?",
+      "pattern_en": "Do you have allergies?",
+      "tip_en": "nüchtern = nothing to eat or drink before a procedure."
+    },
+    {
+      "id": "ch10-g3",
+      "title_en": "Meals and drinks",
+      "pattern_de": "Hier ist Ihr [Tee].",
+      "pattern_en": "Here is your tea.",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch10-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-insulin.jpg",
+      "front": {
+        "german": "das Insulin",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Insulin",
+        "label": "Example",
+        "german": "Frau Weber bekommt Insulin.",
+        "english": "Frau Weber gets insulin.",
+        "note": "Made by die Bauchspeicheldrüse (Level 5)."
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Insulin",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Frau Weber bekommt Insulin.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-tab.jpg",
+      "front": {
+        "german": "die Tablette",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Tab.",
+        "label": "Example",
+        "german": "Bitte nehmen Sie die Tablette.",
+        "english": "Please take the tablet.",
+        "note": "On plans: Tbl."
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Tablette",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte nehmen Sie die Tablette.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c03",
+      "order": 3,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-od-once-a-day.jpg",
+      "front": {
+        "german": "einmal täglich",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "OD (once a day)",
+        "label": "Example",
+        "german": "Eine Tablette einmal täglich.",
+        "english": "One tablet once a day.",
+        "note": "On plans: 1-0-0-0"
+      },
+      "word": {
+        "article": null,
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "einmal täglich",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Eine Tablette einmal täglich.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c04",
+      "order": 4,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-bd-twice-a-day.jpg",
+      "front": {
+        "german": "zweimal täglich",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "BD (twice a day)",
+        "label": "Example",
+        "german": "Zweimal täglich eine Tablette.",
+        "english": "One tablet twice a day.",
+        "note": "On plans: 1-0-1-0"
+      },
+      "word": {
+        "article": null,
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "zweimal täglich",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Zweimal täglich eine Tablette.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c05",
+      "order": 5,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-sos-prn.jpg",
+      "front": {
+        "german": "bei Bedarf",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "SOS / PRN",
+        "label": "Example",
+        "german": "Paracetamol bei Bedarf.",
+        "english": "Paracetamol only when needed.",
+        "note": "On plans: b. B."
+      },
+      "word": {
+        "article": null,
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "bei Bedarf",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Paracetamol bei Bedarf.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c06",
+      "order": 6,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-nbm-npo.jpg",
+      "front": {
+        "german": "nüchtern",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "NBM / NPO",
+        "label": "Example",
+        "german": "Bitte bleiben Sie nüchtern.",
+        "english": "Please don't eat or drink.",
+        "note": "Nothing to eat or drink"
+      },
+      "word": {
+        "article": null,
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "nüchtern",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte bleiben Sie nüchtern.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c07",
+      "order": 7,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-drip.jpg",
+      "front": {
+        "german": "die Infusion",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Drip",
+        "label": "Example",
+        "german": "Die Infusion ist fertig.",
+        "english": "The drip is finished.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Infusion",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Infusion ist fertig.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c08",
+      "order": 8,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-ns-normal-saline.jpg",
+      "front": {
+        "german": "die Kochsalzlösung",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "NS (normal saline)",
+        "label": "Example",
+        "german": "Ich brauche eine Kochsalzlösung.",
+        "english": "I need a saline solution.",
+        "note": "On bags: NaCl 0,9 %"
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Kochsalzlösung",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich brauche eine Kochsalzlösung.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c09",
+      "order": 9,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-iv-intravenous.jpg",
+      "front": {
+        "german": "i.v. (intravenös)",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "IV (intravenous)",
+        "label": "Example",
+        "german": "Die Infusion läuft i.v.",
+        "english": "The drip runs intravenously.",
+        "note": "On plans: i.v."
+      },
+      "word": {
+        "article": null,
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "i.v. (intravenös)",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Infusion läuft i.v.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c10",
+      "order": 10,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-sc-subcutaneous.jpg",
+      "front": {
+        "german": "s.c. (subkutan)",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "SC (subcutaneous)",
+        "label": "Example",
+        "german": "Das Insulin geben wir s.c.",
+        "english": "We give the insulin subcutaneously.",
+        "note": "On plans: s.c."
+      },
+      "word": {
+        "article": null,
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "s.c. (subkutan)",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das Insulin geben wir s.c.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c11",
+      "order": 11,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-prescription.jpg",
+      "front": {
+        "german": "das Rezept",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Prescription",
+        "label": "Example",
+        "german": "Der Arzt schreibt ein Rezept.",
+        "english": "The doctor writes a prescription.",
+        "note": "„Rezept“ = prescription (and also a cooking recipe)."
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": true
+      },
+      "audio": {
+        "front": {
+          "text": "das Rezept",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Arzt schreibt ein Rezept.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c12",
+      "order": 12,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-hospital-diet.jpg",
+      "front": {
+        "german": "die Kost",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Hospital diet",
+        "label": "Example",
+        "german": "Frau Weber bekommt Diabeteskost.",
+        "english": "Frau Weber gets a diabetic diet.",
+        "note": "Vollkost, Schonkost, Diabeteskost. „Kost“ is not „cost“!"
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": true
+      },
+      "audio": {
+        "front": {
+          "text": "die Kost",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Frau Weber bekommt Diabeteskost.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c13",
+      "order": 13,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-poison.jpg",
+      "front": {
+        "german": "das Gift",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Poison",
+        "label": "Example",
+        "german": "Das ist Gift! Nicht trinken!",
+        "english": "That is poison! Don't drink it!",
+        "note": "Not a present! „Gift“ means poison."
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": true
+      },
+      "audio": {
+        "front": {
+          "text": "das Gift",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das ist Gift! Nicht trinken!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c14",
+      "order": 14,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-anaesthesia.jpg",
+      "front": {
+        "german": "die Narkose",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Anaesthesia",
+        "label": "Example",
+        "german": "Der Patient bekommt eine Narkose.",
+        "english": "The patient is getting anaesthesia.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Narkose",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Patient bekommt eine Narkose.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c15",
+      "order": 15,
+      "type": "pattern",
+      "goal_id": "ch10-g1",
+      "image": "p-08-01.jpg",
+      "front": {
+        "german": "Nehmen Sie bitte die Tablette.",
+        "label": "Give medication",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Nehmen Sie bitte [die Tablette]."
+      },
+      "back": {
+        "meaning_en": "Please take the tablet.",
+        "label": "Tip",
+        "german": "Nehmen Sie bitte die Tablette.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Nehmen Sie bitte die Tablette.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Nehmen Sie bitte die Tablette.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c16",
+      "order": 16,
+      "type": "phrase",
+      "goal_id": "ch10-g1",
+      "image": "p-08-01.jpg",
+      "front": {
+        "german": "Frau Weber bekommt eine Tablette.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Frau Weber gets a tablet.",
+        "label": "Key word",
+        "german": "die Tablette",
+        "english": "the tablet",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Frau Weber bekommt eine Tablette.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "die Tablette",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c17",
+      "order": 17,
+      "type": "phrase",
+      "goal_id": "ch10-g1",
+      "image": "p-08-02.jpg",
+      "front": {
+        "german": "Muss ich die Tablette jetzt nehmen?",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "Do I have to take the tablet now?",
+        "label": "You answer",
+        "german": "Ja, bitte mit Wasser.",
+        "english": "Yes, please with water.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, bitte mit Wasser.",
+          "english": "Yes, please with water."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Muss ich die Tablette jetzt nehmen?",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ja, bitte mit Wasser.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c18",
+      "order": 18,
+      "type": "phrase",
+      "goal_id": "ch10-g1",
+      "image": "p-08-09.jpg",
+      "front": {
+        "german": "Bitte trinken Sie viel Wasser.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please drink a lot of water.",
+        "label": "When",
+        "german": "Bitte trinken Sie viel Wasser.",
+        "english": "Tell Frau Weber to drink a lot of water.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bitte trinken Sie viel Wasser.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte trinken Sie viel Wasser.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c19",
+      "order": 19,
+      "type": "phrase",
+      "goal_id": "ch10-g1",
+      "image": "p-08-11.jpg",
+      "front": {
+        "german": "Ist die Tablette für das Herz?",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "Is the tablet for the heart?",
+        "label": "You answer",
+        "german": "Ja, für das Herz. Einmal täglich.",
+        "english": "Yes, for the heart. Once a day.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, für das Herz. Einmal täglich.",
+          "english": "Yes, for the heart. Once a day."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ist die Tablette für das Herz?",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ja, für das Herz. Einmal täglich.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c20",
+      "order": 20,
+      "type": "pattern",
+      "goal_id": "ch10-g2",
+      "image": "p-08-03.jpg",
+      "front": {
+        "german": "Haben Sie Allergien?",
+        "label": "Check allergies and rules",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Haben Sie [Allergien]?"
+      },
+      "back": {
+        "meaning_en": "Do you have allergies?",
+        "label": "Tip",
+        "german": "Haben Sie Allergien?",
+        "english": "nüchtern = nothing to eat or drink before a procedure.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Haben Sie Allergien?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Haben Sie Allergien?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c21",
+      "order": 21,
+      "type": "phrase",
+      "goal_id": "ch10-g2",
+      "image": "p-08-03.jpg",
+      "front": {
+        "german": "Kann ich frühstücken?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "Can I have breakfast?",
+        "label": "You answer",
+        "german": "Nein, Sie müssen nüchtern bleiben.",
+        "english": "No, you must not eat or drink.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Nein, Sie müssen nüchtern bleiben.",
+          "english": "No, you must not eat or drink."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Kann ich frühstücken?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Nein, Sie müssen nüchtern bleiben.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c22",
+      "order": 22,
+      "type": "phrase",
+      "goal_id": "ch10-g2",
+      "image": "p-08-07.jpg",
+      "front": {
+        "german": "Haben Sie Allergien?",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Do you have allergies?",
+        "label": "When",
+        "german": "Haben Sie Allergien?",
+        "english": "Ask Herr Yılmaz if he has allergies.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Haben Sie Allergien?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Haben Sie Allergien?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c23",
+      "order": 23,
+      "type": "phrase",
+      "goal_id": "ch10-g2",
+      "image": "p-08-08.jpg",
+      "front": {
+        "german": "Ja, ich habe eine Allergie gegen Penicillin.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "Yes, I'm allergic to penicillin.",
+        "label": "You answer",
+        "german": "Danke. Ich schreibe das auf.",
+        "english": "Thank you. I'll write that down.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Danke. Ich schreibe das auf.",
+          "english": "Thank you. I'll write that down."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ja, ich habe eine Allergie gegen Penicillin.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Danke. Ich schreibe das auf.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c24",
+      "order": 24,
+      "type": "phrase",
+      "goal_id": "ch10-g2",
+      "image": "p-08-12.jpg",
+      "front": {
+        "german": "Warum bekomme ich Insulin?",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "Why do I get insulin?",
+        "label": "You answer",
+        "german": "Die Bauchspeicheldrüse macht zu wenig Insulin.",
+        "english": "The pancreas makes too little insulin.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Die Bauchspeicheldrüse macht zu wenig Insulin.",
+          "english": "The pancreas makes too little insulin."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Warum bekomme ich Insulin?",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Bauchspeicheldrüse macht zu wenig Insulin.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c25",
+      "order": 25,
+      "type": "pattern",
+      "goal_id": "ch10-g3",
+      "image": "p-08-04.jpg",
+      "front": {
+        "german": "Hier ist Ihr Tee.",
+        "label": "Meals and drinks",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Hier ist Ihr [Tee]."
+      },
+      "back": {
+        "meaning_en": "Here is your tea.",
+        "label": "Tip",
+        "german": "Hier ist Ihr Tee.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Hier ist Ihr Tee.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihr Tee.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c26",
+      "order": 26,
+      "type": "phrase",
+      "goal_id": "ch10-g3",
+      "image": "p-08-04.jpg",
+      "front": {
+        "german": "Ich möchte einen Tee.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "I'd like a tea.",
+        "label": "You answer",
+        "german": "Hier ist Ihr Tee.",
+        "english": "Here is your tea.",
+        "note": "Key word: der Tee = the tea"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist Ihr Tee.",
+          "english": "Here is your tea."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich möchte einen Tee.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihr Tee.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c27",
+      "order": 27,
+      "type": "phrase",
+      "goal_id": "ch10-g3",
+      "image": "p-08-05.jpg",
+      "front": {
+        "german": "Was gibt es heute zum Mittagessen?",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "What's for lunch today?",
+        "label": "You answer",
+        "german": "Es gibt Suppe und Brot.",
+        "english": "There is soup and bread.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Es gibt Suppe und Brot.",
+          "english": "There is soup and bread."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Was gibt es heute zum Mittagessen?",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Es gibt Suppe und Brot.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c28",
+      "order": 28,
+      "type": "phrase",
+      "goal_id": "ch10-g3",
+      "image": "p-08-06.jpg",
+      "front": {
+        "german": "Ich esse kein Fleisch.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "I don't eat meat. Which lunch is OK?",
+        "label": "Key word",
+        "german": "der Salat",
+        "english": "the salad",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich esse kein Fleisch.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "der Salat",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c29",
+      "order": 29,
+      "type": "phrase",
+      "goal_id": "ch10-g3",
+      "image": "p-08-10.jpg",
+      "front": {
+        "german": "Ich möchte bitte Kaffee mit Milch.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I'd like coffee with milk, please.",
+        "label": "You answer",
+        "german": "Hier ist Ihr Kaffee mit Milch.",
+        "english": "Here is your coffee with milk.",
+        "note": "Key word: der Kaffee = the coffee"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist Ihr Kaffee mit Milch.",
+          "english": "Here is your coffee with milk."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich möchte bitte Kaffee mit Milch.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihr Kaffee mit Milch.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c30",
+      "order": 30,
+      "type": "document",
+      "goal_id": null,
+      "image": "d-med.jpg",
+      "front": {
+        "german": "Medikamentenplan",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Medication plan",
+        "label": "Key words",
+        "german": "Medikamentenplan · mo · mi · ab · na · 1-0-1-0 · bei Bedarf",
+        "english": "medication plan · morning · noon · evening · night · morning and evening · only when needed",
+        "note": null
+      },
+      "document": {
+        "title_de": "Medikamentenplan",
+        "title_en": "Medication plan",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "MEDIKAMENTENPLAN"
+          },
+          {
+            "type": "subtitle",
+            "text": "Weber, Erika · geb. 03.05.1944 · Zimmer 1"
+          },
+          {
+            "type": "table",
+            "header": [
+              "Medikament",
+              "Dosis",
+              "mo",
+              "mi",
+              "ab",
+              "na"
+            ],
+            "rows": [
+              [
+                "Metformin",
+                "500 mg",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              [
+                "Ramipril",
+                "5 mg",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "Paracetamol",
+                "500 mg",
+                {
+                  "text": "bei Bedarf",
+                  "colspan": 4
+                }
+              ]
+            ],
+            "highlight": []
+          }
+        ],
+        "key_words": [
+          {
+            "de": "Medikamentenplan",
+            "en": "medication plan"
+          },
+          {
+            "de": "mo · mi · ab · na",
+            "en": "morning · noon · evening · night"
+          },
+          {
+            "de": "1-0-1-0",
+            "en": "morning and evening"
+          },
+          {
+            "de": "bei Bedarf",
+            "en": "only when needed"
+          }
+        ]
+      },
+      "audio": {
+        "front": {
+          "text": "Medikamentenplan",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Medikamentenplan, mo · mi · ab · na, 1-0-1-0, bei Bedarf",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch10-c31",
+      "order": 31,
+      "type": "document",
+      "goal_id": null,
+      "image": "d-meal.jpg",
+      "front": {
+        "german": "Essensbestellung",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Meal order card",
+        "label": "Key words",
+        "german": "Frühstück · Mittagessen · Abendessen · Getränk · ohne Kohlensäure · Diabeteskost",
+        "english": "breakfast · lunch · dinner · drink · still, no bubbles · diet for diabetes",
+        "note": null
+      },
+      "document": {
+        "title_de": "Essensbestellung",
+        "title_en": "Meal order card",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "ESSENSBESTELLUNG"
+          },
+          {
+            "type": "subtitle",
+            "text": "Weber, Erika · Zimmer 1 · Diabeteskost"
+          },
+          {
+            "type": "table",
+            "header": [
+              "Mahlzeit",
+              "Bestellung"
+            ],
+            "rows": [
+              [
+                "Frühstück",
+                "Brot, Tee"
+              ],
+              [
+                "Mittagessen",
+                "Fisch, Kartoffeln"
+              ],
+              [
+                "Abendessen",
+                "Suppe"
+              ],
+              [
+                "Getränk",
+                "Wasser ohne Kohlensäure"
+              ]
+            ],
+            "highlight": []
+          }
+        ],
+        "key_words": [
+          {
+            "de": "Frühstück · Mittagessen · Abendessen",
+            "en": "breakfast · lunch · dinner"
+          },
+          {
+            "de": "Getränk",
+            "en": "drink"
+          },
+          {
+            "de": "ohne Kohlensäure",
+            "en": "still, no bubbles"
+          },
+          {
+            "de": "Diabeteskost",
+            "en": "diet for diabetes"
+          }
+        ]
+      },
+      "audio": {
+        "front": {
+          "text": "Essensbestellung",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Frühstück · Mittagessen · Abendessen, Getränk, ohne Kohlensäure, Diabeteskost",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch10-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c01",
+      "image": "w-insulin.jpg",
+      "question_en": "How do you say \"Insulin\" in German?",
+      "options": [
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich",
+        "zweimal täglich"
+      ],
+      "answer": "das Insulin",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c01",
+      "image": "w-insulin.jpg",
+      "question_en": "What does \"das Insulin\" mean?",
+      "german": "das Insulin",
+      "audio": {
+        "text": "das Insulin",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Insulin",
+        "Tab.",
+        "OD (once a day)",
+        "BD (twice a day)"
+      ],
+      "answer": "Insulin",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c02",
+      "image": "w-tab.jpg",
+      "question_en": "How do you say \"Tab.\" in German?",
+      "options": [
+        "die Tablette",
+        "das Insulin",
+        "einmal täglich",
+        "zweimal täglich"
+      ],
+      "answer": "die Tablette",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c02",
+      "image": "w-tab.jpg",
+      "question_en": "What does \"die Tablette\" mean?",
+      "german": "die Tablette",
+      "audio": {
+        "text": "die Tablette",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Tab.",
+        "Insulin",
+        "OD (once a day)",
+        "BD (twice a day)"
+      ],
+      "answer": "Tab.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q005",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c03",
+      "image": "w-od-once-a-day.jpg",
+      "question_en": "How do you say \"OD (once a day)\" in German?",
+      "options": [
+        "einmal täglich",
+        "das Insulin",
+        "die Tablette",
+        "zweimal täglich"
+      ],
+      "answer": "einmal täglich",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q006",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c03",
+      "image": "w-od-once-a-day.jpg",
+      "question_en": "What does \"einmal täglich\" mean?",
+      "german": "einmal täglich",
+      "audio": {
+        "text": "einmal täglich",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "OD (once a day)",
+        "Insulin",
+        "Tab.",
+        "BD (twice a day)"
+      ],
+      "answer": "OD (once a day)",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q007",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c04",
+      "image": "w-bd-twice-a-day.jpg",
+      "question_en": "How do you say \"BD (twice a day)\" in German?",
+      "options": [
+        "zweimal täglich",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "zweimal täglich",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q008",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c04",
+      "image": "w-bd-twice-a-day.jpg",
+      "question_en": "What does \"zweimal täglich\" mean?",
+      "german": "zweimal täglich",
+      "audio": {
+        "text": "zweimal täglich",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "BD (twice a day)",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "BD (twice a day)",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q009",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c05",
+      "image": "w-sos-prn.jpg",
+      "question_en": "How do you say \"SOS / PRN\" in German?",
+      "options": [
+        "bei Bedarf",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "bei Bedarf",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q010",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c05",
+      "image": "w-sos-prn.jpg",
+      "question_en": "What does \"bei Bedarf\" mean?",
+      "german": "bei Bedarf",
+      "audio": {
+        "text": "bei Bedarf",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "SOS / PRN",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "SOS / PRN",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q011",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c06",
+      "image": "w-nbm-npo.jpg",
+      "question_en": "How do you say \"NBM / NPO\" in German?",
+      "options": [
+        "nüchtern",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "nüchtern",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q012",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c06",
+      "image": "w-nbm-npo.jpg",
+      "question_en": "What does \"nüchtern\" mean?",
+      "german": "nüchtern",
+      "audio": {
+        "text": "nüchtern",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "NBM / NPO",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "NBM / NPO",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q013",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c07",
+      "image": "w-drip.jpg",
+      "question_en": "How do you say \"Drip\" in German?",
+      "options": [
+        "die Infusion",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "die Infusion",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q014",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c07",
+      "image": "w-drip.jpg",
+      "question_en": "What does \"die Infusion\" mean?",
+      "german": "die Infusion",
+      "audio": {
+        "text": "die Infusion",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Drip",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "Drip",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q015",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c08",
+      "image": "w-ns-normal-saline.jpg",
+      "question_en": "How do you say \"NS (normal saline)\" in German?",
+      "options": [
+        "die Kochsalzlösung",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "die Kochsalzlösung",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q016",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c08",
+      "image": "w-ns-normal-saline.jpg",
+      "question_en": "What does \"die Kochsalzlösung\" mean?",
+      "german": "die Kochsalzlösung",
+      "audio": {
+        "text": "die Kochsalzlösung",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "NS (normal saline)",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "NS (normal saline)",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q017",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c09",
+      "image": "w-iv-intravenous.jpg",
+      "question_en": "How do you say \"IV (intravenous)\" in German?",
+      "options": [
+        "i.v. (intravenös)",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "i.v. (intravenös)",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q018",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c09",
+      "image": "w-iv-intravenous.jpg",
+      "question_en": "What does \"i.v. (intravenös)\" mean?",
+      "german": "i.v. (intravenös)",
+      "audio": {
+        "text": "i.v. (intravenös)",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "IV (intravenous)",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "IV (intravenous)",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q019",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c10",
+      "image": "w-sc-subcutaneous.jpg",
+      "question_en": "How do you say \"SC (subcutaneous)\" in German?",
+      "options": [
+        "s.c. (subkutan)",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "s.c. (subkutan)",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q020",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c10",
+      "image": "w-sc-subcutaneous.jpg",
+      "question_en": "What does \"s.c. (subkutan)\" mean?",
+      "german": "s.c. (subkutan)",
+      "audio": {
+        "text": "s.c. (subkutan)",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "SC (subcutaneous)",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "SC (subcutaneous)",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q021",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c11",
+      "image": "w-prescription.jpg",
+      "question_en": "How do you say \"Prescription\" in German?",
+      "options": [
+        "das Rezept",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "das Rezept",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q022",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c11",
+      "image": "w-prescription.jpg",
+      "question_en": "What does \"das Rezept\" mean?",
+      "german": "das Rezept",
+      "audio": {
+        "text": "das Rezept",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Prescription",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "Prescription",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q023",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c12",
+      "image": "w-hospital-diet.jpg",
+      "question_en": "How do you say \"Hospital diet\" in German?",
+      "options": [
+        "die Kost",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "die Kost",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q024",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c12",
+      "image": "w-hospital-diet.jpg",
+      "question_en": "What does \"die Kost\" mean?",
+      "german": "die Kost",
+      "audio": {
+        "text": "die Kost",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Hospital diet",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "Hospital diet",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q025",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c13",
+      "image": "w-poison.jpg",
+      "question_en": "How do you say \"Poison\" in German?",
+      "options": [
+        "das Gift",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "das Gift",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q026",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c13",
+      "image": "w-poison.jpg",
+      "question_en": "What does \"das Gift\" mean?",
+      "german": "das Gift",
+      "audio": {
+        "text": "das Gift",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Poison",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "Poison",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q027",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch10-c14",
+      "image": "w-anaesthesia.jpg",
+      "question_en": "How do you say \"Anaesthesia\" in German?",
+      "options": [
+        "die Narkose",
+        "das Insulin",
+        "die Tablette",
+        "einmal täglich"
+      ],
+      "answer": "die Narkose",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q028",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch10-c14",
+      "image": "w-anaesthesia.jpg",
+      "question_en": "What does \"die Narkose\" mean?",
+      "german": "die Narkose",
+      "audio": {
+        "text": "die Narkose",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Anaesthesia",
+        "Insulin",
+        "Tab.",
+        "OD (once a day)"
+      ],
+      "answer": "Anaesthesia",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q029",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch10-c16",
+      "image": "p-08-01.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Frau Weber bekommt eine Tablette.",
+      "prompt_en": "Frau Weber gets a tablet.",
+      "audio": {
+        "text": "Frau Weber bekommt eine Tablette.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Tablette",
+        "die Spritze",
+        "der Tee",
+        "das Pflaster"
+      ],
+      "answer": "die Tablette",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q030",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch10-c17",
+      "image": "p-08-02.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Muss ich die Tablette jetzt nehmen?",
+      "prompt_en": "Do I have to take the tablet now?",
+      "audio": {
+        "text": "Muss ich die Tablette jetzt nehmen?",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ja, bitte mit Wasser.",
+        "Ja, bitte mit Kaffee.",
+        "Nein, danke."
+      ],
+      "answer": "Ja, bitte mit Wasser.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q031",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch10-c18",
+      "image": "p-08-09.jpg",
+      "question_en": "Tell Frau Weber to drink a lot of water.",
+      "options": [
+        "Bitte trinken Sie viel Wasser.",
+        "Bitte trinken Sie nicht.",
+        "Bitte essen Sie viel Wasser."
+      ],
+      "answer": "Bitte trinken Sie viel Wasser.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q032",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch10-c19",
+      "image": "p-08-11.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ist die Tablette für das Herz?",
+      "prompt_en": "Is the tablet for the heart?",
+      "audio": {
+        "text": "Ist die Tablette für das Herz?",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ja, für das Herz. Einmal täglich.",
+        "Nein, für die Haare.",
+        "Ja, zehn Tabletten sofort."
+      ],
+      "answer": "Ja, für das Herz. Einmal täglich.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q033",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch10-c21",
+      "image": "p-08-03.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Kann ich frühstücken?",
+      "prompt_en": "Can I have breakfast? (He has an operation today.)",
+      "audio": {
+        "text": "Kann ich frühstücken?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Nein, Sie müssen nüchtern bleiben.",
+        "Ja, guten Appetit!",
+        "Ja, trinken Sie viel Kaffee."
+      ],
+      "answer": "Nein, Sie müssen nüchtern bleiben.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q034",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch10-c22",
+      "image": "p-08-07.jpg",
+      "question_en": "Ask Herr Yılmaz if he has allergies.",
+      "options": [
+        "Haben Sie Allergien?",
+        "Haben Sie Hunger?",
+        "Sind Sie Allergien?"
+      ],
+      "answer": "Haben Sie Allergien?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q035",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch10-c23",
+      "image": "p-08-08.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ja, ich habe eine Allergie gegen Penicillin.",
+      "prompt_en": "Yes, I'm allergic to penicillin.",
+      "audio": {
+        "text": "Ja, ich habe eine Allergie gegen Penicillin.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Danke. Ich schreibe das auf.",
+        "Gut, dann bekommen Sie Penicillin.",
+        "Schön!"
+      ],
+      "answer": "Danke. Ich schreibe das auf.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q036",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch10-c24",
+      "image": "p-08-12.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Warum bekomme ich Insulin?",
+      "prompt_en": "Why do I get insulin?",
+      "audio": {
+        "text": "Warum bekomme ich Insulin?",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Die Bauchspeicheldrüse macht zu wenig Insulin.",
+        "Das Insulin ist für die Haut.",
+        "Insulin ist ein Tee."
+      ],
+      "answer": "Die Bauchspeicheldrüse macht zu wenig Insulin.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q037",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch10-c26",
+      "image": "p-08-04.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ich möchte einen Tee.",
+      "prompt_en": "I'd like a tea.",
+      "audio": {
+        "text": "Ich möchte einen Tee.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Tee",
+        "der Kaffee",
+        "das Wasser",
+        "die Suppe"
+      ],
+      "answer": "der Tee",
+      "feedback_de": "Hier ist Ihr Tee.",
+      "feedback_en": "Here is your tea.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q038",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch10-c27",
+      "image": "p-08-05.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Was gibt es heute zum Mittagessen?",
+      "prompt_en": "What's for lunch today?",
+      "audio": {
+        "text": "Was gibt es heute zum Mittagessen?",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Es gibt Suppe und Brot.",
+        "Es gibt Blutdruck.",
+        "Es gibt keine Zeit."
+      ],
+      "answer": "Es gibt Suppe und Brot.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q039",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch10-c28",
+      "image": "p-08-06.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Ich esse kein Fleisch.",
+      "prompt_en": "I don't eat meat. Which lunch is OK?",
+      "audio": {
+        "text": "Ich esse kein Fleisch.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Salat",
+        "das Hähnchen",
+        "das Fleisch",
+        "die Wurst"
+      ],
+      "answer": "der Salat",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q040",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch10-c29",
+      "image": "p-08-10.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich möchte bitte Kaffee mit Milch.",
+      "prompt_en": "I'd like coffee with milk, please.",
+      "audio": {
+        "text": "Ich möchte bitte Kaffee mit Milch.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Kaffee",
+        "der Tee",
+        "die Milch",
+        "das Wasser"
+      ],
+      "answer": "der Kaffee",
+      "feedback_de": "Hier ist Ihr Kaffee mit Milch.",
+      "feedback_en": "Here is your coffee with milk.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q041",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch10-c30",
+      "image": "d-med.jpg",
+      "question_en": "When does Frau Weber take Metformin?",
+      "document_card_id": "ch10-c30",
+      "options": [
+        "Morning and evening",
+        "Morning and noon",
+        "Only at night"
+      ],
+      "answer": "Morning and evening",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q042",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch10-c30",
+      "image": "d-med.jpg",
+      "question_en": "How much Ramipril does she take?",
+      "document_card_id": "ch10-c30",
+      "options": [
+        "5 mg, in the morning",
+        "500 mg, in the evening",
+        "5 mg, at night"
+      ],
+      "answer": "5 mg, in the morning",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q043",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch10-c30",
+      "image": "d-med.jpg",
+      "question_en": "What does „bei Bedarf“ mean?",
+      "document_card_id": "ch10-c30",
+      "options": [
+        "Only when needed",
+        "Every day",
+        "Before food"
+      ],
+      "answer": "Only when needed",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q044",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch10-c31",
+      "image": "d-meal.jpg",
+      "question_en": "What does Frau Weber drink?",
+      "document_card_id": "ch10-c31",
+      "options": [
+        "Still water",
+        "Coffee with milk",
+        "Juice"
+      ],
+      "answer": "Still water",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q045",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch10-c31",
+      "image": "d-meal.jpg",
+      "question_en": "What does she get for dinner?",
+      "document_card_id": "ch10-c31",
+      "options": [
+        "Soup",
+        "Bread and tea",
+        "Fish"
+      ],
+      "answer": "Soup",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch10-q046",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch10-c31",
+      "image": "d-meal.jpg",
+      "question_en": "Why does she get special food?",
+      "document_card_id": "ch10-c31",
+      "options": [
+        "She has diabetes",
+        "She has a cold",
+        "She is vegetarian"
+      ],
+      "answer": "She has diabetes",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "d-meal.jpg",
+    "d-med.jpg",
+    "p-08-01.jpg",
+    "p-08-02.jpg",
+    "p-08-03.jpg",
+    "p-08-04.jpg",
+    "p-08-05.jpg",
+    "p-08-06.jpg",
+    "p-08-07.jpg",
+    "p-08-08.jpg",
+    "p-08-09.jpg",
+    "p-08-10.jpg",
+    "p-08-11.jpg",
+    "p-08-12.jpg",
+    "w-anaesthesia.jpg",
+    "w-bd-twice-a-day.jpg",
+    "w-drip.jpg",
+    "w-hospital-diet.jpg",
+    "w-insulin.jpg",
+    "w-iv-intravenous.jpg",
+    "w-nbm-npo.jpg",
+    "w-ns-normal-saline.jpg",
+    "w-od-once-a-day.jpg",
+    "w-poison.jpg",
+    "w-prescription.jpg",
+    "w-sc-subcutaneous.jpg",
+    "w-sos-prn.jpg",
+    "w-tab.jpg"
+  ]
+}

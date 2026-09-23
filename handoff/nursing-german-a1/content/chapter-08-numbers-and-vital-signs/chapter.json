@@ -1,0 +1,1515 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch08",
+  "chapter_number": 8,
+  "title_en": "Numbers & vital signs",
+  "title_de": "Vitalwerte",
+  "unlock": {
+    "requires_chapter": 7,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 14,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch08-g1",
+      "title_en": "Understand vital signs",
+      "pattern_de": "Blutdruck [130] zu [85].",
+      "pattern_en": "Blood pressure 130 over 85.",
+      "tip_en": "German numbers flip: 72 = zweiundsiebzig, „two-and-seventy“."
+    },
+    {
+      "id": "ch08-g2",
+      "title_en": "Numbers about the patient",
+      "pattern_de": "Ich wiege [64] Kilo.",
+      "pattern_en": "I weigh 64 kilos.",
+      "tip_en": null
+    },
+    {
+      "id": "ch08-g3",
+      "title_en": "Say values out loud",
+      "pattern_de": "Der Puls ist [sechsundneunzig].",
+      "pattern_en": "The pulse is ninety-six.",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch08-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-bp.jpg",
+      "front": {
+        "german": "der Blutdruck",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "BP",
+        "label": "Example",
+        "german": "Ich messe den Blutdruck.",
+        "english": "I'm measuring the blood pressure.",
+        "note": "On charts: RR"
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Blutdruck",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich messe den Blutdruck.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-pulse-hr.jpg",
+      "front": {
+        "german": "der Puls",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Pulse / HR",
+        "label": "Example",
+        "german": "Der Puls ist 72.",
+        "english": "The pulse is 72.",
+        "note": "On charts: P or HF (Herzfrequenz)"
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Puls",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Puls ist 72.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c03",
+      "order": 3,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-sats-spo.jpg",
+      "front": {
+        "german": "die Sauerstoffsättigung",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Sats / SpO₂",
+        "label": "Example",
+        "german": "Die Sauerstoffsättigung ist 97 Prozent.",
+        "english": "The oxygen saturation is 97 percent.",
+        "note": "On charts: SpO₂"
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Sauerstoffsättigung",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Sauerstoffsättigung ist 97 Prozent.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c04",
+      "order": 4,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-oxygen.jpg",
+      "front": {
+        "german": "der Sauerstoff",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Oxygen",
+        "label": "Example",
+        "german": "Der Patient bekommt Sauerstoff.",
+        "english": "The patient is getting oxygen.",
+        "note": "On charts: O₂"
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Sauerstoff",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Patient bekommt Sauerstoff.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c05",
+      "order": 5,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-blood-sample.jpg",
+      "front": {
+        "german": "die Blutabnahme",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Blood sample",
+        "label": "Example",
+        "german": "Die Blutabnahme ist um 7 Uhr.",
+        "english": "The blood sample is taken at 7 o'clock.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Blutabnahme",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Blutabnahme ist um 7 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c06",
+      "order": 6,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-pulse-oximeter.jpg",
+      "front": {
+        "german": "das Pulsoximeter",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Pulse oximeter",
+        "label": "Example",
+        "german": "Das Pulsoximeter ist am Finger.",
+        "english": "The pulse oximeter is on the finger.",
+        "note": "Measures SpO₂"
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Pulsoximeter",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das Pulsoximeter ist am Finger.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c07",
+      "order": 7,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-weight.jpg",
+      "front": {
+        "german": "das Gewicht",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Weight",
+        "label": "Example",
+        "german": "Wie ist Ihr Gewicht?",
+        "english": "What is your weight?",
+        "note": "in kg"
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Gewicht",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wie ist Ihr Gewicht?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c08",
+      "order": 8,
+      "type": "pattern",
+      "goal_id": "ch08-g1",
+      "image": "p-06-01.jpg",
+      "front": {
+        "german": "Blutdruck 130 zu 85.",
+        "label": "Understand vital signs",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Blutdruck [130] zu [85]."
+      },
+      "back": {
+        "meaning_en": "Blood pressure 130 over 85.",
+        "label": "Tip",
+        "german": "Blutdruck 130 zu 85.",
+        "english": "German numbers flip: 72 = zweiundsiebzig, „two-and-seventy“.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Blutdruck 130 zu 85.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Blutdruck 130 zu 85.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch08-g1",
+      "image": "p-06-01.jpg",
+      "front": {
+        "german": "Blutdruck 130 zu 85.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Blood pressure",
+        "label": "You note down",
+        "german": "130/85",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "130/85",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Blutdruck 130 zu 85.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "130/85",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch08-g1",
+      "image": "p-06-02.jpg",
+      "front": {
+        "german": "Puls 72.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Pulse",
+        "label": "You note down",
+        "german": "72",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "72",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Puls 72.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "72",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c11",
+      "order": 11,
+      "type": "phrase",
+      "goal_id": "ch08-g1",
+      "image": "p-06-03.jpg",
+      "front": {
+        "german": "Die Temperatur ist 38,5 Grad.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Temperature",
+        "label": "You note down",
+        "german": "38,5 °C",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "38,5 °C",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Die Temperatur ist 38,5 Grad.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "38,5 °C",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c12",
+      "order": 12,
+      "type": "phrase",
+      "goal_id": "ch08-g1",
+      "image": "p-06-07.jpg",
+      "front": {
+        "german": "Der Blutzucker ist 110.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Blood sugar",
+        "label": "You note down",
+        "german": "110",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "110",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Der Blutzucker ist 110.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "110",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c13",
+      "order": 13,
+      "type": "pattern",
+      "goal_id": "ch08-g2",
+      "image": "p-06-04.jpg",
+      "front": {
+        "german": "Ich wiege 64 Kilo.",
+        "label": "Numbers about the patient",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Ich wiege [64] Kilo."
+      },
+      "back": {
+        "meaning_en": "I weigh 64 kilos.",
+        "label": "Tip",
+        "german": "Ich wiege 64 Kilo.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich wiege 64 Kilo.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich wiege 64 Kilo.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch08-g2",
+      "image": "p-06-04.jpg",
+      "front": {
+        "german": "Zimmer 14, bitte.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Which room?",
+        "label": "You note down",
+        "german": "14",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "14",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Zimmer 14, bitte.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "14",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c15",
+      "order": 15,
+      "type": "phrase",
+      "goal_id": "ch08-g2",
+      "image": "p-06-05.jpg",
+      "front": {
+        "german": "Ich wiege 64 Kilo.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "Her weight",
+        "label": "You note down",
+        "german": "64 kg",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "64 kg",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich wiege 64 Kilo.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "64 kg",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c16",
+      "order": 16,
+      "type": "phrase",
+      "goal_id": "ch08-g2",
+      "image": "p-06-06.jpg",
+      "front": {
+        "german": "Frau Weber ist 82 Jahre alt.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Her age",
+        "label": "You note down",
+        "german": "82",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "82",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Frau Weber ist 82 Jahre alt.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "82",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c17",
+      "order": 17,
+      "type": "phrase",
+      "goal_id": "ch08-g2",
+      "image": "p-06-09.jpg",
+      "front": {
+        "german": "Ich bin 1,80 Meter groß.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "His height",
+        "label": "You note down",
+        "german": "1,80 m",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "1,80 m",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich bin 1,80 Meter groß.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "1,80 m",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c18",
+      "order": 18,
+      "type": "phrase",
+      "goal_id": "ch08-g2",
+      "image": "p-06-11.jpg",
+      "front": {
+        "german": "Die Nierenwerte sind gut. Kreatinin 1,1.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Creatinine (kidney value)",
+        "label": "You note down",
+        "german": "1,1",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "1,1",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Die Nierenwerte sind gut. Kreatinin 1,1.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "1,1",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c19",
+      "order": 19,
+      "type": "pattern",
+      "goal_id": "ch08-g3",
+      "image": "p-06-08.jpg",
+      "front": {
+        "german": "Der Puls ist sechsundneunzig.",
+        "label": "Say values out loud",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Der Puls ist [sechsundneunzig]."
+      },
+      "back": {
+        "meaning_en": "The pulse is ninety-six.",
+        "label": "Tip",
+        "german": "Der Puls ist sechsundneunzig.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Der Puls ist sechsundneunzig.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Puls ist sechsundneunzig.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c20",
+      "order": 20,
+      "type": "phrase",
+      "goal_id": "ch08-g3",
+      "image": "p-06-08.jpg",
+      "front": {
+        "german": "Der Puls ist sechsundneunzig.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "The pulse is ninety-six.",
+        "label": "When",
+        "german": "Der Puls ist sechsundneunzig.",
+        "english": "Read the monitor to Dr. Braun: pulse 96.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Der Puls ist sechsundneunzig.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Puls ist sechsundneunzig.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c21",
+      "order": 21,
+      "type": "phrase",
+      "goal_id": "ch08-g3",
+      "image": "p-06-10.jpg",
+      "front": {
+        "german": "Bitte messen Sie um 16 Uhr den Blutdruck.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "When do you measure?",
+        "label": "You note down",
+        "german": "16:00",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "16:00",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Bitte messen Sie um 16 Uhr den Blutdruck.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "16:00",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch08-c22",
+      "order": 22,
+      "type": "document",
+      "goal_id": null,
+      "image": "d-vitals.jpg",
+      "front": {
+        "german": "Vitalzeichen",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Vital signs chart",
+        "label": "Key words",
+        "german": "RR · P · T · BZ",
+        "english": "blood pressure · pulse · temperature · blood sugar",
+        "note": null
+      },
+      "document": {
+        "title_de": "Vitalzeichen",
+        "title_en": "Vital signs chart",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "VITALZEICHEN"
+          },
+          {
+            "type": "subtitle",
+            "text": "Schmidt, Klaus · Zimmer 2 · Frühdienst"
+          },
+          {
+            "type": "table",
+            "header": [
+              "Uhrzeit",
+              "RR",
+              "P",
+              "T",
+              "BZ"
+            ],
+            "rows": [
+              [
+                "07:00",
+                "128/82",
+                "74",
+                "36,8",
+                "104"
+              ],
+              [
+                "11:00",
+                "165/98",
+                "80",
+                "37,0",
+                "118"
+              ]
+            ],
+            "highlight": [
+              "165/98"
+            ]
+          }
+        ],
+        "key_words": [
+          {
+            "de": "RR",
+            "en": "blood pressure"
+          },
+          {
+            "de": "P",
+            "en": "pulse"
+          },
+          {
+            "de": "T",
+            "en": "temperature"
+          },
+          {
+            "de": "BZ",
+            "en": "blood sugar"
+          }
+        ]
+      },
+      "audio": {
+        "front": {
+          "text": "Vitalzeichen",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "RR, P, T, BZ",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch08-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch08-c01",
+      "image": "w-bp.jpg",
+      "question_en": "How do you say \"BP\" in German?",
+      "options": [
+        "der Blutdruck",
+        "der Puls",
+        "die Sauerstoffsättigung",
+        "der Sauerstoff"
+      ],
+      "answer": "der Blutdruck",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch08-c01",
+      "image": "w-bp.jpg",
+      "question_en": "What does \"der Blutdruck\" mean?",
+      "german": "der Blutdruck",
+      "audio": {
+        "text": "der Blutdruck",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "BP",
+        "Pulse / HR",
+        "Sats / SpO₂",
+        "Oxygen"
+      ],
+      "answer": "BP",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch08-c02",
+      "image": "w-pulse-hr.jpg",
+      "question_en": "How do you say \"Pulse / HR\" in German?",
+      "options": [
+        "der Puls",
+        "der Blutdruck",
+        "die Sauerstoffsättigung",
+        "der Sauerstoff"
+      ],
+      "answer": "der Puls",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch08-c02",
+      "image": "w-pulse-hr.jpg",
+      "question_en": "What does \"der Puls\" mean?",
+      "german": "der Puls",
+      "audio": {
+        "text": "der Puls",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Pulse / HR",
+        "BP",
+        "Sats / SpO₂",
+        "Oxygen"
+      ],
+      "answer": "Pulse / HR",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q005",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch08-c03",
+      "image": "w-sats-spo.jpg",
+      "question_en": "How do you say \"Sats / SpO₂\" in German?",
+      "options": [
+        "die Sauerstoffsättigung",
+        "der Blutdruck",
+        "der Puls",
+        "der Sauerstoff"
+      ],
+      "answer": "die Sauerstoffsättigung",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q006",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch08-c03",
+      "image": "w-sats-spo.jpg",
+      "question_en": "What does \"die Sauerstoffsättigung\" mean?",
+      "german": "die Sauerstoffsättigung",
+      "audio": {
+        "text": "die Sauerstoffsättigung",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Sats / SpO₂",
+        "BP",
+        "Pulse / HR",
+        "Oxygen"
+      ],
+      "answer": "Sats / SpO₂",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q007",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch08-c04",
+      "image": "w-oxygen.jpg",
+      "question_en": "How do you say \"Oxygen\" in German?",
+      "options": [
+        "der Sauerstoff",
+        "der Blutdruck",
+        "der Puls",
+        "die Sauerstoffsättigung"
+      ],
+      "answer": "der Sauerstoff",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q008",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch08-c04",
+      "image": "w-oxygen.jpg",
+      "question_en": "What does \"der Sauerstoff\" mean?",
+      "german": "der Sauerstoff",
+      "audio": {
+        "text": "der Sauerstoff",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Oxygen",
+        "BP",
+        "Pulse / HR",
+        "Sats / SpO₂"
+      ],
+      "answer": "Oxygen",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q009",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch08-c05",
+      "image": "w-blood-sample.jpg",
+      "question_en": "How do you say \"Blood sample\" in German?",
+      "options": [
+        "die Blutabnahme",
+        "der Blutdruck",
+        "der Puls",
+        "die Sauerstoffsättigung"
+      ],
+      "answer": "die Blutabnahme",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q010",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch08-c05",
+      "image": "w-blood-sample.jpg",
+      "question_en": "What does \"die Blutabnahme\" mean?",
+      "german": "die Blutabnahme",
+      "audio": {
+        "text": "die Blutabnahme",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Blood sample",
+        "BP",
+        "Pulse / HR",
+        "Sats / SpO₂"
+      ],
+      "answer": "Blood sample",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q011",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch08-c06",
+      "image": "w-pulse-oximeter.jpg",
+      "question_en": "How do you say \"Pulse oximeter\" in German?",
+      "options": [
+        "das Pulsoximeter",
+        "der Blutdruck",
+        "der Puls",
+        "die Sauerstoffsättigung"
+      ],
+      "answer": "das Pulsoximeter",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q012",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch08-c06",
+      "image": "w-pulse-oximeter.jpg",
+      "question_en": "What does \"das Pulsoximeter\" mean?",
+      "german": "das Pulsoximeter",
+      "audio": {
+        "text": "das Pulsoximeter",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Pulse oximeter",
+        "BP",
+        "Pulse / HR",
+        "Sats / SpO₂"
+      ],
+      "answer": "Pulse oximeter",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q013",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch08-c07",
+      "image": "w-weight.jpg",
+      "question_en": "How do you say \"Weight\" in German?",
+      "options": [
+        "das Gewicht",
+        "der Blutdruck",
+        "der Puls",
+        "die Sauerstoffsättigung"
+      ],
+      "answer": "das Gewicht",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q014",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch08-c07",
+      "image": "w-weight.jpg",
+      "question_en": "What does \"das Gewicht\" mean?",
+      "german": "das Gewicht",
+      "audio": {
+        "text": "das Gewicht",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Weight",
+        "BP",
+        "Pulse / HR",
+        "Sats / SpO₂"
+      ],
+      "answer": "Weight",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q015",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch08-c09",
+      "image": "p-06-01.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Blutdruck 130 zu 85.",
+      "prompt_en": "Blood pressure:",
+      "audio": {
+        "text": "Blutdruck 130 zu 85.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "130/85",
+        "120/85",
+        "130/58",
+        "113/85"
+      ],
+      "answer": "130/85",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q016",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch08-c10",
+      "image": "p-06-02.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Puls 72.",
+      "prompt_en": "Pulse:",
+      "audio": {
+        "text": "Puls 72.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "72",
+        "27",
+        "62",
+        "70"
+      ],
+      "answer": "72",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q017",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch08-c11",
+      "image": "p-06-03.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Die Temperatur ist 38,5 Grad.",
+      "prompt_en": "Temperature:",
+      "audio": {
+        "text": "Die Temperatur ist 38,5 Grad.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "38,5 °C",
+        "35,8 °C",
+        "38,0 °C",
+        "36,5 °C"
+      ],
+      "answer": "38,5 °C",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q018",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch08-c12",
+      "image": "p-06-07.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Der Blutzucker ist 110.",
+      "prompt_en": "Blood sugar:",
+      "audio": {
+        "text": "Der Blutzucker ist 110.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "110",
+        "101",
+        "100",
+        "11"
+      ],
+      "answer": "110",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q019",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch08-c14",
+      "image": "p-06-04.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Zimmer 14, bitte.",
+      "prompt_en": "Which room?",
+      "audio": {
+        "text": "Zimmer 14, bitte.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "14",
+        "40",
+        "4",
+        "41"
+      ],
+      "answer": "14",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q020",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch08-c15",
+      "image": "p-06-05.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich wiege 64 Kilo.",
+      "prompt_en": "Her weight:",
+      "audio": {
+        "text": "Ich wiege 64 Kilo.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "64 kg",
+        "46 kg",
+        "54 kg",
+        "74 kg"
+      ],
+      "answer": "64 kg",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q021",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch08-c16",
+      "image": "p-06-06.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Frau Weber ist 82 Jahre alt.",
+      "prompt_en": "Her age:",
+      "audio": {
+        "text": "Frau Weber ist 82 Jahre alt.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "82",
+        "28",
+        "72",
+        "92"
+      ],
+      "answer": "82",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q022",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch08-c17",
+      "image": "p-06-09.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ich bin 1,80 Meter groß.",
+      "prompt_en": "His height:",
+      "audio": {
+        "text": "Ich bin 1,80 Meter groß.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "1,80 m",
+        "1,08 m",
+        "1,60 m",
+        "1,90 m"
+      ],
+      "answer": "1,80 m",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q023",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch08-c18",
+      "image": "p-06-11.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Die Nierenwerte sind gut. Kreatinin 1,1.",
+      "prompt_en": "Creatinine (kidney value):",
+      "audio": {
+        "text": "Die Nierenwerte sind gut. Kreatinin 1,1.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "1,1",
+        "11",
+        "1,7",
+        "0,1"
+      ],
+      "answer": "1,1",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q024",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch08-c20",
+      "image": "p-06-08.jpg",
+      "question_en": "Read the monitor to Dr. Braun: pulse 96.",
+      "options": [
+        "Der Puls ist sechsundneunzig.",
+        "Der Puls ist neunundsechzig.",
+        "Der Puls ist sechzig."
+      ],
+      "answer": "Der Puls ist sechsundneunzig.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q025",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch08-c21",
+      "image": "p-06-10.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Bitte messen Sie um 16 Uhr den Blutdruck.",
+      "prompt_en": "When do you measure?",
+      "audio": {
+        "text": "Bitte messen Sie um 16 Uhr den Blutdruck.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "16:00",
+        "6:00",
+        "14:00",
+        "18:00"
+      ],
+      "answer": "16:00",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q026",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch08-c22",
+      "image": "d-vitals.jpg",
+      "question_en": "What does „RR“ mean on this chart?",
+      "document_card_id": "ch08-c22",
+      "options": [
+        "Blood pressure",
+        "Pulse",
+        "Blood sugar"
+      ],
+      "answer": "Blood pressure",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q027",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch08-c22",
+      "image": "d-vitals.jpg",
+      "question_en": "Which value at 11:00 is too high?",
+      "document_card_id": "ch08-c22",
+      "options": [
+        "RR 165/98",
+        "T 37,0",
+        "P 80"
+      ],
+      "answer": "RR 165/98",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch08-q028",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch08-c22",
+      "image": "d-vitals.jpg",
+      "question_en": "What was his temperature at 07:00?",
+      "document_card_id": "ch08-c22",
+      "options": [
+        "36,8 °C",
+        "38,6 °C",
+        "37,0 °C"
+      ],
+      "answer": "36,8 °C",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "d-vitals.jpg",
+    "p-06-01.jpg",
+    "p-06-02.jpg",
+    "p-06-03.jpg",
+    "p-06-04.jpg",
+    "p-06-05.jpg",
+    "p-06-06.jpg",
+    "p-06-07.jpg",
+    "p-06-08.jpg",
+    "p-06-09.jpg",
+    "p-06-10.jpg",
+    "p-06-11.jpg",
+    "w-blood-sample.jpg",
+    "w-bp.jpg",
+    "w-oxygen.jpg",
+    "w-pulse-hr.jpg",
+    "w-pulse-oximeter.jpg",
+    "w-sats-spo.jpg",
+    "w-weight.jpg"
+  ]
+}

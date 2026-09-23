@@ -1,0 +1,869 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch11",
+  "chapter_number": 11,
+  "title_en": "Instructions",
+  "title_de": "Bitte …!",
+  "unlock": {
+    "requires_chapter": 10,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch11-g1",
+      "title_en": "Tell patients how to move",
+      "pattern_de": "[Setzen] Sie sich bitte.",
+      "pattern_en": "Please sit down.",
+      "tip_en": "Instruction = verb first + Sie + bitte."
+    },
+    {
+      "id": "ch11-g2",
+      "title_en": "During an examination",
+      "pattern_de": "Machen Sie bitte [den Mund] auf.",
+      "pattern_en": "Please open your mouth.",
+      "tip_en": null
+    },
+    {
+      "id": "ch11-g3",
+      "title_en": "Safety rules",
+      "pattern_de": "Sie dürfen nicht allein [aufstehen].",
+      "pattern_en": "You must not get up alone.",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch11-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-physio.jpg",
+      "front": {
+        "german": "der Physiotherapeut / die Physiotherapeutin",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Physio",
+        "label": "Example",
+        "german": "Der Physiotherapeut kommt um 10 Uhr.",
+        "english": "The physio comes at 10 o'clock.",
+        "note": null
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Physiotherapeut, die Physiotherapeutin",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Physiotherapeut kommt um 10 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-upper-body.jpg",
+      "front": {
+        "german": "der Oberkörper",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Upper body",
+        "label": "Example",
+        "german": "Machen Sie bitte den Oberkörper frei.",
+        "english": "Please uncover your upper body.",
+        "note": "„Machen Sie bitte den Oberkörper frei“ = please uncover your upper body."
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Oberkörper",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Machen Sie bitte den Oberkörper frei.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c03",
+      "order": 3,
+      "type": "pattern",
+      "goal_id": "ch11-g1",
+      "image": "p-09-01.jpg",
+      "front": {
+        "german": "Setzen Sie sich bitte.",
+        "label": "Tell patients how to move",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "[Setzen] Sie sich bitte."
+      },
+      "back": {
+        "meaning_en": "Please sit down.",
+        "label": "Tip",
+        "german": "Setzen Sie sich bitte.",
+        "english": "Instruction = verb first + Sie + bitte.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Setzen Sie sich bitte.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Setzen Sie sich bitte.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c04",
+      "order": 4,
+      "type": "phrase",
+      "goal_id": "ch11-g1",
+      "image": "p-09-01.jpg",
+      "front": {
+        "german": "Setzen Sie sich bitte.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please sit down.",
+        "label": "When",
+        "german": "Setzen Sie sich bitte.",
+        "english": "Herr Schmidt should sit down.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Setzen Sie sich bitte.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Setzen Sie sich bitte.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c05",
+      "order": 5,
+      "type": "phrase",
+      "goal_id": "ch11-g1",
+      "image": "p-09-04.jpg",
+      "front": {
+        "german": "Frau Weber, legen Sie sich bitte hin.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "What should Frau Weber do?",
+        "label": "Key word",
+        "german": "sich hinlegen",
+        "english": "to lie down",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Frau Weber, legen Sie sich bitte hin.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "sich hinlegen",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c06",
+      "order": 6,
+      "type": "phrase",
+      "goal_id": "ch11-g1",
+      "image": "p-09-05.jpg",
+      "front": {
+        "german": "Herr Schmidt, stehen Sie bitte langsam auf.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "What should Herr Schmidt do?",
+        "label": "Key word",
+        "german": "aufstehen",
+        "english": "to get up",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Herr Schmidt, stehen Sie bitte langsam auf.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "aufstehen",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c07",
+      "order": 7,
+      "type": "phrase",
+      "goal_id": "ch11-g1",
+      "image": "p-09-10.jpg",
+      "front": {
+        "german": "Herr Schmidt, gehen Sie bitte langsam.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "What should Herr Schmidt do?",
+        "label": "Key word",
+        "german": "gehen",
+        "english": "to walk",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Herr Schmidt, gehen Sie bitte langsam.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "gehen",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c08",
+      "order": 8,
+      "type": "pattern",
+      "goal_id": "ch11-g2",
+      "image": "p-09-02.jpg",
+      "front": {
+        "german": "Machen Sie bitte den Mund auf.",
+        "label": "During an examination",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Machen Sie bitte [den Mund] auf."
+      },
+      "back": {
+        "meaning_en": "Please open your mouth.",
+        "label": "Tip",
+        "german": "Machen Sie bitte den Mund auf.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Machen Sie bitte den Mund auf.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Machen Sie bitte den Mund auf.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch11-g2",
+      "image": "p-09-02.jpg",
+      "front": {
+        "german": "Machen Sie bitte den Mund auf.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please open your mouth.",
+        "label": "When",
+        "german": "Machen Sie bitte den Mund auf.",
+        "english": "Dr. Braun wants to look in Frau Weber's mouth.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Machen Sie bitte den Mund auf.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Machen Sie bitte den Mund auf.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch11-g2",
+      "image": "p-09-03.jpg",
+      "front": {
+        "german": "Atmen Sie bitte tief ein.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please breathe in deeply.",
+        "label": "When",
+        "german": "Atmen Sie bitte tief ein.",
+        "english": "Herr Yılmaz should breathe in deeply.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Atmen Sie bitte tief ein.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Atmen Sie bitte tief ein.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c11",
+      "order": 11,
+      "type": "phrase",
+      "goal_id": "ch11-g2",
+      "image": "p-09-07.jpg",
+      "front": {
+        "german": "Zeigen Sie bitte die Zunge.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Please show your tongue.",
+        "label": "Key word",
+        "german": "die Zunge",
+        "english": "the tongue",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Zeigen Sie bitte die Zunge.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "die Zunge",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c12",
+      "order": 12,
+      "type": "phrase",
+      "goal_id": "ch11-g2",
+      "image": "p-09-09.jpg",
+      "front": {
+        "german": "Geben Sie mir bitte Ihren Arm.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please give me your arm.",
+        "label": "When",
+        "german": "Geben Sie mir bitte Ihren Arm.",
+        "english": "You want to measure blood pressure. Ask for her arm.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Geben Sie mir bitte Ihren Arm.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Geben Sie mir bitte Ihren Arm.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c13",
+      "order": 13,
+      "type": "phrase",
+      "goal_id": "ch11-g2",
+      "image": "p-09-11.jpg",
+      "front": {
+        "german": "Machen Sie bitte den Oberkörper frei.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please uncover your upper body.",
+        "label": "When",
+        "german": "Machen Sie bitte den Oberkörper frei.",
+        "english": "Dr. Braun wants to listen to the heart and lungs.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Machen Sie bitte den Oberkörper frei.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Machen Sie bitte den Oberkörper frei.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c14",
+      "order": 14,
+      "type": "pattern",
+      "goal_id": "ch11-g3",
+      "image": "p-09-06.jpg",
+      "front": {
+        "german": "Sie dürfen nicht allein aufstehen.",
+        "label": "Safety rules",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Sie dürfen nicht allein [aufstehen]."
+      },
+      "back": {
+        "meaning_en": "You must not get up alone.",
+        "label": "Tip",
+        "german": "Sie dürfen nicht allein aufstehen.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Sie dürfen nicht allein aufstehen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Sie dürfen nicht allein aufstehen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c15",
+      "order": 15,
+      "type": "phrase",
+      "goal_id": "ch11-g3",
+      "image": "p-09-06.jpg",
+      "front": {
+        "german": "Bitte klingeln Sie. Ich komme dann.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please ring. Then I'll come.",
+        "label": "When",
+        "german": "Bitte klingeln Sie. Ich komme dann.",
+        "english": "Frau Weber needs you at night. Tell her to ring.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bitte klingeln Sie. Ich komme dann.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte klingeln Sie. Ich komme dann.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch11-c16",
+      "order": 16,
+      "type": "phrase",
+      "goal_id": "ch11-g3",
+      "image": "p-09-08.jpg",
+      "front": {
+        "german": "Sie dürfen nicht allein aufstehen.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "You must not get up alone.",
+        "label": "When",
+        "german": "Sie dürfen nicht allein aufstehen.",
+        "english": "Herr Yılmaz must not get up alone.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Sie dürfen nicht allein aufstehen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Sie dürfen nicht allein aufstehen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch11-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch11-c01",
+      "image": "w-physio.jpg",
+      "question_en": "How do you say \"Physio\" in German?",
+      "options": [
+        "der Physiotherapeut / die Physiotherapeutin",
+        "der Oberkörper",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "der Physiotherapeut / die Physiotherapeutin",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch11-c01",
+      "image": "w-physio.jpg",
+      "question_en": "What does \"der Physiotherapeut / die Physiotherapeutin\" mean?",
+      "german": "der Physiotherapeut / die Physiotherapeutin",
+      "audio": {
+        "text": "der Physiotherapeut / die Physiotherapeutin",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Physio",
+        "Upper body",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Physio",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch11-c02",
+      "image": "w-upper-body.jpg",
+      "question_en": "How do you say \"Upper body\" in German?",
+      "options": [
+        "der Oberkörper",
+        "der Physiotherapeut / die Physiotherapeutin",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "der Oberkörper",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch11-c02",
+      "image": "w-upper-body.jpg",
+      "question_en": "What does \"der Oberkörper\" mean?",
+      "german": "der Oberkörper",
+      "audio": {
+        "text": "der Oberkörper",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Upper body",
+        "Physio",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Upper body",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q005",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch11-c04",
+      "image": "p-09-01.jpg",
+      "question_en": "Herr Schmidt should sit down.",
+      "options": [
+        "Setzen Sie sich bitte.",
+        "Stehen Sie bitte auf.",
+        "Legen Sie sich bitte hin."
+      ],
+      "answer": "Setzen Sie sich bitte.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q006",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch11-c05",
+      "image": "p-09-04.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Frau Weber, legen Sie sich bitte hin.",
+      "prompt_en": "What should Frau Weber do?",
+      "audio": {
+        "text": "Frau Weber, legen Sie sich bitte hin.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "sich hinlegen",
+        "aufstehen",
+        "sich setzen",
+        "gehen"
+      ],
+      "answer": "sich hinlegen",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q007",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch11-c06",
+      "image": "p-09-05.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Herr Schmidt, stehen Sie bitte langsam auf.",
+      "prompt_en": "What should Herr Schmidt do?",
+      "audio": {
+        "text": "Herr Schmidt, stehen Sie bitte langsam auf.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "aufstehen",
+        "sich hinlegen",
+        "sich setzen",
+        "gehen"
+      ],
+      "answer": "aufstehen",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q008",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch11-c07",
+      "image": "p-09-10.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Herr Schmidt, gehen Sie bitte langsam.",
+      "prompt_en": "What should Herr Schmidt do?",
+      "audio": {
+        "text": "Herr Schmidt, gehen Sie bitte langsam.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "gehen",
+        "laufen",
+        "sich hinlegen",
+        "sich setzen"
+      ],
+      "answer": "gehen",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q009",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch11-c09",
+      "image": "p-09-02.jpg",
+      "question_en": "Dr. Braun wants to look in Frau Weber's mouth.",
+      "options": [
+        "Machen Sie bitte den Mund auf.",
+        "Machen Sie bitte die Tür auf.",
+        "Machen Sie bitte die Augen zu."
+      ],
+      "answer": "Machen Sie bitte den Mund auf.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q010",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch11-c10",
+      "image": "p-09-03.jpg",
+      "question_en": "Herr Yılmaz should breathe in deeply.",
+      "options": [
+        "Atmen Sie bitte tief ein.",
+        "Atmen Sie bitte aus.",
+        "Trinken Sie bitte tief."
+      ],
+      "answer": "Atmen Sie bitte tief ein.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q011",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch11-c11",
+      "image": "p-09-07.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Zeigen Sie bitte die Zunge.",
+      "prompt_en": "Please show your tongue.",
+      "audio": {
+        "text": "Zeigen Sie bitte die Zunge.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Zunge",
+        "das Ohr",
+        "das Auge",
+        "die Hand"
+      ],
+      "answer": "die Zunge",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q012",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch11-c12",
+      "image": "p-09-09.jpg",
+      "question_en": "You want to measure blood pressure. Ask for her arm.",
+      "options": [
+        "Geben Sie mir bitte Ihren Arm.",
+        "Geben Sie mir bitte Ihr Bett.",
+        "Nehmen Sie bitte meinen Arm."
+      ],
+      "answer": "Geben Sie mir bitte Ihren Arm.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q013",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch11-c13",
+      "image": "p-09-11.jpg",
+      "question_en": "Dr. Braun wants to listen to the heart and lungs.",
+      "options": [
+        "Machen Sie bitte den Oberkörper frei.",
+        "Machen Sie bitte das Licht aus.",
+        "Gehen Sie bitte nach Hause."
+      ],
+      "answer": "Machen Sie bitte den Oberkörper frei.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q014",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch11-c15",
+      "image": "p-09-06.jpg",
+      "question_en": "Frau Weber needs you at night. Tell her to ring.",
+      "options": [
+        "Bitte klingeln Sie. Ich komme dann.",
+        "Bitte rufen Sie die Polizei.",
+        "Bitte schlafen Sie."
+      ],
+      "answer": "Bitte klingeln Sie. Ich komme dann.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch11-q015",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch11-c16",
+      "image": "p-09-08.jpg",
+      "question_en": "Herr Yılmaz must not get up alone.",
+      "options": [
+        "Sie dürfen nicht allein aufstehen.",
+        "Sie müssen allein aufstehen.",
+        "Sie können gut aufstehen."
+      ],
+      "answer": "Sie dürfen nicht allein aufstehen.",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "p-09-01.jpg",
+    "p-09-02.jpg",
+    "p-09-03.jpg",
+    "p-09-04.jpg",
+    "p-09-05.jpg",
+    "p-09-06.jpg",
+    "p-09-07.jpg",
+    "p-09-08.jpg",
+    "p-09-09.jpg",
+    "p-09-10.jpg",
+    "p-09-11.jpg",
+    "w-physio.jpg",
+    "w-upper-body.jpg"
+  ]
+}

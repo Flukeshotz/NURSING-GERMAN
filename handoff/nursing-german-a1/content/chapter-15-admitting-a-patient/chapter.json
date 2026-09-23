@@ -1,0 +1,1624 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch15",
+  "chapter_number": 15,
+  "title_en": "Admitting a patient",
+  "title_de": "Aufnahme",
+  "unlock": {
+    "requires_chapter": 14,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 18,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch15-g1",
+      "title_en": "Welcome and personal data",
+      "pattern_de": "Wie ist Ihr [Name], bitte?",
+      "pattern_en": "What is your name, please?",
+      "tip_en": "Name, Geburtsdatum (date of birth), Telefonnummer: the first three questions."
+    },
+    {
+      "id": "ch15-g2",
+      "title_en": "Medicines and contacts",
+      "pattern_de": "Welche [Medikamente] nehmen Sie?",
+      "pattern_en": "Which medicines do you take?",
+      "tip_en": null
+    },
+    {
+      "id": "ch15-g3",
+      "title_en": "Show the room",
+      "pattern_de": "Hier ist Ihr [Schrank].",
+      "pattern_en": "Here is your wardrobe.",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch15-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-admission.jpg",
+      "front": {
+        "german": "die Aufnahme",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Admission",
+        "label": "Example",
+        "german": "Die Aufnahme ist um 11 Uhr.",
+        "english": "The admission is at 11 o'clock.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Aufnahme",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Aufnahme ist um 11 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-ecg.jpg",
+      "front": {
+        "german": "das EKG",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "ECG",
+        "label": "Example",
+        "german": "Wir machen jetzt ein EKG.",
+        "english": "We're doing an ECG now.",
+        "note": "Say it: „E-K-G“ (eh-kah-geh)"
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das EKG",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wir machen jetzt ein EKG.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c03",
+      "order": 3,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-x-ray.jpg",
+      "front": {
+        "german": "das Röntgen",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "X-ray",
+        "label": "Example",
+        "german": "Das Röntgen ist im Erdgeschoss.",
+        "english": "X-ray is on the ground floor.",
+        "note": "„Röntgen Thorax“ = chest X-ray"
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Röntgen",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das Röntgen ist im Erdgeschoss.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c04",
+      "order": 4,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-ct-scan.jpg",
+      "front": {
+        "german": "das CT",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "CT scan",
+        "label": "Example",
+        "german": "Herr Yılmaz hat heute ein CT.",
+        "english": "Herr Yılmaz has a CT scan today.",
+        "note": "Say it: „C-T“ (tseh-teh)"
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das CT",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Herr Yılmaz hat heute ein CT.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c05",
+      "order": 5,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-mri.jpg",
+      "front": {
+        "german": "das MRT",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "MRI",
+        "label": "Example",
+        "german": "Das MRT dauert 30 Minuten.",
+        "english": "The MRI takes 30 minutes.",
+        "note": "Say it: „M-R-T“"
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das MRT",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das MRT dauert 30 Minuten.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c06",
+      "order": 6,
+      "type": "pattern",
+      "goal_id": "ch15-g1",
+      "image": "p-13-01.jpg",
+      "front": {
+        "german": "Wie ist Ihr Name, bitte?",
+        "label": "Welcome and personal data",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Wie ist Ihr [Name], bitte?"
+      },
+      "back": {
+        "meaning_en": "What is your name, please?",
+        "label": "Tip",
+        "german": "Wie ist Ihr Name, bitte?",
+        "english": "Name, Geburtsdatum (date of birth), Telefonnummer: the first three questions.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Wie ist Ihr Name, bitte?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wie ist Ihr Name, bitte?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c07",
+      "order": 7,
+      "type": "phrase",
+      "goal_id": "ch15-g1",
+      "image": "p-13-01.jpg",
+      "front": {
+        "german": "Ich bin neu hier. Ich habe einen Termin.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "I'm new here. I have an appointment.",
+        "label": "You answer",
+        "german": "Herzlich willkommen! Wie ist Ihr Name, bitte?",
+        "english": "Welcome! What is your name, please?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Herzlich willkommen! Wie ist Ihr Name, bitte?",
+          "english": "Welcome! What is your name, please?"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich bin neu hier. Ich habe einen Termin.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Herzlich willkommen! Wie ist Ihr Name, bitte?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c08",
+      "order": 8,
+      "type": "phrase",
+      "goal_id": "ch15-g1",
+      "image": "p-13-02.jpg",
+      "front": {
+        "german": "Mein Name ist Emre Yılmaz.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "My name is Emre Yılmaz.",
+        "label": "You answer",
+        "german": "Danke. Wie ist Ihr Geburtsdatum?",
+        "english": "Thank you. What is your date of birth?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Danke. Wie ist Ihr Geburtsdatum?",
+          "english": "Thank you. What is your date of birth?"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Mein Name ist Emre Yılmaz.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Danke. Wie ist Ihr Geburtsdatum?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch15-g1",
+      "image": "p-13-03.jpg",
+      "front": {
+        "german": "Meine Nummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "His phone number",
+        "label": "You note down",
+        "german": "0176 234 567",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "0176 234 567",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Meine Nummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "0176 234 567",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c10",
+      "order": 10,
+      "type": "pattern",
+      "goal_id": "ch15-g2",
+      "image": "p-13-04.jpg",
+      "front": {
+        "german": "Welche Medikamente nehmen Sie?",
+        "label": "Medicines and contacts",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Welche [Medikamente] nehmen Sie?"
+      },
+      "back": {
+        "meaning_en": "Which medicines do you take?",
+        "label": "Tip",
+        "german": "Welche Medikamente nehmen Sie?",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Welche Medikamente nehmen Sie?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Welche Medikamente nehmen Sie?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c11",
+      "order": 11,
+      "type": "phrase",
+      "goal_id": "ch15-g2",
+      "image": "p-13-04.jpg",
+      "front": {
+        "german": "Welche Medikamente nehmen Sie?",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Which medicines do you take?",
+        "label": "When",
+        "german": "Welche Medikamente nehmen Sie?",
+        "english": "Ask Herr Yılmaz which medicines he takes.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Welche Medikamente nehmen Sie?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Welche Medikamente nehmen Sie?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c12",
+      "order": 12,
+      "type": "phrase",
+      "goal_id": "ch15-g2",
+      "image": "p-13-05.jpg",
+      "front": {
+        "german": "Ich nehme Tabletten für den Blutdruck.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "I take tablets for my blood pressure.",
+        "label": "You answer",
+        "german": "Okay. Haben Sie die Tabletten dabei?",
+        "english": "Okay. Do you have the tablets with you?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Okay. Haben Sie die Tabletten dabei?",
+          "english": "Okay. Do you have the tablets with you?"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich nehme Tabletten für den Blutdruck.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Okay. Haben Sie die Tabletten dabei?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c13",
+      "order": 13,
+      "type": "phrase",
+      "goal_id": "ch15-g2",
+      "image": "p-13-06.jpg",
+      "front": {
+        "german": "Wen können wir anrufen?",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Who can we call?",
+        "label": "When",
+        "german": "Wen können wir anrufen?",
+        "english": "Ask Herr Yılmaz who you can call if needed.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Wen können wir anrufen?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wen können wir anrufen?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch15-g2",
+      "image": "p-13-07.jpg",
+      "front": {
+        "german": "Meine Frau. Ihre Nummer ist im Handy.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "My wife. Her number is in my phone.",
+        "label": "You answer",
+        "german": "Danke, ich schreibe die Nummer auf.",
+        "english": "Thank you, I'll write the number down.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Danke, ich schreibe die Nummer auf.",
+          "english": "Thank you, I'll write the number down."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Meine Frau. Ihre Nummer ist im Handy.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Danke, ich schreibe die Nummer auf.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c15",
+      "order": 15,
+      "type": "phrase",
+      "goal_id": "ch15-g2",
+      "image": "p-13-11.jpg",
+      "front": {
+        "german": "Ich habe eine Nierenkrankheit.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "I have a kidney disease.",
+        "label": "You answer",
+        "german": "Danke. Ich schreibe das auf.",
+        "english": "Thank you. I'll write that down.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Danke. Ich schreibe das auf.",
+          "english": "Thank you. I'll write that down."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich habe eine Nierenkrankheit.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Danke. Ich schreibe das auf.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c16",
+      "order": 16,
+      "type": "pattern",
+      "goal_id": "ch15-g3",
+      "image": "p-13-08.jpg",
+      "front": {
+        "german": "Hier ist Ihr Schrank.",
+        "label": "Show the room",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Hier ist Ihr [Schrank]."
+      },
+      "back": {
+        "meaning_en": "Here is your wardrobe.",
+        "label": "Tip",
+        "german": "Hier ist Ihr Schrank.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Hier ist Ihr Schrank.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihr Schrank.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c17",
+      "order": 17,
+      "type": "phrase",
+      "goal_id": "ch15-g3",
+      "image": "p-13-08.jpg",
+      "front": {
+        "german": "Wo ist mein Schrank?",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "Where is my wardrobe?",
+        "label": "You answer",
+        "german": "Hier ist Ihr Schrank.",
+        "english": "Here is your wardrobe.",
+        "note": "Key word: der Schrank = the wardrobe"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist Ihr Schrank.",
+          "english": "Here is your wardrobe."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wo ist mein Schrank?",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihr Schrank.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c18",
+      "order": 18,
+      "type": "phrase",
+      "goal_id": "ch15-g3",
+      "image": "p-13-09.jpg",
+      "front": {
+        "german": "Wo kann ich mein Handy laden?",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "Where can I charge my phone?",
+        "label": "You answer",
+        "german": "Hier, neben dem Bett.",
+        "english": "Here, next to the bed.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier, neben dem Bett.",
+          "english": "Here, next to the bed."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wo kann ich mein Handy laden?",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier, neben dem Bett.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c19",
+      "order": 19,
+      "type": "phrase",
+      "goal_id": "ch15-g3",
+      "image": "p-13-10.jpg",
+      "front": {
+        "german": "Wie mache ich das Licht an?",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "How do I switch on the light?",
+        "label": "You answer",
+        "german": "Hier, der Knopf am Bett.",
+        "english": "Here, the button on the bed.",
+        "note": "Key word: das Licht = the light"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier, der Knopf am Bett.",
+          "english": "Here, the button on the bed."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wie mache ich das Licht an?",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier, der Knopf am Bett.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c20",
+      "order": 20,
+      "type": "document",
+      "goal_id": null,
+      "image": "d-band.jpg",
+      "front": {
+        "german": "Patientenarmband",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Patient wristband",
+        "label": "Key words",
+        "german": "Patientenarmband · * 12.03.1981 · Zi. · Allergie",
+        "english": "patient wristband · born on 12 March 1981 · room (Zimmer) · allergy",
+        "note": null
+      },
+      "document": {
+        "title_de": "Patientenarmband",
+        "title_en": "Patient wristband",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "PATIENTENARMBAND"
+          },
+          {
+            "type": "fields",
+            "items": [
+              "Yılmaz, Emre",
+              "* 12.03.1981",
+              "Station 3 · Zi. 3",
+              "ALLERGIE: Penicillin"
+            ],
+            "highlight": [
+              "ALLERGIE: Penicillin"
+            ]
+          }
+        ],
+        "key_words": [
+          {
+            "de": "Patientenarmband",
+            "en": "patient wristband"
+          },
+          {
+            "de": "* 12.03.1981",
+            "en": "born on 12 March 1981"
+          },
+          {
+            "de": "Zi.",
+            "en": "room (Zimmer)"
+          },
+          {
+            "de": "Allergie",
+            "en": "allergy"
+          }
+        ]
+      },
+      "audio": {
+        "front": {
+          "text": "Patientenarmband",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Patientenarmband, * 12.03.1981, Zi., Allergie",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c21",
+      "order": 21,
+      "type": "document",
+      "goal_id": null,
+      "image": "d-admission.jpg",
+      "front": {
+        "german": "Aufnahmebogen",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Admission form",
+        "label": "Key words",
+        "german": "Aufnahmebogen · Kontaktperson · keine · Hilfsmittel",
+        "english": "admission form · contact person · none · aids, e.g. glasses, walker",
+        "note": null
+      },
+      "document": {
+        "title_de": "Aufnahmebogen",
+        "title_en": "Admission form",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "AUFNAHMEBOGEN"
+          },
+          {
+            "type": "table",
+            "header": [],
+            "rows": [
+              [
+                "Name",
+                "Schmidt, Klaus"
+              ],
+              [
+                "Geburtsdatum",
+                "14.07.1959"
+              ],
+              [
+                "Kontaktperson",
+                "Tochter: Sabine Schmidt"
+              ],
+              [
+                "Allergien",
+                "keine"
+              ],
+              [
+                "Medikamente",
+                "Ramipril 5 mg 1-0-0-0"
+              ],
+              [
+                "Hilfsmittel",
+                "Brille, Rollator"
+              ]
+            ],
+            "highlight": []
+          }
+        ],
+        "key_words": [
+          {
+            "de": "Aufnahmebogen",
+            "en": "admission form"
+          },
+          {
+            "de": "Kontaktperson",
+            "en": "contact person"
+          },
+          {
+            "de": "keine",
+            "en": "none"
+          },
+          {
+            "de": "Hilfsmittel",
+            "en": "aids, e.g. glasses, walker"
+          }
+        ]
+      },
+      "audio": {
+        "front": {
+          "text": "Aufnahmebogen",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Aufnahmebogen, Kontaktperson, keine, Hilfsmittel",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch15-c22",
+      "order": 22,
+      "type": "spelling",
+      "goal_id": null,
+      "image": "s-weber.jpg",
+      "front": {
+        "german": "Wie schreibt man das?",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "How do you spell that?",
+        "label": "Letters",
+        "german": "W · E · B · E · R",
+        "english": "weh · eh · beh · eh · err",
+        "note": null
+      },
+      "spelling": {
+        "name": "Weber",
+        "letters": [
+          {
+            "letter": "W",
+            "say": "weh"
+          },
+          {
+            "letter": "E",
+            "say": "eh"
+          },
+          {
+            "letter": "B",
+            "say": "beh"
+          },
+          {
+            "letter": "E",
+            "say": "eh"
+          },
+          {
+            "letter": "R",
+            "say": "err"
+          }
+        ]
+      },
+      "audio": {
+        "front": {
+          "text": "W, E, B, E, R",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": null
+      }
+    },
+    {
+      "id": "ch15-c23",
+      "order": 23,
+      "type": "spelling",
+      "goal_id": null,
+      "image": "s-schmidt.jpg",
+      "front": {
+        "german": "Wie schreibt man das?",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "How do you spell that?",
+        "label": "Letters",
+        "german": "S · C · H · M · I · D · T",
+        "english": "ess · tseh · hah · emm · ih · deh · teh",
+        "note": null
+      },
+      "spelling": {
+        "name": "Schmidt",
+        "letters": [
+          {
+            "letter": "S",
+            "say": "ess"
+          },
+          {
+            "letter": "C",
+            "say": "tseh"
+          },
+          {
+            "letter": "H",
+            "say": "hah"
+          },
+          {
+            "letter": "M",
+            "say": "emm"
+          },
+          {
+            "letter": "I",
+            "say": "ih"
+          },
+          {
+            "letter": "D",
+            "say": "deh"
+          },
+          {
+            "letter": "T",
+            "say": "teh"
+          }
+        ]
+      },
+      "audio": {
+        "front": {
+          "text": "S, C, H, M, I, D, T",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": null
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch15-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch15-c01",
+      "image": "w-admission.jpg",
+      "question_en": "How do you say \"Admission\" in German?",
+      "options": [
+        "die Aufnahme",
+        "das EKG",
+        "das Röntgen",
+        "das CT"
+      ],
+      "answer": "die Aufnahme",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch15-c01",
+      "image": "w-admission.jpg",
+      "question_en": "What does \"die Aufnahme\" mean?",
+      "german": "die Aufnahme",
+      "audio": {
+        "text": "die Aufnahme",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Admission",
+        "ECG",
+        "X-ray",
+        "CT scan"
+      ],
+      "answer": "Admission",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch15-c02",
+      "image": "w-ecg.jpg",
+      "question_en": "How do you say \"ECG\" in German?",
+      "options": [
+        "das EKG",
+        "die Aufnahme",
+        "das Röntgen",
+        "das CT"
+      ],
+      "answer": "das EKG",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch15-c02",
+      "image": "w-ecg.jpg",
+      "question_en": "What does \"das EKG\" mean?",
+      "german": "das EKG",
+      "audio": {
+        "text": "das EKG",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "ECG",
+        "Admission",
+        "X-ray",
+        "CT scan"
+      ],
+      "answer": "ECG",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q005",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch15-c03",
+      "image": "w-x-ray.jpg",
+      "question_en": "How do you say \"X-ray\" in German?",
+      "options": [
+        "das Röntgen",
+        "die Aufnahme",
+        "das EKG",
+        "das CT"
+      ],
+      "answer": "das Röntgen",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q006",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch15-c03",
+      "image": "w-x-ray.jpg",
+      "question_en": "What does \"das Röntgen\" mean?",
+      "german": "das Röntgen",
+      "audio": {
+        "text": "das Röntgen",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "X-ray",
+        "Admission",
+        "ECG",
+        "CT scan"
+      ],
+      "answer": "X-ray",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q007",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch15-c04",
+      "image": "w-ct-scan.jpg",
+      "question_en": "How do you say \"CT scan\" in German?",
+      "options": [
+        "das CT",
+        "die Aufnahme",
+        "das EKG",
+        "das Röntgen"
+      ],
+      "answer": "das CT",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q008",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch15-c04",
+      "image": "w-ct-scan.jpg",
+      "question_en": "What does \"das CT\" mean?",
+      "german": "das CT",
+      "audio": {
+        "text": "das CT",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "CT scan",
+        "Admission",
+        "ECG",
+        "X-ray"
+      ],
+      "answer": "CT scan",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q009",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch15-c05",
+      "image": "w-mri.jpg",
+      "question_en": "How do you say \"MRI\" in German?",
+      "options": [
+        "das MRT",
+        "die Aufnahme",
+        "das EKG",
+        "das Röntgen"
+      ],
+      "answer": "das MRT",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q010",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch15-c05",
+      "image": "w-mri.jpg",
+      "question_en": "What does \"das MRT\" mean?",
+      "german": "das MRT",
+      "audio": {
+        "text": "das MRT",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "MRI",
+        "Admission",
+        "ECG",
+        "X-ray"
+      ],
+      "answer": "MRI",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q011",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch15-c07",
+      "image": "p-13-01.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ich bin neu hier. Ich habe einen Termin.",
+      "prompt_en": "I'm new here. I have an appointment.",
+      "audio": {
+        "text": "Ich bin neu hier. Ich habe einen Termin.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Herzlich willkommen! Wie ist Ihr Name, bitte?",
+        "Tschüss, bis morgen!",
+        "Nein, das ist mein Termin."
+      ],
+      "answer": "Herzlich willkommen! Wie ist Ihr Name, bitte?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q012",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch15-c08",
+      "image": "p-13-02.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Mein Name ist Emre Yılmaz.",
+      "prompt_en": "My name is Emre Yılmaz.",
+      "audio": {
+        "text": "Mein Name ist Emre Yılmaz.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Danke. Wie ist Ihr Geburtsdatum?",
+        "Danke. Wie ist das Wetter?",
+        "Danke. Wo ist die Toilette?"
+      ],
+      "answer": "Danke. Wie ist Ihr Geburtsdatum?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q013",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch15-c09",
+      "image": "p-13-03.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Meine Nummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben.",
+      "prompt_en": "His phone number:",
+      "audio": {
+        "text": "Meine Nummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "0176 234 567",
+        "0167 234 567",
+        "0176 243 567",
+        "0176 234 576"
+      ],
+      "answer": "0176 234 567",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q014",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch15-c11",
+      "image": "p-13-04.jpg",
+      "question_en": "Ask Herr Yılmaz which medicines he takes.",
+      "options": [
+        "Welche Medikamente nehmen Sie?",
+        "Welche Farbe mögen Sie?",
+        "Wie viele Kinder haben Sie?"
+      ],
+      "answer": "Welche Medikamente nehmen Sie?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q015",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch15-c12",
+      "image": "p-13-05.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ich nehme Tabletten für den Blutdruck.",
+      "prompt_en": "I take tablets for my blood pressure.",
+      "audio": {
+        "text": "Ich nehme Tabletten für den Blutdruck.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Okay. Haben Sie die Tabletten dabei?",
+        "Okay. Essen Sie die Tabletten?",
+        "Okay. Guten Appetit!"
+      ],
+      "answer": "Okay. Haben Sie die Tabletten dabei?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q016",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch15-c13",
+      "image": "p-13-06.jpg",
+      "question_en": "Ask Herr Yılmaz who you can call if needed.",
+      "options": [
+        "Wen können wir anrufen?",
+        "Wen können wir essen?",
+        "Wann können wir schlafen?"
+      ],
+      "answer": "Wen können wir anrufen?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q017",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch15-c14",
+      "image": "p-13-07.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Meine Frau. Ihre Nummer ist im Handy.",
+      "prompt_en": "My wife. Her number is in my phone.",
+      "audio": {
+        "text": "Meine Frau. Ihre Nummer ist im Handy.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Danke, ich schreibe die Nummer auf.",
+        "Danke, ich rufe jetzt die Polizei.",
+        "Gute Nacht!"
+      ],
+      "answer": "Danke, ich schreibe die Nummer auf.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q018",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch15-c15",
+      "image": "p-13-11.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ich habe eine Nierenkrankheit.",
+      "prompt_en": "I have a kidney disease.",
+      "audio": {
+        "text": "Ich habe eine Nierenkrankheit.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Danke. Ich schreibe das auf.",
+        "Schön, danke.",
+        "Dann essen Sie Brot."
+      ],
+      "answer": "Danke. Ich schreibe das auf.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q019",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch15-c17",
+      "image": "p-13-08.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Wo ist mein Schrank?",
+      "prompt_en": "Where is my wardrobe?",
+      "audio": {
+        "text": "Wo ist mein Schrank?",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Schrank",
+        "das Bett",
+        "die Tür",
+        "das Fenster"
+      ],
+      "answer": "der Schrank",
+      "feedback_de": "Hier ist Ihr Schrank.",
+      "feedback_en": "Here is your wardrobe.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q020",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch15-c18",
+      "image": "p-13-09.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Wo kann ich mein Handy laden?",
+      "prompt_en": "Where can I charge my phone?",
+      "audio": {
+        "text": "Wo kann ich mein Handy laden?",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Hier, neben dem Bett.",
+        "Im OP.",
+        "Um 8 Uhr."
+      ],
+      "answer": "Hier, neben dem Bett.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q021",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch15-c19",
+      "image": "p-13-10.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Wie mache ich das Licht an?",
+      "prompt_en": "How do I switch on the light?",
+      "audio": {
+        "text": "Wie mache ich das Licht an?",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Licht",
+        "der Fernseher",
+        "die Klingel",
+        "das Telefon"
+      ],
+      "answer": "das Licht",
+      "feedback_de": "Hier, der Knopf am Bett.",
+      "feedback_en": "Here, the button on the bed.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q022",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch15-c20",
+      "image": "d-band.jpg",
+      "question_en": "What is the patient's first name?",
+      "document_card_id": "ch15-c20",
+      "options": [
+        "Emre",
+        "Yılmaz",
+        "Station"
+      ],
+      "answer": "Emre",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q023",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch15-c20",
+      "image": "d-band.jpg",
+      "question_en": "Which allergy does he have?",
+      "document_card_id": "ch15-c20",
+      "options": [
+        "Penicillin",
+        "Paracetamol",
+        "No allergy"
+      ],
+      "answer": "Penicillin",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q024",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch15-c20",
+      "image": "d-band.jpg",
+      "question_en": "Which room is he in?",
+      "document_card_id": "ch15-c20",
+      "options": [
+        "Room 3",
+        "Room 12",
+        "Room 81"
+      ],
+      "answer": "Room 3",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q025",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch15-c21",
+      "image": "d-admission.jpg",
+      "question_en": "Who is his contact person?",
+      "document_card_id": "ch15-c21",
+      "options": [
+        "His daughter",
+        "His wife",
+        "His doctor"
+      ],
+      "answer": "His daughter",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q026",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch15-c21",
+      "image": "d-admission.jpg",
+      "question_en": "Does he have allergies?",
+      "document_card_id": "ch15-c21",
+      "options": [
+        "No",
+        "Yes, to penicillin",
+        "Yes, to food"
+      ],
+      "answer": "No",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q027",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch15-c21",
+      "image": "d-admission.jpg",
+      "question_en": "Which aids does he use?",
+      "document_card_id": "ch15-c21",
+      "options": [
+        "Glasses and a walker",
+        "A wheelchair",
+        "Nothing"
+      ],
+      "answer": "Glasses and a walker",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q028",
+      "type": "spelling",
+      "label": "Listen to the spelling",
+      "card_id": "ch15-c22",
+      "image": "s-weber.jpg",
+      "question_en": "Which name is spelled?",
+      "prompt_de": "Wie schreibt man das?",
+      "audio": {
+        "text": "W, E, B, E, R",
+        "voice": "doctor_male",
+        "lang": "de-DE",
+        "pause_between_items_ms": 400
+      },
+      "options": [
+        "Weber",
+        "Webber",
+        "Wever"
+      ],
+      "answer": "Weber",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch15-q029",
+      "type": "spelling",
+      "label": "Listen to the spelling",
+      "card_id": "ch15-c23",
+      "image": "s-schmidt.jpg",
+      "question_en": "Which name is spelled?",
+      "prompt_de": "Wie schreibt man das?",
+      "audio": {
+        "text": "S, C, H, M, I, D, T",
+        "voice": "doctor_male",
+        "lang": "de-DE",
+        "pause_between_items_ms": 400
+      },
+      "options": [
+        "Schmidt",
+        "Schmitt",
+        "Schmid"
+      ],
+      "answer": "Schmidt",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "d-admission.jpg",
+    "d-band.jpg",
+    "p-13-01.jpg",
+    "p-13-02.jpg",
+    "p-13-03.jpg",
+    "p-13-04.jpg",
+    "p-13-05.jpg",
+    "p-13-06.jpg",
+    "p-13-07.jpg",
+    "p-13-08.jpg",
+    "p-13-09.jpg",
+    "p-13-10.jpg",
+    "p-13-11.jpg",
+    "s-schmidt.jpg",
+    "s-weber.jpg",
+    "w-admission.jpg",
+    "w-ct-scan.jpg",
+    "w-ecg.jpg",
+    "w-mri.jpg",
+    "w-x-ray.jpg"
+  ]
+}

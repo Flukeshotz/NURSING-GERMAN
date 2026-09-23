@@ -1,0 +1,1970 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch05",
+  "chapter_number": 5,
+  "title_en": "Inside the body",
+  "title_de": "Die Organe",
+  "unlock": {
+    "requires_chapter": 4,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch05-g1",
+      "title_en": "Find the organs",
+      "pattern_de": "Das ist [das Herz].",
+      "pattern_en": "This is the heart.",
+      "tip_en": "Say organs with their article: das Herz, die Lunge, die Niere."
+    },
+    {
+      "id": "ch05-g2",
+      "title_en": "When patients talk about organs",
+      "pattern_de": "Ich habe Probleme mit [dem Herzen].",
+      "pattern_en": "I have problems with my heart.",
+      "tip_en": "„mit dem Herzen“ is a fixed phrase. Learn it as one block."
+    },
+    {
+      "id": "ch05-g3",
+      "title_en": "Illnesses and treatment",
+      "pattern_de": "Herr Yılmaz bekommt [Dialyse].",
+      "pattern_en": "Herr Yılmaz gets dialysis.",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch05-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-heart.jpg",
+      "front": {
+        "german": "das Herz",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Heart",
+        "label": "Example",
+        "german": "Das Herz schlägt schnell.",
+        "english": "The heart is beating fast.",
+        "note": null
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Herz",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das Herz schlägt schnell.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-lungs.jpg",
+      "front": {
+        "german": "die Lunge",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Lungs",
+        "label": "Example",
+        "german": "Die Lunge ist frei.",
+        "english": "The lungs are clear.",
+        "note": "Germans often say „die Lunge“ for both lungs."
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Lunge",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Lunge ist frei.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c03",
+      "order": 3,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-liver.jpg",
+      "front": {
+        "german": "die Leber",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Liver",
+        "label": "Example",
+        "german": "Die Leber ist rechts im Bauch.",
+        "english": "The liver is on the right side of the abdomen.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Leber",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Leber ist rechts im Bauch.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c04",
+      "order": 4,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-kidney.jpg",
+      "front": {
+        "german": "die Niere",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Kidney",
+        "label": "Example",
+        "german": "Der Mensch hat zwei Nieren.",
+        "english": "A person has two kidneys.",
+        "note": "Two kidneys: die Nieren"
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Niere",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Mensch hat zwei Nieren.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c05",
+      "order": 5,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-stomach-organ.jpg",
+      "front": {
+        "german": "der Magen",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Stomach (organ)",
+        "label": "Example",
+        "german": "Mein Magen tut weh.",
+        "english": "My stomach hurts.",
+        "note": "der Bauch = belly · der Magen = the stomach organ."
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Magen",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Mein Magen tut weh.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c06",
+      "order": 6,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-bowel-intestine.jpg",
+      "front": {
+        "german": "der Darm",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Bowel / intestine",
+        "label": "Example",
+        "german": "Der Arzt untersucht den Darm.",
+        "english": "The doctor examines the bowel.",
+        "note": null
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Darm",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Arzt untersucht den Darm.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c07",
+      "order": 7,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-brain.jpg",
+      "front": {
+        "german": "das Gehirn",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Brain",
+        "label": "Example",
+        "german": "Das Gehirn ist im Kopf.",
+        "english": "The brain is in the head.",
+        "note": null
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Gehirn",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das Gehirn ist im Kopf.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c08",
+      "order": 8,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-bladder.jpg",
+      "front": {
+        "german": "die Blase",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Bladder",
+        "label": "Example",
+        "german": "Die Blase ist voll.",
+        "english": "The bladder is full.",
+        "note": "Also: die Harnblase."
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Blase",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Blase ist voll.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c09",
+      "order": 9,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-thyroid-gland.jpg",
+      "front": {
+        "german": "die Schilddrüse",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Thyroid gland",
+        "label": "Example",
+        "german": "Die Schilddrüse ist im Hals.",
+        "english": "The thyroid gland is in the neck.",
+        "note": "die Drüse = gland."
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Schilddrüse",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Schilddrüse ist im Hals.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c10",
+      "order": 10,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-pancreas.jpg",
+      "front": {
+        "german": "die Bauchspeicheldrüse",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Pancreas",
+        "label": "Example",
+        "german": "Die Bauchspeicheldrüse macht Insulin.",
+        "english": "The pancreas makes insulin.",
+        "note": "Bauch + Speichel + Drüse: the „belly saliva gland“."
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Bauchspeicheldrüse",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Bauchspeicheldrüse macht Insulin.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c11",
+      "order": 11,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-gall-bladder.jpg",
+      "front": {
+        "german": "die Gallenblase",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Gall bladder",
+        "label": "Example",
+        "german": "Die Gallenblase ist klein.",
+        "english": "The gall bladder is small.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Gallenblase",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Gallenblase ist klein.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c12",
+      "order": 12,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-blood.jpg",
+      "front": {
+        "german": "das Blut",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Blood",
+        "label": "Example",
+        "german": "Ich nehme Blut ab.",
+        "english": "I'm taking a blood sample.",
+        "note": null
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Blut",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich nehme Blut ab.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c13",
+      "order": 13,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-bone.jpg",
+      "front": {
+        "german": "der Knochen",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Bone",
+        "label": "Example",
+        "german": "Das Röntgen zeigt den Knochen.",
+        "english": "The X-ray shows the bone.",
+        "note": null
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Knochen",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das Röntgen zeigt den Knochen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c14",
+      "order": 14,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-skin.jpg",
+      "front": {
+        "german": "die Haut",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Skin",
+        "label": "Example",
+        "german": "Die Haut ist trocken.",
+        "english": "The skin is dry.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Haut",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Haut ist trocken.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c15",
+      "order": 15,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-dialysis.jpg",
+      "front": {
+        "german": "die Dialyse",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Dialysis",
+        "label": "Example",
+        "german": "Die Dialyse ist am Montag.",
+        "english": "Dialysis is on Monday.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Dialyse",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Dialyse ist am Montag.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c16",
+      "order": 16,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-pneumonia.jpg",
+      "front": {
+        "german": "die Lungenentzündung",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Pneumonia",
+        "label": "Example",
+        "german": "Frau Weber hat eine Lungenentzündung.",
+        "english": "Frau Weber has pneumonia.",
+        "note": "die Lunge + die Entzündung (inflammation)."
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Lungenentzündung",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Frau Weber hat eine Lungenentzündung.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c17",
+      "order": 17,
+      "type": "pattern",
+      "goal_id": "ch05-g1",
+      "image": "p-21-05.jpg",
+      "front": {
+        "german": "Das ist das Herz.",
+        "label": "Find the organs",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Das ist [das Herz]."
+      },
+      "back": {
+        "meaning_en": "This is the heart.",
+        "label": "Tip",
+        "german": "Das ist das Herz.",
+        "english": "Say organs with their article: das Herz, die Lunge, die Niere.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Das ist das Herz.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das ist das Herz.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c18",
+      "order": 18,
+      "type": "phrase",
+      "goal_id": "ch05-g1",
+      "image": "p-21-05.jpg",
+      "front": {
+        "german": "Wo ist die Niere?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "Where is the kidney?",
+        "label": "You answer",
+        "german": "Hier, im Rücken, links und rechts.",
+        "english": "Here, in the back, left and right.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier, im Rücken, links und rechts.",
+          "english": "Here, in the back, left and right."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wo ist die Niere?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier, im Rücken, links und rechts.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c19",
+      "order": 19,
+      "type": "phrase",
+      "goal_id": "ch05-g1",
+      "image": "p-21-06.jpg",
+      "front": {
+        "german": "Der Herzschlag ist 88.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Heart rate",
+        "label": "You note down",
+        "german": "88",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "88",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Der Herzschlag ist 88.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "88",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c20",
+      "order": 20,
+      "type": "phrase",
+      "goal_id": "ch05-g1",
+      "image": "p-21-07.jpg",
+      "front": {
+        "german": "Atmen Sie bitte tief ein und aus.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please breathe in and out deeply.",
+        "label": "When",
+        "german": "Atmen Sie bitte tief ein und aus.",
+        "english": "Dr. Braun listens to the lungs. Herr Schmidt should breathe deeply.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Atmen Sie bitte tief ein und aus.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Atmen Sie bitte tief ein und aus.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c21",
+      "order": 21,
+      "type": "pattern",
+      "goal_id": "ch05-g2",
+      "image": "p-21-01.jpg",
+      "front": {
+        "german": "Ich habe Probleme mit dem Herzen.",
+        "label": "When patients talk about organs",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Ich habe Probleme mit [dem Herzen]."
+      },
+      "back": {
+        "meaning_en": "I have problems with my heart.",
+        "label": "Tip",
+        "german": "Ich habe Probleme mit dem Herzen.",
+        "english": "„mit dem Herzen“ is a fixed phrase. Learn it as one block.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich habe Probleme mit dem Herzen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich habe Probleme mit dem Herzen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c22",
+      "order": 22,
+      "type": "phrase",
+      "goal_id": "ch05-g2",
+      "image": "p-21-01.jpg",
+      "front": {
+        "german": "Ich habe Probleme mit dem Herzen.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "I have problems with my heart.",
+        "label": "You answer",
+        "german": "Okay. Ich messe den Puls und hole den Arzt.",
+        "english": "Okay. I'll take your pulse and get the doctor.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Okay. Ich messe den Puls und hole den Arzt.",
+          "english": "Okay. I'll take your pulse and get the doctor."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich habe Probleme mit dem Herzen.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Okay. Ich messe den Puls und hole den Arzt.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c23",
+      "order": 23,
+      "type": "phrase",
+      "goal_id": "ch05-g2",
+      "image": "p-21-02.jpg",
+      "front": {
+        "german": "Meine Niere ist krank.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "My kidney is ill.",
+        "label": "You answer",
+        "german": "Ich weiß. Der Arzt kommt gleich.",
+        "english": "I know. The doctor is coming soon.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich weiß. Der Arzt kommt gleich.",
+          "english": "I know. The doctor is coming soon."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Meine Niere ist krank.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich weiß. Der Arzt kommt gleich.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c24",
+      "order": 24,
+      "type": "phrase",
+      "goal_id": "ch05-g2",
+      "image": "p-21-03.jpg",
+      "front": {
+        "german": "Ich nehme eine Tablette für die Schilddrüse.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I take a tablet for my thyroid.",
+        "label": "You answer",
+        "german": "Danke, ich schreibe das auf.",
+        "english": "Thank you, I'll write that down.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Danke, ich schreibe das auf.",
+          "english": "Thank you, I'll write that down."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich nehme eine Tablette für die Schilddrüse.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Danke, ich schreibe das auf.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c25",
+      "order": 25,
+      "type": "phrase",
+      "goal_id": "ch05-g2",
+      "image": "p-21-04.jpg",
+      "front": {
+        "german": "Ich muss oft zur Toilette. Ist das die Blase?",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "I often have to go to the toilet. Is that the bladder?",
+        "label": "You answer",
+        "german": "Vielleicht. Ich sage es dem Arzt.",
+        "english": "Maybe. I'll tell the doctor.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Vielleicht. Ich sage es dem Arzt.",
+          "english": "Maybe. I'll tell the doctor."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich muss oft zur Toilette. Ist das die Blase?",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Vielleicht. Ich sage es dem Arzt.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c26",
+      "order": 26,
+      "type": "pattern",
+      "goal_id": "ch05-g3",
+      "image": "p-21-08.jpg",
+      "front": {
+        "german": "Herr Yılmaz bekommt Dialyse.",
+        "label": "Illnesses and treatment",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Herr Yılmaz bekommt [Dialyse]."
+      },
+      "back": {
+        "meaning_en": "Herr Yılmaz gets dialysis.",
+        "label": "Tip",
+        "german": "Herr Yılmaz bekommt Dialyse.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Herr Yılmaz bekommt Dialyse.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Herr Yılmaz bekommt Dialyse.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c27",
+      "order": 27,
+      "type": "phrase",
+      "goal_id": "ch05-g3",
+      "image": "p-21-08.jpg",
+      "front": {
+        "german": "Ich habe Diabetes.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I have diabetes.",
+        "label": "You answer",
+        "german": "Okay. Ich messe den Blutzucker.",
+        "english": "Okay. I'll measure your blood sugar.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Okay. Ich messe den Blutzucker.",
+          "english": "Okay. I'll measure your blood sugar."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich habe Diabetes.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Okay. Ich messe den Blutzucker.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c28",
+      "order": 28,
+      "type": "phrase",
+      "goal_id": "ch05-g3",
+      "image": "p-21-09.jpg",
+      "front": {
+        "german": "Herr Yılmaz bekommt heute Dialyse.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Herr Yılmaz gets dialysis today.",
+        "label": "You answer",
+        "german": "Okay, um wie viel Uhr?",
+        "english": "Okay, at what time?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Okay, um wie viel Uhr?",
+          "english": "Okay, at what time?"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Herr Yılmaz bekommt heute Dialyse.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Okay, um wie viel Uhr?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch05-c29",
+      "order": 29,
+      "type": "phrase",
+      "goal_id": "ch05-g3",
+      "image": "p-21-10.jpg",
+      "front": {
+        "german": "Frau Weber hat eine Lungenentzündung.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Frau Weber has pneumonia.",
+        "label": "When",
+        "german": "Frau Weber hat eine Lungenentzündung.",
+        "english": "Tell Dr. Braun: Frau Weber has pneumonia.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Frau Weber hat eine Lungenentzündung.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Frau Weber hat eine Lungenentzündung.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch05-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c01",
+      "image": "w-heart.jpg",
+      "question_en": "How do you say \"Heart\" in German?",
+      "options": [
+        "das Herz",
+        "die Lunge",
+        "die Leber",
+        "die Niere"
+      ],
+      "answer": "das Herz",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c01",
+      "image": "w-heart.jpg",
+      "question_en": "What does \"das Herz\" mean?",
+      "german": "das Herz",
+      "audio": {
+        "text": "das Herz",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Heart",
+        "Lungs",
+        "Liver",
+        "Kidney"
+      ],
+      "answer": "Heart",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c02",
+      "image": "w-lungs.jpg",
+      "question_en": "How do you say \"Lungs\" in German?",
+      "options": [
+        "die Lunge",
+        "das Herz",
+        "die Leber",
+        "die Niere"
+      ],
+      "answer": "die Lunge",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c02",
+      "image": "w-lungs.jpg",
+      "question_en": "What does \"die Lunge\" mean?",
+      "german": "die Lunge",
+      "audio": {
+        "text": "die Lunge",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Lungs",
+        "Heart",
+        "Liver",
+        "Kidney"
+      ],
+      "answer": "Lungs",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q005",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c03",
+      "image": "w-liver.jpg",
+      "question_en": "How do you say \"Liver\" in German?",
+      "options": [
+        "die Leber",
+        "das Herz",
+        "die Lunge",
+        "die Niere"
+      ],
+      "answer": "die Leber",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q006",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c03",
+      "image": "w-liver.jpg",
+      "question_en": "What does \"die Leber\" mean?",
+      "german": "die Leber",
+      "audio": {
+        "text": "die Leber",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Liver",
+        "Heart",
+        "Lungs",
+        "Kidney"
+      ],
+      "answer": "Liver",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q007",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c04",
+      "image": "w-kidney.jpg",
+      "question_en": "How do you say \"Kidney\" in German?",
+      "options": [
+        "die Niere",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "die Niere",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q008",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c04",
+      "image": "w-kidney.jpg",
+      "question_en": "What does \"die Niere\" mean?",
+      "german": "die Niere",
+      "audio": {
+        "text": "die Niere",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Kidney",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Kidney",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q009",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c05",
+      "image": "w-stomach-organ.jpg",
+      "question_en": "How do you say \"Stomach (organ)\" in German?",
+      "options": [
+        "der Magen",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "der Magen",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q010",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c05",
+      "image": "w-stomach-organ.jpg",
+      "question_en": "What does \"der Magen\" mean?",
+      "german": "der Magen",
+      "audio": {
+        "text": "der Magen",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Stomach (organ)",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Stomach (organ)",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q011",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c06",
+      "image": "w-bowel-intestine.jpg",
+      "question_en": "How do you say \"Bowel / intestine\" in German?",
+      "options": [
+        "der Darm",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "der Darm",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q012",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c06",
+      "image": "w-bowel-intestine.jpg",
+      "question_en": "What does \"der Darm\" mean?",
+      "german": "der Darm",
+      "audio": {
+        "text": "der Darm",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Bowel / intestine",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Bowel / intestine",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q013",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c07",
+      "image": "w-brain.jpg",
+      "question_en": "How do you say \"Brain\" in German?",
+      "options": [
+        "das Gehirn",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "das Gehirn",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q014",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c07",
+      "image": "w-brain.jpg",
+      "question_en": "What does \"das Gehirn\" mean?",
+      "german": "das Gehirn",
+      "audio": {
+        "text": "das Gehirn",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Brain",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Brain",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q015",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c08",
+      "image": "w-bladder.jpg",
+      "question_en": "How do you say \"Bladder\" in German?",
+      "options": [
+        "die Blase",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "die Blase",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q016",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c08",
+      "image": "w-bladder.jpg",
+      "question_en": "What does \"die Blase\" mean?",
+      "german": "die Blase",
+      "audio": {
+        "text": "die Blase",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Bladder",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Bladder",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q017",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c09",
+      "image": "w-thyroid-gland.jpg",
+      "question_en": "How do you say \"Thyroid gland\" in German?",
+      "options": [
+        "die Schilddrüse",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "die Schilddrüse",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q018",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c09",
+      "image": "w-thyroid-gland.jpg",
+      "question_en": "What does \"die Schilddrüse\" mean?",
+      "german": "die Schilddrüse",
+      "audio": {
+        "text": "die Schilddrüse",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Thyroid gland",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Thyroid gland",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q019",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c10",
+      "image": "w-pancreas.jpg",
+      "question_en": "How do you say \"Pancreas\" in German?",
+      "options": [
+        "die Bauchspeicheldrüse",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "die Bauchspeicheldrüse",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q020",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c10",
+      "image": "w-pancreas.jpg",
+      "question_en": "What does \"die Bauchspeicheldrüse\" mean?",
+      "german": "die Bauchspeicheldrüse",
+      "audio": {
+        "text": "die Bauchspeicheldrüse",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Pancreas",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Pancreas",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q021",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c11",
+      "image": "w-gall-bladder.jpg",
+      "question_en": "How do you say \"Gall bladder\" in German?",
+      "options": [
+        "die Gallenblase",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "die Gallenblase",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q022",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c11",
+      "image": "w-gall-bladder.jpg",
+      "question_en": "What does \"die Gallenblase\" mean?",
+      "german": "die Gallenblase",
+      "audio": {
+        "text": "die Gallenblase",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Gall bladder",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Gall bladder",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q023",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c12",
+      "image": "w-blood.jpg",
+      "question_en": "How do you say \"Blood\" in German?",
+      "options": [
+        "das Blut",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "das Blut",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q024",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c12",
+      "image": "w-blood.jpg",
+      "question_en": "What does \"das Blut\" mean?",
+      "german": "das Blut",
+      "audio": {
+        "text": "das Blut",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Blood",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Blood",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q025",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c13",
+      "image": "w-bone.jpg",
+      "question_en": "How do you say \"Bone\" in German?",
+      "options": [
+        "der Knochen",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "der Knochen",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q026",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c13",
+      "image": "w-bone.jpg",
+      "question_en": "What does \"der Knochen\" mean?",
+      "german": "der Knochen",
+      "audio": {
+        "text": "der Knochen",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Bone",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Bone",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q027",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c14",
+      "image": "w-skin.jpg",
+      "question_en": "How do you say \"Skin\" in German?",
+      "options": [
+        "die Haut",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "die Haut",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q028",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c14",
+      "image": "w-skin.jpg",
+      "question_en": "What does \"die Haut\" mean?",
+      "german": "die Haut",
+      "audio": {
+        "text": "die Haut",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Skin",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Skin",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q029",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c15",
+      "image": "w-dialysis.jpg",
+      "question_en": "How do you say \"Dialysis\" in German?",
+      "options": [
+        "die Dialyse",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "die Dialyse",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q030",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c15",
+      "image": "w-dialysis.jpg",
+      "question_en": "What does \"die Dialyse\" mean?",
+      "german": "die Dialyse",
+      "audio": {
+        "text": "die Dialyse",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Dialysis",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Dialysis",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q031",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch05-c16",
+      "image": "w-pneumonia.jpg",
+      "question_en": "How do you say \"Pneumonia\" in German?",
+      "options": [
+        "die Lungenentzündung",
+        "das Herz",
+        "die Lunge",
+        "die Leber"
+      ],
+      "answer": "die Lungenentzündung",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q032",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch05-c16",
+      "image": "w-pneumonia.jpg",
+      "question_en": "What does \"die Lungenentzündung\" mean?",
+      "german": "die Lungenentzündung",
+      "audio": {
+        "text": "die Lungenentzündung",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Pneumonia",
+        "Heart",
+        "Lungs",
+        "Liver"
+      ],
+      "answer": "Pneumonia",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q033",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch05-c18",
+      "image": "p-21-05.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Wo ist die Niere?",
+      "prompt_en": "Where is the kidney?",
+      "audio": {
+        "text": "Wo ist die Niere?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Hier, im Rücken, links und rechts.",
+        "Im Kopf.",
+        "In der Hand."
+      ],
+      "answer": "Hier, im Rücken, links und rechts.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q034",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch05-c19",
+      "image": "p-21-06.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Der Herzschlag ist 88.",
+      "prompt_en": "Heart rate:",
+      "audio": {
+        "text": "Der Herzschlag ist 88.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "88",
+        "68",
+        "80",
+        "18"
+      ],
+      "answer": "88",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q035",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch05-c20",
+      "image": "p-21-07.jpg",
+      "question_en": "Dr. Braun listens to the lungs. Herr Schmidt should breathe deeply.",
+      "options": [
+        "Atmen Sie bitte tief ein und aus.",
+        "Essen Sie bitte langsam.",
+        "Schlafen Sie bitte."
+      ],
+      "answer": "Atmen Sie bitte tief ein und aus.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q036",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch05-c22",
+      "image": "p-21-01.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Ich habe Probleme mit dem Herzen.",
+      "prompt_en": "I have problems with my heart.",
+      "audio": {
+        "text": "Ich habe Probleme mit dem Herzen.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Okay. Ich messe den Puls und hole den Arzt.",
+        "Das ist schön.",
+        "Dann essen Sie bitte mehr."
+      ],
+      "answer": "Okay. Ich messe den Puls und hole den Arzt.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q037",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch05-c23",
+      "image": "p-21-02.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Meine Niere ist krank.",
+      "prompt_en": "My kidney is ill.",
+      "audio": {
+        "text": "Meine Niere ist krank.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ich weiß. Der Arzt kommt gleich.",
+        "Ihre Niere ist im Kopf.",
+        "Dann trinken Sie Kaffee."
+      ],
+      "answer": "Ich weiß. Der Arzt kommt gleich.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q038",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch05-c24",
+      "image": "p-21-03.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich nehme eine Tablette für die Schilddrüse.",
+      "prompt_en": "I take a tablet for my thyroid.",
+      "audio": {
+        "text": "Ich nehme eine Tablette für die Schilddrüse.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Danke, ich schreibe das auf.",
+        "Die Schilddrüse ist im Bein.",
+        "Bitte nehmen Sie zehn Tabletten."
+      ],
+      "answer": "Danke, ich schreibe das auf.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q039",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch05-c25",
+      "image": "p-21-04.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ich muss oft zur Toilette. Ist das die Blase?",
+      "prompt_en": "I often have to go to the toilet. Is that the bladder?",
+      "audio": {
+        "text": "Ich muss oft zur Toilette. Ist das die Blase?",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Vielleicht. Ich sage es dem Arzt.",
+        "Nein, das ist das Herz.",
+        "Ja, das ist normal. Tschüss!"
+      ],
+      "answer": "Vielleicht. Ich sage es dem Arzt.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q040",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch05-c27",
+      "image": "p-21-08.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich habe Diabetes.",
+      "prompt_en": "I have diabetes.",
+      "audio": {
+        "text": "Ich habe Diabetes.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Okay. Ich messe den Blutzucker.",
+        "Okay. Ich messe die Temperatur.",
+        "Schön!"
+      ],
+      "answer": "Okay. Ich messe den Blutzucker.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q041",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch05-c28",
+      "image": "p-21-09.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Herr Yılmaz bekommt heute Dialyse.",
+      "prompt_en": "Herr Yılmaz gets dialysis today.",
+      "audio": {
+        "text": "Herr Yılmaz bekommt heute Dialyse.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Okay, um wie viel Uhr?",
+        "Okay, er bekommt Kaffee.",
+        "Nein, er schläft."
+      ],
+      "answer": "Okay, um wie viel Uhr?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch05-q042",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch05-c29",
+      "image": "p-21-10.jpg",
+      "question_en": "Tell Dr. Braun: Frau Weber has pneumonia.",
+      "options": [
+        "Frau Weber hat eine Lungenentzündung.",
+        "Frau Weber hat eine Lunge.",
+        "Frau Weber ist eine Lungenentzündung."
+      ],
+      "answer": "Frau Weber hat eine Lungenentzündung.",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "p-21-01.jpg",
+    "p-21-02.jpg",
+    "p-21-03.jpg",
+    "p-21-04.jpg",
+    "p-21-05.jpg",
+    "p-21-06.jpg",
+    "p-21-07.jpg",
+    "p-21-08.jpg",
+    "p-21-09.jpg",
+    "p-21-10.jpg",
+    "w-bladder.jpg",
+    "w-blood.jpg",
+    "w-bone.jpg",
+    "w-bowel-intestine.jpg",
+    "w-brain.jpg",
+    "w-dialysis.jpg",
+    "w-gall-bladder.jpg",
+    "w-heart.jpg",
+    "w-kidney.jpg",
+    "w-liver.jpg",
+    "w-lungs.jpg",
+    "w-pancreas.jpg",
+    "w-pneumonia.jpg",
+    "w-skin.jpg",
+    "w-stomach-organ.jpg",
+    "w-thyroid-gland.jpg"
+  ]
+}

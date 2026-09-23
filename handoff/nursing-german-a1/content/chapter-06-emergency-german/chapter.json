@@ -1,0 +1,1229 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch06",
+  "chapter_number": 6,
+  "title_en": "Emergency German",
+  "title_de": "Notfall-Deutsch",
+  "unlock": {
+    "requires_chapter": 5,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 10,
+    "quiz_composition": {
+      "emergency_translate": 10
+    }
+  },
+  "goals": [],
+  "cards": [
+    {
+      "id": "ch06-c01",
+      "order": 1,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-01.jpg",
+      "front": {
+        "german": "Hilfe!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Help!",
+        "label": "Say it",
+        "german": "Hilfe!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Hilfe!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hilfe!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c02",
+      "order": 2,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-02.jpg",
+      "front": {
+        "german": "Notfall!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Emergency!",
+        "label": "Say it",
+        "german": "Notfall!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Notfall!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Notfall!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c03",
+      "order": 3,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-03.jpg",
+      "front": {
+        "german": "Rufen Sie bitte den Arzt!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Please call the doctor!",
+        "label": "Say it",
+        "german": "Rufen Sie bitte den Arzt!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Rufen Sie bitte den Arzt!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Rufen Sie bitte den Arzt!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c04",
+      "order": 4,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-04.jpg",
+      "front": {
+        "german": "Schnell, bitte!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Quickly, please!",
+        "label": "Say it",
+        "german": "Schnell, bitte!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Schnell, bitte!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Schnell, bitte!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c05",
+      "order": 5,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-05.jpg",
+      "front": {
+        "german": "Bleiben Sie bitte liegen.",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Please stay lying down.",
+        "label": "Say it",
+        "german": "Bleiben Sie bitte liegen.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bleiben Sie bitte liegen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bleiben Sie bitte liegen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c06",
+      "order": 6,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-06.jpg",
+      "front": {
+        "german": "Nicht aufstehen!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Don't get up!",
+        "label": "Say it",
+        "german": "Nicht aufstehen!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Nicht aufstehen!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Nicht aufstehen!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c07",
+      "order": 7,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-07.jpg",
+      "front": {
+        "german": "Atmen Sie ruhig.",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Breathe calmly.",
+        "label": "Say it",
+        "german": "Atmen Sie ruhig.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Atmen Sie ruhig.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Atmen Sie ruhig.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c08",
+      "order": 8,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-08.jpg",
+      "front": {
+        "german": "Haben Sie Allergien?",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Do you have allergies?",
+        "label": "Say it",
+        "german": "Haben Sie Allergien?",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Haben Sie Allergien?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Haben Sie Allergien?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c09",
+      "order": 9,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-09.jpg",
+      "front": {
+        "german": "Können Sie mich hören?",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Can you hear me?",
+        "label": "Say it",
+        "german": "Können Sie mich hören?",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Können Sie mich hören?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Können Sie mich hören?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c10",
+      "order": 10,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-10.jpg",
+      "front": {
+        "german": "Ich bin hier.",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "I'm here.",
+        "label": "Say it",
+        "german": "Ich bin hier.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich bin hier.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich bin hier.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c11",
+      "order": 11,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-11.jpg",
+      "front": {
+        "german": "Bewusstlos!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Unconscious!",
+        "label": "Say it",
+        "german": "Bewusstlos!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bewusstlos!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bewusstlos!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c12",
+      "order": 12,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-12.jpg",
+      "front": {
+        "german": "Er atmet nicht!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "He is not breathing!",
+        "label": "Say it",
+        "german": "Er atmet nicht!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Er atmet nicht!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Er atmet nicht!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c13",
+      "order": 13,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-13.jpg",
+      "front": {
+        "german": "Sie atmet.",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "She is breathing.",
+        "label": "Say it",
+        "german": "Sie atmet.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Sie atmet.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Sie atmet.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c14",
+      "order": 14,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-14.jpg",
+      "front": {
+        "german": "Ich brauche Hilfe in Zimmer 3!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "I need help in room 3!",
+        "label": "Say it",
+        "german": "Ich brauche Hilfe in Zimmer 3!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich brauche Hilfe in Zimmer 3!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich brauche Hilfe in Zimmer 3!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c15",
+      "order": 15,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-15.jpg",
+      "front": {
+        "german": "Holen Sie bitte den Notfallwagen!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Please get the emergency trolley!",
+        "label": "Say it",
+        "german": "Holen Sie bitte den Notfallwagen!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Holen Sie bitte den Notfallwagen!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Holen Sie bitte den Notfallwagen!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c16",
+      "order": 16,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-16.jpg",
+      "front": {
+        "german": "Blutung!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Bleeding!",
+        "label": "Say it",
+        "german": "Blutung!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Blutung!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Blutung!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c17",
+      "order": 17,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-17.jpg",
+      "front": {
+        "german": "Drücken Sie hier fest.",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Press firmly here.",
+        "label": "Say it",
+        "german": "Drücken Sie hier fest.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Drücken Sie hier fest.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Drücken Sie hier fest.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c18",
+      "order": 18,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-18.jpg",
+      "front": {
+        "german": "Sturz in Zimmer 2!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Fall in room 2!",
+        "label": "Say it",
+        "german": "Sturz in Zimmer 2!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Sturz in Zimmer 2!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Sturz in Zimmer 2!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c19",
+      "order": 19,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-19.jpg",
+      "front": {
+        "german": "Bewegen Sie sich nicht.",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Don't move.",
+        "label": "Say it",
+        "german": "Bewegen Sie sich nicht.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bewegen Sie sich nicht.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bewegen Sie sich nicht.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c20",
+      "order": 20,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-20.jpg",
+      "front": {
+        "german": "Feuer!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Fire!",
+        "label": "Say it",
+        "german": "Feuer!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Feuer!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Feuer!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c21",
+      "order": 21,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-21.jpg",
+      "front": {
+        "german": "Bitte zum Notausgang!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Please go to the emergency exit!",
+        "label": "Say it",
+        "german": "Bitte zum Notausgang!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bitte zum Notausgang!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte zum Notausgang!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c22",
+      "order": 22,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-22.jpg",
+      "front": {
+        "german": "Ruhig bleiben.",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Stay calm.",
+        "label": "Say it",
+        "german": "Ruhig bleiben.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ruhig bleiben.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ruhig bleiben.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c23",
+      "order": 23,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-23.jpg",
+      "front": {
+        "german": "Der Arzt kommt sofort.",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "The doctor is coming right away.",
+        "label": "Say it",
+        "german": "Der Arzt kommt sofort.",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Der Arzt kommt sofort.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Arzt kommt sofort.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c24",
+      "order": 24,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-24.jpg",
+      "front": {
+        "german": "Wie heißen Sie? Welcher Tag ist heute?",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "What's your name? What day is it today?",
+        "label": "Say it",
+        "german": "Wie heißen Sie? Welcher Tag ist heute?",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Wie heißen Sie? Welcher Tag ist heute?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wie heißen Sie? Welcher Tag ist heute?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch06-c25",
+      "order": 25,
+      "type": "emergency",
+      "goal_id": null,
+      "image": "e-25.jpg",
+      "front": {
+        "german": "Rufen Sie die 112!",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Call 112!",
+        "label": "Say it",
+        "german": "Rufen Sie die 112!",
+        "english": "Short and loud. Say it twice.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Rufen Sie die 112!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Rufen Sie die 112!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch06-q001",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c01",
+      "image": "e-01.jpg",
+      "question_en": "How do you say \"Help!\" in German?",
+      "options": [
+        "Hilfe!",
+        "Notfall!",
+        "Rufen Sie bitte den Arzt!"
+      ],
+      "answer": "Hilfe!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q002",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c02",
+      "image": "e-02.jpg",
+      "question_en": "How do you say \"Emergency!\" in German?",
+      "options": [
+        "Notfall!",
+        "Rufen Sie bitte den Arzt!",
+        "Schnell, bitte!"
+      ],
+      "answer": "Notfall!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q003",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c03",
+      "image": "e-03.jpg",
+      "question_en": "How do you say \"Please call the doctor!\" in German?",
+      "options": [
+        "Rufen Sie bitte den Arzt!",
+        "Schnell, bitte!",
+        "Bleiben Sie bitte liegen."
+      ],
+      "answer": "Rufen Sie bitte den Arzt!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q004",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c04",
+      "image": "e-04.jpg",
+      "question_en": "How do you say \"Quickly, please!\" in German?",
+      "options": [
+        "Schnell, bitte!",
+        "Bleiben Sie bitte liegen.",
+        "Nicht aufstehen!"
+      ],
+      "answer": "Schnell, bitte!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q005",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c05",
+      "image": "e-05.jpg",
+      "question_en": "How do you say \"Please stay lying down.\" in German?",
+      "options": [
+        "Bleiben Sie bitte liegen.",
+        "Nicht aufstehen!",
+        "Atmen Sie ruhig."
+      ],
+      "answer": "Bleiben Sie bitte liegen.",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q006",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c06",
+      "image": "e-06.jpg",
+      "question_en": "How do you say \"Don't get up!\" in German?",
+      "options": [
+        "Nicht aufstehen!",
+        "Atmen Sie ruhig.",
+        "Haben Sie Allergien?"
+      ],
+      "answer": "Nicht aufstehen!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q007",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c07",
+      "image": "e-07.jpg",
+      "question_en": "How do you say \"Breathe calmly.\" in German?",
+      "options": [
+        "Atmen Sie ruhig.",
+        "Haben Sie Allergien?",
+        "Können Sie mich hören?"
+      ],
+      "answer": "Atmen Sie ruhig.",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q008",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c08",
+      "image": "e-08.jpg",
+      "question_en": "How do you say \"Do you have allergies?\" in German?",
+      "options": [
+        "Haben Sie Allergien?",
+        "Können Sie mich hören?",
+        "Ich bin hier."
+      ],
+      "answer": "Haben Sie Allergien?",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q009",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c09",
+      "image": "e-09.jpg",
+      "question_en": "How do you say \"Can you hear me?\" in German?",
+      "options": [
+        "Können Sie mich hören?",
+        "Ich bin hier.",
+        "Bewusstlos!"
+      ],
+      "answer": "Können Sie mich hören?",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q010",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c10",
+      "image": "e-10.jpg",
+      "question_en": "How do you say \"I'm here.\" in German?",
+      "options": [
+        "Ich bin hier.",
+        "Bewusstlos!",
+        "Er atmet nicht!"
+      ],
+      "answer": "Ich bin hier.",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q011",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c11",
+      "image": "e-11.jpg",
+      "question_en": "How do you say \"Unconscious!\" in German?",
+      "options": [
+        "Bewusstlos!",
+        "Er atmet nicht!",
+        "Sie atmet."
+      ],
+      "answer": "Bewusstlos!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q012",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c12",
+      "image": "e-12.jpg",
+      "question_en": "How do you say \"He is not breathing!\" in German?",
+      "options": [
+        "Er atmet nicht!",
+        "Sie atmet.",
+        "Ich brauche Hilfe in Zimmer 3!"
+      ],
+      "answer": "Er atmet nicht!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q013",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c13",
+      "image": "e-13.jpg",
+      "question_en": "How do you say \"She is breathing.\" in German?",
+      "options": [
+        "Sie atmet.",
+        "Ich brauche Hilfe in Zimmer 3!",
+        "Holen Sie bitte den Notfallwagen!"
+      ],
+      "answer": "Sie atmet.",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q014",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c14",
+      "image": "e-14.jpg",
+      "question_en": "How do you say \"I need help in room 3!\" in German?",
+      "options": [
+        "Ich brauche Hilfe in Zimmer 3!",
+        "Holen Sie bitte den Notfallwagen!",
+        "Blutung!"
+      ],
+      "answer": "Ich brauche Hilfe in Zimmer 3!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q015",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c15",
+      "image": "e-15.jpg",
+      "question_en": "How do you say \"Please get the emergency trolley!\" in German?",
+      "options": [
+        "Holen Sie bitte den Notfallwagen!",
+        "Blutung!",
+        "Drücken Sie hier fest."
+      ],
+      "answer": "Holen Sie bitte den Notfallwagen!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q016",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c16",
+      "image": "e-16.jpg",
+      "question_en": "How do you say \"Bleeding!\" in German?",
+      "options": [
+        "Blutung!",
+        "Drücken Sie hier fest.",
+        "Sturz in Zimmer 2!"
+      ],
+      "answer": "Blutung!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q017",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c17",
+      "image": "e-17.jpg",
+      "question_en": "How do you say \"Press firmly here.\" in German?",
+      "options": [
+        "Drücken Sie hier fest.",
+        "Sturz in Zimmer 2!",
+        "Bewegen Sie sich nicht."
+      ],
+      "answer": "Drücken Sie hier fest.",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q018",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c18",
+      "image": "e-18.jpg",
+      "question_en": "How do you say \"Fall in room 2!\" in German?",
+      "options": [
+        "Sturz in Zimmer 2!",
+        "Bewegen Sie sich nicht.",
+        "Feuer!"
+      ],
+      "answer": "Sturz in Zimmer 2!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q019",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c19",
+      "image": "e-19.jpg",
+      "question_en": "How do you say \"Don't move.\" in German?",
+      "options": [
+        "Bewegen Sie sich nicht.",
+        "Feuer!",
+        "Bitte zum Notausgang!"
+      ],
+      "answer": "Bewegen Sie sich nicht.",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q020",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c20",
+      "image": "e-20.jpg",
+      "question_en": "How do you say \"Fire!\" in German?",
+      "options": [
+        "Feuer!",
+        "Bitte zum Notausgang!",
+        "Ruhig bleiben."
+      ],
+      "answer": "Feuer!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q021",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c21",
+      "image": "e-21.jpg",
+      "question_en": "How do you say \"Please go to the emergency exit!\" in German?",
+      "options": [
+        "Bitte zum Notausgang!",
+        "Ruhig bleiben.",
+        "Der Arzt kommt sofort."
+      ],
+      "answer": "Bitte zum Notausgang!",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q022",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c22",
+      "image": "e-22.jpg",
+      "question_en": "How do you say \"Stay calm.\" in German?",
+      "options": [
+        "Ruhig bleiben.",
+        "Der Arzt kommt sofort.",
+        "Wie heißen Sie? Welcher Tag ist heute?"
+      ],
+      "answer": "Ruhig bleiben.",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q023",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c23",
+      "image": "e-23.jpg",
+      "question_en": "How do you say \"The doctor is coming right away.\" in German?",
+      "options": [
+        "Der Arzt kommt sofort.",
+        "Wie heißen Sie? Welcher Tag ist heute?",
+        "Rufen Sie die 112!"
+      ],
+      "answer": "Der Arzt kommt sofort.",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q024",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c24",
+      "image": "e-24.jpg",
+      "question_en": "How do you say \"What's your name? What day is it today?\" in German?",
+      "options": [
+        "Wie heißen Sie? Welcher Tag ist heute?",
+        "Hilfe!",
+        "Notfall!"
+      ],
+      "answer": "Wie heißen Sie? Welcher Tag ist heute?",
+      "time_limit_seconds": 8
+    },
+    {
+      "id": "ch06-q025",
+      "type": "emergency_translate",
+      "label": "Emergency · translate into German",
+      "card_id": "ch06-c25",
+      "image": "e-25.jpg",
+      "question_en": "How do you say \"Call 112!\" in German?",
+      "options": [
+        "Rufen Sie die 112!",
+        "Hilfe!",
+        "Notfall!"
+      ],
+      "answer": "Rufen Sie die 112!",
+      "time_limit_seconds": 8
+    }
+  ],
+  "images": [
+    "e-01.jpg",
+    "e-02.jpg",
+    "e-03.jpg",
+    "e-04.jpg",
+    "e-05.jpg",
+    "e-06.jpg",
+    "e-07.jpg",
+    "e-08.jpg",
+    "e-09.jpg",
+    "e-10.jpg",
+    "e-11.jpg",
+    "e-12.jpg",
+    "e-13.jpg",
+    "e-14.jpg",
+    "e-15.jpg",
+    "e-16.jpg",
+    "e-17.jpg",
+    "e-18.jpg",
+    "e-19.jpg",
+    "e-20.jpg",
+    "e-21.jpg",
+    "e-22.jpg",
+    "e-23.jpg",
+    "e-24.jpg",
+    "e-25.jpg"
+  ]
+}

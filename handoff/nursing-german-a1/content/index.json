@@ -1,0 +1,233 @@
+{
+  "module": "nursing_german",
+  "cefr": "A1",
+  "schema_version": 1,
+  "cover_image": "cover.jpg",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_id": "nursing-a1-ch01",
+      "title_en": "Who I am at work",
+      "title_de": "Ich bin Ihre Pflegekraft",
+      "folder": "chapter-01-who-i-am-at-work",
+      "cards": 18,
+      "questions": 20,
+      "images": 15
+    },
+    {
+      "chapter_number": 2,
+      "chapter_id": "nursing-a1-ch02",
+      "title_en": "Hospital places",
+      "title_de": "Im Krankenhaus",
+      "folder": "chapter-02-hospital-places",
+      "cards": 25,
+      "questions": 35,
+      "images": 22
+    },
+    {
+      "chapter_number": 3,
+      "chapter_id": "nursing-a1-ch03",
+      "title_en": "Objects & equipment",
+      "title_de": "Dinge auf Station",
+      "folder": "chapter-03-objects-and-equipment",
+      "cards": 24,
+      "questions": 32,
+      "images": 21
+    },
+    {
+      "chapter_number": 4,
+      "chapter_id": "nursing-a1-ch04",
+      "title_en": "The body",
+      "title_de": "Der Körper",
+      "folder": "chapter-04-the-body",
+      "cards": 13,
+      "questions": 10,
+      "images": 10
+    },
+    {
+      "chapter_number": 5,
+      "chapter_id": "nursing-a1-ch05",
+      "title_en": "Inside the body",
+      "title_de": "Die Organe",
+      "folder": "chapter-05-inside-the-body",
+      "cards": 29,
+      "questions": 42,
+      "images": 26
+    },
+    {
+      "chapter_number": 6,
+      "chapter_id": "nursing-a1-ch06",
+      "title_en": "Emergency German",
+      "title_de": "Notfall-Deutsch",
+      "folder": "chapter-06-emergency-german",
+      "cards": 25,
+      "questions": 25,
+      "images": 25
+    },
+    {
+      "chapter_number": 7,
+      "chapter_id": "nursing-a1-ch07",
+      "title_en": "Symptoms & pain",
+      "title_de": "Schmerzen",
+      "folder": "chapter-07-symptoms-and-pain",
+      "cards": 17,
+      "questions": 16,
+      "images": 14
+    },
+    {
+      "chapter_number": 8,
+      "chapter_id": "nursing-a1-ch08",
+      "title_en": "Numbers & vital signs",
+      "title_de": "Vitalwerte",
+      "folder": "chapter-08-numbers-and-vital-signs",
+      "cards": 22,
+      "questions": 28,
+      "images": 19
+    },
+    {
+      "chapter_number": 9,
+      "chapter_id": "nursing-a1-ch09",
+      "title_en": "Times & shifts",
+      "title_de": "Dienst & Uhrzeit",
+      "folder": "chapter-09-times-and-shifts",
+      "cards": 16,
+      "questions": 17,
+      "images": 13
+    },
+    {
+      "chapter_number": 10,
+      "chapter_id": "nursing-a1-ch10",
+      "title_en": "Medication & food",
+      "title_de": "Medikamente & Essen",
+      "folder": "chapter-10-medication-and-food",
+      "cards": 31,
+      "questions": 46,
+      "images": 28
+    },
+    {
+      "chapter_number": 11,
+      "chapter_id": "nursing-a1-ch11",
+      "title_en": "Instructions",
+      "title_de": "Bitte …!",
+      "folder": "chapter-11-instructions",
+      "cards": 16,
+      "questions": 15,
+      "images": 13
+    },
+    {
+      "chapter_number": 12,
+      "chapter_id": "nursing-a1-ch12",
+      "title_en": "Basic care",
+      "title_de": "Grundpflege",
+      "folder": "chapter-12-basic-care",
+      "cards": 16,
+      "questions": 16,
+      "images": 13
+    },
+    {
+      "chapter_number": 13,
+      "chapter_id": "nursing-a1-ch13",
+      "title_en": "Talking to colleagues",
+      "title_de": "Mit Kollegen",
+      "folder": "chapter-13-talking-to-colleagues",
+      "cards": 22,
+      "questions": 28,
+      "images": 19
+    },
+    {
+      "chapter_number": 14,
+      "chapter_id": "nursing-a1-ch14",
+      "title_en": "Comforting patients",
+      "title_de": "Keine Angst",
+      "folder": "chapter-14-comforting-patients",
+      "cards": 14,
+      "questions": 12,
+      "images": 11
+    },
+    {
+      "chapter_number": 15,
+      "chapter_id": "nursing-a1-ch15",
+      "title_en": "Admitting a patient",
+      "title_de": "Aufnahme",
+      "folder": "chapter-15-admitting-a-patient",
+      "cards": 23,
+      "questions": 29,
+      "images": 20
+    },
+    {
+      "chapter_number": 16,
+      "chapter_id": "nursing-a1-ch16",
+      "title_en": "Walking & falls",
+      "title_de": "Mobilisation & Sturz",
+      "folder": "chapter-16-walking-and-falls",
+      "cards": 14,
+      "questions": 12,
+      "images": 11
+    },
+    {
+      "chapter_number": 17,
+      "chapter_id": "nursing-a1-ch17",
+      "title_en": "Phone calls",
+      "title_de": "Am Telefon",
+      "folder": "chapter-17-phone-calls",
+      "cards": 16,
+      "questions": 14,
+      "images": 13
+    },
+    {
+      "chapter_number": 18,
+      "chapter_id": "nursing-a1-ch18",
+      "title_en": "Hygiene & isolation",
+      "title_de": "Hygiene",
+      "folder": "chapter-18-hygiene-and-isolation",
+      "cards": 16,
+      "questions": 17,
+      "images": 13
+    },
+    {
+      "chapter_number": 19,
+      "chapter_id": "nursing-a1-ch19",
+      "title_en": "Toilet & continence",
+      "title_de": "Toilette & Ausscheidung",
+      "folder": "chapter-19-toilet-and-continence",
+      "cards": 17,
+      "questions": 18,
+      "images": 14
+    },
+    {
+      "chapter_number": 20,
+      "chapter_id": "nursing-a1-ch20",
+      "title_en": "Visitors & relatives",
+      "title_de": "Besuch & Angehörige",
+      "folder": "chapter-20-visitors-and-relatives",
+      "cards": 15,
+      "questions": 14,
+      "images": 12
+    },
+    {
+      "chapter_number": 21,
+      "chapter_id": "nursing-a1-ch21",
+      "title_en": "The night round",
+      "title_de": "Nachtdienst",
+      "folder": "chapter-21-the-night-round",
+      "cards": 15,
+      "questions": 13,
+      "images": 12
+    },
+    {
+      "chapter_number": 22,
+      "chapter_id": "nursing-a1-ch22",
+      "title_en": "Discharge day",
+      "title_de": "Entlassung",
+      "folder": "chapter-22-discharge-day",
+      "cards": 15,
+      "questions": 15,
+      "images": 12
+    }
+  ],
+  "totals": {
+    "cards": 419,
+    "questions": 474,
+    "images": 356
+  }
+}

@@ -1,0 +1,1079 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch09",
+  "chapter_number": 9,
+  "title_en": "Times & shifts",
+  "title_de": "Dienst & Uhrzeit",
+  "unlock": {
+    "requires_chapter": 8,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 14,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch09-g1",
+      "title_en": "Talk about shifts",
+      "pattern_de": "Ich habe heute [Frühdienst].",
+      "pattern_en": "I have the early shift today.",
+      "tip_en": "Frühdienst 6–14 · Spätdienst 14–22 · Nachtdienst 22–6"
+    },
+    {
+      "id": "ch09-g2",
+      "title_en": "Understand clock times",
+      "pattern_de": "Um [halb neun].",
+      "pattern_en": "At half past eight (8:30).",
+      "tip_en": "halb neun = 8:30, not 9:30. Viertel nach = quarter past · Viertel vor = quarter to."
+    },
+    {
+      "id": "ch09-g3",
+      "title_en": "Times on the ward",
+      "pattern_de": "Um [12] Uhr.",
+      "pattern_en": "At 12 o'clock.",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch09-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-ward-round.jpg",
+      "front": {
+        "german": "die Visite",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Ward round",
+        "label": "Example",
+        "german": "Die Visite ist um 9 Uhr.",
+        "english": "The ward round is at 9 o'clock.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Visite",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Visite ist um 9 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-operation.jpg",
+      "front": {
+        "german": "die Operation",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Operation",
+        "label": "Example",
+        "german": "Die Operation ist morgen.",
+        "english": "The operation is tomorrow.",
+        "note": "Short: die OP"
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Operation",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Operation ist morgen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c03",
+      "order": 3,
+      "type": "pattern",
+      "goal_id": "ch09-g1",
+      "image": "p-07-01.jpg",
+      "front": {
+        "german": "Ich habe heute Frühdienst.",
+        "label": "Talk about shifts",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Ich habe heute [Frühdienst]."
+      },
+      "back": {
+        "meaning_en": "I have the early shift today.",
+        "label": "Tip",
+        "german": "Ich habe heute Frühdienst.",
+        "english": "Frühdienst 6–14 · Spätdienst 14–22 · Nachtdienst 22–6",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich habe heute Frühdienst.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich habe heute Frühdienst.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c04",
+      "order": 4,
+      "type": "phrase",
+      "goal_id": "ch09-g1",
+      "image": "p-07-01.jpg",
+      "front": {
+        "german": "Ich habe heute Frühdienst. Von 6 bis 14 Uhr.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Lena's shift",
+        "label": "You note down",
+        "german": "06–14 Uhr",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "06–14 Uhr",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich habe heute Frühdienst. Von 6 bis 14 Uhr.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "06–14 Uhr",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c05",
+      "order": 5,
+      "type": "phrase",
+      "goal_id": "ch09-g1",
+      "image": "p-07-02.jpg",
+      "front": {
+        "german": "Du hast morgen Spätdienst.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Which shift do you have tomorrow?",
+        "label": "You answer",
+        "german": "Spätdienst, 14–22 Uhr",
+        "english": "Late shift, 14:00–22:00",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Spätdienst, 14–22 Uhr",
+          "english": "Late shift, 14:00–22:00"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Du hast morgen Spätdienst.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Spätdienst, 14–22 Uhr",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c06",
+      "order": 6,
+      "type": "phrase",
+      "goal_id": "ch09-g1",
+      "image": "p-07-08.jpg",
+      "front": {
+        "german": "Arbeitest du am Samstag?",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Do you work on Saturday?",
+        "label": "You answer",
+        "german": "Nein, am Samstag habe ich frei.",
+        "english": "No, I'm off on Saturday.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Nein, am Samstag habe ich frei.",
+          "english": "No, I'm off on Saturday."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Arbeitest du am Samstag?",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Nein, am Samstag habe ich frei.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c07",
+      "order": 7,
+      "type": "pattern",
+      "goal_id": "ch09-g2",
+      "image": "p-07-03.jpg",
+      "front": {
+        "german": "Um halb neun.",
+        "label": "Understand clock times",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Um [halb neun]."
+      },
+      "back": {
+        "meaning_en": "At half past eight (8:30).",
+        "label": "Tip",
+        "german": "Um halb neun.",
+        "english": "halb neun = 8:30, not 9:30. Viertel nach = quarter past · Viertel vor = quarter to.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Um halb neun.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Um halb neun.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c08",
+      "order": 8,
+      "type": "phrase",
+      "goal_id": "ch09-g2",
+      "image": "p-07-03.jpg",
+      "front": {
+        "german": "Die Visite ist um halb neun.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Ward round at",
+        "label": "You note down",
+        "german": "8:30",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "8:30",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Die Visite ist um halb neun.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "8:30",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch09-g2",
+      "image": "p-07-05.jpg",
+      "front": {
+        "german": "Die Tablette um Viertel nach acht.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Medication time",
+        "label": "You note down",
+        "german": "8:15",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "8:15",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Die Tablette um Viertel nach acht.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "8:15",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch09-g2",
+      "image": "p-07-06.jpg",
+      "front": {
+        "german": "Wie spät ist es?",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "What time is it?",
+        "label": "You answer",
+        "german": "Es ist zehn Uhr.",
+        "english": "It's ten o'clock.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Es ist zehn Uhr.",
+          "english": "It's ten o'clock."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wie spät ist es?",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Es ist zehn Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c11",
+      "order": 11,
+      "type": "phrase",
+      "goal_id": "ch09-g2",
+      "image": "p-07-09.jpg",
+      "front": {
+        "german": "Die Operation ist am Dienstag um Viertel vor zehn.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Operation",
+        "label": "You note down",
+        "german": "Di 9:45",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "Di 9:45",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Die Operation ist am Dienstag um Viertel vor zehn.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Di 9:45",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c12",
+      "order": 12,
+      "type": "pattern",
+      "goal_id": "ch09-g3",
+      "image": "p-07-04.jpg",
+      "front": {
+        "german": "Um 12 Uhr.",
+        "label": "Times on the ward",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Um [12] Uhr."
+      },
+      "back": {
+        "meaning_en": "At 12 o'clock.",
+        "label": "Tip",
+        "german": "Um 12 Uhr.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Um 12 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Um 12 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c13",
+      "order": 13,
+      "type": "phrase",
+      "goal_id": "ch09-g3",
+      "image": "p-07-04.jpg",
+      "front": {
+        "german": "Wann gibt es Mittagessen?",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "When is lunch?",
+        "label": "You answer",
+        "german": "Um 12 Uhr.",
+        "english": "At 12 o'clock.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Um 12 Uhr.",
+          "english": "At 12 o'clock."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wann gibt es Mittagessen?",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Um 12 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch09-g3",
+      "image": "p-07-07.jpg",
+      "front": {
+        "german": "Besuchszeit ist von 15 bis 18 Uhr.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Visiting hours",
+        "label": "You note down",
+        "german": "15–18 Uhr",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "15–18 Uhr",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Besuchszeit ist von 15 bis 18 Uhr.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "15–18 Uhr",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c15",
+      "order": 15,
+      "type": "phrase",
+      "goal_id": "ch09-g3",
+      "image": "p-07-10.jpg",
+      "front": {
+        "german": "Gute Nacht, Schwester!",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "It's late. Frau Weber says good night.",
+        "label": "You answer",
+        "german": "Gute Nacht, Frau Weber. Schlafen Sie gut.",
+        "english": "Good night, Frau Weber. Sleep well.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Gute Nacht, Frau Weber. Schlafen Sie gut.",
+          "english": "Good night, Frau Weber. Sleep well."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Gute Nacht, Schwester!",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Gute Nacht, Frau Weber. Schlafen Sie gut.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch09-c16",
+      "order": 16,
+      "type": "document",
+      "goal_id": null,
+      "image": "d-roster.jpg",
+      "front": {
+        "german": "Dienstplan",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Duty roster",
+        "label": "Key words",
+        "german": "F · S · N · frei · Mo Di Mi Do Fr",
+        "english": "early · late · night shift · day off · Mon Tue Wed Thu Fri",
+        "note": null
+      },
+      "document": {
+        "title_de": "Dienstplan",
+        "title_en": "Duty roster",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "DIENSTPLAN · STATION 3"
+          },
+          {
+            "type": "subtitle",
+            "text": "F = Früh 6–14 · S = Spät 14–22 · N = Nacht 22–6"
+          },
+          {
+            "type": "table",
+            "header": [
+              "",
+              "Mo",
+              "Di",
+              "Mi",
+              "Do",
+              "Fr"
+            ],
+            "rows": [
+              [
+                "Lena",
+                "F",
+                "F",
+                "S",
+                "frei",
+                "N"
+              ],
+              [
+                "Priya",
+                "S",
+                "S",
+                "F",
+                "F",
+                "frei"
+              ]
+            ],
+            "highlight": []
+          }
+        ],
+        "key_words": [
+          {
+            "de": "F · S · N",
+            "en": "early · late · night shift"
+          },
+          {
+            "de": "frei",
+            "en": "day off"
+          },
+          {
+            "de": "Mo Di Mi Do Fr",
+            "en": "Mon Tue Wed Thu Fri"
+          }
+        ]
+      },
+      "audio": {
+        "front": {
+          "text": "Dienstplan",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "F · S · N, frei, Mo Di Mi Do Fr",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch09-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch09-c01",
+      "image": "w-ward-round.jpg",
+      "question_en": "How do you say \"Ward round\" in German?",
+      "options": [
+        "die Visite",
+        "die Operation",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "die Visite",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch09-c01",
+      "image": "w-ward-round.jpg",
+      "question_en": "What does \"die Visite\" mean?",
+      "german": "die Visite",
+      "audio": {
+        "text": "die Visite",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ward round",
+        "Operation",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Ward round",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch09-c02",
+      "image": "w-operation.jpg",
+      "question_en": "How do you say \"Operation\" in German?",
+      "options": [
+        "die Operation",
+        "die Visite",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "die Operation",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch09-c02",
+      "image": "w-operation.jpg",
+      "question_en": "What does \"die Operation\" mean?",
+      "german": "die Operation",
+      "audio": {
+        "text": "die Operation",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Operation",
+        "Ward round",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Operation",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q005",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch09-c04",
+      "image": "p-07-01.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Ich habe heute Frühdienst. Von 6 bis 14 Uhr.",
+      "prompt_en": "Lena's shift:",
+      "audio": {
+        "text": "Ich habe heute Frühdienst. Von 6 bis 14 Uhr.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "06–14 Uhr",
+        "14–22 Uhr",
+        "22–06 Uhr",
+        "08–16 Uhr"
+      ],
+      "answer": "06–14 Uhr",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q006",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch09-c05",
+      "image": "p-07-02.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Du hast morgen Spätdienst.",
+      "prompt_en": "Which shift do you have tomorrow?",
+      "audio": {
+        "text": "Du hast morgen Spätdienst.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Spätdienst, 14–22 Uhr",
+        "Frühdienst, 6–14 Uhr",
+        "Nachtdienst, 22–6 Uhr"
+      ],
+      "answer": "Spätdienst, 14–22 Uhr",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q007",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch09-c06",
+      "image": "p-07-08.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Arbeitest du am Samstag?",
+      "prompt_en": "Do you work on Saturday? (You're off.)",
+      "audio": {
+        "text": "Arbeitest du am Samstag?",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Nein, am Samstag habe ich frei.",
+        "Nein, Sie haben frei.",
+        "Ja, am Sonntag."
+      ],
+      "answer": "Nein, am Samstag habe ich frei.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q008",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch09-c08",
+      "image": "p-07-03.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Die Visite ist um halb neun.",
+      "prompt_en": "Ward round at:",
+      "audio": {
+        "text": "Die Visite ist um halb neun.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "8:30",
+        "9:30",
+        "9:00",
+        "8:00"
+      ],
+      "answer": "8:30",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q009",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch09-c09",
+      "image": "p-07-05.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Die Tablette um Viertel nach acht.",
+      "prompt_en": "Medication time:",
+      "audio": {
+        "text": "Die Tablette um Viertel nach acht.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "8:15",
+        "7:45",
+        "8:45",
+        "8:30"
+      ],
+      "answer": "8:15",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q010",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch09-c10",
+      "image": "p-07-06.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Wie spät ist es?",
+      "prompt_en": "What time is it? (The clock shows 10:00.)",
+      "audio": {
+        "text": "Wie spät ist es?",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Es ist zehn Uhr.",
+        "Es ist zehn Grad.",
+        "Ich bin zehn."
+      ],
+      "answer": "Es ist zehn Uhr.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q011",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch09-c11",
+      "image": "p-07-09.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Die Operation ist am Dienstag um Viertel vor zehn.",
+      "prompt_en": "Operation:",
+      "audio": {
+        "text": "Die Operation ist am Dienstag um Viertel vor zehn.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Di 9:45",
+        "Do 9:45",
+        "Di 10:15",
+        "Do 10:15"
+      ],
+      "answer": "Di 9:45",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q012",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch09-c13",
+      "image": "p-07-04.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Wann gibt es Mittagessen?",
+      "prompt_en": "When is lunch?",
+      "audio": {
+        "text": "Wann gibt es Mittagessen?",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Um 12 Uhr.",
+        "In Zimmer 12.",
+        "Am Montag."
+      ],
+      "answer": "Um 12 Uhr.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q013",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch09-c14",
+      "image": "p-07-07.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Besuchszeit ist von 15 bis 18 Uhr.",
+      "prompt_en": "Visiting hours:",
+      "audio": {
+        "text": "Besuchszeit ist von 15 bis 18 Uhr.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "15–18 Uhr",
+        "5–8 Uhr",
+        "13–18 Uhr",
+        "15–19 Uhr"
+      ],
+      "answer": "15–18 Uhr",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q014",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch09-c15",
+      "image": "p-07-10.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Gute Nacht, Schwester!",
+      "prompt_en": "It's late. Frau Weber says good night.",
+      "audio": {
+        "text": "Gute Nacht, Schwester!",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Gute Nacht, Frau Weber. Schlafen Sie gut.",
+        "Guten Morgen, Frau Weber.",
+        "Guten Appetit, Frau Weber."
+      ],
+      "answer": "Gute Nacht, Frau Weber. Schlafen Sie gut.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q015",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch09-c16",
+      "image": "d-roster.jpg",
+      "question_en": "When does Priya have a day off?",
+      "document_card_id": "ch09-c16",
+      "options": [
+        "Friday",
+        "Thursday",
+        "Monday"
+      ],
+      "answer": "Friday",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q016",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch09-c16",
+      "image": "d-roster.jpg",
+      "question_en": "What time does Lena start on Wednesday?",
+      "document_card_id": "ch09-c16",
+      "options": [
+        "14:00",
+        "6:00",
+        "22:00"
+      ],
+      "answer": "14:00",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch09-q017",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch09-c16",
+      "image": "d-roster.jpg",
+      "question_en": "Who works the night shift on Friday?",
+      "document_card_id": "ch09-c16",
+      "options": [
+        "Lena",
+        "Priya",
+        "Nobody"
+      ],
+      "answer": "Lena",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "d-roster.jpg",
+    "p-07-01.jpg",
+    "p-07-02.jpg",
+    "p-07-03.jpg",
+    "p-07-04.jpg",
+    "p-07-05.jpg",
+    "p-07-06.jpg",
+    "p-07-07.jpg",
+    "p-07-08.jpg",
+    "p-07-09.jpg",
+    "p-07-10.jpg",
+    "w-operation.jpg",
+    "w-ward-round.jpg"
+  ]
+}

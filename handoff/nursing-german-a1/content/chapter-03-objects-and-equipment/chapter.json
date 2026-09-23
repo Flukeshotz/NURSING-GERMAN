@@ -1,0 +1,1592 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch03",
+  "chapter_number": 3,
+  "title_en": "Objects & equipment",
+  "title_de": "Dinge auf Station",
+  "unlock": {
+    "requires_chapter": 2,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch03-g1",
+      "title_en": "Hand things to a patient",
+      "pattern_de": "Hier ist [Ihre Brille].",
+      "pattern_en": "Here are your glasses.",
+      "tip_en": "Ihr / Ihre = your (formal)."
+    },
+    {
+      "id": "ch03-g2",
+      "title_en": "Pass equipment to colleagues",
+      "pattern_de": "[Die Spritze], bitte.",
+      "pattern_en": "The syringe, please.",
+      "tip_en": null
+    },
+    {
+      "id": "ch03-g3",
+      "title_en": "Ask for and name things",
+      "pattern_de": "Wo ist [die Maske]?",
+      "pattern_en": "Where is the mask?",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch03-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-injection.jpg",
+      "front": {
+        "german": "die Spritze",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Injection",
+        "label": "Example",
+        "german": "Ich brauche eine Spritze.",
+        "english": "I need a syringe.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Spritze",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich brauche eine Spritze.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-cannula-venflon.jpg",
+      "front": {
+        "german": "die Braunüle",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Cannula / Venflon",
+        "label": "Example",
+        "german": "Die Braunüle ist im Arm.",
+        "english": "The cannula is in the arm.",
+        "note": "Germans often use this brand name for any IV cannula."
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Braunüle",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Braunüle ist im Arm.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c03",
+      "order": 3,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-catheter.jpg",
+      "front": {
+        "german": "der Katheter",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Catheter",
+        "label": "Example",
+        "german": "Der Patient hat einen Katheter.",
+        "english": "The patient has a catheter.",
+        "note": null
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Katheter",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Patient hat einen Katheter.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c04",
+      "order": 4,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-dressing.jpg",
+      "front": {
+        "german": "der Verband",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Dressing",
+        "label": "Example",
+        "german": "Ich wechsle den Verband.",
+        "english": "I'm changing the dressing.",
+        "note": null
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Verband",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich wechsle den Verband.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c05",
+      "order": 5,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-gown-apron.jpg",
+      "front": {
+        "german": "der Kittel",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Gown / apron",
+        "label": "Example",
+        "german": "Bitte ziehen Sie den Kittel an.",
+        "english": "Please put on the gown.",
+        "note": null
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Kittel",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte ziehen Sie den Kittel an.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c06",
+      "order": 6,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-sharps-box.jpg",
+      "front": {
+        "german": "der Abwurfbehälter",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Sharps box",
+        "label": "Example",
+        "german": "Die Nadel kommt in den Abwurfbehälter.",
+        "english": "The needle goes into the sharps box.",
+        "note": null
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Abwurfbehälter",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Nadel kommt in den Abwurfbehälter.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c07",
+      "order": 7,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-bedpan.jpg",
+      "front": {
+        "german": "die Bettpfanne",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Bedpan",
+        "label": "Example",
+        "german": "Brauchen Sie die Bettpfanne?",
+        "english": "Do you need the bedpan?",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Bettpfanne",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Brauchen Sie die Bettpfanne?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c08",
+      "order": 8,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-urine-bag.jpg",
+      "front": {
+        "german": "der Urinbeutel",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Urine bag",
+        "label": "Example",
+        "german": "Der Urinbeutel ist voll.",
+        "english": "The urine bag is full.",
+        "note": null
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Urinbeutel",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Urinbeutel ist voll.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c09",
+      "order": 9,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-glucometer.jpg",
+      "front": {
+        "german": "das Blutzuckermessgerät",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Glucometer",
+        "label": "Example",
+        "german": "Das Blutzuckermessgerät ist im Stationszimmer.",
+        "english": "The glucometer is in the nurses' station.",
+        "note": "Short: das BZ-Gerät"
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Blutzuckermessgerät",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das Blutzuckermessgerät ist im Stationszimmer.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c10",
+      "order": 10,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-stethoscope.jpg",
+      "front": {
+        "german": "das Stethoskop",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Stethoscope",
+        "label": "Example",
+        "german": "Der Arzt braucht sein Stethoskop.",
+        "english": "The doctor needs his stethoscope.",
+        "note": null
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Stethoskop",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Arzt braucht sein Stethoskop.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c11",
+      "order": 11,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-wound.jpg",
+      "front": {
+        "german": "die Wunde",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Wound",
+        "label": "Example",
+        "german": "Die Wunde ist sauber.",
+        "english": "The wound is clean.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Wunde",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Wunde ist sauber.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c12",
+      "order": 12,
+      "type": "pattern",
+      "goal_id": "ch03-g1",
+      "image": "p-03-01.jpg",
+      "front": {
+        "german": "Hier ist Ihre Brille.",
+        "label": "Hand things to a patient",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Hier ist [Ihre Brille]."
+      },
+      "back": {
+        "meaning_en": "Here are your glasses.",
+        "label": "Tip",
+        "german": "Hier ist Ihre Brille.",
+        "english": "Ihr / Ihre = your (formal).",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Hier ist Ihre Brille.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihre Brille.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c13",
+      "order": 13,
+      "type": "phrase",
+      "goal_id": "ch03-g1",
+      "image": "p-03-01.jpg",
+      "front": {
+        "german": "Ich brauche meine Brille.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I need my glasses.",
+        "label": "You answer",
+        "german": "Hier ist Ihre Brille.",
+        "english": "Here are your glasses.",
+        "note": "Key word: die Brille = the glasses"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist Ihre Brille.",
+          "english": "Here are your glasses."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich brauche meine Brille.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihre Brille.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch03-g1",
+      "image": "p-03-02.jpg",
+      "front": {
+        "german": "Wo ist die Klingel?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "Where is the call bell?",
+        "label": "You answer",
+        "german": "Hier ist die Klingel. Bitte klingeln Sie.",
+        "english": "Here is the call bell. Please ring.",
+        "note": "Key word: die Klingel = the call bell"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist die Klingel. Bitte klingeln Sie.",
+          "english": "Here is the call bell. Please ring."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wo ist die Klingel?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist die Klingel. Bitte klingeln Sie.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c15",
+      "order": 15,
+      "type": "phrase",
+      "goal_id": "ch03-g1",
+      "image": "p-03-05.jpg",
+      "front": {
+        "german": "Ich möchte die Zeitung, bitte.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "I'd like the newspaper, please.",
+        "label": "You answer",
+        "german": "Hier ist die Zeitung.",
+        "english": "Here is the newspaper.",
+        "note": "Key word: die Zeitung = the newspaper"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist die Zeitung.",
+          "english": "Here is the newspaper."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich möchte die Zeitung, bitte.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist die Zeitung.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c16",
+      "order": 16,
+      "type": "phrase",
+      "goal_id": "ch03-g1",
+      "image": "p-03-07.jpg",
+      "front": {
+        "german": "Mein Handy ist leer.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "My phone is empty (battery dead).",
+        "label": "You answer",
+        "german": "Hier ist ein Ladekabel.",
+        "english": "Here is a charger.",
+        "note": "Key word: das Ladekabel = the charger"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist ein Ladekabel.",
+          "english": "Here is a charger."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Mein Handy ist leer.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist ein Ladekabel.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c17",
+      "order": 17,
+      "type": "phrase",
+      "goal_id": "ch03-g1",
+      "image": "p-03-08.jpg",
+      "front": {
+        "german": "Ich brauche ein Pflaster.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "I need a plaster.",
+        "label": "Key word",
+        "german": "das Pflaster",
+        "english": "the plaster",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich brauche ein Pflaster.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "das Pflaster",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c18",
+      "order": 18,
+      "type": "pattern",
+      "goal_id": "ch03-g2",
+      "image": "p-03-03.jpg",
+      "front": {
+        "german": "Die Spritze, bitte.",
+        "label": "Pass equipment to colleagues",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "[Die Spritze], bitte."
+      },
+      "back": {
+        "meaning_en": "The syringe, please.",
+        "label": "Tip",
+        "german": "Die Spritze, bitte.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Die Spritze, bitte.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Spritze, bitte.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c19",
+      "order": 19,
+      "type": "phrase",
+      "goal_id": "ch03-g2",
+      "image": "p-03-03.jpg",
+      "front": {
+        "german": "Ich brauche Handschuhe.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "I need gloves.",
+        "label": "Key word",
+        "german": "die Handschuhe",
+        "english": "the gloves",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich brauche Handschuhe.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "die Handschuhe",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c20",
+      "order": 20,
+      "type": "phrase",
+      "goal_id": "ch03-g2",
+      "image": "p-03-04.jpg",
+      "front": {
+        "german": "Das Thermometer, bitte.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "The thermometer, please.",
+        "label": "Key word",
+        "german": "das Thermometer",
+        "english": "the thermometer",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Das Thermometer, bitte.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "das Thermometer",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c21",
+      "order": 21,
+      "type": "phrase",
+      "goal_id": "ch03-g2",
+      "image": "p-03-06.jpg",
+      "front": {
+        "german": "Die Spritze, bitte.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "The syringe, please.",
+        "label": "Key word",
+        "german": "die Spritze",
+        "english": "the syringe",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Die Spritze, bitte.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "die Spritze",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c22",
+      "order": 22,
+      "type": "pattern",
+      "goal_id": "ch03-g3",
+      "image": "p-03-09.jpg",
+      "front": {
+        "german": "Wo ist die Maske?",
+        "label": "Ask for and name things",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Wo ist [die Maske]?"
+      },
+      "back": {
+        "meaning_en": "Where is the mask?",
+        "label": "Tip",
+        "german": "Wo ist die Maske?",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Wo ist die Maske?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wo ist die Maske?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c23",
+      "order": 23,
+      "type": "phrase",
+      "goal_id": "ch03-g3",
+      "image": "p-03-09.jpg",
+      "front": {
+        "german": "Wo ist die Maske?",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Where is the mask?",
+        "label": "When",
+        "german": "Wo ist die Maske?",
+        "english": "Ask Lena where the mask is.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Wo ist die Maske?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wo ist die Maske?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch03-c24",
+      "order": 24,
+      "type": "phrase",
+      "goal_id": "ch03-g3",
+      "image": "p-03-10.jpg",
+      "front": {
+        "german": "Was ist das?",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "What is that?",
+        "label": "You answer",
+        "german": "Das ist ein Stethoskop.",
+        "english": "That is a stethoscope.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Das ist ein Stethoskop.",
+          "english": "That is a stethoscope."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Was ist das?",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das ist ein Stethoskop.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch03-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c01",
+      "image": "w-injection.jpg",
+      "question_en": "How do you say \"Injection\" in German?",
+      "options": [
+        "die Spritze",
+        "die Braunüle",
+        "der Katheter",
+        "der Verband"
+      ],
+      "answer": "die Spritze",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c01",
+      "image": "w-injection.jpg",
+      "question_en": "What does \"die Spritze\" mean?",
+      "german": "die Spritze",
+      "audio": {
+        "text": "die Spritze",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Injection",
+        "Cannula / Venflon",
+        "Catheter",
+        "Dressing"
+      ],
+      "answer": "Injection",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c02",
+      "image": "w-cannula-venflon.jpg",
+      "question_en": "How do you say \"Cannula / Venflon\" in German?",
+      "options": [
+        "die Braunüle",
+        "die Spritze",
+        "der Katheter",
+        "der Verband"
+      ],
+      "answer": "die Braunüle",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c02",
+      "image": "w-cannula-venflon.jpg",
+      "question_en": "What does \"die Braunüle\" mean?",
+      "german": "die Braunüle",
+      "audio": {
+        "text": "die Braunüle",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Cannula / Venflon",
+        "Injection",
+        "Catheter",
+        "Dressing"
+      ],
+      "answer": "Cannula / Venflon",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q005",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c03",
+      "image": "w-catheter.jpg",
+      "question_en": "How do you say \"Catheter\" in German?",
+      "options": [
+        "der Katheter",
+        "die Spritze",
+        "die Braunüle",
+        "der Verband"
+      ],
+      "answer": "der Katheter",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q006",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c03",
+      "image": "w-catheter.jpg",
+      "question_en": "What does \"der Katheter\" mean?",
+      "german": "der Katheter",
+      "audio": {
+        "text": "der Katheter",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Catheter",
+        "Injection",
+        "Cannula / Venflon",
+        "Dressing"
+      ],
+      "answer": "Catheter",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q007",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c04",
+      "image": "w-dressing.jpg",
+      "question_en": "How do you say \"Dressing\" in German?",
+      "options": [
+        "der Verband",
+        "die Spritze",
+        "die Braunüle",
+        "der Katheter"
+      ],
+      "answer": "der Verband",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q008",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c04",
+      "image": "w-dressing.jpg",
+      "question_en": "What does \"der Verband\" mean?",
+      "german": "der Verband",
+      "audio": {
+        "text": "der Verband",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Dressing",
+        "Injection",
+        "Cannula / Venflon",
+        "Catheter"
+      ],
+      "answer": "Dressing",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q009",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c05",
+      "image": "w-gown-apron.jpg",
+      "question_en": "How do you say \"Gown / apron\" in German?",
+      "options": [
+        "der Kittel",
+        "die Spritze",
+        "die Braunüle",
+        "der Katheter"
+      ],
+      "answer": "der Kittel",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q010",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c05",
+      "image": "w-gown-apron.jpg",
+      "question_en": "What does \"der Kittel\" mean?",
+      "german": "der Kittel",
+      "audio": {
+        "text": "der Kittel",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Gown / apron",
+        "Injection",
+        "Cannula / Venflon",
+        "Catheter"
+      ],
+      "answer": "Gown / apron",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q011",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c06",
+      "image": "w-sharps-box.jpg",
+      "question_en": "How do you say \"Sharps box\" in German?",
+      "options": [
+        "der Abwurfbehälter",
+        "die Spritze",
+        "die Braunüle",
+        "der Katheter"
+      ],
+      "answer": "der Abwurfbehälter",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q012",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c06",
+      "image": "w-sharps-box.jpg",
+      "question_en": "What does \"der Abwurfbehälter\" mean?",
+      "german": "der Abwurfbehälter",
+      "audio": {
+        "text": "der Abwurfbehälter",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Sharps box",
+        "Injection",
+        "Cannula / Venflon",
+        "Catheter"
+      ],
+      "answer": "Sharps box",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q013",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c07",
+      "image": "w-bedpan.jpg",
+      "question_en": "How do you say \"Bedpan\" in German?",
+      "options": [
+        "die Bettpfanne",
+        "die Spritze",
+        "die Braunüle",
+        "der Katheter"
+      ],
+      "answer": "die Bettpfanne",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q014",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c07",
+      "image": "w-bedpan.jpg",
+      "question_en": "What does \"die Bettpfanne\" mean?",
+      "german": "die Bettpfanne",
+      "audio": {
+        "text": "die Bettpfanne",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Bedpan",
+        "Injection",
+        "Cannula / Venflon",
+        "Catheter"
+      ],
+      "answer": "Bedpan",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q015",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c08",
+      "image": "w-urine-bag.jpg",
+      "question_en": "How do you say \"Urine bag\" in German?",
+      "options": [
+        "der Urinbeutel",
+        "die Spritze",
+        "die Braunüle",
+        "der Katheter"
+      ],
+      "answer": "der Urinbeutel",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q016",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c08",
+      "image": "w-urine-bag.jpg",
+      "question_en": "What does \"der Urinbeutel\" mean?",
+      "german": "der Urinbeutel",
+      "audio": {
+        "text": "der Urinbeutel",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Urine bag",
+        "Injection",
+        "Cannula / Venflon",
+        "Catheter"
+      ],
+      "answer": "Urine bag",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q017",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c09",
+      "image": "w-glucometer.jpg",
+      "question_en": "How do you say \"Glucometer\" in German?",
+      "options": [
+        "das Blutzuckermessgerät",
+        "die Spritze",
+        "die Braunüle",
+        "der Katheter"
+      ],
+      "answer": "das Blutzuckermessgerät",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q018",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c09",
+      "image": "w-glucometer.jpg",
+      "question_en": "What does \"das Blutzuckermessgerät\" mean?",
+      "german": "das Blutzuckermessgerät",
+      "audio": {
+        "text": "das Blutzuckermessgerät",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Glucometer",
+        "Injection",
+        "Cannula / Venflon",
+        "Catheter"
+      ],
+      "answer": "Glucometer",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q019",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c10",
+      "image": "w-stethoscope.jpg",
+      "question_en": "How do you say \"Stethoscope\" in German?",
+      "options": [
+        "das Stethoskop",
+        "die Spritze",
+        "die Braunüle",
+        "der Katheter"
+      ],
+      "answer": "das Stethoskop",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q020",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c10",
+      "image": "w-stethoscope.jpg",
+      "question_en": "What does \"das Stethoskop\" mean?",
+      "german": "das Stethoskop",
+      "audio": {
+        "text": "das Stethoskop",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Stethoscope",
+        "Injection",
+        "Cannula / Venflon",
+        "Catheter"
+      ],
+      "answer": "Stethoscope",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q021",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch03-c11",
+      "image": "w-wound.jpg",
+      "question_en": "How do you say \"Wound\" in German?",
+      "options": [
+        "die Wunde",
+        "die Spritze",
+        "die Braunüle",
+        "der Katheter"
+      ],
+      "answer": "die Wunde",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q022",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch03-c11",
+      "image": "w-wound.jpg",
+      "question_en": "What does \"die Wunde\" mean?",
+      "german": "die Wunde",
+      "audio": {
+        "text": "die Wunde",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Wound",
+        "Injection",
+        "Cannula / Venflon",
+        "Catheter"
+      ],
+      "answer": "Wound",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q023",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch03-c13",
+      "image": "p-03-01.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich brauche meine Brille.",
+      "prompt_en": "I need my glasses.",
+      "audio": {
+        "text": "Ich brauche meine Brille.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Brille",
+        "das Telefon",
+        "die Tablette",
+        "die Zeitung"
+      ],
+      "answer": "die Brille",
+      "feedback_de": "Hier ist Ihre Brille.",
+      "feedback_en": "Here are your glasses.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q024",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch03-c14",
+      "image": "p-03-02.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Wo ist die Klingel?",
+      "prompt_en": "Where is the call bell?",
+      "audio": {
+        "text": "Wo ist die Klingel?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Klingel",
+        "die Uhr",
+        "das Handy",
+        "das Fenster"
+      ],
+      "answer": "die Klingel",
+      "feedback_de": "Hier ist die Klingel. Bitte klingeln Sie.",
+      "feedback_en": "Here is the call bell. Please ring.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q025",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch03-c15",
+      "image": "p-03-05.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ich möchte die Zeitung, bitte.",
+      "prompt_en": "I'd like the newspaper, please.",
+      "audio": {
+        "text": "Ich möchte die Zeitung, bitte.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Zeitung",
+        "das Handy",
+        "die Brille",
+        "der Tee"
+      ],
+      "answer": "die Zeitung",
+      "feedback_de": "Hier ist die Zeitung.",
+      "feedback_en": "Here is the newspaper.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q026",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch03-c16",
+      "image": "p-03-07.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Mein Handy ist leer.",
+      "prompt_en": "My phone is empty (battery dead).",
+      "audio": {
+        "text": "Mein Handy ist leer.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Ladekabel",
+        "das Telefon",
+        "die Klingel",
+        "die Uhr"
+      ],
+      "answer": "das Ladekabel",
+      "feedback_de": "Hier ist ein Ladekabel.",
+      "feedback_en": "Here is a charger.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q027",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch03-c17",
+      "image": "p-03-08.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Ich brauche ein Pflaster.",
+      "prompt_en": "I need a plaster.",
+      "audio": {
+        "text": "Ich brauche ein Pflaster.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Pflaster",
+        "die Schere",
+        "die Seife",
+        "die Handschuhe"
+      ],
+      "answer": "das Pflaster",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q028",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch03-c19",
+      "image": "p-03-03.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Ich brauche Handschuhe.",
+      "prompt_en": "I need gloves.",
+      "audio": {
+        "text": "Ich brauche Handschuhe.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Handschuhe",
+        "die Maske",
+        "das Pflaster",
+        "die Schere"
+      ],
+      "answer": "die Handschuhe",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q029",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch03-c20",
+      "image": "p-03-04.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Das Thermometer, bitte.",
+      "prompt_en": "The thermometer, please.",
+      "audio": {
+        "text": "Das Thermometer, bitte.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Thermometer",
+        "die Spritze",
+        "das Stethoskop",
+        "die Tablette"
+      ],
+      "answer": "das Thermometer",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q030",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch03-c21",
+      "image": "p-03-06.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Die Spritze, bitte.",
+      "prompt_en": "The syringe, please.",
+      "audio": {
+        "text": "Die Spritze, bitte.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Spritze",
+        "das Thermometer",
+        "das Pflaster",
+        "die Handschuhe"
+      ],
+      "answer": "die Spritze",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q031",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch03-c23",
+      "image": "p-03-09.jpg",
+      "question_en": "Ask Lena where the mask is.",
+      "options": [
+        "Wo ist die Maske?",
+        "Wer ist die Maske?",
+        "Wie ist die Maske?"
+      ],
+      "answer": "Wo ist die Maske?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch03-q032",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch03-c24",
+      "image": "p-03-10.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Was ist das?",
+      "prompt_en": "What is that? (He points at the 🩺.)",
+      "audio": {
+        "text": "Was ist das?",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Das ist ein Stethoskop.",
+        "Das ist eine Spritze.",
+        "Das ist ein Thermometer."
+      ],
+      "answer": "Das ist ein Stethoskop.",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "p-03-01.jpg",
+    "p-03-02.jpg",
+    "p-03-03.jpg",
+    "p-03-04.jpg",
+    "p-03-05.jpg",
+    "p-03-06.jpg",
+    "p-03-07.jpg",
+    "p-03-08.jpg",
+    "p-03-09.jpg",
+    "p-03-10.jpg",
+    "w-bedpan.jpg",
+    "w-cannula-venflon.jpg",
+    "w-catheter.jpg",
+    "w-dressing.jpg",
+    "w-glucometer.jpg",
+    "w-gown-apron.jpg",
+    "w-injection.jpg",
+    "w-sharps-box.jpg",
+    "w-stethoscope.jpg",
+    "w-urine-bag.jpg",
+    "w-wound.jpg"
+  ]
+}

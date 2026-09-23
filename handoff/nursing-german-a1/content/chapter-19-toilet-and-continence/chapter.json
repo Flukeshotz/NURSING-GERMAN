@@ -1,0 +1,1109 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch19",
+  "chapter_number": 19,
+  "title_en": "Toilet & continence",
+  "title_de": "Toilette & Ausscheidung",
+  "unlock": {
+    "requires_chapter": 18,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 14,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch19-g1",
+      "title_en": "Help to the toilet",
+      "pattern_de": "Ich helfe Ihnen zur [Toilette].",
+      "pattern_en": "I'll help you to the toilet.",
+      "tip_en": null
+    },
+    {
+      "id": "ch19-g2",
+      "title_en": "Ask about stool and urine",
+      "pattern_de": "Hatten Sie heute [Stuhlgang]?",
+      "pattern_en": "Did you have a bowel movement today?",
+      "tip_en": null
+    },
+    {
+      "id": "ch19-g3",
+      "title_en": "Protect dignity",
+      "pattern_de": "Das ist ganz normal. Keine Sorge.",
+      "pattern_en": "That's completely normal. Don't worry.",
+      "tip_en": "Close the door or curtain first."
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch19-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-incontinence-pad.jpg",
+      "front": {
+        "german": "die Vorlage",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Incontinence pad",
+        "label": "Example",
+        "german": "Ich bringe eine neue Vorlage.",
+        "english": "I'll bring a new pad.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Vorlage",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich bringe eine neue Vorlage.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-commode.jpg",
+      "front": {
+        "german": "der Toilettenstuhl",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Commode",
+        "label": "Example",
+        "german": "Der Toilettenstuhl steht neben dem Bett.",
+        "english": "The commode is next to the bed.",
+        "note": null
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Toilettenstuhl",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Toilettenstuhl steht neben dem Bett.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c03",
+      "order": 3,
+      "type": "pattern",
+      "goal_id": "ch19-g1",
+      "image": "p-19-01.jpg",
+      "front": {
+        "german": "Ich helfe Ihnen zur Toilette.",
+        "label": "Help to the toilet",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Ich helfe Ihnen zur [Toilette]."
+      },
+      "back": {
+        "meaning_en": "I'll help you to the toilet.",
+        "label": "Tip",
+        "german": "Ich helfe Ihnen zur Toilette.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich helfe Ihnen zur Toilette.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich helfe Ihnen zur Toilette.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c04",
+      "order": 4,
+      "type": "phrase",
+      "goal_id": "ch19-g1",
+      "image": "p-19-01.jpg",
+      "front": {
+        "german": "Ich muss mal.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I need to go (to the toilet).",
+        "label": "You answer",
+        "german": "Kommen Sie, ich helfe Ihnen zur Toilette.",
+        "english": "Come, I'll help you to the toilet.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Kommen Sie, ich helfe Ihnen zur Toilette.",
+          "english": "Come, I'll help you to the toilet."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich muss mal.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Kommen Sie, ich helfe Ihnen zur Toilette.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c05",
+      "order": 5,
+      "type": "phrase",
+      "goal_id": "ch19-g1",
+      "image": "p-19-02.jpg",
+      "front": {
+        "german": "Ich kann nicht aufstehen. Ich muss Wasser lassen.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "I can't get up. I need to pass urine.",
+        "label": "You answer",
+        "german": "Hier ist die Urinflasche.",
+        "english": "Here is the urine bottle.",
+        "note": "Key word: die Urinflasche = the urine bottle"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist die Urinflasche.",
+          "english": "Here is the urine bottle."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich kann nicht aufstehen. Ich muss Wasser lassen.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist die Urinflasche.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c06",
+      "order": 6,
+      "type": "phrase",
+      "goal_id": "ch19-g1",
+      "image": "p-19-03.jpg",
+      "front": {
+        "german": "Ich brauche Toilettenpapier.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I need toilet paper.",
+        "label": "Key word",
+        "german": "das Toilettenpapier",
+        "english": "the toilet paper",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich brauche Toilettenpapier.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "das Toilettenpapier",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c07",
+      "order": 7,
+      "type": "phrase",
+      "goal_id": "ch19-g1",
+      "image": "p-19-04.jpg",
+      "front": {
+        "german": "Ich möchte allein auf die Toilette.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I want to use the toilet alone.",
+        "label": "You answer",
+        "german": "Gut. Bitte klingeln Sie danach.",
+        "english": "Good. Please ring afterwards.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Gut. Bitte klingeln Sie danach.",
+          "english": "Good. Please ring afterwards."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich möchte allein auf die Toilette.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Gut. Bitte klingeln Sie danach.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c08",
+      "order": 8,
+      "type": "pattern",
+      "goal_id": "ch19-g2",
+      "image": "p-19-05.jpg",
+      "front": {
+        "german": "Hatten Sie heute Stuhlgang?",
+        "label": "Ask about stool and urine",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Hatten Sie heute [Stuhlgang]?"
+      },
+      "back": {
+        "meaning_en": "Did you have a bowel movement today?",
+        "label": "Tip",
+        "german": "Hatten Sie heute Stuhlgang?",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Hatten Sie heute Stuhlgang?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hatten Sie heute Stuhlgang?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch19-g2",
+      "image": "p-19-05.jpg",
+      "front": {
+        "german": "Hatten Sie heute Stuhlgang?",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Did you have a bowel movement today?",
+        "label": "When",
+        "german": "Hatten Sie heute Stuhlgang?",
+        "english": "Ask Herr Schmidt if he had a bowel movement today.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Hatten Sie heute Stuhlgang?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hatten Sie heute Stuhlgang?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch19-g2",
+      "image": "p-19-06.jpg",
+      "front": {
+        "german": "Nein, seit drei Tagen nicht.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "No, not for three days.",
+        "label": "You answer",
+        "german": "Okay, ich schreibe das auf und frage den Arzt.",
+        "english": "Okay, I'll write that down and ask the doctor.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Okay, ich schreibe das auf und frage den Arzt.",
+          "english": "Okay, I'll write that down and ask the doctor."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Nein, seit drei Tagen nicht.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Okay, ich schreibe das auf und frage den Arzt.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c11",
+      "order": 11,
+      "type": "phrase",
+      "goal_id": "ch19-g2",
+      "image": "p-19-07.jpg",
+      "front": {
+        "german": "Herr Schmidt hat 800 ml Urin.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Urine amount",
+        "label": "You note down",
+        "german": "800 ml",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "800 ml",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Herr Schmidt hat 800 ml Urin.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "800 ml",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c12",
+      "order": 12,
+      "type": "phrase",
+      "goal_id": "ch19-g2",
+      "image": "p-19-11.jpg",
+      "front": {
+        "german": "Es brennt beim Wasserlassen.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "It burns when I pass urine.",
+        "label": "You answer",
+        "german": "Ich sage es dem Arzt. Vielleicht ist es die Blase.",
+        "english": "I'll tell the doctor. Maybe it's the bladder.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich sage es dem Arzt. Vielleicht ist es die Blase.",
+          "english": "I'll tell the doctor. Maybe it's the bladder."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Es brennt beim Wasserlassen.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich sage es dem Arzt. Vielleicht ist es die Blase.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c13",
+      "order": 13,
+      "type": "pattern",
+      "goal_id": "ch19-g3",
+      "image": "p-19-08.jpg",
+      "front": {
+        "german": "Das ist ganz normal. Keine Sorge.",
+        "label": "Protect dignity",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Das ist ganz normal. Keine Sorge."
+      },
+      "back": {
+        "meaning_en": "That's completely normal. Don't worry.",
+        "label": "Tip",
+        "german": "Das ist ganz normal. Keine Sorge.",
+        "english": "Close the door or curtain first.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Das ist ganz normal. Keine Sorge.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das ist ganz normal. Keine Sorge.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch19-g3",
+      "image": "p-19-08.jpg",
+      "front": {
+        "german": "Das ist mir peinlich.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "This is embarrassing for me.",
+        "label": "You answer",
+        "german": "Das ist ganz normal. Keine Sorge.",
+        "english": "That's completely normal. Don't worry.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Das ist ganz normal. Keine Sorge.",
+          "english": "That's completely normal. Don't worry."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Das ist mir peinlich.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das ist ganz normal. Keine Sorge.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c15",
+      "order": 15,
+      "type": "phrase",
+      "goal_id": "ch19-g3",
+      "image": "p-19-09.jpg",
+      "front": {
+        "german": "Das Bett ist nass. Entschuldigung.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "The bed is wet. Sorry.",
+        "label": "You answer",
+        "german": "Kein Problem. Ich wechsle die Bettwäsche.",
+        "english": "No problem. I'll change the bed linen.",
+        "note": "Key word: die Bettwäsche = the bed linen"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Kein Problem. Ich wechsle die Bettwäsche.",
+          "english": "No problem. I'll change the bed linen."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Das Bett ist nass. Entschuldigung.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Kein Problem. Ich wechsle die Bettwäsche.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c16",
+      "order": 16,
+      "type": "phrase",
+      "goal_id": "ch19-g3",
+      "image": "p-19-10.jpg",
+      "front": {
+        "german": "Frau Weber braucht eine neue Vorlage.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Frau Weber needs a new incontinence pad.",
+        "label": "When",
+        "german": "Frau Weber braucht eine neue Vorlage.",
+        "english": "Tell Lena: Frau Weber needs a new incontinence pad.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Frau Weber braucht eine neue Vorlage.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Frau Weber braucht eine neue Vorlage.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch19-c17",
+      "order": 17,
+      "type": "document",
+      "goal_id": null,
+      "image": "d-fluid.jpg",
+      "front": {
+        "german": "Ein- und Ausfuhr",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Fluid chart",
+        "label": "Key words",
+        "german": "Einfuhr · Ausfuhr · Summe",
+        "english": "input: drinks, drips · output: urine · total",
+        "note": null
+      },
+      "document": {
+        "title_de": "Ein- und Ausfuhr",
+        "title_en": "Fluid chart",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "EIN- UND AUSFUHR"
+          },
+          {
+            "type": "subtitle",
+            "text": "Yılmaz, Emre · Zimmer 3"
+          },
+          {
+            "type": "table",
+            "header": [
+              "Uhrzeit",
+              "Einfuhr",
+              "Ausfuhr"
+            ],
+            "rows": [
+              [
+                "08:00",
+                "Tee 200 ml",
+                "Urin 300 ml"
+              ],
+              [
+                "12:00",
+                "Wasser 250 ml",
+                "–"
+              ],
+              [
+                "16:00",
+                "Infusion 500 ml",
+                "Urin 400 ml"
+              ],
+              [
+                "Summe",
+                "950 ml",
+                "700 ml"
+              ]
+            ],
+            "highlight": []
+          }
+        ],
+        "key_words": [
+          {
+            "de": "Einfuhr",
+            "en": "input: drinks, drips"
+          },
+          {
+            "de": "Ausfuhr",
+            "en": "output: urine"
+          },
+          {
+            "de": "Summe",
+            "en": "total"
+          }
+        ]
+      },
+      "audio": {
+        "front": {
+          "text": "Ein- und Ausfuhr",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Einfuhr, Ausfuhr, Summe",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch19-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch19-c01",
+      "image": "w-incontinence-pad.jpg",
+      "question_en": "How do you say \"Incontinence pad\" in German?",
+      "options": [
+        "die Vorlage",
+        "der Toilettenstuhl",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "die Vorlage",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch19-c01",
+      "image": "w-incontinence-pad.jpg",
+      "question_en": "What does \"die Vorlage\" mean?",
+      "german": "die Vorlage",
+      "audio": {
+        "text": "die Vorlage",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Incontinence pad",
+        "Commode",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Incontinence pad",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch19-c02",
+      "image": "w-commode.jpg",
+      "question_en": "How do you say \"Commode\" in German?",
+      "options": [
+        "der Toilettenstuhl",
+        "die Vorlage",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "der Toilettenstuhl",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch19-c02",
+      "image": "w-commode.jpg",
+      "question_en": "What does \"der Toilettenstuhl\" mean?",
+      "german": "der Toilettenstuhl",
+      "audio": {
+        "text": "der Toilettenstuhl",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Commode",
+        "Incontinence pad",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Commode",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q005",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch19-c04",
+      "image": "p-19-01.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich muss mal.",
+      "prompt_en": "I need to go (to the toilet).",
+      "audio": {
+        "text": "Ich muss mal.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Kommen Sie, ich helfe Ihnen zur Toilette.",
+        "Was müssen Sie? Arbeiten?",
+        "Später, bitte."
+      ],
+      "answer": "Kommen Sie, ich helfe Ihnen zur Toilette.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q006",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch19-c05",
+      "image": "p-19-02.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Ich kann nicht aufstehen. Ich muss Wasser lassen.",
+      "prompt_en": "I can't get up. I need to pass urine.",
+      "audio": {
+        "text": "Ich kann nicht aufstehen. Ich muss Wasser lassen.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Urinflasche",
+        "die Tasse",
+        "die Creme",
+        "das Wasser"
+      ],
+      "answer": "die Urinflasche",
+      "feedback_de": "Hier ist die Urinflasche.",
+      "feedback_en": "Here is the urine bottle.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q007",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch19-c06",
+      "image": "p-19-03.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich brauche Toilettenpapier.",
+      "prompt_en": "I need toilet paper.",
+      "audio": {
+        "text": "Ich brauche Toilettenpapier.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Toilettenpapier",
+        "die Zeitung",
+        "die Handschuhe",
+        "die Zahnbürste"
+      ],
+      "answer": "das Toilettenpapier",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q008",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch19-c07",
+      "image": "p-19-04.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich möchte allein auf die Toilette.",
+      "prompt_en": "I want to use the toilet alone.",
+      "audio": {
+        "text": "Ich möchte allein auf die Toilette.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Gut. Bitte klingeln Sie danach.",
+        "Nein, das ist verboten.",
+        "Gut, ich komme mit ins Bad und singe."
+      ],
+      "answer": "Gut. Bitte klingeln Sie danach.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q009",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch19-c09",
+      "image": "p-19-05.jpg",
+      "question_en": "Ask Herr Schmidt if he had a bowel movement today.",
+      "options": [
+        "Hatten Sie heute Stuhlgang?",
+        "Hatten Sie heute Besuch?",
+        "Haben Sie heute Geburtstag?"
+      ],
+      "answer": "Hatten Sie heute Stuhlgang?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q010",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch19-c10",
+      "image": "p-19-06.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Nein, seit drei Tagen nicht.",
+      "prompt_en": "No, not for three days.",
+      "audio": {
+        "text": "Nein, seit drei Tagen nicht.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Okay, ich schreibe das auf und frage den Arzt.",
+        "Super, weiter so!",
+        "Dann essen Sie nicht."
+      ],
+      "answer": "Okay, ich schreibe das auf und frage den Arzt.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q011",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch19-c11",
+      "image": "p-19-07.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Herr Schmidt hat 800 ml Urin.",
+      "prompt_en": "Urine amount:",
+      "audio": {
+        "text": "Herr Schmidt hat 800 ml Urin.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "800 ml",
+        "180 ml",
+        "80 ml",
+        "8000 ml"
+      ],
+      "answer": "800 ml",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q012",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch19-c12",
+      "image": "p-19-11.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Es brennt beim Wasserlassen.",
+      "prompt_en": "It burns when I pass urine.",
+      "audio": {
+        "text": "Es brennt beim Wasserlassen.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ich sage es dem Arzt. Vielleicht ist es die Blase.",
+        "Dann trinken Sie nichts.",
+        "Das ist normal. Tschüss!"
+      ],
+      "answer": "Ich sage es dem Arzt. Vielleicht ist es die Blase.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q013",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch19-c14",
+      "image": "p-19-08.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Das ist mir peinlich.",
+      "prompt_en": "This is embarrassing for me.",
+      "audio": {
+        "text": "Das ist mir peinlich.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Das ist ganz normal. Keine Sorge.",
+        "Ja, sehr peinlich!",
+        "Dann machen Sie das allein."
+      ],
+      "answer": "Das ist ganz normal. Keine Sorge.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q014",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch19-c15",
+      "image": "p-19-09.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Das Bett ist nass. Entschuldigung.",
+      "prompt_en": "The bed is wet. Sorry.",
+      "audio": {
+        "text": "Das Bett ist nass. Entschuldigung.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Bettwäsche",
+        "das Brot",
+        "der Fernseher",
+        "die Tasche"
+      ],
+      "answer": "die Bettwäsche",
+      "feedback_de": "Kein Problem. Ich wechsle die Bettwäsche.",
+      "feedback_en": "No problem. I'll change the bed linen.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q015",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch19-c16",
+      "image": "p-19-10.jpg",
+      "question_en": "Tell Lena: Frau Weber needs a new incontinence pad.",
+      "options": [
+        "Frau Weber braucht eine neue Vorlage.",
+        "Frau Weber braucht ein neues Auto.",
+        "Frau Weber ist eine Vorlage."
+      ],
+      "answer": "Frau Weber braucht eine neue Vorlage.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q016",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch19-c17",
+      "image": "d-fluid.jpg",
+      "question_en": "What does „Ausfuhr“ mean?",
+      "document_card_id": "ch19-c17",
+      "options": [
+        "Output, e.g. urine",
+        "Input, e.g. drinks",
+        "Food"
+      ],
+      "answer": "Output, e.g. urine",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q017",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch19-c17",
+      "image": "d-fluid.jpg",
+      "question_en": "How much fluid did he get in total?",
+      "document_card_id": "ch19-c17",
+      "options": [
+        "950 ml",
+        "700 ml",
+        "500 ml"
+      ],
+      "answer": "950 ml",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch19-q018",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch19-c17",
+      "image": "d-fluid.jpg",
+      "question_en": "How much urine at 16:00?",
+      "document_card_id": "ch19-c17",
+      "options": [
+        "400 ml",
+        "300 ml",
+        "500 ml"
+      ],
+      "answer": "400 ml",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "d-fluid.jpg",
+    "p-19-01.jpg",
+    "p-19-02.jpg",
+    "p-19-03.jpg",
+    "p-19-04.jpg",
+    "p-19-05.jpg",
+    "p-19-06.jpg",
+    "p-19-07.jpg",
+    "p-19-08.jpg",
+    "p-19-09.jpg",
+    "p-19-10.jpg",
+    "p-19-11.jpg",
+    "w-commode.jpg",
+    "w-incontinence-pad.jpg"
+  ]
+}

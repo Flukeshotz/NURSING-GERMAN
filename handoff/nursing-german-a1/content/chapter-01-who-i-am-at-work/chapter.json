@@ -1,0 +1,1133 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch01",
+  "chapter_number": 1,
+  "title_en": "Who I am at work",
+  "title_de": "Ich bin Ihre Pflegekraft",
+  "unlock": {
+    "requires_chapter": null,
+    "requires_quiz_pass": false
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch01-g1",
+      "title_en": "Introduce yourself",
+      "pattern_de": "Ich bin [Priya], Ihre Pflegekraft.",
+      "pattern_en": "I'm Priya, your nurse.",
+      "tip_en": "Use this sentence every time you meet a new patient."
+    },
+    {
+      "id": "ch01-g2",
+      "title_en": "Greet with Sie or du",
+      "pattern_de": "Guten Morgen! Wie geht es [Ihnen]?",
+      "pattern_en": "Good morning! How are you?",
+      "tip_en": "Patients and doctors: Sie. Colleagues like Lena: du."
+    },
+    {
+      "id": "ch01-g3",
+      "title_en": "Say when you don't understand",
+      "pattern_de": "Entschuldigung, noch einmal bitte.",
+      "pattern_en": "Sorry, once more please.",
+      "tip_en": "Asking again is normal. It is safer than guessing."
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch01-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-nurse.jpg",
+      "front": {
+        "german": "die Pflegekraft",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Nurse",
+        "label": "Example",
+        "german": "Ich bin Ihre Pflegekraft.",
+        "english": "I am your nurse.",
+        "note": "Gender-neutral: for any nurse. Some patients still say „Schwester“ (sister); introduce yourself by name."
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Pflegekraft",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich bin Ihre Pflegekraft.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-registered-nurse.jpg",
+      "front": {
+        "german": "die Pflegefachkraft",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Registered nurse",
+        "label": "Example",
+        "german": "Lena ist Pflegefachkraft.",
+        "english": "Lena is a registered nurse.",
+        "note": "die Pflegefachfrau / der Pflegefachmann"
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Pflegefachkraft",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Lena ist Pflegefachkraft.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c03",
+      "order": 3,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-ward-in-charge.jpg",
+      "front": {
+        "german": "die Stationsleitung",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Ward in-charge",
+        "label": "Example",
+        "german": "Die Stationsleitung macht den Dienstplan.",
+        "english": "The ward in-charge makes the duty roster.",
+        "note": "Your manager on the ward."
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Stationsleitung",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Stationsleitung macht den Dienstplan.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c04",
+      "order": 4,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-nursing-student.jpg",
+      "front": {
+        "german": "der Azubi / die Azubi",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Nursing student",
+        "label": "Example",
+        "german": "Der Azubi lernt auf Station 3.",
+        "english": "The nursing student is learning on ward 3.",
+        "note": "Azubi = a trainee in Ausbildung (training)."
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Azubi, die Azubi",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Azubi lernt auf Station 3.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c05",
+      "order": 5,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-duty.jpg",
+      "front": {
+        "german": "der Dienst",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Duty",
+        "label": "Example",
+        "german": "Mein Dienst beginnt um 6 Uhr.",
+        "english": "My shift starts at 6 o'clock.",
+        "note": "Frühdienst · Spätdienst · Nachtdienst"
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Dienst",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Mein Dienst beginnt um 6 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c06",
+      "order": 6,
+      "type": "pattern",
+      "goal_id": "ch01-g1",
+      "image": "p-01-02.jpg",
+      "front": {
+        "german": "Ich bin Priya, Ihre Pflegekraft.",
+        "label": "Introduce yourself",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Ich bin [Priya], Ihre Pflegekraft."
+      },
+      "back": {
+        "meaning_en": "I'm Priya, your nurse.",
+        "label": "Tip",
+        "german": "Ich bin Priya, Ihre Pflegekraft.",
+        "english": "Use this sentence every time you meet a new patient.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich bin Priya, Ihre Pflegekraft.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich bin Priya, Ihre Pflegekraft.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c07",
+      "order": 7,
+      "type": "phrase",
+      "goal_id": "ch01-g1",
+      "image": "p-01-02.jpg",
+      "front": {
+        "german": "Wer sind Sie?",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "Who are you?",
+        "label": "You answer",
+        "german": "Ich bin Priya, Ihre Pflegekraft.",
+        "english": "I'm Priya, your nurse.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich bin Priya, Ihre Pflegekraft.",
+          "english": "I'm Priya, your nurse."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wer sind Sie?",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich bin Priya, Ihre Pflegekraft.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c08",
+      "order": 8,
+      "type": "phrase",
+      "goal_id": "ch01-g1",
+      "image": "p-01-03.jpg",
+      "front": {
+        "german": "Woher kommen Sie?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "Where are you from?",
+        "label": "You answer",
+        "german": "Ich komme aus Indien.",
+        "english": "I come from India.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich komme aus Indien.",
+          "english": "I come from India."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Woher kommen Sie?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich komme aus Indien.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch01-g1",
+      "image": "p-01-06.jpg",
+      "front": {
+        "german": "Wie heißen Sie?",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "What is your name?",
+        "label": "You answer",
+        "german": "Ich heiße Priya.",
+        "english": "My name is Priya.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich heiße Priya.",
+          "english": "My name is Priya."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wie heißen Sie?",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich heiße Priya.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch01-g1",
+      "image": "p-01-10.jpg",
+      "front": {
+        "german": "Sind Sie morgen auch da?",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "Are you here tomorrow too?",
+        "label": "You answer",
+        "german": "Ja, ich arbeite morgen auch.",
+        "english": "Yes, I'm working tomorrow too.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, ich arbeite morgen auch.",
+          "english": "Yes, I'm working tomorrow too."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Sind Sie morgen auch da?",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ja, ich arbeite morgen auch.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c11",
+      "order": 11,
+      "type": "pattern",
+      "goal_id": "ch01-g2",
+      "image": "p-01-01.jpg",
+      "front": {
+        "german": "Guten Morgen! Wie geht es Ihnen?",
+        "label": "Greet with Sie or du",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Guten Morgen! Wie geht es [Ihnen]?"
+      },
+      "back": {
+        "meaning_en": "Good morning! How are you?",
+        "label": "Tip",
+        "german": "Guten Morgen! Wie geht es Ihnen?",
+        "english": "Patients and doctors: Sie. Colleagues like Lena: du.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Guten Morgen! Wie geht es Ihnen?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Guten Morgen! Wie geht es Ihnen?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c12",
+      "order": 12,
+      "type": "phrase",
+      "goal_id": "ch01-g2",
+      "image": "p-01-01.jpg",
+      "front": {
+        "german": "Guten Morgen!",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "Good morning!",
+        "label": "You answer",
+        "german": "Guten Morgen, Frau Weber! Wie geht es Ihnen?",
+        "english": "Good morning, Frau Weber! How are you?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Guten Morgen, Frau Weber! Wie geht es Ihnen?",
+          "english": "Good morning, Frau Weber! How are you?"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Guten Morgen!",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Guten Morgen, Frau Weber! Wie geht es Ihnen?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c13",
+      "order": 13,
+      "type": "phrase",
+      "goal_id": "ch01-g2",
+      "image": "p-01-05.jpg",
+      "front": {
+        "german": "Hallo! Ich bin Lena.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Hi! I'm Lena.",
+        "label": "You answer",
+        "german": "Hallo Lena! Ich bin Priya. Ich bin neu hier.",
+        "english": "Hi Lena! I'm Priya. I'm new here.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hallo Lena! Ich bin Priya. Ich bin neu hier.",
+          "english": "Hi Lena! I'm Priya. I'm new here."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Hallo! Ich bin Lena.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hallo Lena! Ich bin Priya. Ich bin neu hier.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch01-g2",
+      "image": "p-01-09.jpg",
+      "front": {
+        "german": "Guten Morgen. Ich bin Dr. Braun.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Good morning. I'm Dr. Braun.",
+        "label": "You answer",
+        "german": "Guten Morgen, Dr. Braun. Ich bin Priya, die neue Pflegekraft.",
+        "english": "Good morning, Dr. Braun. I'm Priya, the new nurse.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Guten Morgen, Dr. Braun. Ich bin Priya, die neue Pflegekraft.",
+          "english": "Good morning, Dr. Braun. I'm Priya, the new nurse."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Guten Morgen. Ich bin Dr. Braun.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Guten Morgen, Dr. Braun. Ich bin Priya, die neue Pflegekraft.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c15",
+      "order": 15,
+      "type": "pattern",
+      "goal_id": "ch01-g3",
+      "image": "p-01-04.jpg",
+      "front": {
+        "german": "Entschuldigung, noch einmal bitte.",
+        "label": "Say when you don't understand",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Entschuldigung, noch einmal bitte."
+      },
+      "back": {
+        "meaning_en": "Sorry, once more please.",
+        "label": "Tip",
+        "german": "Entschuldigung, noch einmal bitte.",
+        "english": "Asking again is normal. It is safer than guessing.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Entschuldigung, noch einmal bitte.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Entschuldigung, noch einmal bitte.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c16",
+      "order": 16,
+      "type": "phrase",
+      "goal_id": "ch01-g3",
+      "image": "p-01-04.jpg",
+      "front": {
+        "german": "Sprechen Sie Deutsch?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "Do you speak German?",
+        "label": "You answer",
+        "german": "Ja, ein bisschen.",
+        "english": "Yes, a little.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, ein bisschen.",
+          "english": "Yes, a little."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Sprechen Sie Deutsch?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ja, ein bisschen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c17",
+      "order": 17,
+      "type": "phrase",
+      "goal_id": "ch01-g3",
+      "image": "p-01-07.jpg",
+      "front": {
+        "german": "Entschuldigung, noch einmal bitte.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Sorry, once more please.",
+        "label": "When",
+        "german": "Entschuldigung, noch einmal bitte.",
+        "english": "You don't understand Herr Yılmaz.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Entschuldigung, noch einmal bitte.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Entschuldigung, noch einmal bitte.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch01-c18",
+      "order": 18,
+      "type": "phrase",
+      "goal_id": "ch01-g3",
+      "image": "p-01-08.jpg",
+      "front": {
+        "german": "Bitte sprechen Sie langsam.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please speak slowly.",
+        "label": "When",
+        "german": "Bitte sprechen Sie langsam.",
+        "english": "Frau Weber speaks too fast for you.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bitte sprechen Sie langsam.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte sprechen Sie langsam.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch01-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch01-c01",
+      "image": "w-nurse.jpg",
+      "question_en": "How do you say \"Nurse\" in German?",
+      "options": [
+        "die Pflegekraft",
+        "die Stationsleitung",
+        "der Azubi / die Azubi",
+        "der Dienst"
+      ],
+      "answer": "die Pflegekraft",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch01-c01",
+      "image": "w-nurse.jpg",
+      "question_en": "What does \"die Pflegekraft\" mean?",
+      "german": "die Pflegekraft",
+      "audio": {
+        "text": "die Pflegekraft",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Nurse",
+        "Ward in-charge",
+        "Nursing student",
+        "Duty"
+      ],
+      "answer": "Nurse",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch01-c02",
+      "image": "w-registered-nurse.jpg",
+      "question_en": "How do you say \"Registered nurse\" in German?",
+      "options": [
+        "die Pflegefachkraft",
+        "die Stationsleitung",
+        "der Azubi / die Azubi",
+        "der Dienst"
+      ],
+      "answer": "die Pflegefachkraft",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch01-c02",
+      "image": "w-registered-nurse.jpg",
+      "question_en": "What does \"die Pflegefachkraft\" mean?",
+      "german": "die Pflegefachkraft",
+      "audio": {
+        "text": "die Pflegefachkraft",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Registered nurse",
+        "Ward in-charge",
+        "Nursing student",
+        "Duty"
+      ],
+      "answer": "Registered nurse",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q005",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch01-c03",
+      "image": "w-ward-in-charge.jpg",
+      "question_en": "How do you say \"Ward in-charge\" in German?",
+      "options": [
+        "die Stationsleitung",
+        "die Pflegekraft",
+        "die Pflegefachkraft",
+        "der Azubi / die Azubi"
+      ],
+      "answer": "die Stationsleitung",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q006",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch01-c03",
+      "image": "w-ward-in-charge.jpg",
+      "question_en": "What does \"die Stationsleitung\" mean?",
+      "german": "die Stationsleitung",
+      "audio": {
+        "text": "die Stationsleitung",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ward in-charge",
+        "Nurse",
+        "Registered nurse",
+        "Nursing student"
+      ],
+      "answer": "Ward in-charge",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q007",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch01-c04",
+      "image": "w-nursing-student.jpg",
+      "question_en": "How do you say \"Nursing student\" in German?",
+      "options": [
+        "der Azubi / die Azubi",
+        "die Pflegekraft",
+        "die Pflegefachkraft",
+        "die Stationsleitung"
+      ],
+      "answer": "der Azubi / die Azubi",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q008",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch01-c04",
+      "image": "w-nursing-student.jpg",
+      "question_en": "What does \"der Azubi / die Azubi\" mean?",
+      "german": "der Azubi / die Azubi",
+      "audio": {
+        "text": "der Azubi / die Azubi",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Nursing student",
+        "Nurse",
+        "Registered nurse",
+        "Ward in-charge"
+      ],
+      "answer": "Nursing student",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q009",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch01-c05",
+      "image": "w-duty.jpg",
+      "question_en": "How do you say \"Duty\" in German?",
+      "options": [
+        "der Dienst",
+        "die Pflegekraft",
+        "die Pflegefachkraft",
+        "die Stationsleitung"
+      ],
+      "answer": "der Dienst",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q010",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch01-c05",
+      "image": "w-duty.jpg",
+      "question_en": "What does \"der Dienst\" mean?",
+      "german": "der Dienst",
+      "audio": {
+        "text": "der Dienst",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Duty",
+        "Nurse",
+        "Registered nurse",
+        "Ward in-charge"
+      ],
+      "answer": "Duty",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q011",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch01-c07",
+      "image": "p-01-02.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Wer sind Sie?",
+      "prompt_en": "Who are you?",
+      "audio": {
+        "text": "Wer sind Sie?",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ich bin Priya, Ihre Pflegekraft.",
+        "Ich bin Frau Weber.",
+        "Ich bin müde."
+      ],
+      "answer": "Ich bin Priya, Ihre Pflegekraft.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q012",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch01-c08",
+      "image": "p-01-03.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Woher kommen Sie?",
+      "prompt_en": "Where are you from?",
+      "audio": {
+        "text": "Woher kommen Sie?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ich komme aus Indien.",
+        "Ich bin 30 Jahre alt.",
+        "Ich arbeite heute."
+      ],
+      "answer": "Ich komme aus Indien.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q013",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch01-c09",
+      "image": "p-01-06.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Wie heißen Sie?",
+      "prompt_en": "What is your name?",
+      "audio": {
+        "text": "Wie heißen Sie?",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ich heiße Priya.",
+        "Gut, danke.",
+        "Ich wohne hier."
+      ],
+      "answer": "Ich heiße Priya.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q014",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch01-c10",
+      "image": "p-01-10.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Sind Sie morgen auch da?",
+      "prompt_en": "Are you here tomorrow too?",
+      "audio": {
+        "text": "Sind Sie morgen auch da?",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ja, ich arbeite morgen auch.",
+        "Nein, ich bin Patientin.",
+        "Ja, ich habe Hunger."
+      ],
+      "answer": "Ja, ich arbeite morgen auch.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q015",
+      "type": "choose_reply_sie_du",
+      "label": "What do you answer?",
+      "card_id": "ch01-c12",
+      "image": "p-01-01.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Guten Morgen!",
+      "prompt_en": "Frau Weber (patient) greets you.",
+      "audio": {
+        "text": "Guten Morgen!",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Guten Morgen, Frau Weber! Wie geht es Ihnen?",
+        "Morgen! Wie geht's dir?",
+        "Tschüss, Frau Weber!"
+      ],
+      "answer": "Guten Morgen, Frau Weber! Wie geht es Ihnen?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q016",
+      "type": "choose_reply_sie_du",
+      "label": "What do you answer?",
+      "card_id": "ch01-c13",
+      "image": "p-01-05.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Hallo! Ich bin Lena.",
+      "prompt_en": "Your colleague Lena introduces herself.",
+      "audio": {
+        "text": "Hallo! Ich bin Lena.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Hallo Lena! Ich bin Priya. Ich bin neu hier.",
+        "Guten Tag, Frau Lena. Wie geht es Ihnen?",
+        "Auf Wiedersehen!"
+      ],
+      "answer": "Hallo Lena! Ich bin Priya. Ich bin neu hier.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q017",
+      "type": "choose_reply_sie_du",
+      "label": "What do you answer?",
+      "card_id": "ch01-c14",
+      "image": "p-01-09.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Guten Morgen. Ich bin Dr. Braun.",
+      "prompt_en": "The doctor introduces himself.",
+      "audio": {
+        "text": "Guten Morgen. Ich bin Dr. Braun.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Guten Morgen, Dr. Braun. Ich bin Priya, die neue Pflegekraft.",
+        "Hi! Wie geht's dir?",
+        "Gute Nacht, Dr. Braun."
+      ],
+      "answer": "Guten Morgen, Dr. Braun. Ich bin Priya, die neue Pflegekraft.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q018",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch01-c16",
+      "image": "p-01-04.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Sprechen Sie Deutsch?",
+      "prompt_en": "Do you speak German?",
+      "audio": {
+        "text": "Sprechen Sie Deutsch?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ja, ein bisschen.",
+        "Nein, danke.",
+        "Ja, bitte."
+      ],
+      "answer": "Ja, ein bisschen.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q019",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch01-c17",
+      "image": "p-01-07.jpg",
+      "question_en": "You don't understand Herr Yılmaz.",
+      "options": [
+        "Entschuldigung, noch einmal bitte.",
+        "Ich verstehe alles.",
+        "Guten Appetit!"
+      ],
+      "answer": "Entschuldigung, noch einmal bitte.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch01-q020",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch01-c18",
+      "image": "p-01-08.jpg",
+      "question_en": "Frau Weber speaks too fast for you.",
+      "options": [
+        "Bitte sprechen Sie langsam.",
+        "Bitte schlafen Sie jetzt.",
+        "Bitte sprechen Sie Englisch."
+      ],
+      "answer": "Bitte sprechen Sie langsam.",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "p-01-01.jpg",
+    "p-01-02.jpg",
+    "p-01-03.jpg",
+    "p-01-04.jpg",
+    "p-01-05.jpg",
+    "p-01-06.jpg",
+    "p-01-07.jpg",
+    "p-01-08.jpg",
+    "p-01-09.jpg",
+    "p-01-10.jpg",
+    "w-duty.jpg",
+    "w-nurse.jpg",
+    "w-nursing-student.jpg",
+    "w-registered-nurse.jpg",
+    "w-ward-in-charge.jpg"
+  ]
+}

@@ -1,0 +1,980 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch22",
+  "chapter_number": 22,
+  "title_en": "Discharge day",
+  "title_de": "Entlassung",
+  "unlock": {
+    "requires_chapter": 21,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 14,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch22-g1",
+      "title_en": "When the patient goes home",
+      "pattern_de": "[Morgen] um [10] Uhr.",
+      "pattern_en": "Tomorrow at 10 o'clock.",
+      "tip_en": null
+    },
+    {
+      "id": "ch22-g2",
+      "title_en": "Papers and medicines",
+      "pattern_de": "Hier ist Ihr [Arztbrief].",
+      "pattern_en": "Here is your doctor's letter.",
+      "tip_en": "der Arztbrief = discharge letter for the family doctor (der Hausarzt)."
+    },
+    {
+      "id": "ch22-g3",
+      "title_en": "Say goodbye",
+      "pattern_de": "Alles Gute!",
+      "pattern_en": "All the best!",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch22-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-discharge.jpg",
+      "front": {
+        "german": "die Entlassung",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Discharge",
+        "label": "Example",
+        "german": "Die Entlassung ist morgen.",
+        "english": "The discharge is tomorrow.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Entlassung",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Entlassung ist morgen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c02",
+      "order": 2,
+      "type": "pattern",
+      "goal_id": "ch22-g1",
+      "image": "p-14-01.jpg",
+      "front": {
+        "german": "Morgen um 10 Uhr.",
+        "label": "When the patient goes home",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "[Morgen] um [10] Uhr."
+      },
+      "back": {
+        "meaning_en": "Tomorrow at 10 o'clock.",
+        "label": "Tip",
+        "german": "Morgen um 10 Uhr.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Morgen um 10 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Morgen um 10 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c03",
+      "order": 3,
+      "type": "phrase",
+      "goal_id": "ch22-g1",
+      "image": "p-14-01.jpg",
+      "front": {
+        "german": "Wann kann ich nach Hause?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "When can I go home?",
+        "label": "You answer",
+        "german": "Morgen, nach der Visite.",
+        "english": "Tomorrow, after the ward round.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Morgen, nach der Visite.",
+          "english": "Tomorrow, after the ward round."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wann kann ich nach Hause?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Morgen, nach der Visite.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c04",
+      "order": 4,
+      "type": "phrase",
+      "goal_id": "ch22-g1",
+      "image": "p-14-02.jpg",
+      "front": {
+        "german": "Wann kann ich meine Mutter abholen?",
+        "label": "Visitor says",
+        "speaker": "anna",
+        "speaker_name": "Anna Weber"
+      },
+      "back": {
+        "meaning_en": "When can I pick up my mother?",
+        "label": "You answer",
+        "german": "Morgen um 11 Uhr.",
+        "english": "Tomorrow at 11 o'clock.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Morgen um 11 Uhr.",
+          "english": "Tomorrow at 11 o'clock."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wann kann ich meine Mutter abholen?",
+          "voice": "visitor_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Morgen um 11 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c05",
+      "order": 5,
+      "type": "phrase",
+      "goal_id": "ch22-g1",
+      "image": "p-14-03.jpg",
+      "front": {
+        "german": "Herr Schmidt geht morgen um 10 Uhr nach Hause.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Discharge",
+        "label": "You note down",
+        "german": "morgen, 10 Uhr",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "morgen, 10 Uhr",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Herr Schmidt geht morgen um 10 Uhr nach Hause.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "morgen, 10 Uhr",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c06",
+      "order": 6,
+      "type": "pattern",
+      "goal_id": "ch22-g2",
+      "image": "p-14-04.jpg",
+      "front": {
+        "german": "Hier ist Ihr Arztbrief.",
+        "label": "Papers and medicines",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Hier ist Ihr [Arztbrief]."
+      },
+      "back": {
+        "meaning_en": "Here is your doctor's letter.",
+        "label": "Tip",
+        "german": "Hier ist Ihr Arztbrief.",
+        "english": "der Arztbrief = discharge letter for the family doctor (der Hausarzt).",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Hier ist Ihr Arztbrief.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihr Arztbrief.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c07",
+      "order": 7,
+      "type": "phrase",
+      "goal_id": "ch22-g2",
+      "image": "p-14-04.jpg",
+      "front": {
+        "german": "Wo ist mein Arztbrief?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "Where is my doctor's letter?",
+        "label": "You answer",
+        "german": "Hier ist Ihr Arztbrief.",
+        "english": "Here is your doctor's letter.",
+        "note": "Key word: der Arztbrief = the doctor's letter"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist Ihr Arztbrief.",
+          "english": "Here is your doctor's letter."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wo ist mein Arztbrief?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihr Arztbrief.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c08",
+      "order": 8,
+      "type": "phrase",
+      "goal_id": "ch22-g2",
+      "image": "p-14-05.jpg",
+      "front": {
+        "german": "Bitte bringen Sie den Brief zum Hausarzt.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please take the letter to your family doctor.",
+        "label": "When",
+        "german": "Bitte bringen Sie den Brief zum Hausarzt.",
+        "english": "Tell Herr Schmidt to take the letter to his family doctor.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bitte bringen Sie den Brief zum Hausarzt.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte bringen Sie den Brief zum Hausarzt.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch22-g2",
+      "image": "p-14-06.jpg",
+      "front": {
+        "german": "Muss ich die Tabletten weiter nehmen?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "Do I have to keep taking the tablets?",
+        "label": "You answer",
+        "german": "Ja, jeden Morgen eine Tablette.",
+        "english": "Yes, one tablet every morning.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ja, jeden Morgen eine Tablette.",
+          "english": "Yes, one tablet every morning."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Muss ich die Tabletten weiter nehmen?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ja, jeden Morgen eine Tablette.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c10",
+      "order": 10,
+      "type": "pattern",
+      "goal_id": "ch22-g3",
+      "image": "p-14-07.jpg",
+      "front": {
+        "german": "Alles Gute!",
+        "label": "Say goodbye",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Alles Gute!"
+      },
+      "back": {
+        "meaning_en": "All the best!",
+        "label": "Tip",
+        "german": "Alles Gute!",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Alles Gute!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Alles Gute!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c11",
+      "order": 11,
+      "type": "phrase",
+      "goal_id": "ch22-g3",
+      "image": "p-14-07.jpg",
+      "front": {
+        "german": "Wo sind meine Sachen?",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "Where are my things?",
+        "label": "You answer",
+        "german": "Hier ist Ihre Tasche.",
+        "english": "Here is your bag.",
+        "note": "Key word: die Tasche = the bag"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist Ihre Tasche.",
+          "english": "Here is your bag."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wo sind meine Sachen?",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihre Tasche.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c12",
+      "order": 12,
+      "type": "phrase",
+      "goal_id": "ch22-g3",
+      "image": "p-14-08.jpg",
+      "front": {
+        "german": "Haben Sie alles?",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Do you have everything?",
+        "label": "When",
+        "german": "Haben Sie alles?",
+        "english": "Ask Frau Weber if she has everything.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Haben Sie alles?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Haben Sie alles?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c13",
+      "order": 13,
+      "type": "phrase",
+      "goal_id": "ch22-g3",
+      "image": "p-14-09.jpg",
+      "front": {
+        "german": "Ich brauche ein Taxi.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I need a taxi.",
+        "label": "You answer",
+        "german": "Kein Problem. Ich rufe ein Taxi.",
+        "english": "No problem. I'll call a taxi.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Kein Problem. Ich rufe ein Taxi.",
+          "english": "No problem. I'll call a taxi."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich brauche ein Taxi.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Kein Problem. Ich rufe ein Taxi.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch22-g3",
+      "image": "p-14-10.jpg",
+      "front": {
+        "german": "Vielen Dank für alles!",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "Thank you for everything!",
+        "label": "You answer",
+        "german": "Gern geschehen. Alles Gute, Frau Weber!",
+        "english": "You're welcome. All the best, Frau Weber!",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Gern geschehen. Alles Gute, Frau Weber!",
+          "english": "You're welcome. All the best, Frau Weber!"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Vielen Dank für alles!",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Gern geschehen. Alles Gute, Frau Weber!",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch22-c15",
+      "order": 15,
+      "type": "document",
+      "goal_id": null,
+      "image": "d-appointment.jpg",
+      "front": {
+        "german": "Terminzettel",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Appointment slip",
+        "label": "Key words",
+        "german": "Untersuchung · Röntgen Thorax · Ort · nüchtern: nein",
+        "english": "examination · chest X-ray · place · may eat and drink",
+        "note": null
+      },
+      "document": {
+        "title_de": "Terminzettel",
+        "title_en": "Appointment slip",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "TERMIN"
+          },
+          {
+            "type": "table",
+            "header": [],
+            "rows": [
+              [
+                "Patientin",
+                "Weber, Erika"
+              ],
+              [
+                "Untersuchung",
+                "Röntgen Thorax"
+              ],
+              [
+                "Datum",
+                "Dienstag"
+              ],
+              [
+                "Uhrzeit",
+                "10:30"
+              ],
+              [
+                "Ort",
+                "Erdgeschoss, Raum 014"
+              ],
+              [
+                "Nüchtern",
+                "nein"
+              ],
+              [
+                "Transport",
+                "Rollstuhl"
+              ]
+            ],
+            "highlight": []
+          }
+        ],
+        "key_words": [
+          {
+            "de": "Untersuchung",
+            "en": "examination"
+          },
+          {
+            "de": "Röntgen Thorax",
+            "en": "chest X-ray"
+          },
+          {
+            "de": "Ort",
+            "en": "place"
+          },
+          {
+            "de": "nüchtern: nein",
+            "en": "may eat and drink"
+          }
+        ]
+      },
+      "audio": {
+        "front": {
+          "text": "Terminzettel",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Untersuchung, Röntgen Thorax, Ort, nüchtern: nein",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch22-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch22-c01",
+      "image": "w-discharge.jpg",
+      "question_en": "How do you say \"Discharge\" in German?",
+      "options": [
+        "die Entlassung",
+        "die Pflegekraft",
+        "der Blutdruck",
+        "der Blutzucker"
+      ],
+      "answer": "die Entlassung",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch22-c01",
+      "image": "w-discharge.jpg",
+      "question_en": "What does \"die Entlassung\" mean?",
+      "german": "die Entlassung",
+      "audio": {
+        "text": "die Entlassung",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Discharge",
+        "Nurse",
+        "BP",
+        "Sugar"
+      ],
+      "answer": "Discharge",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q003",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch22-c03",
+      "image": "p-14-01.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Wann kann ich nach Hause?",
+      "prompt_en": "When can I go home?",
+      "audio": {
+        "text": "Wann kann ich nach Hause?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Morgen, nach der Visite.",
+        "Gestern, um 5 Uhr.",
+        "Nie."
+      ],
+      "answer": "Morgen, nach der Visite.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q004",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch22-c04",
+      "image": "p-14-02.jpg",
+      "speaker": "anna",
+      "speaker_name": "Anna Weber",
+      "prompt_de": "Wann kann ich meine Mutter abholen?",
+      "prompt_en": "When can I pick up my mother?",
+      "audio": {
+        "text": "Wann kann ich meine Mutter abholen?",
+        "voice": "visitor_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Morgen um 11 Uhr.",
+        "Morgen ist Sonntag.",
+        "Heute Nacht um 3 Uhr."
+      ],
+      "answer": "Morgen um 11 Uhr.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q005",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch22-c05",
+      "image": "p-14-03.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Herr Schmidt geht morgen um 10 Uhr nach Hause.",
+      "prompt_en": "Discharge:",
+      "audio": {
+        "text": "Herr Schmidt geht morgen um 10 Uhr nach Hause.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "morgen, 10 Uhr",
+        "heute, 10 Uhr",
+        "morgen, 12 Uhr",
+        "morgen, 14 Uhr"
+      ],
+      "answer": "morgen, 10 Uhr",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q006",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch22-c07",
+      "image": "p-14-04.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Wo ist mein Arztbrief?",
+      "prompt_en": "Where is my doctor's letter?",
+      "audio": {
+        "text": "Wo ist mein Arztbrief?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Arztbrief",
+        "die Zeitung",
+        "die Tablette",
+        "die Brille"
+      ],
+      "answer": "der Arztbrief",
+      "feedback_de": "Hier ist Ihr Arztbrief.",
+      "feedback_en": "Here is your doctor's letter.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q007",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch22-c08",
+      "image": "p-14-05.jpg",
+      "question_en": "Tell Herr Schmidt to take the letter to his family doctor.",
+      "options": [
+        "Bitte bringen Sie den Brief zum Hausarzt.",
+        "Bitte lesen Sie den Brief nicht.",
+        "Bitte bringen Sie den Brief zur Post."
+      ],
+      "answer": "Bitte bringen Sie den Brief zum Hausarzt.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q008",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch22-c09",
+      "image": "p-14-06.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Muss ich die Tabletten weiter nehmen?",
+      "prompt_en": "Do I have to keep taking the tablets?",
+      "audio": {
+        "text": "Muss ich die Tabletten weiter nehmen?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ja, jeden Morgen eine Tablette.",
+        "Nein, nie wieder essen.",
+        "Ja, zehn Tabletten sofort."
+      ],
+      "answer": "Ja, jeden Morgen eine Tablette.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q009",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch22-c11",
+      "image": "p-14-07.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Wo sind meine Sachen?",
+      "prompt_en": "Where are my things?",
+      "audio": {
+        "text": "Wo sind meine Sachen?",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Tasche",
+        "das Bett",
+        "die Toilette",
+        "das Stethoskop"
+      ],
+      "answer": "die Tasche",
+      "feedback_de": "Hier ist Ihre Tasche.",
+      "feedback_en": "Here is your bag.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q010",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch22-c12",
+      "image": "p-14-08.jpg",
+      "question_en": "Ask Frau Weber if she has everything.",
+      "options": [
+        "Haben Sie alles?",
+        "Haben Sie Hunger?",
+        "Sind Sie alles?"
+      ],
+      "answer": "Haben Sie alles?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q011",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch22-c13",
+      "image": "p-14-09.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich brauche ein Taxi.",
+      "prompt_en": "I need a taxi.",
+      "audio": {
+        "text": "Ich brauche ein Taxi.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Kein Problem. Ich rufe ein Taxi.",
+        "Kein Problem. Ich rufe den Arzt.",
+        "Das Taxi ist krank."
+      ],
+      "answer": "Kein Problem. Ich rufe ein Taxi.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q012",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch22-c14",
+      "image": "p-14-10.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Vielen Dank für alles!",
+      "prompt_en": "Thank you for everything!",
+      "audio": {
+        "text": "Vielen Dank für alles!",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Gern geschehen. Alles Gute, Frau Weber!",
+        "Bitte, bis morgen!",
+        "Danke, du auch!"
+      ],
+      "answer": "Gern geschehen. Alles Gute, Frau Weber!",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q013",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch22-c15",
+      "image": "d-appointment.jpg",
+      "question_en": "What time is the X-ray?",
+      "document_card_id": "ch22-c15",
+      "options": [
+        "10:30",
+        "14:30",
+        "10:03"
+      ],
+      "answer": "10:30",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q014",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch22-c15",
+      "image": "d-appointment.jpg",
+      "question_en": "How does Frau Weber get there?",
+      "document_card_id": "ch22-c15",
+      "options": [
+        "In a wheelchair",
+        "She walks alone",
+        "By taxi"
+      ],
+      "answer": "In a wheelchair",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch22-q015",
+      "type": "document_question",
+      "label": "Read the document",
+      "card_id": "ch22-c15",
+      "image": "d-appointment.jpg",
+      "question_en": "Does she have to be „nüchtern“?",
+      "document_card_id": "ch22-c15",
+      "options": [
+        "No, she can eat",
+        "Yes, nothing to eat",
+        "Only coffee"
+      ],
+      "answer": "No, she can eat",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "d-appointment.jpg",
+    "p-14-01.jpg",
+    "p-14-02.jpg",
+    "p-14-03.jpg",
+    "p-14-04.jpg",
+    "p-14-05.jpg",
+    "p-14-06.jpg",
+    "p-14-07.jpg",
+    "p-14-08.jpg",
+    "p-14-09.jpg",
+    "p-14-10.jpg",
+    "w-discharge.jpg"
+  ]
+}

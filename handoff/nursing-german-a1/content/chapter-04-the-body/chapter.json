@@ -1,0 +1,741 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch04",
+  "chapter_number": 4,
+  "title_en": "The body",
+  "title_de": "Der Körper",
+  "unlock": {
+    "requires_chapter": 3,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 10,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch04-g1",
+      "title_en": "Understand where it hurts",
+      "pattern_de": "Mein [Kopf] tut weh.",
+      "pattern_en": "My head hurts.",
+      "tip_en": "Mein with der and das words: mein Kopf, mein Bein."
+    },
+    {
+      "id": "ch04-g2",
+      "title_en": "„Meine“ with die words",
+      "pattern_de": "Meine [Brust] tut weh.",
+      "pattern_en": "My chest hurts.",
+      "tip_en": "die Brust → meine Brust · die Hand → meine Hand."
+    },
+    {
+      "id": "ch04-g3",
+      "title_en": "Ask to see a body part",
+      "pattern_de": "Zeigen Sie bitte Ihr [Bein].",
+      "pattern_en": "Please show your leg.",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch04-c01",
+      "order": 1,
+      "type": "pattern",
+      "goal_id": "ch04-g1",
+      "image": "p-04-01.jpg",
+      "front": {
+        "german": "Mein Kopf tut weh.",
+        "label": "Understand where it hurts",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Mein [Kopf] tut weh."
+      },
+      "back": {
+        "meaning_en": "My head hurts.",
+        "label": "Tip",
+        "german": "Mein Kopf tut weh.",
+        "english": "Mein with der and das words: mein Kopf, mein Bein.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Mein Kopf tut weh.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Mein Kopf tut weh.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c02",
+      "order": 2,
+      "type": "phrase",
+      "goal_id": "ch04-g1",
+      "image": "p-04-01.jpg",
+      "front": {
+        "german": "Mein Kopf tut weh.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "My head hurts.",
+        "label": "You answer",
+        "german": "Ihr Kopf tut weh. Ich hole den Arzt.",
+        "english": "Your head hurts. I'll get the doctor.",
+        "note": "Key word: der Kopf = the head"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ihr Kopf tut weh. Ich hole den Arzt.",
+          "english": "Your head hurts. I'll get the doctor."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Mein Kopf tut weh.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ihr Kopf tut weh. Ich hole den Arzt.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c03",
+      "order": 3,
+      "type": "phrase",
+      "goal_id": "ch04-g1",
+      "image": "p-04-02.jpg",
+      "front": {
+        "german": "Mein Bauch tut weh.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "My stomach hurts.",
+        "label": "Key word",
+        "german": "der Bauch",
+        "english": "the stomach",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Mein Bauch tut weh.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "der Bauch",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c04",
+      "order": 4,
+      "type": "phrase",
+      "goal_id": "ch04-g1",
+      "image": "p-04-03.jpg",
+      "front": {
+        "german": "Mein Arm tut weh.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "My arm hurts.",
+        "label": "Key word",
+        "german": "der Arm",
+        "english": "the arm",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Mein Arm tut weh.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "der Arm",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c05",
+      "order": 5,
+      "type": "phrase",
+      "goal_id": "ch04-g1",
+      "image": "p-04-05.jpg",
+      "front": {
+        "german": "Mein Fuß tut weh.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "My foot hurts.",
+        "label": "Key word",
+        "german": "der Fuß",
+        "english": "the foot",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Mein Fuß tut weh.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "der Fuß",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c06",
+      "order": 6,
+      "type": "phrase",
+      "goal_id": "ch04-g1",
+      "image": "p-04-06.jpg",
+      "front": {
+        "german": "Mein Hals tut weh.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "My throat hurts.",
+        "label": "Key word",
+        "german": "der Hals",
+        "english": "the throat / neck",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Mein Hals tut weh.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "der Hals",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c07",
+      "order": 7,
+      "type": "phrase",
+      "goal_id": "ch04-g1",
+      "image": "p-04-07.jpg",
+      "front": {
+        "german": "Mein Knie tut weh.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "My knee hurts.",
+        "label": "Key word",
+        "german": "das Knie",
+        "english": "the knee",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Mein Knie tut weh.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "das Knie",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c08",
+      "order": 8,
+      "type": "phrase",
+      "goal_id": "ch04-g1",
+      "image": "p-04-10.jpg",
+      "front": {
+        "german": "Mein Ohr tut weh.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "My ear hurts.",
+        "label": "Key word",
+        "german": "das Ohr",
+        "english": "the ear",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Mein Ohr tut weh.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "das Ohr",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c09",
+      "order": 9,
+      "type": "pattern",
+      "goal_id": "ch04-g2",
+      "image": "p-04-04.jpg",
+      "front": {
+        "german": "Meine Brust tut weh.",
+        "label": "„Meine“ with die words",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Meine [Brust] tut weh."
+      },
+      "back": {
+        "meaning_en": "My chest hurts.",
+        "label": "Tip",
+        "german": "Meine Brust tut weh.",
+        "english": "die Brust → meine Brust · die Hand → meine Hand.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Meine Brust tut weh.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Meine Brust tut weh.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch04-g2",
+      "image": "p-04-04.jpg",
+      "front": {
+        "german": "Meine Hand ist kalt.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "My hand is cold.",
+        "label": "Key word",
+        "german": "die Hand",
+        "english": "the hand",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Meine Hand ist kalt.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "die Hand",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c11",
+      "order": 11,
+      "type": "phrase",
+      "goal_id": "ch04-g2",
+      "image": "p-04-08.jpg",
+      "front": {
+        "german": "Meine Brust tut weh.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "My chest hurts.",
+        "label": "You answer",
+        "german": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+        "english": "Please stay in bed. I'll get the doctor.",
+        "note": "Key word: die Brust = the chest"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+          "english": "Please stay in bed. I'll get the doctor."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Meine Brust tut weh.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c12",
+      "order": 12,
+      "type": "pattern",
+      "goal_id": "ch04-g3",
+      "image": "p-04-09.jpg",
+      "front": {
+        "german": "Zeigen Sie bitte Ihr Bein.",
+        "label": "Ask to see a body part",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Zeigen Sie bitte Ihr [Bein]."
+      },
+      "back": {
+        "meaning_en": "Please show your leg.",
+        "label": "Tip",
+        "german": "Zeigen Sie bitte Ihr Bein.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Zeigen Sie bitte Ihr Bein.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Zeigen Sie bitte Ihr Bein.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch04-c13",
+      "order": 13,
+      "type": "phrase",
+      "goal_id": "ch04-g3",
+      "image": "p-04-09.jpg",
+      "front": {
+        "german": "Zeigen Sie bitte Ihr Bein.",
+        "label": "Dr. Braun says",
+        "speaker": "braun",
+        "speaker_name": "Dr. Braun"
+      },
+      "back": {
+        "meaning_en": "Please show your leg.",
+        "label": "Key word",
+        "german": "das Bein",
+        "english": "the leg",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Zeigen Sie bitte Ihr Bein.",
+          "voice": "doctor_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "das Bein",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch04-q001",
+      "type": "body_part_choice",
+      "label": "Where is the problem?",
+      "card_id": "ch04-c02",
+      "image": "p-04-01.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Mein Kopf tut weh.",
+      "prompt_en": "My head hurts.",
+      "audio": {
+        "text": "Mein Kopf tut weh.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Kopf",
+        "der Bauch",
+        "das Bein",
+        "die Hand"
+      ],
+      "answer": "der Kopf",
+      "feedback_de": "Ihr Kopf tut weh. Ich hole den Arzt.",
+      "feedback_en": "Your head hurts. I'll get the doctor.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch04-q002",
+      "type": "body_part_choice",
+      "label": "Where is the problem?",
+      "card_id": "ch04-c03",
+      "image": "p-04-02.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Mein Bauch tut weh.",
+      "prompt_en": "My stomach hurts.",
+      "audio": {
+        "text": "Mein Bauch tut weh.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Bauch",
+        "die Brust",
+        "der Kopf",
+        "der Fuß"
+      ],
+      "answer": "der Bauch",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch04-q003",
+      "type": "body_part_choice",
+      "label": "Where is the problem?",
+      "card_id": "ch04-c04",
+      "image": "p-04-03.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Mein Arm tut weh.",
+      "prompt_en": "My arm hurts.",
+      "audio": {
+        "text": "Mein Arm tut weh.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Arm",
+        "das Bein",
+        "der Hals",
+        "der Bauch"
+      ],
+      "answer": "der Arm",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch04-q004",
+      "type": "body_part_choice",
+      "label": "Where is the problem?",
+      "card_id": "ch04-c05",
+      "image": "p-04-05.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Mein Fuß tut weh.",
+      "prompt_en": "My foot hurts.",
+      "audio": {
+        "text": "Mein Fuß tut weh.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Fuß",
+        "die Hand",
+        "der Arm",
+        "der Hals"
+      ],
+      "answer": "der Fuß",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch04-q005",
+      "type": "body_part_choice",
+      "label": "Where is the problem?",
+      "card_id": "ch04-c06",
+      "image": "p-04-06.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Mein Hals tut weh.",
+      "prompt_en": "My throat hurts.",
+      "audio": {
+        "text": "Mein Hals tut weh.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Hals",
+        "der Bauch",
+        "das Bein",
+        "die Hand"
+      ],
+      "answer": "der Hals",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch04-q006",
+      "type": "body_part_choice",
+      "label": "Where is the problem?",
+      "card_id": "ch04-c07",
+      "image": "p-04-07.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Mein Knie tut weh.",
+      "prompt_en": "My knee hurts.",
+      "audio": {
+        "text": "Mein Knie tut weh.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Knie",
+        "der Arm",
+        "der Kopf",
+        "der Bauch"
+      ],
+      "answer": "das Knie",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch04-q007",
+      "type": "body_part_choice",
+      "label": "Where is the problem?",
+      "card_id": "ch04-c08",
+      "image": "p-04-10.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Mein Ohr tut weh.",
+      "prompt_en": "My ear hurts.",
+      "audio": {
+        "text": "Mein Ohr tut weh.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Ohr",
+        "der Mund",
+        "der Hals",
+        "der Bauch"
+      ],
+      "answer": "das Ohr",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch04-q008",
+      "type": "body_part_choice",
+      "label": "Where is the problem?",
+      "card_id": "ch04-c10",
+      "image": "p-04-04.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Meine Hand ist kalt.",
+      "prompt_en": "My hand is cold.",
+      "audio": {
+        "text": "Meine Hand ist kalt.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Hand",
+        "der Fuß",
+        "der Kopf",
+        "die Brust"
+      ],
+      "answer": "die Hand",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch04-q009",
+      "type": "body_part_choice",
+      "label": "Where is the problem?",
+      "card_id": "ch04-c11",
+      "image": "p-04-08.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Meine Brust tut weh.",
+      "prompt_en": "My chest hurts.",
+      "audio": {
+        "text": "Meine Brust tut weh.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Brust",
+        "der Bauch",
+        "der Kopf",
+        "der Fuß"
+      ],
+      "answer": "die Brust",
+      "feedback_de": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+      "feedback_en": "Please stay in bed. I'll get the doctor.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch04-q010",
+      "type": "body_part_choice",
+      "label": "Where is the problem?",
+      "card_id": "ch04-c13",
+      "image": "p-04-09.jpg",
+      "speaker": "braun",
+      "speaker_name": "Dr. Braun",
+      "prompt_de": "Zeigen Sie bitte Ihr Bein.",
+      "prompt_en": "Please show your leg.",
+      "audio": {
+        "text": "Zeigen Sie bitte Ihr Bein.",
+        "voice": "doctor_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Bein",
+        "der Arm",
+        "der Hals",
+        "der Kopf"
+      ],
+      "answer": "das Bein",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "p-04-01.jpg",
+    "p-04-02.jpg",
+    "p-04-03.jpg",
+    "p-04-04.jpg",
+    "p-04-05.jpg",
+    "p-04-06.jpg",
+    "p-04-07.jpg",
+    "p-04-08.jpg",
+    "p-04-09.jpg",
+    "p-04-10.jpg"
+  ]
+}

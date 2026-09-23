@@ -1,0 +1,969 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch12",
+  "chapter_number": 12,
+  "title_en": "Basic care",
+  "title_de": "Grundpflege",
+  "unlock": {
+    "requires_chapter": 11,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch12-g1",
+      "title_en": "Offer help",
+      "pattern_de": "Brauchen Sie Hilfe? Ich helfe Ihnen.",
+      "pattern_en": "Do you need help? I'll help you.",
+      "tip_en": null
+    },
+    {
+      "id": "ch12-g2",
+      "title_en": "Personal care items",
+      "pattern_de": "Hier ist Ihre [Zahnbürste].",
+      "pattern_en": "Here is your toothbrush.",
+      "tip_en": null
+    },
+    {
+      "id": "ch12-g3",
+      "title_en": "Daily routine",
+      "pattern_de": "Möchten Sie [aufstehen]?",
+      "pattern_en": "Would you like to get up?",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch12-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-ward-aide-nursing-assistant.jpg",
+      "front": {
+        "german": "der Pflegehelfer / die Pflegehelferin",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Ward aide / nursing assistant",
+        "label": "Example",
+        "german": "Der Pflegehelfer bringt das Essen.",
+        "english": "The ward aide brings the food.",
+        "note": null
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Pflegehelfer, die Pflegehelferin",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Pflegehelfer bringt das Essen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-housekeeping-cleaning-staff.jpg",
+      "front": {
+        "german": "die Reinigungskraft",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Housekeeping / cleaning staff",
+        "label": "Example",
+        "german": "Die Reinigungskraft macht das Zimmer sauber.",
+        "english": "The cleaner cleans the room.",
+        "note": null
+      },
+      "word": {
+        "article": "die",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "die Reinigungskraft",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Die Reinigungskraft macht das Zimmer sauber.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c03",
+      "order": 3,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-bedsore.jpg",
+      "front": {
+        "german": "der Dekubitus",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Bedsore",
+        "label": "Example",
+        "german": "Der Patient hat einen Dekubitus.",
+        "english": "The patient has a bedsore.",
+        "note": "Turn the patient every 2 hours to prevent it."
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Dekubitus",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Patient hat einen Dekubitus.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c04",
+      "order": 4,
+      "type": "pattern",
+      "goal_id": "ch12-g1",
+      "image": "p-10-01.jpg",
+      "front": {
+        "german": "Brauchen Sie Hilfe? Ich helfe Ihnen.",
+        "label": "Offer help",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Brauchen Sie Hilfe? Ich helfe Ihnen."
+      },
+      "back": {
+        "meaning_en": "Do you need help? I'll help you.",
+        "label": "Tip",
+        "german": "Brauchen Sie Hilfe? Ich helfe Ihnen.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Brauchen Sie Hilfe? Ich helfe Ihnen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Brauchen Sie Hilfe? Ich helfe Ihnen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c05",
+      "order": 5,
+      "type": "phrase",
+      "goal_id": "ch12-g1",
+      "image": "p-10-01.jpg",
+      "front": {
+        "german": "Ich möchte duschen.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I'd like to shower.",
+        "label": "You answer",
+        "german": "Gut. Ich helfe Ihnen.",
+        "english": "Good. I'll help you.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Gut. Ich helfe Ihnen.",
+          "english": "Good. I'll help you."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich möchte duschen.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Gut. Ich helfe Ihnen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c06",
+      "order": 6,
+      "type": "phrase",
+      "goal_id": "ch12-g1",
+      "image": "p-10-03.jpg",
+      "front": {
+        "german": "Brauchen Sie Hilfe?",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Do you need help?",
+        "label": "When",
+        "german": "Brauchen Sie Hilfe?",
+        "english": "Ask Herr Schmidt if he needs help.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Brauchen Sie Hilfe?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Brauchen Sie Hilfe?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c07",
+      "order": 7,
+      "type": "phrase",
+      "goal_id": "ch12-g1",
+      "image": "p-10-04.jpg",
+      "front": {
+        "german": "Ich kann nicht allein aufstehen.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "I can't get up alone.",
+        "label": "You answer",
+        "german": "Kein Problem. Ich helfe Ihnen.",
+        "english": "No problem. I'll help you.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Kein Problem. Ich helfe Ihnen.",
+          "english": "No problem. I'll help you."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich kann nicht allein aufstehen.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Kein Problem. Ich helfe Ihnen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c08",
+      "order": 8,
+      "type": "phrase",
+      "goal_id": "ch12-g1",
+      "image": "p-10-10.jpg",
+      "front": {
+        "german": "Ich möchte zur Toilette.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I'd like to go to the toilet.",
+        "label": "You answer",
+        "german": "Kommen Sie, ich helfe Ihnen.",
+        "english": "Come, I'll help you.",
+        "note": "Key word: die Toilette = the toilet"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Kommen Sie, ich helfe Ihnen.",
+          "english": "Come, I'll help you."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich möchte zur Toilette.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Kommen Sie, ich helfe Ihnen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c09",
+      "order": 9,
+      "type": "pattern",
+      "goal_id": "ch12-g2",
+      "image": "p-10-02.jpg",
+      "front": {
+        "german": "Hier ist Ihre Zahnbürste.",
+        "label": "Personal care items",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Hier ist Ihre [Zahnbürste]."
+      },
+      "back": {
+        "meaning_en": "Here is your toothbrush.",
+        "label": "Tip",
+        "german": "Hier ist Ihre Zahnbürste.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Hier ist Ihre Zahnbürste.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihre Zahnbürste.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch12-g2",
+      "image": "p-10-02.jpg",
+      "front": {
+        "german": "Wo ist meine Zahnbürste?",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "Where is my toothbrush?",
+        "label": "You answer",
+        "german": "Hier ist Ihre Zahnbürste.",
+        "english": "Here is your toothbrush.",
+        "note": "Key word: die Zahnbürste = the toothbrush"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist Ihre Zahnbürste.",
+          "english": "Here is your toothbrush."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wo ist meine Zahnbürste?",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihre Zahnbürste.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c11",
+      "order": 11,
+      "type": "phrase",
+      "goal_id": "ch12-g2",
+      "image": "p-10-05.jpg",
+      "front": {
+        "german": "Ich möchte mich waschen.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "I'd like to wash.",
+        "label": "You answer",
+        "german": "Hier ist die Seife.",
+        "english": "Here is the soap.",
+        "note": "Key word: die Seife = the soap"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist die Seife.",
+          "english": "Here is the soap."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich möchte mich waschen.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist die Seife.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c12",
+      "order": 12,
+      "type": "phrase",
+      "goal_id": "ch12-g2",
+      "image": "p-10-07.jpg",
+      "front": {
+        "german": "Ich möchte meine Jacke anziehen.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I'd like to put on my jacket.",
+        "label": "Key word",
+        "german": "die Jacke",
+        "english": "the jacket",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich möchte meine Jacke anziehen.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "die Jacke",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c13",
+      "order": 13,
+      "type": "pattern",
+      "goal_id": "ch12-g3",
+      "image": "p-10-06.jpg",
+      "front": {
+        "german": "Möchten Sie aufstehen?",
+        "label": "Daily routine",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Möchten Sie [aufstehen]?"
+      },
+      "back": {
+        "meaning_en": "Would you like to get up?",
+        "label": "Tip",
+        "german": "Möchten Sie aufstehen?",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Möchten Sie aufstehen?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Möchten Sie aufstehen?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch12-g3",
+      "image": "p-10-06.jpg",
+      "front": {
+        "german": "Möchten Sie aufstehen?",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Would you like to get up?",
+        "label": "When",
+        "german": "Möchten Sie aufstehen?",
+        "english": "Ask Frau Weber if she wants to get up.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Möchten Sie aufstehen?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Möchten Sie aufstehen?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c15",
+      "order": 15,
+      "type": "phrase",
+      "goal_id": "ch12-g3",
+      "image": "p-10-08.jpg",
+      "front": {
+        "german": "Das Bett ist nass.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "The bed is wet.",
+        "label": "You answer",
+        "german": "Kein Problem. Ich mache das sauber.",
+        "english": "No problem. I'll clean it up.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Kein Problem. Ich mache das sauber.",
+          "english": "No problem. I'll clean it up."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Das Bett ist nass.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Kein Problem. Ich mache das sauber.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch12-c16",
+      "order": 16,
+      "type": "phrase",
+      "goal_id": "ch12-g3",
+      "image": "p-10-09.jpg",
+      "front": {
+        "german": "Das Essen kommt um 12 Uhr.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "The food comes at 12 o'clock.",
+        "label": "When",
+        "german": "Das Essen kommt um 12 Uhr.",
+        "english": "Tell Herr Yılmaz: the food comes at 12.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Das Essen kommt um 12 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Das Essen kommt um 12 Uhr.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch12-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch12-c01",
+      "image": "w-ward-aide-nursing-assistant.jpg",
+      "question_en": "How do you say \"Ward aide / nursing assistant\" in German?",
+      "options": [
+        "der Pflegehelfer / die Pflegehelferin",
+        "die Reinigungskraft",
+        "der Dekubitus",
+        "die Pflegekraft"
+      ],
+      "answer": "der Pflegehelfer / die Pflegehelferin",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch12-c01",
+      "image": "w-ward-aide-nursing-assistant.jpg",
+      "question_en": "What does \"der Pflegehelfer / die Pflegehelferin\" mean?",
+      "german": "der Pflegehelfer / die Pflegehelferin",
+      "audio": {
+        "text": "der Pflegehelfer / die Pflegehelferin",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Ward aide / nursing assistant",
+        "Housekeeping / cleaning staff",
+        "Bedsore",
+        "Nurse"
+      ],
+      "answer": "Ward aide / nursing assistant",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch12-c02",
+      "image": "w-housekeeping-cleaning-staff.jpg",
+      "question_en": "How do you say \"Housekeeping / cleaning staff\" in German?",
+      "options": [
+        "die Reinigungskraft",
+        "der Pflegehelfer / die Pflegehelferin",
+        "der Dekubitus",
+        "die Pflegekraft"
+      ],
+      "answer": "die Reinigungskraft",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch12-c02",
+      "image": "w-housekeeping-cleaning-staff.jpg",
+      "question_en": "What does \"die Reinigungskraft\" mean?",
+      "german": "die Reinigungskraft",
+      "audio": {
+        "text": "die Reinigungskraft",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Housekeeping / cleaning staff",
+        "Ward aide / nursing assistant",
+        "Bedsore",
+        "Nurse"
+      ],
+      "answer": "Housekeeping / cleaning staff",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q005",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch12-c03",
+      "image": "w-bedsore.jpg",
+      "question_en": "How do you say \"Bedsore\" in German?",
+      "options": [
+        "der Dekubitus",
+        "der Pflegehelfer / die Pflegehelferin",
+        "die Reinigungskraft",
+        "die Pflegekraft"
+      ],
+      "answer": "der Dekubitus",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q006",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch12-c03",
+      "image": "w-bedsore.jpg",
+      "question_en": "What does \"der Dekubitus\" mean?",
+      "german": "der Dekubitus",
+      "audio": {
+        "text": "der Dekubitus",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Bedsore",
+        "Ward aide / nursing assistant",
+        "Housekeeping / cleaning staff",
+        "Nurse"
+      ],
+      "answer": "Bedsore",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q007",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch12-c05",
+      "image": "p-10-01.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich möchte duschen.",
+      "prompt_en": "I'd like to shower.",
+      "audio": {
+        "text": "Ich möchte duschen.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Gut. Ich helfe Ihnen.",
+        "Gut. Guten Appetit!",
+        "Nein, das ist mein Bett."
+      ],
+      "answer": "Gut. Ich helfe Ihnen.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q008",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch12-c06",
+      "image": "p-10-03.jpg",
+      "question_en": "Ask Herr Schmidt if he needs help.",
+      "options": [
+        "Brauchen Sie Hilfe?",
+        "Brauchen Sie ein Taxi?",
+        "Helfen Sie mir?"
+      ],
+      "answer": "Brauchen Sie Hilfe?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q009",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch12-c07",
+      "image": "p-10-04.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Ich kann nicht allein aufstehen.",
+      "prompt_en": "I can't get up alone.",
+      "audio": {
+        "text": "Ich kann nicht allein aufstehen.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Kein Problem. Ich helfe Ihnen.",
+        "Das ist nicht mein Problem.",
+        "Dann bleiben Sie bitte immer im Bett."
+      ],
+      "answer": "Kein Problem. Ich helfe Ihnen.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q010",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch12-c08",
+      "image": "p-10-10.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich möchte zur Toilette.",
+      "prompt_en": "I'd like to go to the toilet.",
+      "audio": {
+        "text": "Ich möchte zur Toilette.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Toilette",
+        "der Aufzug",
+        "das Bett",
+        "die Cafeteria"
+      ],
+      "answer": "die Toilette",
+      "feedback_de": "Kommen Sie, ich helfe Ihnen.",
+      "feedback_en": "Come, I'll help you.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q011",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch12-c10",
+      "image": "p-10-02.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Wo ist meine Zahnbürste?",
+      "prompt_en": "Where is my toothbrush?",
+      "audio": {
+        "text": "Wo ist meine Zahnbürste?",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Zahnbürste",
+        "die Seife",
+        "die Schere",
+        "die Brille"
+      ],
+      "answer": "die Zahnbürste",
+      "feedback_de": "Hier ist Ihre Zahnbürste.",
+      "feedback_en": "Here is your toothbrush.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q012",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch12-c11",
+      "image": "p-10-05.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ich möchte mich waschen.",
+      "prompt_en": "I'd like to wash.",
+      "audio": {
+        "text": "Ich möchte mich waschen.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Seife",
+        "die Zeitung",
+        "der Kaffee",
+        "das Ladekabel"
+      ],
+      "answer": "die Seife",
+      "feedback_de": "Hier ist die Seife.",
+      "feedback_en": "Here is the soap.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q013",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch12-c12",
+      "image": "p-10-07.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich möchte meine Jacke anziehen.",
+      "prompt_en": "I'd like to put on my jacket.",
+      "audio": {
+        "text": "Ich möchte meine Jacke anziehen.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Jacke",
+        "die Brille",
+        "die Socken",
+        "die Schuhe"
+      ],
+      "answer": "die Jacke",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q014",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch12-c14",
+      "image": "p-10-06.jpg",
+      "question_en": "Ask Frau Weber if she wants to get up.",
+      "options": [
+        "Möchten Sie aufstehen?",
+        "Möchten Sie schlafen?",
+        "Können Sie Deutsch?"
+      ],
+      "answer": "Möchten Sie aufstehen?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q015",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch12-c15",
+      "image": "p-10-08.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Das Bett ist nass.",
+      "prompt_en": "The bed is wet.",
+      "audio": {
+        "text": "Das Bett ist nass.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Kein Problem. Ich mache das sauber.",
+        "Super, danke!",
+        "Das ist Ihr Bett."
+      ],
+      "answer": "Kein Problem. Ich mache das sauber.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch12-q016",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch12-c16",
+      "image": "p-10-09.jpg",
+      "question_en": "Tell Herr Yılmaz: the food comes at 12.",
+      "options": [
+        "Das Essen kommt um 12 Uhr.",
+        "Das Essen kommt um 2 Uhr.",
+        "Das Essen ist 12 Jahre alt."
+      ],
+      "answer": "Das Essen kommt um 12 Uhr.",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "p-10-01.jpg",
+    "p-10-02.jpg",
+    "p-10-03.jpg",
+    "p-10-04.jpg",
+    "p-10-05.jpg",
+    "p-10-06.jpg",
+    "p-10-07.jpg",
+    "p-10-08.jpg",
+    "p-10-09.jpg",
+    "p-10-10.jpg",
+    "w-bedsore.jpg",
+    "w-housekeeping-cleaning-staff.jpg",
+    "w-ward-aide-nursing-assistant.jpg"
+  ]
+}

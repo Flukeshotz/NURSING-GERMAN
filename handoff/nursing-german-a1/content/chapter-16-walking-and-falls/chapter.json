@@ -1,0 +1,824 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch16",
+  "chapter_number": 16,
+  "title_en": "Walking & falls",
+  "title_de": "Mobilisation & Sturz",
+  "unlock": {
+    "requires_chapter": 15,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch16-g1",
+      "title_en": "Walk safely",
+      "pattern_de": "Bitte nehmen Sie [den Rollator].",
+      "pattern_en": "Please take the walker.",
+      "tip_en": null
+    },
+    {
+      "id": "ch16-g2",
+      "title_en": "Dizziness and falls",
+      "pattern_de": "Bleiben Sie liegen. Ich hole Hilfe.",
+      "pattern_en": "Stay lying down. I'll get help.",
+      "tip_en": "After a fall, never lift the patient alone."
+    },
+    {
+      "id": "ch16-g3",
+      "title_en": "Move a patient together",
+      "pattern_de": "Wir drehen [Herrn Yılmaz].",
+      "pattern_en": "We're turning Herr Yılmaz.",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch16-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-side-rails.jpg",
+      "front": {
+        "german": "das Bettgitter",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Side rails",
+        "label": "Example",
+        "german": "Bitte lassen Sie das Bettgitter oben.",
+        "english": "Please leave the side rails up.",
+        "note": "Up at night for patients who might fall."
+      },
+      "word": {
+        "article": "das",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "das Bettgitter",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte lassen Sie das Bettgitter oben.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c02",
+      "order": 2,
+      "type": "pattern",
+      "goal_id": "ch16-g1",
+      "image": "p-18-01.jpg",
+      "front": {
+        "german": "Bitte nehmen Sie den Rollator.",
+        "label": "Walk safely",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Bitte nehmen Sie [den Rollator]."
+      },
+      "back": {
+        "meaning_en": "Please take the walker.",
+        "label": "Tip",
+        "german": "Bitte nehmen Sie den Rollator.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bitte nehmen Sie den Rollator.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte nehmen Sie den Rollator.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c03",
+      "order": 3,
+      "type": "phrase",
+      "goal_id": "ch16-g1",
+      "image": "p-18-01.jpg",
+      "front": {
+        "german": "Bitte nehmen Sie den Rollator.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please take the walker.",
+        "label": "When",
+        "german": "Bitte nehmen Sie den Rollator.",
+        "english": "Herr Schmidt wants to walk. He needs his walker.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bitte nehmen Sie den Rollator.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte nehmen Sie den Rollator.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c04",
+      "order": 4,
+      "type": "phrase",
+      "goal_id": "ch16-g1",
+      "image": "p-18-02.jpg",
+      "front": {
+        "german": "Wo ist mein Rollator?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "Where is my walker?",
+        "label": "You answer",
+        "german": "Hier ist Ihr Rollator.",
+        "english": "Here is your walker.",
+        "note": "Key word: der Rollator = the walker"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist Ihr Rollator.",
+          "english": "Here is your walker."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wo ist mein Rollator?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihr Rollator.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c05",
+      "order": 5,
+      "type": "phrase",
+      "goal_id": "ch16-g1",
+      "image": "p-18-03.jpg",
+      "front": {
+        "german": "Meine Schuhe, bitte.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "My shoes, please.",
+        "label": "You answer",
+        "german": "Hier sind Ihre Schuhe.",
+        "english": "Here are your shoes.",
+        "note": "Key word: die Schuhe = the shoes"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier sind Ihre Schuhe.",
+          "english": "Here are your shoes."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Meine Schuhe, bitte.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier sind Ihre Schuhe.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c06",
+      "order": 6,
+      "type": "phrase",
+      "goal_id": "ch16-g1",
+      "image": "p-18-04.jpg",
+      "front": {
+        "german": "Bitte ziehen Sie Schuhe an.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please put on shoes.",
+        "label": "When",
+        "german": "Bitte ziehen Sie Schuhe an.",
+        "english": "Frau Weber wants to walk in socks. The floor is slippery.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bitte ziehen Sie Schuhe an.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bitte ziehen Sie Schuhe an.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c07",
+      "order": 7,
+      "type": "pattern",
+      "goal_id": "ch16-g2",
+      "image": "p-18-05.jpg",
+      "front": {
+        "german": "Bleiben Sie liegen. Ich hole Hilfe.",
+        "label": "Dizziness and falls",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Bleiben Sie liegen. Ich hole Hilfe."
+      },
+      "back": {
+        "meaning_en": "Stay lying down. I'll get help.",
+        "label": "Tip",
+        "german": "Bleiben Sie liegen. Ich hole Hilfe.",
+        "english": "After a fall, never lift the patient alone.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Bleiben Sie liegen. Ich hole Hilfe.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bleiben Sie liegen. Ich hole Hilfe.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c08",
+      "order": 8,
+      "type": "phrase",
+      "goal_id": "ch16-g2",
+      "image": "p-18-05.jpg",
+      "front": {
+        "german": "Mir ist schwindelig.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I feel dizzy.",
+        "label": "You answer",
+        "german": "Setzen Sie sich bitte sofort.",
+        "english": "Please sit down immediately.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Setzen Sie sich bitte sofort.",
+          "english": "Please sit down immediately."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Mir ist schwindelig.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Setzen Sie sich bitte sofort.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch16-g2",
+      "image": "p-18-06.jpg",
+      "front": {
+        "german": "Hilfe! Ich liege auf dem Boden!",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "Help! I'm lying on the floor!",
+        "label": "You answer",
+        "german": "Bleiben Sie liegen. Ich hole Hilfe.",
+        "english": "Stay lying down. I'll get help.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Bleiben Sie liegen. Ich hole Hilfe.",
+          "english": "Stay lying down. I'll get help."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Hilfe! Ich liege auf dem Boden!",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bleiben Sie liegen. Ich hole Hilfe.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch16-g2",
+      "image": "p-18-07.jpg",
+      "front": {
+        "german": "Setzen Sie sich bitte erst auf die Bettkante.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Please sit on the edge of the bed first.",
+        "label": "When",
+        "german": "Setzen Sie sich bitte erst auf die Bettkante.",
+        "english": "Herr Schmidt should sit on the edge of the bed first.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Setzen Sie sich bitte erst auf die Bettkante.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Setzen Sie sich bitte erst auf die Bettkante.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c11",
+      "order": 11,
+      "type": "phrase",
+      "goal_id": "ch16-g2",
+      "image": "p-18-08.jpg",
+      "front": {
+        "german": "Kann ich allein gehen?",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "Can I walk alone?",
+        "label": "You answer",
+        "german": "Heute noch nicht. Ich gehe mit Ihnen.",
+        "english": "Not yet today. I'll walk with you.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Heute noch nicht. Ich gehe mit Ihnen.",
+          "english": "Not yet today. I'll walk with you."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Kann ich allein gehen?",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Heute noch nicht. Ich gehe mit Ihnen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c12",
+      "order": 12,
+      "type": "pattern",
+      "goal_id": "ch16-g3",
+      "image": "p-18-09.jpg",
+      "front": {
+        "german": "Wir drehen Herrn Yılmaz.",
+        "label": "Move a patient together",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Wir drehen [Herrn Yılmaz]."
+      },
+      "back": {
+        "meaning_en": "We're turning Herr Yılmaz.",
+        "label": "Tip",
+        "german": "Wir drehen Herrn Yılmaz.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Wir drehen Herrn Yılmaz.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wir drehen Herrn Yılmaz.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c13",
+      "order": 13,
+      "type": "phrase",
+      "goal_id": "ch16-g3",
+      "image": "p-18-09.jpg",
+      "front": {
+        "german": "Hilf mir bitte. Wir drehen Herrn Yılmaz.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "Help me please. We're turning Herr Yılmaz.",
+        "label": "You answer",
+        "german": "Okay, ich helfe dir.",
+        "english": "Okay, I'll help you.",
+        "note": "Key word: helfen = to help"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Okay, ich helfe dir.",
+          "english": "Okay, I'll help you."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Hilf mir bitte. Wir drehen Herrn Yılmaz.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Okay, ich helfe dir.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch16-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch16-g3",
+      "image": "p-18-10.jpg",
+      "front": {
+        "german": "Wir drehen Herrn Yılmaz alle 2 Stunden.",
+        "label": "Lena says",
+        "speaker": "lena",
+        "speaker_name": "Lena"
+      },
+      "back": {
+        "meaning_en": "How often?",
+        "label": "You note down",
+        "german": "alle 2 Stunden",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "alle 2 Stunden",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Wir drehen Herrn Yılmaz alle 2 Stunden.",
+          "voice": "colleague_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "alle 2 Stunden",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch16-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch16-c01",
+      "image": "w-side-rails.jpg",
+      "question_en": "How do you say \"Side rails\" in German?",
+      "options": [
+        "das Bettgitter",
+        "die Pflegekraft",
+        "der Blutdruck",
+        "der Blutzucker"
+      ],
+      "answer": "das Bettgitter",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch16-c01",
+      "image": "w-side-rails.jpg",
+      "question_en": "What does \"das Bettgitter\" mean?",
+      "german": "das Bettgitter",
+      "audio": {
+        "text": "das Bettgitter",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Side rails",
+        "Nurse",
+        "BP",
+        "Sugar"
+      ],
+      "answer": "Side rails",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q003",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch16-c03",
+      "image": "p-18-01.jpg",
+      "question_en": "Herr Schmidt wants to walk. He needs his walker.",
+      "options": [
+        "Bitte nehmen Sie den Rollator.",
+        "Bitte nehmen Sie den Aufzug.",
+        "Bitte laufen Sie schnell."
+      ],
+      "answer": "Bitte nehmen Sie den Rollator.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q004",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch16-c04",
+      "image": "p-18-02.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Wo ist mein Rollator?",
+      "prompt_en": "Where is my walker?",
+      "audio": {
+        "text": "Wo ist mein Rollator?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "der Rollator",
+        "der Rollstuhl",
+        "das Bett",
+        "die Tür"
+      ],
+      "answer": "der Rollator",
+      "feedback_de": "Hier ist Ihr Rollator.",
+      "feedback_en": "Here is your walker.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q005",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch16-c05",
+      "image": "p-18-03.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Meine Schuhe, bitte.",
+      "prompt_en": "My shoes, please.",
+      "audio": {
+        "text": "Meine Schuhe, bitte.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "die Schuhe",
+        "die Socken",
+        "die Jacke",
+        "die Brille"
+      ],
+      "answer": "die Schuhe",
+      "feedback_de": "Hier sind Ihre Schuhe.",
+      "feedback_en": "Here are your shoes.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q006",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch16-c06",
+      "image": "p-18-04.jpg",
+      "question_en": "Frau Weber wants to walk in socks. The floor is slippery.",
+      "options": [
+        "Bitte ziehen Sie Schuhe an.",
+        "Bitte laufen Sie in Socken.",
+        "Bitte tanzen Sie."
+      ],
+      "answer": "Bitte ziehen Sie Schuhe an.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q007",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch16-c08",
+      "image": "p-18-05.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Mir ist schwindelig.",
+      "prompt_en": "I feel dizzy.",
+      "audio": {
+        "text": "Mir ist schwindelig.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Setzen Sie sich bitte sofort.",
+        "Gehen Sie bitte schneller.",
+        "Stehen Sie bitte auf einem Bein."
+      ],
+      "answer": "Setzen Sie sich bitte sofort.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q008",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch16-c09",
+      "image": "p-18-06.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Hilfe! Ich liege auf dem Boden!",
+      "prompt_en": "Help! I'm lying on the floor!",
+      "audio": {
+        "text": "Hilfe! Ich liege auf dem Boden!",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Bleiben Sie liegen. Ich hole Hilfe.",
+        "Stehen Sie schnell auf!",
+        "Das ist nicht schlimm, tschüss."
+      ],
+      "answer": "Bleiben Sie liegen. Ich hole Hilfe.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q009",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch16-c10",
+      "image": "p-18-07.jpg",
+      "question_en": "Herr Schmidt should sit on the edge of the bed first.",
+      "options": [
+        "Setzen Sie sich bitte erst auf die Bettkante.",
+        "Springen Sie bitte aus dem Bett.",
+        "Legen Sie sich bitte auf den Boden."
+      ],
+      "answer": "Setzen Sie sich bitte erst auf die Bettkante.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q010",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch16-c11",
+      "image": "p-18-08.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Kann ich allein gehen?",
+      "prompt_en": "Can I walk alone?",
+      "audio": {
+        "text": "Kann ich allein gehen?",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Heute noch nicht. Ich gehe mit Ihnen.",
+        "Ja, rennen Sie!",
+        "Nein, nie wieder."
+      ],
+      "answer": "Heute noch nicht. Ich gehe mit Ihnen.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q011",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch16-c13",
+      "image": "p-18-09.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Hilf mir bitte. Wir drehen Herrn Yılmaz.",
+      "prompt_en": "Help me please. We're turning Herr Yılmaz.",
+      "audio": {
+        "text": "Hilf mir bitte. Wir drehen Herrn Yılmaz.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "helfen",
+        "essen",
+        "schlafen",
+        "anrufen"
+      ],
+      "answer": "helfen",
+      "feedback_de": "Okay, ich helfe dir.",
+      "feedback_en": "Okay, I'll help you.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch16-q012",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch16-c14",
+      "image": "p-18-10.jpg",
+      "speaker": "lena",
+      "speaker_name": "Lena",
+      "prompt_de": "Wir drehen Herrn Yılmaz alle 2 Stunden.",
+      "prompt_en": "How often?",
+      "audio": {
+        "text": "Wir drehen Herrn Yılmaz alle 2 Stunden.",
+        "voice": "colleague_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "alle 2 Stunden",
+        "alle 12 Stunden",
+        "alle 20 Minuten",
+        "alle 2 Tage"
+      ],
+      "answer": "alle 2 Stunden",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "p-18-01.jpg",
+    "p-18-02.jpg",
+    "p-18-03.jpg",
+    "p-18-04.jpg",
+    "p-18-05.jpg",
+    "p-18-06.jpg",
+    "p-18-07.jpg",
+    "p-18-08.jpg",
+    "p-18-09.jpg",
+    "p-18-10.jpg",
+    "w-side-rails.jpg"
+  ]
+}

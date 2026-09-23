@@ -1,0 +1,1047 @@
+{
+  "schema_version": 1,
+  "module": "nursing_german",
+  "cefr": "A1",
+  "chapter_id": "nursing-a1-ch07",
+  "chapter_number": 7,
+  "title_en": "Symptoms & pain",
+  "title_de": "Schmerzen",
+  "unlock": {
+    "requires_chapter": 6,
+    "requires_quiz_pass": true
+  },
+  "rules": {
+    "quick_check_every_cards": 20,
+    "quick_check_questions": 5,
+    "quiz_pass_mark": 0.7,
+    "quiz_questions_per_attempt": 12,
+    "quiz_composition": {
+      "word_cards": 4,
+      "phrase_cards": 8,
+      "document_questions_per_document": 2,
+      "spelling": "all"
+    }
+  },
+  "goals": [
+    {
+      "id": "ch07-g1",
+      "title_en": "Understand symptoms",
+      "pattern_de": "Ich habe [Fieber].",
+      "pattern_en": "I have a fever.",
+      "tip_en": "Ich habe + symptom: Schmerzen, Fieber, Husten, Durst, Hunger."
+    },
+    {
+      "id": "ch07-g2",
+      "title_en": "Ask how bad it is",
+      "pattern_de": "Wie stark? Von 1 bis 10?",
+      "pattern_en": "How strong? From 1 to 10?",
+      "tip_en": null
+    },
+    {
+      "id": "ch07-g3",
+      "title_en": "Report to a colleague",
+      "pattern_de": "[Frau Weber] hat [Kopfschmerzen].",
+      "pattern_en": "Frau Weber has a headache.",
+      "tip_en": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "ch07-c01",
+      "order": 1,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-motion-stool.jpg",
+      "front": {
+        "german": "der Stuhlgang",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Motion (stool)",
+        "label": "Example",
+        "german": "Hatten Sie heute Stuhlgang?",
+        "english": "Did you have a bowel movement today?",
+        "note": "Ask: „Hatten Sie heute Stuhlgang?“ will come at A2. For now: „Stuhlgang? Ja oder nein?“"
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Stuhlgang",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hatten Sie heute Stuhlgang?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c02",
+      "order": 2,
+      "type": "word",
+      "goal_id": null,
+      "image": "w-sugar.jpg",
+      "front": {
+        "german": "der Blutzucker",
+        "label": null,
+        "speaker": null,
+        "speaker_name": null
+      },
+      "back": {
+        "meaning_en": "Sugar",
+        "label": "Example",
+        "german": "Der Blutzucker ist 110.",
+        "english": "The blood sugar is 110.",
+        "note": "On charts: BZ"
+      },
+      "word": {
+        "article": "der",
+        "plural": false,
+        "false_friend": false
+      },
+      "audio": {
+        "front": {
+          "text": "der Blutzucker",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Der Blutzucker ist 110.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c03",
+      "order": 3,
+      "type": "pattern",
+      "goal_id": "ch07-g1",
+      "image": "p-05-01.jpg",
+      "front": {
+        "german": "Ich habe Fieber.",
+        "label": "Understand symptoms",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Ich habe [Fieber]."
+      },
+      "back": {
+        "meaning_en": "I have a fever.",
+        "label": "Tip",
+        "german": "Ich habe Fieber.",
+        "english": "Ich habe + symptom: Schmerzen, Fieber, Husten, Durst, Hunger.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich habe Fieber.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich habe Fieber.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c04",
+      "order": 4,
+      "type": "phrase",
+      "goal_id": "ch07-g1",
+      "image": "p-05-01.jpg",
+      "front": {
+        "german": "Ich habe Schmerzen.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "I'm in pain.",
+        "label": "You answer",
+        "german": "Wo haben Sie Schmerzen?",
+        "english": "Where do you have pain?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Wo haben Sie Schmerzen?",
+          "english": "Where do you have pain?"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich habe Schmerzen.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wo haben Sie Schmerzen?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c05",
+      "order": 5,
+      "type": "phrase",
+      "goal_id": "ch07-g1",
+      "image": "p-05-02.jpg",
+      "front": {
+        "german": "Ich habe Durst.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I'm thirsty.",
+        "label": "You answer",
+        "german": "Hier ist Ihr Wasser.",
+        "english": "Here is your water.",
+        "note": "Key word: das Wasser = the water"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Hier ist Ihr Wasser.",
+          "english": "Here is your water."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich habe Durst.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Hier ist Ihr Wasser.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c06",
+      "order": 6,
+      "type": "phrase",
+      "goal_id": "ch07-g1",
+      "image": "p-05-03.jpg",
+      "front": {
+        "german": "Ich habe Fieber, glaube ich.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "I have a fever, I think.",
+        "label": "You answer",
+        "german": "Ich messe die Temperatur.",
+        "english": "I'll take your temperature.",
+        "note": "Key word: das Thermometer = the thermometer"
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Ich messe die Temperatur.",
+          "english": "I'll take your temperature."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich habe Fieber, glaube ich.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Ich messe die Temperatur.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c07",
+      "order": 7,
+      "type": "phrase",
+      "goal_id": "ch07-g1",
+      "image": "p-05-07.jpg",
+      "front": {
+        "german": "Ich habe Hunger.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I'm hungry.",
+        "label": "Key word",
+        "german": "das Brot",
+        "english": "the bread",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Ich habe Hunger.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "das Brot",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c08",
+      "order": 8,
+      "type": "phrase",
+      "goal_id": "ch07-g1",
+      "image": "p-05-10.jpg",
+      "front": {
+        "german": "Ich habe Husten.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "I have a cough.",
+        "label": "You answer",
+        "german": "Okay. Ich hole den Arzt.",
+        "english": "Okay. I'll get the doctor.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Okay. Ich hole den Arzt.",
+          "english": "Okay. I'll get the doctor."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich habe Husten.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Okay. Ich hole den Arzt.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c09",
+      "order": 9,
+      "type": "phrase",
+      "goal_id": "ch07-g1",
+      "image": "p-05-11.jpg",
+      "front": {
+        "german": "Mein Herz schlägt so schnell.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "My heart is beating so fast.",
+        "label": "You answer",
+        "german": "Setzen Sie sich bitte. Ich messe den Puls.",
+        "english": "Please sit down. I'll take your pulse.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Setzen Sie sich bitte. Ich messe den Puls.",
+          "english": "Please sit down. I'll take your pulse."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Mein Herz schlägt so schnell.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Setzen Sie sich bitte. Ich messe den Puls.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c10",
+      "order": 10,
+      "type": "phrase",
+      "goal_id": "ch07-g1",
+      "image": "p-05-12.jpg",
+      "front": {
+        "german": "Mein Magen tut weh.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "My stomach hurts.",
+        "label": "You answer",
+        "german": "Seit wann? Seit heute?",
+        "english": "Since when? Since today?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Seit wann? Seit heute?",
+          "english": "Since when? Since today?"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Mein Magen tut weh.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Seit wann? Seit heute?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c11",
+      "order": 11,
+      "type": "pattern",
+      "goal_id": "ch07-g2",
+      "image": "p-05-04.jpg",
+      "front": {
+        "german": "Wie stark? Von 1 bis 10?",
+        "label": "Ask how bad it is",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "Wie stark? Von 1 bis 10?"
+      },
+      "back": {
+        "meaning_en": "How strong? From 1 to 10?",
+        "label": "Tip",
+        "german": "Wie stark? Von 1 bis 10?",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Wie stark? Von 1 bis 10?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wie stark? Von 1 bis 10?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c12",
+      "order": 12,
+      "type": "phrase",
+      "goal_id": "ch07-g2",
+      "image": "p-05-04.jpg",
+      "front": {
+        "german": "Mir ist schwindelig.",
+        "label": "Patient says",
+        "speaker": "weber",
+        "speaker_name": "Frau Weber"
+      },
+      "back": {
+        "meaning_en": "I feel dizzy.",
+        "label": "You answer",
+        "german": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+        "english": "Please stay in bed. I'll get the doctor.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+          "english": "Please stay in bed. I'll get the doctor."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Mir ist schwindelig.",
+          "voice": "patient_old_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c13",
+      "order": 13,
+      "type": "phrase",
+      "goal_id": "ch07-g2",
+      "image": "p-05-05.jpg",
+      "front": {
+        "german": "Es tut sehr weh.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "It hurts a lot.",
+        "label": "You answer",
+        "german": "Wie stark? Von 1 bis 10?",
+        "english": "How strong? From 1 to 10?",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Wie stark? Von 1 bis 10?",
+          "english": "How strong? From 1 to 10?"
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Es tut sehr weh.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Wie stark? Von 1 bis 10?",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c14",
+      "order": 14,
+      "type": "phrase",
+      "goal_id": "ch07-g2",
+      "image": "p-05-06.jpg",
+      "front": {
+        "german": "Acht.",
+        "label": "Patient says",
+        "speaker": "schmidt",
+        "speaker_name": "Herr Schmidt"
+      },
+      "back": {
+        "meaning_en": "His pain score, 1 to 10",
+        "label": "You note down",
+        "german": "8",
+        "english": "Write it on the chart.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You note down",
+          "german": "8",
+          "english": null
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Acht.",
+          "voice": "patient_old_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "8",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c15",
+      "order": 15,
+      "type": "phrase",
+      "goal_id": "ch07-g2",
+      "image": "p-05-08.jpg",
+      "front": {
+        "german": "Ich bin so müde.",
+        "label": "Patient says",
+        "speaker": "yilmaz",
+        "speaker_name": "Herr Yılmaz"
+      },
+      "back": {
+        "meaning_en": "I'm so tired.",
+        "label": "You answer",
+        "german": "Dann schlafen Sie bitte ein bisschen.",
+        "english": "Then please sleep a little.",
+        "note": null
+      },
+      "replies": [
+        {
+          "label": "You say",
+          "german": "Dann schlafen Sie bitte ein bisschen.",
+          "english": "Then please sleep a little."
+        }
+      ],
+      "audio": {
+        "front": {
+          "text": "Ich bin so müde.",
+          "voice": "patient_male",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Dann schlafen Sie bitte ein bisschen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c16",
+      "order": 16,
+      "type": "pattern",
+      "goal_id": "ch07-g3",
+      "image": "p-05-09.jpg",
+      "front": {
+        "german": "Frau Weber hat Kopfschmerzen.",
+        "label": "Report to a colleague",
+        "speaker": null,
+        "speaker_name": null,
+        "pattern_de": "[Frau Weber] hat [Kopfschmerzen]."
+      },
+      "back": {
+        "meaning_en": "Frau Weber has a headache.",
+        "label": "Tip",
+        "german": "Frau Weber hat Kopfschmerzen.",
+        "english": "Swap the highlighted word.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Frau Weber hat Kopfschmerzen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Frau Weber hat Kopfschmerzen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    },
+    {
+      "id": "ch07-c17",
+      "order": 17,
+      "type": "phrase",
+      "goal_id": "ch07-g3",
+      "image": "p-05-09.jpg",
+      "front": {
+        "german": "Frau Weber hat Kopfschmerzen.",
+        "label": "You say",
+        "speaker": "nurse",
+        "speaker_name": "You"
+      },
+      "back": {
+        "meaning_en": "Frau Weber has a headache.",
+        "label": "When",
+        "german": "Frau Weber hat Kopfschmerzen.",
+        "english": "Tell Lena: Frau Weber has a headache.",
+        "note": null
+      },
+      "audio": {
+        "front": {
+          "text": "Frau Weber hat Kopfschmerzen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        },
+        "back": {
+          "text": "Frau Weber hat Kopfschmerzen.",
+          "voice": "learner_nurse_female",
+          "lang": "de-DE"
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch07-q001",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch07-c01",
+      "image": "w-motion-stool.jpg",
+      "question_en": "How do you say \"Motion (stool)\" in German?",
+      "options": [
+        "der Stuhlgang",
+        "der Blutzucker",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "der Stuhlgang",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q002",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch07-c01",
+      "image": "w-motion-stool.jpg",
+      "question_en": "What does \"der Stuhlgang\" mean?",
+      "german": "der Stuhlgang",
+      "audio": {
+        "text": "der Stuhlgang",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Motion (stool)",
+        "Sugar",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Motion (stool)",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q003",
+      "type": "translate_to_german",
+      "label": "Translate into German",
+      "card_id": "ch07-c02",
+      "image": "w-sugar.jpg",
+      "question_en": "How do you say \"Sugar\" in German?",
+      "options": [
+        "der Blutzucker",
+        "der Stuhlgang",
+        "die Pflegekraft",
+        "der Blutdruck"
+      ],
+      "answer": "der Blutzucker",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q004",
+      "type": "translate_to_english",
+      "label": "Translate into English",
+      "card_id": "ch07-c02",
+      "image": "w-sugar.jpg",
+      "question_en": "What does \"der Blutzucker\" mean?",
+      "german": "der Blutzucker",
+      "audio": {
+        "text": "der Blutzucker",
+        "voice": "learner_nurse_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Sugar",
+        "Motion (stool)",
+        "Nurse",
+        "BP"
+      ],
+      "answer": "Sugar",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q005",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch07-c04",
+      "image": "p-05-01.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Ich habe Schmerzen.",
+      "prompt_en": "I'm in pain.",
+      "audio": {
+        "text": "Ich habe Schmerzen.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Wo haben Sie Schmerzen?",
+        "Guten Appetit!",
+        "Schön, danke."
+      ],
+      "answer": "Wo haben Sie Schmerzen?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q006",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch07-c05",
+      "image": "p-05-02.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich habe Durst.",
+      "prompt_en": "I'm thirsty.",
+      "audio": {
+        "text": "Ich habe Durst.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Wasser",
+        "das Brot",
+        "die Tablette",
+        "das Bett"
+      ],
+      "answer": "das Wasser",
+      "feedback_de": "Hier ist Ihr Wasser.",
+      "feedback_en": "Here is your water.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q007",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch07-c06",
+      "image": "p-05-03.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ich habe Fieber, glaube ich.",
+      "prompt_en": "I have a fever, I think.",
+      "audio": {
+        "text": "Ich habe Fieber, glaube ich.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Thermometer",
+        "das Pflaster",
+        "die Seife",
+        "die Zeitung"
+      ],
+      "answer": "das Thermometer",
+      "feedback_de": "Ich messe die Temperatur.",
+      "feedback_en": "I'll take your temperature.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q008",
+      "type": "picture_choice",
+      "label": "What does this person need?",
+      "card_id": "ch07-c07",
+      "image": "p-05-07.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Ich habe Hunger.",
+      "prompt_en": "I'm hungry.",
+      "audio": {
+        "text": "Ich habe Hunger.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "das Brot",
+        "das Wasser",
+        "die Tablette",
+        "das Bett"
+      ],
+      "answer": "das Brot",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q009",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch07-c08",
+      "image": "p-05-10.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Ich habe Husten.",
+      "prompt_en": "I have a cough.",
+      "audio": {
+        "text": "Ich habe Husten.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Okay. Ich hole den Arzt.",
+        "Schön!",
+        "Keine Ahnung."
+      ],
+      "answer": "Okay. Ich hole den Arzt.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q010",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch07-c09",
+      "image": "p-05-11.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Mein Herz schlägt so schnell.",
+      "prompt_en": "My heart is beating so fast.",
+      "audio": {
+        "text": "Mein Herz schlägt so schnell.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Setzen Sie sich bitte. Ich messe den Puls.",
+        "Super, dann gehen Sie joggen.",
+        "Das ist die Lunge."
+      ],
+      "answer": "Setzen Sie sich bitte. Ich messe den Puls.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q011",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch07-c10",
+      "image": "p-05-12.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Mein Magen tut weh.",
+      "prompt_en": "My stomach hurts.",
+      "audio": {
+        "text": "Mein Magen tut weh.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Seit wann? Seit heute?",
+        "Guten Appetit!",
+        "Das ist die Niere."
+      ],
+      "answer": "Seit wann? Seit heute?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q012",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch07-c12",
+      "image": "p-05-04.jpg",
+      "speaker": "weber",
+      "speaker_name": "Frau Weber",
+      "prompt_de": "Mir ist schwindelig.",
+      "prompt_en": "I feel dizzy.",
+      "audio": {
+        "text": "Mir ist schwindelig.",
+        "voice": "patient_old_female",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+        "Stehen Sie bitte schnell auf.",
+        "Gehen Sie bitte spazieren."
+      ],
+      "answer": "Bleiben Sie bitte im Bett. Ich hole den Arzt.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q013",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch07-c13",
+      "image": "p-05-05.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Es tut sehr weh.",
+      "prompt_en": "It hurts a lot.",
+      "audio": {
+        "text": "Es tut sehr weh.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Wie stark? Von 1 bis 10?",
+        "Wie alt sind Sie?",
+        "Wie heißen Sie?"
+      ],
+      "answer": "Wie stark? Von 1 bis 10?",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q014",
+      "type": "listen_and_note",
+      "label": "What do you write down?",
+      "card_id": "ch07-c14",
+      "image": "p-05-06.jpg",
+      "speaker": "schmidt",
+      "speaker_name": "Herr Schmidt",
+      "prompt_de": "Acht.",
+      "prompt_en": "His pain score, 1 to 10:",
+      "audio": {
+        "text": "Acht.",
+        "voice": "patient_old_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "8",
+        "18",
+        "3",
+        "10"
+      ],
+      "answer": "8",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q015",
+      "type": "choose_reply",
+      "label": "What do you answer?",
+      "card_id": "ch07-c15",
+      "image": "p-05-08.jpg",
+      "speaker": "yilmaz",
+      "speaker_name": "Herr Yılmaz",
+      "prompt_de": "Ich bin so müde.",
+      "prompt_en": "I'm so tired.",
+      "audio": {
+        "text": "Ich bin so müde.",
+        "voice": "patient_male",
+        "lang": "de-DE"
+      },
+      "options": [
+        "Dann schlafen Sie bitte ein bisschen.",
+        "Dann stehen Sie bitte auf.",
+        "Dann trinken Sie bitte Kaffee."
+      ],
+      "answer": "Dann schlafen Sie bitte ein bisschen.",
+      "time_limit_seconds": null
+    },
+    {
+      "id": "ch07-q016",
+      "type": "situation_choice",
+      "label": "What do you say?",
+      "card_id": "ch07-c17",
+      "image": "p-05-09.jpg",
+      "question_en": "Tell Lena: Frau Weber has a headache.",
+      "options": [
+        "Frau Weber hat Kopfschmerzen.",
+        "Frau Weber hat Hunger.",
+        "Frau Weber ist Kopfschmerzen."
+      ],
+      "answer": "Frau Weber hat Kopfschmerzen.",
+      "time_limit_seconds": null
+    }
+  ],
+  "images": [
+    "p-05-01.jpg",
+    "p-05-02.jpg",
+    "p-05-03.jpg",
+    "p-05-04.jpg",
+    "p-05-05.jpg",
+    "p-05-06.jpg",
+    "p-05-07.jpg",
+    "p-05-08.jpg",
+    "p-05-09.jpg",
+    "p-05-10.jpg",
+    "p-05-11.jpg",
+    "p-05-12.jpg",
+    "w-motion-stool.jpg",
+    "w-sugar.jpg"
+  ]
+}
